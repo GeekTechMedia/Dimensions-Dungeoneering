@@ -1,0 +1,14 @@
+{
+	"powers":
+    [
+     "dimensionsdungeoneering:paladin_preference",
+		 "dimensionsdungeoneering:paladin_artifact",
+     "dimensionsdungeoneering:paladin_undead",
+     "dimensionsdungeoneering:paladin_projectmmo"
+	],
+	"icon": "artifacts:cross_necklace",
+	"order": 5,
+	"impact": 1,
+	"name": "Paladin",
+	"description": "Paladins are holy knights who excel at dealing with the undead."
+}

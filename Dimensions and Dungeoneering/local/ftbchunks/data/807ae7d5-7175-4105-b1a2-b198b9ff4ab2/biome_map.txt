@@ -1,0 +1,9 @@
+#556 minecraft:beach
+#4B3 byg:cika_woods
+#762 darkerdepths:molten_cavern
+#4F1 minecraft:ocean
+#228 byg:rocky_beach
+#755 byg:seasonal_taiga
+#47B byg:the_black_forest
+#657 projectvibrantjourneys:windswept_cliffs
+#16D projectvibrantjourneys:windswept_shore

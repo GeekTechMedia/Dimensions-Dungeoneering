@@ -1,0 +1,15 @@
+#694 byg:ancient_forest
+#35F cavebiomeapi:caves
+#72F byg:cherry_blossom_forest
+#3D6 minecraft:cold_ocean
+#5C0 corundum_meadows:corundum_meadows
+#4F9 minecraft:dark_forest
+#1F3 cavesandcliffs:dripstone_caves
+#010 minecraft:forest
+#379 minecraft:mountains
+#3DC minecraft:plains
+#5FF minecraft:river
+#406 minecraft:stone_shore
+#4D3 minecraft:swamp
+#6BC byg:tropical_rainforest
+#452 minecraft:wooded_hills

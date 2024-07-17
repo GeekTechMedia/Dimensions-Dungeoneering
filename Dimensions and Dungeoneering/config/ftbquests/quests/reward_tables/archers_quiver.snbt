@@ -1,0 +1,88 @@
+{
+	id: "791DC63FF85320E4"
+	order_index: 18
+	title: "Archer's Quiver"
+	icon: {
+		id: "spartanweaponry:quiver_arrow_small"
+		Count: 1b
+		tag: {
+			ClientInventory: [ ]
+		}
+		ForgeCaps: {
+			Parent: {
+				Size: 4
+				Items: [ ]
+			}
+			"dungeons_libraries:built_in_enchantments": {
+				BuiltInEnchantments: [ ]
+			}
+		}
+	}
+	loot_size: 2
+	rewards: [
+		{ item: "minecraft:spectral_arrow" }
+		{ item: "minecraft:spectral_arrow", count: 2 }
+		{ item: "minecraft:spectral_arrow", count: 3 }
+		{ item: "minecraft:spectral_arrow", count: 4 }
+		{ item: "minecraft:spectral_arrow", count: 5 }
+		{ item: "minecraft:spectral_arrow", count: 6 }
+		{ item: "minecraft:spectral_arrow", count: 7 }
+		{ item: "minecraft:spectral_arrow", count: 8 }
+		{ item: "archers_paradox:blaze_arrow" }
+		{ item: "archers_paradox:blaze_arrow", count: 2 }
+		{ item: "archers_paradox:blaze_arrow", count: 3 }
+		{ item: "archers_paradox:blaze_arrow", count: 4 }
+		{ item: "archers_paradox:blaze_arrow", count: 5 }
+		{ item: "archers_paradox:blaze_arrow", count: 6 }
+		{ item: "archers_paradox:blaze_arrow", count: 7 }
+		{ item: "archers_paradox:blaze_arrow", count: 8 }
+		{ item: "archers_paradox:explosive_arrow" }
+		{ item: "archers_paradox:explosive_arrow", count: 2 }
+		{ item: "archers_paradox:explosive_arrow", count: 3 }
+		{ item: "archers_paradox:explosive_arrow", count: 4 }
+		{ item: "archers_paradox:explosive_arrow", count: 5 }
+		{ item: "archers_paradox:explosive_arrow", count: 6 }
+		{ item: "archers_paradox:explosive_arrow", count: 7 }
+		{ item: "archers_paradox:explosive_arrow", count: 8 }
+		{ item: "archers_paradox:frost_arrow" }
+		{ item: "archers_paradox:frost_arrow", count: 2 }
+		{ item: "archers_paradox:frost_arrow", count: 3 }
+		{ item: "archers_paradox:frost_arrow", count: 4 }
+		{ item: "archers_paradox:frost_arrow", count: 5 }
+		{ item: "archers_paradox:frost_arrow", count: 6 }
+		{ item: "archers_paradox:frost_arrow", count: 7 }
+		{ item: "archers_paradox:frost_arrow", count: 8 }
+		{ item: "archers_paradox:phantasmal_arrow" }
+		{ item: "archers_paradox:phantasmal_arrow", count: 2 }
+		{ item: "archers_paradox:phantasmal_arrow", count: 3 }
+		{ item: "archers_paradox:phantasmal_arrow", count: 4 }
+		{ item: "archers_paradox:phantasmal_arrow", count: 5 }
+		{ item: "archers_paradox:phantasmal_arrow", count: 6 }
+		{ item: "archers_paradox:phantasmal_arrow", count: 7 }
+		{ item: "archers_paradox:phantasmal_arrow", count: 8 }
+		{ item: "archers_paradox:prismarine_arrow" }
+		{ item: "archers_paradox:prismarine_arrow", count: 2 }
+		{ item: "archers_paradox:prismarine_arrow", count: 3 }
+		{ item: "archers_paradox:prismarine_arrow", count: 4 }
+		{ item: "archers_paradox:prismarine_arrow", count: 5 }
+		{ item: "archers_paradox:prismarine_arrow", count: 6 }
+		{ item: "archers_paradox:prismarine_arrow", count: 7 }
+		{ item: "archers_paradox:prismarine_arrow", count: 8 }
+		{ item: "archers_paradox:quartz_arrow" }
+		{ item: "archers_paradox:quartz_arrow", count: 2 }
+		{ item: "archers_paradox:quartz_arrow", count: 3 }
+		{ item: "archers_paradox:quartz_arrow", count: 4 }
+		{ item: "archers_paradox:quartz_arrow", count: 5 }
+		{ item: "archers_paradox:quartz_arrow", count: 6 }
+		{ item: "archers_paradox:quartz_arrow", count: 7 }
+		{ item: "archers_paradox:quartz_arrow", count: 8 }
+		{ item: "archers_paradox:slime_arrow" }
+		{ item: "archers_paradox:slime_arrow", count: 2 }
+		{ item: "archers_paradox:slime_arrow", count: 3 }
+		{ item: "archers_paradox:slime_arrow", count: 4 }
+		{ item: "archers_paradox:slime_arrow", count: 5 }
+		{ item: "archers_paradox:slime_arrow", count: 6 }
+		{ item: "archers_paradox:slime_arrow", count: 7 }
+		{ item: "archers_paradox:slime_arrow", count: 8 }
+	]
+}

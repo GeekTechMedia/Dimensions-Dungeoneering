@@ -1,0 +1,909 @@
+# World related configurations
+world:
+  # Creates crate with player's items on death
+  createCrateOnPlayerDeath: false
+
+  # Frequency in days specifying how often bloodmoon happens
+  # Value -1 means no bloodmoons
+  bloodmoonCycle: 7
+
+  # Frequency in days specifying how ofter airdrops happen
+  # Value -1 means no airdrops
+  airdropFrequency: 3
+
+  # Delay in ticks before crystal station can be used again
+  crystalStationUseCooldown: 12000
+
+  # Allows you to restrict sleeping
+  # ALWAYS - Players can never sleep
+  # BLOODMOON - Players cannot sleep during bloodmoons
+  # NEVER - Vanilla behaviour, no restrictions
+  sleepRestriction: ALWAYS
+
+  # Chance per chunk for loot stash generation
+  lootStashChance: 0.005
+
+  # Defines how often will be new stash detection updates sent to players
+  # This may affect server performance when set to small number
+  lootStashUpdateInterval: 100
+
+  # Chance that multiple airdrops spawn
+  anotherAirdropSpawnChance: 0.005
+
+  # Mob related configurations
+  mobConfig:
+    # Disables mob spawning from spawners
+    disableMobSpawners: true
+
+    # Defines at which range will mobs aggro on you during bloodmoon
+    bloodMoonMobAgroRange: 40
+
+    # Defines at which range will mobs aggro on you after shooting
+    shootingMobAggroRange: 28.0
+
+    # Configs for mob health buffs
+    mobHealthBuffs:
+      # Chance that mobs will spawn with 2x more HP
+      health2xChance: 0.5
+
+      # Chance that mobs will spawn with 3x more HP
+      health3xChance: 0.2
+
+      # Chance that mobs will spawn with 4x more HP
+      health4xChance: 0.04
+
+      # List of entities which won't be affected by health buffs
+      healthBuffBlacklist:
+        - minecraft:ender_dragon
+        - minecraft:wither
+        - minecraft:iron_golem
+        - gunsrpg:rocket_angel
+        - gunsrpg:bloodmoon_golem
+        - gunsrpg:gold_dragon
+        - gunsrpg:zombie_nightmare
+
+    # Zombie gunner spawn configuration
+    zombieGunnerSpawn:
+      # Overworld spawn chance
+      overworld: 25
+
+      # Nether spawn chance
+      nether: 25
+
+      # End spawn chance
+      end: 1
+
+    # Grenadier spawn configuration
+    grenadierSpawn:
+      # Overworld spawn chance
+      overworld: 16
+
+      # Nether spawn chance
+      nether: 20
+
+      # End spawn chance
+      end: 1
+
+    # Zombie knight spawn configuration
+    zombieKnightSpawn:
+      # Overworld spawn chance
+      overworld: 5
+
+      # Nether spawn chance
+      nether: 12
+
+      # End spawn chance
+      end: 1
+
+    # Rocket angel spawn configuration
+    # Note: Overworld spawn is active only during bloodmoon
+    rocketAngelSpawn:
+      # Overworld spawn chance
+      overworld: 2
+
+      # Nether spawn chance
+      nether: 2
+
+      # End spawn chance
+      end: 0
+
+    # Zombie nightmare spawn configuration
+    zombieNightmareSpawn:
+      # Overworld spawn chance
+      overworld: 3
+
+      # Nether spawn chance
+      nether: 0
+
+      # End spawn chance
+      end: 0
+
+  # World generation related configs for ores etc
+  generationConfig:
+    # Configure amethyst generation
+    amethyst:
+      # Generation attempts per chunk
+      spawns: 3
+
+      # Minimum generation height
+      minHeight: 1
+
+      # Maximum generation height
+      maxHeight: 16
+
+    # Configure black crystal generation
+    blackCrystal:
+      # Generation attempts per chunk
+      spawns: 3
+
+      # Minimum generation height
+      minHeight: 1
+
+      # Maximum generation height
+      maxHeight: 56
+
+    # Configure blue crystal generation
+    blueCrystal:
+      # Generation attempts per chunk
+      spawns: 3
+
+      # Minimum generation height
+      minHeight: 1
+
+      # Maximum generation height
+      maxHeight: 56
+
+    # Configure green crystal generation
+    greenCrystal:
+      # Generation attempts per chunk
+      spawns: 3
+
+      # Minimum generation height
+      minHeight: 1
+
+      # Maximum generation height
+      maxHeight: 56
+
+    # Configure red crystal generation
+    redCrystal:
+      # Generation attempts per chunk
+      spawns: 3
+
+      # Minimum generation height
+      minHeight: 1
+
+      # Maximum generation height
+      maxHeight: 56
+
+    # Configure white crystal generation
+    whiteCrystal:
+      # Generation attempts per chunk
+      spawns: 3
+
+      # Minimum generation height
+      minHeight: 1
+
+      # Maximum generation height
+      maxHeight: 56
+
+    # Configure yellow crystal generation
+    yellowCrystal:
+      # Generation attempts per chunk
+      spawns: 3
+
+      # Minimum generation height
+      minHeight: 1
+
+      # Maximum generation height
+      maxHeight: 56
+
+    # Configure black orb generation
+    blackOrb:
+      # Generation attempts per chunk
+      spawns: 4
+
+      # Minimum generation height
+      minHeight: 1
+
+      # Maximum generation height
+      maxHeight: 56
+
+    # Configure blue orb generation
+    blueOrb:
+      # Generation attempts per chunk
+      spawns: 4
+
+      # Minimum generation height
+      minHeight: 1
+
+      # Maximum generation height
+      maxHeight: 56
+
+    # Configure green orb generation
+    greenOrb:
+      # Generation attempts per chunk
+      spawns: 4
+
+      # Minimum generation height
+      minHeight: 1
+
+      # Maximum generation height
+      maxHeight: 56
+
+    # Configure red orb generation
+    redOrb:
+      # Generation attempts per chunk
+      spawns: 4
+
+      # Minimum generation height
+      minHeight: 1
+
+      # Maximum generation height
+      maxHeight: 56
+
+    # Configure white orb generation
+    whiteOrb:
+      # Generation attempts per chunk
+      spawns: 4
+
+      # Minimum generation height
+      minHeight: 1
+
+      # Maximum generation height
+      maxHeight: 56
+
+    # Configure yellow orb generation
+    yellowOrb:
+      # Generation attempts per chunk
+      spawns: 4
+
+      # Minimum generation height
+      minHeight: 1
+
+      # Maximum generation height
+      maxHeight: 56
+
+    # Configure spawns for mayor house in villages
+    mayorHouseGen:
+      # Configure spawn weight for Desert villages
+      desert: 45
+
+      # Configure spawn weight for Savanna villages
+      savanna: 100
+
+      # Configure spawn weight for Snowy villages
+      snowy: 100
+
+      # Configure spawn weight for Plains villages
+      plains: 100
+
+      # Configure spawn weight for Taiga villages
+      taiga: 100
+
+# Debuff related configurations
+debuffs:
+  # How much of debuff progression is added when catching already existing type again
+  additionalDebuffIncrement: 10
+
+  # Disables poison debuff
+  disablePoison: false
+
+  # Disables infection debuff
+  disableInfection: false
+
+  # Disables fracture debuff
+  disableFractures: false
+
+  # Disables bleeding debuff
+  disableBleeding: false
+
+  # Disables reduced health debuff after respawn
+  disableRespawnDebuff: false
+
+# Skill related configurations
+skills:
+  # Specify minimum nutrition value for Well Fed skill to be triggered
+  wellFedTriggerValue: 14
+
+  # Skills which can be access via quick-activation, max 5 supported
+  boundSkills:
+    - gunsrpg:like_a_cat_i
+    - gunsrpg:iron_buddy_i
+    - gunsrpg:god_help_us
+
+  # Mobs listed here cannot be insta-killed
+  skullCrusherIgnoredMobs:
+    - gunsrpg:bloodmoon_golem
+    - gunsrpg:zombie_nightmare
+
+  # Kills by traps will be awarded to their owners
+  # BEWARE: This may fail some of your quests
+  countTrapKills: true
+
+# Weapon related configurations
+weapon:
+  # Allows you to disable weapon durability loss while shooting
+  disableWeaponDurability: false
+
+  # Global weapon recoil multiplier
+  globalWeaponRecoilMultiplier: 1.0
+
+  # Weapon recoil multiplier when crouching
+  crouchWeaponRecoilMultiplier: 0.85
+
+  # M1911 Weapon configuration
+  m1911:
+    # Tick amount for how long projectile is not affected by gravity
+    gravityDelay: 3
+
+    # Projectile velocity in m/s
+    velocity: 280
+
+    # Projectile damage
+    damage: 4.0
+
+    # Visual recoil multiplier
+    recoilAnimationScale: 1.0
+
+    # Weapon jamming settings
+    jamConfig:
+      # Smallest possible weapon jam chance
+      minChance: 0.008
+
+      # Largest possible weapon jam chance
+      maxChance: 0.11
+
+      # Transformer function for actual jam chance calculations
+      # See https://easings.net for examples
+      jamChanceTransformerFunction: EASE_IN_CUBIC
+
+  # R45 weapon configuration
+  r45:
+    # Tick amount for how long projectile is not affected by gravity
+    gravityDelay: 4
+
+    # Projectile velocity in m/s
+    velocity: 320
+
+    # Projectile damage
+    damage: 7.0
+
+    # Visual recoil multiplier
+    recoilAnimationScale: 1.0
+
+    # Weapon jamming settings
+    jamConfig:
+      # Smallest possible weapon jam chance
+      minChance: 0.01
+
+      # Largest possible weapon jam chance
+      maxChance: 0.14
+
+      # Transformer function for actual jam chance calculations
+      # See https://easings.net for examples
+      jamChanceTransformerFunction: EASE_IN_CUBIC
+
+  # Desert Eagle weapon configuration
+  desertEagle:
+    # Tick amount for how long projectile is not affected by gravity
+    gravityDelay: 5
+
+    # Projectile velocity in m/s
+    velocity: 330
+
+    # Projectile damage
+    damage: 8.0
+
+    # Visual recoil multiplier
+    recoilAnimationScale: 1.0
+
+    # Weapon jamming settings
+    jamConfig:
+      # Smallest possible weapon jam chance
+      minChance: 0.009
+
+      # Largest possible weapon jam chance
+      maxChance: 0.12
+
+      # Transformer function for actual jam chance calculations
+      # See https://easings.net for examples
+      jamChanceTransformerFunction: EASE_IN_CUBIC
+
+  # UMP weapon configuration
+  ump:
+    # Tick amount for how long projectile is not affected by gravity
+    gravityDelay: 5
+
+    # Projectile velocity in m/s
+    velocity: 320
+
+    # Projectile damage
+    damage: 3.0
+
+    # Visual recoil multiplier
+    recoilAnimationScale: 1.0
+
+    # Weapon jamming settings
+    jamConfig:
+      # Smallest possible weapon jam chance
+      minChance: 0.006
+
+      # Largest possible weapon jam chance
+      maxChance: 0.08
+
+      # Transformer function for actual jam chance calculations
+      # See https://easings.net for examples
+      jamChanceTransformerFunction: EASE_IN_CUBIC
+
+  # Thompson weapon configuration
+  thompson:
+    # Tick amount for how long projectile is not affected by gravity
+    gravityDelay: 5
+
+    # Projectile velocity in m/s
+    velocity: 320
+
+    # Projectile damage
+    damage: 5.0
+
+    # Visual recoil multiplier
+    recoilAnimationScale: 1.0
+
+    # Weapon jamming settings
+    jamConfig:
+      # Smallest possible weapon jam chance
+      minChance: 0.007
+
+      # Largest possible weapon jam chance
+      maxChance: 0.08
+
+      # Transformer function for actual jam chance calculations
+      # See https://easings.net for examples
+      jamChanceTransformerFunction: EASE_IN_CUBIC
+
+  # Vector weapon configuration
+  vector:
+    # Tick amount for how long projectile is not affected by gravity
+    gravityDelay: 3
+
+    # Projectile velocity in m/s
+    velocity: 280
+
+    # Projectile damage
+    damage: 3.0
+
+    # Visual recoil multiplier
+    recoilAnimationScale: 1.0
+
+    # Weapon jamming settings
+    jamConfig:
+      # Smallest possible weapon jam chance
+      minChance: 0.004
+
+      # Largest possible weapon jam chance
+      maxChance: 0.03
+
+      # Transformer function for actual jam chance calculations
+      # See https://easings.net for examples
+      jamChanceTransformerFunction: EASE_IN_CUBIC
+
+  # Crossbow weapon configuration
+  crossbow:
+    # Tick amount for how long projectile is not affected by gravity
+    gravityDelay: 8
+
+    # Projectile velocity in m/s
+    velocity: 32
+
+    # Projectile damage
+    damage: 10.0
+
+    # Visual recoil multiplier
+    recoilAnimationScale: 1.0
+
+    # Weapon jamming settings
+    jamConfig:
+      # Smallest possible weapon jam chance
+      minChance: 0.02
+
+      # Largest possible weapon jam chance
+      maxChance: 0.17
+
+      # Transformer function for actual jam chance calculations
+      # See https://easings.net for examples
+      jamChanceTransformerFunction: EASE_IN_CUBIC
+
+  # Chukonu weapon configuration
+  chukonu:
+    # Tick amount for how long projectile is not affected by gravity
+    gravityDelay: 5
+
+    # Projectile velocity in m/s
+    velocity: 32
+
+    # Projectile damage
+    damage: 6.0
+
+    # Visual recoil multiplier
+    recoilAnimationScale: 1.0
+
+    # Weapon jamming settings
+    jamConfig:
+      # Smallest possible weapon jam chance
+      minChance: 0.008
+
+      # Largest possible weapon jam chance
+      maxChance: 0.01
+
+      # Transformer function for actual jam chance calculations
+      # See https://easings.net for examples
+      jamChanceTransformerFunction: EASE_IN_CUBIC
+
+  # S1897 weapon configuration
+  s1897:
+    # Tick amount for how long projectile is not affected by gravity
+    gravityDelay: 1
+
+    # Projectile velocity in m/s
+    velocity: 220
+
+    # Projectile damage
+    damage: 2.0
+
+    # Visual recoil multiplier
+    recoilAnimationScale: 1.0
+
+    # Weapon jamming settings
+    jamConfig:
+      # Smallest possible weapon jam chance
+      minChance: 0.013
+
+      # Largest possible weapon jam chance
+      maxChance: 0.15
+
+      # Transformer function for actual jam chance calculations
+      # See https://easings.net for examples
+      jamChanceTransformerFunction: EASE_IN_CUBIC
+
+  # S686 weapon configuration
+  s686:
+    # Tick amount for how long projectile is not affected by gravity
+    gravityDelay: 1
+
+    # Projectile velocity in m/s
+    velocity: 220
+
+    # Projectile damage
+    damage: 2.0
+
+    # Visual recoil multiplier
+    recoilAnimationScale: 1.0
+
+    # Weapon jamming settings
+    jamConfig:
+      # Smallest possible weapon jam chance
+      minChance: 0.017
+
+      # Largest possible weapon jam chance
+      maxChance: 0.14
+
+      # Transformer function for actual jam chance calculations
+      # See https://easings.net for examples
+      jamChanceTransformerFunction: EASE_IN_CUBIC
+
+  # S12k weapon configuration
+  s12k:
+    # Tick amount for how long projectile is not affected by gravity
+    gravityDelay: 1
+
+    # Projectile velocity in m/s
+    velocity: 220
+
+    # Projectile damage
+    damage: 2.0
+
+    # Visual recoil multiplier
+    recoilAnimationScale: 1.0
+
+    # Weapon jamming settings
+    jamConfig:
+      # Smallest possible weapon jam chance
+      minChance: 0.014
+
+      # Largest possible weapon jam chance
+      maxChance: 0.12
+
+      # Transformer function for actual jam chance calculations
+      # See https://easings.net for examples
+      jamChanceTransformerFunction: EASE_IN_CUBIC
+
+  # AKM weapon configuration
+  akm:
+    # Tick amount for how long projectile is not affected by gravity
+    gravityDelay: 4
+
+    # Projectile velocity in m/s
+    velocity: 330
+
+    # Projectile damage
+    damage: 6.0
+
+    # Visual recoil multiplier
+    recoilAnimationScale: 1.0
+
+    # Weapon jamming settings
+    jamConfig:
+      # Smallest possible weapon jam chance
+      minChance: 0.004
+
+      # Largest possible weapon jam chance
+      maxChance: 0.06
+
+      # Transformer function for actual jam chance calculations
+      # See https://easings.net for examples
+      jamChanceTransformerFunction: EASE_IN_CUBIC
+
+  # HK-416 weapon configuration
+  hk416:
+    # Tick amount for how long projectile is not affected by gravity
+    gravityDelay: 6
+
+    # Projectile velocity in m/s
+    velocity: 380
+
+    # Projectile damage
+    damage: 5.0
+
+    # Visual recoil multiplier
+    recoilAnimationScale: 1.0
+
+    # Weapon jamming settings
+    jamConfig:
+      # Smallest possible weapon jam chance
+      minChance: 0.006
+
+      # Largest possible weapon jam chance
+      maxChance: 0.07
+
+      # Transformer function for actual jam chance calculations
+      # See https://easings.net for examples
+      jamChanceTransformerFunction: EASE_IN_CUBIC
+
+  # AUG weapon configuration
+  aug:
+    # Tick amount for how long projectile is not affected by gravity
+    gravityDelay: 6
+
+    # Projectile velocity in m/s
+    velocity: 380
+
+    # Projectile damage
+    damage: 5.0
+
+    # Visual recoil multiplier
+    recoilAnimationScale: 1.0
+
+    # Weapon jamming settings
+    jamConfig:
+      # Smallest possible weapon jam chance
+      minChance: 0.005
+
+      # Largest possible weapon jam chance
+      maxChance: 0.06
+
+      # Transformer function for actual jam chance calculations
+      # See https://easings.net for examples
+      jamChanceTransformerFunction: EASE_IN_CUBIC
+
+  # SKS weapon configuration
+  sks:
+    # Tick amount for how long projectile is not affected by gravity
+    gravityDelay: 6
+
+    # Projectile velocity in m/s
+    velocity: 380
+
+    # Projectile damage
+    damage: 7.0
+
+    # Visual recoil multiplier
+    recoilAnimationScale: 1.0
+
+    # Weapon jamming settings
+    jamConfig:
+      # Smallest possible weapon jam chance
+      minChance: 0.01
+
+      # Largest possible weapon jam chance
+      maxChance: 0.14
+
+      # Transformer function for actual jam chance calculations
+      # See https://easings.net for examples
+      jamChanceTransformerFunction: EASE_IN_CUBIC
+
+  # VSS weapon configuration
+  vss:
+    # Tick amount for how long projectile is not affected by gravity
+    gravityDelay: 2
+
+    # Projectile velocity in m/s
+    velocity: 140
+
+    # Projectile damage
+    damage: 6.0
+
+    # Visual recoil multiplier
+    recoilAnimationScale: 1.0
+
+    # Weapon jamming settings
+    jamConfig:
+      # Smallest possible weapon jam chance
+      minChance: 0.008
+
+      # Largest possible weapon jam chance
+      maxChance: 0.08
+
+      # Transformer function for actual jam chance calculations
+      # See https://easings.net for examples
+      jamChanceTransformerFunction: EASE_IN_CUBIC
+
+  # Mk-14 EBR weapon configuration
+  mk14:
+    # Tick amount for how long projectile is not affected by gravity
+    gravityDelay: 7
+
+    # Projectile velocity in m/s
+    velocity: 440
+
+    # Projectile damage
+    damage: 9.0
+
+    # Visual recoil multiplier
+    recoilAnimationScale: 1.0
+
+    # Weapon jamming settings
+    jamConfig:
+      # Smallest possible weapon jam chance
+      minChance: 0.008
+
+      # Largest possible weapon jam chance
+      maxChance: 0.09
+
+      # Transformer function for actual jam chance calculations
+      # See https://easings.net for examples
+      jamChanceTransformerFunction: EASE_IN_CUBIC
+
+  # Kar98k weapon configuration
+  kar98k:
+    # Tick amount for how long projectile is not affected by gravity
+    gravityDelay: 7
+
+    # Projectile velocity in m/s
+    velocity: 440
+
+    # Projectile damage
+    damage: 14.0
+
+    # Visual recoil multiplier
+    recoilAnimationScale: 1.0
+
+    # Weapon jamming settings
+    jamConfig:
+      # Smallest possible weapon jam chance
+      minChance: 0.035
+
+      # Largest possible weapon jam chance
+      maxChance: 0.16
+
+      # Transformer function for actual jam chance calculations
+      # See https://easings.net for examples
+      jamChanceTransformerFunction: EASE_IN_CUBIC
+
+  # Winchester weapon configuration
+  winchester:
+    # Tick amount for how long projectile is not affected by gravity
+    gravityDelay: 5
+
+    # Projectile velocity in m/s
+    velocity: 340
+
+    # Projectile damage
+    damage: 10.0
+
+    # Visual recoil multiplier
+    recoilAnimationScale: 1.0
+
+    # Weapon jamming settings
+    jamConfig:
+      # Smallest possible weapon jam chance
+      minChance: 0.02
+
+      # Largest possible weapon jam chance
+      maxChance: 0.15
+
+      # Transformer function for actual jam chance calculations
+      # See https://easings.net for examples
+      jamChanceTransformerFunction: EASE_IN_CUBIC
+
+  # AWM weapon configuration
+  awm:
+    # Tick amount for how long projectile is not affected by gravity
+    gravityDelay: 8
+
+    # Projectile velocity in m/s
+    velocity: 480
+
+    # Projectile damage
+    damage: 18.0
+
+    # Visual recoil multiplier
+    recoilAnimationScale: 1.0
+
+    # Weapon jamming settings
+    jamConfig:
+      # Smallest possible weapon jam chance
+      minChance: 0.025
+
+      # Largest possible weapon jam chance
+      maxChance: 0.14
+
+      # Transformer function for actual jam chance calculations
+      # See https://easings.net for examples
+      jamChanceTransformerFunction: EASE_IN_CUBIC
+
+  # Grenade launcher weapon configuration
+  grenadeLauncher:
+    # Projectile velocity
+    velocity: 1.6
+
+    # Weapon jamming settings
+    jamConfig:
+      # Smallest possible weapon jam chance
+      minChance: 0.02
+
+      # Largest possible weapon jam chance
+      maxChance: 0.12
+
+      # Transformer function for actual jam chance calculations
+      # See https://easings.net for examples
+      jamChanceTransformerFunction: EASE_IN_CUBIC
+
+    # Visual recoil multiplier
+    recoilAnimationScale: 1.0
+
+  # Rocket launcher weapon configuration
+  rocketLauncher:
+    # Projectile velocity
+    velocity: 2.0
+
+    # Weapon jamming settings
+    jamConfig:
+      # Smallest possible weapon jam chance
+      minChance: 0.02
+
+      # Largest possible weapon jam chance
+      maxChance: 0.13
+
+      # Transformer function for actual jam chance calculations
+      # See https://easings.net for examples
+      jamChanceTransformerFunction: EASE_IN_CUBIC
+
+    # Visual recoil multiplier
+    recoilAnimationScale: 1.0
+
+# Quest related configurations
+quests:
+  # Amount of reputation awarded when quest is completed
+  # Value is multiplied by quest tier
+  reputationAwardPerTier: 0.2
+
+  # Amount of reputation lost when quest is failed
+  # Value is multiplied by quest tier
+  reputationLossPerTier: 0.3
+
+  # Quest refresh interval for mayor [ticks]
+  questRefreshInterval: 72000
+
+  # Will block all possible interaction types inside quest areas
+  disableQuestAreaInteractions: true
+

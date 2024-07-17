@@ -1,0 +1,11 @@
+{
+  "type": "origins:starting_equipment",
+  "stacks": [
+    {
+      "item": "relics:midnight_robe",
+      "amount": "1"
+    }
+  ],
+  "name": "A Rogue's Robe",
+  "description": "Rogues are often found travelling while wearing a dark robe which can make them vanish in darkness."
+}

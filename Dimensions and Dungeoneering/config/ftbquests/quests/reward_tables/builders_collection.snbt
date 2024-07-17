@@ -1,0 +1,41 @@
+{
+	id: "4601C83DCA44AA10"
+	order_index: 21
+	title: "Builder's Collection"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:oak_planks", count: 64 }
+		{ item: "minecraft:spruce_planks", count: 64 }
+		{ item: "minecraft:birch_planks", count: 64 }
+		{ item: "minecraft:jungle_planks", count: 64 }
+		{ item: "minecraft:acacia_planks", count: 64 }
+		{ item: "minecraft:dark_oak_planks", count: 64 }
+		{ item: "minecraft:crimson_planks", count: 64 }
+		{ item: "minecraft:warped_planks", count: 64 }
+		{ item: "minecraft:cobblestone", count: 64 }
+		{ item: "minecraft:dirt", count: 64 }
+		{ item: "minecraft:coarse_dirt", count: 64 }
+		{ item: "minecraft:grass_block", count: 64 }
+		{ item: "minecraft:stone", count: 64 }
+		{ item: "minecraft:stone_bricks", count: 64 }
+		{ item: "minecraft:mossy_stone_bricks", count: 64 }
+		{ item: "minecraft:cracked_stone_bricks", count: 64 }
+		{ item: "minecraft:chiseled_stone_bricks", count: 64 }
+		{ item: "minecraft:sand", count: 64 }
+		{ item: "minecraft:red_sand", count: 64 }
+		{ item: "minecraft:sandstone", count: 64 }
+		{ item: "minecraft:red_sandstone", count: 64 }
+		{ item: "minecraft:granite", count: 64 }
+		{ item: "minecraft:diorite", count: 64 }
+		{ item: "minecraft:andesite", count: 64 }
+		{ item: "minecraft:podzol", count: 64 }
+		{ item: "minecraft:mycelium", count: 64 }
+		{ item: "minecraft:crimson_nylium", count: 64 }
+		{ item: "minecraft:warped_nylium", count: 64 }
+		{ item: "minecraft:netherrack", count: 64 }
+		{ item: "minecraft:gravel", count: 64 }
+		{ item: "minecraft:white_wool", count: 64 }
+		{ item: "minecraft:smooth_stone", count: 64 }
+		{ item: "minecraft:bricks", count: 64 }
+	]
+}

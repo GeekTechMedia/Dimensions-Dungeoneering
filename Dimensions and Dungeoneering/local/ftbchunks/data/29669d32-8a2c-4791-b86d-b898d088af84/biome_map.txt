@@ -1,0 +1,14 @@
+#556 minecraft:beach
+#79B projectvibrantjourneys:blossoming_fields
+#461 byg:blue_taiga
+#35F cavebiomeapi:caves
+#64F byg:dover_mountains
+#79A minecraft:lukewarm_ocean
+#1C1 cavesandcliffs:lush_caves
+#4F1 minecraft:ocean
+#4D3 minecraft:swamp
+#169 minecraft:taiga
+#63C minecraft:taiga_hills
+#47B byg:the_black_forest
+#4DD byg:white_beach
+#11C byg:zelkova_forest

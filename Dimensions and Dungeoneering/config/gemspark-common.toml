@@ -1,0 +1,71 @@
+
+#Registration settings
+[registration]
+	#Register colored lamps
+	registerColoredLamps = true
+
+#Worldgen
+[world_generation]
+	#Should the mod register it's worldgen in the first place
+	generateOres = true
+
+	#Pink Sapphire ore (Generates in the Nether)
+	[world_generation.pink_sapphire]
+		#Range: 1 ~ 127
+		pinkSapphireMaxHeight = 123
+		generatePinkSapphireOre = true
+		#Range: 1 ~ 30
+		pinkSapphireVeinsPerChunk = 5
+		#Range: 1 ~ 30
+		pinkSapphireVeinSize = 7
+		#Range: 1 ~ 126
+		pinkSapphireMinHeight = 5
+
+	#Topaz ore
+	[world_generation.topaz]
+		#Range: 1 ~ 254
+		topazMinHeight = 1
+		#Range: 1 ~ 30
+		topazVeinSize = 13
+		#Range: 1 ~ 255
+		topazMaxHeight = 25
+		generateTopazOre = true
+		#Range: 1 ~ 30
+		topazVeinsPerChunk = 1
+
+	#Tanzanite ore
+	[world_generation.tanzanite]
+		#Range: 1 ~ 255
+		tanzaniteMaxHeight = 28
+		#Range: 1 ~ 30
+		tanzaniteVeinSize = 15
+		#Range: 1 ~ 30
+		tanzaniteVeinsPerChunk = 1
+		#Range: 1 ~ 254
+		tanzaniteMinHeight = 1
+		generateTanzaniteOre = true
+
+	#Sapphire ore
+	[world_generation.sapphire]
+		#Range: 1 ~ 30
+		sapphireVeinSize = 11
+		#Range: 1 ~ 254
+		sapphireMinHeight = 1
+		generateSapphireOre = true
+		#Range: 1 ~ 255
+		sapphireMaxHeight = 22
+		#Range: 1 ~ 30
+		sapphireVeinsPerChunk = 1
+
+	#Ruby ore
+	[world_generation.ruby]
+		generateRubyOre = true
+		#Range: 1 ~ 30
+		rubyVeinsPerChunk = 1
+		#Range: 1 ~ 254
+		rubyMinHeight = 1
+		#Range: 1 ~ 30
+		rubyVeinSize = 8
+		#Range: 1 ~ 255
+		rubyMaxHeight = 16
+

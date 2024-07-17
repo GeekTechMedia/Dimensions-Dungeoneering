@@ -1,0 +1,13 @@
+{
+  "type": "origins:modify_damage_dealt",
+  "bientity_condition": {
+    "type": "origins:entity_group",
+    "group": "undead"
+  },
+  "modifier": {
+      "operation": "multiply_base",
+      "value": 1.25
+  },
+  "name": "Paladin's Light",
+  "description": "Paladins are holy knights and as such they deal more damage against the undead."
+}

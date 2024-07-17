@@ -1,0 +1,8 @@
+#6C5 byg:aspen_forest
+#35F cavebiomeapi:caves
+#5C0 corundum_meadows:corundum_meadows
+#074 byg:ebony_woods
+#1A3 terraincognita:lush_hills
+#6DC terraincognita:lush_plains
+#472 projectvibrantjourneys:meadows
+#06B byg:woodlands

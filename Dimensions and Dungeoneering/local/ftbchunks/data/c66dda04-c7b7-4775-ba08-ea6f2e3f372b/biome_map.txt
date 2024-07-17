@@ -1,0 +1,10 @@
+#3DF projectvibrantjourneys:autumnal_coniferous_forest
+#79B projectvibrantjourneys:blossoming_fields
+#35F cavebiomeapi:caves
+#010 minecraft:forest
+#1D2 more_jellyfish:kelp_forest
+#3DC minecraft:plains
+#5ED byg:seasonal_birch_forest
+#473 byg:vibrant_swamplands
+#452 minecraft:wooded_hills
+#11C byg:zelkova_forest

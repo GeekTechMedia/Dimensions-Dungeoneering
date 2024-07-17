@@ -1,0 +1,1315 @@
+{
+	id: "2D1F39D59926626A"
+	group: "59C52D0551711357"
+	order_index: 3
+	filename: "good_nights_sleep"
+	title: "Sweet Dreams"
+	icon: "good_nights_sleep:strange_bed"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 8.5d
+			y: -8.5d
+			width: 5.0d
+			height: 5.0d
+			rotation: 0.0d
+			image: "good_nights_sleep:textures/item/misc/luxurious_bed.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -8.5d
+			y: -8.5d
+			width: 5.0d
+			height: 5.0d
+			rotation: 0.0d
+			image: "good_nights_sleep:textures/item/misc/wretched_bed.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "circle"
+			description: ["The Good Night’s Sleep mod adds two new dimensions, the good dream and the nightmare. Each dream land is accessed through sleeping in the strange bed, rather than stepping through a portal. As of now the good dream is more developed than the nightmare."]
+			id: "1D5D1174F11C1DFC"
+			tasks: [{
+				id: "64E5390E1E5CB661"
+				type: "checkmark"
+				title: "Good Night's Sleep"
+			}]
+			rewards: [
+				{
+					id: "40C66F9DAE257796"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "08B15E71FFC6A4EE"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -1.5d
+			description: ["Both of these mushrooms spawn underground rarely, or much more commonly, in The Nether. Both of these can be used to craft a Strange Bed, which will teleport you to one of the dimensions at random."]
+			dependencies: ["1D5D1174F11C1DFC"]
+			id: "08367FD52E5B425F"
+			tasks: [{
+				id: "10C4A164E624539A"
+				type: "item"
+				item: "good_nights_sleep:hope_mushroom"
+			}]
+			rewards: [{
+				id: "2973922B9067DC2C"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: 0.5d
+			y: -1.5d
+			description: ["Both of these mushrooms spawn underground rarely, or much more commonly, in The Nether. Both of these can be used to craft a Strange Bed, which will teleport you to one of the dimensions at random."]
+			dependencies: ["1D5D1174F11C1DFC"]
+			id: "1BC307C1E6864B49"
+			tasks: [{
+				id: "42BA94A1210594EE"
+				type: "item"
+				item: "good_nights_sleep:despair_mushroom"
+			}]
+			rewards: [{
+				id: "1DE154FB41B09464"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			description: ["You can craft the strange bed by putting both mushrooms with any color bed. After a set period of time, you will “wake up” at the bed where you started. This time is about 20 minutes. A good visual indicator is when the sun sets in the Dream, or the sun rises in the Nightmare."]
+			dependencies: [
+				"08367FD52E5B425F"
+				"1BC307C1E6864B49"
+			]
+			id: "4F7BBF5B66D0FE77"
+			tasks: [{
+				id: "5CA8574D1C4F5A04"
+				type: "item"
+				item: "good_nights_sleep:strange_bed"
+			}]
+			rewards: [{
+				id: "2E8924848DD01321"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -8.0d
+			description: ["Can be obtained by breaking the grass in the dream dimension."]
+			dependencies: ["6F36F3F5680A26DA"]
+			id: "0A27AB131034FEEC"
+			tasks: [{
+				id: "3A79955AFE5ED8B9"
+				type: "item"
+				item: "good_nights_sleep:rainbow_seeds"
+			}]
+			rewards: [{
+				id: "5B6B42CE451D70A5"
+				type: "item"
+				item: {
+					id: "good_nights_sleep:rainbow_seeds"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 3
+			}]
+		}
+		{
+			x: 1.0d
+			y: -9.0d
+			description: ["Can be grown from rainbow seeds. Is a good food source."]
+			dependencies: ["0A27AB131034FEEC"]
+			id: "5B038F783AF15DA6"
+			tasks: [{
+				id: "516A7121364E7F10"
+				type: "item"
+				item: "good_nights_sleep:rainbow_berries"
+			}]
+			rewards: [{
+				id: "0F79A623A6E4406E"
+				type: "item"
+				item: {
+					id: "good_nights_sleep:rainbow_berries"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 3
+			}]
+		}
+		{
+			x: 2.0d
+			y: -8.0d
+			description: ["Unicorns can be found wandering around the dream dimension."]
+			dependencies: ["6F36F3F5680A26DA"]
+			id: "2AA224066466254A"
+			tasks: [{
+				id: "565F882EC0268680"
+				type: "advancement"
+				title: "Tame a Unicorn"
+				advancement: "good_nights_sleep:dream/tame_unicorn"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "5A874CB67046DDB0"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -8.0d
+			description: ["Can be found wandering around the dream dimension."]
+			dependencies: ["6F36F3F5680A26DA"]
+			id: "5CFD76048EC45CA3"
+			tasks: [{
+				id: "7E0783785BBD6CB3"
+				type: "advancement"
+				title: "Kill A Baby Creeper"
+				advancement: "good_nights_sleep:dream/kill_baby_creeper"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "07DD04CEFE43E437"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -5.5d
+			description: ["In this happy and peaceful dimension, you can find various creatures such as unicorns, and baby creepers. There is candy everywhere in this dimension, and the home for Positite Ore."]
+			dependencies: ["4F7BBF5B66D0FE77"]
+			id: "6F36F3F5680A26DA"
+			tasks: [{
+				id: "0B8ED4C93566CF2A"
+				type: "advancement"
+				title: "Have A Dream"
+				advancement: "good_nights_sleep:dream/dream"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "69B911874DB6A0A3"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: -2.0d
+			y: -5.5d
+			description: ["In this dark and gloomy dimension, you can find every hostile mob in the game, including a unique mob such as tormenters. These creatures have a chance to wither and blind you when hit. You can also find undead horses which you can tame! Oh, and don’t forget to watch out for Herobrine! You can find Negatite Ore in this dimension, which is slightly better than diamond."]
+			dependencies: ["4F7BBF5B66D0FE77"]
+			id: "023F67FA2236DCDC"
+			tasks: [{
+				id: "21D1D64F520C573C"
+				type: "advancement"
+				title: "Have A Nightmare"
+				advancement: "good_nights_sleep:nightmare/nightmare"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "79A3DB2AAC5403BB"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: 3.5d
+			y: -10.0d
+			description: ["Can be found as an ore underground."]
+			dependencies: ["5CFD76048EC45CA3"]
+			id: "04F47C8BF2235FAE"
+			tasks: [{
+				id: "0A84E161D6BADA7E"
+				type: "item"
+				item: "good_nights_sleep:rainbow_ingot"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -10.0d
+			description: ["Contains various gems and metals."]
+			dependencies: ["5CFD76048EC45CA3"]
+			id: "6FBE7A1A984CA652"
+			tasks: [{
+				id: "1F71802364CFE5CA"
+				type: "item"
+				item: "good_nights_sleep:present"
+			}]
+			rewards: [{
+				id: "79C1DACC1329CE71"
+				type: "item"
+				item: {
+					id: "good_nights_sleep:present"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: -11.5d
+			description: ["A very cool block that spawns a large rainbow when placed. Also gives you regeneration when you right click on it."]
+			dependencies: ["04F47C8BF2235FAE"]
+			id: "4E63ED462E6BDDB5"
+			tasks: [{
+				id: "7460C27B283A4B62"
+				type: "item"
+				item: "good_nights_sleep:pot_of_gold"
+			}]
+			rewards: [{
+				id: "5975C2AF8F155460"
+				type: "item"
+				item: {
+					id: "good_nights_sleep:pot_of_gold"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: -14.0d
+			description: ["Can be found as an ore underground."]
+			dependencies: ["04F47C8BF2235FAE"]
+			id: "56ED137B906DA124"
+			tasks: [{
+				id: "4EFE399370EE98B5"
+				type: "item"
+				item: "good_nights_sleep:positite_gem"
+			}]
+			rewards: [{
+				id: "1F2CFA8784364CCF"
+				type: "item"
+				item: {
+					id: "good_nights_sleep:positite_gem"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: -8.0d
+			description: ["Can be obtained by killing tormentors in the nightmare dimension."]
+			dependencies: ["023F67FA2236DCDC"]
+			id: "7DA43C5231709855"
+			tasks: [{
+				id: "7681ABA9EBF600BC"
+				type: "item"
+				item: "good_nights_sleep:necrum"
+			}]
+			rewards: [{
+				id: "189FD0367B113DDD"
+				type: "item"
+				item: {
+					id: "good_nights_sleep:necrum"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: -10.0d
+			description: ["&k................................................................................................."]
+			dependencies: ["7DA43C5231709855"]
+			id: "57E687C7DBDC8DFD"
+			tasks: [{
+				id: "1B265B0CDB47A9BE"
+				type: "kill"
+				entity: "good_nights_sleep:herobrine"
+				value: 1L
+			}]
+			rewards: [{
+				id: "5F4E2AA4932EEF90"
+				type: "ftbmoney:money"
+				ftb_money: 50L
+			}]
+		}
+		{
+			x: -2.5d
+			y: -10.0d
+			description: ["Can be found as an ore underground."]
+			dependencies: ["7DA43C5231709855"]
+			id: "6A2A059596A5809C"
+			tasks: [{
+				id: "2D3F4332757340B3"
+				type: "item"
+				item: "good_nights_sleep:zitrite_ingot"
+			}]
+			rewards: [{
+				id: "4B4FDAFFE3B074EE"
+				type: "item"
+				item: {
+					id: "good_nights_sleep:zitrite_ingot"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: -13.5d
+			description: ["Can be found as an ore underground or obtained by killing herobrine."]
+			dependencies: [
+				"57E687C7DBDC8DFD"
+				"6A2A059596A5809C"
+			]
+			dependency_requirement: "one_completed"
+			id: "7D567F19EC46A194"
+			tasks: [{
+				id: "1BB729A7D420E728"
+				type: "item"
+				item: "good_nights_sleep:negatite_gem"
+			}]
+			rewards: [{
+				id: "6FD7662FAFF55E99"
+				type: "item"
+				item: {
+					id: "good_nights_sleep:negatite_gem"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Zitrite Tools"
+			x: -2.0d
+			y: -12.0d
+			description: ["A set of tools slightly worse than diamond."]
+			dependencies: ["6A2A059596A5809C"]
+			id: "1CFF6DDF6C5C3386"
+			tasks: [
+				{
+					id: "1FE6800BB7623427"
+					type: "item"
+					item: {
+						id: "good_nights_sleep:zitrite_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "40E1AE8133D5CFFF"
+					type: "item"
+					item: {
+						id: "good_nights_sleep:zitrite_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "05DCB0C653C96965"
+					type: "item"
+					item: {
+						id: "good_nights_sleep:zitrite_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "33CD018318FB2EE9"
+					type: "item"
+					item: {
+						id: "good_nights_sleep:zitrite_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3575C6F71D78213C"
+					type: "item"
+					item: {
+						id: "good_nights_sleep:zitrite_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "2B9E60A4738A3667"
+				type: "item"
+				item: {
+					id: "better_fishing_rods:rare_enchantment_book"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: -8.0d
+			description: ["Can be found as an ore underground. Is used to make various tools, armors, and can be eaten."]
+			dependencies: ["6F36F3F5680A26DA"]
+			id: "37322E18D2CB1A29"
+			tasks: [{
+				id: "0B065398276C4A68"
+				type: "item"
+				item: "good_nights_sleep:candy"
+			}]
+			rewards: [{
+				id: "63C340170A7A6A9F"
+				type: "item"
+				item: {
+					id: "good_nights_sleep:candy"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Necrum Tools"
+			x: -4.0d
+			y: -9.0d
+			description: ["A set of tools very similar to iron."]
+			dependencies: ["7DA43C5231709855"]
+			id: "029E2BE00BCFC4CF"
+			tasks: [
+				{
+					id: "7B1F438E88FBB4F5"
+					type: "item"
+					item: {
+						id: "good_nights_sleep:necrum_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4F8E403224BD44A9"
+					type: "item"
+					item: {
+						id: "good_nights_sleep:necrum_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "315B0FD25614CEA1"
+					type: "item"
+					item: {
+						id: "good_nights_sleep:necrum_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7A1C3826AE1DAF88"
+					type: "item"
+					item: {
+						id: "good_nights_sleep:necrum_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "71B99E1389621834"
+					type: "item"
+					item: {
+						id: "good_nights_sleep:necrum_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "2A15A5D10DF28683"
+				type: "item"
+				item: {
+					id: "better_fishing_rods:rare_enchantment_book"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Negatite Tools"
+			x: -2.0d
+			y: -14.5d
+			description: ["A set of tools that is slightly better than diamond."]
+			dependencies: ["7D567F19EC46A194"]
+			id: "4CADE21C09D77A78"
+			tasks: [
+				{
+					id: "37EE94B08EFF2319"
+					type: "item"
+					item: {
+						id: "good_nights_sleep:negatite_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7660D1C79845DADF"
+					type: "item"
+					item: {
+						id: "good_nights_sleep:negatite_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0192E87E5B93E4F9"
+					type: "item"
+					item: {
+						id: "good_nights_sleep:negatite_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4E4D81508EEB9876"
+					type: "item"
+					item: {
+						id: "good_nights_sleep:negatite_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5CF2D06A608193CD"
+					type: "item"
+					item: {
+						id: "good_nights_sleep:negatite_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "55B69FF53A42FB2C"
+				type: "item"
+				item: {
+					id: "better_fishing_rods:epic_enchantment_book"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Positite Tools"
+			x: 4.0d
+			y: -15.0d
+			description: ["A set of tools slightly worse than diamond in some cases but not in others."]
+			dependencies: ["56ED137B906DA124"]
+			id: "64AEBABAF408E8C1"
+			tasks: [
+				{
+					id: "4CFBA58F5DA30550"
+					type: "item"
+					item: {
+						id: "good_nights_sleep:positite_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6D34560538250B32"
+					type: "item"
+					item: {
+						id: "good_nights_sleep:positite_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1CB023A3A9AFF616"
+					type: "item"
+					item: {
+						id: "good_nights_sleep:positite_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "16B646F940C6AF30"
+					type: "item"
+					item: {
+						id: "good_nights_sleep:positite_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "30E11E32C2B18F3B"
+					type: "item"
+					item: {
+						id: "good_nights_sleep:positite_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "305BD8E4891023FA"
+				type: "item"
+				item: {
+					id: "better_fishing_rods:epic_enchantment_book"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Rainbow Tools"
+			x: 4.0d
+			y: -12.5d
+			description: ["A set of tools slightly worse than diamond."]
+			dependencies: ["04F47C8BF2235FAE"]
+			id: "01E294105FC063DB"
+			tasks: [
+				{
+					id: "7284D0F737D0B1F4"
+					type: "item"
+					item: {
+						id: "good_nights_sleep:rainbow_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "497867F3F27E2E0C"
+					type: "item"
+					item: {
+						id: "good_nights_sleep:rainbow_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "262086FD6BD474CD"
+					type: "item"
+					item: {
+						id: "good_nights_sleep:rainbow_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "221DFEB7C23AE40B"
+					type: "item"
+					item: {
+						id: "good_nights_sleep:rainbow_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "64DF577F115457E8"
+					type: "item"
+					item: {
+						id: "good_nights_sleep:rainbow_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "047AFDC852659C08"
+				type: "item"
+				item: {
+					id: "better_fishing_rods:rare_enchantment_book"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Candy Tools"
+			x: 5.5d
+			y: -9.0d
+			description: ["A set of tools that is close to iron tools."]
+			dependencies: ["37322E18D2CB1A29"]
+			id: "6709382FE2913ED9"
+			tasks: [
+				{
+					id: "7EEC56AE8E52108B"
+					type: "item"
+					item: {
+						id: "good_nights_sleep:candy_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3663484F5D8F863C"
+					type: "item"
+					item: {
+						id: "good_nights_sleep:candy_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4797EC8FABF78CC3"
+					type: "item"
+					item: {
+						id: "good_nights_sleep:candy_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "329CE3145A355E5B"
+					type: "item"
+					item: {
+						id: "good_nights_sleep:candy_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2C8CFDFF304B290F"
+					type: "item"
+					item: {
+						id: "good_nights_sleep:candy_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "22AD66D0C10BF327"
+				type: "item"
+				item: {
+					id: "better_fishing_rods:rare_enchantment_book"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -15.0d
+			description: ["A way to escape the dream dimension before the 20 minute timer."]
+			dependencies: ["56ED137B906DA124"]
+			id: "398176341BBC6D9F"
+			tasks: [{
+				id: "25E99A0E78CB447F"
+				type: "item"
+				item: "good_nights_sleep:luxurious_bed"
+			}]
+			rewards: [{
+				id: "6FE5AB6771BA49C6"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: -4.0d
+			y: -14.5d
+			description: ["A way to escape the nightmare dimension before the 20 minute timer is up."]
+			dependencies: ["7D567F19EC46A194"]
+			id: "189728FBBD1A097F"
+			tasks: [{
+				id: "7DBCDD9BBDD6A24C"
+				type: "item"
+				item: "good_nights_sleep:wretched_bed"
+			}]
+			rewards: [{
+				id: "43FCCEC5389981CF"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			title: "Positite Armor"
+			x: 3.0d
+			y: -15.5d
+			description: ["A set of armor slightly worse than diamond in some cases but not in others."]
+			dependencies: ["56ED137B906DA124"]
+			id: "2E6E6BE8B01A8F4A"
+			tasks: [
+				{
+					id: "64E5BA623EFC75EA"
+					type: "item"
+					item: {
+						id: "good_nights_sleep:positite_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"agricraft:gene_inspector": {
+								agri_flag: 0b
+							}
+						}
+					}
+				}
+				{
+					id: "2B215020F41AD2EF"
+					type: "item"
+					item: {
+						id: "good_nights_sleep:positite_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "04E20F635412E916"
+					type: "item"
+					item: {
+						id: "good_nights_sleep:positite_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7F11A38CF36A14B0"
+					type: "item"
+					item: {
+						id: "good_nights_sleep:positite_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "68688FE3EDB3195D"
+				type: "item"
+				item: {
+					id: "better_fishing_rods:epic_enchantment_book"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Candy Armor"
+			x: 4.5d
+			y: -9.0d
+			description: ["A bad armor set. Is slightly worse than leather."]
+			dependencies: ["37322E18D2CB1A29"]
+			id: "0CF2DA032BEAFB4E"
+			tasks: [
+				{
+					id: "54BA56F1C6277EE7"
+					type: "item"
+					item: {
+						id: "good_nights_sleep:candy_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"agricraft:gene_inspector": {
+								agri_flag: 0b
+							}
+						}
+					}
+				}
+				{
+					id: "4F0EC9D885920DF2"
+					type: "item"
+					item: {
+						id: "good_nights_sleep:candy_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5DA7A6DC3F9E04E4"
+					type: "item"
+					item: {
+						id: "good_nights_sleep:candy_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1395AE565B9EA72F"
+					type: "item"
+					item: {
+						id: "good_nights_sleep:candy_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "71C98BCC5D49A414"
+				type: "item"
+				item: {
+					id: "better_fishing_rods:rare_enchantment_book"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Rainbow Armor"
+			x: 4.5d
+			y: -11.5d
+			description: ["A set of armor slightly worse than diamond."]
+			dependencies: ["04F47C8BF2235FAE"]
+			id: "22E924B370C40CDA"
+			tasks: [
+				{
+					id: "34E17083BCFECE59"
+					type: "item"
+					item: {
+						id: "good_nights_sleep:rainbow_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"agricraft:gene_inspector": {
+								agri_flag: 0b
+							}
+						}
+					}
+				}
+				{
+					id: "2FA5C6B57ED91B15"
+					type: "item"
+					item: {
+						id: "good_nights_sleep:rainbow_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "41C1AFBB8A9DA504"
+					type: "item"
+					item: {
+						id: "good_nights_sleep:rainbow_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7D073B7E7C92227D"
+					type: "item"
+					item: {
+						id: "good_nights_sleep:rainbow_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "024BEB1A86B8CD9B"
+				type: "item"
+				item: {
+					id: "better_fishing_rods:rare_enchantment_book"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Zitrite Armor"
+			x: -1.5d
+			y: -11.0d
+			description: ["A set of armor slightly worse than diamond."]
+			dependencies: ["6A2A059596A5809C"]
+			id: "617D2ED083D895BB"
+			tasks: [
+				{
+					id: "01457C9C6D229813"
+					type: "item"
+					item: {
+						id: "good_nights_sleep:zitrite_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"agricraft:gene_inspector": {
+								agri_flag: 0b
+							}
+						}
+					}
+				}
+				{
+					id: "3E10C7C10A6C8B6B"
+					type: "item"
+					item: {
+						id: "good_nights_sleep:zitrite_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "098ED78D61F916BF"
+					type: "item"
+					item: {
+						id: "good_nights_sleep:zitrite_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2A3A325F3DDCC218"
+					type: "item"
+					item: {
+						id: "good_nights_sleep:zitrite_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "7BA58D1FB812E2AA"
+				type: "item"
+				item: {
+					id: "better_fishing_rods:rare_enchantment_book"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Negatite Armor"
+			x: -3.0d
+			y: -15.0d
+			description: ["A set of armor that is slightly better than diamond."]
+			dependencies: ["7D567F19EC46A194"]
+			id: "322F93AF80FDD440"
+			tasks: [
+				{
+					id: "55180852E6D814FD"
+					type: "item"
+					item: {
+						id: "good_nights_sleep:negatite_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"agricraft:gene_inspector": {
+								agri_flag: 0b
+							}
+						}
+					}
+				}
+				{
+					id: "109622B9765BEED3"
+					type: "item"
+					item: {
+						id: "good_nights_sleep:negatite_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "49EC3670FBAB92C8"
+					type: "item"
+					item: {
+						id: "good_nights_sleep:negatite_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "54794BF18279B402"
+					type: "item"
+					item: {
+						id: "good_nights_sleep:negatite_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "5A1D8A9B2DD0D0D6"
+				type: "item"
+				item: {
+					id: "better_fishing_rods:epic_enchantment_book"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+	]
+}

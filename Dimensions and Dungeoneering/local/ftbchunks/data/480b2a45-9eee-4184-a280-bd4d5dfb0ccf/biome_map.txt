@@ -1,0 +1,11 @@
+#05B minecraft:bamboo_jungle
+#7AE minecraft:bamboo_jungle_hills
+#556 minecraft:beach
+#3D6 minecraft:cold_ocean
+#008 minecraft:desert
+#4B0 minecraft:jungle
+#7F2 minecraft:jungle_edge
+#043 minecraft:jungle_hills
+#1C1 cavesandcliffs:lush_caves
+#67B minecraft:savanna
+#706 minecraft:savanna_plateau

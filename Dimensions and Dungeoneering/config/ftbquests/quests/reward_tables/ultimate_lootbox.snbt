@@ -1,0 +1,26 @@
+{
+	id: "11E4AB1BA2170E89"
+	order_index: 4
+	title: "Ultimate Lootbox"
+	loot_size: 1
+	rewards: [
+		{ item: "mysticalagradditions:imperium_coal", count: 4 }
+		{ item: "minecraft:golden_apple" }
+		{ item: "minecraft:diamond", count: 8 }
+		{ item: "minecraft:obsidian", count: 8 }
+		{ item: "minecraft:blaze_rod", count: 2 }
+		{
+			ftb_money: 50L
+			type: "ftbmoney:money"
+		}
+	]
+	loot_crate: {
+		drops: {
+			boss: 12
+			passive: 5
+			monster: 7
+		}
+		color: 16580403
+		string_id: "ultimate_lootbox"
+	}
+}

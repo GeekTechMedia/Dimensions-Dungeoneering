@@ -1,0 +1,11 @@
+{
+	id: "3A520E6666918066"
+	order_index: 22
+	title: "100 Coins"
+	icon: "thermal:gold_coin"
+	loot_size: 1
+	rewards: [{
+		ftb_money: 100L
+		type: "ftbmoney:money"
+	}]
+}

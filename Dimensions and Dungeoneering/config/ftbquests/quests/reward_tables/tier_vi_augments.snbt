@@ -1,0 +1,16 @@
+{
+	id: "6B7A6C5480C6964E"
+	order_index: 11
+	title: "Tier VI Augments"
+	loot_size: 1
+	rewards: [
+		{ item: "mysticalagriculture:hungerless_augment" }
+		{ item: "mysticalagriculture:woodcutter_augment" }
+		{ item: "mysticalagriculture:mining_aoe_v_augment" }
+		{ item: "mysticalagriculture:strength_iv_augment" }
+		{ item: "mysticalagriculture:absorption_vi_augment" }
+		{ item: "mysticalagriculture:health_boost_vi_augment" }
+		{ item: "mysticalagriculture:attack_aoe_iv_augment" }
+		{ item: "mysticalagriculture:tilling_aoe_v_augment" }
+	]
+}

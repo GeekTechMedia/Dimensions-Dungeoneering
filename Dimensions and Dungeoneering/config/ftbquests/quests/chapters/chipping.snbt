@@ -1,0 +1,267 @@
+{
+	id: "3B4B82EC4FF533D6"
+	group: "469C0E7F7E302F41"
+	order_index: 0
+	filename: "chipping"
+	title: "Chip Off The Old Block"
+	icon: "chipped:mason_table"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "circle"
+			description: ["Chipped is a 1.16 building mod that expands on the variety of blocks you can use in-game. The mod offers overs 2000 unique building blocks, from stained glass variations all the way to concrete, prismarine and even gilded blackstone! Not only are all the textures hand-painted in the new vanilla style, but they also include some connected textures! Inspired by the popular Chisel mod, Chipped allows builders to have their full range of creativity, because every block deserves a friend!"]
+			id: "5648181E660E5E83"
+			tasks: [{
+				id: "561F9BAFB5B04115"
+				type: "checkmark"
+				title: "Chipped"
+			}]
+			rewards: [
+				{
+					id: "55E51DF10B555444"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "08F54A3F1ABA265A"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -5.0d
+			description: ["Used to create different versions of wood based items."]
+			dependencies: ["5648181E660E5E83"]
+			id: "1F01D41284520FE6"
+			tasks: [{
+				id: "3497D530DCC2E576"
+				type: "item"
+				item: "chipped:carpenters_table"
+			}]
+			rewards: [
+				{
+					id: "586406669D2CF5BE"
+					type: "random"
+					title: "Builder's Collection"
+					table_id: 5044533225343724048L
+				}
+				{
+					id: "74B655C8745B0D5E"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "building"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "31686BDA8E81FBA7"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 5.0d
+			description: ["Used to create different versions of stone based items."]
+			dependencies: ["5648181E660E5E83"]
+			id: "0702C40EE7FB90A9"
+			tasks: [{
+				id: "6A25CCD3FD3B1901"
+				type: "item"
+				item: "chipped:mason_table"
+			}]
+			rewards: [
+				{
+					id: "1B50A0471E1F9F61"
+					type: "random"
+					title: "Builder's Collection"
+					table_id: 5044533225343724048L
+				}
+				{
+					id: "68F9A40BEB10D41D"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "building"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "5A367026E811C465"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -2.5d
+			description: ["Used to create different versions of glass based items."]
+			dependencies: ["5648181E660E5E83"]
+			id: "16623CF286193837"
+			tasks: [{
+				id: "2811A1131D0E2BF5"
+				type: "item"
+				item: "chipped:glassblower"
+			}]
+			rewards: [
+				{
+					id: "253310C51E9E9AFA"
+					type: "random"
+					title: "Builder's Collection"
+					table_id: 5044533225343724048L
+				}
+				{
+					id: "17A1F630212E6D61"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "building"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "0948E66CE0F9DE2B"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 2.5d
+			description: ["Used to create different versions of plant based items."]
+			dependencies: ["5648181E660E5E83"]
+			id: "4B0542879DF2AEB5"
+			tasks: [{
+				id: "56EFFD376AB751F3"
+				type: "item"
+				item: "chipped:botanist_workbench"
+			}]
+			rewards: [
+				{
+					id: "6E09329B8EB230AA"
+					type: "random"
+					title: "Builder's Collection"
+					table_id: 5044533225343724048L
+				}
+				{
+					id: "1A5A25835D93AFFC"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "building"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "40DFDF157CFADD19"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -2.5d
+			description: ["Used to create different versions of wool/string based items."]
+			dependencies: ["5648181E660E5E83"]
+			id: "33CE0FA7F3F264F8"
+			tasks: [{
+				id: "6BDE0B182C0B9539"
+				type: "item"
+				item: "chipped:loom_table"
+			}]
+			rewards: [
+				{
+					id: "32D36E2C66862F3D"
+					type: "random"
+					title: "Builder's Collection"
+					table_id: 5044533225343724048L
+				}
+				{
+					id: "07498C427FCFAA58"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "building"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "1C55308BD00067E1"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 2.5d
+			description: ["Used to create different versions of magical based items."]
+			dependencies: ["5648181E660E5E83"]
+			id: "1B0026E9AE879600"
+			tasks: [{
+				id: "046A82200F939FDC"
+				type: "item"
+				item: "chipped:alchemy_bench"
+			}]
+			rewards: [
+				{
+					id: "658F6421C11AA6D0"
+					type: "random"
+					title: "Builder's Collection"
+					table_id: 5044533225343724048L
+				}
+				{
+					id: "22098C3D3826E9BD"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "building"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "44761BEEB60378AE"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -5.0d
+			description: ["Used to create different versions of tech based items."]
+			dependencies: ["5648181E660E5E83"]
+			id: "2505A086FFB72D38"
+			tasks: [{
+				id: "3A3FBEC25F53949B"
+				type: "item"
+				item: "chipped:mechanist_workbench"
+			}]
+			rewards: [
+				{
+					id: "7698AC1746295DB0"
+					type: "random"
+					title: "Builder's Collection"
+					table_id: 5044533225343724048L
+				}
+				{
+					id: "426D1AB0743F9A6B"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "building"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "5E3CB023C131E764"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+	]
+}

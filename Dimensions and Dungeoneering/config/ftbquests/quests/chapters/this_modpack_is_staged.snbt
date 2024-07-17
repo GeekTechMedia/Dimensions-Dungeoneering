@@ -1,0 +1,145 @@
+{
+	id: "0A4000D54E6E21B8"
+	group: "31DBD57DDF20D469"
+	order_index: 8
+	filename: "this_modpack_is_staged"
+	title: "This Modpack Is Staged"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: -10.0d
+			y: -2.5d
+			width: 11.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "minecraft:textures/gui/casual.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.0d
+			y: -3.5d
+			width: 11.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "minecraft:textures/gui/inferno.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 10.0d
+			y: -2.5d
+			width: 12.5d
+			height: 3.0d
+			rotation: 0.0d
+			image: "minecraft:textures/gui/nightmare.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			title: "Casual Stage"
+			x: -10.0d
+			y: 0.0d
+			shape: "hexagon"
+			description: [
+				"The Casual Stage is the first gamestage that you will encounter in the pack. In order to reach this stage you will need to defeat a Land Golem boss."
+				""
+				"After reaching this stage two things will happen:"
+				"1. Higher leveled champions will now spawn in your world."
+				"2. You will now be able to travel to the nether dimension."
+			]
+			size: 2.0d
+			id: "509BB10DD840F20B"
+			tasks: [{
+				id: "7A7D24570A23BF5D"
+				type: "gamestage"
+				stage: "land_golem"
+			}]
+			rewards: [
+				{
+					id: "72EB0C13CB0CB96A"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "580134A692D4C73A"
+					type: "choice"
+					table_id: 6196898936153999603L
+				}
+			]
+		}
+		{
+			title: "Inferno Stage"
+			x: 0.0d
+			y: -1.0d
+			shape: "hexagon"
+			description: [
+				"The Inferno Stage is the second stage that you can reach in this pack. In order to reach this stage you will need to summon and kill The Whisperer boss."
+				""
+				"After completing this stage two things will happen:"
+				"1. Even stronger champions will now spawn."
+				"2. You will now be able to travel to the end dimension."
+			]
+			size: 2.0d
+			id: "5F0CE46EB6246A66"
+			tasks: [{
+				id: "3496983514E740F7"
+				type: "gamestage"
+				stage: "whisperer"
+			}]
+			rewards: [
+				{
+					id: "471822381684F429"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "33AEB7C1F8087EF7"
+					type: "choice"
+					table_id: 6196898936153999603L
+				}
+			]
+		}
+		{
+			title: "Nightmare Stage"
+			x: 10.0d
+			y: 0.0d
+			shape: "hexagon"
+			description: [
+				"The final stage is the Nightmare Stage. In order to get to this stage you will need to kill the Ender Dragon boss. And fair warning it isn't your standard ender dragon boss fight."
+				""
+				"After reaching this stage two things will happen:"
+				"1. Very very scary strong champions will now spawn."
+				"2. Mutant creatures will now spawn naturally in your world."
+			]
+			size: 2.0d
+			id: "61A88EBA06D12C21"
+			tasks: [{
+				id: "196B6C0E0FB5D260"
+				type: "gamestage"
+				stage: "ender_dragon"
+			}]
+			rewards: [
+				{
+					id: "6EB11AD084BEBAAE"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "2433A68D9EE79AFB"
+					type: "choice"
+					table_id: 6196898936153999603L
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,9 @@
+#35F cavebiomeapi:caves
+#4F9 minecraft:dark_forest
+#5D7 byg:deciduous_forest
+#010 minecraft:forest
+#72C organics:hoaky_forest
+#379 minecraft:mountains
+#3DC minecraft:plains
+#029 projectvibrantjourneys:willow_wetlands
+#452 minecraft:wooded_hills

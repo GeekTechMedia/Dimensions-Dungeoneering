@@ -1,0 +1,14 @@
+{
+	"powers":
+    [
+      "dimensionsdungeoneering:cleric_experience",
+      "dimensionsdungeoneering:cleric_artifact",
+      "dimensionsdungeoneering:cleric_projectmmo",
+      "dimensionsdungeoneering:cleric_undead"
+	],
+	"icon": "relics:holy_locket",
+	"order": 5,
+	"impact": 1,
+	"name": "Cleric",
+	"description": "Clerics are priests who are devoted followers of the gods. They also dabble in the study of alchemy."
+}

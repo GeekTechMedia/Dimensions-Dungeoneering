@@ -1,0 +1,71 @@
+{
+	id: "36AF671C2ED9ED16"
+	order_index: 5
+	title: "Uncommon Lootbox"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:cobblestone", count: 32 }
+		{ item: "minecraft:iron_ingot", count: 8 }
+		{ item: "minecraft:oak_log", count: 24 }
+		{
+			item: {
+				id: "minecraft:splash_potion"
+				Count: 1b
+				tag: {
+					Potion: "minecraft:healing"
+				}
+			}
+		}
+		{ item: "minecraft:cooked_beef", count: 12 }
+		{ item: "minecraft:spectral_arrow", count: 8 }
+		{ item: "minecraft:coal", count: 20 }
+		{ item: "mysticalagradditions:prudentium_coal", count: 4 }
+		{ item: "minecraft:ender_pearl" }
+		{
+			item: {
+				id: "minecraft:splash_potion"
+				Count: 1b
+				tag: {
+					Potion: "minecraft:luck"
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:leather"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 8
+		}
+		{
+			item: {
+				id: "mysticalagriculture:inferium_essence"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 8
+		}
+		{
+			ftb_money: 10L
+			type: "ftbmoney:money"
+		}
+	]
+	loot_crate: {
+		drops: {
+			boss: 50
+			passive: 12
+			monster: 25
+		}
+		color: 3066993
+		string_id: "uncommon_lootbox"
+	}
+}

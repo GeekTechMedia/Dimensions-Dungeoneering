@@ -1,0 +1,13 @@
+{
+	"powers":
+    [
+      "dimensionsdungeoneering:ranger_preference",
+      "dimensionsdungeoneering:ranger_infinity",
+      "dimensionsdungeoneering:ranger_projectmmo"
+	],
+	"icon": "spartanweaponry:longbow_iron",
+	"order": 5,
+	"impact": 1,
+	"name": "Ranger",
+	"description": "Rangers are bowmen who prefer dealing damage to enemies from a distance."
+}

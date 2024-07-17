@@ -1,0 +1,19 @@
+{
+	id: "64C1F8ED12C177C9"
+	order_index: 24
+	title: "Killer's Kit"
+	icon: {
+		id: "relics:squire_bag"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+		ForgeCaps: {
+			"dungeons_libraries:built_in_enchantments": {
+				BuiltInEnchantments: [ ]
+			}
+		}
+	}
+	loot_size: 1
+	rewards: [ ]
+}

@@ -1,0 +1,23 @@
+
+["Ars Gears Config"]
+	#If it's random mode
+	Random_Mode = true
+	#All glyphs not added to the glyph pool
+	Blacklist_Glyph_Pool = ["aquatic", "break", "conjure_water", "craft", "crush", "cut", "delay", "ender_inventory", "evaporate", "exchange", "fell", "firework", "grow", "harvest", "interact", "light", "phantom_block", "pickup", "place_block", "redstone_signal", "touch", "sensitive", "smelt", "summon_steed", "toss"]
+	#How much the starting cost will be
+	Base_Price = 50
+	#How much each tier will increase cost
+	Price_Per_Tier = 24
+	#The max cost of glyphs
+	Max_Cost = 600
+	#How many battle glyphs you may have in total
+	#Range: > 0
+	Max_Allowed_Glyphs = 15
+	#How many battle glyphs you lose on death
+	#Range: > 0
+	Death_Glyph_Loss = 0
+	#If you should automatically unlock a glyph after purchase
+	Auto_Unlock_Glyph = false
+	#Should you see glyphs you've already seen in the Combat Altar
+	Show_Seen_Glyphs = true
+

@@ -1,0 +1,11 @@
+#556 minecraft:beach
+#35F cavebiomeapi:caves
+#5C0 corundum_meadows:corundum_meadows
+#3DE minecraft:deep_ocean
+#04B byg:guiana_clearing
+#6BF byg:guiana_shield
+#4F1 minecraft:ocean
+#4A3 projectvibrantjourneys:pine_meadows
+#7F7 projectvibrantjourneys:redwoods
+#5FF minecraft:river
+#3A8 byg:seasonal_deciduous_forest

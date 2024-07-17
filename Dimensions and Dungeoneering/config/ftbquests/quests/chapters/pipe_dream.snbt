@@ -1,0 +1,426 @@
+{
+	id: "5A61D9A9A4C1AACF"
+	group: "1F22E46975B98D48"
+	order_index: 2
+	filename: "pipe_dream"
+	title: "Pipe Dream"
+	icon: {
+		id: "pipez:item_pipe"
+		Count: 1b
+		ForgeCaps: {
+			"dungeons_libraries:built_in_enchantments": {
+				BuiltInEnchantments: [ ]
+			}
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "circle"
+			description: ["Pipez is a simple mod that adds highly configurable pipes to transport items, liquids, energy, and gas to different places!"]
+			id: "2D731F2D7F44DD4E"
+			tasks: [{
+				id: "2A57FF74549A7F3F"
+				type: "checkmark"
+				title: "Pipez"
+			}]
+			rewards: [
+				{
+					id: "42C674D1933A58B5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "77046F6D59C89EDC"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -2.5d
+			description: ["Used for moving fluids."]
+			dependencies: ["2D731F2D7F44DD4E"]
+			id: "485C5080E244AE73"
+			tasks: [{
+				id: "17215355409EDF3A"
+				type: "item"
+				item: {
+					id: "pipez:fluid_pipe"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "74C73B171F6E1787"
+				type: "item"
+				item: {
+					id: "pipez:fluid_pipe"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 8
+			}]
+		}
+		{
+			x: 0.5d
+			y: -2.5d
+			description: ["Used for moving energy."]
+			dependencies: ["2D731F2D7F44DD4E"]
+			id: "5E03A8D0DC958F52"
+			tasks: [{
+				id: "0E341B41157388A0"
+				type: "item"
+				item: {
+					id: "pipez:energy_pipe"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "435E91F11B2D5DF0"
+				type: "item"
+				item: {
+					id: "pipez:energy_pipe"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 8
+			}]
+		}
+		{
+			x: -1.5d
+			y: -2.5d
+			description: ["Used for moving items."]
+			dependencies: ["2D731F2D7F44DD4E"]
+			id: "159D339EE043B52C"
+			tasks: [{
+				id: "4D5DEEF90A1A4A6A"
+				type: "item"
+				item: {
+					id: "pipez:item_pipe"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "41B9D3F63E3EDBA9"
+				type: "item"
+				item: {
+					id: "pipez:item_pipe"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 8
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.5d
+			description: ["Can be used to move items, fluids, energy, or gas."]
+			dependencies: [
+				"159D339EE043B52C"
+				"7E79F65D2F655385"
+				"485C5080E244AE73"
+				"5E03A8D0DC958F52"
+			]
+			id: "160EACA7E1FBEC42"
+			tasks: [{
+				id: "45FAB64EB5767F81"
+				type: "item"
+				item: {
+					id: "pipez:universal_pipe"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "74F892060757AE43"
+				type: "item"
+				item: {
+					id: "pipez:universal_pipe"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 4
+			}]
+		}
+		{
+			x: 1.5d
+			y: -2.5d
+			description: ["Used for moving gas."]
+			dependencies: ["2D731F2D7F44DD4E"]
+			id: "7E79F65D2F655385"
+			tasks: [{
+				id: "3753A78CDF895DEB"
+				type: "item"
+				item: {
+					id: "pipez:gas_pipe"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "6D5D28CFB8FA9447"
+				type: "item"
+				item: {
+					id: "pipez:gas_pipe"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 8
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			description: [
+				"By default pipes are relatively slow. The speed can only be increased by adding an upgrade. Certain features of pipes can only be used by adding a high enough upgrade."
+				""
+				"The basic upgrade unlocks redstone modes."
+				""
+				"The improved upgrade unlocks distribution modes."
+				""
+				"The advanced upgrade unlocks filter modes and filters."
+				""
+				"Every configuration you change and every filter you add is stored in the upgrade, you can copy the data to other upgrades by crafting them together."
+			]
+			dependencies: ["2D731F2D7F44DD4E"]
+			id: "6443C7F9EACF7313"
+			tasks: [{
+				id: "03A42539A9501F17"
+				type: "item"
+				item: {
+					id: "pipez:basic_upgrade"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "3EF110F291403F71"
+				type: "item"
+				item: {
+					id: "pipez:basic_upgrade"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			dependencies: ["6443C7F9EACF7313"]
+			id: "1C715728E93348FF"
+			tasks: [{
+				id: "2B4A398431955DC2"
+				type: "item"
+				item: {
+					id: "pipez:improved_upgrade"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "2A9EE0391BE32009"
+				type: "item"
+				item: {
+					id: "pipez:improved_upgrade"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.0d
+			dependencies: ["1C715728E93348FF"]
+			id: "1919CCFDE4B3525A"
+			tasks: [{
+				id: "3D825D9B079B75FE"
+				type: "item"
+				item: {
+					id: "pipez:advanced_upgrade"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "516E6EA46D25F008"
+				type: "item"
+				item: {
+					id: "pipez:advanced_upgrade"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 5.0d
+			dependencies: ["1919CCFDE4B3525A"]
+			id: "2358A6FCA01ACE68"
+			tasks: [{
+				id: "57D980A373F4C682"
+				type: "item"
+				item: {
+					id: "pipez:ultimate_upgrade"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "518DA88375A36915"
+				type: "item"
+				item: {
+					id: "pipez:ultimate_upgrade"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			description: [
+				"The pipe wrench is used to tell the pipes which blocks to extract from and to disconnect any unwanted pipe connections."
+				""
+				"You can sneak-click onto the end of a connected pipe with a wrench to set it to extract."
+				""
+				"Click the extracting part of the pipe to change modes, add filters or add upgrades."
+				""
+				"Pipes can be disconnected/reconnected by sneak-clicking with a wrench."
+			]
+			dependencies: ["2D731F2D7F44DD4E"]
+			id: "6F6EBD03D9F335CF"
+			tasks: [{
+				id: "260395644D773FA6"
+				type: "item"
+				item: {
+					id: "pipez:wrench"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "0C18CF50617BCCC1"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: -2.5d
+			y: 0.0d
+			description: [
+				"The filter destination tool is used when customizing the filters of pipes."
+				""
+				"To add a specific item, just click it on the slot in the filter GUI. Alternatively you can type the item ID in the text field next to it."
+				""
+				"If the object you inserted had NBT data, the NBT string will be displayed in the second text area. You can remove the NBT text if you don't want to match NBT tags."
+				""
+				"There is also an option to only match the provided NBT data (Button with NBT on it). This can be set to exact mode. This causes only items that match that tag exactly to be accepted by the filter."
+				""
+				"Filters can be inverted by pressing the button with the paper on it. This causes the filter to apply for the exact opposite of the provided data (except the destination). You can also set the filter to only apply for a certain destination. For this you need a filter destination tool. Just click the block your pipe inserts into with it so store the location and face of the block. Note that this doesn't work if you clicked a side of the block that the cable isn't connected to. To set the location to a filter, put it into the destination slot of the filter GUI. This will also display the destination block in the filter list."
+			]
+			dependencies: ["2D731F2D7F44DD4E"]
+			id: "19E340EED2FC51BC"
+			tasks: [{
+				id: "4BC9102ABAC0FFF9"
+				type: "item"
+				item: {
+					id: "pipez:filter_destination_tool"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "05E9307F554A6C1C"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+	]
+}

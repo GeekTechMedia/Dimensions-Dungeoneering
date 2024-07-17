@@ -1,0 +1,13 @@
+#556 minecraft:beach
+#35F cavebiomeapi:caves
+#008 minecraft:desert
+#67B byg:dunes
+#4B0 minecraft:jungle
+#7F2 minecraft:jungle_edge
+#043 minecraft:jungle_hills
+#4F1 minecraft:ocean
+#090 byg:red_rock_lowlands
+#14D projectvibrantjourneys:red_rock_valley
+#181 minecraft:savanna
+#706 minecraft:savanna_plateau
+#298 projectvibrantjourneys:verdant_sands

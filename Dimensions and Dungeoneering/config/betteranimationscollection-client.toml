@@ -1,0 +1,64 @@
+
+[general]
+	#A very subtle animation, makes a pig's snout move when it oinks.
+	#It only moves up and down ever so slightly, but it's there. Just a little bit more life for your livestock.
+	"Oinky Pig" = true
+	#Gives a jellyfish-like effect to the swimming animation of squids.
+	#Also makes their tentacles flow more while moving.
+	"Squid Tentacles" = true
+	#Divides ghast tentacles into parts and makes them wiggle realistically, like those tentacle monsters you always see at the movies.
+	#Makes them a little more scary, but ultimately nicer to look at.
+	"Ghast Tentacles" = true
+	#This one makes chicken beaks open and close when they cluck.
+	#When they strut their heads move back and forth, the red thing under their beak swings around and their wings flap a little. Just like the real deal!
+	"Bucka Chicken" = true
+	#This one is pretty kneat. It makes sheep actually bend down to eat grass.
+	#It's no longer just their head lowering, their whole body lowers down to get a sweet sample of that succulent cellulose.
+	#Did you notice their KNEES bend too when they kneel?
+	"Kneeling Sheep" = true
+
+[squid_tentacles]
+	#Define the max length of the tentacles.
+	#Range: 1 ~ 8
+	"Max Length" = 8
+
+[ghast_tentacles]
+	#Define the max length of the tentacles.
+	#Range: 2 ~ 14
+	"Max Length" = 14
+	#Animation swing of the tentacles.
+	#Range: 1 ~ 20
+	"Animation Swing" = 5
+
+[bucka_chicken]
+	#Move head back and forth when the entity is walking.
+	"Move Head" = true
+	#Wiggle chin when the entity is walking.
+	"Wiggle Chin" = true
+	#Flap wings when the entity is walking.
+	"Flap Wings" = true
+	#Animation swing for the head movement.
+	#Range: 1 ~ 20
+	"Head Swing" = 4
+	#Animation swing for the chin movement.
+	#Range: 1 ~ 20
+	"Chin Swing" = 5
+	#Animation swing of the wing flapping.
+	#Range: 1 ~ 20
+	"Wing Swing" = 3
+	#Ambient mob sounds to play an animation for.
+	#Useful for adding support for modded mob variations which have different sounds from their vanilla counterparts.
+	#Format for every entry is "<namespace>:<path>". Path may use asterisk as wildcard parameter. Tags are not supported.
+	"Ambient Sounds" = ["minecraft:entity.chicken.ambient"]
+
+[sound_detection]
+	#Block range for sound detection system to look for a mob that made a certain sound on the server, so the client may play an animation.
+	#Range: 0.0 ~ 8.0
+	"Sound Detection Range" = 0.5
+
+[oinky_pig]
+	#Ambient mob sounds to play an animation for.
+	#Useful for adding support for modded mob variations which have different sounds from their vanilla counterparts.
+	#Format for every entry is "<namespace>:<path>". Path may use asterisk as wildcard parameter. Tags are not supported.
+	"Ambient Sounds" = ["minecraft:entity.pig.ambient", "snowpig:entity.snow_pig.ambient"]
+

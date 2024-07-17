@@ -1,0 +1,14 @@
+#6C5 byg:aspen_forest
+#47F minecraft:birch_forest
+#35F cavebiomeapi:caves
+#5C0 corundum_meadows:corundum_meadows
+#284 byg:crag_gardens
+#22E projectvibrantjourneys:crimson_thicket
+#5D7 byg:deciduous_forest
+#33B projectvibrantjourneys:flooded_woodlands
+#31E corundum_meadows:flower_meadows
+#379 minecraft:mountains
+#48C corundum_meadows:onion_meadows
+#634 byg:prairie
+#5FF minecraft:river
+#06B byg:woodlands

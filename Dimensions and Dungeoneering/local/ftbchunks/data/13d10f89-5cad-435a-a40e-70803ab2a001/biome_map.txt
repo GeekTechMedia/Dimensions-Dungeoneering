@@ -1,0 +1,7 @@
+#504 byg:dead_sea
+#008 minecraft:desert
+#19B minecraft:desert_hills
+#00D minecraft:desert_lakes
+#3DC minecraft:plains
+#4D3 minecraft:swamp
+#6BC byg:tropical_rainforest

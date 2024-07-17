@@ -1,0 +1,2091 @@
+{
+	id: "7D3D5E5BB459A201"
+	group: "16CBA37B8C6AAED4"
+	order_index: 0
+	filename: "slayer"
+	title: "Slayer of Sorts"
+	icon: {
+		id: "forbidden_arcanus:draco_arcanus_sword"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: -12.0d
+			y: 0.0d
+			width: 3.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "netheragriculture:textures/items/blazing_gold_sword.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 12.0d
+			y: 0.0d
+			width: 3.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "forbidden_arcanus:textures/item/tool/draco_arcanus_sword.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.0d
+			y: -12.5d
+			width: 10.0d
+			height: 10.0d
+			rotation: 0.0d
+			image: "minecraft:textures/gui/wip.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			x: 0.0d
+			y: -2.0d
+			id: "5E3D1E31C926D5E3"
+			tasks: [{
+				id: "55FA9BF72B60FF12"
+				type: "kill"
+				title: "Zombie Hunter"
+				entity: "specialmobs:zombie"
+				value: 100L
+			}]
+			rewards: [
+				{
+					id: "75D2A7D345DDE25F"
+					type: "random"
+					title: "Slayer's Sack"
+					table_id: 1743747870896494377L
+				}
+				{
+					id: "59E29AEEEB4E56B1"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "combat"
+					amount: 250.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			id: "22E3DF4AC93F668C"
+			tasks: [{
+				id: "0724881176F1A29E"
+				type: "kill"
+				title: "Skeleton Hunter"
+				entity: "specialmobs:skeleton"
+				value: 100L
+			}]
+			rewards: [
+				{
+					id: "0EAA9C9F0C9643D2"
+					type: "random"
+					title: "Slayer's Sack"
+					table_id: 1743747870896494377L
+				}
+				{
+					id: "69D03F6CF2454308"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "combat"
+					amount: 250.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			id: "66647372BBDEEE68"
+			tasks: [{
+				id: "14D2ED6494111A47"
+				type: "kill"
+				title: "Spider Hunter"
+				entity: "specialmobs:spider"
+				value: 100L
+			}]
+			rewards: [
+				{
+					id: "66EF6A661B3095D1"
+					type: "random"
+					title: "Slayer's Sack"
+					table_id: 1743747870896494377L
+				}
+				{
+					id: "65C48108D1EF71F9"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "combat"
+					amount: 250.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 1.5d
+			id: "63D6E686BBBF305C"
+			tasks: [{
+				id: "4264CA12ADD00AE0"
+				type: "kill"
+				title: "Creeper Hunter"
+				entity: "specialmobs:creeper"
+				value: 100L
+			}]
+			rewards: [
+				{
+					id: "694E60151FA8C63E"
+					type: "random"
+					title: "Slayer's Sack"
+					table_id: 1743747870896494377L
+				}
+				{
+					id: "775837E618D0CFFB"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "combat"
+					amount: 250.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -8.5d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "5465E97D30DACC92"
+			tasks: [{
+				id: "2AD051E79FC92A5B"
+				type: "kill"
+				entity: "mowziesmobs:ferrous_wroughtnaut"
+				value: 1L
+			}]
+		}
+		{
+			x: -3.0d
+			y: -7.5d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "1B899BD0E3A6475A"
+			tasks: [{
+				id: "61655F6715E68C69"
+				type: "kill"
+				entity: "mowziesmobs:barako"
+				value: 1L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -8.5d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "5E2BA5335EEC5FF2"
+			tasks: [{
+				id: "67A06054970935B4"
+				type: "kill"
+				entity: "dungeonsmod:ironslime"
+				value: 1L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -9.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "1F13622E19494086"
+			tasks: [{
+				id: "19C75B88BEA681DB"
+				type: "kill"
+				entity: "dungeonsmod:deserted"
+				value: 1L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -8.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "72455BD0945AF283"
+			tasks: [{
+				id: "0D5723C6B26FC9DE"
+				type: "kill"
+				entity: "dungeonsmod:king"
+				value: 1L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -7.5d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "47E6152200E5BA11"
+			tasks: [{
+				id: "392A41B37748DB21"
+				type: "kill"
+				entity: "dungeonsmod:kraken"
+				value: 1L
+			}]
+		}
+		{
+			x: 4.0d
+			y: -7.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "0BBBC21734EBE8FD"
+			tasks: [{
+				id: "2DD5F75AF1036606"
+				type: "kill"
+				entity: "dungeonsmod:crawler"
+				value: 1L
+			}]
+		}
+		{
+			x: 6.5d
+			y: -5.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "76FB21486762D30F"
+			tasks: [{
+				id: "6F6C524A76B81B74"
+				type: "kill"
+				entity: "dungeonsmod:sun"
+				value: 1L
+			}]
+		}
+		{
+			x: 5.0d
+			y: -6.5d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "0CFB1AEEBF3368A2"
+			tasks: [{
+				id: "37637D4339D7F974"
+				type: "kill"
+				entity: "dungeonsmod:lordskeleton"
+				value: 1L
+			}]
+		}
+		{
+			x: 6.0d
+			y: -6.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "018DBFF0D4F338DD"
+			tasks: [{
+				id: "5C9577697A788FA0"
+				type: "kill"
+				entity: "dungeonsmod:winterhunter"
+				value: 1L
+			}]
+		}
+		{
+			x: 7.0d
+			y: -4.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "7A8D2A70FDDEB2C1"
+			tasks: [{
+				id: "1A0306AB0FB1B607"
+				type: "kill"
+				entity: "dungeonsmod:voidmaster"
+				value: 1L
+			}]
+		}
+		{
+			x: 7.5d
+			y: -3.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "4232F4231F019B2E"
+			tasks: [{
+				id: "4E521419D2E991D9"
+				type: "kill"
+				entity: "conjurer_illager:conjurer"
+				value: 1L
+			}]
+		}
+		{
+			x: -2.0d
+			y: -8.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "275008E16C333656"
+			tasks: [{
+				id: "10B1A699DD4E6319"
+				type: "kill"
+				entity: "mowziesmobs:frostmaw"
+				value: 1L
+			}]
+		}
+		{
+			x: -8.5d
+			y: -1.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "73553550EA839176"
+			tasks: [{
+				id: "2849ADECE4287025"
+				type: "kill"
+				entity: "meetyourfight:swampjaw"
+				value: 1L
+			}]
+		}
+		{
+			x: -7.5d
+			y: -3.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "67C0C78471CA163E"
+			tasks: [{
+				id: "211F8CFF1AE2837A"
+				type: "kill"
+				entity: "meetyourfight:bellringer"
+				value: 1L
+			}]
+		}
+		{
+			x: -8.0d
+			y: -2.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "52EDEC5FA4725C70"
+			tasks: [{
+				id: "36EC85CEB011164F"
+				type: "kill"
+				entity: "meetyourfight:dame_fortuna"
+				value: 1L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 9.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "259C58CA9CD7E833"
+			tasks: [{
+				id: "4450C0C0CFAF631B"
+				type: "kill"
+				entity: "mutantbeasts:mutant_zombie"
+				value: 1L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 7.5d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "37E88A4586E3014D"
+			tasks: [{
+				id: "158B81F10F11512B"
+				type: "kill"
+				entity: "mutantbeasts:mutant_creeper"
+				value: 1L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 8.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "0E8CE9C871921C3E"
+			tasks: [{
+				id: "512AB55CAFD981CE"
+				type: "kill"
+				entity: "mutantbeasts:mutant_enderman"
+				value: 1L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 8.5d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "4049011F6C906463"
+			tasks: [{
+				id: "5F27608422576067"
+				type: "kill"
+				entity: "mutantbeasts:mutant_skeleton"
+				value: 1L
+			}]
+		}
+		{
+			x: -9.0d
+			y: 0.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "28C9EA4EB6509976"
+			tasks: [{
+				id: "252727C28475943D"
+				type: "kill"
+				entity: "whisperwoods:hirschgeist"
+				value: 1L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "circle"
+			description: ["The slayer questline is like a bounty board for killing a certain amount of mobs and allowing you to claim special rewards!"]
+			id: "323EB8ED0CCC894D"
+			tasks: [{
+				id: "5D142DA1CF07325B"
+				type: "checkmark"
+				title: "Slayer"
+			}]
+			rewards: [
+				{
+					id: "5A3A585E4B8EFFF0"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "773B597576A2B8C4"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: 1.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "68B17D3193B2F643"
+			tasks: [{
+				id: "2DEFB4EBB6C0965D"
+				type: "kill"
+				entity: "iceandfire:fire_dragon"
+				value: 1L
+			}]
+		}
+		{
+			x: -8.0d
+			y: 2.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "2E23428024DB4E0E"
+			tasks: [{
+				id: "5AD59440C85B3451"
+				type: "kill"
+				entity: "iceandfire:ice_dragon"
+				value: 1L
+			}]
+		}
+		{
+			x: -7.5d
+			y: 3.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "4F262E1401C75F4F"
+			tasks: [{
+				id: "7C307A4D8361F71C"
+				type: "kill"
+				entity: "iceandfire:lightning_dragon"
+				value: 1L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			id: "4E3CBBED126E472C"
+			tasks: [{
+				id: "2083B2DDA8BD0DEF"
+				type: "kill"
+				title: "Pillager Hunter"
+				entity: "minecraft:pillager"
+				value: 100L
+			}]
+			rewards: [
+				{
+					id: "6A677223A2CD4D6B"
+					type: "random"
+					title: "Slayer's Sack"
+					table_id: 1743747870896494377L
+				}
+				{
+					id: "4DA8EDECA9FA828D"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "combat"
+					amount: 250.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -1.5d
+			id: "217C559A67E2959D"
+			tasks: [{
+				id: "2FA0F0ABAE78AA77"
+				type: "kill"
+				title: "Slime Hunter"
+				entity: "specialmobs:slime"
+				value: 100L
+			}]
+			rewards: [
+				{
+					id: "6265F4E9A0D4FD45"
+					type: "random"
+					title: "Slayer's Sack"
+					table_id: 1743747870896494377L
+				}
+				{
+					id: "42D132677113C24B"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "combat"
+					amount: 250.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 1.0d
+			id: "6D443E58AE234415"
+			tasks: [{
+				id: "77DD11F4CA2AA8FE"
+				type: "kill"
+				title: "Guardian Killer"
+				entity: "minecraft:guardian"
+				value: 25L
+			}]
+		}
+		{
+			x: -3.5d
+			y: 0.0d
+			id: "7EF93F1EF147CC49"
+			tasks: [{
+				id: "5EFCEBE308763388"
+				type: "kill"
+				title: "Enderman Killer"
+				entity: "specialmobs:enderman"
+				value: 25L
+			}]
+		}
+		{
+			x: -3.5d
+			y: -1.0d
+			id: "05EA69BD0BB34F86"
+			tasks: [{
+				id: "19B6511BF6EEBAC9"
+				type: "kill"
+				title: "Husk Killer"
+				entity: "minecraft:husk"
+				value: 25L
+			}]
+		}
+		{
+			x: -2.0d
+			y: -3.0d
+			id: "10C4755EAD1BED91"
+			tasks: [{
+				id: "45D25DE12208B20E"
+				type: "kill"
+				title: "Drowned Killer"
+				entity: "specialmobs:drowned"
+				value: 25L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 2.0d
+			id: "079B44B12481D06D"
+			tasks: [{
+				id: "26BB0CCB19E0A2C9"
+				type: "kill"
+				title: "Witch Killer"
+				entity: "specialmobs:witch"
+				value: 25L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -3.5d
+			id: "509A362574823AB7"
+			tasks: [{
+				id: "2CD4768F9D0699E5"
+				type: "kill"
+				title: "Stray Killer"
+				entity: "minecraft:stray"
+				value: 25L
+			}]
+		}
+		{
+			x: 8.0d
+			y: -9.0d
+			id: "23E92BB0BDDFDC43"
+			tasks: [{
+				id: "13448DDD5F850977"
+				type: "kill"
+				entity: "alexsmobs:warped_mosco"
+				value: 1L
+			}]
+		}
+		{
+			x: 9.0d
+			y: -9.0d
+			id: "67A9663CAFA9DC57"
+			tasks: [{
+				id: "16C54B2F4F9724A2"
+				type: "kill"
+				entity: "alexsmobs:bone_serpent"
+				value: 1L
+			}]
+		}
+		{
+			x: 6.0d
+			y: 6.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "408D79C8AA75559E"
+			tasks: [{
+				id: "631C674006852820"
+				type: "kill"
+				entity: "alexsmobs:void_worm"
+				value: 1L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 7.5d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "64A1555A1AB35B1E"
+			tasks: [{
+				id: "5209910C1EF9DB33"
+				type: "kill"
+				entity: "mutantmore:mutant_husk"
+				value: 1L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 8.5d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "1366A21DE4445CD6"
+			tasks: [{
+				id: "321501D9D5821731"
+				type: "kill"
+				entity: "mutantmore:mutant_wither_skeleton"
+				value: 1L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 7.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "369A825A542E8389"
+			tasks: [{
+				id: "49BB63A6CFED855B"
+				type: "kill"
+				entity: "mutantmore:mutant_blaze"
+				value: 1L
+			}]
+		}
+		{
+			x: -4.0d
+			y: 7.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "0B954A831249F8FA"
+			tasks: [{
+				id: "200063EE4639AB47"
+				type: "kill"
+				entity: "mutantmore:mutant_hoglin"
+				value: 1L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 8.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "54A5D6DCF46B842A"
+			tasks: [{
+				id: "69206F23485B37CD"
+				type: "kill"
+				entity: "mutantmore:mutant_shulker"
+				value: 1L
+			}]
+		}
+		{
+			x: 6.5d
+			y: 5.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "3CBCB705E2BC3DB9"
+			tasks: [{
+				id: "25B7E944125C2BE5"
+				type: "kill"
+				entity: "queen_bee:queen_bee"
+				value: 1L
+			}]
+		}
+		{
+			x: 8.0d
+			y: 2.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "628F37705E0B58A3"
+			tasks: [{
+				id: "3391BEF1F5D814F9"
+				type: "kill"
+				entity: "toadterror:toad_sentinel"
+				value: 1L
+			}]
+		}
+		{
+			x: 8.5d
+			y: 1.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "1B70F0CAA833CE61"
+			tasks: [{
+				id: "6A477FD329734E5F"
+				type: "kill"
+				entity: "ob_aquamirae:drowned_captain"
+				value: 1L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 6.5d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "5197D71BD2E2A610"
+			tasks: [{
+				id: "50F99BB9CE893EA7"
+				type: "kill"
+				entity: "goblinsanddungeons:goblin_king"
+				value: 1L
+			}]
+		}
+		{
+			x: -5.0d
+			y: 6.5d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "592CCD391560F079"
+			tasks: [{
+				id: "639ACEE2B4C2E894"
+				type: "kill"
+				entity: "ba_bt:land_golem"
+				value: 1L
+			}]
+		}
+		{
+			x: 8.0d
+			y: -2.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "25AEEB2E30A7357D"
+			tasks: [{
+				id: "43F71CBF32785269"
+				type: "kill"
+				entity: "cataclysm:ender_golem"
+				value: 1L
+			}]
+		}
+		{
+			x: 8.5d
+			y: -1.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "1D41D45DE7CF9BED"
+			tasks: [{
+				id: "4B61530498CCABDD"
+				type: "kill"
+				entity: "cataclysm:netherite_monstrosity"
+				value: 1L
+			}]
+		}
+		{
+			x: 9.0d
+			y: 0.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "7850D0F0D66E942C"
+			tasks: [{
+				id: "404BF0E11F625F10"
+				type: "kill"
+				entity: "cataclysm:ender_guardian"
+				value: 1L
+			}]
+		}
+		{
+			title: "Ghoul Assassin"
+			x: 0.0d
+			y: 7.5d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "6F12D568A11E02B7"
+			tasks: [{
+				id: "04B0187E8914FAC9"
+				type: "kill"
+				entity: "dannys_expansion:ghoul"
+				value: 5L
+			}]
+		}
+		{
+			title: "Possessed Armor Assassin"
+			x: 5.0d
+			y: 5.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "7E95C3D044DF114C"
+			tasks: [{
+				id: "65D96CC3C8D7E2E2"
+				type: "kill"
+				entity: "dannys_expansion:possessed_armor"
+				value: 5L
+			}]
+		}
+		{
+			title: "Ghost Slayer"
+			x: -3.0d
+			y: 4.5d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "31F838A2E23C7166"
+			tasks: [{
+				id: "64D7D1810C378E77"
+				type: "kill"
+				entity: "iceandfire:ghost"
+				value: 10L
+			}]
+		}
+		{
+			title: "Arachnon Slayer"
+			x: -4.0d
+			y: -4.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "58FBDDAC5435BF4D"
+			tasks: [{
+				id: "4734C9646C52AD2C"
+				type: "kill"
+				entity: "pandoras_creatures:arachnon"
+				value: 10L
+			}]
+		}
+		{
+			title: "Baby Creeper Slayer"
+			x: -3.0d
+			y: -4.5d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "2D5269A952D424B6"
+			tasks: [{
+				id: "31F8C10F4DBB1999"
+				type: "kill"
+				entity: "mekanismadditions:baby_creeper"
+				value: 10L
+			}]
+		}
+		{
+			title: "Baby Skeleton Slayer"
+			x: -2.0d
+			y: -5.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "579233B31B7BA9AB"
+			tasks: [{
+				id: "7D30EC4DA4BA7EE2"
+				type: "kill"
+				entity: "mekanismadditions:baby_skeleton"
+				value: 10L
+			}]
+		}
+		{
+			title: "Baby Enderman Slayer"
+			x: -1.0d
+			y: -5.5d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "72732481E2CD1215"
+			tasks: [{
+				id: "54DCCFB372DA5E28"
+				type: "kill"
+				entity: "mekanismadditions:baby_enderman"
+				value: 10L
+			}]
+		}
+		{
+			title: "Baby Stray Slayer"
+			x: 0.0d
+			y: -6.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "47CD6F28DD404EB2"
+			tasks: [{
+				id: "13F5CB65BA2E994D"
+				type: "kill"
+				entity: "mekanismadditions:baby_stray"
+				value: 10L
+			}]
+		}
+		{
+			title: "Baby Wither Skeleton Slayer"
+			x: 1.0d
+			y: -5.5d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "631A12C92FB00D74"
+			tasks: [{
+				id: "79E5F449D77058A7"
+				type: "kill"
+				entity: "mekanismadditions:baby_wither_skeleton"
+				value: 10L
+			}]
+		}
+		{
+			x: 7.0d
+			y: 4.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "22D4BA3EFB515785"
+			tasks: [{
+				id: "4D79545822F7D7A7"
+				type: "kill"
+				entity: "ars_nouveau:wilden_boss"
+				value: 1L
+			}]
+		}
+		{
+			title: "Zombold Slayer"
+			x: 5.5d
+			y: -1.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "1450A338EEDB91F4"
+			tasks: [{
+				id: "2E4CFBDE45DECB2D"
+				type: "kill"
+				entity: "kobolds:kobold_zombie"
+				value: 10L
+			}]
+		}
+		{
+			title: "Drowned Zombold Slayer"
+			x: 6.0d
+			y: 0.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "7B855452A66ED15F"
+			tasks: [{
+				id: "04C4E56113B20A49"
+				type: "kill"
+				entity: "kobolds:kobold_drowned"
+				value: 10L
+			}]
+		}
+		{
+			title: "Skelebold Slayer"
+			x: 5.5d
+			y: 1.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "4D3D82DFEBC5331A"
+			tasks: [{
+				id: "213EC1CB1AA34C7F"
+				type: "kill"
+				entity: "kobolds:kobold_skeleton"
+				value: 10L
+			}]
+		}
+		{
+			title: "Basalz Assassin"
+			x: -7.0d
+			y: -1.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "0BFEE2737CD7DAB8"
+			tasks: [{
+				id: "519F6F2793BAFE76"
+				type: "kill"
+				entity: "thermal:basalz"
+				value: 5L
+			}]
+		}
+		{
+			title: "Blizz Assassin"
+			x: -6.5d
+			y: -2.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "174F83FAD5D0D870"
+			tasks: [{
+				id: "7B64C05044E37CA4"
+				type: "kill"
+				entity: "thermal:blizz"
+				value: 5L
+			}]
+		}
+		{
+			title: "Blitz Assassin"
+			x: -6.0d
+			y: -3.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "43F7926E0A9199C0"
+			tasks: [{
+				id: "2DF056F7DB9A7CC1"
+				type: "kill"
+				entity: "thermal:blitz"
+				value: 5L
+			}]
+		}
+		{
+			title: "Zotzpyre Assassin"
+			x: -7.5d
+			y: 0.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "66C62041FAD64C22"
+			tasks: [{
+				id: "650F2C124586D348"
+				type: "kill"
+				entity: "whisperwoods:zotzpyre"
+				value: 5L
+			}]
+		}
+		{
+			title: "Wildfire Assassin"
+			x: -5.5d
+			y: -4.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "6C86604F3DB737DC"
+			tasks: [{
+				id: "645B2A06ECFC5812"
+				type: "kill"
+				entity: "outvoted:wildfire"
+				value: 5L
+			}]
+		}
+		{
+			title: "Hunger Assassin"
+			x: -5.0d
+			y: -5.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "1A4E661C7E147838"
+			tasks: [{
+				id: "3179F79C1426BEAC"
+				type: "kill"
+				entity: "outvoted:hunger"
+				value: 5L
+			}]
+		}
+		{
+			title: "Kraken Assassin"
+			x: -4.0d
+			y: -5.5d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "201D5450C626F86C"
+			tasks: [{
+				id: "54F626ADABE7D796"
+				type: "kill"
+				entity: "outvoted:kraken"
+				value: 5L
+			}]
+		}
+		{
+			title: "Hellhound Slayer"
+			x: -4.5d
+			y: -3.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "30ECD62B37061B99"
+			tasks: [{
+				id: "7081884A876DC5F3"
+				type: "kill"
+				entity: "pandoras_creatures:hellhound"
+				value: 10L
+			}]
+		}
+		{
+			title: "Acidic Archvine Slayer"
+			x: -5.0d
+			y: -2.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "231DD3A9F6E8C5FC"
+			tasks: [{
+				id: "3761D0F08F219ED2"
+				type: "kill"
+				entity: "pandoras_creatures:acidic_archvine"
+				value: 10L
+			}]
+		}
+		{
+			x: 7.5d
+			y: 3.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "229DE525745B6186"
+			tasks: [{
+				id: "45375EC90A186681"
+				type: "kill"
+				entity: "pandoras_creatures:end_troll"
+				value: 1L
+			}]
+		}
+		{
+			title: "Lava Moloss Assassin"
+			x: 1.0d
+			y: -7.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "01128098C4D5AEE1"
+			tasks: [{
+				id: "52B9CB0DFE42B487"
+				type: "kill"
+				entity: "organics:lava_moloss"
+				value: 5L
+			}]
+		}
+		{
+			title: "Soulander Slayer"
+			x: 2.0d
+			y: -5.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "29416D06A22E00AB"
+			tasks: [{
+				id: "7A01C578F1F9E838"
+				type: "kill"
+				entity: "organics:soulander"
+				value: 10L
+			}]
+		}
+		{
+			title: "Terracotta Coloss Slayer"
+			x: 3.0d
+			y: -4.5d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "1D990043AA23D6C8"
+			tasks: [{
+				id: "657E7B58BB9D1157"
+				type: "kill"
+				entity: "organics:terracotta_coloss"
+				value: 10L
+			}]
+		}
+		{
+			title: "Drowned Creeper Slayer"
+			x: 4.0d
+			y: -4.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "3A3B5CE272E6B7EE"
+			tasks: [{
+				id: "5F1FE34D93BFB3BD"
+				type: "kill"
+				entity: "organics:drowned_creeper"
+				value: 10L
+			}]
+		}
+		{
+			title: "Wandering Soul Slayer"
+			x: 4.5d
+			y: -3.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "065D2E41C63F3B03"
+			tasks: [{
+				id: "7AD8AED38B5A1837"
+				type: "kill"
+				entity: "organics:wandering_soul"
+				value: 10L
+			}]
+		}
+		{
+			title: "Sand Catcher Slayer"
+			x: 5.0d
+			y: -2.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "5693D501DEE3ECA3"
+			tasks: [{
+				id: "5EDB6DA161D411AD"
+				type: "kill"
+				entity: "organics:sand_catcher"
+				value: 10L
+			}]
+		}
+		{
+			title: "Foliaath Assassin"
+			x: -7.0d
+			y: 1.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "078E30D39B13B394"
+			tasks: [{
+				id: "7B512D8274B4A946"
+				type: "kill"
+				entity: "mowziesmobs:foliaath"
+				value: 5L
+			}]
+		}
+		{
+			title: "Barakoa Assassin"
+			x: -6.0d
+			y: 3.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "16BA4B0C8C1C534C"
+			tasks: [{
+				id: "6FEABBBEADD3E7D2"
+				type: "kill"
+				entity: "mowziesmobs:barakoaya"
+				value: 5L
+			}]
+		}
+		{
+			title: "Barakoana Assassin"
+			x: -6.5d
+			y: 2.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "1FF61FD06A946333"
+			tasks: [{
+				id: "5F45F2594C3D181A"
+				type: "kill"
+				entity: "mowziesmobs:barakoana"
+				value: 5L
+			}]
+		}
+		{
+			x: -5.5d
+			y: 4.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "28565D9A3D468247"
+			tasks: [{
+				id: "04259E272F5770D8"
+				type: "kill"
+				title: "Barakoaya Assassin"
+				entity: "mowziesmobs:barakoa_sunblocker"
+				value: 5L
+			}]
+		}
+		{
+			x: -5.0d
+			y: -6.5d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "45E1A71DCFAC1114"
+			tasks: [{
+				id: "3F91469E77E5DB65"
+				type: "kill"
+				entity: "stalwart_dungeons:awful_ghast"
+				value: 1L
+			}]
+		}
+		{
+			x: -4.0d
+			y: -7.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "548F8C49D23F0B1F"
+			tasks: [{
+				id: "284D8BE1F95E8B1B"
+				type: "kill"
+				entity: "stalwart_dungeons:nether_keeper"
+				value: 1L
+			}]
+		}
+		{
+			title: "Giddy Blaze Assassin"
+			x: 7.5d
+			y: 0.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "3719001E4CD6565B"
+			tasks: [{
+				id: "02A9892301729054"
+				type: "kill"
+				entity: "stalwart_dungeons:giddy_blaze"
+				value: 5L
+			}]
+		}
+		{
+			title: "Incomplete Wither Assassin"
+			x: 7.0d
+			y: 1.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "528B9D9BFA763A32"
+			tasks: [{
+				id: "1D52FD9ADE87EEDE"
+				type: "kill"
+				entity: "stalwart_dungeons:incomplete_wither"
+				value: 5L
+			}]
+		}
+		{
+			title: "Reinforced Blaze Assassin"
+			x: 6.5d
+			y: 2.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "066E49820FB841BC"
+			tasks: [{
+				id: "5FAC500E0C53BE7D"
+				type: "kill"
+				entity: "stalwart_dungeons:reinforced_blaze"
+				value: 5L
+			}]
+		}
+		{
+			title: "Propulk Assassin"
+			x: 6.0d
+			y: 3.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "0B82178A9C3805C1"
+			tasks: [{
+				id: "7838B8E377ED8E47"
+				type: "kill"
+				entity: "stalwart_dungeons:propulk"
+				value: 5L
+			}]
+		}
+		{
+			x: -6.0d
+			y: -6.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "3B9B5401646724B0"
+			tasks: [{
+				id: "1F748254EA59F595"
+				type: "kill"
+				entity: "stalwart_dungeons:shelterer"
+				value: 1L
+			}]
+		}
+		{
+			x: -9.0d
+			y: -8.0d
+			id: "4AB0A9952AFD11D3"
+			tasks: [{
+				id: "116FB65E823A72FF"
+				type: "kill"
+				entity: "wyrmroost:overworld_drake"
+				value: 1L
+			}]
+		}
+		{
+			x: -8.0d
+			y: -9.0d
+			id: "40BDDF1F2DB8AD83"
+			tasks: [{
+				id: "345A06ECEB298F49"
+				type: "kill"
+				entity: "wyrmroost:butterfly_leviathan"
+				value: 1L
+			}]
+		}
+		{
+			x: -9.0d
+			y: -9.0d
+			id: "4625703E30A58B9F"
+			tasks: [{
+				id: "66719227797455C6"
+				type: "kill"
+				entity: "wyrmroost:royal_red"
+				value: 1L
+			}]
+		}
+		{
+			x: -6.5d
+			y: 5.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "1774B9A3F4ACEB23"
+			tasks: [{
+				id: "006820B00F996FE8"
+				type: "kill"
+				entity: "iceandfire:gorgon"
+				value: 1L
+			}]
+		}
+		{
+			title: "Cyclops Assassin"
+			x: 5.0d
+			y: -5.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "3EB523CAC6D74E24"
+			tasks: [{
+				id: "6E41FD608D6C706C"
+				type: "kill"
+				entity: "aoa3:cyclops"
+				value: 5L
+			}]
+		}
+		{
+			title: "Siren Assassin"
+			x: 2.0d
+			y: -6.5d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "6E35ABEF0178C12B"
+			tasks: [{
+				id: "45C0D55471152B55"
+				type: "kill"
+				entity: "iceandfire:siren"
+				value: 5L
+			}]
+		}
+		{
+			title: "Cockatrice Assassin"
+			x: 3.0d
+			y: -6.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "2F7F18972661BBDF"
+			tasks: [{
+				id: "6D409307D0F1416A"
+				type: "kill"
+				entity: "iceandfire:cockatrice"
+				value: 5L
+			}]
+		}
+		{
+			title: "Troll Assassin"
+			x: 4.0d
+			y: -5.5d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "11E7BDCCF4355B9D"
+			tasks: [{
+				id: "701C8E8D8C30D738"
+				type: "kill"
+				entity: "iceandfire:troll"
+				value: 5L
+			}]
+		}
+		{
+			x: -7.0d
+			y: 4.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "43801BB47FF6BFF1"
+			tasks: [{
+				id: "6855CED14C09D882"
+				type: "kill"
+				entity: "iceandfire:myrmex_queen"
+				value: 1L
+			}]
+		}
+		{
+			x: -6.0d
+			y: 6.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "78652D16E4FF437C"
+			tasks: [{
+				id: "30A74BB851E3D1E8"
+				type: "kill"
+				entity: "iceandfire:sea_serpent"
+				value: 1L
+			}]
+		}
+		{
+			x: 9.0d
+			y: 8.0d
+			id: "43ECEF39A5DB0A4A"
+			tasks: [{
+				id: "5B21AA056631E032"
+				type: "kill"
+				entity: "iceandfire:dread_lich"
+				value: 1L
+			}]
+		}
+		{
+			x: 8.0d
+			y: 9.0d
+			id: "10B0B26E73896D38"
+			tasks: [{
+				id: "59680A00859802AC"
+				type: "kill"
+				entity: "iceandfire:hydra"
+				value: 1L
+			}]
+		}
+		{
+			title: "Naga Slayer"
+			x: -2.0d
+			y: 5.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "1129FFEA2F8E3905"
+			tasks: [{
+				id: "7FA798B0697A22F5"
+				type: "kill"
+				entity: "betternether:naga"
+				value: 10L
+			}]
+		}
+		{
+			title: "Skull Slayer"
+			x: -1.0d
+			y: 5.5d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "373D087E6A26A190"
+			tasks: [{
+				id: "2E3A8E8B785A3868"
+				type: "kill"
+				entity: "betternether:skull"
+				value: 10L
+			}]
+		}
+		{
+			title: "Jungle Skeleton Slayer"
+			x: 0.0d
+			y: 6.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "0037399886964606"
+			tasks: [{
+				id: "123D09D83C66FB16"
+				type: "kill"
+				entity: "betternether:jungle_skeleton"
+				value: 10L
+			}]
+		}
+		{
+			x: -6.5d
+			y: -5.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "7DEF59105800D153"
+			tasks: [{
+				id: "7D51B5DF2854AE65"
+				type: "kill"
+				entity: "dungeons_mobs:redstone_golem"
+				value: 1L
+			}]
+		}
+		{
+			title: "Black Scorpion Assassin"
+			x: -5.0d
+			y: 5.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "1F1208D912474A0E"
+			tasks: [{
+				id: "4437A361FE191B5D"
+				type: "kill"
+				entity: "dannys_expansion:black_scorpion"
+				value: 5L
+			}]
+		}
+		{
+			title: "Cursed Skull Assassin"
+			x: -4.0d
+			y: 5.5d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "32DB80749B826DB8"
+			tasks: [{
+				id: "22F2B612E8DE7B01"
+				type: "kill"
+				entity: "dannys_expansion:cursed_skull"
+				value: 5L
+			}]
+		}
+		{
+			x: 9.0d
+			y: 9.0d
+			id: "4D9496656045A9D5"
+			tasks: [{
+				id: "1C04DD67FE1E3C53"
+				type: "kill"
+				entity: "enchantwithmob:enchanter"
+				value: 1L
+			}]
+		}
+		{
+			title: "Ender Beast Archer Assassin"
+			x: -3.0d
+			y: 6.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "1DFA4FCA1E6CFF4D"
+			tasks: [{
+				id: "785650F6414973B1"
+				type: "kill"
+				entity: "dannys_expansion:ender_beast_archer"
+				value: 5L
+			}]
+		}
+		{
+			title: "Ender Beast Lancer Assassin"
+			x: -2.0d
+			y: 6.5d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "734C2336031ABFB0"
+			tasks: [{
+				id: "69EC2E6709117E7D"
+				type: "kill"
+				entity: "dannys_expansion:ender_beast_lancer"
+				value: 5L
+			}]
+		}
+		{
+			title: "Frozen Ghoul Assassin"
+			x: -1.0d
+			y: 7.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "6BF8EF70C266AE87"
+			tasks: [{
+				id: "5BD29D5A9AA60D45"
+				type: "kill"
+				entity: "dannys_expansion:frozen_ghoul"
+				value: 5L
+			}]
+		}
+		{
+			title: "Ice Elemental Assassin"
+			x: 1.0d
+			y: 7.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "0788A2211A202102"
+			tasks: [{
+				id: "20C910F7D8D3BD7C"
+				type: "kill"
+				entity: "dannys_expansion:ice_elemental"
+				value: 5L
+			}]
+		}
+		{
+			title: "Jungle Golem Assassin"
+			x: 2.0d
+			y: 6.5d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "37CA2C91AEF68ED7"
+			tasks: [{
+				id: "4B7D7E14D3747A37"
+				type: "kill"
+				entity: "dannys_expansion:jungle_golem"
+				value: 5L
+			}]
+		}
+		{
+			title: "Magma Gulper Assassin"
+			x: 3.0d
+			y: 6.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "19AA9457FA8C651E"
+			tasks: [{
+				id: "7B1EC37E0F76A2C7"
+				type: "kill"
+				entity: "dannys_expansion:magma_gulper"
+				value: 5L
+			}]
+		}
+		{
+			title: "Mummy Assassin"
+			x: 4.0d
+			y: 5.5d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "6792B3664A3136BD"
+			tasks: [{
+				id: "6B5653F7CEC50445"
+				type: "kill"
+				entity: "dannys_expansion:mummy"
+				value: 5L
+			}]
+		}
+		{
+			title: "Sporer Assassin"
+			x: 5.5d
+			y: 4.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "66F83C95A8CFE85C"
+			tasks: [{
+				id: "6017850DFA67B81F"
+				type: "kill"
+				entity: "dannys_expansion:sporer"
+				value: 5L
+			}]
+		}
+		{
+			title: "Guster Assassin"
+			x: 7.0d
+			y: -1.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "6D51B1C4985F2AA5"
+			tasks: [{
+				id: "5DAE09BBEDCC3787"
+				type: "kill"
+				entity: "alexsmobs:guster"
+				value: 5L
+			}]
+		}
+		{
+			title: "Crimson Mosquito Assassin"
+			x: 6.0d
+			y: -3.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "7B01316BD8B18616"
+			tasks: [{
+				id: "7182F9C5A940398B"
+				type: "kill"
+				entity: "alexsmobs:crimson_mosquito"
+				value: 5L
+			}]
+		}
+		{
+			x: 9.0d
+			y: -8.0d
+			id: "1590CD628F2C5C36"
+			tasks: [{
+				id: "7A9B106EC094DC04"
+				type: "kill"
+				entity: "alexsmobs:centipede_head"
+				value: 1L
+			}]
+		}
+		{
+			title: "Soul Vulture Assassin"
+			x: 6.5d
+			y: -2.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "386BD6E4D5FFF1ED"
+			tasks: [{
+				id: "46712E2C25506AAD"
+				type: "kill"
+				entity: "alexsmobs:soul_vulture"
+				value: 5L
+			}]
+		}
+		{
+			x: -9.0d
+			y: 9.0d
+			id: "06FE7B87668EE236"
+			tasks: [{
+				id: "649479F6F2ACD6D5"
+				type: "kill"
+				entity: "eidolon:necromancer"
+				value: 1L
+			}]
+		}
+		{
+			x: -9.0d
+			y: 8.0d
+			id: "10CEFBF0B5F50122"
+			tasks: [{
+				id: "1EE2EC26C960B0EC"
+				type: "kill"
+				entity: "whisperwoods:hidebehind"
+				value: 1L
+			}]
+		}
+		{
+			x: -8.0d
+			y: 9.0d
+			id: "30D949F4DA14DB32"
+			tasks: [{
+				id: "6FA64967E748A571"
+				type: "kill"
+				entity: "mowziesmobs:naga"
+				value: 1L
+			}]
+		}
+		{
+			x: -7.0d
+			y: -4.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "615E4D445EE45D32"
+			tasks: [{
+				id: "4AAFBA05459E084B"
+				type: "kill"
+				entity: "pandoras_creatures:end_troll"
+				value: 1L
+			}]
+		}
+		{
+			title: "Gob Slayer"
+			x: -5.5d
+			y: -1.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "3EF70263757DA44C"
+			tasks: [{
+				id: "7187C0F95FC70844"
+				type: "kill"
+				entity: "goblinsanddungeons:gob"
+				value: 10L
+			}]
+		}
+		{
+			title: "Hobgob Slayer"
+			x: -6.0d
+			y: 0.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "1AA46B6234D5E8BE"
+			tasks: [{
+				id: "5FD405D86ADB8B8B"
+				type: "kill"
+				entity: "goblinsanddungeons:hobgob"
+				value: 10L
+			}]
+		}
+		{
+			title: "Goblo Slayer"
+			x: -5.5d
+			y: 1.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "45CDD3FA01E59CD6"
+			tasks: [{
+				id: "15984B1F44F3710C"
+				type: "kill"
+				entity: "goblinsanddungeons:goblo"
+				value: 10L
+			}]
+		}
+		{
+			title: "Garch Slayer"
+			x: -5.0d
+			y: 2.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "3602BCFF1FED0D10"
+			tasks: [{
+				id: "00A0588DBCE10647"
+				type: "kill"
+				entity: "goblinsanddungeons:garch"
+				value: 10L
+			}]
+		}
+		{
+			title: "Goom Slayer"
+			x: -4.5d
+			y: 3.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "740FF90E18E48751"
+			tasks: [{
+				id: "0C54B017E4C217F4"
+				type: "kill"
+				entity: "goblinsanddungeons:goom"
+				value: 10L
+			}]
+		}
+		{
+			title: "Gobber Slayer"
+			x: -4.0d
+			y: 4.0d
+			dependencies: ["323EB8ED0CCC894D"]
+			id: "7F77052A5A0A68D4"
+			tasks: [{
+				id: "2C90252B2951FEB0"
+				type: "kill"
+				entity: "goblinsanddungeons:gobber"
+				value: 10L
+			}]
+		}
+		{
+			x: 9.0d
+			y: -2.5d
+			id: "5350A462CABD8F9C"
+			tasks: [{
+				id: "592B7EBB358C5431"
+				type: "kill"
+				entity: "cataclysm:ignis"
+				value: 1L
+			}]
+		}
+		{
+			x: 8.5d
+			y: -3.5d
+			id: "706F108ABD24FDCC"
+			tasks: [{
+				id: "10A8EB9AD1ED0070"
+				type: "kill"
+				entity: "whisperer:whisperer"
+				value: 1L
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			id: "236B491E0ECC995A"
+			tasks: [{
+				id: "1A150AFECE63FFC4"
+				type: "kill"
+				title: "Nasty Skeleton Hunter"
+				entity: "nasty:skeleton"
+				value: 100L
+			}]
+			rewards: [
+				{
+					id: "4D927C30F4BCEC10"
+					type: "random"
+					title: "Slayer's Sack"
+					table_id: 1743747870896494377L
+				}
+				{
+					id: "6E14AB3FB2B6C2D3"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "combat"
+					amount: 250.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -3.5d
+			id: "137E27ABBAA04B27"
+			tasks: [{
+				id: "771FE9C7B059A540"
+				type: "kill"
+				title: "Magma Cube Killer"
+				entity: "specialmobs:magmacube"
+				value: 25L
+			}]
+		}
+		{
+			x: -3.0d
+			y: -2.0d
+			id: "3E47BFFC7211050E"
+			tasks: [{
+				id: "791B94EA39B1845D"
+				type: "kill"
+				title: "Wither Skeleton Killer"
+				entity: "specialmobs:witherskeleton"
+				value: 25L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -3.0d
+			id: "6DCB6D44D6B7ADD8"
+			tasks: [{
+				id: "16EB2E3C80D5AFA1"
+				type: "kill"
+				title: "Zombified Piglin Killer"
+				entity: "specialmobs:zombifiedpiglin"
+				value: 25L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.0d
+			id: "454D8503FF4FE025"
+			tasks: [{
+				id: "4A061D92AE3AAAA7"
+				type: "kill"
+				title: "Vex Killer"
+				entity: "minecraft:vex"
+				value: 25L
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.0d
+			id: "614DE6E2DB3D523B"
+			tasks: [{
+				id: "4DFF51786B2C3C01"
+				type: "kill"
+				title: "Vindicator Killer"
+				entity: "minecraft:vindicator"
+				value: 25L
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			id: "4C065CF61C29D83A"
+			tasks: [{
+				id: "5FAF98F4A5EA1E0D"
+				type: "kill"
+				title: "Silverfish Killer"
+				entity: "specialmobs:silverfish"
+				value: 25L
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.0d
+			id: "70C7917CA8D946D6"
+			tasks: [{
+				id: "664EC49A529D2A72"
+				type: "kill"
+				title: "Evoker Killer"
+				entity: "minecraft:evoker"
+				value: 25L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.0d
+			id: "27E329BEF310513B"
+			tasks: [{
+				id: "47BE10F7EBE14222"
+				type: "kill"
+				title: "Blaze Killer"
+				entity: "specialmobs:blaze"
+				value: 25L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -3.5d
+			id: "6613818BF55930F4"
+			tasks: [{
+				id: "18D0F34230B08DDE"
+				type: "kill"
+				title: "Shulker Killer"
+				entity: "minecraft:shulker"
+				value: 25L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.0d
+			id: "6140E51A3299C659"
+			tasks: [{
+				id: "08E03211EF1B6EF9"
+				type: "kill"
+				title: "Cave Spider Killer"
+				entity: "specialmobs:cavespider"
+				value: 25L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 3.5d
+			id: "521792C28A8D1B35"
+			tasks: [{
+				id: "7512FB614178F92F"
+				type: "kill"
+				title: "Phantom Killer"
+				entity: "minecraft:phantom"
+				value: 25L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.5d
+			id: "3089837A96C432CE"
+			tasks: [{
+				id: "0DF5D0EB7AE5E2E5"
+				type: "kill"
+				title: "Ghast Killer"
+				entity: "specialmobs:ghast"
+				value: 25L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.5d
+			id: "28490F86B5E50781"
+			tasks: [{
+				id: "66826C88611DFDD2"
+				type: "kill"
+				title: "Piglin Hunter"
+				entity: "minecraft:piglin"
+				value: 100L
+			}]
+			rewards: [
+				{
+					id: "2966E94BECCCE150"
+					type: "random"
+					title: "Slayer's Sack"
+					table_id: 1743747870896494377L
+				}
+				{
+					id: "414F9BA751E77B95"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "combat"
+					amount: 250.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 3.0d
+			id: "4F7A48C006FB47EA"
+			tasks: [{
+				id: "3AE02904095D51E8"
+				type: "kill"
+				title: "Piglin Brute Killer"
+				entity: "minecraft:piglin_brute"
+				value: 25L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.5d
+			id: "62AEFBFB08661174"
+			tasks: [{
+				id: "1A937CE2F80DE404"
+				type: "kill"
+				title: "Ravager Killer"
+				entity: "minecraft:ravager"
+				value: 25L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 4.5d
+			id: "0A7C7105A6FC1FF8"
+			tasks: [{
+				id: "3222C9106C27AF97"
+				type: "kill"
+				title: "Wilden Stalker Slayer"
+				entity: "ars_nouveau:wilden_stalker"
+				value: 10L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 4.0d
+			id: "3E0A5E8F3CA70E1B"
+			tasks: [{
+				id: "43031BE24E58ADC0"
+				type: "kill"
+				title: "Wilden Hunter Slayer"
+				entity: "ars_nouveau:wilden_hunter"
+				value: 10L
+			}]
+		}
+	]
+}

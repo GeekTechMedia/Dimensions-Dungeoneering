@@ -1,0 +1,12 @@
+#556 minecraft:beach
+#47F minecraft:birch_forest
+#0D2 minecraft:birch_forest_hills
+#5CC minecraft:dark_forest_hills
+#34D minecraft:deep_lukewarm_ocean
+#3DE minecraft:deep_ocean
+#79A minecraft:lukewarm_ocean
+#4F1 minecraft:ocean
+#4AA byg:rainbow_beach
+#5FF minecraft:river
+#6F9 more_jellyfish:rock_bottom
+#2F3 byg:tropical_islands

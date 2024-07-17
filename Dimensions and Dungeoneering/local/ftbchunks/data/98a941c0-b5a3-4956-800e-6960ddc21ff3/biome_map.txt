@@ -1,0 +1,15 @@
+#461 byg:blue_taiga
+#35F cavebiomeapi:caves
+#653 byg:cold_swamplands
+#06B byg:coniferous_forest
+#4FD projectvibrantjourneys:crystal_lakes
+#64F byg:dover_mountains
+#1F3 cavesandcliffs:dripstone_caves
+#4B0 minecraft:jungle
+#7F2 minecraft:jungle_edge
+#043 minecraft:jungle_hills
+#3DC minecraft:plains
+#7F7 projectvibrantjourneys:redwoods
+#5FF minecraft:river
+#169 minecraft:taiga
+#473 byg:vibrant_swamplands

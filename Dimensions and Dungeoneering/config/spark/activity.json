@@ -1,0 +1,67 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "Spudstak",
+      "uniqueId": "add89720-2fdb-474c-a511-af4a30ca8a05"
+    },
+    "time": 1687037365234,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/b0NUdAgHse"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Spudstak",
+      "uniqueId": "add89720-2fdb-474c-a511-af4a30ca8a05"
+    },
+    "time": 1686969972995,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/7CcOEN2Rcb"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Spudstak",
+      "uniqueId": "add89720-2fdb-474c-a511-af4a30ca8a05"
+    },
+    "time": 1686968173135,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/w4ACYdyH9b"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Spudstak",
+      "uniqueId": "add89720-2fdb-474c-a511-af4a30ca8a05"
+    },
+    "time": 1686959491160,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/M3xjqNK6O3"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Spudstak",
+      "uniqueId": "add89720-2fdb-474c-a511-af4a30ca8a05"
+    },
+    "time": 1676930739884,
+    "type": "Heap dump",
+    "data": {
+      "type": "file",
+      "value": "C:\\Users\\ethan\\curseforge\\minecraft\\Instances\\Dimensions and Dungeoneering\\config\\spark\\heap-2023-02-20_18.05.09.hprof"
+    }
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "type": "origins:starting_equipment",
+  "stacks": [
+    {
+      "item": "artifacts:cross_necklace",
+      "amount": "1"
+    }
+  ],
+  "name": "Artifact of the Church",
+  "description": "Paladins are devoted follower's of the church and because of this they always carry their cross necklace."
+}

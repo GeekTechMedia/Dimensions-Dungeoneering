@@ -1,0 +1,11 @@
+#3FF ars_nouveau:archwood_forest
+#507 projectvibrantjourneys:baobab_fields
+#556 minecraft:beach
+#35F cavebiomeapi:caves
+#72F byg:cherry_blossom_forest
+#73C byg:grassland_plateau
+#04B byg:guiana_clearing
+#6BF byg:guiana_shield
+#66B byg:mangrove_marshes
+#4F1 minecraft:ocean
+#228 byg:rocky_beach

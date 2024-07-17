@@ -1,0 +1,14 @@
+#34C byg:baobab_savanna
+#35F cavebiomeapi:caves
+#5D7 byg:deciduous_forest
+#008 minecraft:desert
+#19B minecraft:desert_hills
+#04E byg:glowshroom_bayou
+#1C1 cavesandcliffs:lush_caves
+#379 minecraft:mountains
+#293 byg:red_desert
+#5FF minecraft:river
+#67B minecraft:savanna
+#298 projectvibrantjourneys:verdant_sands
+#306 minecraft:wooded_mountains
+#06B byg:woodlands

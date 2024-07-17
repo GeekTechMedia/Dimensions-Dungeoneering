@@ -1,0 +1,17 @@
+{
+	id: "1B3B133144D7E54A"
+	order_index: 7
+	title: "Tier II Augments"
+	loot_size: 1
+	rewards: [
+		{ item: "mysticalagriculture:night_vision_augment" }
+		{ item: "mysticalagriculture:water_breathing_augment" }
+		{ item: "mysticalagriculture:absorption_ii_augment" }
+		{ item: "mysticalagriculture:jump_boost_i_augment" }
+		{ item: "mysticalagriculture:health_boost_ii_augment" }
+		{ item: "mysticalagriculture:speed_i_augment" }
+		{ item: "mysticalagriculture:mining_aoe_i_augment" }
+		{ item: "mysticalagriculture:tilling_aoe_i_augment" }
+		{ item: "mysticalagriculture:pathing_aoe_ii_augment" }
+	]
+}

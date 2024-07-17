@@ -1,0 +1,15 @@
+#6F6 minecraft:badlands
+#290 byg:bayou
+#47F minecraft:birch_forest
+#0D2 minecraft:birch_forest_hills
+#35F cavebiomeapi:caves
+#72F byg:cherry_blossom_forest
+#5C0 corundum_meadows:corundum_meadows
+#008 minecraft:desert
+#1C1 cavesandcliffs:lush_caves
+#5F3 byg:meadow
+#48C corundum_meadows:onion_meadows
+#3DC minecraft:plains
+#7E9 byg:redwood_tropics
+#4D3 minecraft:swamp
+#454 minecraft:wooded_badlands_plateau

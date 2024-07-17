@@ -1,0 +1,13 @@
+#507 projectvibrantjourneys:baobab_fields
+#461 byg:blue_taiga
+#35F cavebiomeapi:caves
+#5C0 corundum_meadows:corundum_meadows
+#042 minecraft:giant_tree_taiga
+#655 minecraft:giant_tree_taiga_hills
+#73C byg:grassland_plateau
+#472 projectvibrantjourneys:meadows
+#5C1 byg:red_oak_forest
+#755 byg:seasonal_taiga
+#7C1 projectvibrantjourneys:stony_fields
+#169 minecraft:taiga
+#71E byg:tropical_fungal_forest

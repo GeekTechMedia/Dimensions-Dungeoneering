@@ -1,0 +1,21 @@
+{
+    "mob_id": "minecraft:creeper",
+    "creeper": {
+        "fuse": {
+            "min": 20,
+            "max": 40,
+            "difficulty_modifier": {
+                "world_difficulty": {
+                    "operation": "ADD",
+                    "hard": -5
+                }
+            }
+        },
+        "explosion_radius": {
+            "min": 2,
+            "max": 4
+        },
+        "powered_chance": 0.05,
+        "fire_chance": 0.05
+    }
+}

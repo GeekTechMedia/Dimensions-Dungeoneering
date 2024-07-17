@@ -1,0 +1,12 @@
+{
+  "type": "origins:starting_equipment",
+  "stacks": [
+    {
+      "item": "relics:holy_locket",
+      "amount": "1",
+      "tag": "{Unbreakable:1}"
+    }
+  ],
+  "name": "Holy Artifact",
+  "description": "Clerics refuse to go anywhere without their unbreakable holy locket."
+}

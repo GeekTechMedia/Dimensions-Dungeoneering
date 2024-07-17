@@ -1,0 +1,11 @@
+{
+  "type": "origins:starting_equipment",
+  "stacks": [
+    {
+      "item": "schoolsofmagic:letter_ccw",
+      "amount": "1"
+    }
+  ],
+  "name": "Acceptance Letter",
+  "description": "Sorcerers will already begin their adventure with an acceptance letter to the school of magic."
+}

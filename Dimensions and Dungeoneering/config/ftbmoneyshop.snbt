@@ -1,0 +1,1115 @@
+{
+	tabs: [
+		{
+			title: "Starter Items"
+			icon: "minecraft:grass_block"
+			entries: [
+				{
+					item: { id: "minecraft:oak_log", Count: 64b }
+					buy: 150L
+				}
+				{
+					item: { id: "minecraft:spruce_log", Count: 64b }
+					buy: 150L
+				}
+				{
+					item: { id: "minecraft:birch_log", Count: 64b }
+					buy: 150L
+				}
+				{
+					item: { id: "minecraft:jungle_log", Count: 64b }
+					buy: 150L
+				}
+				{
+					item: { id: "minecraft:acacia_log", Count: 64b }
+					buy: 150L
+				}
+				{
+					item: { id: "minecraft:dark_oak_log", Count: 64b }
+					buy: 150L
+				}
+				{
+					item: "ftbquests:book"
+					buy: 1L
+				}
+				{
+					item: { id: "minecraft:stone", Count: 64b }
+					buy: 200L
+				}
+				{
+					item: { id: "minecraft:granite", Count: 64b }
+					buy: 100L
+				}
+				{
+					item: { id: "minecraft:diorite", Count: 64b }
+					buy: 100L
+				}
+				{
+					item: { id: "minecraft:andesite", Count: 64b }
+					buy: 100L
+				}
+				{
+					item: { id: "minecraft:cobblestone", Count: 64b }
+					buy: 75L
+				}
+				{
+					item: { id: "minecraft:dirt", Count: 64b }
+					buy: 50L
+				}
+				{
+					item: { id: "minecraft:grass_block", Count: 64b }
+					buy: 250L
+				}
+				{
+					item: { id: "minecraft:coarse_dirt", Count: 64b }
+					buy: 100L
+				}
+				{
+					item: { id: "minecraft:podzol", Count: 64b }
+					buy: 250L
+				}
+				{
+					item: { id: "create:limestone", Count: 64b }
+					buy: 300L
+				}
+				{
+					item: { id: "create:weathered_limestone", Count: 64b }
+					buy: 275L
+				}
+				{
+					item: { id: "create:gabbro", Count: 64b }
+					buy: 300L
+				}
+				{
+					item: { id: "create:dolomite", Count: 64b }
+					buy: 350L
+				}
+				{
+					item: {
+						id: "akashictome:tome"
+						Count: 1b
+						tag: {
+							"akashictome:is_morphing": 1b
+							"akashictome:data": {
+								blue_skies: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "blue_skies:blue_journal"
+									Count: 1b
+								}
+								randomloot: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "patchouli:guide_book"
+									Count: 1b
+									tag: {
+										"patchouli:book": "randomloot:randomloot_book"
+									}
+								}
+								psi: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "patchouli:guide_book"
+									Count: 1b
+									tag: {
+										"patchouli:book": "psi:encyclopaedia_psionica"
+									}
+								}
+								mana-and-artifice: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "mana-and-artifice:guide_book"
+									Count: 1b
+								}
+								eidolon: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "eidolon:codex"
+									Count: 1b
+									tag: {
+										"akashictome:displayName": {
+											text: "Ars Ecclesia"
+										}
+										"akashictome:is_morphing": 1b
+										display: {
+											Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Ars Ecclesia\"}]}"
+										}
+									}
+								}
+								aoa3: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "aoa3:worn_book"
+									Count: 1b
+								}
+								silentgear: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "silentgear:guide_book"
+									Count: 1b
+								}
+								extendedcrafting: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "patchouli:guide_book"
+									Count: 1b
+									tag: {
+										"akashictome:displayName": {
+											text: "Extended Crafting"
+										}
+										"patchouli:book": "extendedcrafting:guide"
+										"akashictome:is_morphing": 1b
+										display: {
+											Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Extended Crafting\"}]}"
+										}
+									}
+								}
+								botania: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "botania:lexicon"
+									Count: 1b
+								}
+								feywild: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "feywild:feywild_lexicon"
+									Count: 1b
+									tag: {
+										"akashictome:displayName": {
+											text: "Feywild Lexicon"
+										}
+										"akashictome:is_morphing": 1b
+										display: {
+											Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Feywild Lexicon\"}]}"
+										}
+									}
+								}
+								dimdungeons: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "patchouli:guide_book"
+									Count: 1b
+									tag: {
+										"patchouli:book": "dimdungeons:guide_book"
+									}
+								}
+								obscure_api: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "obscure_api:obscure_book"
+									Count: 1b
+									tag: {
+										"akashictome:displayName": {
+											text: "Obscure Book"
+										}
+										"akashictome:is_morphing": 1b
+										display: {
+											Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Obscure Book\"}]}"
+										}
+									}
+								}
+								thermal: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "patchouli:guide_book"
+									Count: 1b
+									tag: {
+										"patchouli:book": "thermal:guidebook"
+									}
+								}
+								croptopia: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "croptopia:guide"
+									Count: 1b
+								}
+								storagenetwork: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "patchouli:guide_book"
+									Count: 1b
+									tag: {
+										"patchouli:book": "storagenetwork:network_book"
+									}
+								}
+								powah: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "powah:book"
+									Count: 1b
+								}
+								pneumaticcraft: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "patchouli:guide_book"
+									Count: 1b
+									tag: {
+										"patchouli:book": "pneumaticcraft:book"
+									}
+								}
+								naturesaura: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "patchouli:guide_book"
+									Count: 1b
+									tag: {
+										"patchouli:book": "naturesaura:book"
+									}
+								}
+								apotheosis: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "patchouli:guide_book"
+									Count: 1b
+									tag: {
+										"patchouli:book": "apotheosis:apoth_chronicle"
+									}
+								}
+								pedestals: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "patchouli:guide_book"
+									Count: 1b
+									tag: {
+										"patchouli:book": "pedestals:manual"
+									}
+								}
+								outvoted: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "patchouli:guide_book"
+									Count: 1b
+									tag: {
+										"patchouli:book": "outvoted:book"
+									}
+								}
+								occultism: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "occultism:dictionary_of_spirits"
+									Count: 1b
+								}
+								bigreactors: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "patchouli:guide_book"
+									Count: 1b
+									tag: {
+										"patchouli:book": "bigreactors:erguide"
+									}
+								}
+								solcarrot: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "solcarrot:food_book"
+									Count: 1b
+								}
+								ars_nouveau: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "ars_nouveau:worn_notebook"
+									Count: 1b
+								}
+								mysticalworld: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "mysticalworld:encyclopedia"
+									Count: 1b
+								}
+								supplementaries: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "patchouli:guide_book"
+									Count: 1b
+									tag: {
+										"patchouli:book": "supplementaries:supplementaries_guide"
+									}
+								}
+								buddycards: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "patchouli:guide_book"
+									Count: 1b
+									tag: {
+										"patchouli:book": "buddycards:buddycard_guidebook"
+									}
+								}
+								twilightforest: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "patchouli:guide_book"
+									Count: 1b
+									tag: {
+										"patchouli:book": "twilightforest:guide"
+									}
+								}
+								mysticalagriculture: {
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "patchouli:guide_book"
+									Count: 1b
+									tag: {
+										"patchouli:book": "mysticalagriculture:guide"
+									}
+								}
+							}
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 1L
+				}
+				{
+					item: {
+						id: "minecraft:gravel"
+						Count: 32b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 125L
+				}
+			]
+		}
+		{
+			title: "Healing"
+			icon: "firstaid:bandage"
+			entries: [
+				{
+					item: "firstaid:bandage"
+					buy: 50L
+				}
+				{
+					item: "scalinghealth:bandages"
+					buy: 75L
+				}
+				{
+					item: "firstaid:plaster"
+					buy: 25L
+				}
+				{
+					item: "firstaid:morphine"
+					buy: 300L
+				}
+				{
+					item: "scalinghealth:medkit"
+					buy: 125L
+				}
+				{
+					item: "minecraft:golden_apple"
+					buy: 500L
+				}
+				{
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:healing"
+						}
+					}
+					buy: 100L
+				}
+				{
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:strong_healing"
+						}
+					}
+					buy: 150L
+				}
+				{
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:healing"
+						}
+					}
+					buy: 125L
+				}
+				{
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:strong_healing"
+						}
+					}
+					buy: 200L
+				}
+				{
+					item: "minecraft:enchanted_golden_apple"
+					buy: 3000L
+				}
+			]
+		}
+		{
+			title: "Difficulty"
+			icon: "minecraft:skeleton_skull"
+			entries: [
+				{
+					item: "scalinghealth:cursed_heart"
+					buy: 50L
+				}
+				{
+					item: "scalinghealth:chance_heart"
+					buy: 350L
+				}
+				{
+					item: "scalinghealth:enchanted_heart"
+					buy: 500L
+				}
+				{
+					item: {
+						id: "skill_reset_token:skill_reset_token"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 2500L
+				}
+				{
+					item: {
+						id: "origins:orb_of_origin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 2500L
+				}
+			]
+		}
+		{
+			title: "Decorations"
+			icon: "cfm:light_blue_sofa"
+			entries: [
+				{
+					item: "cfm:oak_chair"
+					buy: 25L
+				}
+				{
+					item: "cfm:spruce_chair"
+					buy: 25L
+				}
+				{
+					item: "cfm:birch_chair"
+					buy: 25L
+				}
+				{
+					item: "cfm:jungle_chair"
+					buy: 25L
+				}
+				{
+					item: "cfm:acacia_chair"
+					buy: 25L
+				}
+				{
+					item: "cfm:dark_oak_chair"
+					buy: 25L
+				}
+				{
+					item: "cfm:crimson_chair"
+					buy: 50L
+				}
+				{
+					item: "cfm:warped_chair"
+					buy: 50L
+				}
+				{
+					item: "cfm:stone_chair"
+					buy: 25L
+				}
+				{
+					item: "cfm:granite_chair"
+					buy: 25L
+				}
+				{
+					item: "cfm:diorite_chair"
+					buy: 25L
+				}
+				{
+					item: "cfm:andesite_chair"
+					buy: 25L
+				}
+				{
+					item: "cfm:stripped_oak_chair"
+					buy: 30L
+				}
+				{
+					item: "cfm:stripped_spruce_chair"
+					buy: 30L
+				}
+				{
+					item: "cfm:stripped_birch_chair"
+					buy: 30L
+				}
+				{
+					item: "cfm:stripped_jungle_chair"
+					buy: 30L
+				}
+				{
+					item: "cfm:stripped_acacia_chair"
+					buy: 30L
+				}
+				{
+					item: "cfm:stripped_dark_oak_chair"
+					buy: 30L
+				}
+				{
+					item: "cfm:stripped_crimson_chair"
+					buy: 60L
+				}
+				{
+					item: "cfm:stripped_warped_chair"
+					buy: 60L
+				}
+				{
+					item: "cfm:oak_table"
+					buy: 25L
+				}
+				{
+					item: "cfm:spruce_table"
+					buy: 25L
+				}
+				{
+					item: "cfm:birch_table"
+					buy: 25L
+				}
+				{
+					item: "cfm:jungle_table"
+					buy: 25L
+				}
+				{
+					item: "cfm:acacia_table"
+					buy: 25L
+				}
+				{
+					item: "cfm:dark_oak_table"
+					buy: 25L
+				}
+				{
+					item: "cfm:crimson_table"
+					buy: 50L
+				}
+				{
+					item: "cfm:warped_table"
+					buy: 50L
+				}
+				{
+					item: "cfm:stone_table"
+					buy: 25L
+				}
+				{
+					item: "cfm:granite_table"
+					buy: 25L
+				}
+				{
+					item: "cfm:diorite_table"
+					buy: 25L
+				}
+				{
+					item: "cfm:andesite_table"
+					buy: 25L
+				}
+				{
+					item: "cfm:stripped_oak_table"
+					buy: 30L
+				}
+				{
+					item: "cfm:stripped_spruce_table"
+					buy: 30L
+				}
+				{
+					item: "cfm:stripped_birch_table"
+					buy: 30L
+				}
+				{
+					item: "cfm:stripped_jungle_table"
+					buy: 30L
+				}
+				{
+					item: "cfm:stripped_acacia_table"
+					buy: 30L
+				}
+				{
+					item: "cfm:stripped_dark_oak_table"
+					buy: 30L
+				}
+				{
+					item: "cfm:stripped_crimson_table"
+					buy: 60L
+				}
+				{
+					item: "cfm:stripped_warped_table"
+					buy: 60L
+				}
+				{
+					item: "cfm:oak_coffee_table"
+					buy: 25L
+				}
+				{
+					item: "cfm:spruce_coffee_table"
+					buy: 25L
+				}
+				{
+					item: "cfm:birch_coffee_table"
+					buy: 25L
+				}
+				{
+					item: "cfm:jungle_coffee_table"
+					buy: 25L
+				}
+				{
+					item: "cfm:acacia_coffee_table"
+					buy: 25L
+				}
+				{
+					item: "cfm:dark_oak_coffee_table"
+					buy: 25L
+				}
+				{
+					item: "cfm:crimson_coffee_table"
+					buy: 50L
+				}
+				{
+					item: "cfm:warped_coffee_table"
+					buy: 50L
+				}
+				{
+					item: "cfm:stone_coffee_table"
+					buy: 25L
+				}
+				{
+					item: "cfm:granite_coffee_table"
+					buy: 25L
+				}
+				{
+					item: "cfm:diorite_coffee_table"
+					buy: 25L
+				}
+				{
+					item: "cfm:andesite_coffee_table"
+					buy: 25L
+				}
+				{
+					item: "cfm:stripped_oak_coffee_table"
+					buy: 30L
+				}
+				{
+					item: "cfm:stripped_spruce_coffee_table"
+					buy: 30L
+				}
+				{
+					item: "cfm:stripped_birch_coffee_table"
+					buy: 30L
+				}
+				{
+					item: "cfm:stripped_jungle_coffee_table"
+					buy: 30L
+				}
+				{
+					item: "cfm:stripped_acacia_coffee_table"
+					buy: 30L
+				}
+				{
+					item: "cfm:stripped_dark_oak_coffee_table"
+					buy: 30L
+				}
+				{
+					item: "cfm:stripped_crimson_coffee_table"
+					buy: 60L
+				}
+				{
+					item: "cfm:stripped_warped_coffee_table"
+					buy: 60L
+				}
+			]
+		}
+		{
+			title: "Randomness"
+			icon: "chancecubes:chance_cube"
+			entries: [
+				{
+					item: "randomloot:basic_case"
+					buy: 1000L
+				}
+				{
+					item: "randomloot:golden_case"
+					buy: 2000L
+				}
+				{
+					item: "randomloot:titan_case"
+					buy: 3000L
+				}
+				{
+					item: "chancecubes:chance_cube"
+					buy: 100L
+				}
+				{
+					item: "chancecubes:compact_giant_chance_cube"
+					buy: 900L
+				}
+				{
+					item: "buddycards:mystery_pack"
+					buy: 1000L
+				}
+				{
+					item: "buddycards:booster_box_mystery"
+					buy: 5000L
+				}
+				{
+					item: {
+						id: "aquaculture:treasure_chest"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 50L
+				}
+				{
+					item: {
+						id: "losttrinkets:treasure_bag"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 100L
+				}
+				{
+					item: {
+						id: "aquaculture:lockbox"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 25L
+				}
+				{
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 10L
+				}
+				{
+					item: {
+						id: "better_fishing_rods:common_enchantment_book"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 50L
+				}
+				{
+					item: {
+						id: "better_fishing_rods:rare_enchantment_book"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 100L
+				}
+				{
+					item: {
+						id: "better_fishing_rods:epic_enchantment_book"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 250L
+				}
+				{
+					item: {
+						id: "better_fishing_rods:legendary_enchantment_book"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 500L
+				}
+				{
+					item: {
+						id: "aquamirae:pirate_pouch"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 75L
+				}
+				{
+					item: {
+						id: "aquamirae:treasure_pouch"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 250L
+				}
+				{
+					item: {
+						id: "pandorasbox:pandoras_box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 500L
+				}
+			]
+		}
+		{
+			title: "Tech Components"
+			icon: "mekanism:basic_control_circuit"
+			entries: [
+				{
+					item: "mekanism:basic_control_circuit"
+					buy: 250L
+				}
+				{
+					item: {
+						id: "mekanism:alloy_infused"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 75L
+				}
+				{
+					item: "solarflux:photovoltaic_cell_1"
+					buy: 375L
+				}
+				{
+					item: "solarflux:photovoltaic_cell_2"
+					buy: 625L
+				}
+				{
+					item: "solarflux:photovoltaic_cell_4"
+					buy: 2500L
+				}
+				{
+					item: "solarflux:photovoltaic_cell_5"
+					buy: 5000L
+				}
+				{
+					item: "solarflux:photovoltaic_cell_6"
+					buy: 10000L
+				}
+				{
+					item: "solarflux:photovoltaic_cell_3"
+					buy: 1250L
+				}
+				{
+					item: {
+						id: "pipez:item_pipe"
+						Count: 16b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 250L
+				}
+				{
+					item: {
+						id: "pipez:fluid_pipe"
+						Count: 16b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 250L
+				}
+				{
+					item: {
+						id: "pipez:energy_pipe"
+						Count: 16b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 250L
+				}
+				{
+					item: {
+						id: "pipez:gas_pipe"
+						Count: 16b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 250L
+				}
+			]
+		}
+		{
+			title: "Dungeons"
+			icon: "infinite_dungeons:void_key"
+			entries: [
+				{
+					item: "infinite_dungeons:skeletal_key"
+					buy: 1000L
+				}
+				{
+					item: "infinite_dungeons:nether_key"
+					buy: 2500L
+				}
+				{
+					item: "infinite_dungeons:void_key"
+					buy: 5000L
+				}
+				{
+					item: "dimdungeons:item_portal_key"
+					buy: 500L
+				}
+			]
+		}
+	]
+}

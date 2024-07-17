@@ -1,0 +1,17 @@
+#6EA byg:amaranth_fields
+#3DF projectvibrantjourneys:autumnal_coniferous_forest
+#556 minecraft:beach
+#2E8 byg:bluff_steeps
+#35F cavebiomeapi:caves
+#103 byg:coniferous_forest
+#4FD projectvibrantjourneys:crystal_lakes
+#61B druidcraft:darkwood_forest
+#3B7 projectvibrantjourneys:gravel_shore
+#3A2 byg:great_lakes
+#4F1 minecraft:ocean
+#3DC minecraft:plains
+#228 byg:rocky_beach
+#3A8 byg:seasonal_deciduous_forest
+#71E byg:tropical_fungal_forest
+#473 byg:vibrant_swamplands
+#06B byg:woodlands

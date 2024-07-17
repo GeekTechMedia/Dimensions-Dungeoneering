@@ -1,0 +1,512 @@
+{
+	id: "3F9FE9FFBB58BE64"
+	group: "210F86E2FF26C10B"
+	order_index: 0
+	filename: "microcosm"
+	title: "Minecolonies But Minified!"
+	icon: "microcosm:farm_house_block"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "circle"
+			description: ["Microcosm is basically a city building simulation mod within minecraft. Using the plots provided you can setup resource production for many different types of vanilla resources such as wood, stone, ores, crops, and mob loot!"]
+			id: "13D682E2E3292573"
+			tasks: [{
+				id: "36A4C4DBA42BF10D"
+				type: "checkmark"
+				title: "Microcosm"
+			}]
+			rewards: [
+				{
+					id: "674A07821669BE9E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3F216FECE3DBE798"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: -10.0d
+			y: -6.0d
+			description: ["A decorative block that lays down paths between buildings or industries. Buildings that need water to produce items will need to be connected to a Well via Paths."]
+			dependencies: ["144ABA2BFCDEF6A6"]
+			id: "1943BD3AF163F999"
+			tasks: [{
+				id: "013784733A037A78"
+				type: "item"
+				item: "microcosm:path_none_block"
+			}]
+		}
+		{
+			x: -10.0d
+			y: -8.0d
+			description: ["If a Farmhouse is connected to a Well via Paths it will slowly receive water from the Well. Providing a bonus to growth speeds."]
+			dependencies: ["144ABA2BFCDEF6A6"]
+			id: "0BC968121D25F2E8"
+			tasks: [{
+				id: "27604ED726E983A6"
+				type: "item"
+				item: "microcosm:well_block"
+			}]
+		}
+		{
+			x: -9.5d
+			y: -5.0d
+			description: ["This Microcosm block will provide a very small bonus to growth speeds, but serves a more important role once the Farmhouse reaches level 2 by allowing it to be harvested for honey bottles."]
+			dependencies: ["144ABA2BFCDEF6A6"]
+			id: "3AFE8E2F7154F882"
+			tasks: [{
+				id: "325C1239D908160E"
+				type: "item"
+				item: "microcosm:bee_hives_block"
+			}]
+		}
+		{
+			x: -8.0d
+			y: -8.0d
+			description: ["Think of Middens as giant compost heaps. If is attached to any side of a Farmhouse, it will provide a large bonus to growth and harvest speeds."]
+			dependencies: ["144ABA2BFCDEF6A6"]
+			id: "6DFA77A8E37E0F00"
+			tasks: [{
+				id: "5D1CBE76EA7A68F8"
+				type: "item"
+				item: "microcosm:midden_block"
+			}]
+		}
+		{
+			x: -7.0d
+			y: -7.5d
+			description: ["Every Farmhouse in a 15x15 area of a Silo will occasionally ship it's inventory of harvested crops to it's deep storage system. The Silo can hold up to around 10,000,000 of each specific crop a Farmhouse can produce, including Honey Bottles. As well as serving as a convienant storag solution, the Silo will be what provides other industries like the Bakery, when implemented, with wheat or other produce."]
+			dependencies: ["144ABA2BFCDEF6A6"]
+			id: "5B44AF5B8ABBB3B6"
+			tasks: [{
+				id: "07976C735B9C0847"
+				type: "item"
+				item: "microcosm:silo_block"
+			}]
+		}
+		{
+			x: -7.0d
+			y: -5.0d
+			description: ["A micro village for your micro Farm House."]
+			dependencies: ["144ABA2BFCDEF6A6"]
+			id: "752FBBAA04834AB6"
+			tasks: [{
+				id: "0DF196B4AE630586"
+				type: "item"
+				item: "microcosm:farmer"
+			}]
+		}
+		{
+			x: -9.0d
+			y: -7.0d
+			dependencies: ["752FBBAA04834AB6"]
+			id: "5501C00ABFDA340F"
+			tasks: [{
+				id: "71D80598FF5E0161"
+				type: "item"
+				item: "microcosm:farm_house_block"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -3.0d
+			description: ["Farming is probably one of the best ways to begin Microcosm. This will help your Micro Village produce crops and store them in Silo's."]
+			dependencies: ["13D682E2E3292573"]
+			id: "144ABA2BFCDEF6A6"
+			tasks: [{
+				id: "2E5B4EE691FB65E3"
+				type: "checkmark"
+				title: "Farming"
+			}]
+			rewards: [{
+				id: "0E9E6A44F37A1689"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: 6.0d
+			y: -6.0d
+			description: ["A micro quarryman for your micro Quarry."]
+			dependencies: ["49E9F4421EB74AF5"]
+			id: "250D5D1825DD1919"
+			tasks: [{
+				id: "6870933AE6FE5C45"
+				type: "item"
+				item: "microcosm:quarryman"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -3.0d
+			description: ["Mining plots will allow you to harvest resources like different kinds of stones, ores, and if smelted in a smeltery it will let you get items like iron ingots!"]
+			dependencies: ["13D682E2E3292573"]
+			id: "49E9F4421EB74AF5"
+			tasks: [{
+				id: "7E7DE440206364C1"
+				type: "checkmark"
+				title: "Mining"
+			}]
+			rewards: [{
+				id: "26188B927A753013"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: 8.0d
+			y: -8.0d
+			dependencies: ["250D5D1825DD1919"]
+			id: "3C65DFEC2C5B9229"
+			tasks: [{
+				id: "31C30199C04EDFD0"
+				type: "item"
+				item: "microcosm:quarry_block"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -3.0d
+			dependencies: ["49E9F4421EB74AF5"]
+			id: "055EBD309747AC5B"
+			tasks: [{
+				id: "6D5C962ED7A6700C"
+				type: "item"
+				item: "microcosm:grindstone_block"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -4.0d
+			description: ["A micro miner for your micro Mine Shaft."]
+			dependencies: ["49E9F4421EB74AF5"]
+			id: "170AA960251C84E9"
+			tasks: [{
+				id: "610937E215F2704C"
+				type: "item"
+				item: "microcosm:miner"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -6.0d
+			dependencies: ["170AA960251C84E9"]
+			id: "127DA20CA3E5B053"
+			tasks: [{
+				id: "6D6D63F3FD464B95"
+				type: "item"
+				item: "microcosm:mine_block"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -7.0d
+			dependencies: ["33D0DBA3661E252E"]
+			id: "4A6B34FA8B7E5D60"
+			tasks: [{
+				id: "3FBB3617B5A70098"
+				type: "item"
+				item: "microcosm:smeltery"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -5.0d
+			description: ["A micro smelter for your micro Smeltery."]
+			dependencies: ["49E9F4421EB74AF5"]
+			id: "33D0DBA3661E252E"
+			tasks: [{
+				id: "6391F4BD11A3CB50"
+				type: "item"
+				item: {
+					id: "microcosm:smelter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -9.5d
+			y: 6.5d
+			dependencies: ["159654DA26E1FF69"]
+			id: "3702E67231DA841A"
+			tasks: [{
+				id: "44E02BE1C2E04848"
+				type: "item"
+				item: "microcosm:foresters_hut"
+			}]
+		}
+		{
+			x: -7.5d
+			y: 4.5d
+			description: ["A micro forester for your micro Forester's Hut."]
+			dependencies: ["4B0CF6D0D16D9DC1"]
+			id: "159654DA26E1FF69"
+			tasks: [{
+				id: "0502621BDEF9C7BA"
+				type: "item"
+				item: {
+					id: "microcosm:forester"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 3.0d
+			description: ["Lumber plots help you harvest different types of wood for your micro village."]
+			dependencies: ["13D682E2E3292573"]
+			id: "4B0CF6D0D16D9DC1"
+			tasks: [{
+				id: "647DDA197A544455"
+				type: "checkmark"
+				title: "Lumber"
+			}]
+			rewards: [{
+				id: "416256B99FEFE6CE"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: 5.0d
+			y: 3.0d
+			description: ["Loot plots help you to harvest mob drops from either passive or hostile mobs based on the dimensional portal specified."]
+			dependencies: ["13D682E2E3292573"]
+			id: "0F8AA89B31E6CD62"
+			tasks: [{
+				id: "10C7687A344E1CD7"
+				type: "checkmark"
+				title: "Loot"
+			}]
+			rewards: [{
+				id: "1E56D75EF07E58C4"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -8.5d
+			y: 7.5d
+			dependencies: ["04F06E10AB6D189A"]
+			id: "797C4829157963B8"
+			tasks: [{
+				id: "35BEB70045952B63"
+				type: "item"
+				item: "microcosm:sawmill_block"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 5.5d
+			description: ["A micro lumberjack for your micro Lumber Mill."]
+			dependencies: ["4B0CF6D0D16D9DC1"]
+			id: "04F06E10AB6D189A"
+			tasks: [{
+				id: "09BC16AEF1755CC5"
+				type: "item"
+				item: {
+					id: "microcosm:lumberjack"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 5.5d
+			dependencies: ["69FDE05C595DB360"]
+			id: "77ED1649E9952AED"
+			tasks: [{
+				id: "4A986E48BF0A408C"
+				type: "item"
+				item: "microcosm:vault"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -7.0d
+			dependencies: ["2043BAC37DA9E5F6"]
+			id: "2D7B204B9F2BAFEA"
+			tasks: [{
+				id: "1E198E7C872C19F0"
+				type: "item"
+				item: "microcosm:accelerator"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			description: ["Storage plots allow you to store mass quantities of items in Microcosm. The only plot currently available for this is the Vault."]
+			dependencies: ["13D682E2E3292573"]
+			id: "69FDE05C595DB360"
+			tasks: [{
+				id: "677404C141C4449E"
+				type: "checkmark"
+				title: "Storage"
+			}]
+			rewards: [{
+				id: "209F3DED40E20CE1"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: 8.5d
+			y: 8.0d
+			dependencies: ["6B546A87D75B813B"]
+			id: "6C03EB5692F75439"
+			tasks: [{
+				id: "5FE3682EEC249E91"
+				type: "item"
+				item: "microcosm:explorers_hall"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 5.5d
+			description: ["A micro guildmaster for your micro Explorer's Hall."]
+			dependencies: ["0F8AA89B31E6CD62"]
+			id: "6B546A87D75B813B"
+			tasks: [{
+				id: "1754A5271BE8BEB9"
+				type: "item"
+				item: {
+					id: "microcosm:guildmaster"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: 4.5d
+			description: ["A micro recruit for various micro slaying and collecting methods."]
+			dependencies: ["0F8AA89B31E6CD62"]
+			id: "0B5694B8396EEF3B"
+			tasks: [{
+				id: "19452440D2F9F4FE"
+				type: "item"
+				item: {
+					id: "microcosm:recruit"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 10.0d
+			y: 5.5d
+			dependencies: ["0B5694B8396EEF3B"]
+			id: "395461818A747F2D"
+			tasks: [{
+				id: "03AE6C22E2C96F20"
+				type: "item"
+				item: "microcosm:slayers_dormitory"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 6.5d
+			dependencies: ["0B5694B8396EEF3B"]
+			id: "588D61BD69C6B5B8"
+			tasks: [{
+				id: "3EC01C509800337B"
+				type: "item"
+				item: "microcosm:hunters_den"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 7.0d
+			dependencies: ["0B5694B8396EEF3B"]
+			id: "570D3A3FFA9471FE"
+			tasks: [{
+				id: "4E8E4D6C30BC1652"
+				type: "item"
+				item: "microcosm:seekers_tower"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 8.0d
+			dependencies: ["0F8AA89B31E6CD62"]
+			id: "32B76CF359D2B2C2"
+			tasks: [{
+				id: "185FD00BCA2A7C57"
+				type: "item"
+				item: "microcosm:conduit_portal"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 8.0d
+			dependencies: ["0F8AA89B31E6CD62"]
+			id: "4F6B3CEBB2B12323"
+			tasks: [{
+				id: "70F6FE70A64551DD"
+				type: "item"
+				item: "microcosm:nether_p"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 8.0d
+			dependencies: ["0F8AA89B31E6CD62"]
+			id: "3199A7A05F53CADA"
+			tasks: [{
+				id: "7917869715F6CD58"
+				type: "item"
+				item: "microcosm:end_p"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			description: ["The speed section of this questline contains the accelerator block which will help speed up specific plots!"]
+			dependencies: ["13D682E2E3292573"]
+			id: "0B90770427C15BC2"
+			tasks: [{
+				id: "4556C9D5501484BE"
+				type: "checkmark"
+				title: "Speed"
+			}]
+			rewards: [{
+				id: "367811BCC51A351D"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: 0.0d
+			y: -5.0d
+			description: ["Micro villager essence is one of the most important items in Microcosm it will allow you to craft many differernt mico villages to work in your micro industries."]
+			dependencies: ["0B90770427C15BC2"]
+			id: "2043BAC37DA9E5F6"
+			tasks: [{
+				id: "30FEB5C67A530A52"
+				type: "item"
+				item: "microcosm:micro_villager_essence"
+			}]
+		}
+	]
+}

@@ -1,0 +1,14 @@
+#2E8 byg:bluff_steeps
+#281 byg:boreal_forest
+#1F3 projectvibrantjourneys:boreal_forest
+#35F cavebiomeapi:caves
+#22E projectvibrantjourneys:crimson_thicket
+#443 cavesandcliffs:dripstone_caves
+#010 minecraft:forest
+#379 minecraft:mountains
+#3DC minecraft:plains
+#1CA darkerdepths:sandy_catacombs
+#5ED byg:seasonal_birch_forest
+#3A8 byg:seasonal_deciduous_forest
+#774 minecraft:sunflower_plains
+#306 minecraft:wooded_mountains

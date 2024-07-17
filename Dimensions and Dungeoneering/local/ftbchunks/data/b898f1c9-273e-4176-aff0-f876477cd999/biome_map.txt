@@ -1,0 +1,10 @@
+#3DF projectvibrantjourneys:autumnal_coniferous_forest
+#3AD byg:autumnal_valley
+#556 minecraft:beach
+#35F cavebiomeapi:caves
+#3DE minecraft:deep_ocean
+#64F byg:dover_mountains
+#010 minecraft:forest
+#3B7 projectvibrantjourneys:gravel_shore
+#4F1 minecraft:ocean
+#3DC minecraft:plains

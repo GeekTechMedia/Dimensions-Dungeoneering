@@ -1,0 +1,11 @@
+#0CF corundum_meadows:arid_meadows
+#556 minecraft:beach
+#35F cavebiomeapi:caves
+#008 minecraft:desert
+#103 byg:dunes
+#79A minecraft:lukewarm_ocean
+#090 byg:red_rock_lowlands
+#7AA byg:red_rock_mountains
+#67B minecraft:savanna
+#706 minecraft:savanna_plateau
+#400 minecraft:the_end

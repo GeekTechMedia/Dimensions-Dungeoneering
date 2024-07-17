@@ -1,0 +1,8 @@
+#35F cavebiomeapi:caves
+#4FD projectvibrantjourneys:crystal_lakes
+#4B0 minecraft:jungle
+#7F2 minecraft:jungle_edge
+#043 minecraft:jungle_hills
+#3DC minecraft:plains
+#7F7 projectvibrantjourneys:redwoods
+#5FF minecraft:river

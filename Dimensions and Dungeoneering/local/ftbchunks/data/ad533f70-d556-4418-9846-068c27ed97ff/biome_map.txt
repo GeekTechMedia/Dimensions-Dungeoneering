@@ -1,0 +1,13 @@
+#35F cavebiomeapi:caves
+#4F9 minecraft:dark_forest
+#008 minecraft:desert
+#19B minecraft:desert_hills
+#4B0 minecraft:jungle
+#7F2 minecraft:jungle_edge
+#5F3 byg:meadow
+#3DC minecraft:plains
+#7F7 projectvibrantjourneys:redwoods
+#67B minecraft:savanna
+#706 minecraft:savanna_plateau
+#12E byg:shrublands
+#1DB byg:weeping_witch_forest

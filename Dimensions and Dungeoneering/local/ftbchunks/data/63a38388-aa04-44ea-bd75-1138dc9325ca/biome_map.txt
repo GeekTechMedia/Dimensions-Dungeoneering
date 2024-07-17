@@ -1,0 +1,16 @@
+#556 minecraft:beach
+#461 byg:blue_taiga
+#35F cavebiomeapi:caves
+#34D minecraft:deep_lukewarm_ocean
+#3DE minecraft:deep_ocean
+#79A minecraft:lukewarm_ocean
+#379 minecraft:mountains
+#4F1 minecraft:ocean
+#4AA byg:rainbow_beach
+#3A8 byg:seasonal_deciduous_forest
+#406 minecraft:stone_shore
+#169 minecraft:taiga
+#63C minecraft:taiga_hills
+#71E byg:tropical_fungal_forest
+#2F3 byg:tropical_islands
+#2B7 minecraft:warm_ocean

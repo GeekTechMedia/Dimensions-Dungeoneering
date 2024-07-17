@@ -1,0 +1,14 @@
+#3FF ars_nouveau:archwood_forest
+#6F6 minecraft:badlands
+#47F minecraft:birch_forest
+#0D2 minecraft:birch_forest_hills
+#35F cavebiomeapi:caves
+#5C0 corundum_meadows:corundum_meadows
+#008 minecraft:desert
+#3A2 byg:great_lakes
+#66B byg:mangrove_marshes
+#79C byg:maple_taiga
+#6DB byg:orchard
+#5FF minecraft:river
+#71E byg:tropical_fungal_forest
+#454 minecraft:wooded_badlands_plateau

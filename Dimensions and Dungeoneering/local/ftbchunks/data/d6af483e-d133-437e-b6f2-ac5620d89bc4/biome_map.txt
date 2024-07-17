@@ -1,0 +1,11 @@
+#34C byg:baobab_savanna
+#556 minecraft:beach
+#35F cavebiomeapi:caves
+#34D minecraft:deep_lukewarm_ocean
+#3DE minecraft:deep_ocean
+#010 minecraft:forest
+#73C byg:grassland_plateau
+#79A minecraft:lukewarm_ocean
+#4F1 minecraft:ocean
+#228 byg:rocky_beach
+#2B7 minecraft:warm_ocean

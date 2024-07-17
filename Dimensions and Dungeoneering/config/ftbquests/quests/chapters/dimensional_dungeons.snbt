@@ -1,0 +1,198 @@
+{
+	id: "5709488C88CB9BE7"
+	group: "59C52D0551711357"
+	order_index: 4
+	filename: "dimensional_dungeons"
+	title: "Dungeoneering Forever"
+	icon: "dimdungeons:block_portal_keyhole"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: -12.5d
+		width: 3.0d
+		height: 3.0d
+		rotation: 0.0d
+		image: "dimdungeons:textures/block/block_keyhole_front_lit2.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "circle"
+			description: ["Dimensional Dungeons adds limitless procedurally generated dungeons to Minecraft! These dungeons are all placed in a single, separate dimension which can be accessed from a portal anywhere on the Overworld. This makes the dungeons themselves renewable and it provides challenging, replayable content."]
+			id: "00793F6E8B37AB85"
+			tasks: [{
+				id: "350EF8BF2E6D2C0A"
+				type: "checkmark"
+				title: "Dimensional Dungeons"
+			}]
+			rewards: [
+				{
+					id: "34F67ED85C47340F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "213EBCD6E84FFB81"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			description: ["Your first step is to obtain the guide for the mod. This can either be obtained by switching your akashic tome to this book, or by crafting it."]
+			dependencies: ["00793F6E8B37AB85"]
+			id: "63A3FC622B608623"
+			tasks: [{
+				id: "1B0BB9FEBCB26C4E"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "dimdungeons:guide_book"
+					}
+				}
+			}]
+		}
+		{
+			title: "Portal"
+			x: 0.0d
+			y: -3.0d
+			description: ["The next step is to make the portal itself. These are the blocks required to make the portal, but I highly recommened looking in the book as this portal as not the standard looking portal design."]
+			dependencies: ["63A3FC622B608623"]
+			id: "6205F28290442C85"
+			tasks: [
+				{
+					id: "5D6AF81015474DE8"
+					type: "item"
+					item: "dimdungeons:block_portal_keyhole"
+				}
+				{
+					id: "07C3D4714768DBBE"
+					type: "item"
+					item: "dimdungeons:block_gilded_portal"
+					count: 2L
+				}
+				{
+					id: "0CF1D22B554E6505"
+					type: "item"
+					item: "minecraft:stone_bricks"
+					count: 9L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -4.5d
+			description: ["In order to activate the portal you will need a blank portal key first. Each activated key will lead to a different dungeon meaning that there are endless dungeons to explore!"]
+			dependencies: ["6205F28290442C85"]
+			id: "38367435C129929A"
+			tasks: [{
+				id: "2473B4D64ADFD493"
+				type: "item"
+				item: "dimdungeons:item_portal_key"
+			}]
+		}
+		{
+			icon: "dimdungeons:item_portal_key"
+			x: 0.0d
+			y: -6.0d
+			description: ["In order to activate the portal key you have to right click on the top hole of an end portal frame. If there is already an eye in the portal frame then you can right click on said portal to remove the eye and then right click again to activate the key."]
+			dependencies: ["38367435C129929A"]
+			id: "2B126D8D8280260E"
+			tasks: [{
+				id: "782AB81BDF7C7250"
+				type: "advancement"
+				title: "Activate Basic Portal Key"
+				icon: "dimdungeons:item_portal_key"
+				advancement: "dimdungeons:dungeons/activate_basic_key"
+				criterion: ""
+			}]
+		}
+		{
+			x: 0.0d
+			y: -7.5d
+			description: ["To enter the basic dungeon simply right click the portal keystone block with an activated key and walk through the portal."]
+			dependencies: ["2B126D8D8280260E"]
+			id: "32FCF20CE6F6A354"
+			tasks: [{
+				id: "4E23018A1C147B80"
+				type: "advancement"
+				title: "Enter Basic Dungeon"
+				icon: "aoa3:iromine_portal"
+				advancement: "dimdungeons:dungeons/enter_basic_dungeon"
+				criterion: ""
+			}]
+		}
+		{
+			x: -1.5d
+			y: -9.0d
+			description: ["These blocks are only found in the basic dungeons and cannot be crafted. They are required to upgrade your portal and enter the advanced dungeons."]
+			dependencies: ["32FCF20CE6F6A354"]
+			id: "119E45D189682ED8"
+			tasks: [{
+				id: "2DFAA04BDB2EBA32"
+				type: "item"
+				item: "dimdungeons:block_portal_crown"
+				count: 2L
+			}]
+		}
+		{
+			title: "Find All 8 Trophies"
+			x: 0.0d
+			y: -9.0d
+			description: ["Find all 8 unique trophies hidden throughout the dungeons!"]
+			dependencies: ["32FCF20CE6F6A354"]
+			id: "537C58B53EB90AF4"
+			tasks: [{
+				id: "38D0499F923DF804"
+				type: "advancement"
+				title: "Find all 8 Trophies"
+				icon: "minecraft:item_frame"
+				advancement: "dimdungeons:dungeons/all_trophies"
+				criterion: ""
+			}]
+		}
+		{
+			x: 1.5d
+			y: -9.0d
+			description: ["While adventuring through the dimensional dungeons you may find portal keystone blocks with portal keys already in them. These contain much rarer advanced portal keys which lead to the advanced dungeon!"]
+			dependencies: ["32FCF20CE6F6A354"]
+			id: "61797AAED31B554D"
+			tasks: [{
+				id: "60DD992CAF2E24E9"
+				type: "advancement"
+				title: "Find Advanced Portal Key"
+				icon: "dimdungeons:item_portal_key"
+				advancement: "dimdungeons:dungeons/find_advanced_key"
+				criterion: ""
+			}]
+		}
+		{
+			x: 0.0d
+			y: -10.5d
+			description: ["The final journey in this mod is through the advanced dungeons. These are much bigger than the basic dungeons and contain better loot. You will need to upgrade your portal and obtain the advanced portal key before you can enter. Important to note, you require 2 banners to upgrade your portal to the advanced version."]
+			dependencies: [
+				"119E45D189682ED8"
+				"61797AAED31B554D"
+			]
+			id: "5F55381AEBA29F37"
+			tasks: [{
+				id: "0238B37BFC3E1C9D"
+				type: "advancement"
+				title: "Enter Advanced Dungeon"
+				icon: "aoa3:iromine_portal"
+				advancement: "dimdungeons:dungeons/enter_advanced_dungeon"
+				criterion: ""
+			}]
+		}
+	]
+}

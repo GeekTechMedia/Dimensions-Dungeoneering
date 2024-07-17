@@ -1,0 +1,22 @@
+{
+	"minecraft:chicken":
+	{
+		"farming": 10,
+		"taming": 10
+	},
+	"minecraft:cow":
+	{
+		"farming": 35,
+		"taming": 35
+	},
+	"minecraft:pig":
+	{
+		"farming": 25,
+		"taming": 25
+	},
+	"minecraft:sheep":
+	{
+		"farming": 30,
+		"taming": 30
+	}
+}

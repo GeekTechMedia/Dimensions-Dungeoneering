@@ -1,0 +1,837 @@
+{
+	id: "25509924EABFBA82"
+	group: "31DBD57DDF20D469"
+	order_index: 0
+	filename: "getting_started"
+	title: "Getting Started"
+	icon: "minecraft:oak_log"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 0.1d
+		y: -7.5d
+		width: 10.0d
+		height: 10.0d
+		rotation: 0.0d
+		image: "minecraft:textures/gui/logo.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			title: "Dimensions \\& Dungeoneering"
+			x: 0.0d
+			y: 0.0d
+			shape: "circle"
+			description: [
+				"Welcome to Dimensions \\& Dungeoneering there are hundreds of different structures to find around your world, as well as around 50 different dimensions to explore each with their own unique features! Before that though, there's a few things to introduce you to that will be necessary for you to survive and understand your way around this modpack!"
+				""
+				"If you want to you can skip this part of the questbook until you have some time to read as you should try to find some shelter before nightfall. In that case go to \"The First Steps\" questline as it will tell you how to make some basic tools. Then you can come back to this one later!"
+			]
+			id: "248E9DD6E220CFDD"
+			tasks: [{
+				id: "4ECFFA9D5BF22E81"
+				type: "checkmark"
+				title: "Dimensions \\& Dungeoneering"
+			}]
+			rewards: [
+				{
+					id: "7A484C3DAE03EC1D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "36A900EB803D0F73"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			icon: {
+				id: "losttrinkets:miners_pick"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 0.0d
+			y: -4.5d
+			shape: "octagon"
+			description: ["ProjectMMO is the heart and soul of this modpack. It allows to level up tons of skills to gain benefits as well as limits you from getting certain things too quickly. It adds a whole new progression system. You'll see the skills you earn in the top left corner. Certain weapons and tools will have certain requirement before you can use them. Certain recipies will require you to level up skills in order to have the knowledge to craft them. All in all it is an amazing mod that this modpack revolves around."]
+			dependencies: ["248E9DD6E220CFDD"]
+			id: "04599A086FEF8FB4"
+			tasks: [{
+				id: "622AB88776874C4C"
+				type: "checkmark"
+				title: "Project MMO"
+			}]
+			rewards: [{
+				id: "36166F535821F413"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 4.0d
+			y: -3.5d
+			description: ["The akashic tome will be the place to go if you ever need extra information outside of the quest book. Simply it contains almost every guide book available for mods in this modpack. The Animal Dictionary is one of the few books that cannot be added to the Akashic Tome."]
+			dependencies: ["248E9DD6E220CFDD"]
+			id: "395F5AA13A6380E2"
+			tasks: [{
+				id: "14C9C63A7976F0A6"
+				type: "checkmark"
+				title: "Akashic Tome"
+				icon: "akashictome:tome"
+			}]
+			rewards: [{
+				id: "2AB374168F31FC5E"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			icon: {
+				id: "losttrinkets:creepo"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 3.0d
+			y: -4.0d
+			description: ["Lost Trinkets is a mod that allows you to gain many different abilities. You can unlock this skills by killing bosses, mining blocks, etc, meaning that unlocking them is mostly random based on how long you play. In order to activate your trinkets you will need to open up a menu by pressing a keybind that you will want to set yourself."]
+			dependencies: ["248E9DD6E220CFDD"]
+			id: "0D5E2C9856D39C58"
+			tasks: [{
+				id: "5789866CA6FDD7C7"
+				type: "checkmark"
+				title: "Lost Trinkets"
+			}]
+			rewards: [{
+				id: "4485093D4311014D"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			icon: "firstaid:plaster"
+			x: -3.0d
+			y: -4.0d
+			description: ["First Aid completely revamps the typical health system. Instead of having a health bar the players health will be based off of the health of each of their limbs. This means that if a skeleton shoots you in the head you might die instantly. Your head and body are critical to your survival, however your limbs are less important. You can see each limbs health on the icon on the bottom right corner."]
+			dependencies: ["248E9DD6E220CFDD"]
+			id: "683949E75E2E9918"
+			tasks: [{
+				id: "3B458F65DFAEF4B8"
+				type: "checkmark"
+				title: "First Aid"
+			}]
+			rewards: [{
+				id: "39C958504A237FB7"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			icon: {
+				id: "tombstone:decorative_grave_simple"
+				Count: 1b
+				tag: {
+					model_texture: 0
+				}
+			}
+			x: 3.0d
+			y: 4.0d
+			description: ["Corial Tombstone adds graves when the player is killed. These graves will store the players items so that they won't dissappear over time. To access your grave use the key given to you on your death. Also when the player dies they will be a ghost and be ignored by all mobs until the player performs any action (Damaging a mob, breaking a block, etc), use this to your advantage to retrieve your items!"]
+			dependencies: ["248E9DD6E220CFDD"]
+			id: "3E0D3D41A6588CBB"
+			tasks: [{
+				id: "2BD9ED044DDA0935"
+				type: "checkmark"
+				title: "Corail Tombstone"
+			}]
+			rewards: [{
+				id: "2BC4BF9224480432"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			icon: "scalinghealth:heart_crystal"
+			x: -4.0d
+			y: 3.5d
+			description: ["Scaling Health aims to balance out modpacks, by allowing players, mobs, or both to gain extra health! A difficulty value is tracked for each player. There are several factors that can increase/decrease your difficulty. As difficulty increases, mobs become stronger."]
+			dependencies: ["248E9DD6E220CFDD"]
+			id: "6461CDAF5D1072A5"
+			tasks: [{
+				id: "5D6CEDC15E33B2AF"
+				type: "checkmark"
+				title: "Scaling Health"
+			}]
+			rewards: [{
+				id: "2CA991E12C99FC1E"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			icon: "artifacts:eternal_steak"
+			x: 4.0d
+			y: 3.5d
+			description: ["Diet is a mod that encourages the player to have a varied diet! In your inventory you can view your dietary stats by clicking on the icon. If you are able to keep the percentages high you will recieve buffs to your player."]
+			dependencies: ["248E9DD6E220CFDD"]
+			id: "65BB1D75754E87A0"
+			tasks: [{
+				id: "14C76DE4A13B81D7"
+				type: "checkmark"
+				title: "Diet"
+			}]
+			rewards: [{
+				id: "614F40321A25AD7E"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			icon: {
+				id: "cold_sweat:filled_waterskin"
+				Count: 1b
+				tag: { }
+			}
+			x: 5.0d
+			y: 2.5d
+			description: ["Cold Sweat adds temperature as a mechanic that players will need to work around to survive. This mod is somewhat inspired by Tough as Nails' temperature mechanic, but there are some quality-of-life additions that make dealing with extreme conditions manageable if you have the resources."]
+			dependencies: ["248E9DD6E220CFDD"]
+			id: "1F40EDF680436F2B"
+			tasks: [{
+				id: "7433971A170A638C"
+				type: "checkmark"
+				title: "ColdSweat"
+			}]
+			rewards: [{
+				id: "71370BC3D75A39E3"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			icon: "minecraft:skeleton_skull"
+			x: 6.5d
+			y: 0.0d
+			description: ["Champions is a mod that adds elite mobs of different rarities, with enhanced stats, extra abilities, and extra loot. They are easily recognizable as they will have a boss bar as well as an ability listed below it."]
+			dependencies: ["248E9DD6E220CFDD"]
+			id: "6FAFA3DDEC38E722"
+			tasks: [{
+				id: "0CEC3258A8D3CE5D"
+				type: "checkmark"
+				title: "Champions"
+			}]
+			rewards: [{
+				id: "09133C865139C0CF"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			icon: {
+				id: "enchantwithmob:mob_enchant_book"
+				Count: 1b
+				tag: {
+					Damage: 0
+					StoredMobEnchants: [{
+						MobEnchant: "enchantwithmob:protection"
+						EnchantLevel: 4
+					}]
+				}
+			}
+			x: -3.0d
+			y: 4.0d
+			description: ["Enchant with mob adds the ability to enchant mobs or have randomly spawning mobs with enchants. For example a zombie could have health boost 5 and protection 4. Or you could enchant a pet with protection 4 so they are less likely to die. This mod also adds the enchanter mob from minecraft dungeons into the game. The enchanter will enchant mobs around it and cause them to be stronger and harder to kill."]
+			dependencies: ["248E9DD6E220CFDD"]
+			id: "70A2B7037AB63FC1"
+			tasks: [{
+				id: "1C18CB9C01C72B54"
+				type: "checkmark"
+				title: "Enchant With Mob"
+			}]
+			rewards: [{
+				id: "6981C58400AED009"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			icon: {
+				id: "fairylights:moon_light"
+				Count: 1b
+				tag: {
+					color: 11546150
+				}
+			}
+			x: -1.5d
+			y: 4.5d
+			description: ["Enhanced Celestials is a mod that aims to improve the overall environment of the night by adding lunar events such as Blood moons, Harvest moons, and Blue moons! Blood Moons are a lunar event that cranks up the monster spawn cap as well as preventing the player from sleeping! The harvest moon is a lunar which cranks up both the crop growth rate and crop drop rate! The blue moon is a lunar event that gives you the luck effect and increases the quality of loot in vanilla loot tables!"]
+			dependencies: ["248E9DD6E220CFDD"]
+			id: "72C90EB33C2E7BE3"
+			tasks: [{
+				id: "0865F1D3827A120B"
+				type: "checkmark"
+				title: "Enhanced Celestials"
+			}]
+			rewards: [{
+				id: "767992CEF53B84A9"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			icon: "minecraft:spawner"
+			x: 1.5d
+			y: 4.5d
+			description: ["Harder Spawners makes spawners a bit less overpowered and a bit more dangerous. Spawners don't last forever anymore, but be careful as they might explode when they spawn too many mobs!"]
+			dependencies: ["248E9DD6E220CFDD"]
+			id: "714FE9CF1FBD6823"
+			tasks: [{
+				id: "178CB3F01A88CBD9"
+				type: "checkmark"
+				title: "Harder Spawners"
+			}]
+			rewards: [{
+				id: "0C8A2072F920E50E"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			icon: "minecraft:dragon_head"
+			x: 6.0d
+			y: -1.5d
+			description: ["Progressive Bosses is a mod that makes the wither and ender dragon boss fights harder each time you beat them."]
+			dependencies: ["248E9DD6E220CFDD"]
+			id: "4DBE6663CE65ECE7"
+			tasks: [{
+				id: "6082524EC741F8DD"
+				type: "checkmark"
+				title: "Progressive Bosses"
+			}]
+			rewards: [{
+				id: "32729AE6AFB7836F"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			icon: {
+				id: "minecraft:shield"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -1.5d
+			y: -4.5d
+			description: ["Classes is an addon mod to PMMO that will allow you to specialize in which skills you want to level up faster by giving you a permanent boost to those stats. You can choose your class by bringing up the menu by pressing 'RIGHT_ALT'. Once a class is chosen you cannot change it for any reason."]
+			dependencies: ["248E9DD6E220CFDD"]
+			id: "7DB4530333F0F11D"
+			tasks: [{
+				id: "36F7194B99036630"
+				type: "checkmark"
+				title: "Classes"
+			}]
+			rewards: [{
+				id: "229181BC1243B242"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			icon: "thermal:gold_coin"
+			x: 1.5d
+			y: -4.5d
+			description: ["FTB Money is a mod which adds a shop to the top right corner of the quest book. In this shop you can use money (which can be earned through completing quests) to buy various helpful items."]
+			dependencies: ["248E9DD6E220CFDD"]
+			id: "0618585F467258E4"
+			tasks: [{
+				id: "2D20B29607861FE2"
+				type: "checkmark"
+				title: "FTB Money"
+			}]
+			rewards: [{
+				id: "03FF75E1883767A0"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			icon: "sereneseasons:season_sensor"
+			x: -6.0d
+			y: -1.5d
+			description: ["Serene Seasons is a Minecraft mod that adds seasons.  Grass and foliage colors will change throughout the year, and in the winter, temperatures will shift and allow for snow to fall in some biomes that don't normally receive any.  Seasons also affect various other features, like crop growth (Different crops are limited to different seasons), weather (More rain in Spring, more storms in Summer, etc.), and more!"]
+			dependencies: ["248E9DD6E220CFDD"]
+			id: "5B08894CBCA713C7"
+			tasks: [{
+				id: "4133225E6CF82380"
+				type: "checkmark"
+				title: "Serene Seasons"
+			}]
+			rewards: [{
+				id: "15C777E30FE7E1F4"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			icon: "minecraft:stone_bricks"
+			x: -5.0d
+			y: 2.5d
+			description: ["Many well-known mods make it easier to break blocks (hammers, quarries, veinminer), but not many focus on placing them. This mod makes building easier by providing tools like mirrors, arrays, build modes and a block randomizer. Most of this mods features can be accessed by holding down the LEFT_ALT key and selected a mode from the corresponding wheel."]
+			dependencies: ["248E9DD6E220CFDD"]
+			id: "7F0EFE510913870A"
+			tasks: [{
+				id: "2A3CD6CC3E0ADA21"
+				type: "checkmark"
+				title: "Effortless Building"
+			}]
+			rewards: [{
+				id: "3B7B26B12D105F73"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			icon: "aoa3:shiny_box"
+			x: -6.5d
+			y: 0.0d
+			shape: "circle"
+			description: ["Advent of Ascension is a very large mod that is used in this pack. It contains many different dimensions, tools, armor, guns, mobs, bosses, etc. You will often run into this mod as it has a large influence on this pack so expect lots of strange enemies and dimensions to explore."]
+			dependencies: ["248E9DD6E220CFDD"]
+			id: "4CBAD223CADD12B5"
+			tasks: [{
+				id: "2F0C0B16C2E1C6B9"
+				type: "checkmark"
+				title: "Advent of Ascension"
+			}]
+			rewards: [{
+				id: "6C25454050145D18"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			icon: "evilcraft:exalted_crafter_wooden"
+			x: -6.0d
+			y: 1.5d
+			description: ["CraftTweaker is a mod that can be used to change different recipes in modpacks, and it is used in this pack. This means that certain recipes may not be what you are used to!"]
+			dependencies: ["248E9DD6E220CFDD"]
+			id: "66DC349049DFCCC3"
+			tasks: [{
+				id: "0BBA528D4C853198"
+				type: "checkmark"
+				title: "CraftTweaker"
+			}]
+			rewards: [{
+				id: "3E18F3FE8537EC8A"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			icon: "minecraft:torch"
+			x: 5.0d
+			y: -2.5d
+			description: ["Rubidium Extras is a mod that changes how darkness works in minecraft. If you go into a cave without light you won't be able to see anymore regardless of your brightness settings. Also this mod adds in the Optifine zoom functionaility which by default is set to the \"C\" key though this will likely have to be changed due to keybind conflicts."]
+			dependencies: ["248E9DD6E220CFDD"]
+			id: "08385D4373FBEFA8"
+			tasks: [{
+				id: "2B10330C87E22CC9"
+				type: "checkmark"
+				title: "Rubidium Extras"
+			}]
+			rewards: [{
+				id: "0B4BE970E5F305C2"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			icon: {
+				id: "depth:submarine_item"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -4.0d
+			y: -3.5d
+			description: ["This mod adds a new mechanic where as soon as the player is below 20 blocks of the waters surface, they will begin to take damage. In order to go deeper into the oceans you will need suits of armor that can resist the pressure, or alternatively you could make a submarine."]
+			dependencies: ["248E9DD6E220CFDD"]
+			id: "790A57624A2AA9F2"
+			tasks: [{
+				id: "65DB7984A27FA96C"
+				type: "checkmark"
+				title: "Depth: Hidden World"
+			}]
+			rewards: [{
+				id: "52FD5931FDA3B3FE"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			icon: {
+				id: "losttrinkets:blaze_heart"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 6.0d
+			y: 1.5d
+			description: ["Second chance is a mod that, you guessed it, gives you a second chance if you are instantly killed! If damage would normally one-shot you you will instead be saved by this mod but only have about 3 hearts remaining. The original minecraft damage 'oof' sound will play whenever this effect is applied."]
+			dependencies: ["248E9DD6E220CFDD"]
+			id: "7BD19375F71DB44E"
+			tasks: [{
+				id: "5ED8743CAD10C08B"
+				type: "checkmark"
+				title: "Second Chance"
+			}]
+			rewards: [{
+				id: "1F5F0C62A5DF35C5"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			icon: {
+				id: "skinnedlanterns:zombie_lantern_block"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -5.0d
+			y: -2.5d
+			description: ["Brutal Bosses can make looting dungeons a bit more difficult. Chests that spawn in these dungeons will also have a small chance to spawn a named mob next to it. These mobs will be quite strong so be careful while looting!"]
+			dependencies: ["248E9DD6E220CFDD"]
+			id: "2AD544F76074ED54"
+			tasks: [{
+				id: "46E654C03C4A3EE2"
+				type: "checkmark"
+				title: "Brutal Bosses"
+			}]
+			rewards: [{
+				id: "0797EAE0389CC1B8"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			icon: {
+				id: "solcarrot:food_book"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 0.0d
+			y: 4.5d
+			description: ["Spice of Life: Carrot Edition is a mod that tries to encourage a varied diet similar to the diet mod, but instead of rewarding players for maintaining that varied diet, SOL rewards players by adding to their maximum health. Currently in this pack it rewards 1 new heart per 15 different foods eaten up to a maximum of 600 different food types!"]
+			dependencies: ["248E9DD6E220CFDD"]
+			id: "237B2CE4B35534F8"
+			tasks: [{
+				id: "036952C53ED04BD8"
+				type: "checkmark"
+				title: "Spice Of Life: Carrot Edition"
+			}]
+			rewards: [{
+				id: "2243031E54BA8104"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			icon: "minecraft:wither_skeleton_skull"
+			x: 8.5d
+			y: 0.0d
+			description: ["Undefeatables are mobs similar to Champions that will cause boss like mobs to spawn in your world. Defeating these bosses will cause them to drop equipment depending on the level of the boss. The are recognizable by the colored boss bar that will appear when you approach them."]
+			dependencies: ["248E9DD6E220CFDD"]
+			id: "623ED13A6F81D7B4"
+			tasks: [{
+				id: "0E30E8DF2E2ECD83"
+				type: "checkmark"
+				title: "Undefeatables"
+			}]
+			rewards: [{
+				id: "336AFE8A23BBFC1F"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			icon: "titles:title_scroll_rare"
+			x: 8.0d
+			y: 1.5d
+			description: ["The Titles mod adds titles (suprisingly) which can be equipped and will show in a players username. These titles can be unlocked by completing advancements, completing certain quests, or trading title fragments with librarian villagers. To equip a title the player will have to access a menu which can be opened by pressing the \"T\" key, though this will likely conflict and have to be changed."]
+			dependencies: ["248E9DD6E220CFDD"]
+			id: "6C8E9F01C05E8C5D"
+			tasks: [{
+				id: "4BAACA38FDA27DFA"
+				type: "checkmark"
+				title: "Titles"
+			}]
+			rewards: [{
+				id: "04B893AE2D4DDF88"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			icon: "minecraft:sunflower"
+			x: 8.0d
+			y: -1.5d
+			description: ["Dusk is a mod that raises the mob cap during the night which allows more mobs to spawn. This mod also prevents the player from sleeping until just before midnight (16000 to be exact). This means you will have to wait slightly longer before you are able to skip the night by sleeping."]
+			dependencies: ["248E9DD6E220CFDD"]
+			id: "3F5EE1E587CD527E"
+			tasks: [{
+				id: "4566A4D0BF52AE22"
+				type: "checkmark"
+				title: "Dusk"
+			}]
+			rewards: [{
+				id: "28D7EE3F99637EB7"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			icon: "minecraft:enchanting_table"
+			x: -8.5d
+			y: 0.0d
+			description: ["The Apotheosis mod adds a few different things in the modpack, mostly related to gear creation. Firstly the revamps the enchantment system, it adds affixes which can be applied to gear which will add stats like armor, speed, armor toughness, etc, it adds mini bosses which can spawn randomly or be found in dungeons which drop gear with affixes, as well as a few other tweaks to things like spawners, the fletching table, wandering traders, etc."]
+			dependencies: ["248E9DD6E220CFDD"]
+			id: "06E9B8AE22A1279C"
+			tasks: [{
+				id: "6D313A0ED110EEAE"
+				type: "checkmark"
+				title: "Apotheosis"
+			}]
+			rewards: [{
+				id: "0C5B4781E3641E77"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			icon: {
+				id: "minecraft:iron_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -8.0d
+			y: 1.5d
+			description: ["Equipment Compare is a very useful mod that allows you to compare new equipment that you find to what you are currently wearing. To use this feature simply hover over the piece of equipment you're considering swapping out with your current equipment and press the SHIFT key. This will show both equipment's stats side by side."]
+			dependencies: ["248E9DD6E220CFDD"]
+			id: "7AD0F6BE3052BF9E"
+			tasks: [{
+				id: "5E426D5FED1F937A"
+				type: "checkmark"
+				title: "Equipment Compare"
+			}]
+			rewards: [{
+				id: "0A7503B40CE8D412"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			icon: "minecraft:campfire"
+			x: -7.0d
+			y: -3.0d
+			description: ["Healing Campfire will cause campfires to heal any player within an 8 block radius of a campfire. This can be quite handy early game is it is quite likely you will be taking damage at some point :P."]
+			dependencies: ["248E9DD6E220CFDD"]
+			id: "4722B45A8D952AD1"
+			tasks: [{
+				id: "358A4F36B6D5C9E6"
+				type: "checkmark"
+				title: "Healing Campfire"
+			}]
+			rewards: [{
+				id: "745561F89C9CBA7F"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			icon: "ftbquests:stage_barrier"
+			x: 7.0d
+			y: -3.0d
+			description: ["Game Stages is a mod that lets pack builder change things up a little bit. In this pack it is used to specify three different stages to the modpack. You can find out more about what the stages do in the Game Stages questline titled \"This Modpack Is Staged\"."]
+			dependencies: ["248E9DD6E220CFDD"]
+			id: "23C6DE0A70BB6C1A"
+			tasks: [{
+				id: "396A0FBC20C66549"
+				type: "checkmark"
+				title: "Game Stages"
+			}]
+			rewards: [{
+				id: "1EBAC525612A2DE4"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			icon: "minecraft:lantern"
+			x: 7.0d
+			y: 3.0d
+			description: ["More Overlays Updated is a mod that can be used to tell where mobs will spawn in your world. By pressing the F7 key yellow and red X's will appear on blocks around your world. A yellow X means that that block will spawn a mob during night. A red X means that block can spawn a mob at any time. This can be a very useful feature when trying to prevent hostile mobs from spawning in areas around your base."]
+			dependencies: ["248E9DD6E220CFDD"]
+			id: "39FED579AA89405A"
+			tasks: [{
+				id: "24FD76642A57A731"
+				type: "checkmark"
+				title: "More Overlays Updated"
+			}]
+			rewards: [{
+				id: "326AFC7504A199B7"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			icon: "pipez:ultimate_upgrade"
+			x: 6.0d
+			y: -4.0d
+			description: ["Tiered is a mod that adds random modifiers to the armor, tools, and weapons around the world. These modifiers can add things like attack damage, luck, armor, etc."]
+			dependencies: ["248E9DD6E220CFDD"]
+			id: "65A1972AD2713190"
+			tasks: [{
+				id: "1A8B03EDA3A11D5B"
+				type: "checkmark"
+				title: "Tiered"
+			}]
+			rewards: [{
+				id: "186C917D240CE866"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			icon: "pedestals:bookrange"
+			x: 6.0d
+			y: 4.0d
+			description: ["PlayerEx adds some RPG themed stats to your player. Each of these stats can be increased using experience you gain. The menu can be accessed by opening your inventory and clicking on the scroll in the top right. This mod also limits your maximum health so if you have a lower health value than expected this mod is the cause and you can increase your max health by upgrading your Constitution stat!"]
+			dependencies: ["248E9DD6E220CFDD"]
+			id: "50CA0430EF0DC521"
+			tasks: [{
+				id: "78F5D207219492E6"
+				type: "checkmark"
+				title: "PlayerEx"
+			}]
+			rewards: [{
+				id: "6F4B6F255397D979"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			icon: "relicex:large_health_potion"
+			x: -6.0d
+			y: 4.0d
+			description: ["RelicEx adds a few relics which are items to compliment the PlayerEx mod. This means the relics you find can help to increase your PlayerEx stats! Each relic will have a rarity and that will help determine how many and how much skills increase!"]
+			dependencies: ["248E9DD6E220CFDD"]
+			id: "008F31139709398F"
+			tasks: [{
+				id: "6DF4A7843F0C45D1"
+				type: "checkmark"
+				title: "RelicEx"
+			}]
+			rewards: [{
+				id: "1C5AD6A674D3DD72"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			icon: "origins:orb_of_origin"
+			x: -6.0d
+			y: -4.0d
+			description: [
+				"Origins is the mod that showed up at the beginning of the pack when you logged in. If you want to review what your origin does there is a keybind for it but it will need to be rebound. Also if you chose a origin that you were unhappy with there is a way to change to another one! In the shop there is an orb of origin however it is pricy because having players change origins all of the time would be unbalanced as you are supposed to only use one origin."
+				""
+				"Also something to note. Changing your origin will reset your PMMO skills! So be careful!"
+			]
+			dependencies: ["248E9DD6E220CFDD"]
+			id: "55F7E7DB58C8F148"
+			tasks: [{
+				id: "12E23891660E9519"
+				type: "checkmark"
+				title: "Origins"
+			}]
+			rewards: [{
+				id: "0360C94B87FF68A3"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			icon: "minecraft:creeper_head"
+			x: -8.0d
+			y: -1.5d
+			description: ["Special Mobs adds many different variants to the regular vanilla mobs that you are used to. This causes mobs that would normally spawn as a regular vanilla mob to have a chance to spawn as one of these special variants instead. This will also happen in dungeons from mob spawners to be careful!"]
+			dependencies: ["248E9DD6E220CFDD"]
+			id: "6EDEA5BF3834290D"
+			tasks: [{
+				id: "7CB465CB3C71ACDA"
+				type: "checkmark"
+				title: "Special Mobs"
+			}]
+			rewards: [{
+				id: "2476D7F0DA868B41"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			icon: {
+				id: "thermal:cheese_wedge"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -7.0d
+			y: 3.0d
+			description: ["Anti Mob Farm is a mod that causes mob farms that are based around spawners or just spawning mobs on a platform to be quite ineffiecnt. This is because these methods of spawning mobs can cause lots of lag, be quite overpowered due to the lootboxes they drop, and because I wanted players to use another mod for this in this pack. For more information about that mod please look at the \"Caged In\" questline."]
+			dependencies: ["248E9DD6E220CFDD"]
+			id: "31F42D114A9A9FE7"
+			tasks: [{
+				id: "4C5706740EE7673D"
+				type: "checkmark"
+				title: "Anti Mob Farm"
+			}]
+			rewards: [{
+				id: "0CB8110B6890D3A3"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+	]
+}

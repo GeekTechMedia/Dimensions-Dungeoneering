@@ -1,0 +1,8 @@
+#368 byg:allium_fields
+#556 minecraft:beach
+#3D6 minecraft:cold_ocean
+#705 minecraft:deep_frozen_ocean
+#292 minecraft:frozen_ocean
+#045 byg:jacaranda_forest
+#48C corundum_meadows:onion_meadows
+#5FF minecraft:river

@@ -1,0 +1,11 @@
+#556 minecraft:beach
+#47F minecraft:birch_forest
+#4F9 minecraft:dark_forest
+#109 minecraft:deep_cold_ocean
+#3DE minecraft:deep_ocean
+#66B byg:mangrove_marshes
+#4F1 minecraft:ocean
+#3DC minecraft:plains
+#4AA byg:rainbow_beach
+#293 byg:red_desert
+#2F3 byg:tropical_islands

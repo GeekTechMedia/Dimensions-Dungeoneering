@@ -1,0 +1,9 @@
+#35F cavebiomeapi:caves
+#5D7 byg:deciduous_forest
+#010 minecraft:forest
+#73C byg:grassland_plateau
+#72C organics:hoaky_forest
+#7E9 byg:redwood_tropics
+#5FF minecraft:river
+#71E byg:tropical_fungal_forest
+#6BC byg:tropical_rainforest

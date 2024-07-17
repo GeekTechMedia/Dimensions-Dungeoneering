@@ -1,0 +1,404 @@
+{
+	id: "078DDB100A3BF586"
+	group: "4B5D122F75FB7F81"
+	order_index: 0
+	filename: "your_a_wizard_harry"
+	title: "Your A Wizard, Harry"
+	icon: {
+		id: "schoolsofmagic:apprentice_wand_4"
+		Count: 1b
+		tag: {
+			slotLimit: 4
+		}
+		ForgeCaps: {
+			"dungeons_libraries:built_in_enchantments": {
+				BuiltInEnchantments: [ ]
+			}
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "circle"
+			description: ["Schools of Magic is a magic mod that allows you to cast many spells of various elemental types. It also adds a tea brewing system which provides an early game method of getting potion effects, however getting the exact effects you want can take some experimentation."]
+			id: "2B0D8B20FEE7B5AE"
+			tasks: [{
+				id: "683598CFC4A6413D"
+				type: "checkmark"
+				title: "Schools of Magic: Second Semester"
+			}]
+			rewards: [
+				{
+					id: "6C4FBAC9D4EBDF93"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0A9F3E7B327E900F"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			description: ["The Mysterious Letter is how you begin your wizarding career. In order to obtain one you will need to kill a witch, evoker, or illusioner."]
+			dependencies: ["2B0D8B20FEE7B5AE"]
+			id: "0FBB317570464A68"
+			tasks: [{
+				id: "47E0FE30BBF83A2C"
+				type: "item"
+				item: {
+					id: "schoolsofmagic:letter_ccw"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "63BE0A49299C94CE"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "6C1846141CDB0E44"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "magic"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -6.0d
+			description: ["Your first wand. Can only contain 1 spell."]
+			dependencies: ["7CEAD86709290B46"]
+			id: "2A01BD09AB60A691"
+			tasks: [{
+				id: "3148AF97A598EF51"
+				type: "item"
+				item: {
+					id: "schoolsofmagic:apprentice_wand_1"
+					Count: 1b
+					tag: {
+						slotLimit: 1
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0D8D6A59EB15FCA4"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "3A9FC27D550E083D"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "magic"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -7.5d
+			description: ["A slightly better wand. This one can contain 2 spells."]
+			dependencies: ["2A01BD09AB60A691"]
+			id: "1B15F327DAE99D84"
+			tasks: [{
+				id: "344B1891D2614894"
+				type: "item"
+				item: {
+					id: "schoolsofmagic:apprentice_wand_2"
+					Count: 1b
+					tag: {
+						slotLimit: 2
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6E00471C3C6E3D1D"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "071A5658817297A2"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "magic"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -9.0d
+			description: ["An even better wand. It can contain 3 spells."]
+			dependencies: ["1B15F327DAE99D84"]
+			id: "2280784D648AE9F9"
+			tasks: [{
+				id: "23045D8E4082E9E8"
+				type: "item"
+				item: {
+					id: "schoolsofmagic:apprentice_wand_3"
+					Count: 1b
+					tag: {
+						slotLimit: 3
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "57350E9A0EAE0CE5"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "2D54B1DF44DAEDDB"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "magic"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -10.5d
+			description: [
+				"The best of the best. You'll never guess how many spells it can hold!"
+				"..."
+				"..."
+				"..."
+				"..."
+				"..."
+				"..."
+				"..."
+				"It can hold 4 spells :P."
+			]
+			dependencies: ["2280784D648AE9F9"]
+			id: "17564E8C75BC2116"
+			tasks: [{
+				id: "7A9FABB0594480E6"
+				type: "item"
+				item: {
+					id: "schoolsofmagic:apprentice_wand_4"
+					Count: 1b
+					tag: {
+						slotLimit: 4
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "18B687FF1B805E2C"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "064CBBB28C710D59"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "magic"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			title: "Obtain Any Podium"
+			x: 1.5d
+			y: -5.0d
+			description: ["Podiums can be used to display items, but their primary use is to use the Basic Arcana in order to bind spells to your wand."]
+			dependencies: ["7CEAD86709290B46"]
+			id: "023AEC18BEC04E9F"
+			tasks: [{
+				id: "5E51CFAB76C18C13"
+				type: "item"
+				title: "Any #schoolsofmagic:podiums"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "schoolsofmagic:podiums"
+					}
+				}
+			}]
+			rewards: [{
+				id: "412C0E5A014E575E"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			title: "Obtain Any Mortar"
+			x: -1.5d
+			y: -5.0d
+			description: ["Mortars are used to grind up a variety of materials."]
+			dependencies: ["7CEAD86709290B46"]
+			id: "7EEF1F509FC4C47D"
+			tasks: [{
+				id: "32D76E7040E11447"
+				type: "item"
+				title: "Any #schoolsofmagic:mortars"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "schoolsofmagic:mortars"
+					}
+				}
+			}]
+			rewards: [{
+				id: "6E7BA24AA33DB948"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			title: "Obtain Any Fired Teapot"
+			x: -1.5d
+			y: -6.5d
+			description: ["Teapots are used to craft different forms of tea. There are many different combainations each with their own unique effects. To begin you'll need to place a campfire under a teapot and then place a water bucket into it's inventory. Afterwards you need to put the crushed herbs inside and then you will have your tea!"]
+			dependencies: ["7EEF1F509FC4C47D"]
+			id: "087A9242035D13DB"
+			tasks: [{
+				id: "030E1BCDAC931DDC"
+				type: "item"
+				title: "Any #schoolsofmagic:teapots"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "schoolsofmagic:teapots"
+					}
+				}
+			}]
+			rewards: [{
+				id: "5E4068E74A7CD808"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			title: "Teacups"
+			x: -1.5d
+			y: -8.0d
+			description: ["Teacups are used to drink the tea you create. Placing a teacup in the upper slot on the far right will pour any tea you've created inside it."]
+			dependencies: ["087A9242035D13DB"]
+			id: "74E8C29B215BFE6F"
+			tasks: [{
+				id: "450DC2D8608DAEC8"
+				type: "item"
+				item: {
+					id: "schoolsofmagic:white_teacup"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4E7D04EDA2434FC1"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "4A3441C4C6B55552"
+					type: "item"
+					item: {
+						id: "schoolsofmagic:white_teaplate"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -3.5d
+			description: [
+				"Once you open your letter you should be able to get a piece of paper that contains a quest. Upon completing the quest you will recieve your Basic Arcana. This will be the book that will be your grimoire and will contain all of your spells."
+				""
+				"The Basic Arcana will guide you throughout the rest of the mod so if you need any more information you'll find it there!"
+			]
+			dependencies: ["0FBB317570464A68"]
+			id: "7CEAD86709290B46"
+			tasks: [{
+				id: "4E991795FB5DF4CA"
+				type: "item"
+				item: {
+					id: "schoolsofmagic:basic_arcana"
+					Count: 1b
+					tag: {
+						dye: 15
+						binding: "bronze"
+						book_data_s: "schoolsofmagic_book_basic_arcana"
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "017EF7EF59277C5C"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "0DD7BD89E9E15C9C"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "magic"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+	]
+}

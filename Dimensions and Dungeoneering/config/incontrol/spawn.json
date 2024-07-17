@@ -1,0 +1,20 @@
+[
+  {
+    "mod": "mutantbeasts",
+    "gamestage": "ender_dragon",
+    "result": "allow"
+  },
+  {
+    "mod": "mutantmore",
+    "gamestage": "ender_dragon",
+    "result": "allow"
+  },
+  {
+    "mod": "mutantbeasts",
+    "result": "deny"
+  },
+  {
+    "mod": "mutantmore",
+    "result": "deny"
+  }
+]

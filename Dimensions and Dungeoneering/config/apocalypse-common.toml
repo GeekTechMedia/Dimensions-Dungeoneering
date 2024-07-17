@@ -1,0 +1,185 @@
+
+[rain]
+	#Determines the interval in which rain damage should be dealt in seconds. A value of 2 will inflict rain damage on players every 2 seconds.
+	#Range: 1 ~ 1000
+	rainTickRate = 3
+	#The amount of damage that should be dealt to players on rain tick.
+	#Range: 1 ~ 10000
+	rainDamage = 1
+	#Set to false to disable rain damage, or to true to turn it on.
+	enableRainDamage = false
+
+[difficulty]
+	#If enabled, world difficulty will increased by the configured multiplier
+	multiplayerDifficultyScaling = true
+	#Only relevant if multiplayer difficulty scaling is enabled. For example, a value of 0.05 will apply an additional +5% difficulty increment per online player (If only one player is online this multiplier will not be active)
+	#Range: 0.0 ~ 10.0
+	difficultyMultiplayerRateMult = 0.0
+	#Sets the multiplier used to increase world difficulty when players sleep through a night or thunderstorm.
+	#Range: 1.0 ~ 1000.0
+	sleepPenalty = 1.0
+	#A list of dimensions that should give difficulty penalty. Difficulty increases more in these dimensions.
+	dimensionPenaltyList = ["minecraft:the_nether", "minecraft:the_end"]
+	#The difficulty rate multiplier used when a player enters a dimension with difficulty penalty.
+	#Range: 0.0 ~ 1000.0
+	dimensionPenalty = 0
+	#(Currently unused) If enabled, players that are close to each other will have the average of their difficulty added together used instead of the nearby player with the highest difficulty.
+	averageGroupDifficulty = true
+
+#This section revolves around everything related to the full moon sieges.
+[full_moon]
+	#How many levels of difficulty must pass before the additional full moon mob counts increases. For example, a value of 30.5 will increase the number of full moon mobs spawning during sieges for every 30.5 levels of difficulty passed.
+	#Range: 0.1 ~ 100000.0
+	difficultyUntilNextIncrease = 40.0
+
+	#The difficulty at which a specific type of full moon mob can start to spawn during sieges (It might be smart to let at least one type spawn at 0).
+	[full_moon.spawn_start_difficulties]
+		#Range: 0 ~ 100000
+		breecher = 10
+		#Range: 0 ~ 100000
+		ghost = 0
+		#Range: 0 ~ 100000
+		destroyer = 75
+		#Range: 0 ~ 100000
+		seeker = 50
+		#Range: 0 ~ 100000
+		grump = 20
+
+	#The additional amount of a specific full moon mob that can spawn during a full moon siege. Increases with difficulty.
+	[full_moon.additional_spawn_count]
+		#Range: 0.0 ~ 100.0
+		breecher = 2.0
+		#Range: 0.0 ~ 100.0
+		ghost = 6.0
+		#Range: 0.0 ~ 100.0
+		destroyer = 1.0
+		#Range: 0.0 ~ 100.0
+		seeker = 1.0
+		#Range: 0.0 ~ 100.0
+		grump = 2.5
+
+	#The minimum amount of a specific full moon mob that can spawn during a full moon siege.
+	[full_moon.min_spawn_count]
+		#Range: 0 ~ 100
+		breecher = 4
+		#Range: 0 ~ 100
+		ghost = 4
+		#Range: 0 ~ 100
+		destroyer = 1
+		#Range: 0 ~ 100
+		seeker = 1
+		#Range: 0 ~ 100
+		grump = 2
+
+	#The maximum amount of a specific full moon mob that can spawn during a full moon siege. Keep in mind that since the additional moon mob count increases over time, these values should be carefully considered. Too many mobs will definitely cause problems.
+	[full_moon.max_spawn_count]
+		#Range: 0 ~ 100
+		breecher = 10
+		#Range: 0 ~ 100
+		ghost = 12
+		#Range: 0 ~ 100
+		destroyer = 4
+		#Range: 0 ~ 100
+		seeker = 4
+		#Range: 0 ~ 100
+		grump = 9
+
+[attributes_and_potions]
+	#If enabled, only hostile mobs will be given attribute bonuses and potion effects.
+	mobsOnly = true
+
+	[attributes_and_potions.health]
+		#A list of entity types that do not gain any health bonuses. Empty by default. Example: ["minecraft:creeper", "abundance:screecher"]
+		healthBlacklist = []
+		#The flat bonus gained from a full moon. Default is 10.0 (+10 hearts on full moons).
+		#Range: 0.0 ~ 10000.0
+		healthLunarFlatBonus = 10.0
+		#The multiplier bonus gained from a full moon in percentage. Default is 0.5 (+50% on full moons)
+		#Range: 0.0 ~ 10000.0
+		healthLunarMultBonus = 0.5
+		#The difficulty value for each application of the below values.
+		#Range: 0.1 ~ 10000.0
+		healthTimeSpan = 40.0
+		#The flat bonus given each "_time_span" days.
+		#Range: 0.0 ~ 10000.0
+		healthFlatBonus = 1.0
+		#The maximum flat bonus that can be given over time. Default is -1.0 (no limit).
+		#Range: -1.0 ~ 10000.0
+		healthFlatBonusMax = -1.0
+		#The multiplier bonus given for each "_time_span" days. Default is 0.8 (+80%).
+		#Range: 0.0 ~ 10000.0
+		healthMultBonus = 0.8
+		#The maximum multiplier bonus that can be given over time. Default is -1.0 (no limit).
+		#Range: -1.0 ~ 10000.0
+		healthMultBonusMax = -1.0
+
+	[attributes_and_potions.damage]
+		#A list of entity types that do not gain any damage bonuses. Empty by default. Example: ["minecraft:creeper", "abundance:screecher"]
+		damageBlacklist = []
+		#The flat bonus gained from a full moon. Default is 1.0 (+1 damage on full moons).
+		#Range: 0.0 ~ 10000.0
+		damageLunarFlatBonus = 1.0
+		#The multiplier bonus gained from a full moon. Default is 0.2 (+20% on full moons).
+		#Range: 0.0 ~ 10000.0
+		damageLunarMultBonus = 0.2
+		#The difficulty value for each application of the below values.
+		#Range: 0.1 ~ 10000.0
+		damageTimeSpan = 40.0
+		#The flat bonus given each "_time_span" days. Default is 1.0 (+1 damage)
+		#Range: 0.0 ~ 10000.0
+		damageFlatBonus = 1.0
+		#The maximum flat bonus that can be given over time. Default is -1.0 (no limit).
+		#Range: -1.0 ~ 10000.0
+		damageFlatBonusMax = -1.0
+		#The multiplier bonus given for each "_time_span" days. Default is 0.3 (+30%).
+		#Range: 0.0 ~ 10000.0
+		damageMultBonus = 0.3
+		#The maximum multiplier bonus that can be given over time. Default is 5.0 (+500%).
+		#Range: -1.0 ~ 10000.0
+		damageMultBonusMax = 5.0
+
+	[attributes_and_potions.movement_speed]
+		#A list of entity types that do not gain any speed bonuses. Empty by default. Example: ["minecraft:creeper", "abundance:screecher"]
+		speedBlacklist = []
+		#The multiplier bonus gained from a full moon in percentage. Default is 0.1 (+10% during full moons)
+		#Range: 0.0 ~ 1000.0
+		speedLunarMultBonus = 0.1
+		#The difficulty value for each application of the below values.
+		#Range: 0.1 ~ 10000.0
+		speedTimeSpan = 40.0
+		#The multiplier bonus given for each "_time_span" days. Default is 0.05 (+5%).
+		#Range: 0.0 ~ 10000.0
+		damageMultBonus = 0.05
+		#The maximum multiplier bonus that can be given over time. Default is 0.2 (+20%).
+		#Range: -1.0 ~ 10000.0
+		damageMultBonusMax = 0.2
+
+	[attributes_and_potions.knockback_resistance]
+		#A list of entity types that do not gain any knockback resistance bonuses. Empty by default. Example: ["minecraft:creeper", "abundance:screecher"]
+		knockbackResBlacklist = []
+		#The flat bonus gained from a full moon in percentage. Default is 0.2 (+20% on full moons)
+		#Range: 0.0 ~ 10000.0
+		knockbackResLunarFlatBonus = 0.2
+		#The difficulty value for each application of the below values.
+		#Range: 0.1 ~ 10000.0
+		knockbackResTimeSpan = 40.0
+		#The flat bonus given each "_time_span" days. Default is 0.05 (+5%).
+		#Range: 0.0 ~ 10000.0
+		knockbackResFlatBonus = 0.05
+		#The maximum flat bonus that can be given over time. Default is 0.3 (+30%).
+		#Range: -1.0 ~ 10000.0
+		knockbackResFlatBonusMax = 0.3
+
+[misc]
+	#A list of blocks that the destroyer cannot explode. Generally speaking this list should be empty since destroyers are supposed to destroy any block, but if an exception is absolutely needed, the block in question can be whitelisted here.
+	destroyerProofBlocks = ["minecraft:bedrock"]
+	#This is the chance in percentage for grumps to spawn with a bucket helmet equipped. Grumps with bucket helmets are heavily armored against arrows.
+	#Range: 0 ~ 100
+	grumpBucketHelmetChance = 5
+	#The explosion power of Seeker fireballs.
+	#Range: 1 ~ 10
+	seekerExplosionPower = 4
+	#The explosion power of Destroyer fireballs.
+	#Range: 1 ~ 10
+	destroyerExplosionPower = 2
+

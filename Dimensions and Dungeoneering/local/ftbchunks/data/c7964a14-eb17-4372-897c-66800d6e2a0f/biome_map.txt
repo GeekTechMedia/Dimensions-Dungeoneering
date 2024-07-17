@@ -1,0 +1,9 @@
+#674 minecraft:flower_forest
+#010 minecraft:forest
+#379 minecraft:mountains
+#5FF minecraft:river
+#774 minecraft:sunflower_plains
+#169 minecraft:taiga
+#63C minecraft:taiga_hills
+#452 minecraft:wooded_hills
+#306 minecraft:wooded_mountains

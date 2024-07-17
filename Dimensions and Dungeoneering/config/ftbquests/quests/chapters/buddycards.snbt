@@ -1,0 +1,3719 @@
+{
+	id: "7CB24715059900F3"
+	group: "210F86E2FF26C10B"
+	order_index: 1
+	filename: "buddycards"
+	title: "Collector of Cards"
+	icon: "buddycards:pack.1"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 9.0d
+			y: -7.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "buddycards:textures/items/nether_set/pack.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 7.0d
+			y: -9.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "buddycards:textures/items/nether_set/pack.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -1.0d
+			y: -11.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "buddycards:textures/items/end_set/pack.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 1.0d
+			y: -11.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "buddycards:textures/items/end_set/pack.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -7.0d
+			y: -9.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "buddycards:textures/items/base_set/pack.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -9.0d
+			y: -7.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "buddycards:textures/items/base_set/pack.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "circle"
+			description: ["Buddycards is a mod which is kinda like pokemon cards in minecraft! It allows you to try to collect them all and gives you bonuses when you do! This questline might not have as many descriptions in each quest because the book does a very good job at explaining every item in the mod!"]
+			id: "3E55528A6C37BB99"
+			tasks: [{
+				id: "1841D2B48854910F"
+				type: "checkmark"
+				title: "Buddycards"
+			}]
+			rewards: [
+				{
+					id: "1EEBF0F5E86B46D5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3416FB8F68B4F09B"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: -15.0d
+			y: -15.0d
+			shape: "circle"
+			dependencies: ["3E55528A6C37BB99"]
+			id: "6672C82E59050AEC"
+			tasks: [{
+				id: "37FB9700FEF0441A"
+				type: "item"
+				item: "buddycards:pack.1"
+			}]
+			rewards: [{
+				id: "02E5C7EB742A92A1"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: 15.0d
+			y: -15.0d
+			shape: "circle"
+			dependencies: ["3E55528A6C37BB99"]
+			id: "73176E66120B476B"
+			tasks: [{
+				id: "2F655DA685779D79"
+				type: "item"
+				item: "buddycards:pack.2"
+			}]
+			rewards: [{
+				id: "6C0FF855437CE43C"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -20.0d
+			shape: "circle"
+			dependencies: ["3E55528A6C37BB99"]
+			id: "6CD5CEADC2A4035A"
+			tasks: [{
+				id: "36F88B2CEA5A71E3"
+				type: "item"
+				item: "buddycards:pack.3"
+			}]
+			rewards: [{
+				id: "1E9CA1B9B004301B"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: -15.0d
+			y: 15.0d
+			shape: "circle"
+			dependencies: ["08406BBD8A6EFE42"]
+			id: "397ED72D00776F57"
+			tasks: [{
+				id: "1C9C19E141C10ED5"
+				type: "item"
+				item: "buddycards:pack.4"
+			}]
+			rewards: [{
+				id: "6EE94A13E1942E61"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: 15.0d
+			y: 15.0d
+			shape: "circle"
+			dependencies: ["7759548EB8C592E8"]
+			id: "5B4678599B30F87F"
+			tasks: [{
+				id: "07A34E50313AE568"
+				type: "item"
+				item: "buddycards:pack.5"
+			}]
+			rewards: [{
+				id: "48E1EF84A4A4D30A"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: -5.0d
+			y: 25.0d
+			shape: "circle"
+			dependencies: ["315C643A75423539"]
+			id: "16B6E7B3F050FAFE"
+			tasks: [{
+				id: "7A271095A24A5376"
+				type: "item"
+				item: "buddycards:pack.6"
+			}]
+			rewards: [{
+				id: "4241DAF390E86DAA"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 25.0d
+			shape: "circle"
+			dependencies: ["668B3135B8CC8733"]
+			id: "0FDA87A7365BCAB9"
+			tasks: [{
+				id: "3158145085FA6958"
+				type: "item"
+				item: "buddycards:pack.7"
+			}]
+			rewards: [{
+				id: "5954CE3A7E867C05"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: -15.0d
+			y: -17.5d
+			dependencies: ["6672C82E59050AEC"]
+			id: "30828BB71F2CFDF1"
+			tasks: [{
+				id: "0DCD97552688D067"
+				type: "item"
+				item: "buddycards:card.1.1"
+			}]
+			rewards: [{
+				id: "06A426D6273AA8C0"
+				type: "ftbmoney:money"
+				ftb_money: 3L
+			}]
+		}
+		{
+			x: -14.0d
+			y: -17.0d
+			dependencies: ["6672C82E59050AEC"]
+			id: "7A23E9ACE21B3FA3"
+			tasks: [{
+				id: "7235642AA838983C"
+				type: "item"
+				item: "buddycards:card.1.2"
+			}]
+			rewards: [{
+				id: "4F260B6E027398C3"
+				type: "ftbmoney:money"
+				ftb_money: 3L
+			}]
+		}
+		{
+			x: -13.0d
+			y: -16.0d
+			dependencies: ["6672C82E59050AEC"]
+			id: "181F74FB3F2F3AC8"
+			tasks: [{
+				id: "46BEF526135F5C1D"
+				type: "item"
+				item: "buddycards:card.1.3"
+			}]
+			rewards: [{
+				id: "0FD5A8205A57CD0D"
+				type: "ftbmoney:money"
+				ftb_money: 3L
+			}]
+		}
+		{
+			x: -12.5d
+			y: -15.0d
+			dependencies: ["6672C82E59050AEC"]
+			id: "3B15498A9D8C7FE0"
+			tasks: [{
+				id: "04E4C05711E11ED3"
+				type: "item"
+				item: "buddycards:card.1.4"
+			}]
+			rewards: [{
+				id: "211D2251B6352860"
+				type: "ftbmoney:money"
+				ftb_money: 3L
+			}]
+		}
+		{
+			x: -13.0d
+			y: -14.0d
+			dependencies: ["6672C82E59050AEC"]
+			id: "5EFAED3F8F7C044E"
+			tasks: [{
+				id: "30119E88B40C4EDC"
+				type: "item"
+				item: "buddycards:card.1.5"
+			}]
+			rewards: [{
+				id: "4AF7730B9315B415"
+				type: "ftbmoney:money"
+				ftb_money: 3L
+			}]
+		}
+		{
+			x: -14.0d
+			y: -13.0d
+			dependencies: ["6672C82E59050AEC"]
+			id: "65CDBCED4E9F89D2"
+			tasks: [{
+				id: "0D54C074830EB22B"
+				type: "item"
+				item: "buddycards:card.1.6"
+			}]
+			rewards: [{
+				id: "40C34D13695A5F84"
+				type: "ftbmoney:money"
+				ftb_money: 3L
+			}]
+		}
+		{
+			x: -15.0d
+			y: -12.5d
+			dependencies: ["6672C82E59050AEC"]
+			id: "55BF87C6D4DA1B3A"
+			tasks: [{
+				id: "35E04AAA0683D1A2"
+				type: "item"
+				item: "buddycards:card.1.7"
+			}]
+			rewards: [{
+				id: "3298FB5DBBCE547A"
+				type: "ftbmoney:money"
+				ftb_money: 3L
+			}]
+		}
+		{
+			x: -16.0d
+			y: -13.0d
+			dependencies: ["6672C82E59050AEC"]
+			id: "5233F4B2A1336892"
+			tasks: [{
+				id: "3221BBC665E2DFB1"
+				type: "item"
+				item: "buddycards:card.1.8"
+			}]
+			rewards: [{
+				id: "4A2CC68BFD4B7703"
+				type: "ftbmoney:money"
+				ftb_money: 3L
+			}]
+		}
+		{
+			x: -17.0d
+			y: -14.0d
+			dependencies: ["6672C82E59050AEC"]
+			id: "635C5F32B7C6629B"
+			tasks: [{
+				id: "26B64424A6ABDA6A"
+				type: "item"
+				item: "buddycards:card.1.9"
+			}]
+			rewards: [{
+				id: "02BA7BDBFB485145"
+				type: "ftbmoney:money"
+				ftb_money: 3L
+			}]
+		}
+		{
+			x: -17.5d
+			y: -15.0d
+			dependencies: ["6672C82E59050AEC"]
+			id: "1089FF79FD8707B1"
+			tasks: [{
+				id: "639909868CD8580A"
+				type: "item"
+				item: "buddycards:card.1.10"
+			}]
+			rewards: [{
+				id: "2F91F9282D14DFC8"
+				type: "ftbmoney:money"
+				ftb_money: 3L
+			}]
+		}
+		{
+			x: -17.0d
+			y: -16.0d
+			dependencies: ["6672C82E59050AEC"]
+			id: "497D02969B6F4B5A"
+			tasks: [{
+				id: "3032158020ADB055"
+				type: "item"
+				item: "buddycards:card.1.11"
+			}]
+			rewards: [{
+				id: "775F4ED77FDD1FC9"
+				type: "ftbmoney:money"
+				ftb_money: 3L
+			}]
+		}
+		{
+			x: -16.0d
+			y: -17.0d
+			dependencies: ["6672C82E59050AEC"]
+			id: "683B2EBA7E1C80F3"
+			tasks: [{
+				id: "1A90C5E73A014460"
+				type: "item"
+				item: "buddycards:card.1.12"
+			}]
+			rewards: [{
+				id: "4EBAD0B0D3123185"
+				type: "ftbmoney:money"
+				ftb_money: 3L
+			}]
+		}
+		{
+			x: -15.0d
+			y: -19.0d
+			shape: "hexagon"
+			dependencies: ["6672C82E59050AEC"]
+			id: "35AB6085BBE24529"
+			tasks: [{
+				id: "2B0DE3AD5B741BD8"
+				type: "item"
+				item: "buddycards:card.1.13"
+			}]
+			rewards: [{
+				id: "4BCCAE50667352E1"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -12.5d
+			y: -17.5d
+			shape: "hexagon"
+			dependencies: ["6672C82E59050AEC"]
+			id: "105DF241E1C17484"
+			tasks: [{
+				id: "72F3F01329429812"
+				type: "item"
+				item: "buddycards:card.1.14"
+			}]
+			rewards: [{
+				id: "3ADE94F3DEA9F9EC"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -11.0d
+			y: -15.5d
+			shape: "hexagon"
+			dependencies: ["6672C82E59050AEC"]
+			id: "547FA32AC7E83A47"
+			tasks: [{
+				id: "35EAFD8B770330E0"
+				type: "item"
+				item: "buddycards:card.1.15"
+			}]
+			rewards: [{
+				id: "204AA13E4D1A42E6"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -11.5d
+			y: -13.0d
+			shape: "hexagon"
+			dependencies: ["6672C82E59050AEC"]
+			id: "71D37D9F0A1B882F"
+			tasks: [{
+				id: "7AC2396F7DA3891D"
+				type: "item"
+				item: "buddycards:card.1.16"
+			}]
+			rewards: [{
+				id: "15CAE01422FEEF89"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -14.0d
+			y: -11.0d
+			shape: "hexagon"
+			dependencies: ["6672C82E59050AEC"]
+			id: "3F0E176BD63D8E89"
+			tasks: [{
+				id: "0714BF63A6197BAD"
+				type: "item"
+				item: "buddycards:card.1.17"
+			}]
+			rewards: [{
+				id: "60CF3047E526BFC4"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -16.0d
+			y: -11.0d
+			shape: "hexagon"
+			dependencies: ["6672C82E59050AEC"]
+			id: "41DBE6E65DC3E208"
+			tasks: [{
+				id: "35BF4873EDB983C7"
+				type: "item"
+				item: "buddycards:card.1.18"
+			}]
+			rewards: [{
+				id: "2941F203890D155D"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -18.5d
+			y: -13.0d
+			shape: "hexagon"
+			dependencies: ["6672C82E59050AEC"]
+			id: "34854152EB03B95A"
+			tasks: [{
+				id: "4F92AB6F1946C7A7"
+				type: "item"
+				item: "buddycards:card.1.19"
+			}]
+			rewards: [{
+				id: "180D59B4D88CBE07"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -19.0d
+			y: -15.5d
+			shape: "hexagon"
+			dependencies: ["6672C82E59050AEC"]
+			id: "227AA7DE3E60251B"
+			tasks: [{
+				id: "4BC6425A1AFE5FA5"
+				type: "item"
+				item: "buddycards:card.1.20"
+			}]
+			rewards: [{
+				id: "028888E69A04BB6D"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -17.5d
+			y: -17.5d
+			shape: "hexagon"
+			dependencies: ["6672C82E59050AEC"]
+			id: "517B5EA43DC81874"
+			tasks: [{
+				id: "22B8304CAD679231"
+				type: "item"
+				item: "buddycards:card.1.21"
+			}]
+			rewards: [{
+				id: "44E5E5E719F1F625"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -11.0d
+			y: -19.0d
+			shape: "pentagon"
+			dependencies: ["6672C82E59050AEC"]
+			id: "07F77DA355A28B59"
+			tasks: [{
+				id: "15CE6625961F7A35"
+				type: "item"
+				item: "buddycards:card.1.22"
+			}]
+			rewards: [{
+				id: "42B5402A11059AAB"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: -11.0d
+			y: -11.0d
+			shape: "pentagon"
+			dependencies: ["6672C82E59050AEC"]
+			id: "64CC4EF79446C3D2"
+			tasks: [{
+				id: "58EAB572AACD31D8"
+				type: "item"
+				item: "buddycards:card.1.23"
+			}]
+			rewards: [{
+				id: "6277F7FF3A95DF06"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: -19.0d
+			y: -11.0d
+			shape: "pentagon"
+			dependencies: ["6672C82E59050AEC"]
+			id: "34228E581F2566EC"
+			tasks: [{
+				id: "5BA033DFDFAAA04C"
+				type: "item"
+				item: "buddycards:card.1.24"
+			}]
+			rewards: [{
+				id: "451B166135F114C4"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: -19.0d
+			y: -19.0d
+			shape: "pentagon"
+			dependencies: ["6672C82E59050AEC"]
+			id: "53AA9CF64EDF30BD"
+			tasks: [{
+				id: "3149D629826C9769"
+				type: "item"
+				item: "buddycards:card.1.25"
+			}]
+			rewards: [{
+				id: "4D3F062AAFCA72FC"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: -21.0d
+			y: -15.0d
+			shape: "diamond"
+			dependencies: ["6672C82E59050AEC"]
+			id: "2488DB714502B159"
+			tasks: [{
+				id: "5D2A0B2D00421C81"
+				type: "item"
+				item: "buddycards:card.1.26"
+			}]
+			rewards: [{
+				id: "52CDEDCCE61BE05C"
+				type: "ftbmoney:money"
+				ftb_money: 25L
+			}]
+		}
+		{
+			x: -9.0d
+			y: -15.0d
+			shape: "diamond"
+			dependencies: ["6672C82E59050AEC"]
+			id: "37E2CD9394AEB622"
+			tasks: [{
+				id: "40619009A46BD64A"
+				type: "item"
+				item: "buddycards:card.1.27"
+			}]
+			rewards: [{
+				id: "20457A0F2A586B28"
+				type: "ftbmoney:money"
+				ftb_money: 25L
+			}]
+		}
+		{
+			x: -15.0d
+			y: -10.0d
+			dependencies: ["6672C82E59050AEC"]
+			id: "3C3FDF2A0D071B02"
+			tasks: [{
+				id: "75B596D2359ACF83"
+				type: "item"
+				item: "buddycards:binder.1"
+			}]
+			rewards: [{
+				id: "574DC5AC9EA6FC11"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: 15.0d
+			y: -10.0d
+			dependencies: ["73176E66120B476B"]
+			id: "7ED2A79545265500"
+			tasks: [{
+				id: "1DE13881669F2CE2"
+				type: "item"
+				item: "buddycards:binder.2"
+			}]
+			rewards: [{
+				id: "01A9931AD4661E13"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -14.5d
+			dependencies: ["6CD5CEADC2A4035A"]
+			id: "61775A0CE0678AA5"
+			tasks: [{
+				id: "6CDC7F46C0B5554D"
+				type: "item"
+				item: "buddycards:binder.3"
+			}]
+			rewards: [{
+				id: "2C07D7705C46703A"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: -15.0d
+			y: 20.0d
+			dependencies: ["397ED72D00776F57"]
+			id: "3D556EB88A2C5611"
+			tasks: [{
+				id: "2C59BFC7EF8AB9B4"
+				type: "item"
+				item: "buddycards:binder.4"
+			}]
+			rewards: [{
+				id: "68B044B6FEC5323F"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: 15.0d
+			y: 20.0d
+			dependencies: ["5B4678599B30F87F"]
+			id: "0F67507071D70CDC"
+			tasks: [{
+				id: "53CAAC1BE82F8033"
+				type: "item"
+				item: "buddycards:binder.5"
+			}]
+			rewards: [{
+				id: "7747AEEF14E0EFAA"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 30.0d
+			dependencies: ["0FDA87A7365BCAB9"]
+			id: "05F464B4FB1BD653"
+			tasks: [{
+				id: "48A53E71F4B5F329"
+				type: "item"
+				item: "buddycards:binder.7"
+			}]
+			rewards: [{
+				id: "30CCC278A6E7026D"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: -5.0d
+			y: 30.0d
+			dependencies: ["16B6E7B3F050FAFE"]
+			id: "660FC80D9C64CC64"
+			tasks: [{
+				id: "080173F3B3A72895"
+				type: "item"
+				item: "buddycards:binder.6"
+			}]
+			rewards: [{
+				id: "6481D8DFFB05D522"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: -15.0d
+			y: -9.0d
+			dependencies: ["3C3FDF2A0D071B02"]
+			id: "121FA05CB186C0B7"
+			tasks: [{
+				id: "5BD4DC69B6BE09CD"
+				type: "item"
+				item: "buddycards:buddysteel_vault.1"
+			}]
+			rewards: [{
+				id: "64D22664A9B04EB7"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			x: 15.0d
+			y: -9.0d
+			dependencies: ["7ED2A79545265500"]
+			id: "75035502A4FCE5B9"
+			tasks: [{
+				id: "0B663614B2582E7C"
+				type: "item"
+				item: "buddycards:buddysteel_vault.2"
+			}]
+			rewards: [{
+				id: "5BF4AAFCAE7442F2"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -13.5d
+			dependencies: ["61775A0CE0678AA5"]
+			id: "0EAA5DA5339D4CF3"
+			tasks: [{
+				id: "1A18A7A3B8A50427"
+				type: "item"
+				item: "buddycards:buddysteel_vault.3"
+			}]
+			rewards: [{
+				id: "309BDC3AE7980046"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			x: -15.0d
+			y: 21.0d
+			dependencies: ["3D556EB88A2C5611"]
+			id: "3EA9485B0C339E5E"
+			tasks: [{
+				id: "7B38C40D8E28E210"
+				type: "item"
+				item: "buddycards:buddysteel_vault.4"
+			}]
+			rewards: [{
+				id: "3DADDA105C7105E9"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			x: 15.0d
+			y: 21.0d
+			dependencies: ["0F67507071D70CDC"]
+			id: "05E273C25C47F927"
+			tasks: [{
+				id: "0AB428AC9A588045"
+				type: "item"
+				item: "buddycards:buddysteel_vault.5"
+			}]
+			rewards: [{
+				id: "25C582F2B23A322D"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			x: -5.0d
+			y: 31.5d
+			dependencies: ["660FC80D9C64CC64"]
+			id: "0F3CCC7EF7A91C98"
+			tasks: [{
+				id: "66832BAC48DCFEE0"
+				type: "item"
+				item: "buddycards:buddysteel_vault.6"
+			}]
+			rewards: [{
+				id: "4E56E611FA372362"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 31.5d
+			dependencies: ["05F464B4FB1BD653"]
+			id: "28044CEC2E8646C1"
+			tasks: [{
+				id: "1E68D95664F148D3"
+				type: "item"
+				item: "buddycards:buddysteel_vault.7"
+			}]
+			rewards: [{
+				id: "412AA545B8EF9C47"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			x: 15.0d
+			y: -17.5d
+			dependencies: ["73176E66120B476B"]
+			id: "77EB332925491466"
+			tasks: [{
+				id: "1D7E19110808B3F0"
+				type: "item"
+				item: "buddycards:card.2.1"
+			}]
+			rewards: [{
+				id: "34DF551E70A3614B"
+				type: "ftbmoney:money"
+				ftb_money: 3L
+			}]
+		}
+		{
+			x: 16.0d
+			y: -17.0d
+			dependencies: ["73176E66120B476B"]
+			id: "21082D0962CE4739"
+			tasks: [{
+				id: "709F37BEB3CDF445"
+				type: "item"
+				item: "buddycards:card.2.2"
+			}]
+			rewards: [{
+				id: "2397814C10937E36"
+				type: "ftbmoney:money"
+				ftb_money: 3L
+			}]
+		}
+		{
+			x: 17.0d
+			y: -16.0d
+			dependencies: ["73176E66120B476B"]
+			id: "413EC72FF262347A"
+			tasks: [{
+				id: "77726B3C7E82FAD8"
+				type: "item"
+				item: "buddycards:card.2.3"
+			}]
+			rewards: [{
+				id: "2BF17574AAAED26C"
+				type: "ftbmoney:money"
+				ftb_money: 3L
+			}]
+		}
+		{
+			x: 17.5d
+			y: -15.0d
+			dependencies: ["73176E66120B476B"]
+			id: "62B2E69FE3F3E9B9"
+			tasks: [{
+				id: "6D2557A6222F214B"
+				type: "item"
+				item: "buddycards:card.2.4"
+			}]
+			rewards: [{
+				id: "6EDB50CB22E16C2B"
+				type: "ftbmoney:money"
+				ftb_money: 3L
+			}]
+		}
+		{
+			x: 17.0d
+			y: -14.0d
+			dependencies: ["73176E66120B476B"]
+			id: "67F9744D55BFCB19"
+			tasks: [{
+				id: "1DA7A558074AEC0C"
+				type: "item"
+				item: "buddycards:card.2.5"
+			}]
+			rewards: [{
+				id: "6104DBBD9E6B5FEC"
+				type: "ftbmoney:money"
+				ftb_money: 3L
+			}]
+		}
+		{
+			x: 16.0d
+			y: -13.0d
+			dependencies: ["73176E66120B476B"]
+			id: "70D49300E933494E"
+			tasks: [{
+				id: "78E232A01021B2D0"
+				type: "item"
+				item: "buddycards:card.2.6"
+			}]
+			rewards: [{
+				id: "74ACC8A6765E00C6"
+				type: "ftbmoney:money"
+				ftb_money: 3L
+			}]
+		}
+		{
+			x: 15.0d
+			y: -12.5d
+			dependencies: ["73176E66120B476B"]
+			id: "77ED57CB586B2BE2"
+			tasks: [{
+				id: "508B778968D926F5"
+				type: "item"
+				item: "buddycards:card.2.7"
+			}]
+			rewards: [{
+				id: "72B9C97E08852D3A"
+				type: "ftbmoney:money"
+				ftb_money: 3L
+			}]
+		}
+		{
+			x: 14.0d
+			y: -13.0d
+			dependencies: ["73176E66120B476B"]
+			id: "2CDDA3BDB35D6906"
+			tasks: [{
+				id: "18771E295980444B"
+				type: "item"
+				item: "buddycards:card.2.8"
+			}]
+			rewards: [{
+				id: "779BBED787225AC5"
+				type: "ftbmoney:money"
+				ftb_money: 3L
+			}]
+		}
+		{
+			x: 13.0d
+			y: -14.0d
+			dependencies: ["73176E66120B476B"]
+			id: "262A52276DB513B1"
+			tasks: [{
+				id: "00AF7E0302EF34F5"
+				type: "item"
+				item: "buddycards:card.2.9"
+			}]
+			rewards: [{
+				id: "226C80819ABC0104"
+				type: "ftbmoney:money"
+				ftb_money: 3L
+			}]
+		}
+		{
+			x: 12.5d
+			y: -15.0d
+			dependencies: ["73176E66120B476B"]
+			id: "04318EA5D6E329BB"
+			tasks: [{
+				id: "2498A1E3EBCEC4F9"
+				type: "item"
+				item: "buddycards:card.2.10"
+			}]
+			rewards: [{
+				id: "4D98EF1AEB2DCA0E"
+				type: "ftbmoney:money"
+				ftb_money: 3L
+			}]
+		}
+		{
+			x: 13.0d
+			y: -16.0d
+			dependencies: ["73176E66120B476B"]
+			id: "5D437FB14115F575"
+			tasks: [{
+				id: "29DAFB8D7B7CFA61"
+				type: "item"
+				item: "buddycards:card.2.11"
+			}]
+			rewards: [{
+				id: "665A0D0C448B87A7"
+				type: "ftbmoney:money"
+				ftb_money: 3L
+			}]
+		}
+		{
+			x: 14.0d
+			y: -17.0d
+			dependencies: ["73176E66120B476B"]
+			id: "156C5BC901824F85"
+			tasks: [{
+				id: "5F2D31A1B9923AD2"
+				type: "item"
+				item: "buddycards:card.2.12"
+			}]
+			rewards: [{
+				id: "14CE1344E74DB774"
+				type: "ftbmoney:money"
+				ftb_money: 3L
+			}]
+		}
+		{
+			x: 15.0d
+			y: -19.0d
+			shape: "hexagon"
+			dependencies: ["73176E66120B476B"]
+			id: "7778D6E280D2E47F"
+			tasks: [{
+				id: "19E368B0B310F59D"
+				type: "item"
+				item: "buddycards:card.2.13"
+			}]
+			rewards: [{
+				id: "79D4A93A8E0CAAE1"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 17.5d
+			y: -17.5d
+			shape: "hexagon"
+			dependencies: ["73176E66120B476B"]
+			id: "79BB0FDCCC330BEB"
+			tasks: [{
+				id: "119606DE14BE5E0C"
+				type: "item"
+				item: "buddycards:card.2.14"
+			}]
+			rewards: [{
+				id: "430C6D2A65004114"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 19.0d
+			y: -15.5d
+			shape: "hexagon"
+			dependencies: ["73176E66120B476B"]
+			id: "745D3A58E913C003"
+			tasks: [{
+				id: "6ACBBDB49C71E89D"
+				type: "item"
+				item: "buddycards:card.2.15"
+			}]
+			rewards: [{
+				id: "5147927069C11E76"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 18.5d
+			y: -13.0d
+			shape: "hexagon"
+			dependencies: ["73176E66120B476B"]
+			id: "4E1D05D0C0646AFA"
+			tasks: [{
+				id: "5D5655BC9C14DB68"
+				type: "item"
+				item: "buddycards:card.2.16"
+			}]
+			rewards: [{
+				id: "6253F9B74F18EAE8"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 16.0d
+			y: -11.0d
+			shape: "hexagon"
+			dependencies: ["73176E66120B476B"]
+			id: "1132ED6B1CF96592"
+			tasks: [{
+				id: "11AC68D76129682F"
+				type: "item"
+				item: "buddycards:card.2.17"
+			}]
+			rewards: [{
+				id: "0D9194E7274F8131"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 14.0d
+			y: -11.0d
+			shape: "hexagon"
+			dependencies: ["73176E66120B476B"]
+			id: "7C583D2548CA2440"
+			tasks: [{
+				id: "1919D2DC969FC25F"
+				type: "item"
+				item: "buddycards:card.2.18"
+			}]
+			rewards: [{
+				id: "7EF8EE78DBB7D06E"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 11.5d
+			y: -13.0d
+			shape: "hexagon"
+			dependencies: ["73176E66120B476B"]
+			id: "10504A76B273109C"
+			tasks: [{
+				id: "5D2F5D857D854002"
+				type: "item"
+				item: "buddycards:card.2.19"
+			}]
+			rewards: [{
+				id: "055D4F872B34023D"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 11.0d
+			y: -15.5d
+			shape: "hexagon"
+			dependencies: ["73176E66120B476B"]
+			id: "76B71E705AAA425D"
+			tasks: [{
+				id: "782112FEE6C47D12"
+				type: "item"
+				item: "buddycards:card.2.20"
+			}]
+			rewards: [{
+				id: "6BF909E8E5649667"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 12.5d
+			y: -17.5d
+			shape: "hexagon"
+			dependencies: ["73176E66120B476B"]
+			id: "2A731169CF2EE0B7"
+			tasks: [{
+				id: "448D8B79EF87F272"
+				type: "item"
+				item: "buddycards:card.2.21"
+			}]
+			rewards: [{
+				id: "217DFFDFC0281583"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 19.0d
+			y: -19.0d
+			shape: "pentagon"
+			dependencies: ["73176E66120B476B"]
+			id: "3EB0A48D3A44D701"
+			tasks: [{
+				id: "7B4514FC4C00C8F1"
+				type: "item"
+				item: "buddycards:card.2.22"
+			}]
+			rewards: [{
+				id: "2A2BB89FD7B19A11"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: 19.0d
+			y: -11.0d
+			shape: "pentagon"
+			dependencies: ["73176E66120B476B"]
+			id: "70D375FFB45E2D6D"
+			tasks: [{
+				id: "4EE855BEC0BBC606"
+				type: "item"
+				item: "buddycards:card.2.23"
+			}]
+			rewards: [{
+				id: "7B0B98EF4B49B049"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: 11.0d
+			y: -11.0d
+			shape: "pentagon"
+			dependencies: ["73176E66120B476B"]
+			id: "16229BBA25DD57D7"
+			tasks: [{
+				id: "411C998A63998B78"
+				type: "item"
+				item: "buddycards:card.2.24"
+			}]
+			rewards: [{
+				id: "6DE0E041C670A550"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: 11.0d
+			y: -19.0d
+			shape: "pentagon"
+			dependencies: ["73176E66120B476B"]
+			id: "1F65FF4B846BB17F"
+			tasks: [{
+				id: "0CEA895330F98586"
+				type: "item"
+				item: "buddycards:card.2.25"
+			}]
+			rewards: [{
+				id: "3D8376D2D358BA66"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: 9.0d
+			y: -15.0d
+			shape: "diamond"
+			dependencies: ["73176E66120B476B"]
+			id: "6A4FC5D724EC9887"
+			tasks: [{
+				id: "4E15A5C3A451050B"
+				type: "item"
+				item: "buddycards:card.2.26"
+			}]
+			rewards: [{
+				id: "7E4A275D02A38508"
+				type: "ftbmoney:money"
+				ftb_money: 25L
+			}]
+		}
+		{
+			x: 21.0d
+			y: -15.0d
+			shape: "diamond"
+			dependencies: ["73176E66120B476B"]
+			id: "579B33D2CCC58338"
+			tasks: [{
+				id: "5717C1A9C9CE2D3E"
+				type: "item"
+				item: "buddycards:card.2.27"
+			}]
+			rewards: [{
+				id: "598168F9449F03D6"
+				type: "ftbmoney:money"
+				ftb_money: 25L
+			}]
+		}
+		{
+			title: "Buddysteel Fishing Equipment"
+			x: -1.5d
+			y: 7.5d
+			dependencies: ["3E55528A6C37BB99"]
+			id: "315C643A75423539"
+			tasks: [
+				{
+					id: "4DC8ADBEB030C603"
+					type: "item"
+					item: "buddycards:buddycard_hook"
+				}
+				{
+					id: "20DF51BA6D19539C"
+					type: "item"
+					item: {
+						id: "buddycards:buddysteel_fishing_rod"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -22.5d
+			dependencies: ["6CD5CEADC2A4035A"]
+			id: "590E389F5E806754"
+			tasks: [{
+				id: "3D3C9E27DF0037EB"
+				type: "item"
+				item: "buddycards:card.3.1"
+			}]
+			rewards: [{
+				id: "4659B3C3B6E62979"
+				type: "ftbmoney:money"
+				ftb_money: 3L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -22.0d
+			dependencies: ["6CD5CEADC2A4035A"]
+			id: "438FB40A527ADEBA"
+			tasks: [{
+				id: "0CD77B20BAEBDA20"
+				type: "item"
+				item: "buddycards:card.3.2"
+			}]
+			rewards: [{
+				id: "0837B39E4494CE4C"
+				type: "ftbmoney:money"
+				ftb_money: 3L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -21.0d
+			dependencies: ["6CD5CEADC2A4035A"]
+			id: "7EA169A77B246BDD"
+			tasks: [{
+				id: "6001A1F86DA91DDC"
+				type: "item"
+				item: "buddycards:card.3.3"
+			}]
+			rewards: [{
+				id: "32E234A69FD9CB1C"
+				type: "ftbmoney:money"
+				ftb_money: 3L
+			}]
+		}
+		{
+			x: 2.5d
+			y: -20.0d
+			dependencies: ["6CD5CEADC2A4035A"]
+			id: "68F8C49E3CE56F91"
+			tasks: [{
+				id: "2BEB4E3E6A387D51"
+				type: "item"
+				item: "buddycards:card.3.4"
+			}]
+			rewards: [{
+				id: "4B336CCCB969F893"
+				type: "ftbmoney:money"
+				ftb_money: 3L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -19.0d
+			dependencies: ["6CD5CEADC2A4035A"]
+			id: "1A75F178600C4684"
+			tasks: [{
+				id: "6A02429FE590516B"
+				type: "item"
+				item: "buddycards:card.3.5"
+			}]
+			rewards: [{
+				id: "3CE171CD03D3953F"
+				type: "ftbmoney:money"
+				ftb_money: 3L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -18.0d
+			dependencies: ["6CD5CEADC2A4035A"]
+			id: "4A46D8CD7C60BB40"
+			tasks: [{
+				id: "03C70DB8088C158C"
+				type: "item"
+				item: "buddycards:card.3.6"
+			}]
+			rewards: [{
+				id: "788323C758F8EDB4"
+				type: "ftbmoney:money"
+				ftb_money: 3L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -17.5d
+			dependencies: ["6CD5CEADC2A4035A"]
+			id: "4F2090BD4222E528"
+			tasks: [{
+				id: "136A3E64CD7DCF8E"
+				type: "item"
+				item: "buddycards:card.3.7"
+			}]
+			rewards: [{
+				id: "1BEE6FF10763623A"
+				type: "ftbmoney:money"
+				ftb_money: 3L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -18.0d
+			dependencies: ["6CD5CEADC2A4035A"]
+			id: "07D18B091AE9BE8D"
+			tasks: [{
+				id: "02E0F9F1A86F80D7"
+				type: "item"
+				item: "buddycards:card.3.8"
+			}]
+			rewards: [{
+				id: "78444B4A011F8459"
+				type: "ftbmoney:money"
+				ftb_money: 3L
+			}]
+		}
+		{
+			x: -2.0d
+			y: -19.0d
+			dependencies: ["6CD5CEADC2A4035A"]
+			id: "06992D8C748F5F86"
+			tasks: [{
+				id: "7F614609405380EB"
+				type: "item"
+				item: "buddycards:card.3.9"
+			}]
+			rewards: [{
+				id: "7A98185132F03B7E"
+				type: "ftbmoney:money"
+				ftb_money: 3L
+			}]
+		}
+		{
+			x: -2.5d
+			y: -20.0d
+			dependencies: ["6CD5CEADC2A4035A"]
+			id: "20F45236D290096E"
+			tasks: [{
+				id: "68B9E35913F3D705"
+				type: "item"
+				item: "buddycards:card.3.10"
+			}]
+			rewards: [{
+				id: "1AA82DC1751A4672"
+				type: "ftbmoney:money"
+				ftb_money: 3L
+			}]
+		}
+		{
+			x: -2.0d
+			y: -21.0d
+			dependencies: ["6CD5CEADC2A4035A"]
+			id: "4BCCEEF14D18D5CE"
+			tasks: [{
+				id: "4921525D7356C93B"
+				type: "item"
+				item: "buddycards:card.3.11"
+			}]
+			rewards: [{
+				id: "7D247C1A0F7E6822"
+				type: "ftbmoney:money"
+				ftb_money: 3L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -22.0d
+			dependencies: ["6CD5CEADC2A4035A"]
+			id: "634A6DFAB2779BD2"
+			tasks: [{
+				id: "441CDEDD57A1C43B"
+				type: "item"
+				item: "buddycards:card.3.12"
+			}]
+			rewards: [{
+				id: "6315092707D7CA17"
+				type: "ftbmoney:money"
+				ftb_money: 3L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -24.0d
+			shape: "hexagon"
+			dependencies: ["6CD5CEADC2A4035A"]
+			id: "7AE497A5552B4EB0"
+			tasks: [{
+				id: "2DD695201E6BB2E1"
+				type: "item"
+				item: "buddycards:card.3.13"
+			}]
+			rewards: [{
+				id: "37333A76524B1A44"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 2.5d
+			y: -22.5d
+			shape: "hexagon"
+			dependencies: ["6CD5CEADC2A4035A"]
+			id: "10FD5281A977D551"
+			tasks: [{
+				id: "3FC88D3808205879"
+				type: "item"
+				item: "buddycards:card.3.14"
+			}]
+			rewards: [{
+				id: "574A09C9CE2F658F"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 4.0d
+			y: -20.5d
+			shape: "hexagon"
+			dependencies: ["6CD5CEADC2A4035A"]
+			id: "33F3BE7E85850785"
+			tasks: [{
+				id: "73F7EA2C4EECAC21"
+				type: "item"
+				item: "buddycards:card.3.15"
+			}]
+			rewards: [{
+				id: "14209F57D7D23255"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 3.5d
+			y: -18.0d
+			shape: "hexagon"
+			dependencies: ["6CD5CEADC2A4035A"]
+			id: "1398D257584C840F"
+			tasks: [{
+				id: "2EDDAB8BD3E62794"
+				type: "item"
+				item: "buddycards:card.3.16"
+			}]
+			rewards: [{
+				id: "58019123A6682075"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -15.5d
+			shape: "hexagon"
+			dependencies: ["6CD5CEADC2A4035A"]
+			id: "044D335E2542AF42"
+			tasks: [{
+				id: "3283313088913C81"
+				type: "item"
+				item: "buddycards:card.3.17"
+			}]
+			rewards: [{
+				id: "43B2F731D9F57B55"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -15.5d
+			shape: "hexagon"
+			dependencies: ["6CD5CEADC2A4035A"]
+			id: "12B189C2ACB76D45"
+			tasks: [{
+				id: "45BCAD876DF99F39"
+				type: "item"
+				item: "buddycards:card.3.18"
+			}]
+			rewards: [{
+				id: "538FBBE0DCE49845"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -3.5d
+			y: -18.0d
+			shape: "hexagon"
+			dependencies: ["6CD5CEADC2A4035A"]
+			id: "17D903C625B9903A"
+			tasks: [{
+				id: "76E274334696694C"
+				type: "item"
+				item: "buddycards:card.3.19"
+			}]
+			rewards: [{
+				id: "5FD79D27F4F4EF61"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -4.0d
+			y: -20.5d
+			shape: "hexagon"
+			dependencies: ["6CD5CEADC2A4035A"]
+			id: "54A00188227C19BB"
+			tasks: [{
+				id: "17D615D3C4F1F203"
+				type: "item"
+				item: "buddycards:card.3.20"
+			}]
+			rewards: [{
+				id: "4F9FA5A1C5BFC03C"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -2.5d
+			y: -22.5d
+			shape: "hexagon"
+			dependencies: ["6CD5CEADC2A4035A"]
+			id: "338274D053CF627B"
+			tasks: [{
+				id: "7520A1F64120D5EE"
+				type: "item"
+				item: "buddycards:card.3.21"
+			}]
+			rewards: [{
+				id: "6012AD761CE5A70A"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 4.0d
+			y: -24.0d
+			shape: "pentagon"
+			dependencies: ["6CD5CEADC2A4035A"]
+			id: "7C0DEC55870F5DB8"
+			tasks: [{
+				id: "1234B0A8EE98C36A"
+				type: "item"
+				item: "buddycards:card.3.22"
+			}]
+			rewards: [{
+				id: "3F1A9CCC85CA835C"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: 4.0d
+			y: -15.5d
+			shape: "pentagon"
+			dependencies: ["6CD5CEADC2A4035A"]
+			id: "672CEE9E016D2212"
+			tasks: [{
+				id: "2FE0FF20780112DA"
+				type: "item"
+				item: "buddycards:card.3.23"
+			}]
+			rewards: [{
+				id: "5BAE2E67612C332C"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: -4.0d
+			y: -15.5d
+			shape: "pentagon"
+			dependencies: ["6CD5CEADC2A4035A"]
+			id: "631217B1F97779BE"
+			tasks: [{
+				id: "304498C03B096708"
+				type: "item"
+				item: "buddycards:card.3.24"
+			}]
+			rewards: [{
+				id: "21A2C5749AE05F7E"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: -4.0d
+			y: -24.0d
+			shape: "pentagon"
+			dependencies: ["6CD5CEADC2A4035A"]
+			id: "4E6EE852ADEEA627"
+			tasks: [{
+				id: "1BDFECB72F602C1F"
+				type: "item"
+				item: "buddycards:card.3.25"
+			}]
+			rewards: [{
+				id: "4D1CE808EE63385D"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: -6.0d
+			y: -20.0d
+			shape: "diamond"
+			dependencies: ["6CD5CEADC2A4035A"]
+			id: "44388B8ACFDB8BE7"
+			tasks: [{
+				id: "61E11E3EC2C6CB0C"
+				type: "item"
+				item: "buddycards:card.3.26"
+			}]
+			rewards: [{
+				id: "101AA6EE2CED1158"
+				type: "ftbmoney:money"
+				ftb_money: 25L
+			}]
+		}
+		{
+			x: 6.0d
+			y: -20.0d
+			shape: "diamond"
+			dependencies: ["6CD5CEADC2A4035A"]
+			id: "1751E950B78F23A2"
+			tasks: [{
+				id: "5AF495E080F91057"
+				type: "item"
+				item: "buddycards:card.3.27"
+			}]
+			rewards: [{
+				id: "121BDA96EEA59EE8"
+				type: "ftbmoney:money"
+				ftb_money: 25L
+			}]
+		}
+		{
+			x: -15.0d
+			y: 12.5d
+			dependencies: ["397ED72D00776F57"]
+			id: "009E5E0BE7EF2BAE"
+			tasks: [{
+				id: "7392854BA7395CBF"
+				type: "item"
+				item: "buddycards:card.4.1"
+			}]
+			rewards: [{
+				id: "1DFED84AF08A702D"
+				type: "ftbmoney:money"
+				ftb_money: 3L
+			}]
+		}
+		{
+			x: -14.0d
+			y: 13.0d
+			dependencies: ["397ED72D00776F57"]
+			id: "4B82FE0DFE72428D"
+			tasks: [{
+				id: "64A9A246A5C8A523"
+				type: "item"
+				item: "buddycards:card.4.2"
+			}]
+			rewards: [{
+				id: "63F044EE8F6062B7"
+				type: "ftbmoney:money"
+				ftb_money: 3L
+			}]
+		}
+		{
+			x: -13.0d
+			y: 14.0d
+			dependencies: ["397ED72D00776F57"]
+			id: "3D8231A0276E99D2"
+			tasks: [{
+				id: "37C532E1CDB802EC"
+				type: "item"
+				item: "buddycards:card.4.3"
+			}]
+			rewards: [{
+				id: "59441BF2BD7C9540"
+				type: "ftbmoney:money"
+				ftb_money: 3L
+			}]
+		}
+		{
+			x: -12.5d
+			y: 15.0d
+			dependencies: ["397ED72D00776F57"]
+			id: "464F6A74A1617C28"
+			tasks: [{
+				id: "5B2A2CF8C9F2C075"
+				type: "item"
+				item: "buddycards:card.4.4"
+			}]
+			rewards: [{
+				id: "64BCB0F196B5D737"
+				type: "ftbmoney:money"
+				ftb_money: 3L
+			}]
+		}
+		{
+			x: -13.0d
+			y: 16.0d
+			dependencies: ["397ED72D00776F57"]
+			id: "6F3A38399F595EC5"
+			tasks: [{
+				id: "0D047CE02F613113"
+				type: "item"
+				item: "buddycards:card.4.5"
+			}]
+			rewards: [{
+				id: "59A56652B6F71D6B"
+				type: "ftbmoney:money"
+				ftb_money: 3L
+			}]
+		}
+		{
+			x: -14.0d
+			y: 17.0d
+			dependencies: ["397ED72D00776F57"]
+			id: "09A16E390FADD4CD"
+			tasks: [{
+				id: "0D3006C042CA18D2"
+				type: "item"
+				item: "buddycards:card.4.6"
+			}]
+			rewards: [{
+				id: "6DB7722896649D0D"
+				type: "ftbmoney:money"
+				ftb_money: 3L
+			}]
+		}
+		{
+			x: -15.0d
+			y: 17.5d
+			dependencies: ["397ED72D00776F57"]
+			id: "7123EB8D5AFC07B3"
+			tasks: [{
+				id: "66FAA6EC120F27E1"
+				type: "item"
+				item: "buddycards:card.4.7"
+			}]
+			rewards: [{
+				id: "32E3E022E620C760"
+				type: "ftbmoney:money"
+				ftb_money: 3L
+			}]
+		}
+		{
+			x: -16.0d
+			y: 17.0d
+			dependencies: ["397ED72D00776F57"]
+			id: "6193A369BACF8345"
+			tasks: [{
+				id: "79C0FE873D91DE7A"
+				type: "item"
+				item: "buddycards:card.4.8"
+			}]
+			rewards: [{
+				id: "58898CB40F0031C0"
+				type: "ftbmoney:money"
+				ftb_money: 3L
+			}]
+		}
+		{
+			x: -17.0d
+			y: 16.0d
+			dependencies: ["397ED72D00776F57"]
+			id: "16A8369097DD4CA3"
+			tasks: [{
+				id: "7468C7385D6E6EE0"
+				type: "item"
+				item: "buddycards:card.4.9"
+			}]
+			rewards: [{
+				id: "21E364F48B496222"
+				type: "ftbmoney:money"
+				ftb_money: 3L
+			}]
+		}
+		{
+			x: -17.5d
+			y: 15.0d
+			dependencies: ["397ED72D00776F57"]
+			id: "3D95D99CD950F1EA"
+			tasks: [{
+				id: "1D14069D7676B496"
+				type: "item"
+				item: "buddycards:card.4.10"
+			}]
+			rewards: [{
+				id: "5C038CF923140B47"
+				type: "ftbmoney:money"
+				ftb_money: 3L
+			}]
+		}
+		{
+			x: -17.0d
+			y: 14.0d
+			dependencies: ["397ED72D00776F57"]
+			id: "5CB22986AA323F70"
+			tasks: [{
+				id: "133810F2CF0CC004"
+				type: "item"
+				item: "buddycards:card.4.11"
+			}]
+			rewards: [{
+				id: "72A0B30393B3117A"
+				type: "ftbmoney:money"
+				ftb_money: 3L
+			}]
+		}
+		{
+			x: -16.0d
+			y: 13.0d
+			dependencies: ["397ED72D00776F57"]
+			id: "56E5BF70D9549487"
+			tasks: [{
+				id: "5F3B08ED49DEA0E9"
+				type: "item"
+				item: "buddycards:card.4.12"
+			}]
+			rewards: [{
+				id: "5D63B08CC8AF4F56"
+				type: "ftbmoney:money"
+				ftb_money: 3L
+			}]
+		}
+		{
+			x: -15.0d
+			y: 11.0d
+			shape: "hexagon"
+			dependencies: ["397ED72D00776F57"]
+			id: "07A18278BDEC0C97"
+			tasks: [{
+				id: "71165C18286E685F"
+				type: "item"
+				item: "buddycards:card.4.13"
+			}]
+			rewards: [{
+				id: "5EE5F70A60CFD274"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -12.5d
+			y: 12.5d
+			shape: "hexagon"
+			dependencies: ["397ED72D00776F57"]
+			id: "3130D6628ED95A2A"
+			tasks: [{
+				id: "1422E5F015D9316E"
+				type: "item"
+				item: "buddycards:card.4.14"
+			}]
+			rewards: [{
+				id: "18D3065DB20B1DFE"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -11.0d
+			y: 14.5d
+			shape: "hexagon"
+			dependencies: ["397ED72D00776F57"]
+			id: "0E9CA0D065F229F6"
+			tasks: [{
+				id: "73911264A68AF840"
+				type: "item"
+				item: "buddycards:card.4.15"
+			}]
+			rewards: [{
+				id: "45F7BB5E3A417F21"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -11.5d
+			y: 17.0d
+			shape: "hexagon"
+			dependencies: ["397ED72D00776F57"]
+			id: "5A2C33BC2E66871D"
+			tasks: [{
+				id: "46F4654A59FB97EF"
+				type: "item"
+				item: "buddycards:card.4.16"
+			}]
+			rewards: [{
+				id: "1484992D25CEE42E"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -14.0d
+			y: 19.0d
+			shape: "hexagon"
+			dependencies: ["397ED72D00776F57"]
+			id: "135063B6AD93367B"
+			tasks: [{
+				id: "0CB3F302C07366F1"
+				type: "item"
+				item: "buddycards:card.4.17"
+			}]
+			rewards: [{
+				id: "766D5256EC1AE5C3"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -16.0d
+			y: 19.0d
+			shape: "hexagon"
+			dependencies: ["397ED72D00776F57"]
+			id: "30A9EDEEF24692D2"
+			tasks: [{
+				id: "72DE29F443BF4DE7"
+				type: "item"
+				item: "buddycards:card.4.18"
+			}]
+			rewards: [{
+				id: "09C9B82B6FC97852"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -18.5d
+			y: 17.0d
+			shape: "hexagon"
+			dependencies: ["397ED72D00776F57"]
+			id: "094E9643E157D4CA"
+			tasks: [{
+				id: "51822BF6681E89C6"
+				type: "item"
+				item: "buddycards:card.4.19"
+			}]
+			rewards: [{
+				id: "0A519ECE7A10035D"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -19.0d
+			y: 14.5d
+			shape: "hexagon"
+			dependencies: ["397ED72D00776F57"]
+			id: "0C0F0724539D0847"
+			tasks: [{
+				id: "343C71719D834864"
+				type: "item"
+				item: "buddycards:card.4.20"
+			}]
+			rewards: [{
+				id: "78BE65F1F2E13F82"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -17.5d
+			y: 12.5d
+			shape: "hexagon"
+			dependencies: ["397ED72D00776F57"]
+			id: "39D5C2741E6F9A65"
+			tasks: [{
+				id: "289C13FB6C0005DE"
+				type: "item"
+				item: "buddycards:card.4.21"
+			}]
+			rewards: [{
+				id: "381CE9B7477F7C6A"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -11.0d
+			y: 11.0d
+			shape: "pentagon"
+			dependencies: ["397ED72D00776F57"]
+			id: "0373A56C29AEB4D7"
+			tasks: [{
+				id: "55E25FC4C44407E2"
+				type: "item"
+				item: "buddycards:card.4.22"
+			}]
+			rewards: [{
+				id: "52CF3BCB6A58AF5B"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: -11.0d
+			y: 19.0d
+			shape: "pentagon"
+			dependencies: ["397ED72D00776F57"]
+			id: "092F7127D0831D5F"
+			tasks: [{
+				id: "6F6D44B99D65A8E5"
+				type: "item"
+				item: "buddycards:card.4.23"
+			}]
+			rewards: [{
+				id: "12B4CFA327B827BB"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: -19.0d
+			y: 19.0d
+			shape: "pentagon"
+			dependencies: ["397ED72D00776F57"]
+			id: "3D7E52BB679E6CFE"
+			tasks: [{
+				id: "4091A5F931271ADF"
+				type: "item"
+				item: "buddycards:card.4.24"
+			}]
+			rewards: [{
+				id: "244BF720F727CE38"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: -19.0d
+			y: 11.0d
+			shape: "pentagon"
+			dependencies: ["397ED72D00776F57"]
+			id: "733967747D2F5337"
+			tasks: [{
+				id: "73374DC513A0402C"
+				type: "item"
+				item: "buddycards:card.4.25"
+			}]
+			rewards: [{
+				id: "361C3300F2F817FE"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: -21.0d
+			y: 15.0d
+			shape: "diamond"
+			dependencies: ["397ED72D00776F57"]
+			id: "760C9B89051F0AB9"
+			tasks: [{
+				id: "297170D33427EB9C"
+				type: "item"
+				item: "buddycards:card.4.26"
+			}]
+			rewards: [{
+				id: "163B1C0E61AD7210"
+				type: "ftbmoney:money"
+				ftb_money: 25L
+			}]
+		}
+		{
+			x: -9.0d
+			y: 15.0d
+			shape: "diamond"
+			dependencies: ["397ED72D00776F57"]
+			id: "467A383FED9544C1"
+			tasks: [{
+				id: "45244C3C92AD4FC8"
+				type: "item"
+				item: "buddycards:card.4.27"
+			}]
+			rewards: [{
+				id: "1ECFC24D562D6E7D"
+				type: "ftbmoney:money"
+				ftb_money: 25L
+			}]
+		}
+		{
+			x: 15.0d
+			y: 12.5d
+			dependencies: ["5B4678599B30F87F"]
+			id: "46884984AB019FF1"
+			tasks: [{
+				id: "5B6239D03AD0344A"
+				type: "item"
+				item: "buddycards:card.5.1"
+			}]
+			rewards: [{
+				id: "72656BC384C6788A"
+				type: "ftbmoney:money"
+				ftb_money: 3L
+			}]
+		}
+		{
+			x: 16.0d
+			y: 13.0d
+			dependencies: ["5B4678599B30F87F"]
+			id: "4518F7AAD801BB42"
+			tasks: [{
+				id: "29749A1EC5FF1F5E"
+				type: "item"
+				item: "buddycards:card.5.2"
+			}]
+			rewards: [{
+				id: "2BA99D070669FD11"
+				type: "ftbmoney:money"
+				ftb_money: 3L
+			}]
+		}
+		{
+			x: 17.0d
+			y: 14.0d
+			dependencies: ["5B4678599B30F87F"]
+			id: "005FD185CE1AC321"
+			tasks: [{
+				id: "6AA7E1080515D82A"
+				type: "item"
+				item: "buddycards:card.5.3"
+			}]
+			rewards: [{
+				id: "5C76EB2EBF9858A1"
+				type: "ftbmoney:money"
+				ftb_money: 3L
+			}]
+		}
+		{
+			x: 17.5d
+			y: 15.0d
+			dependencies: ["5B4678599B30F87F"]
+			id: "1D7B0112B588EE9B"
+			tasks: [{
+				id: "758C59D13A151CE9"
+				type: "item"
+				item: "buddycards:card.5.4"
+			}]
+			rewards: [{
+				id: "5D55BD5B247BB4B6"
+				type: "ftbmoney:money"
+				ftb_money: 3L
+			}]
+		}
+		{
+			x: 17.0d
+			y: 16.0d
+			dependencies: ["5B4678599B30F87F"]
+			id: "65DA802020B6AA15"
+			tasks: [{
+				id: "4761EFD55B062500"
+				type: "item"
+				item: "buddycards:card.5.5"
+			}]
+			rewards: [{
+				id: "302F1229EEF0678F"
+				type: "ftbmoney:money"
+				ftb_money: 3L
+			}]
+		}
+		{
+			x: 16.0d
+			y: 17.0d
+			dependencies: ["5B4678599B30F87F"]
+			id: "76C93F4E74556317"
+			tasks: [{
+				id: "68F68894E8C2F1C8"
+				type: "item"
+				item: "buddycards:card.5.6"
+			}]
+			rewards: [{
+				id: "2CF40AED5111B9CA"
+				type: "ftbmoney:money"
+				ftb_money: 3L
+			}]
+		}
+		{
+			x: 15.0d
+			y: 17.5d
+			dependencies: ["5B4678599B30F87F"]
+			id: "2B00C2084D5B0BC2"
+			tasks: [{
+				id: "3E8F2367B7B7F1D1"
+				type: "item"
+				item: "buddycards:card.5.7"
+			}]
+			rewards: [{
+				id: "7AAE871D14C63801"
+				type: "ftbmoney:money"
+				ftb_money: 3L
+			}]
+		}
+		{
+			x: 14.0d
+			y: 17.0d
+			dependencies: ["5B4678599B30F87F"]
+			id: "473F27241A5791E0"
+			tasks: [{
+				id: "7BE4CA5B055F0D1B"
+				type: "item"
+				item: "buddycards:card.5.8"
+			}]
+			rewards: [{
+				id: "765F492342E3616C"
+				type: "ftbmoney:money"
+				ftb_money: 3L
+			}]
+		}
+		{
+			x: 13.0d
+			y: 16.0d
+			dependencies: ["5B4678599B30F87F"]
+			id: "13CCE34DBFEAF8D7"
+			tasks: [{
+				id: "60C89342A992036B"
+				type: "item"
+				item: "buddycards:card.5.9"
+			}]
+			rewards: [{
+				id: "3FB9BE2C7E6A28D1"
+				type: "ftbmoney:money"
+				ftb_money: 3L
+			}]
+		}
+		{
+			x: 12.5d
+			y: 15.0d
+			dependencies: ["5B4678599B30F87F"]
+			id: "49917E2E4DEDDE79"
+			tasks: [{
+				id: "3CE9871DC6F4D21D"
+				type: "item"
+				item: "buddycards:card.5.10"
+			}]
+			rewards: [{
+				id: "06CF03543F025BC5"
+				type: "ftbmoney:money"
+				ftb_money: 3L
+			}]
+		}
+		{
+			x: 13.0d
+			y: 14.0d
+			dependencies: ["5B4678599B30F87F"]
+			id: "0A9D78B5F728EE47"
+			tasks: [{
+				id: "0DCB27BEFA4980DB"
+				type: "item"
+				item: "buddycards:card.5.11"
+			}]
+			rewards: [{
+				id: "13E4B6E1D51B4D31"
+				type: "ftbmoney:money"
+				ftb_money: 3L
+			}]
+		}
+		{
+			x: 14.0d
+			y: 13.0d
+			dependencies: ["5B4678599B30F87F"]
+			id: "274207885284AE80"
+			tasks: [{
+				id: "25B4E01BE701EDE2"
+				type: "item"
+				item: "buddycards:card.5.12"
+			}]
+			rewards: [{
+				id: "32454E995E5C83B4"
+				type: "ftbmoney:money"
+				ftb_money: 3L
+			}]
+		}
+		{
+			x: 15.0d
+			y: 11.0d
+			shape: "hexagon"
+			dependencies: ["5B4678599B30F87F"]
+			id: "0115E76187415AD1"
+			tasks: [{
+				id: "0DB69F78C875880C"
+				type: "item"
+				item: "buddycards:card.5.13"
+			}]
+			rewards: [{
+				id: "5903D889CEFFAC01"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 17.5d
+			y: 12.5d
+			shape: "hexagon"
+			dependencies: ["5B4678599B30F87F"]
+			id: "0B3736138E88DC5D"
+			tasks: [{
+				id: "5DDBC08BDECD6EFC"
+				type: "item"
+				item: "buddycards:card.5.14"
+			}]
+			rewards: [{
+				id: "42D6F708CADFDD15"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 19.0d
+			y: 14.5d
+			shape: "hexagon"
+			dependencies: ["5B4678599B30F87F"]
+			id: "24AF404604B787E5"
+			tasks: [{
+				id: "3ABF6B1AA17C71CF"
+				type: "item"
+				item: "buddycards:card.5.15"
+			}]
+			rewards: [{
+				id: "50C9EEFC1568FB87"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 18.5d
+			y: 17.0d
+			shape: "hexagon"
+			dependencies: ["5B4678599B30F87F"]
+			id: "04146E9595A7A2AD"
+			tasks: [{
+				id: "5D1A3858821481C8"
+				type: "item"
+				item: "buddycards:card.5.16"
+			}]
+			rewards: [{
+				id: "19053A0868AC92AA"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 16.0d
+			y: 19.0d
+			shape: "hexagon"
+			dependencies: ["5B4678599B30F87F"]
+			id: "54F36F7660DF0B98"
+			tasks: [{
+				id: "64BC76B0C76AE8BB"
+				type: "item"
+				item: "buddycards:card.5.17"
+			}]
+			rewards: [{
+				id: "3154CDF70B078730"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 14.0d
+			y: 19.0d
+			shape: "hexagon"
+			dependencies: ["5B4678599B30F87F"]
+			id: "734BC66E13630343"
+			tasks: [{
+				id: "5BC8E014DDD41ED9"
+				type: "item"
+				item: "buddycards:card.5.18"
+			}]
+			rewards: [{
+				id: "399657337181CE3A"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 11.5d
+			y: 17.0d
+			shape: "hexagon"
+			dependencies: ["5B4678599B30F87F"]
+			id: "4692C0B84DC396E6"
+			tasks: [{
+				id: "118CC7C8A06AE577"
+				type: "item"
+				item: "buddycards:card.5.19"
+			}]
+			rewards: [{
+				id: "3A03D6804C25C01F"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 11.0d
+			y: 14.5d
+			shape: "hexagon"
+			dependencies: ["5B4678599B30F87F"]
+			id: "6096E7E13E1FBAD7"
+			tasks: [{
+				id: "6521D3C11C9A15C2"
+				type: "item"
+				item: "buddycards:card.5.20"
+			}]
+			rewards: [{
+				id: "23E1160945DC817A"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 12.5d
+			y: 12.5d
+			shape: "hexagon"
+			dependencies: ["5B4678599B30F87F"]
+			id: "35EC145BBB59F755"
+			tasks: [{
+				id: "0C55FB7A2E860DB9"
+				type: "item"
+				item: "buddycards:card.5.21"
+			}]
+			rewards: [{
+				id: "3DCE51C44B03F106"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 19.0d
+			y: 11.0d
+			shape: "pentagon"
+			dependencies: ["5B4678599B30F87F"]
+			id: "74A2A608CA64499C"
+			tasks: [{
+				id: "1FA2813DB07C58FE"
+				type: "item"
+				item: "buddycards:card.5.22"
+			}]
+			rewards: [{
+				id: "5DE9297ED635B47A"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: 19.0d
+			y: 19.0d
+			shape: "pentagon"
+			dependencies: ["5B4678599B30F87F"]
+			id: "43EEBEE5471632E5"
+			tasks: [{
+				id: "0CDCBAAADFF33F24"
+				type: "item"
+				item: "buddycards:card.5.23"
+			}]
+			rewards: [{
+				id: "67F86A81F9C6B95F"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: 11.0d
+			y: 19.0d
+			shape: "pentagon"
+			dependencies: ["5B4678599B30F87F"]
+			id: "58680E3DFFEC41B0"
+			tasks: [{
+				id: "7AF9178E380A6555"
+				type: "item"
+				item: "buddycards:card.5.24"
+			}]
+			rewards: [{
+				id: "5CF89637541FD84D"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: 11.0d
+			y: 11.0d
+			shape: "pentagon"
+			dependencies: ["5B4678599B30F87F"]
+			id: "0FDE08C9647EAD49"
+			tasks: [{
+				id: "397F5E59F2BB2622"
+				type: "item"
+				item: "buddycards:card.5.25"
+			}]
+			rewards: [{
+				id: "16C3ED423E4589BC"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: 9.0d
+			y: 15.0d
+			shape: "diamond"
+			dependencies: ["5B4678599B30F87F"]
+			id: "51D6946E35AB1F95"
+			tasks: [{
+				id: "2752656D1FA61F44"
+				type: "item"
+				item: "buddycards:card.5.26"
+			}]
+			rewards: [{
+				id: "2E8FEA67FE705995"
+				type: "ftbmoney:money"
+				ftb_money: 25L
+			}]
+		}
+		{
+			x: 21.0d
+			y: 15.0d
+			shape: "diamond"
+			dependencies: ["5B4678599B30F87F"]
+			id: "1895F156A91AF15E"
+			tasks: [{
+				id: "5798177360CEC2B8"
+				type: "item"
+				item: "buddycards:card.5.27"
+			}]
+			rewards: [{
+				id: "1C4B0597835A157B"
+				type: "ftbmoney:money"
+				ftb_money: 25L
+			}]
+		}
+		{
+			x: -5.0d
+			y: 23.0d
+			dependencies: ["16B6E7B3F050FAFE"]
+			id: "3486DBC3C5A89029"
+			tasks: [{
+				id: "56A4F7ABE9CD51CB"
+				type: "item"
+				item: "buddycards:card.6.1"
+			}]
+			rewards: [{
+				id: "6E258867A720128D"
+				type: "ftbmoney:money"
+				ftb_money: 3L
+			}]
+		}
+		{
+			x: -3.5d
+			y: 23.5d
+			dependencies: ["16B6E7B3F050FAFE"]
+			id: "10069F80CA555D8F"
+			tasks: [{
+				id: "6B1A77C6B7CF93C0"
+				type: "item"
+				item: "buddycards:card.6.2"
+			}]
+			rewards: [{
+				id: "20D025411FFA3804"
+				type: "ftbmoney:money"
+				ftb_money: 3L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 25.0d
+			dependencies: ["16B6E7B3F050FAFE"]
+			id: "14AD49E9111E5F1E"
+			tasks: [{
+				id: "27DB47B193D67AF0"
+				type: "item"
+				item: "buddycards:card.6.3"
+			}]
+			rewards: [{
+				id: "775705501EA51054"
+				type: "ftbmoney:money"
+				ftb_money: 3L
+			}]
+		}
+		{
+			x: -4.0d
+			y: 26.5d
+			dependencies: ["16B6E7B3F050FAFE"]
+			id: "58063B5CDAFD855B"
+			tasks: [{
+				id: "0A6E837D43FC7842"
+				type: "item"
+				item: "buddycards:card.6.4"
+			}]
+			rewards: [{
+				id: "39C102C6B800FAE0"
+				type: "ftbmoney:money"
+				ftb_money: 3L
+			}]
+		}
+		{
+			x: -6.0d
+			y: 26.5d
+			dependencies: ["16B6E7B3F050FAFE"]
+			id: "52D70639FB53E28E"
+			tasks: [{
+				id: "1D5AC6081C3557C4"
+				type: "item"
+				item: "buddycards:card.6.5"
+			}]
+			rewards: [{
+				id: "3AA1FDF83E47E2BE"
+				type: "ftbmoney:money"
+				ftb_money: 3L
+			}]
+		}
+		{
+			x: -7.0d
+			y: 25.0d
+			dependencies: ["16B6E7B3F050FAFE"]
+			id: "589CD6DECB4C311E"
+			tasks: [{
+				id: "403E5732795955B7"
+				type: "item"
+				item: "buddycards:card.6.6"
+			}]
+			rewards: [{
+				id: "378D254A7D5DC27F"
+				type: "ftbmoney:money"
+				ftb_money: 3L
+			}]
+		}
+		{
+			x: -6.5d
+			y: 23.5d
+			dependencies: ["16B6E7B3F050FAFE"]
+			id: "65C72784405B3BE6"
+			tasks: [{
+				id: "6C751373E0119CC4"
+				type: "item"
+				item: "buddycards:card.6.7"
+			}]
+			rewards: [{
+				id: "6D723021B1890EC8"
+				type: "ftbmoney:money"
+				ftb_money: 3L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 22.0d
+			shape: "hexagon"
+			dependencies: ["16B6E7B3F050FAFE"]
+			id: "708CB20D0C1A6F1B"
+			tasks: [{
+				id: "6CC78572C7E90394"
+				type: "item"
+				item: "buddycards:card.6.8"
+			}]
+			rewards: [{
+				id: "02439E0852EF53FD"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -1.5d
+			y: 25.0d
+			shape: "hexagon"
+			dependencies: ["16B6E7B3F050FAFE"]
+			id: "723AEF2666B17103"
+			tasks: [{
+				id: "311AD58F70CBAE01"
+				type: "item"
+				item: "buddycards:card.6.9"
+			}]
+			rewards: [{
+				id: "15A0972A6586ED5E"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 27.5d
+			shape: "hexagon"
+			dependencies: ["16B6E7B3F050FAFE"]
+			id: "6E0EE5CA42F7471C"
+			tasks: [{
+				id: "1DF3EC07A0838227"
+				type: "item"
+				item: "buddycards:card.6.10"
+			}]
+			rewards: [{
+				id: "2A74A6222FB1FF7F"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -7.0d
+			y: 27.5d
+			shape: "hexagon"
+			dependencies: ["16B6E7B3F050FAFE"]
+			id: "6F9AE70BD3FF335C"
+			tasks: [{
+				id: "0BB2CE494930F05F"
+				type: "item"
+				item: "buddycards:card.6.11"
+			}]
+			rewards: [{
+				id: "6D6AFBB738477DF5"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -8.5d
+			y: 25.0d
+			shape: "hexagon"
+			dependencies: ["16B6E7B3F050FAFE"]
+			id: "45960E19AA4D4962"
+			tasks: [{
+				id: "76E1CAFBA74D7547"
+				type: "item"
+				item: "buddycards:card.6.12"
+			}]
+			rewards: [{
+				id: "1795D2E63F01949C"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -7.0d
+			y: 22.0d
+			shape: "hexagon"
+			dependencies: ["16B6E7B3F050FAFE"]
+			id: "4FAEE72B83B03785"
+			tasks: [{
+				id: "08893D3213364F4C"
+				type: "item"
+				item: "buddycards:card.6.13"
+			}]
+			rewards: [{
+				id: "2A4EA5FDBF53836A"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -5.0d
+			y: 20.0d
+			shape: "pentagon"
+			dependencies: ["16B6E7B3F050FAFE"]
+			id: "17ECE9AAC333C2A4"
+			tasks: [{
+				id: "6CDCACEE55931DFE"
+				type: "item"
+				item: "buddycards:card.6.14"
+			}]
+			rewards: [{
+				id: "43801FB732CA4610"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 28.0d
+			shape: "pentagon"
+			dependencies: ["16B6E7B3F050FAFE"]
+			id: "37BD4B09B54DFCAF"
+			tasks: [{
+				id: "7F9B21CFB7157829"
+				type: "item"
+				item: "buddycards:card.6.15"
+			}]
+			rewards: [{
+				id: "6619FDBF46E32542"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: -9.0d
+			y: 28.0d
+			shape: "pentagon"
+			dependencies: ["16B6E7B3F050FAFE"]
+			id: "78E0A76FF3F291A5"
+			tasks: [{
+				id: "59806DE47D65F7A5"
+				type: "item"
+				item: "buddycards:card.6.16"
+			}]
+			rewards: [{
+				id: "5842BF6EC8CCF6F3"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: -5.0d
+			y: 21.5d
+			shape: "diamond"
+			dependencies: ["16B6E7B3F050FAFE"]
+			id: "7B4B57351D9C0424"
+			tasks: [{
+				id: "6C8334AED1FF69D4"
+				type: "item"
+				item: "buddycards:card.6.17"
+			}]
+			rewards: [{
+				id: "0B7E1ADD9BBEB3C1"
+				type: "ftbmoney:money"
+				ftb_money: 25L
+			}]
+		}
+		{
+			x: -5.0d
+			y: 28.0d
+			shape: "diamond"
+			dependencies: ["16B6E7B3F050FAFE"]
+			id: "049E18A2D8B90E5D"
+			tasks: [{
+				id: "5CE27BA4870B6BBD"
+				type: "item"
+				item: "buddycards:card.6.18"
+			}]
+			rewards: [{
+				id: "0AA1FB84CF31D5C7"
+				type: "ftbmoney:money"
+				ftb_money: 25L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 7.5d
+			dependencies: ["3E55528A6C37BB99"]
+			id: "668B3135B8CC8733"
+			tasks: [{
+				id: "71078DCB58E7CC28"
+				type: "item"
+				item: "buddycards:buddybeans"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 23.0d
+			dependencies: ["0FDA87A7365BCAB9"]
+			id: "6FD58C7355243D25"
+			tasks: [{
+				id: "72BB6AC84A1E26CB"
+				type: "item"
+				item: "buddycards:card.7.1"
+			}]
+			rewards: [{
+				id: "4DFABA1B9967B25B"
+				type: "ftbmoney:money"
+				ftb_money: 3L
+			}]
+		}
+		{
+			x: 6.5d
+			y: 23.5d
+			dependencies: ["0FDA87A7365BCAB9"]
+			id: "6690B8EE691C46AE"
+			tasks: [{
+				id: "6965A60A683A937C"
+				type: "item"
+				item: "buddycards:card.7.2"
+			}]
+			rewards: [{
+				id: "5B40665BB3B92F69"
+				type: "ftbmoney:money"
+				ftb_money: 3L
+			}]
+		}
+		{
+			x: 7.0d
+			y: 25.0d
+			dependencies: ["0FDA87A7365BCAB9"]
+			id: "450DE23D1497A1AF"
+			tasks: [{
+				id: "56356470BFB8306B"
+				type: "item"
+				item: "buddycards:card.7.3"
+			}]
+			rewards: [{
+				id: "381A62592C441EAE"
+				type: "ftbmoney:money"
+				ftb_money: 3L
+			}]
+		}
+		{
+			x: 6.0d
+			y: 26.5d
+			dependencies: ["0FDA87A7365BCAB9"]
+			id: "3366A9A8F45E5D99"
+			tasks: [{
+				id: "768D08BDFC529423"
+				type: "item"
+				item: "buddycards:card.7.4"
+			}]
+			rewards: [{
+				id: "76D8E195A1D602A5"
+				type: "ftbmoney:money"
+				ftb_money: 3L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 26.5d
+			dependencies: ["0FDA87A7365BCAB9"]
+			id: "22218FF7569AE0DD"
+			tasks: [{
+				id: "78B4BAB9030AE33F"
+				type: "item"
+				item: "buddycards:card.7.5"
+			}]
+			rewards: [{
+				id: "163C946948A9F6BB"
+				type: "ftbmoney:money"
+				ftb_money: 3L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 25.0d
+			dependencies: ["0FDA87A7365BCAB9"]
+			id: "258D46C25D6000B2"
+			tasks: [{
+				id: "14914ADAD020FA14"
+				type: "item"
+				item: "buddycards:card.7.6"
+			}]
+			rewards: [{
+				id: "04193868ADFDD8D7"
+				type: "ftbmoney:money"
+				ftb_money: 3L
+			}]
+		}
+		{
+			x: 3.5d
+			y: 23.5d
+			dependencies: ["0FDA87A7365BCAB9"]
+			id: "291A9D0F9E0578FF"
+			tasks: [{
+				id: "37B4F99ABEE2C6DE"
+				type: "item"
+				item: "buddycards:card.7.7"
+			}]
+			rewards: [{
+				id: "04EECE6A9236F573"
+				type: "ftbmoney:money"
+				ftb_money: 3L
+			}]
+		}
+		{
+			x: 7.0d
+			y: 22.0d
+			shape: "hexagon"
+			dependencies: ["0FDA87A7365BCAB9"]
+			id: "23BFDE7B1C4A7DEA"
+			tasks: [{
+				id: "36B8D0152ADA085F"
+				type: "item"
+				item: "buddycards:card.7.8"
+			}]
+			rewards: [{
+				id: "26E163780ED633EF"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 8.5d
+			y: 25.0d
+			shape: "hexagon"
+			dependencies: ["0FDA87A7365BCAB9"]
+			id: "3BA1E4D5E84497F6"
+			tasks: [{
+				id: "10DF2F9B16EE0953"
+				type: "item"
+				item: "buddycards:card.7.9"
+			}]
+			rewards: [{
+				id: "73A8327AAAA51649"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 7.0d
+			y: 27.5d
+			shape: "hexagon"
+			dependencies: ["0FDA87A7365BCAB9"]
+			id: "7B3154258FDA4A80"
+			tasks: [{
+				id: "3276BB5B512E4D76"
+				type: "item"
+				item: "buddycards:card.7.10"
+			}]
+			rewards: [{
+				id: "454489A38E0A9C89"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 27.5d
+			shape: "hexagon"
+			dependencies: ["0FDA87A7365BCAB9"]
+			id: "37D96AB0928580D2"
+			tasks: [{
+				id: "1FDAEB5443B7C6B6"
+				type: "item"
+				item: "buddycards:card.7.11"
+			}]
+			rewards: [{
+				id: "3DDB448E7E2F4821"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 25.0d
+			shape: "hexagon"
+			dependencies: ["0FDA87A7365BCAB9"]
+			id: "6CB22CC305B60986"
+			tasks: [{
+				id: "7D3088A9CB48F217"
+				type: "item"
+				item: "buddycards:card.7.12"
+			}]
+			rewards: [{
+				id: "2E772080E6C7C326"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 22.0d
+			shape: "hexagon"
+			dependencies: ["0FDA87A7365BCAB9"]
+			id: "6D87379FBC53557E"
+			tasks: [{
+				id: "2F3E8304084EBA32"
+				type: "item"
+				item: "buddycards:card.7.13"
+			}]
+			rewards: [{
+				id: "1F2D14C6CF86272B"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 20.0d
+			shape: "pentagon"
+			dependencies: ["0FDA87A7365BCAB9"]
+			id: "3F1FB423239F5A26"
+			tasks: [{
+				id: "4CFA25ECB0C2B27E"
+				type: "item"
+				item: "buddycards:card.7.14"
+			}]
+			rewards: [{
+				id: "6131D95FD450945E"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: 9.0d
+			y: 28.0d
+			shape: "pentagon"
+			dependencies: ["0FDA87A7365BCAB9"]
+			id: "63D20ABB38ED9027"
+			tasks: [{
+				id: "05D1482EE4BD023F"
+				type: "item"
+				item: "buddycards:card.7.15"
+			}]
+			rewards: [{
+				id: "6EEB39AF634E899C"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 28.0d
+			shape: "pentagon"
+			dependencies: ["0FDA87A7365BCAB9"]
+			id: "1E327F7853B42D2A"
+			tasks: [{
+				id: "076059C197FB4E03"
+				type: "item"
+				item: "buddycards:card.7.16"
+			}]
+			rewards: [{
+				id: "582DB6C20068E132"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 21.5d
+			shape: "diamond"
+			dependencies: ["0FDA87A7365BCAB9"]
+			id: "16598F954062C024"
+			tasks: [{
+				id: "378B447348955118"
+				type: "item"
+				item: "buddycards:card.7.17"
+			}]
+			rewards: [{
+				id: "285E5AC9C1692117"
+				type: "ftbmoney:money"
+				ftb_money: 25L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 28.0d
+			shape: "diamond"
+			dependencies: ["0FDA87A7365BCAB9"]
+			id: "21EE03B86ACDBA8C"
+			tasks: [{
+				id: "7D46B6E1ACB94951"
+				type: "item"
+				item: "buddycards:card.7.18"
+			}]
+			rewards: [{
+				id: "365FA81EA69DA79E"
+				type: "ftbmoney:money"
+				ftb_money: 25L
+			}]
+		}
+		{
+			x: 11.0d
+			y: 26.0d
+			dependencies: ["0FDA87A7365BCAB9"]
+			id: "4337598A44C33BBD"
+			tasks: [{
+				id: "7321A4D14B07A969"
+				type: "item"
+				item: "buddycards:card.7.gummy1"
+			}]
+			rewards: [{
+				id: "185FB54F5EF630ED"
+				type: "item"
+				item: {
+					id: "buddycards:card.7.gummy1"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 2
+			}]
+		}
+		{
+			x: 11.0d
+			y: 24.0d
+			dependencies: ["0FDA87A7365BCAB9"]
+			id: "3E0B3DA5DE2AAA85"
+			tasks: [{
+				id: "00DB774DCCA0014B"
+				type: "item"
+				item: "buddycards:card.7.gummy2"
+			}]
+			rewards: [{
+				id: "310E7634F1020693"
+				type: "item"
+				item: {
+					id: "buddycards:card.7.gummy2"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 2
+			}]
+		}
+		{
+			x: 11.0d
+			y: 25.0d
+			dependencies: ["0FDA87A7365BCAB9"]
+			id: "5E6DA27CB5EC8971"
+			tasks: [{
+				id: "7248728370885B3F"
+				type: "item"
+				item: "buddycards:card.7.gummy3"
+			}]
+			rewards: [{
+				id: "7824961E06333345"
+				type: "item"
+				item: {
+					id: "buddycards:card.7.gummy3"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 2
+			}]
+		}
+		{
+			x: 12.0d
+			y: 24.5d
+			dependencies: ["0FDA87A7365BCAB9"]
+			id: "6FAC5E4E03ECE008"
+			tasks: [{
+				id: "5A8912E3F4D3883C"
+				type: "item"
+				item: "buddycards:card.7.gummy4"
+			}]
+			rewards: [{
+				id: "5C2DF08D2F4BC00E"
+				type: "item"
+				item: {
+					id: "buddycards:card.7.gummy4"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 2
+			}]
+		}
+		{
+			x: 12.0d
+			y: 25.5d
+			dependencies: ["0FDA87A7365BCAB9"]
+			id: "57E800375CA6C613"
+			tasks: [{
+				id: "34F83F80E6CC0D52"
+				type: "item"
+				item: "buddycards:card.7.gummy6"
+			}]
+			rewards: [{
+				id: "042933E07959FF4B"
+				type: "item"
+				item: {
+					id: "buddycards:card.7.gummy6"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 2
+			}]
+		}
+		{
+			x: 13.0d
+			y: 25.0d
+			dependencies: ["0FDA87A7365BCAB9"]
+			id: "559558E85AC0F2FB"
+			tasks: [{
+				id: "01B21C67E35DA686"
+				type: "item"
+				item: "buddycards:card.7.gummy5"
+			}]
+			rewards: [{
+				id: "62683A5C99481C60"
+				type: "item"
+				item: {
+					id: "buddycards:card.7.gummy5"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 2
+			}]
+		}
+		{
+			x: 7.5d
+			y: 7.5d
+			dependencies: ["3E55528A6C37BB99"]
+			id: "318A8457CBDC99DB"
+			tasks: [{
+				id: "294E3C17D7388442"
+				type: "item"
+				item: "buddycards:shredded_buddycard"
+			}]
+		}
+		{
+			x: 15.0d
+			y: 25.0d
+			dependencies: [
+				"57E800375CA6C613"
+				"5E6DA27CB5EC8971"
+				"559558E85AC0F2FB"
+				"3E0B3DA5DE2AAA85"
+				"6FAC5E4E03ECE008"
+				"4337598A44C33BBD"
+			]
+			dependency_requirement: "one_completed"
+			id: "114E0B0B68292B9E"
+			tasks: [{
+				id: "704A09C9F3774308"
+				type: "item"
+				item: "buddycards:assorted_gummies"
+			}]
+			rewards: [{
+				id: "35FF3239E58B2D1C"
+				type: "item"
+				item: {
+					id: "buddycards:assorted_gummies"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 2
+			}]
+		}
+		{
+			x: -15.0d
+			y: -21.0d
+			dependencies: ["6672C82E59050AEC"]
+			id: "5DC4E30596985AA0"
+			tasks: [{
+				id: "0592E004CE34031E"
+				type: "item"
+				item: "buddycards:medal.1"
+			}]
+			rewards: [
+				{
+					id: "1DAFDD97529F2E4A"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+				{
+					id: "5FC9C5EA68B78280"
+					type: "choice"
+					table_id: 6196898936153999603L
+				}
+			]
+		}
+		{
+			x: 15.0d
+			y: -21.0d
+			dependencies: ["73176E66120B476B"]
+			id: "62E00DC6BD4D14CD"
+			tasks: [{
+				id: "659F47D41D019A05"
+				type: "item"
+				item: "buddycards:medal.2"
+			}]
+			rewards: [
+				{
+					id: "4F05B904C16DDD2F"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+				{
+					id: "7F57CE6810B598DE"
+					type: "choice"
+					table_id: 6196898936153999603L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -26.0d
+			dependencies: ["6CD5CEADC2A4035A"]
+			id: "774E352940BC8D3D"
+			tasks: [{
+				id: "45228803130EC39A"
+				type: "item"
+				item: "buddycards:medal.3"
+			}]
+			rewards: [
+				{
+					id: "0143656CF5DBA228"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+				{
+					id: "65C9C463621E2B27"
+					type: "choice"
+					table_id: 6196898936153999603L
+				}
+			]
+		}
+		{
+			x: -15.0d
+			y: 9.0d
+			dependencies: ["397ED72D00776F57"]
+			id: "76C91973A2BF9DC7"
+			tasks: [{
+				id: "1D73CBC316312E4A"
+				type: "item"
+				item: "buddycards:medal.4"
+			}]
+			rewards: [
+				{
+					id: "5E34A29C96574359"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+				{
+					id: "1750EA2F37BED109"
+					type: "choice"
+					table_id: 6196898936153999603L
+				}
+			]
+		}
+		{
+			x: 15.0d
+			y: 9.0d
+			dependencies: ["5B4678599B30F87F"]
+			id: "443BE9B542D6E7BE"
+			tasks: [{
+				id: "34BF3576E49DCA5B"
+				type: "item"
+				item: "buddycards:medal.5"
+			}]
+			rewards: [
+				{
+					id: "47E7B59EB68CB13F"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+				{
+					id: "087386228C719868"
+					type: "choice"
+					table_id: 6196898936153999603L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 18.0d
+			dependencies: ["16B6E7B3F050FAFE"]
+			id: "0890DE38ED22E334"
+			tasks: [{
+				id: "43FE180258C6B307"
+				type: "item"
+				item: "buddycards:medal.6"
+			}]
+			rewards: [
+				{
+					id: "67DE5F4A84304542"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+				{
+					id: "4282D84008F1F6EF"
+					type: "choice"
+					table_id: 6196898936153999603L
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 18.0d
+			dependencies: ["0FDA87A7365BCAB9"]
+			id: "4C67E1E526FEF819"
+			tasks: [{
+				id: "651C79EA9243249A"
+				type: "item"
+				item: "buddycards:medal.7"
+			}]
+			rewards: [
+				{
+					id: "6BDCFB89EDB66A70"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+				{
+					id: "65FD76E62A8F716A"
+					type: "choice"
+					table_id: 6196898936153999603L
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: 9.0d
+			dependencies: ["318A8457CBDC99DB"]
+			id: "7759548EB8C592E8"
+			tasks: [{
+				id: "103B7EBE1437C1CE"
+				type: "item"
+				item: "buddycards:recycled_buddycard"
+			}]
+		}
+		{
+			title: "BYG Items"
+			x: -7.5d
+			y: 7.5d
+			dependencies: ["3E55528A6C37BB99"]
+			id: "08406BBD8A6EFE42"
+			tasks: [
+				{
+					id: "71F0875E7F0965D3"
+					type: "item"
+					item: "byg:embur_gel_ball"
+				}
+				{
+					id: "4ED8739E384BBEF2"
+					type: "item"
+					title: "Any #byg:rainbow_eucalyptus_logs"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "byg:rainbow_eucalyptus_logs"
+						}
+					}
+				}
+				{
+					id: "4A44BD1699308FDA"
+					type: "item"
+					item: "byg:therium_crystal"
+				}
+			]
+		}
+	]
+}

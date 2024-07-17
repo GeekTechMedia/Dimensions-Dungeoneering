@@ -1,0 +1,25 @@
+
+#Crystal Settings
+[crystals]
+	#The amount of dissolved essentia required in a chunk for a pure crystal to create a prima materia crystal.
+	primaMateriaSpreadEssentia = 1000
+	#The chance for a crystal to spread to a neighbor block on a random tick. Calculated as 1 in x, therefore a higher number here means a lower chance of spread.
+	pureCrystalChanceToSpread = 100
+	#The chance for a crystal to spread to a neighbor block on a random tick. Calculated as 1 in x, therefore a higher number here means a lower chance of spread.
+	aerCrystalChanceToSpread = 100
+	#The chance for a crystal to spread to a neighbor block on a random tick. Calculated as 1 in x, therefore a higher number here means a lower chance of spread.
+	aquaCrystalChanceToSpread = 100
+	#The chance for a crystal to spread to a neighbor block on a random tick. Calculated as 1 in x, therefore a higher number here means a lower chance of spread.
+	ignisCrystalChanceToSpread = 100
+	#The chance for a crystal to spread to a neighbor block on a random tick. Calculated as 1 in x, therefore a higher number here means a lower chance of spread.
+	terraCrystalChanceToSpread = 100
+	#The chance for a crystal to spread to a neighbor block on a random tick. Calculated as 1 in x, therefore a higher number here means a lower chance of spread.
+	primaMateriaCrystalChanceToSpread = 10
+
+#Essentia Settings
+[essentia]
+	#The amount of essentia to diffuse from cauldrons after crucibleDiffuseTicks have elapsed.
+	cruciblcrucibleEssentiaToDiffuseAmountToDissolve = 10
+	#The amount of ticks between diffusing essentia from crucibles.
+	crucibleDiffuseTicks = 400
+

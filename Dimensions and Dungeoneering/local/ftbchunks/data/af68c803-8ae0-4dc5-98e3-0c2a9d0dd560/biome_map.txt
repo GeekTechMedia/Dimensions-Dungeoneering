@@ -1,0 +1,13 @@
+#6F6 minecraft:badlands
+#556 minecraft:beach
+#35F cavebiomeapi:caves
+#34D minecraft:deep_lukewarm_ocean
+#3DE minecraft:deep_ocean
+#79A minecraft:lukewarm_ocean
+#4F1 minecraft:ocean
+#090 byg:red_rock_lowlands
+#7AA byg:red_rock_mountains
+#14D projectvibrantjourneys:red_rock_valley
+#67B minecraft:savanna
+#706 minecraft:savanna_plateau
+#12E byg:shrublands

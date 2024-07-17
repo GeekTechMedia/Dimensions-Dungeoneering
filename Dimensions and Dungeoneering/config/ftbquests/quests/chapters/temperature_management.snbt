@@ -1,0 +1,414 @@
+{
+	id: "2CEAA17E261D0BC2"
+	group: "31DBD57DDF20D469"
+	order_index: 6
+	filename: "temperature_management"
+	title: "Temperature Management"
+	icon: "cold_sweat:thermometer"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: -13.0d
+		width: 2.0d
+		height: 2.0d
+		rotation: 0.0d
+		image: "cold_sweat:textures/mob_effect/grace.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			description: ["Temperature in this modpack is added by a mod called ColdSweat in this quest chapter you will find out how to survive that harsh temperatures and learn more about the temperature system in this pack."]
+			id: "216C5CD90D40593D"
+			tasks: [{
+				id: "282BF89EF9A36EFE"
+				type: "checkmark"
+				title: "Temperature Management"
+			}]
+			rewards: [
+				{
+					id: "21A07CA298F4EB5F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5F95B3FB9554EE95"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -8.0d
+			description: ["The Boiler is a technical block that is used to heat up Waterskins. It accepts Coal, Charcoal, Coal Blocks, Magma Blocks, and Lava (ordered least to greatest value) as fuel. The front of the block will appear \"lit\" when valid fuel has been given. While the Boiler has fuel remaining, it will attempt to increase the temperature of any Waterskins in its input slots (up to their maximum temperature of 100 °F by default). The amount of remaining fuel can be seen in its in-gui fuel gauge. The Boiler slowly loses fuel over time, regardless of whether or not it is warming any items. It is advised to provide it fuel only when necessary to avoid wasting resources."]
+			dependencies: ["0639B594F6719326"]
+			id: "2EB56EA20A4E28C8"
+			tasks: [{
+				id: "7D0864BCEE39EF68"
+				type: "item"
+				item: "cold_sweat:boiler"
+			}]
+			rewards: [{
+				id: "5F6ED620A3464B3F"
+				type: "item"
+				item: "minecraft:coal"
+				count: 16
+			}]
+		}
+		{
+			x: 1.5d
+			y: -8.0d
+			description: ["The Ice Box is a technical block that is used to cool down Waterskins. It accepts Snowballs, Clay, Snow Blocks, Ice, Water, and Packed Ice (ordered least to greatest value) as fuel. While the Ice Box has fuel remaining, it will attempt to decrease the temperature of any Waterskins in its input slots (up to their minimum temperature of 50 °F by default). The amount of remaining fuel can be seen in its in-gui fuel gauge. The Ice Box slowly loses fuel over time, regardless of whether or not it is cooling any items. It is advised to provide it fuel only when necessary to avoid wasting resources."]
+			dependencies: ["0639B594F6719326"]
+			id: "5ACC559B429BFAA0"
+			tasks: [{
+				id: "78EC0D547A7C02EF"
+				type: "item"
+				item: "cold_sweat:icebox"
+			}]
+			rewards: [{
+				id: "6B66D7D8136247BD"
+				type: "item"
+				item: "minecraft:snowball"
+				count: 16
+			}]
+		}
+		{
+			x: -1.0d
+			y: -10.0d
+			description: ["The Hearth is a technical block that is designed to be a more permanent solution to uninhabitable temperatures. As long as it is provided fuel, it will fill the 30-block radius around it with temperature-controlled air that keeps the player within the perfect habitable temperature. To function properly, it must be under a roof and maintained with two types of fuel. The first type must be hot items like lava buckets, magma blocks, coal etc. The second fuel is cold items like water, snow, ice, etc. Be aware of its 30-block radius when deciding where to place the hearth, as anything outside of its range will not be safe, even if it's still within your base. It is possible to use multiple hearths, however, so large bases are not out of the question."]
+			dependencies: ["0639B594F6719326"]
+			id: "1C179BBD27A3269C"
+			tasks: [{
+				id: "535700951A80FB46"
+				type: "item"
+				item: "cold_sweat:hearth"
+			}]
+			rewards: [
+				{
+					id: "55354D3409F5012C"
+					type: "item"
+					item: {
+						id: "minecraft:lava_bucket"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "113F064A72C2DCAD"
+					type: "item"
+					item: {
+						id: "minecraft:water_bucket"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -10.0d
+			description: ["The Sewing Table is a crafting station that is used to combine any piece of armor with the temperature-resistant effects of leather armor, giving it the  tag. This process destroys the leather item, so it is advised to be cautious about what pieces of armor you insulate. Fully insulated armor allows the player to stay in a hot or cold biome for about 3 times as long as regular armor. It should be noted that other types of armor have a small amount of natural insulation based on their defense value, so the best setup for long trips would be a set of highly-protective armor that has been insulated with leather."]
+			dependencies: ["0639B594F6719326"]
+			id: "3CC1B571A5DD5774"
+			tasks: [{
+				id: "47DD58B99CB2B217"
+				type: "item"
+				item: "cold_sweat:sewing_table"
+			}]
+			rewards: [{
+				id: "7D8F1063671706F3"
+				type: "item"
+				item: "minecraft:leather"
+				count: 16
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			description: [
+				"Temperature is the prime mechanic of Cold Sweat. Like hunger and health, it is a resource that must be monitored and properly managed. When the player's core temperature reaches a critical point, either too low or too high, death is imminent unless the problem can be quickly resolved. The main things that affect the player's temperature are part of the world itself. In ideal conditions, the player's core temperature will gradually stabilize; but harsh temperatures can quickly throw this equilibrium off-balance."
+				""
+				"The main things that affect the player's temperature are:"
+				""
+				"•The temperature of biomes around the player."
+				"•The time of day."
+				"•Nearby blocks, such as lava or ice."
+				"•The season."
+			]
+			dependencies: ["216C5CD90D40593D"]
+			id: "214862085003376F"
+			tasks: [{
+				id: "428EF93996D01FEE"
+				type: "checkmark"
+				title: "Temperature"
+			}]
+			rewards: [{
+				id: "5A4A8FBC1C0410A5"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: 0.0d
+			y: -6.0d
+			description: ["These are best for quick outings. To prep them, they must first be filled with water at any water source, then put into an Ice Box or Boiler. Hovering over them in the inventory displays their current temperature. Hot temperatures are best for cold biomes, and vice-versa for hot biomes. To use them, right-click with it in your hand to pour its water over yourself. This will instantly change the player's core temperature depending on the temperature of the waterskin. Using these efficiently will allow the player to exist in extreme temperatures for much longer. "]
+			dependencies: ["214862085003376F"]
+			id: "0639B594F6719326"
+			tasks: [{
+				id: "7C4404C0FD6790B8"
+				type: "item"
+				item: "cold_sweat:waterskin"
+			}]
+			rewards: [{
+				id: "75613791887887D4"
+				type: "item"
+				item: "cold_sweat:waterskin"
+			}]
+		}
+		{
+			title: "Leather Armor"
+			x: 2.5d
+			y: -6.5d
+			description: ["There are also solutions that do not outright change your body temperature or the ambient temperature, but do slow the rate at which your core temperature changes, allowing you to stay in perilous circumstances for longer. Leather Armor is chief among these. It naturally has a bit of resistance to temperature, so wearing it allows the player to harness its effects. "]
+			dependencies: ["214862085003376F"]
+			id: "597BCD324365EF30"
+			tasks: [
+				{
+					id: "2D7213050071506C"
+					type: "item"
+					item: {
+						id: "minecraft:leather_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"agricraft:gene_inspector": {
+								agri_flag: 0b
+							}
+						}
+					}
+				}
+				{
+					id: "0FD3B8BEB84A4D8E"
+					type: "item"
+					item: {
+						id: "minecraft:leather_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "65C008E53C88DCFF"
+					type: "item"
+					item: {
+						id: "minecraft:leather_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1F69963492B87CBD"
+					type: "item"
+					item: {
+						id: "minecraft:leather_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "666735D1130F6382"
+				type: "item"
+				item: "minecraft:leather"
+				count: 8
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.5d
+			description: ["This is another item that insulates the player. Though it is not very useful or portable unless it is put on a minecart first, its effect stacks with that of leather armor or insulated armor, making it an effective and inexpensive way to travel between inter-connected bases safely. Minecart insulation can be used on a rideable (empty) minecart by sneak-right-clicking it with the item in your hand. The insulation can be retrieved from the minecart by breaking it."]
+			dependencies: ["214862085003376F"]
+			id: "1C412024C942FD95"
+			tasks: [{
+				id: "08FC95FEC2DC1581"
+				type: "item"
+				item: "cold_sweat:minecart_insulation"
+			}]
+			rewards: [{
+				id: "021D83D1A1E27CD9"
+				type: "item"
+				item: "minecraft:minecart"
+			}]
+		}
+		{
+			icon: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "cold_sweat:ice_resistance"
+				}
+			}
+			x: -2.5d
+			y: 0.5d
+			description: ["Potions of Fire Resistance and Ice Resistance will completely protect the player against their respective temperatures. Ice Resistance potions can be crafted by brewing packed ice with awkward potions."]
+			dependencies: ["214862085003376F"]
+			id: "32D7947C573A9F52"
+			tasks: [{
+				id: "05483CFC0F2C12D5"
+				type: "checkmark"
+				title: "Potions"
+			}]
+			rewards: [{
+				id: "53D1F19F4E9A83CF"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:fire_resistance"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: -6.5d
+			description: ["The thermometer will display the current ambient temperature around the player while they hold it. For example if you were in a desert it would display a high temperature indicating that the desert is hot. "]
+			dependencies: ["214862085003376F"]
+			id: "0DD8D28F554EE93A"
+			tasks: [{
+				id: "76218D9F8D5D11A9"
+				type: "item"
+				item: "cold_sweat:thermometer"
+			}]
+			rewards: [{
+				id: "7F91F58BA4C3326C"
+				type: "item"
+				item: "cold_sweat:thermometer"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -4.5d
+			description: ["The ambient temperature is located to the right of the hotbar and can be seen when holding a thermometer. The frame around the temperature will change depending on the conditions outside to clearly convey what different temperatures mean. When the ambient temperature exceeds 101 °F or 38 °C (customizable), your body temperature will slowly begin to rise. The number indicating the temperature will turn red and begin shaking if the ambient temperature is critical. Hot biomes, like Savannas and Mesas, might require some cold Waterskins to traverse safely. Likewise, when the ambient temperature is below 50 °F or 9 °C (customizable), your body temperature will slowly begin to fall. The number indicating the temperature will turn dark-blue and begin shaking if the ambient temperature is critical. The time of day is also responsible for a large portion of what makes up the ambient temperature. It is hottest at noon, adding up to 10 °F (6 °C) to the total. It is coldest at midnight, where it can be up to 10 °F (6 °C) colder. Hot, sandy biomes like the Desert unique in that they are unbearably hot during the day, but bitingly cold at night. This is by design, as real deserts are very similar because heat does not stay in the loose sand for long."]
+			dependencies: ["214862085003376F"]
+			id: "7EF9EC82090623D2"
+			tasks: [{
+				id: "3368B71AED494EB1"
+				type: "checkmark"
+				title: "Ambient Temperature"
+			}]
+			rewards: [{
+				id: "7A8352AB12348AA0"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -4.0d
+			y: -2.0d
+			description: ["The player's body temperature is displayed above the hotbar, represented by a small \"steve-head\" icon that changes depending one the player's condition. Some example images are included in this questline. When the player's temperature is in the critical zone, the icon turns into the head of a skeleton and starts shaking. This is the point where the player begins taking damage. There is a more accurate temperature gauge in the inventory screen above the player's armor slots. This displays an exact number representing how long the before the player will begin taking damage, rounded to the nearest integer. It works on a scale of 0-100, so 0 is normal, a red 100 is critically hot, and a blue 100 is critically cold."]
+			dependencies: ["214862085003376F"]
+			id: "1F52DDB3DC7BB8A0"
+			tasks: [{
+				id: "00DA50CE8671FBA7"
+				type: "checkmark"
+				title: "Body Temperature"
+			}]
+			rewards: [{
+				id: "7379E8FE75219A51"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: 4.0d
+			y: -4.5d
+			description: ["There are many other blocks that will increase the ambient temperatue around the player some examples are campfires, furnaces, lava, etc."]
+			dependencies: ["214862085003376F"]
+			id: "1652B93D2187F46D"
+			tasks: [{
+				id: "225465141A639F6F"
+				type: "item"
+				item: "minecraft:campfire"
+			}]
+			rewards: [{
+				id: "358A4478E4ADFD49"
+				type: "item"
+				item: "minecraft:campfire"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -2.0d
+			description: ["There are many other blocks that will decrease the ambient temperatue around the player some examples are  soul campfires, ice, snow, etc."]
+			dependencies: ["214862085003376F"]
+			id: "3483D54CCE16E42A"
+			tasks: [{
+				id: "1D222DB85F671967"
+				type: "item"
+				item: "minecraft:soul_campfire"
+			}]
+			rewards: [{
+				id: "5788EAE87C9E7922"
+				type: "item"
+				item: "minecraft:soul_campfire"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -11.0d
+			description: ["The soulspring lamp is an item which makes living in the nether possible! When you place one of these down and give it fuel you will cool down to a normal temperature. In order to be effective it needs to be fueled with warped or crimson stems."]
+			dependencies: ["0639B594F6719326"]
+			id: "79647F17DAC97AE4"
+			tasks: [{
+				id: "4B65E6FFB5CC526C"
+				type: "item"
+				item: {
+					id: "cold_sweat:soulspring_lamp"
+					Count: 1b
+					tag: {
+						isOn: 1b
+						fuel: 64.0d
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "51A015B11070D78A"
+				type: "item"
+				item: {
+					id: "cold_sweat:soulspring_lamp"
+					Count: 1b
+					tag: {
+						isOn: 1b
+						fuel: 64.0d
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+	]
+}

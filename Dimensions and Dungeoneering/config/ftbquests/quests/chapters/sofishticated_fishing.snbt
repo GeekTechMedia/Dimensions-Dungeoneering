@@ -1,0 +1,534 @@
+{
+	id: "5C9DDD78B05D9343"
+	group: "595AE539715DFFDD"
+	order_index: 1
+	filename: "sofishticated_fishing"
+	title: "Sofishticated Fishing"
+	icon: {
+		id: "aquaculture:neptunium_fishing_rod"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: -5.5d
+		width: 10.0d
+		height: 10.0d
+		rotation: 0.0d
+		image: "minecraft:textures/gui/wip.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			x: 1.0d
+			y: 1.0d
+			shape: "circle"
+			description: ["The Nether Depths mod adds some extra fauna and flora to the seas for the nether."]
+			id: "22B72819022A3FA7"
+			tasks: [{
+				id: "6704C4A0A8050195"
+				type: "checkmark"
+				title: "Nether Depths"
+			}]
+			rewards: [
+				{
+					id: "45FA4A7C20AF6589"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5AAB9E6C51554A0A"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -1.0d
+			shape: "circle"
+			id: "467F5BE3B8425A70"
+			tasks: [{
+				id: "2B3ADB1EA18A2B2F"
+				type: "checkmark"
+				title: "Aquaculture"
+			}]
+			rewards: [
+				{
+					id: "692BA00325EDD919"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3B4D73DBA6320EAB"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 1.0d
+			shape: "circle"
+			id: "4A1E30D6781FC4BA"
+			tasks: [{
+				id: "46157510DE46C595"
+				type: "checkmark"
+				title: "Better Fishing Rods"
+			}]
+			rewards: [
+				{
+					id: "1E55A08B757ABBCE"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "009A11040F88ABE2"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 5.5d
+			dependencies: ["6E33C400973103FA"]
+			id: "271D4C89530B9C17"
+			tasks: [{
+				id: "7D83410A2953E475"
+				type: "item"
+				item: {
+					id: "netherdepthsupgrade:lava_pufferfish"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "53B9218CDB430561"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "65C491824EAA7610"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "fishing"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 5.5d
+			dependencies: ["6E33C400973103FA"]
+			id: "650F7104F4A8B68C"
+			tasks: [{
+				id: "58DDF85AF397E207"
+				type: "item"
+				item: {
+					id: "netherdepthsupgrade:obsidianfish"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4A4DB4CD924021D2"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "24E7B2AFB1FC51BA"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "fishing"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 4.5d
+			dependencies: ["6E33C400973103FA"]
+			id: "212C3C8D715EE73F"
+			tasks: [{
+				id: "50EFEDA415D1614A"
+				type: "item"
+				item: {
+					id: "netherdepthsupgrade:searing_cod"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "499FE525B1754528"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "63197DE67F97B547"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "fishing"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 3.5d
+			dependencies: ["6E33C400973103FA"]
+			id: "2218218524660B55"
+			tasks: [{
+				id: "2C4054FA916908E6"
+				type: "item"
+				item: {
+					id: "netherdepthsupgrade:bonefish"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "79E8F160A397D721"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "74B23856CCCF2BE7"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "fishing"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 3.5d
+			dependencies: ["6E33C400973103FA"]
+			id: "696335C370A46793"
+			tasks: [{
+				id: "7A206101D973F79F"
+				type: "item"
+				item: {
+					id: "netherdepthsupgrade:wither_bonefish"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1C0C0D1CD216C364"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "3C15636A81B62D6B"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "fishing"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 5.5d
+			dependencies: ["6E33C400973103FA"]
+			id: "049E5F7C33748CE3"
+			tasks: [{
+				id: "23F544DBCB69EB47"
+				type: "item"
+				item: {
+					id: "netherdepthsupgrade:blazefish"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "417DF3446E6035C7"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "24B73D9D7BEBB652"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "fishing"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 4.5d
+			dependencies: ["6E33C400973103FA"]
+			id: "4C0C86A50BE5FD7B"
+			tasks: [{
+				id: "605FCA10FC498755"
+				type: "item"
+				item: {
+					id: "netherdepthsupgrade:magmacubefish"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "74DEA5829B1E3555"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "7097A20C955416CC"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "fishing"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 4.5d
+			dependencies: ["6E33C400973103FA"]
+			id: "24B098A3AD9A7FD4"
+			tasks: [{
+				id: "7DD84F63E827CDE0"
+				type: "item"
+				item: {
+					id: "netherdepthsupgrade:glowdine"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "059D1404AC292DCB"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "521496FF11F32FB2"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "fishing"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 5.0d
+			dependencies: ["6E33C400973103FA"]
+			id: "23D0DB92A61240AD"
+			tasks: [{
+				id: "55220E4926C9D726"
+				type: "item"
+				item: {
+					id: "netherdepthsupgrade:soulsucker"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0C759208780C8260"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "054C282BFE1971E2"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "fishing"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 1.0d
+			description: ["The lava sponge can be found in the large lava seas in the nether, it works exactly like a normal sponge, but soaks up lava instead."]
+			dependencies: ["22B72819022A3FA7"]
+			id: "7401D4D0592B3E25"
+			tasks: [{
+				id: "3516F1031C696433"
+				type: "item"
+				item: {
+					id: "netherdepthsupgrade:lava_sponge"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "7D01E08A09D3809A"
+				type: "item"
+				item: {
+					id: "netherdepthsupgrade:lava_sponge"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.5d
+			description: ["The lava fishing rod can be used to fish for the lava fish variants in lava pools."]
+			dependencies: ["22B72819022A3FA7"]
+			id: "6E33C400973103FA"
+			tasks: [{
+				id: "432390087A57C4B9"
+				type: "item"
+				item: {
+					id: "netherdepthsupgrade:lava_fishing_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "54EE8A098D07EB2A"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "0F64D3769E711B9E"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "fishing"
+					amount: 200.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 7.0d
+			description: ["The soul sucker boots are useful for traversing soul sand valleys because the come with the enchant soul speed 3 by default!"]
+			dependencies: ["23D0DB92A61240AD"]
+			id: "4C8B653EE4686027"
+			tasks: [{
+				id: "40DCBDDC40A0920A"
+				type: "item"
+				item: {
+					id: "netherdepthsupgrade:soul_sucker_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							lvl: 3s
+							id: "minecraft:soul_speed"
+						}]
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "27B8DD6CE6205E04"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 3s
+							id: "minecraft:soul_speed"
+						}]
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: -1.0d
+			shape: "circle"
+			id: "4F670B24A9475669"
+			tasks: [{
+				id: "70A8CF46B2D66DFB"
+				type: "checkmark"
+				title: "Fins and Tails"
+			}]
+		}
+	]
+}

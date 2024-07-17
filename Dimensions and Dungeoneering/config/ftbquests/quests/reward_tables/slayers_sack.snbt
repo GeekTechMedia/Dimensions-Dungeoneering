@@ -1,0 +1,121 @@
+{
+	id: "1833097326A11729"
+	order_index: 20
+	title: "Slayer's Sack"
+	icon: "rats:rat_sack"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "minecraft:wooden_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+					display: {
+						Lore: ["\"Some say this sword was used in ancient battles. To you this looks like a shiny piece of garbage.\""]
+						Name: "\"Branch of Yggdrasil\""
+					}
+					Enchantments: [
+						{
+							lvl: 5
+							id: "sharpness"
+						}
+						{
+							lvl: 2
+							id: "fire_aspect"
+						}
+						{
+							lvl: 3
+							id: "sweeping"
+						}
+						{
+							lvl: 5
+							id: "ma-enchants:curse_breaking"
+						}
+					]
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:iron_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+					display: {
+						Lore: ["\"Once a sword of ancient legend, used to deem kings worthy of thrones. In these times, this is used on the battlefronts every day.\""]
+						Name: "\"Excalibur\""
+					}
+					Enchantments: [
+						{
+							lvl: 5
+							id: "sharpness"
+						}
+						{
+							lvl: 1
+							id: "vanishing_curse"
+						}
+					]
+				}
+			}
+		}
+		{
+			item: {
+				id: "iceandfire:silver_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							lvl: 3s
+							id: "minecraft:sharpness"
+						}
+						{
+							lvl: 5s
+							id: "ma-enchants:wisdom"
+						}
+						{
+							lvl: 2s
+							id: "minecraft:fire_aspect"
+						}
+					]
+					display: {
+						Name: "{\"text\":\"Andúril\"}"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:battleaxe_iron"
+				Count: 1b
+				tag: {
+					Damage: 0
+					display: {
+						Lore: ["\"This is an axe of legend that supposedly was used to miss the head of thanos and dissapoint many fans.\""]
+						Name: "\"Stormbreaker\""
+					}
+					Enchantments: [
+						{
+							lvl: 3
+							id: "sharpness"
+						}
+						{
+							lvl: 1
+							id: "dungeons_gear:thundering"
+						}
+						{
+							lvl: 1
+							id: "vanishing_curse"
+						}
+					]
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+		}
+	]
+}

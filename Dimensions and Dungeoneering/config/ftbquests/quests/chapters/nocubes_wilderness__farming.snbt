@@ -1,0 +1,474 @@
+{
+	id: "2594F793F79AA724"
+	group: "595AE539715DFFDD"
+	order_index: 3
+	filename: "nocubes_wilderness__farming"
+	title: "Farming In The Wilderness"
+	icon: "nocubes_wilderness:giant_blueberry"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "circle"
+			description: ["NoCube's Wilderness is a vanilla-styled minecraft mod. The main goal of a mod is to expand blooming forests and endless fields of Minecraft with fresh new wild flora and fauna, which all have different purposes or just being a good decoration for buildings!"]
+			id: "25ED19F291983736"
+			tasks: [{
+				id: "50BB8F60DE45DE75"
+				type: "checkmark"
+				title: "NoCube's Wilderness"
+			}]
+			rewards: [
+				{
+					id: "5A03B9DF6A681080"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "679513285C3BEBED"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -4.0d
+			dependencies: ["25ED19F291983736"]
+			id: "19701F258DD578E0"
+			tasks: [{
+				id: "3DC546B27E28DA03"
+				type: "item"
+				item: "nocubes_wilderness:blueberry"
+			}]
+			rewards: [
+				{
+					id: "55CA827BFF9389E2"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "331C0EF1BCFA6E33"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -4.0d
+			dependencies: ["25ED19F291983736"]
+			id: "4210996BDB55D401"
+			tasks: [{
+				id: "5F76E5AEE74E5EE4"
+				type: "item"
+				item: "nocubes_wilderness:raspberry"
+			}]
+			rewards: [
+				{
+					id: "00A459CBDD5EC7E4"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "0115D187CA09834A"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -4.0d
+			dependencies: ["25ED19F291983736"]
+			id: "348E0EBFE183B9BD"
+			tasks: [{
+				id: "5E0DC3B471530E88"
+				type: "item"
+				item: "nocubes_wilderness:lingonberry"
+			}]
+			rewards: [
+				{
+					id: "255A6879620C6DBE"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "1364274144CA45C4"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -2.5d
+			dependencies: ["25ED19F291983736"]
+			id: "2FC3DC1249E9475E"
+			tasks: [{
+				id: "46F84828B1C9EF9A"
+				type: "item"
+				item: "nocubes_wilderness:chanterelle"
+			}]
+			rewards: [
+				{
+					id: "6FE01ED916B8BA33"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "2C6FCDB4AECA10A1"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 50.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -2.5d
+			dependencies: ["25ED19F291983736"]
+			id: "13626CBC0D577495"
+			tasks: [{
+				id: "02C166DE20076201"
+				type: "item"
+				item: "nocubes_wilderness:boletus"
+			}]
+			rewards: [
+				{
+					id: "43E29D6F0853372F"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "6E4ECE536801B51A"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 50.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -5.0d
+			dependencies: ["19701F258DD578E0"]
+			id: "6AA1EB22B4A99E69"
+			tasks: [{
+				id: "06D5F408D9BE23A1"
+				type: "item"
+				item: "nocubes_wilderness:blueberry_crate"
+			}]
+			rewards: [{
+				id: "5969694FB8FBF1B5"
+				type: "item"
+				item: "nocubes_wilderness:blueberry_crate"
+				count: 3
+			}]
+		}
+		{
+			x: -0.5d
+			y: -5.0d
+			dependencies: ["4210996BDB55D401"]
+			id: "181FD5D4E62A3A16"
+			tasks: [{
+				id: "64B08A0034899732"
+				type: "item"
+				item: "nocubes_wilderness:raspberry_crate"
+			}]
+			rewards: [{
+				id: "178BA28866CBB6CD"
+				type: "item"
+				item: "nocubes_wilderness:raspberry_crate"
+				count: 3
+			}]
+		}
+		{
+			x: 0.5d
+			y: -5.0d
+			dependencies: ["348E0EBFE183B9BD"]
+			id: "24122D47686C85CF"
+			tasks: [{
+				id: "4CD24E7EDC3A148B"
+				type: "item"
+				item: "nocubes_wilderness:lingonberry_crate"
+			}]
+			rewards: [{
+				id: "7CFEC2EE4135C998"
+				type: "item"
+				item: "nocubes_wilderness:lingonberry_crate"
+				count: 3
+			}]
+		}
+		{
+			x: 1.5d
+			y: -5.0d
+			dependencies: ["7A3779271643281B"]
+			id: "33DE0186BB92A20E"
+			tasks: [{
+				id: "17692F41579E42AD"
+				type: "item"
+				item: "nocubes_wilderness:sweet_berry_crate"
+			}]
+			rewards: [{
+				id: "0B368FEDBD9A433C"
+				type: "item"
+				item: "nocubes_wilderness:sweet_berry_crate"
+				count: 3
+			}]
+		}
+		{
+			x: -1.5d
+			y: -7.0d
+			dependencies: ["19701F258DD578E0"]
+			id: "54E27E85AB5D549B"
+			tasks: [{
+				id: "194F62A2CDEE54D5"
+				type: "item"
+				item: "nocubes_wilderness:blueberry_pouch_closed"
+			}]
+			rewards: [{
+				id: "44FD3E6E0D2A5A12"
+				type: "item"
+				item: "nocubes_wilderness:blueberry_pouch_closed"
+				count: 3
+			}]
+		}
+		{
+			x: -0.5d
+			y: -7.0d
+			dependencies: ["4210996BDB55D401"]
+			id: "22051E438D392233"
+			tasks: [{
+				id: "605004A77C0C0F6E"
+				type: "item"
+				item: "nocubes_wilderness:raspberry_pouch_closed"
+			}]
+			rewards: [{
+				id: "5CEE1C229A9AA379"
+				type: "item"
+				item: "nocubes_wilderness:raspberry_pouch_closed"
+				count: 3
+			}]
+		}
+		{
+			x: 0.5d
+			y: -7.0d
+			dependencies: ["348E0EBFE183B9BD"]
+			id: "29135841BF8A5ADD"
+			tasks: [{
+				id: "5D2EEC88FBFAC76A"
+				type: "item"
+				item: "nocubes_wilderness:lingonberry_pouch_closed"
+			}]
+			rewards: [{
+				id: "3A79B676022B6EEA"
+				type: "item"
+				item: "nocubes_wilderness:lingonberry_pouch_closed"
+				count: 3
+			}]
+		}
+		{
+			x: 1.5d
+			y: -7.0d
+			dependencies: ["7A3779271643281B"]
+			id: "69823BF0D3D8669B"
+			tasks: [{
+				id: "4D9B614C08602806"
+				type: "item"
+				item: "nocubes_wilderness:sweet_berry_pouch_closed"
+			}]
+			rewards: [{
+				id: "4A7E719B69A82078"
+				type: "item"
+				item: "nocubes_wilderness:sweet_berry_pouch_closed"
+				count: 3
+			}]
+		}
+		{
+			x: -1.0d
+			y: -3.0d
+			dependencies: ["25ED19F291983736"]
+			id: "261EBC9F4D926A13"
+			tasks: [{
+				id: "2FECB27110C92BF5"
+				type: "item"
+				item: "nocubes_wilderness:blueberry_pips"
+			}]
+			rewards: [
+				{
+					id: "6FDB83CC74FF5A5C"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "2EAB79CB5F72F425"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			dependencies: ["25ED19F291983736"]
+			id: "08D1799B143FC5BC"
+			tasks: [{
+				id: "7C4F2CCBBB68FC4F"
+				type: "item"
+				item: "nocubes_wilderness:raspberry_pips"
+			}]
+			rewards: [
+				{
+					id: "53A9206495E8E505"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "2C0C3A54055F385E"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -3.0d
+			dependencies: ["25ED19F291983736"]
+			id: "0F8C7B54329063A5"
+			tasks: [{
+				id: "1B8D1E48488D7A59"
+				type: "item"
+				item: "nocubes_wilderness:lingonberry_pips"
+			}]
+			rewards: [
+				{
+					id: "35D711373354E0A0"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "223C33916A7CA7F8"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -6.0d
+			dependencies: ["19701F258DD578E0"]
+			id: "16F34FED389CFF8D"
+			tasks: [{
+				id: "3F1610BE50B09E42"
+				type: "item"
+				item: "nocubes_wilderness:giant_blueberry"
+			}]
+			rewards: [{
+				id: "65F388FE471595E7"
+				type: "item"
+				item: "nocubes_wilderness:giant_blueberry"
+				count: 3
+			}]
+		}
+		{
+			x: -0.5d
+			y: -6.0d
+			dependencies: ["4210996BDB55D401"]
+			id: "28F0FAD5FCDDFBD5"
+			tasks: [{
+				id: "38CA78DB57D9D1C7"
+				type: "item"
+				item: "nocubes_wilderness:giant_raspberry"
+			}]
+			rewards: [{
+				id: "798B4A0EC16FE765"
+				type: "item"
+				item: "nocubes_wilderness:giant_raspberry"
+				count: 3
+			}]
+		}
+		{
+			x: 0.5d
+			y: -6.0d
+			dependencies: ["348E0EBFE183B9BD"]
+			id: "078B14356F7A4745"
+			tasks: [{
+				id: "1E2DC5ACA23F8EE9"
+				type: "item"
+				item: "nocubes_wilderness:giant_lingonberry"
+			}]
+			rewards: [{
+				id: "66A137FBC0CB78C7"
+				type: "item"
+				item: "nocubes_wilderness:giant_lingonberry"
+				count: 3
+			}]
+		}
+		{
+			x: 1.5d
+			y: -6.0d
+			dependencies: ["7A3779271643281B"]
+			id: "2F69C22E2390DEF7"
+			tasks: [{
+				id: "560BD53237957D90"
+				type: "item"
+				item: "nocubes_wilderness:giant_sweet_berry"
+			}]
+			rewards: [{
+				id: "0FCF3ADFED4C2B1A"
+				type: "item"
+				item: "nocubes_wilderness:giant_sweet_berry"
+				count: 3
+			}]
+		}
+		{
+			x: 1.5d
+			y: -4.0d
+			dependencies: ["25ED19F291983736"]
+			id: "7A3779271643281B"
+			tasks: [{
+				id: "0465011EABF54674"
+				type: "item"
+				item: "minecraft:sweet_berries"
+			}]
+			rewards: [
+				{
+					id: "5CFCB18A135F6A82"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "57A430E70309A84A"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+	]
+}

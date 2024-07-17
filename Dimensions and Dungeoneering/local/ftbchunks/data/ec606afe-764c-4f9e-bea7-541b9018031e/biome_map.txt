@@ -1,0 +1,12 @@
+#35F cavebiomeapi:caves
+#4FD projectvibrantjourneys:crystal_lakes
+#04B byg:guiana_clearing
+#6BF byg:guiana_shield
+#379 minecraft:mountains
+#3DC minecraft:plains
+#5FF minecraft:river
+#5ED byg:seasonal_birch_forest
+#3A8 byg:seasonal_deciduous_forest
+#23E byg:seasonal_forest
+#4D3 minecraft:swamp
+#306 minecraft:wooded_mountains

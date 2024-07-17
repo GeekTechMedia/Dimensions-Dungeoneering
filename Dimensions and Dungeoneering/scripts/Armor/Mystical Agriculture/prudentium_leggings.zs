@@ -1,0 +1,10 @@
+craftingTable.removeRecipe(<item:mysticalagriculture:prudentium_leggings>);
+
+mods.extendedcrafting.TableCrafting.addShaped("prudentium_leggings", 3, <item:mysticalagriculture:prudentium_leggings>, [
+  [<item:minecraft:air>, <item:mysticalagriculture:prudentium_ingot>, <item:mysticalagriculture:prudentium_ingot>, <item:mysticalagriculture:prudentium_ingot>, <item:mysticalagriculture:prudentium_ingot>, <item:mysticalagriculture:prudentium_ingot>, <item:minecraft:air>],
+  [<item:mysticalagriculture:prudentium_ingot>, <item:mysticalagriculture:prudentium_gemstone>, <item:mysticalagriculture:prudentium_gemstone>, <item:mysticalagriculture:inferium_leggings>, <item:mysticalagriculture:prudentium_gemstone>, <item:mysticalagriculture:prudentium_gemstone>, <item:mysticalagriculture:prudentium_ingot>],
+  [<item:mysticalagriculture:prudentium_ingot>, <item:mysticalagriculture:prudentium_gemstone>, <item:mysticalagriculture:prudentium_gemstone>, <item:mysticalagriculture:prudentium_ingot>, <item:mysticalagriculture:prudentium_gemstone>, <item:mysticalagriculture:prudentium_gemstone>, <item:mysticalagriculture:prudentium_ingot>],
+  [<item:mysticalagriculture:prudentium_ingot>, <item:mysticalagriculture:prudentium_gemstone>, <item:mysticalagriculture:prudentium_ingot>, <item:minecraft:air>, <item:mysticalagriculture:prudentium_ingot>, <item:mysticalagriculture:prudentium_gemstone>, <item:mysticalagriculture:prudentium_ingot>],
+  [<item:mysticalagriculture:prudentium_ingot>, <item:mysticalagriculture:prudentium_gemstone>, <item:mysticalagriculture:prudentium_ingot>, <item:minecraft:air>, <item:mysticalagriculture:prudentium_ingot>, <item:mysticalagriculture:prudentium_gemstone>, <item:mysticalagriculture:prudentium_ingot>],
+  [<item:mysticalagriculture:prudentium_ingot>, <item:mysticalagriculture:prudentium_ingot>, <item:mysticalagriculture:prudentium_ingot>, <item:minecraft:air>, <item:mysticalagriculture:prudentium_ingot>, <item:mysticalagriculture:prudentium_ingot>, <item:mysticalagriculture:prudentium_ingot>]
+]);

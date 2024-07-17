@@ -1,0 +1,14 @@
+{
+	id: "599CCED358AD9857"
+	order_index: 14
+	title: "Drawers"
+	loot_size: 1
+	rewards: [
+		{ item: "storagedrawers:oak_full_drawers_1" }
+		{ item: "storagedrawers:spruce_full_drawers_1" }
+		{ item: "storagedrawers:birch_full_drawers_1" }
+		{ item: "storagedrawers:jungle_full_drawers_1" }
+		{ item: "storagedrawers:acacia_full_drawers_1" }
+		{ item: "storagedrawers:dark_oak_full_drawers_1" }
+	]
+}

@@ -1,0 +1,11 @@
+{
+  "type": "origins:starting_equipment",
+  "stacks": [
+    {
+      "item": "eidolon:warlock_hat",
+      "amount": "1"
+    }
+  ],
+  "name": "Sorcerer's Hat",
+  "description": "Who would a sorcerer be without their infamous wizard hat?"
+}

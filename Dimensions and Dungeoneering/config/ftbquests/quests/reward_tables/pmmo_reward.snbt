@@ -1,0 +1,128 @@
+{
+	id: "55FFCEBFF67488F3"
+	order_index: 27
+	title: "PMMO Reward"
+	loot_size: 1
+	rewards: [
+		{
+			auto: "enabled"
+			skill: "magic"
+			amount: 1.0d
+			type: "pmmo:levelreward"
+		}
+		{
+			auto: "enabled"
+			skill: "fishing"
+			amount: 1.0d
+			type: "pmmo:levelreward"
+		}
+		{
+			auto: "enabled"
+			skill: "combat"
+			amount: 1.0d
+			type: "pmmo:levelreward"
+		}
+		{
+			auto: "enabled"
+			skill: "alchemy"
+			amount: 1.0d
+			type: "pmmo:levelreward"
+		}
+		{
+			auto: "enabled"
+			skill: "mining"
+			amount: 1.0d
+			type: "pmmo:levelreward"
+		}
+		{
+			auto: "enabled"
+			skill: "endurance"
+			amount: 1.0d
+			type: "pmmo:levelreward"
+		}
+		{
+			auto: "enabled"
+			skill: "building"
+			amount: 1.0d
+			type: "pmmo:levelreward"
+		}
+		{
+			auto: "enabled"
+			skill: "smithing"
+			amount: 1.0d
+			type: "pmmo:levelreward"
+		}
+		{
+			auto: "enabled"
+			skill: "swimming"
+			amount: 1.0d
+			type: "pmmo:levelreward"
+		}
+		{
+			auto: "enabled"
+			skill: "woodcutting"
+			amount: 1.0d
+			type: "pmmo:levelreward"
+		}
+		{
+			auto: "enabled"
+			skill: "gunslinging"
+			amount: 1.0d
+			type: "pmmo:levelreward"
+		}
+		{
+			auto: "enabled"
+			skill: "crafting"
+			amount: 1.0d
+			type: "pmmo:levelreward"
+		}
+		{
+			auto: "enabled"
+			skill: "excavation"
+			amount: 1.0d
+			type: "pmmo:levelreward"
+		}
+		{
+			auto: "enabled"
+			skill: "farming"
+			amount: 1.0d
+			type: "pmmo:levelreward"
+		}
+		{
+			auto: "enabled"
+			skill: "flying"
+			amount: 1.0d
+			type: "pmmo:levelreward"
+		}
+		{
+			auto: "enabled"
+			skill: "cooking"
+			amount: 1.0d
+			type: "pmmo:levelreward"
+		}
+		{
+			auto: "enabled"
+			skill: "agility"
+			amount: 1.0d
+			type: "pmmo:levelreward"
+		}
+		{
+			auto: "enabled"
+			skill: "sailing"
+			amount: 1.0d
+			type: "pmmo:levelreward"
+		}
+		{
+			auto: "enabled"
+			skill: "archery"
+			amount: 1.0d
+			type: "pmmo:levelreward"
+		}
+		{
+			auto: "enabled"
+			skill: "taming"
+			amount: 1.0d
+			type: "pmmo:levelreward"
+		}
+	]
+}

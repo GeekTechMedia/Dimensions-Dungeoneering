@@ -1,0 +1,15 @@
+#1F3 projectvibrantjourneys:boreal_forest
+#35F cavebiomeapi:caves
+#38D twist:charredwastes
+#00A byg:cypress_swamplands
+#008 minecraft:desert
+#010 minecraft:forest
+#1C1 cavesandcliffs:lush_caves
+#3DC minecraft:plains
+#634 byg:prairie
+#535 projectvibrantjourneys:redwood_peaks
+#67B minecraft:savanna
+#4C0 byg:sierra_range
+#45C byg:sierra_valley
+#774 minecraft:sunflower_plains
+#6BC byg:tropical_rainforest

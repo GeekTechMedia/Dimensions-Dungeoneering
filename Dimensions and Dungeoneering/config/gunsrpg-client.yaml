@@ -1,0 +1,81 @@
+# Enables developer tools
+developerMode: false
+
+# Select input type for aimimg
+# Values: TOGGLE, HOLD
+aimInputType: TOGGLE
+
+# Reflex sight reticles will be visible even when not aiming
+alwaysRenderReticles: false
+
+# Renders scope reticles differently which may help with some shaders
+shaderCompatibilityMode: false
+
+# Will render number with remaining day count to next bloodmoon on upper right corner
+showBloodmoonRemainingDays: true
+
+# Scaling of tracers
+tracerScale: 0.02
+
+# Debuff overlay offset on HUD
+debuffOverlay:
+  # X coordinate of vector
+  x: 0
+
+  # Y coordinate of vector
+  y: -60
+
+# Color of reflex sight reticles in ARGB format
+reticleColor: #FFFF0000
+
+# Type of reticle texture
+# Valid values: DOT, CHEVRON, CROSS
+reticleType: DOT
+
+# Configure held item rendering for Zombie Gunners
+gunnerHeldItemRender:
+  # Rendering mode
+  # DEFAULT - Renders actual held weapon, might have larger perfomarmance impact
+  # STATIC - Renders item which is configured below
+  # NONE - No held item is rendered
+  mode: DEFAULT
+
+  # ID of item to be rendered with STATIC held item render mode
+  itemId: minecraft:crossbow
+
+# Configure held item rendering for Grenadiers
+grenadierHeldItemRender:
+  # Rendering mode
+  # DEFAULT - Renders actual held weapon, might have larger perfomarmance impact
+  # STATIC - Renders item which is configured below
+  # NONE - No held item is rendered
+  mode: DEFAULT
+
+  # ID of item to be rendered with STATIC held item render mode
+  itemId: minecraft:bow
+
+# Configure sensitivity multipliers for scopes
+optics:
+  # Sensitivity multiplier for 2.5x scope
+  scope25x: 0.4
+
+  # Sensitivity multiplier for 3.0x scope
+  scope30x: 0.45
+
+  # Sensitivity multiplier for 3.5x scope
+  scope35x: 0.4
+
+  # Sensitivity multiplier for 4.0x scope
+  scope40x: 0.4
+
+  # Sensitivity multiplier for 6.0x scope
+  scope60x: 0.15
+
+# Configure positions of quest overlay on HUD
+questOverlay:
+  # Quest overlay anchor on HUD
+  rightAligned: true
+
+  # Height offset for quest overlay on HUD
+  heightOffset: 60
+

@@ -1,0 +1,19 @@
+{
+	id: "51C19E524AFABC03"
+	order_index: 9
+	title: "Tier IV Augments"
+	loot_size: 1
+	rewards: [
+		{ item: "mysticalagriculture:absorption_iv_augment" }
+		{ item: "mysticalagriculture:poison_resistance_augment" }
+		{ item: "mysticalagriculture:jump_boost_iii_augment" }
+		{ item: "mysticalagriculture:health_boost_iv_augment" }
+		{ item: "mysticalagriculture:strength_ii_augment" }
+		{ item: "mysticalagriculture:speed_iii_augment" }
+		{ item: "mysticalagriculture:mining_aoe_iii_augment" }
+		{ item: "mysticalagriculture:attack_aoe_ii_augment" }
+		{ item: "mysticalagriculture:tilling_aoe_iii_augment" }
+		{ item: "mysticalagriculture:pathing_aoe_iv_augment" }
+		{ item: "mysticalagriculture:mining_fatigue_resistance_augment" }
+	]
+}

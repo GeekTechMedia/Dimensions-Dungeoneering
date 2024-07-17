@@ -1,0 +1,15 @@
+
+[hole_filler]
+	#Maximum number of blocks that can be placed per hole. Default = 1000, Min = 1, Max = 3000
+	#Range: 1 ~ 3000
+	max_hole_area = 1000
+	#How many 'Curing Blocks' placed per tick. Default = 5, Min = 1, Max = 120
+	#Range: 1 ~ 120
+	fill_speed = 5
+	#Maximum diameter that the hole filler will consider a hole. If hole is larger than this value, it will not fill on that axis.  Default = 12, Min = 3, Max = 32
+	#Range: 3 ~ 32
+	max_hole_diameter = 12
+	#How long before 'Curing Blocks' are converted to dirt, in seconds. This is an approximation as some randomness is involved. Default = 15, Min = 1, Max = 120
+	#Range: 1 ~ 120
+	undo_timer = 15
+

@@ -1,0 +1,9 @@
+#4F9 minecraft:dark_forest
+#5D7 byg:deciduous_forest
+#294 byg:enchanted_forest
+#010 minecraft:forest
+#379 minecraft:mountains
+#5C1 byg:red_oak_forest
+#774 minecraft:sunflower_plains
+#226 minecraft:swamp_hills
+#452 minecraft:wooded_hills

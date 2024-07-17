@@ -1,0 +1,1526 @@
+{
+	id: "01EFFB045295D40C"
+	group: "595AE539715DFFDD"
+	order_index: 2
+	filename: "thermal_cultivation_farming"
+	title: "Cultivating The Farm"
+	icon: "thermal:radish"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: -3.0d
+			description: ["A guide to all Thermal Series mods. It is included in the starter Akashic Tome!"]
+			dependencies: ["37BA946BE3240D7F"]
+			id: "082935677D70AE08"
+			tasks: [{
+				id: "1EAB08F231E1DE23"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "thermal:guidebook"
+					}
+				}
+			}]
+			rewards: [{
+				id: "22BDE48471D9DB50"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "circle"
+			description: ["Thermal Cultivation is one of the addons to the very popular mod Thermal Foundation and is part of the Thermal Series of mods. This mod focuses on farming and cooking by adding some new plants and dishes. If you need any additional information while completing these questlines the Thermalpedia guide will have it!"]
+			id: "37BA946BE3240D7F"
+			tasks: [{
+				id: "55DCAAF1C77268E2"
+				type: "checkmark"
+				title: "Thermal Cultivation"
+			}]
+			rewards: [
+				{
+					id: "45C65A8AB15E4252"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "085EBEADE91F49E3"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -6.0d
+			dependencies: ["082935677D70AE08"]
+			id: "54FF26A89F609A02"
+			tasks: [{
+				id: "253C88B867D98171"
+				type: "item"
+				item: "thermal:spinach_seeds"
+			}]
+			rewards: [
+				{
+					id: "675963AF0E4EB3C4"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "3C54A98F03A023C2"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -7.0d
+			dependencies: ["54FF26A89F609A02"]
+			id: "6239CD588AB00B5D"
+			tasks: [{
+				id: "0E6A580E9755DA48"
+				type: "item"
+				item: "thermal:spinach"
+			}]
+			rewards: [
+				{
+					id: "29AF0A8C58482748"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "15C0E6923F9383B1"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -8.0d
+			dependencies: ["6239CD588AB00B5D"]
+			id: "32BFEB7D04E1ECFD"
+			tasks: [{
+				id: "595AD751B2707049"
+				type: "item"
+				item: "thermal:spinach_block"
+				count: 4L
+			}]
+			rewards: [{
+				id: "5D5CB1C63E08FB70"
+				type: "item"
+				item: "thermal:spinach_block"
+				count: 3
+			}]
+		}
+		{
+			x: -1.0d
+			y: -6.0d
+			dependencies: ["082935677D70AE08"]
+			id: "6B290447583AECE5"
+			tasks: [{
+				id: "402648B30E921E8E"
+				type: "item"
+				item: "thermal:sadiroot_seeds"
+			}]
+			rewards: [
+				{
+					id: "1993B1BD4DB70640"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "70E2A070442194D1"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -7.0d
+			dependencies: ["6B290447583AECE5"]
+			id: "10B46FC01C64C3B5"
+			tasks: [{
+				id: "312D167C0099665C"
+				type: "item"
+				item: "thermal:sadiroot"
+			}]
+			rewards: [
+				{
+					id: "402922D2A5B5943A"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "04AA2C91D62D2E60"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -8.0d
+			dependencies: ["10B46FC01C64C3B5"]
+			id: "25F49A7D259DF351"
+			tasks: [{
+				id: "0554F85517B5C8ED"
+				type: "item"
+				item: "thermal:sadiroot_block"
+				count: 4L
+			}]
+			rewards: [{
+				id: "4B776D67FC460233"
+				type: "item"
+				item: "thermal:sadiroot_block"
+				count: 3
+			}]
+		}
+		{
+			x: -2.0d
+			y: -6.0d
+			dependencies: ["082935677D70AE08"]
+			id: "34F6910589E21171"
+			tasks: [{
+				id: "43DB08A45D04F079"
+				type: "item"
+				item: "thermal:rice_seeds"
+			}]
+			rewards: [
+				{
+					id: "07ED07D8D9703B95"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "420018C2CF2AE144"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -7.0d
+			dependencies: ["34F6910589E21171"]
+			id: "72FDAE40AC58A0D4"
+			tasks: [{
+				id: "4E5AE4BB93002B57"
+				type: "item"
+				item: "thermal:rice"
+			}]
+			rewards: [
+				{
+					id: "15955FA029561C5A"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "3463BD420150B683"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -8.0d
+			dependencies: ["72FDAE40AC58A0D4"]
+			id: "25D825543DE89773"
+			tasks: [{
+				id: "384A737D7B9F102F"
+				type: "item"
+				item: "thermal:rice_block"
+				count: 4L
+			}]
+			rewards: [{
+				id: "41D76087D2ACF4E2"
+				type: "item"
+				item: "thermal:rice_block"
+				count: 3
+			}]
+		}
+		{
+			x: -3.0d
+			y: -6.0d
+			dependencies: ["082935677D70AE08"]
+			id: "372B3131E339BDCA"
+			tasks: [{
+				id: "6CB7F4D4C3D27586"
+				type: "item"
+				item: "thermal:radish_seeds"
+			}]
+			rewards: [
+				{
+					id: "208853B2236803F1"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "57BCEFAE928BA631"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -7.0d
+			dependencies: ["372B3131E339BDCA"]
+			id: "6FC91C975CB2287A"
+			tasks: [{
+				id: "4AE95A9ED1B4496C"
+				type: "item"
+				item: "thermal:radish"
+			}]
+			rewards: [
+				{
+					id: "35A63CF787DBC7CC"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "063505501EED919F"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -8.0d
+			dependencies: ["6FC91C975CB2287A"]
+			id: "308AE096E6E12B44"
+			tasks: [{
+				id: "35C07771AA077568"
+				type: "item"
+				item: "thermal:radish_block"
+				count: 4L
+			}]
+			rewards: [{
+				id: "6B4CC5258D38DAFD"
+				type: "item"
+				item: "thermal:radish_block"
+				count: 3
+			}]
+		}
+		{
+			x: -4.0d
+			y: -6.0d
+			dependencies: ["082935677D70AE08"]
+			id: "6E5052297E4DDC41"
+			tasks: [{
+				id: "69BBF2C885B105B0"
+				type: "item"
+				item: "thermal:onion_seeds"
+			}]
+			rewards: [
+				{
+					id: "48ABC1B61975DA0B"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "4713772F2118DBA1"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -7.0d
+			dependencies: ["6E5052297E4DDC41"]
+			id: "605C81C1B049377B"
+			tasks: [{
+				id: "401D1C1A0F3207E1"
+				type: "item"
+				item: "thermal:onion"
+			}]
+			rewards: [
+				{
+					id: "0F7A4B65885C0151"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "56CAF91A7582546C"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -8.0d
+			dependencies: ["605C81C1B049377B"]
+			id: "7A42F1AEE472CD00"
+			tasks: [{
+				id: "08974661F8A52021"
+				type: "item"
+				item: "thermal:onion_block"
+				count: 4L
+			}]
+			rewards: [{
+				id: "7F8BA2689D75363C"
+				type: "item"
+				item: "thermal:onion_block"
+				count: 3
+			}]
+		}
+		{
+			x: -5.0d
+			y: -6.0d
+			dependencies: ["082935677D70AE08"]
+			id: "6DED120E47537ABF"
+			tasks: [{
+				id: "2FC277E09B818E70"
+				type: "item"
+				item: "thermal:flax_seeds"
+			}]
+			rewards: [
+				{
+					id: "775D58A7FC0F0E5A"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "27BCF09CDD929DCA"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -7.0d
+			dependencies: ["6DED120E47537ABF"]
+			id: "09F737C0832228E8"
+			tasks: [{
+				id: "5B744608EA204597"
+				type: "item"
+				item: "thermal:flax"
+			}]
+			rewards: [
+				{
+					id: "04650585624276F0"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "30A889B9437347ED"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -8.0d
+			dependencies: ["09F737C0832228E8"]
+			id: "124D60804D019D8C"
+			tasks: [{
+				id: "5BC4551A11C4994F"
+				type: "item"
+				item: "thermal:flax_block"
+				count: 4L
+			}]
+			rewards: [{
+				id: "32F478AAEF93FD68"
+				type: "item"
+				item: "thermal:flax_block"
+				count: 3
+			}]
+		}
+		{
+			x: -6.0d
+			y: -6.0d
+			dependencies: ["082935677D70AE08"]
+			id: "0A6BCAE78DE3C656"
+			tasks: [{
+				id: "0A0BDEBCAB43C652"
+				type: "item"
+				item: "thermal:corn_seeds"
+			}]
+			rewards: [
+				{
+					id: "10E81623ACB9DE59"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "6BF96C27C660B7C3"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -7.0d
+			dependencies: ["0A6BCAE78DE3C656"]
+			id: "6A32C346F42CE4A1"
+			tasks: [{
+				id: "476BCA2C03E42E22"
+				type: "item"
+				item: "thermal:corn"
+			}]
+			rewards: [
+				{
+					id: "1CC4940EA0042F06"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "26C3DC0DADE1BAC7"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -8.0d
+			dependencies: ["6A32C346F42CE4A1"]
+			id: "6CE9819E9D4DAC12"
+			tasks: [{
+				id: "0538D843C9CC0D1A"
+				type: "item"
+				item: "thermal:corn_block"
+				count: 4L
+			}]
+			rewards: [{
+				id: "10A7DEB53497AFFF"
+				type: "item"
+				item: "thermal:corn_block"
+				count: 3
+			}]
+		}
+		{
+			x: -7.0d
+			y: -6.0d
+			dependencies: ["082935677D70AE08"]
+			id: "57DB3C07E58767F9"
+			tasks: [{
+				id: "1796FF625F1C4C48"
+				type: "item"
+				item: "thermal:barley_seeds"
+			}]
+			rewards: [
+				{
+					id: "0FC3B7A48814323D"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "13355BF94E7B404F"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: -7.0d
+			dependencies: ["57DB3C07E58767F9"]
+			id: "50FDDE8FD407BCDE"
+			tasks: [{
+				id: "2A1E002AAAD052FB"
+				type: "item"
+				item: "thermal:barley"
+			}]
+			rewards: [
+				{
+					id: "5B685FF0FBB16608"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "7CD7A7CAD596D088"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: -8.0d
+			dependencies: ["50FDDE8FD407BCDE"]
+			id: "7FA3056B5CEACCF8"
+			tasks: [{
+				id: "07D889D4F4DD54E0"
+				type: "item"
+				item: "thermal:barley_block"
+				count: 4L
+			}]
+			rewards: [{
+				id: "220AC8249865CF12"
+				type: "item"
+				item: "thermal:barley_block"
+				count: 3
+			}]
+		}
+		{
+			x: -8.0d
+			y: -6.0d
+			dependencies: ["082935677D70AE08"]
+			id: "280E650A3559E39B"
+			tasks: [{
+				id: "3CC48E204154E6BC"
+				type: "item"
+				item: "thermal:amaranth_seeds"
+			}]
+			rewards: [
+				{
+					id: "04F14FB5B8DE3427"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "6CD3A268E4B301B0"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: -7.0d
+			dependencies: ["280E650A3559E39B"]
+			id: "2C985FF76E91E333"
+			tasks: [{
+				id: "743DA784AD4E5B4E"
+				type: "item"
+				item: "thermal:amaranth"
+			}]
+			rewards: [
+				{
+					id: "0C6A10526736342E"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "11F6A79E31F7EB97"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: -8.0d
+			dependencies: ["2C985FF76E91E333"]
+			id: "41F4071ABEC524C4"
+			tasks: [{
+				id: "176F7F828AF7D1F5"
+				type: "item"
+				item: "thermal:amaranth_block"
+				count: 4L
+			}]
+			rewards: [{
+				id: "392527C3B61CEFF5"
+				type: "item"
+				item: "thermal:amaranth_block"
+				count: 3
+			}]
+		}
+		{
+			x: -9.0d
+			y: -6.0d
+			dependencies: ["082935677D70AE08"]
+			id: "604B1449D73F0CDD"
+			tasks: [{
+				id: "3D6A7ACEC7F72999"
+				type: "item"
+				item: "thermal:hops_seeds"
+			}]
+			rewards: [
+				{
+					id: "6DF6D4C1E4B936BA"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "32B463F3AB30EF95"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: -7.0d
+			dependencies: ["604B1449D73F0CDD"]
+			id: "12D70E80A671820B"
+			tasks: [{
+				id: "2D22742D90E07FF7"
+				type: "item"
+				item: "thermal:hops"
+			}]
+			rewards: [
+				{
+					id: "42B1A9E2042DC0FD"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "1311446B13465E25"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: -8.0d
+			dependencies: ["12D70E80A671820B"]
+			id: "1C16758B90ACDF9B"
+			tasks: [{
+				id: "201A85DC41B77DC0"
+				type: "item"
+				item: "thermal:hops_block"
+				count: 4L
+			}]
+			rewards: [{
+				id: "1329634097C77183"
+				type: "item"
+				item: "thermal:hops_block"
+				count: 3
+			}]
+		}
+		{
+			x: 1.0d
+			y: -6.0d
+			dependencies: ["082935677D70AE08"]
+			id: "61C489DBC9A03143"
+			tasks: [{
+				id: "7CAD62E04D330F1D"
+				type: "item"
+				item: "thermal:bell_pepper_seeds"
+			}]
+			rewards: [
+				{
+					id: "00FE46BC56BBC70C"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "54BA611453D826A9"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -7.0d
+			dependencies: ["61C489DBC9A03143"]
+			id: "087B86110BB7FAC9"
+			tasks: [{
+				id: "2E8BDE0F4DA550E0"
+				type: "item"
+				item: "thermal:bell_pepper"
+			}]
+			rewards: [
+				{
+					id: "398388102947A97A"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "25F1D30AD0614CFD"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -8.0d
+			dependencies: ["087B86110BB7FAC9"]
+			id: "6999204391A758C2"
+			tasks: [{
+				id: "0AC789A259559337"
+				type: "item"
+				item: "thermal:bell_pepper_block"
+				count: 4L
+			}]
+			rewards: [{
+				id: "57F0835544622256"
+				type: "item"
+				item: "thermal:bell_pepper_block"
+				count: 3
+			}]
+		}
+		{
+			x: 2.0d
+			y: -6.0d
+			dependencies: ["082935677D70AE08"]
+			id: "4503A3017CD62206"
+			tasks: [{
+				id: "41B46810D22B08FF"
+				type: "item"
+				item: "thermal:eggplant_seeds"
+			}]
+			rewards: [
+				{
+					id: "5FFB1A9EC89EF16D"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "24E377790E69E735"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -7.0d
+			dependencies: ["4503A3017CD62206"]
+			id: "5B39AF4A74FF95FE"
+			tasks: [{
+				id: "077424C7D312334D"
+				type: "item"
+				item: "thermal:eggplant"
+			}]
+			rewards: [
+				{
+					id: "13D1D44E3D959B07"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "5A465646E602C4AB"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -8.0d
+			dependencies: ["5B39AF4A74FF95FE"]
+			id: "46598AD8E69501B6"
+			tasks: [{
+				id: "064BF2E0C7A2C17B"
+				type: "item"
+				item: "thermal:eggplant_block"
+				count: 4L
+			}]
+			rewards: [{
+				id: "495C5E24491EBCE7"
+				type: "item"
+				item: "thermal:eggplant_block"
+				count: 3
+			}]
+		}
+		{
+			x: 3.0d
+			y: -6.0d
+			dependencies: ["082935677D70AE08"]
+			id: "1D59EB641D9F5674"
+			tasks: [{
+				id: "5C61E2F5E49D5ADA"
+				type: "item"
+				item: "thermal:green_bean_seeds"
+			}]
+			rewards: [
+				{
+					id: "0E12DEDB1B31E454"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "20C82A0FFD56B053"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -7.0d
+			dependencies: ["1D59EB641D9F5674"]
+			id: "730CB3E6167D037F"
+			tasks: [{
+				id: "5C5D7021427BCE3E"
+				type: "item"
+				item: "thermal:green_bean"
+			}]
+			rewards: [
+				{
+					id: "130BA615C420ABA5"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "0A927621A6F9493A"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -8.0d
+			dependencies: ["730CB3E6167D037F"]
+			id: "22457BB2E6157199"
+			tasks: [{
+				id: "79C41F56BED42071"
+				type: "item"
+				item: "thermal:green_bean_block"
+				count: 4L
+			}]
+			rewards: [{
+				id: "13E86D46C0FF988B"
+				type: "item"
+				item: "thermal:green_bean_block"
+				count: 3
+			}]
+		}
+		{
+			x: 4.0d
+			y: -6.0d
+			dependencies: ["082935677D70AE08"]
+			id: "54070D32A935CD34"
+			tasks: [{
+				id: "04052C7456459659"
+				type: "item"
+				item: "thermal:peanut_seeds"
+			}]
+			rewards: [
+				{
+					id: "1D0AEF72680441BC"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "6C4E981821E1F6AC"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -7.0d
+			dependencies: ["54070D32A935CD34"]
+			id: "67FDB77626E4EA69"
+			tasks: [{
+				id: "1809A965DC706700"
+				type: "item"
+				item: "thermal:peanut"
+			}]
+			rewards: [
+				{
+					id: "6D4DCE637E26AED6"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "49935417B78E77DF"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -8.0d
+			dependencies: ["67FDB77626E4EA69"]
+			id: "2D738EFA4C52CEB3"
+			tasks: [{
+				id: "5DD4F0691E29BEEC"
+				type: "item"
+				item: "thermal:peanut_block"
+				count: 4L
+			}]
+			rewards: [{
+				id: "5AD75C2F3A8A5B1C"
+				type: "item"
+				item: "thermal:peanut_block"
+				count: 3
+			}]
+		}
+		{
+			x: 5.0d
+			y: -6.0d
+			dependencies: ["082935677D70AE08"]
+			id: "642643FE4D41FA66"
+			tasks: [{
+				id: "2F8282670DDB8D50"
+				type: "item"
+				item: "thermal:strawberry_seeds"
+			}]
+			rewards: [
+				{
+					id: "0250D0862AB790C8"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "57809CA817B0310F"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -7.0d
+			dependencies: ["642643FE4D41FA66"]
+			id: "539A0CA3E8F9C48B"
+			tasks: [{
+				id: "5B88983C18D66D93"
+				type: "item"
+				item: "thermal:strawberry"
+			}]
+			rewards: [
+				{
+					id: "51871F76C21DF7A3"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "059C7C7916A67B89"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -8.0d
+			dependencies: ["539A0CA3E8F9C48B"]
+			id: "7BB143305F28DE15"
+			tasks: [{
+				id: "4710351448287278"
+				type: "item"
+				item: "thermal:strawberry_block"
+				count: 4L
+			}]
+			rewards: [{
+				id: "0C6AADD28BF76839"
+				type: "item"
+				item: "thermal:strawberry_block"
+				count: 3
+			}]
+		}
+		{
+			x: 6.0d
+			y: -6.0d
+			dependencies: ["082935677D70AE08"]
+			id: "3905706F29CC3CFB"
+			tasks: [{
+				id: "5B66F63CCAECE63A"
+				type: "item"
+				item: "thermal:tomato_seeds"
+			}]
+			rewards: [
+				{
+					id: "21D4113E5184BEF7"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "270B41371F01A0F5"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -7.0d
+			dependencies: ["3905706F29CC3CFB"]
+			id: "668D2DF9C62E4E82"
+			tasks: [{
+				id: "47EC1FAE00A37357"
+				type: "item"
+				item: "thermal:tomato"
+			}]
+			rewards: [
+				{
+					id: "56C12949960E4A3C"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "1C7E274562451D71"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -8.0d
+			dependencies: ["668D2DF9C62E4E82"]
+			id: "547708CE216E0AA7"
+			tasks: [{
+				id: "7196BDFD9C34ECEE"
+				type: "item"
+				item: "thermal:tomato_block"
+				count: 4L
+			}]
+			rewards: [{
+				id: "74254ABBBC844E5B"
+				type: "item"
+				item: "thermal:tomato_block"
+				count: 3
+			}]
+		}
+		{
+			x: 7.0d
+			y: -6.0d
+			dependencies: ["082935677D70AE08"]
+			id: "04CA28F20CECA350"
+			tasks: [{
+				id: "21E755BBB53725F0"
+				type: "item"
+				item: "thermal:coffee_seeds"
+			}]
+			rewards: [
+				{
+					id: "3DEDBE8BDAB67E1C"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "512078AB5B8ACFF7"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: -7.0d
+			dependencies: ["04CA28F20CECA350"]
+			id: "40501A933B24D3B0"
+			tasks: [{
+				id: "40018E33FECA7D9A"
+				type: "item"
+				item: "thermal:coffee"
+			}]
+			rewards: [
+				{
+					id: "65AB683FD8CFC99C"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "7BE53B687E3EED52"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: -8.0d
+			dependencies: ["40501A933B24D3B0"]
+			id: "19D3DF1779786FC5"
+			tasks: [{
+				id: "499DE7CAD9BEA107"
+				type: "item"
+				item: "thermal:coffee_block"
+				count: 4L
+			}]
+			rewards: [{
+				id: "787F9B8E3DCD0E04"
+				type: "item"
+				item: "thermal:coffee_block"
+				count: 3
+			}]
+		}
+		{
+			x: 8.0d
+			y: -6.0d
+			dependencies: ["082935677D70AE08"]
+			id: "0E9E6E3AC933F662"
+			tasks: [{
+				id: "40E3E564FDD8AEDA"
+				type: "item"
+				item: "thermal:tea_seeds"
+			}]
+			rewards: [
+				{
+					id: "2FE9A6BBDA36D70A"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "1E6584F56B2B6D78"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: -7.0d
+			dependencies: ["0E9E6E3AC933F662"]
+			id: "74D3D4CD7F81D1B4"
+			tasks: [{
+				id: "32DD3117C91F8208"
+				type: "item"
+				item: "thermal:tea"
+			}]
+			rewards: [
+				{
+					id: "2A5898C8AE23C156"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "1DCA946E561EC144"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: -8.0d
+			dependencies: ["74D3D4CD7F81D1B4"]
+			id: "5D1B708CD23C0957"
+			tasks: [{
+				id: "21B3142062BCFCBD"
+				type: "item"
+				item: "thermal:tea_block"
+				count: 4L
+			}]
+			rewards: [{
+				id: "44D13EE5470CE644"
+				type: "item"
+				item: "thermal:tea_block"
+				count: 3
+			}]
+		}
+		{
+			x: 9.0d
+			y: -6.0d
+			dependencies: ["082935677D70AE08"]
+			id: "19AC2D03A12B9834"
+			tasks: [{
+				id: "6C36FA1581EE9D80"
+				type: "item"
+				item: "thermal:frost_melon_seeds"
+			}]
+			rewards: [
+				{
+					id: "2B4ED9EE2594F21C"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "61F759B7D100D593"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: -7.0d
+			dependencies: ["19AC2D03A12B9834"]
+			id: "65BD625A40E7DF47"
+			tasks: [{
+				id: "0F9373614987C294"
+				type: "item"
+				item: "thermal:frost_melon_slice"
+			}]
+			rewards: [
+				{
+					id: "4949764EA4683512"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "00E0CC098FCA21AE"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: -8.0d
+			dependencies: ["65BD625A40E7DF47"]
+			id: "3CAC789559A88727"
+			tasks: [{
+				id: "0BE66AEC43CA3FA1"
+				type: "item"
+				item: "thermal:frost_melon"
+				count: 4L
+			}]
+			rewards: [{
+				id: "16E8566F967BE577"
+				type: "item"
+				item: "thermal:frost_melon"
+				count: 3
+			}]
+		}
+		{
+			x: -1.5d
+			y: -10.5d
+			dependencies: ["082935677D70AE08"]
+			id: "38173C0BED229CBC"
+			tasks: [{
+				id: "7870CDF3B88BFCC3"
+				type: "item"
+				item: "thermal:glowstone_mushroom_spores"
+			}]
+			rewards: [
+				{
+					id: "57EB233150F9DFF8"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "71978858494F1EEF"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -10.5d
+			dependencies: ["082935677D70AE08"]
+			id: "54EE90211A44CD3A"
+			tasks: [{
+				id: "658CAB543E2D7EAD"
+				type: "item"
+				item: "thermal:gunpowder_mushroom_spores"
+			}]
+			rewards: [
+				{
+					id: "104725DD9C53003F"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "0B8A16464B6FBF07"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -10.5d
+			dependencies: ["082935677D70AE08"]
+			id: "21360CDC476E11E6"
+			tasks: [{
+				id: "4553DDC2294BEE23"
+				type: "item"
+				item: "thermal:redstone_mushroom_spores"
+			}]
+			rewards: [
+				{
+					id: "350BB3BA8401A17E"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "64F02BC8086F1D54"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -10.5d
+			dependencies: ["082935677D70AE08"]
+			id: "44804DAB519E29DB"
+			tasks: [{
+				id: "38683A8DAA7ED7B1"
+				type: "item"
+				item: "thermal:slime_mushroom_spores"
+			}]
+			rewards: [
+				{
+					id: "2AA527DF5EBD84C4"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "3022537DEC2EC0F5"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -13.0d
+			dependencies: ["082935677D70AE08"]
+			id: "790A5495022AB383"
+			tasks: [{
+				id: "2DEA81F4CB4FAAF0"
+				type: "item"
+				item: "thermal:phytogro"
+			}]
+			rewards: [{
+				id: "2842BA9193996A1D"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -14.0d
+			dependencies: ["790A5495022AB383"]
+			id: "15DA449362DA5732"
+			tasks: [{
+				id: "36D176C6E7A5FB99"
+				type: "item"
+				item: "thermal:phytosoil"
+			}]
+			rewards: [{
+				id: "6C1653014B72A6AB"
+				type: "item"
+				item: "thermal:phytosoil"
+				count: 3
+			}]
+		}
+	]
+}

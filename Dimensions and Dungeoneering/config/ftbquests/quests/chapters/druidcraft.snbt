@@ -1,0 +1,1144 @@
+{
+	id: "2DA22370E9D1975F"
+	group: "4B5D122F75FB7F81"
+	order_index: 3
+	filename: "druidcraft"
+	title: "One With Nature"
+	icon: "druidcraft:hemp"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 6.0d
+			y: -0.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "druidcraft:textures/particle/fiery_glow.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 2.0d
+			y: -3.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "druidcraft:textures/particle/fiery_glow.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -2.0d
+			y: -3.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "druidcraft:textures/particle/fiery_glow.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "druidcraft:textures/particle/fiery_glow.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -8.0d
+			y: 0.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "druidcraft:textures/particle/fiery_glow.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "circle"
+			description: ["Druidcraft is a druid-themed mod! It's full of 1.16 vanilla-friendly features, and will always receive constant updates. Plus, it just looks great!"]
+			id: "64A22D0008CA9184"
+			tasks: [{
+				id: "24E495B7F456872A"
+				type: "checkmark"
+				title: "Druidcraft"
+			}]
+			rewards: [
+				{
+					id: "281684988E39C750"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "03D5D88D221F34C1"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -6.5d
+			description: ["A magical lantern that causes baby animals and plants to grow faster in a 5x5 area!"]
+			dependencies: ["62E8441733A3D20B"]
+			id: "6063FF24F58B0AFB"
+			tasks: [{
+				id: "2DAFD99A08028F6F"
+				type: "item"
+				item: "druidcraft:growth_lamp"
+			}]
+			rewards: [{
+				id: "391F2991035976C1"
+				type: "item"
+				item: "druidcraft:growth_lamp"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 2.0d
+			description: ["Can be found from breaking tall grass! Hemp seeds are used to grow hemp!"]
+			dependencies: ["64A22D0008CA9184"]
+			id: "1D9287315490DF87"
+			tasks: [{
+				id: "2E3704F52D88C30A"
+				type: "item"
+				item: "druidcraft:hemp_seeds"
+			}]
+			rewards: [{
+				id: "390FDB0B61A09138"
+				type: "item"
+				item: "druidcraft:hemp_seeds"
+				count: 7
+			}]
+		}
+		{
+			x: 5.5d
+			y: 2.0d
+			description: ["Industrial hemp for all your string-related needs! Grows up to 2 blocks high and can also be used in the creation of rope."]
+			dependencies: ["1D9287315490DF87"]
+			id: "075D2530B152BBCD"
+			tasks: [{
+				id: "299F40FCEBD50B3D"
+				type: "item"
+				item: "druidcraft:hemp"
+			}]
+			rewards: [{
+				id: "23409E5529225357"
+				type: "random"
+				title: "Farmer's Pouch"
+				table_id: 799187797924354348L
+			}]
+		}
+		{
+			x: 5.5d
+			y: 1.0d
+			description: ["They act similarly to sweet berries but due to not being a thorny bush they will not prick you! Not too hard to find around the plains or forests."]
+			dependencies: ["64A22D0008CA9184"]
+			id: "03931EAE1D5204BB"
+			tasks: [{
+				id: "7A1F0ACAC0333334"
+				type: "item"
+				item: "druidcraft:blueberries"
+			}]
+			rewards: [{
+				id: "27ECD5A253F680C4"
+				type: "random"
+				title: "Farmer's Pouch"
+				table_id: 799187797924354348L
+			}]
+		}
+		{
+			x: 6.5d
+			y: 1.0d
+			description: ["A new food source! Crafted from blueberries."]
+			dependencies: ["03931EAE1D5204BB"]
+			id: "6FD165C1AEB20D09"
+			tasks: [{
+				id: "202D8054FC01EC75"
+				type: "item"
+				item: "druidcraft:blueberry_muffin"
+			}]
+			rewards: [{
+				id: "388E47B4537ED0F5"
+				type: "random"
+				title: "Baker's Bundle"
+				table_id: 2508634577116110626L
+			}]
+		}
+		{
+			x: 5.5d
+			y: 4.0d
+			description: ["Elderberries are the next stage of an elderflower. If an elderflower is left on the elder tree for long enough it will turn into an elderberry! If left on an elder tree for too long, the elder berries will begin to decay and fall off automatically."]
+			dependencies: ["64F84F218754E0E7"]
+			id: "4F613C0664F0CF12"
+			tasks: [{
+				id: "0171EC26C9F22696"
+				type: "item"
+				item: "druidcraft:elderberries"
+			}]
+			rewards: [{
+				id: "5A089E233B1A9010"
+				type: "random"
+				title: "Farmer's Pouch"
+				table_id: 799187797924354348L
+			}]
+		}
+		{
+			x: 6.5d
+			y: 4.0d
+			description: ["A new food source! Crafted from elderberries."]
+			dependencies: ["4F613C0664F0CF12"]
+			id: "452F867FCF983CFD"
+			tasks: [{
+				id: "03A7EC262C70FC42"
+				type: "item"
+				item: "druidcraft:apple_elderberry_crumble"
+			}]
+			rewards: [{
+				id: "07F3F69073833783"
+				type: "random"
+				title: "Baker's Bundle"
+				table_id: 2508634577116110626L
+			}]
+		}
+		{
+			x: 5.5d
+			y: 3.0d
+			description: ["Elderflowers can be found growing on the leaves of elder trees!"]
+			dependencies: ["64F84F218754E0E7"]
+			id: "555B037CAD924ABB"
+			tasks: [{
+				id: "1BCACD45E2A41786"
+				type: "item"
+				item: "druidcraft:elderflower"
+			}]
+			rewards: [{
+				id: "4AD3E306B336814C"
+				type: "random"
+				title: "Farmer's Pouch"
+				table_id: 799187797924354348L
+			}]
+		}
+		{
+			x: 6.5d
+			y: 3.0d
+			description: ["A new food source! Crafted from elderflowers."]
+			dependencies: ["555B037CAD924ABB"]
+			id: "6DD7796D34903658"
+			tasks: [{
+				id: "48EF7AA8112334D1"
+				type: "item"
+				item: "druidcraft:elderflower_cordial"
+			}]
+			rewards: [{
+				id: "320D55B367FD271D"
+				type: "random"
+				title: "Baker's Bundle"
+				table_id: 2508634577116110626L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 3.5d
+			description: ["Elder trees are now added! Let them grow, and they'll cycle from bare, to flowers, to berries! Either collect the flowers early, or let them grow into berries first, it's up to you! If left for too long, the berries will decay, and some will drop passively off the tree."]
+			dependencies: ["64A22D0008CA9184"]
+			id: "64F84F218754E0E7"
+			tasks: [{
+				id: "05223F427F4EFA95"
+				type: "item"
+				item: "druidcraft:elder_sapling"
+			}]
+			rewards: [{
+				id: "6A63C23DE1ACD35E"
+				type: "item"
+				item: "druidcraft:elder_sapling"
+				count: 7
+			}]
+		}
+		{
+			title: "Sickles"
+			x: -4.5d
+			y: 0.0d
+			description: ["Who doesn't want to mow the grass out of an area in a pinch? Say goodbye to the water bucket and hello to the sickle! The higher the tier, the bigger the area, and the best part is that they make decent weaponry too!"]
+			dependencies: ["64A22D0008CA9184"]
+			id: "3BC28E41E06615F4"
+			tasks: [{
+				id: "285C30054E1BF99F"
+				type: "item"
+				item: {
+					id: "druidcraft:iron_sickle"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "272C10FF400CF54B"
+				type: "random"
+				title: "Farmer's Pouch"
+				table_id: 799187797924354348L
+			}]
+		}
+		{
+			x: 6.5d
+			y: 2.0d
+			description: ["Rope is now placeable, and connects up to blocks. It wraps around fences and small beams when placed next to them, and it's climbable too! You can even hang all the lanterns from it, even the vanilla one!"]
+			dependencies: ["075D2530B152BBCD"]
+			id: "67A1A98C5169A6D4"
+			tasks: [{
+				id: "658ACF9EC43C209C"
+				type: "item"
+				item: "druidcraft:rope"
+			}]
+			rewards: [{
+				id: "6F48102312EC380D"
+				type: "item"
+				item: "druidcraft:rope"
+				count: 4
+			}]
+		}
+		{
+			x: -4.5d
+			y: 1.0d
+			description: ["Crates are similar to barrels, but add an aesthetic change. However they can also be placed in a 2x2 to make a multiblock structure that can hold quite a bit more!"]
+			dependencies: ["64A22D0008CA9184"]
+			id: "39BC9775760568DB"
+			tasks: [{
+				id: "6476C61D734C4D3D"
+				type: "item"
+				item: "druidcraft:crate"
+			}]
+			rewards: [{
+				id: "5ED781BB49A3580A"
+				type: "item"
+				item: "druidcraft:crate"
+				count: 3
+			}]
+		}
+		{
+			x: -4.5d
+			y: -1.0d
+			description: ["Similar to the stonecutter but for wood! Only supports vanilla and druidcraft's wood types, but can be used to make some special variants that aren't normally available!"]
+			dependencies: ["64A22D0008CA9184"]
+			id: "063FC03B8E38FF6E"
+			tasks: [{
+				id: "03F55C484F76B15C"
+				type: "item"
+				item: "druidcraft:woodcutter"
+			}]
+			rewards: [{
+				id: "0E87B94F80D1FE43"
+				type: "item"
+				item: "minecraft:oak_log"
+				count: 8
+			}]
+		}
+		{
+			x: 0.0d
+			y: -6.5d
+			description: ["They're like regular torches, but much better! Using fiery glass, you can create a waterproof, brighter torch that just looks more amazing than the old, boring torch you're probably used to. "]
+			dependencies: ["17723DCD92063F86"]
+			id: "0634AD049827874C"
+			tasks: [{
+				id: "47DB67D4032B1621"
+				type: "item"
+				item: "druidcraft:fiery_torch"
+			}]
+			rewards: [{
+				id: "166A369F0693E4C7"
+				type: "item"
+				item: "druidcraft:fiery_torch"
+				count: 3
+			}]
+		}
+		{
+			title: "Bone Armor"
+			x: -4.5d
+			y: 2.5d
+			description: ["Stone/chainmail level, but with the durability of iron and a ton of enchantability."]
+			dependencies: ["1E1AE6D246C80CA6"]
+			id: "228FCDFDE7A4E536"
+			tasks: [
+				{
+					id: "16E617E7CF64F22F"
+					type: "item"
+					item: {
+						id: "druidcraft:bone_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"agricraft:gene_inspector": {
+								agri_flag: 0b
+							}
+						}
+					}
+				}
+				{
+					id: "69C5FA9FBECA7AE8"
+					type: "item"
+					item: {
+						id: "druidcraft:bone_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6174CF1EB49E6CB7"
+					type: "item"
+					item: {
+						id: "druidcraft:bone_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0103323424EDB747"
+					type: "item"
+					item: {
+						id: "druidcraft:bone_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "14FBAB6D675C8C72"
+					type: "item"
+					item: {
+						id: "druidcraft:bone_shield"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "17EDEA76AEF5DC8F"
+				type: "item"
+				item: {
+					id: "better_fishing_rods:rare_enchantment_book"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Bone Tools"
+			x: -4.5d
+			y: 3.5d
+			description: ["Stone/chainmail level, but with the durability of iron and a ton of enchantability."]
+			dependencies: ["1E1AE6D246C80CA6"]
+			id: "13119F685E8D0A2A"
+			tasks: [
+				{
+					id: "2251061901EBCAEC"
+					type: "item"
+					item: {
+						id: "druidcraft:bone_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2272FB9C0922F0D4"
+					type: "item"
+					item: {
+						id: "druidcraft:bone_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3E6DAFB7D5708A69"
+					type: "item"
+					item: {
+						id: "druidcraft:bone_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "41FC8C63F0FEBAA4"
+					type: "item"
+					item: {
+						id: "druidcraft:bone_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "078436A78105279C"
+					type: "item"
+					item: {
+						id: "druidcraft:bone_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "20F54053AB03653A"
+				type: "item"
+				item: {
+					id: "better_fishing_rods:rare_enchantment_book"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: -2.0d
+			description: ["Chitin can be found dropping from beetles."]
+			dependencies: ["6419727D44D2B84C"]
+			id: "0F0F8F76104C478C"
+			tasks: [{
+				id: "7E46EC3E5A3CF784"
+				type: "item"
+				item: "druidcraft:chitin"
+			}]
+			rewards: [{
+				id: "7CA0E28B6AC396E8"
+				type: "item"
+				item: "druidcraft:chitin"
+				count: 3
+			}]
+		}
+		{
+			title: "Chitin Armor"
+			x: 7.0d
+			y: -2.0d
+			description: ["As a reward for fending off all those beetles, you can use the chitin they drop to make decent armour! It's roughly between iron and diamond tier in quality."]
+			dependencies: ["0F0F8F76104C478C"]
+			id: "57E74B48146086D0"
+			tasks: [
+				{
+					id: "388D6B9183BDCBC1"
+					type: "item"
+					item: {
+						id: "druidcraft:chitin_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"agricraft:gene_inspector": {
+								agri_flag: 0b
+							}
+						}
+					}
+				}
+				{
+					id: "28E0BD46E6358038"
+					type: "item"
+					item: {
+						id: "druidcraft:chitin_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "78B5C411A0F24DBF"
+					type: "item"
+					item: {
+						id: "druidcraft:chitin_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0A441B3253A2A98D"
+					type: "item"
+					item: {
+						id: "druidcraft:chitin_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "64017419E8A4814A"
+					type: "item"
+					item: {
+						id: "druidcraft:chitin_shield"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "07F705C474820D38"
+				type: "item"
+				item: {
+					id: "better_fishing_rods:rare_enchantment_book"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: -3.0d
+			description: ["The flaming soul of a dreadfish. Should you manage to slay a few of the spooky fish, you should come across this magical stuff. It's placeable as a light source, and can be dyed in a crafting table, just like the living thing!"]
+			dependencies: ["1213A5A49F283527"]
+			id: "44D0FD25549F9F32"
+			tasks: [{
+				id: "09F139671FB36FB3"
+				type: "item"
+				item: "druidcraft:purple_soulfire"
+			}]
+			rewards: [{
+				id: "755E0C615953CDCC"
+				type: "item"
+				item: "druidcraft:purple_soulfire"
+				count: 3
+			}]
+		}
+		{
+			x: 5.0d
+			y: -3.0d
+			description: ["Ever wanted a glow-in-the-dark, skeletal ghost-fish? Well now you can have one! While hostile normally, should you tame it with prismarine crystals it will love you forever! It's even dyeable!"]
+			dependencies: ["64A22D0008CA9184"]
+			id: "1213A5A49F283527"
+			tasks: [{
+				id: "7A0AF4D4FBB130FC"
+				type: "kill"
+				entity: "druidcraft:dreadfish"
+				value: 1L
+			}]
+		}
+		{
+			x: 5.0d
+			y: -2.0d
+			description: ["The beetle is a hostile, tanky looking bug that has grown to such a size that it can't fly, nor does it need to! It's extremely dangerous, but if you're feeling cocky then golden apples should suit its tastes. To heal it while it's tamed, use regular apples. Try adding a chest onto it for massive storage!"]
+			dependencies: ["64A22D0008CA9184"]
+			id: "6419727D44D2B84C"
+			tasks: [{
+				id: "07CBE73F60A9F9D3"
+				type: "kill"
+				entity: "druidcraft:beetle"
+				value: 1L
+			}]
+		}
+		{
+			title: "Gather 16x Amber"
+			x: -1.0d
+			y: -5.5d
+			description: ["Can be found as an ore underground. Also drops double the experience when mined! Purely for decoration at the moment."]
+			dependencies: ["64A22D0008CA9184"]
+			id: "55057C1CE1D93CB7"
+			tasks: [{
+				id: "1670CF79D94D8409"
+				type: "item"
+				item: "druidcraft:amber"
+				count: 16L
+			}]
+			rewards: [{
+				id: "3250AB26C2B72A60"
+				type: "random"
+				title: "Miner's Pack"
+				table_id: 6780538329063346471L
+			}]
+		}
+		{
+			title: "Gather 16x Moonstone"
+			x: -3.5d
+			y: -3.0d
+			description: ["Can be found as an ore underground. Also drops double the experience when mined!"]
+			dependencies: ["64A22D0008CA9184"]
+			id: "7D77CBF529AA9D48"
+			tasks: [{
+				id: "6D9FC44F5FA5F89B"
+				type: "item"
+				item: "druidcraft:moonstone"
+				count: 16L
+			}]
+			rewards: [{
+				id: "16F5247D5E90EE87"
+				type: "random"
+				title: "Miner's Pack"
+				table_id: 6780538329063346471L
+			}]
+		}
+		{
+			title: "Moonstone Armor"
+			x: -4.5d
+			y: -3.5d
+			description: ["Made from the elusive moonstone! It's a tier above diamond, but will require diamond to obtain."]
+			dependencies: ["7D77CBF529AA9D48"]
+			id: "2F0A13C96E0C7847"
+			tasks: [
+				{
+					id: "4F427BD5EB8C997B"
+					type: "item"
+					item: {
+						id: "druidcraft:moonstone_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"agricraft:gene_inspector": {
+								agri_flag: 0b
+							}
+						}
+					}
+				}
+				{
+					id: "1F53194DBCEFCFC7"
+					type: "item"
+					item: {
+						id: "druidcraft:moonstone_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7ED2E9285E740163"
+					type: "item"
+					item: {
+						id: "druidcraft:moonstone_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "60852EE11242863A"
+					type: "item"
+					item: {
+						id: "druidcraft:moonstone_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "35F4773D1C728537"
+					type: "item"
+					item: {
+						id: "druidcraft:moonstone_shield"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "44310215B15F7901"
+				type: "item"
+				item: {
+					id: "better_fishing_rods:rare_enchantment_book"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Moonstone Tools"
+			x: -4.5d
+			y: -2.5d
+			description: ["Made from the elusive moonstone! It's a tier above diamond, but will require diamond to obtain."]
+			dependencies: ["7D77CBF529AA9D48"]
+			id: "2B4FB8ADC15EED29"
+			tasks: [
+				{
+					id: "2A3FF7232B825C21"
+					type: "item"
+					item: {
+						id: "druidcraft:moonstone_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5C175C330F195BD8"
+					type: "item"
+					item: {
+						id: "druidcraft:moonstone_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "476B31B3E7EA296B"
+					type: "item"
+					item: {
+						id: "druidcraft:moonstone_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "104F4CE7EE6B0585"
+					type: "item"
+					item: {
+						id: "druidcraft:moonstone_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2D1AD64A9DB96107"
+					type: "item"
+					item: {
+						id: "druidcraft:moonstone_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "092E45950B28C6A4"
+				type: "item"
+				item: {
+					id: "better_fishing_rods:rare_enchantment_book"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Gather 16x Firey Glass"
+			x: 0.0d
+			y: -5.5d
+			description: ["Besides being used for torches firey glass is now smeltable! It'll do a good 12 smelts, so make sure to grab a bunch."]
+			dependencies: ["64A22D0008CA9184"]
+			id: "17723DCD92063F86"
+			tasks: [{
+				id: "2821707BBEF95137"
+				type: "item"
+				item: "druidcraft:fiery_glass"
+				count: 16L
+			}]
+			rewards: [{
+				id: "3418A755F310A8D4"
+				type: "random"
+				title: "Miner's Pack"
+				table_id: 6780538329063346471L
+			}]
+		}
+		{
+			title: "Gather 16x Rockroot"
+			x: 1.0d
+			y: -5.5d
+			description: ["An ore that is found underground. Can be used to make lamps of growing, and drops double the experience when mined!"]
+			dependencies: ["64A22D0008CA9184"]
+			id: "62E8441733A3D20B"
+			tasks: [{
+				id: "0324EACFC58B3805"
+				type: "item"
+				item: "druidcraft:rockroot"
+				count: 16L
+			}]
+			rewards: [{
+				id: "7A7FA2FD9ADF3AD6"
+				type: "random"
+				title: "Miner's Pack"
+				table_id: 6780538329063346471L
+			}]
+		}
+		{
+			x: -6.5d
+			y: -1.0d
+			description: ["A new light source that looks very nice!"]
+			dependencies: ["64A22D0008CA9184"]
+			id: "0EB13C3EB17E5DAF"
+			tasks: [{
+				id: "217D241A3688F8C8"
+				type: "item"
+				item: "druidcraft:ceramic_lantern"
+			}]
+			rewards: [{
+				id: "0E346A76962F9801"
+				type: "item"
+				item: "druidcraft:ceramic_lantern"
+				count: 3
+			}]
+		}
+		{
+			x: 5.0d
+			y: -4.0d
+			description: ["Moths that spawn randomly in the world like most animals do. They can be caught in bottles and put on display, or let out in a custom farm back at the base to farm the glowstone they shed. Try to collect all six colors!"]
+			dependencies: ["64A22D0008CA9184"]
+			id: "2175A05A5B38687B"
+			tasks: [{
+				id: "61FBA9EDAC5450B0"
+				type: "kill"
+				entity: "druidcraft:lunar_moth"
+				value: 1L
+			}]
+		}
+		{
+			title: "Moth Lanterns"
+			x: 6.0d
+			y: -4.0d
+			description: ["A new light source and a way to move moths around. Simply right click on a moth with a bottle. In order to place down the light source hold SHIFT+RCLICK. In order to let the moth out just simply right click!"]
+			dependencies: ["2175A05A5B38687B"]
+			id: "7FDE3A1831662D70"
+			tasks: [
+				{
+					id: "41FFD21DBCD4DFD8"
+					type: "item"
+					item: "druidcraft:turquoise_lunar_moth_jar"
+				}
+				{
+					id: "53C9270299795F1E"
+					type: "item"
+					item: "druidcraft:white_lunar_moth_jar"
+				}
+				{
+					id: "14A14AB56EF62F8E"
+					type: "item"
+					item: "druidcraft:lime_lunar_moth_jar"
+				}
+				{
+					id: "55877A91EE55B782"
+					type: "item"
+					item: "druidcraft:yellow_lunar_moth_jar"
+				}
+				{
+					id: "0D60863D8322AF8A"
+					type: "item"
+					item: "druidcraft:orange_lunar_moth_jar"
+				}
+				{
+					id: "0DF5A0AC5B278B65"
+					type: "item"
+					item: "druidcraft:pink_lunar_moth_jar"
+				}
+			]
+			rewards: [
+				{
+					id: "3D5205FCE330D85E"
+					type: "item"
+					item: "druidcraft:white_lunar_moth_jar"
+					count: 5
+				}
+				{
+					id: "78EB7C6FFD8D941B"
+					type: "item"
+					item: "druidcraft:turquoise_lunar_moth_jar"
+					count: 5
+				}
+				{
+					id: "6DEE6E73EBE82213"
+					type: "item"
+					item: "druidcraft:lime_lunar_moth_jar"
+					count: 5
+				}
+				{
+					id: "0CAB8D13CFF9F992"
+					type: "item"
+					item: "druidcraft:yellow_lunar_moth_jar"
+					count: 5
+				}
+				{
+					id: "1B558314DFEBE42F"
+					type: "item"
+					item: "druidcraft:orange_lunar_moth_jar"
+					count: 5
+				}
+				{
+					id: "7230AB9BAB3022FB"
+					type: "item"
+					item: "druidcraft:pink_lunar_moth_jar"
+					count: 5
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: -1.0d
+			description: ["An amazingly early-game building material that is bound to please the eyes. To craft it, you just need some dirt, and to be standing in the water. It's a bit of dirty work, but it's well worth it! Once made, place them down, and they should dry over time."]
+			dependencies: ["64A22D0008CA9184"]
+			id: "16DAD55A5CB4924E"
+			tasks: [{
+				id: "7066E6EFC03EA4FC"
+				type: "item"
+				item: "druidcraft:wet_mud_bricks"
+				count: 4L
+			}]
+			rewards: [{
+				id: "2885999FB3DFCBAF"
+				type: "item"
+				item: "druidcraft:wet_mud_bricks"
+				count: 32
+			}]
+		}
+		{
+			x: -6.5d
+			y: 0.0d
+			description: ["A new type of tree bearing a lightweight, ashy wood. If you're the adventurous type, they're found in the darkwood forest, a biome that spawns in cool regions."]
+			dependencies: ["64A22D0008CA9184"]
+			id: "4E1AD84C599CCA53"
+			tasks: [{
+				id: "7B66269723F2C907"
+				type: "item"
+				item: "druidcraft:darkwood_sapling"
+			}]
+			rewards: [{
+				id: "6E984F92AFBE5294"
+				type: "item"
+				item: "druidcraft:darkwood_log"
+				count: 16
+			}]
+		}
+		{
+			x: -5.5d
+			y: 1.0d
+			description: ["A portable bed! Can be stored in a travel pack."]
+			dependencies: ["64A22D0008CA9184"]
+			id: "186EB8D3B5075912"
+			tasks: [{
+				id: "618083FD02A42B94"
+				type: "item"
+				item: "druidcraft:white_bedroll"
+			}]
+			rewards: [{
+				id: "79F1AE4E74F122CA"
+				type: "item"
+				item: "minecraft:white_wool"
+				count: 16
+			}]
+		}
+		{
+			x: -6.5d
+			y: 1.0d
+			description: ["This has a use for later, but at the moment simply acts as a pretty flower!"]
+			dependencies: ["64A22D0008CA9184"]
+			id: "7E151CBF8F99B4D1"
+			tasks: [{
+				id: "0153828E038364C1"
+				type: "item"
+				item: "druidcraft:lavender"
+			}]
+			rewards: [{
+				id: "6041E7FF8C0FF80E"
+				type: "item"
+				item: "druidcraft:lavender"
+				count: 3
+			}]
+		}
+		{
+			x: -5.5d
+			y: 0.0d
+			description: ["A very small backpack with a slot for keeping your bedroll!"]
+			dependencies: ["64A22D0008CA9184"]
+			id: "4B2A3D26FAC92337"
+			tasks: [{
+				id: "4628B60D97844F7A"
+				type: "item"
+				item: {
+					id: "druidcraft:travel_pack"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "7E0EED0C3D910646"
+				type: "item"
+				item: "minecraft:leather"
+				count: 16
+			}]
+		}
+		{
+			title: "Gather 16x Bones"
+			x: -3.5d
+			y: 3.0d
+			dependencies: ["64A22D0008CA9184"]
+			id: "1E1AE6D246C80CA6"
+			tasks: [{
+				id: "429B1A24C84D72E0"
+				type: "item"
+				item: "minecraft:bone"
+				count: 16L
+			}]
+			rewards: [{
+				id: "2D2DFB18AE224BB3"
+				type: "random"
+				title: "Miner's Pack"
+				table_id: 6780538329063346471L
+			}]
+		}
+	]
+}

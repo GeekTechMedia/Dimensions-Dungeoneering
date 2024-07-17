@@ -1,0 +1,599 @@
+{
+	id: "5FB3019371FE4952"
+	group: "59C52D0551711357"
+	order_index: 0
+	filename: "nether"
+	title: "To Hell With You!"
+	icon: "minecraft:netherrack"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 6.0d
+			y: -4.0d
+			width: 3.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "forbidden_arcanus:textures/block/dark_nether_star_block.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -6.0d
+			y: -4.0d
+			width: 3.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "forbidden_arcanus:textures/block/dark_nether_star_block.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.0d
+			y: -12.5d
+			width: 10.0d
+			height: 10.0d
+			rotation: 0.0d
+			image: "minecraft:textures/gui/wip.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "square"
+			description: ["The nether isn't normal in this pack. In order to get to it you need to find rifts the are underground as the standard nether portal has been disabled. Once entered the only way to escape the nether is by finding a Monolith. These structures contain a reclaimer which can transport you to the Overworld.  However, the Reclaimer won't do much without a little power. In order to power it, you'll have to place a gold block on each of its four sides - something that shouldn't be too difficult to pull off in the Nether. They have black beacon looking beams coming out of them so they shouldn't be too hard to locate. Also for this questline I won't be providing descriptions as I figure it's a pretty self explainatory questline considering a lot of the quests are from vanilla minecraft aspects. Good luck!"]
+			id: "65842E466FC37D5B"
+			tasks: [{
+				id: "529C0B4934B14674"
+				type: "dimension"
+				dimension: "minecraft:the_nether"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -8.5d
+			dependencies: ["3476606196C5E6A7"]
+			id: "5823B155E63F43E0"
+			tasks: [{
+				id: "523C4DB3905B2555"
+				type: "item"
+				item: {
+					id: "outvoted:wildfire_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"agricraft:gene_inspector": {
+							agri_flag: 0b
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -7.5d
+			dependencies: ["44D34184347D8206"]
+			id: "3476606196C5E6A7"
+			tasks: [{
+				id: "129A873ED842408A"
+				type: "item"
+				item: "outvoted:wildfire_piece"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -9.5d
+			dependencies: ["1BA19EA5E956C92F"]
+			id: "0BB4E03E2D28CAE6"
+			tasks: [{
+				id: "1448AFD45E7D36A3"
+				type: "item"
+				item: {
+					id: "outvoted:wildfire_shield"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -8.5d
+			dependencies: ["3476606196C5E6A7"]
+			id: "1BA19EA5E956C92F"
+			tasks: [{
+				id: "20F40AEE841B1B92"
+				type: "item"
+				item: "outvoted:wildfire_shield_part"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -8.5d
+			dependencies: ["5F1E027B69478229"]
+			id: "5A1100A24710F3D7"
+			tasks: [{
+				id: "4BAF1D0328516F79"
+				type: "item"
+				item: {
+					id: "bigbrain:buckler"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Enter A Bastion Remnant"
+			x: -1.5d
+			y: -6.5d
+			dependencies: ["65842E466FC37D5B"]
+			id: "5F1E027B69478229"
+			tasks: [{
+				id: "5370E872264A5DBE"
+				type: "advancement"
+				title: "Enter A Bastion Remnant"
+				advancement: "minecraft:nether/find_bastion"
+				criterion: ""
+			}]
+		}
+		{
+			x: -2.0d
+			y: -8.5d
+			dependencies: ["5F1E027B69478229"]
+			id: "33F3950BE7953948"
+			tasks: [{
+				id: "596608A2C60B971C"
+				type: "advancement"
+				title: "Open A Chest In A Bastion"
+				advancement: "minecraft:nether/loot_bastion"
+				criterion: ""
+			}]
+		}
+		{
+			x: 3.0d
+			y: -6.5d
+			dependencies: ["65842E466FC37D5B"]
+			id: "4A5DB6ABE15F2151"
+			tasks: [{
+				id: "307A5FA3C0FC640C"
+				type: "advancement"
+				title: "Distract A Piglin"
+				advancement: "minecraft:nether/distract_piglin"
+				criterion: ""
+			}]
+		}
+		{
+			x: 0.0d
+			y: -6.5d
+			dependencies: ["65842E466FC37D5B"]
+			id: "18A13E5A4C53613D"
+			tasks: [{
+				id: "791F93AAEE8A6E62"
+				type: "item"
+				item: "minecraft:crying_obsidian"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -7.5d
+			dependencies: ["18A13E5A4C53613D"]
+			id: "7D9D67F19DFB0770"
+			tasks: [{
+				id: "7C6E7B6A034A5B9C"
+				type: "item"
+				item: "minecraft:respawn_anchor"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -6.5d
+			dependencies: ["65842E466FC37D5B"]
+			id: "0414CC247C969B05"
+			tasks: [{
+				id: "786A3D272D184978"
+				type: "advancement"
+				title: "Ride A Strider"
+				advancement: "minecraft:nether/ride_strider"
+				criterion: ""
+			}]
+		}
+		{
+			x: 1.5d
+			y: -6.5d
+			dependencies: ["65842E466FC37D5B"]
+			id: "44D34184347D8206"
+			tasks: [{
+				id: "1328D0BBEE227CAC"
+				type: "advancement"
+				title: "Enter A Nether Fortress"
+				advancement: "minecraft:nether/find_fortress"
+				criterion: ""
+			}]
+		}
+		{
+			x: -5.0d
+			y: -6.5d
+			dependencies: ["65842E466FC37D5B"]
+			id: "196996F3F84D4745"
+			tasks: [{
+				id: "6D85C0879BAD868F"
+				type: "item"
+				item: "minecraft:ancient_debris"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -7.5d
+			dependencies: ["196996F3F84D4745"]
+			id: "7C2B04F056034A37"
+			tasks: [{
+				id: "118FF7DEA03DAA10"
+				type: "item"
+				item: "minecraft:netherite_scrap"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -8.5d
+			dependencies: ["7C2B04F056034A37"]
+			id: "704727498D925727"
+			tasks: [{
+				id: "6B70E8E2CBA6C537"
+				type: "item"
+				item: "minecraft:netherite_ingot"
+			}]
+		}
+		{
+			x: -7.0d
+			y: -9.0d
+			dependencies: ["704727498D925727"]
+			id: "746BD7C44904AC2D"
+			tasks: [
+				{
+					id: "570BAF5F52D08EA0"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "35B3D0AE418FC356"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4383B9A1EA824407"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0CB90475206AF940"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "21816D7717743A2C"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -9.0d
+			dependencies: ["704727498D925727"]
+			id: "2B7A762EA4FB7845"
+			tasks: [{
+				id: "33587254FCF572BF"
+				type: "item"
+				item: {
+					id: "alexsmobs:straddleboard"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: -8.5d
+			id: "397E7C191E589AB8"
+			tasks: [{
+				id: "3A4673FC445ADB13"
+				type: "checkmark"
+				title: "BetterNether"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -8.5d
+			id: "414177CF9716AEE6"
+			tasks: [{
+				id: "6B485C2C220AFDCD"
+				type: "checkmark"
+				title: "Bygone Nether"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -8.5d
+			id: "7B6A2B110EEDC9B5"
+			tasks: [{
+				id: "2B8BEFAB1034FF98"
+				type: "checkmark"
+				title: "Cinderscapes"
+			}]
+		}
+		{
+			x: 11.0d
+			y: -8.5d
+			id: "3CB4DA7CC7F660C6"
+			tasks: [{
+				id: "7B62D809FD9F3C0B"
+				type: "checkmark"
+				title: "Infernal Expansion"
+			}]
+		}
+		{
+			x: 12.0d
+			y: -8.5d
+			id: "0A6EF9178FCE28BA"
+			tasks: [{
+				id: "6EE2E22FC22CDA03"
+				type: "checkmark"
+				title: "L_Ender's Cataclysm"
+			}]
+		}
+		{
+			x: 13.0d
+			y: -8.5d
+			id: "4DC318F0DDEECDBF"
+			tasks: [{
+				id: "02D48E5E3CBE69C4"
+				type: "checkmark"
+				title: "Nether Agriculture"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -7.5d
+			id: "65137249C99B22E9"
+			tasks: [{
+				id: "444EA7C408CBAB3D"
+				type: "checkmark"
+				title: "Nether's Exoticism"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -7.5d
+			id: "3AD75A1A94552AD5"
+			tasks: [{
+				id: "082667B299CE0EAB"
+				type: "checkmark"
+				title: "Nourished Nether"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -7.5d
+			id: "11E3946F92230E80"
+			tasks: [{
+				id: "2A33DBC1FC1A05D7"
+				type: "checkmark"
+				title: "Outvoted"
+			}]
+		}
+		{
+			x: 11.0d
+			y: -7.5d
+			id: "0F651A7E1A506BDA"
+			tasks: [{
+				id: "386F48DFEEA4683A"
+				type: "checkmark"
+				title: "Piglin Expansion"
+			}]
+		}
+		{
+			x: 12.0d
+			y: -7.5d
+			id: "6CC0DD988F0EC0A0"
+			tasks: [{
+				id: "62D3C858AF9039AE"
+				type: "checkmark"
+				title: "Stalwart Dungeons"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -6.5d
+			dependencies: ["65842E466FC37D5B"]
+			id: "24929E8CE380F50B"
+			tasks: [
+				{
+					id: "6B0481FFEDC57825"
+					type: "item"
+					item: {
+						id: "totemmod:totem_top"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "26BD6A042A053038"
+					type: "item"
+					item: {
+						id: "totemmod:totem_base"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -6.5d
+			dependencies: ["65842E466FC37D5B"]
+			id: "743CF6ECEA435186"
+			tasks: [{
+				id: "539EE62EA024EB14"
+				type: "item"
+				item: {
+					id: "bigbrain:buckler"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: -10.0d
+			dependencies: ["704727498D925727"]
+			id: "29C06F4932415B50"
+			tasks: [
+				{
+					id: "19E5BDB043488FD3"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "07D020D65434B81A"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "53F52021E4066CB5"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "58384F0CBC41A3D6"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: -8.5d
+			id: "24D5B1116119E2D2"
+			tasks: [{
+				id: "63F948E6A44A1874"
+				type: "checkmark"
+				title: "shret nether"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -7.5d
+			id: "4DB6913330C7E334"
+			tasks: [{
+				id: "3367F095245C5396"
+				type: "checkmark"
+				title: "Comfortable Nether"
+			}]
+		}
+	]
+}

@@ -1,0 +1,26 @@
+
+#General settings
+[general]
+	#Is Enabled?
+	enabled = true
+	#Cost
+	#Range: > -2147483648
+	cost = 165
+	#Is Starter Glyph?
+	starter = false
+	#The maximum number of times this glyph may appear in a single spell
+	#Range: > 1
+	per_spell_limit = 2147483647
+	#Limits the number of times a given augment may be applied to a given effect
+	#Example entry: "amplify=5"
+	augment_limits = []
+	#Max time in seconds for a mob to be held
+	#Range: 0.0 ~ 2.147483647E9
+	Max_Hold_Time_Mob = 10.0
+	#Max time in seconds for a player to be held
+	#Range: 0.0 ~ 2.147483647E9
+	Max_Hold_Time_Player = 5.0
+	#Percentage of health to be missing for full effect
+	#Range: 0.0 ~ 1.0
+	Health_Threshold = 0.4000000059604645
+

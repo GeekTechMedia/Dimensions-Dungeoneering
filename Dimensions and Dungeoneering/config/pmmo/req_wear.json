@@ -1,0 +1,1198 @@
+{
+	"aquaculture:neptunium_boots":
+	{
+		"endurance": 45
+	},
+	"aquaculture:neptunium_chestplate":
+	{
+		"endurance": 45
+	},
+	"aquaculture:neptunium_helmet":
+	{
+		"endurance": 45
+	},
+	"aquaculture:neptunium_leggings":
+	{
+		"endurance": 45
+	},
+	"create:goggles":
+	{
+		"crafting": 25
+	},
+	"createplus:goggle_chainmail_helmet":
+	{
+		"endurance": 20,
+		"crafting": 25
+	},
+	"createplus:goggle_diamond_helmet":
+	{
+		"endurance": 40,
+		"crafting": 25
+	},
+	"createplus:goggle_golden_helmet":
+	{
+		"endurance": 10,
+		"crafting": 25
+	},
+	"createplus:goggle_iron_helmet":
+	{
+		"endurance": 30,
+		"crafting": 25
+	},
+	"createplus:goggle_leather_helmet":
+	{
+		"endurance": 5,
+		"crafting": 25
+	},
+	"createplus:goggle_netherite_helmet":
+	{
+		"endurance": 60,
+		"crafting": 25
+	},
+	"createplus:goggle_turtle_helmet":
+	{
+		"swimming": 5,
+		"endurance": 15,
+		"crafting": 25
+	},
+	"dungeons_gear:archers_hood":
+	{
+		"endurance": 20
+	},
+	"dungeons_gear:archers_vest":
+	{
+		"endurance": 20
+	},
+	"dungeons_gear:battle_robe":
+	{
+		"endurance": 20
+	},
+	"dungeons_gear:cave_crawler_chestplate":
+	{
+		"endurance": 40
+	},
+	"dungeons_gear:cave_crawler_helmet":
+	{
+		"endurance": 40
+	},
+	"dungeons_gear:champions_chestplate":
+	{
+		"endurance": 30
+	},
+	"dungeons_gear:champions_helmet":
+	{
+		"endurance": 30
+	},
+	"dungeons_gear:curious_chestplate":
+	{
+		"endurance": 30
+	},
+	"dungeons_gear:curious_helmet":
+	{
+		"endurance": 30
+	},
+	"dungeons_gear:dark_chestplate":
+	{
+		"endurance": 30
+	},
+	"dungeons_gear:dark_helmet":
+	{
+		"endurance": 30
+	},
+	"dungeons_gear:ember_hat":
+	{
+		"endurance": 30
+	},
+	"dungeons_gear:ember_robe":
+	{
+		"endurance": 30
+	},
+	"dungeons_gear:evocation_hat":
+	{
+		"endurance": 30
+	},
+	"dungeons_gear:evocation_robe":
+	{
+		"endurance": 30
+	},
+	"dungeons_gear:fox_hood":
+	{
+		"endurance": 40
+	},
+	"dungeons_gear:fox_vest":
+	{
+		"endurance": 40
+	},
+	"dungeons_gear:frost_bite_chestplate":
+	{
+		"endurance": 40
+	},
+	"dungeons_gear:frost_bite_helmet":
+	{
+		"endurance": 40
+	},
+	"dungeons_gear:frost_chestplate":
+	{
+		"endurance": 40
+	},
+	"dungeons_gear:frost_helmet":
+	{
+		"endurance": 40
+	},
+	"dungeons_gear:full_metal_chestplate":
+	{
+		"endurance": 40
+	},
+	"dungeons_gear:full_metal_helmet":
+	{
+		"endurance": 40
+	},
+	"dungeons_gear:grim_chestplate":
+	{
+		"endurance": 30
+	},
+	"dungeons_gear:grim_helmet":
+	{
+		"endurance": 30
+	},
+	"dungeons_gear:guards_chestplate":
+	{
+		"endurance": 30
+	},
+	"dungeons_gear:guards_helmet":
+	{
+		"endurance": 30
+	},
+	"dungeons_gear:heroes_chestplate":
+	{
+		"endurance": 40
+	},
+	"dungeons_gear:heroes_helmet":
+	{
+		"endurance": 40
+	},
+	"dungeons_gear:highland_chestplate":
+	{
+		"endurance": 40
+	},
+	"dungeons_gear:highland_helmet":
+	{
+		"endurance": 40
+	},
+	"dungeons_gear:hunters_vest":
+	{
+		"endurance": 10
+	},
+	"dungeons_gear:mercenary_chestplate":
+	{
+		"endurance": 30
+	},
+	"dungeons_gear:mercenary_helmet":
+	{
+		"endurance": 30
+	},
+	"dungeons_gear:ocelot_hood":
+	{
+		"endurance": 30
+	},
+	"dungeons_gear:ocelot_vest":
+	{
+		"endurance": 30
+	},
+	"dungeons_gear:phantom_chestplate":
+	{
+		"endurance": 40
+	},
+	"dungeons_gear:phantom_helmet":
+	{
+		"endurance": 40
+	},
+	"dungeons_gear:plate_chestplate":
+	{
+		"endurance": 40
+	},
+	"dungeons_gear:plate_helmet":
+	{
+		"endurance": 40
+	},
+	"dungeons_gear:reinforced_mail_chestplate":
+	{
+		"endurance": 30
+	},
+	"dungeons_gear:reinforced_mail_helmet":
+	{
+		"endurance": 30
+	},
+	"dungeons_gear:renegade_chestplate":
+	{
+		"endurance": 40
+	},
+	"dungeons_gear:renegade_helmet":
+	{
+		"endurance": 40
+	},
+	"dungeons_gear:royal_guard_chestplate":
+	{
+		"endurance": 30
+	},
+	"dungeons_gear:royal_guard_helmet":
+	{
+		"endurance": 30
+	},
+	"dungeons_gear:scale_mail_chestplate":
+	{
+		"endurance": 30
+	},
+	"dungeons_gear:scale_mail_helmet":
+	{
+		"endurance": 30
+	},
+	"dungeons_gear:shadow_walker_hood":
+	{
+		"endurance": 30
+	},
+	"dungeons_gear:shadow_walker_vest":
+	{
+		"endurance": 30
+	},
+	"dungeons_gear:snow_chestplate":
+	{
+		"endurance": 30
+	},
+	"dungeons_gear:snow_helmet":
+	{
+		"endurance": 30
+	},
+	"dungeons_gear:soul_hood":
+	{
+		"endurance": 30
+	},
+	"dungeons_gear:soul_robe":
+	{
+		"endurance": 30
+	},
+	"dungeons_gear:souldancer_hood":
+	{
+		"endurance": 40
+	},
+	"dungeons_gear:souldancer_robe":
+	{
+		"endurance": 40
+	},
+	"dungeons_gear:spelunker_chestplate":
+	{
+		"endurance": 30
+	},
+	"dungeons_gear:spelunker_helmet":
+	{
+		"endurance": 30
+	},
+	"dungeons_gear:spider_hood":
+	{
+		"endurance": 40
+	},
+	"dungeons_gear:spider_vest":
+	{
+		"endurance": 40
+	},
+	"dungeons_gear:splendid_robe":
+	{
+		"endurance": 30
+	},
+	"dungeons_gear:stalwart_chestplate":
+	{
+		"endurance": 40
+	},
+	"dungeons_gear:stalwart_helmet":
+	{
+		"endurance": 40
+	},
+	"dungeons_gear:thief_hood":
+	{
+		"endurance": 30
+	},
+	"dungeons_gear:thief_vest":
+	{
+		"endurance": 30
+	},
+	"dungeons_gear:titans_shroud_chestplate":
+	{
+		"endurance": 40
+	},
+	"dungeons_gear:titans_shroud_helmet":
+	{
+		"endurance": 40
+	},
+	"dungeons_gear:wither_chestplate":
+	{
+		"endurance": 30
+	},
+	"dungeons_gear:wither_helmet":
+	{
+		"endurance": 30
+	},
+	"dungeons_gear:wolf_hood":
+	{
+		"endurance": 30
+	},
+	"dungeons_gear:wolf_vest":
+	{
+		"endurance": 30
+	},
+	"endreborn:ender_boots":
+	{
+		"endurance": 45
+	},
+	"endreborn:wolframium_boots":
+	{
+		"endurance": 32
+	},
+	"endreborn:wolframium_chestplate":
+	{
+		"endurance": 32
+	},
+	"endreborn:wolframium_helmet":
+	{
+		"endurance": 32
+	},
+	"endreborn:wolframium_leggings":
+	{
+		"endurance": 32
+	},
+	"extendednether:netherite_boots":
+	{
+		"endurance": 60
+	},
+	"extendednether:netherite_chestplate":
+	{
+		"endurance": 60
+	},
+	"extendednether:netherite_helmet":
+	{
+		"endurance": 60
+	},
+	"extendednether:netherite_leggings":
+	{
+		"endurance": 60
+	},
+	"harcorebattletowers:evil_armorbody":
+	{
+		"endurance": 85
+	},
+	"harcorebattletowers:evil_armorboots":
+	{
+		"endurance": 85
+	},
+	"harcorebattletowers:evil_armorhelmet":
+	{
+		"endurance": 85
+	},
+	"harcorebattletowers:evil_armorlegs":
+	{
+		"endurance": 85
+	},
+	"iceandfire:armor_amythest_boots":
+	{
+		"endurance": 60
+	},
+	"iceandfire:armor_amythest_chestplate":
+	{
+		"endurance": 60
+	},
+	"iceandfire:armor_amythest_helmet":
+	{
+		"endurance": 60
+	},
+	"iceandfire:armor_amythest_leggings":
+	{
+		"endurance": 60
+	},
+	"iceandfire:armor_black_boots":
+	{
+		"endurance": 60
+	},
+	"iceandfire:armor_black_chestplate":
+	{
+		"endurance": 60
+	},
+	"iceandfire:armor_black_helmet":
+	{
+		"endurance": 60
+	},
+	"iceandfire:armor_black_leggings":
+	{
+		"endurance": 60
+	},
+	"iceandfire:armor_blue_boots":
+	{
+		"endurance": 60
+	},
+	"iceandfire:armor_blue_chestplate":
+	{
+		"endurance": 60
+	},
+	"iceandfire:armor_blue_helmet":
+	{
+		"endurance": 60
+	},
+	"iceandfire:armor_blue_leggings":
+	{
+		"endurance": 60
+	},
+	"iceandfire:armor_bronze_boots":
+	{
+		"endurance": 60
+	},
+	"iceandfire:armor_bronze_chestplate":
+	{
+		"endurance": 60
+	},
+	"iceandfire:armor_bronze_helmet":
+	{
+		"endurance": 60
+	},
+	"iceandfire:armor_bronze_leggings":
+	{
+		"endurance": 60
+	},
+	"iceandfire:armor_copper_boots":
+	{
+		"endurance": 60
+	},
+	"iceandfire:armor_copper_chestplate":
+	{
+		"endurance": 60
+	},
+	"iceandfire:armor_copper_helmet":
+	{
+		"endurance": 60
+	},
+	"iceandfire:armor_copper_leggings":
+	{
+		"endurance": 60
+	},
+	"iceandfire:armor_copper_metal_boots":
+	{
+		"endurance": 10
+	},
+	"iceandfire:armor_copper_metal_chestplate":
+	{
+		"endurance": 10
+	},
+	"iceandfire:armor_copper_metal_helmet":
+	{
+		"endurance": 10
+	},
+	"iceandfire:armor_copper_metal_leggings":
+	{
+		"endurance": 10
+	},
+	"iceandfire:armor_electric_boots":
+	{
+		"endurance": 60
+	},
+	"iceandfire:armor_electric_chestplate":
+	{
+		"endurance": 60
+	},
+	"iceandfire:armor_electric_helmet":
+	{
+		"endurance": 60
+	},
+	"iceandfire:armor_electric_leggings":
+	{
+		"endurance": 60
+	},
+	"iceandfire:armor_gray_boots":
+	{
+		"endurance": 60
+	},
+	"iceandfire:armor_gray_chestplate":
+	{
+		"endurance": 60
+	},
+	"iceandfire:armor_gray_helmet":
+	{
+		"endurance": 60
+	},
+	"iceandfire:armor_gray_leggings":
+	{
+		"endurance": 60
+	},
+	"iceandfire:armor_green_boots":
+	{
+		"endurance": 60
+	},
+	"iceandfire:armor_green_chestplate":
+	{
+		"endurance": 60
+	},
+	"iceandfire:armor_green_helmet":
+	{
+		"endurance": 60
+	},
+	"iceandfire:armor_green_leggings":
+	{
+		"endurance": 60
+	},
+	"iceandfire:armor_red_boots":
+	{
+		"endurance": 60
+	},
+	"iceandfire:armor_red_chestplate":
+	{
+		"endurance": 60
+	},
+	"iceandfire:armor_red_helmet":
+	{
+		"endurance": 60
+	},
+	"iceandfire:armor_red_leggings":
+	{
+		"endurance": 60
+	},
+	"iceandfire:armor_sapphire_boots":
+	{
+		"endurance": 60
+	},
+	"iceandfire:armor_sapphire_chestplate":
+	{
+		"endurance": 60
+	},
+	"iceandfire:armor_sapphire_helmet":
+	{
+		"endurance": 60
+	},
+	"iceandfire:armor_sapphire_leggings":
+	{
+		"endurance": 60
+	},
+	"iceandfire:armor_silver_boots":
+	{
+		"endurance": 60
+	},
+	"iceandfire:armor_silver_chestplate":
+	{
+		"endurance": 60
+	},
+	"iceandfire:armor_silver_helmet":
+	{
+		"endurance": 60
+	},
+	"iceandfire:armor_silver_leggings":
+	{
+		"endurance": 60
+	},
+	"iceandfire:armor_silver_metal_boots":
+	{
+		"endurance": 20
+	},
+	"iceandfire:armor_silver_metal_chestplate":
+	{
+		"endurance": 20
+	},
+	"iceandfire:armor_silver_metal_helmet":
+	{
+		"endurance": 20
+	},
+	"iceandfire:armor_silver_metal_leggings":
+	{
+		"endurance": 20
+	},
+	"iceandfire:armor_white_boots":
+	{
+		"endurance": 60
+	},
+	"iceandfire:armor_white_chestplate":
+	{
+		"endurance": 60
+	},
+	"iceandfire:armor_white_helmet":
+	{
+		"endurance": 60
+	},
+	"iceandfire:armor_white_leggings":
+	{
+		"endurance": 60
+	},
+	"iceandfire:deathworm_red_boots":
+	{
+		"endurance": 30
+	},
+	"iceandfire:deathworm_red_chestplate":
+	{
+		"endurance": 30
+	},
+	"iceandfire:deathworm_red_helmet":
+	{
+		"endurance": 30
+	},
+	"iceandfire:deathworm_red_leggings":
+	{
+		"endurance": 30
+	},
+	"iceandfire:deathworm_white_boots":
+	{
+		"endurance": 30
+	},
+	"iceandfire:deathworm_white_chestplate":
+	{
+		"endurance": 30
+	},
+	"iceandfire:deathworm_white_helmet":
+	{
+		"endurance": 30
+	},
+	"iceandfire:deathworm_white_leggings":
+	{
+		"endurance": 30
+	},
+	"iceandfire:deathworm_yellow_boots":
+	{
+		"endurance": 30
+	},
+	"iceandfire:deathworm_yellow_chestplate":
+	{
+		"endurance": 30
+	},
+	"iceandfire:deathworm_yellow_helmet":
+	{
+		"endurance": 30
+	},
+	"iceandfire:deathworm_yellow_leggings":
+	{
+		"endurance": 30
+	},
+	"iceandfire:dragonsteel_fire_boots":
+	{
+		"endurance": 70
+	},
+	"iceandfire:dragonsteel_fire_chestplate":
+	{
+		"endurance": 70
+	},
+	"iceandfire:dragonsteel_fire_helmet":
+	{
+		"endurance": 70
+	},
+	"iceandfire:dragonsteel_fire_leggings":
+	{
+		"endurance": 70
+	},
+	"iceandfire:dragonsteel_ice_boots":
+	{
+		"endurance": 70
+	},
+	"iceandfire:dragonsteel_ice_chestplate":
+	{
+		"endurance": 70
+	},
+	"iceandfire:dragonsteel_ice_helmet":
+	{
+		"endurance": 70
+	},
+	"iceandfire:dragonsteel_ice_leggings":
+	{
+		"endurance": 70
+	},
+	"iceandfire:dragonsteel_lightning_boots":
+	{
+		"endurance": 70
+	},
+	"iceandfire:dragonsteel_lightning_chestplate":
+	{
+		"endurance": 70
+	},
+	"iceandfire:dragonsteel_lightning_helmet":
+	{
+		"endurance": 70
+	},
+	"iceandfire:dragonsteel_lightning_leggings":
+	{
+		"endurance": 70
+	},
+	"iceandfire:forest_troll_leather_boots":
+	{
+		"endurance": 25
+	},
+	"iceandfire:forest_troll_leather_chestplate":
+	{
+		"endurance": 25
+	},
+	"iceandfire:forest_troll_leather_helmet":
+	{
+		"endurance": 25
+	},
+	"iceandfire:forest_troll_leather_leggings":
+	{
+		"endurance": 25
+	},
+	"iceandfire:frost_troll_leather_boots":
+	{
+		"endurance": 25
+	},
+	"iceandfire:frost_troll_leather_chestplate":
+	{
+		"endurance": 25
+	},
+	"iceandfire:frost_troll_leather_helmet":
+	{
+		"endurance": 25
+	},
+	"iceandfire:frost_troll_leather_leggings":
+	{
+		"endurance": 25
+	},
+	"iceandfire:mountain_troll_leather_boots":
+	{
+		"endurance": 25
+	},
+	"iceandfire:mountain_troll_leather_chestplate":
+	{
+		"endurance": 25
+	},
+	"iceandfire:mountain_troll_leather_helmet":
+	{
+		"endurance": 25
+	},
+	"iceandfire:mountain_troll_leather_leggings":
+	{
+		"endurance": 25
+	},
+	"iceandfire:myrmex_desert_boots":
+	{
+		"endurance": 30
+	},
+	"iceandfire:myrmex_desert_chestplate":
+	{
+		"endurance": 30
+	},
+	"iceandfire:myrmex_desert_helmet":
+	{
+		"endurance": 30
+	},
+	"iceandfire:myrmex_desert_leggings":
+	{
+		"endurance": 30
+	},
+	"iceandfire:myrmex_jungle_boots":
+	{
+		"endurance": 30
+	},
+	"iceandfire:myrmex_jungle_chestplate":
+	{
+		"endurance": 30
+	},
+	"iceandfire:myrmex_jungle_helmet":
+	{
+		"endurance": 30
+	},
+	"iceandfire:myrmex_jungle_leggings":
+	{
+		"endurance": 30
+	},
+	"iceandfire:sheep_boots":
+	{
+		"endurance": 5
+	},
+	"iceandfire:sheep_chestplate":
+	{
+		"endurance": 5
+	},
+	"iceandfire:sheep_helmet":
+	{
+		"endurance": 5
+	},
+	"iceandfire:sheep_leggings":
+	{
+		"endurance": 5
+	},
+	"iceandfire:tide_blue_boots":
+	{
+		"endurance": 60
+	},
+	"iceandfire:tide_blue_chestplate":
+	{
+		"endurance": 60
+	},
+	"iceandfire:tide_blue_helmet":
+	{
+		"endurance": 60
+	},
+	"iceandfire:tide_blue_leggings":
+	{
+		"endurance": 60
+	},
+	"iceandfire:tide_bronze_boots":
+	{
+		"endurance": 60
+	},
+	"iceandfire:tide_bronze_chestplate":
+	{
+		"endurance": 60
+	},
+	"iceandfire:tide_bronze_helmet":
+	{
+		"endurance": 60
+	},
+	"iceandfire:tide_bronze_leggings":
+	{
+		"endurance": 60
+	},
+	"iceandfire:tide_deepblue_boots":
+	{
+		"endurance": 60
+	},
+	"iceandfire:tide_deepblue_chestplate":
+	{
+		"endurance": 60
+	},
+	"iceandfire:tide_deepblue_helmet":
+	{
+		"endurance": 60
+	},
+	"iceandfire:tide_deepblue_leggings":
+	{
+		"endurance": 60
+	},
+	"iceandfire:tide_green_boots":
+	{
+		"endurance": 60
+	},
+	"iceandfire:tide_green_chestplate":
+	{
+		"endurance": 60
+	},
+	"iceandfire:tide_green_helmet":
+	{
+		"endurance": 60
+	},
+	"iceandfire:tide_green_leggings":
+	{
+		"endurance": 60
+	},
+	"iceandfire:tide_purple_boots":
+	{
+		"endurance": 60
+	},
+	"iceandfire:tide_purple_chestplate":
+	{
+		"endurance": 60
+	},
+	"iceandfire:tide_purple_helmet":
+	{
+		"endurance": 60
+	},
+	"iceandfire:tide_purple_leggings":
+	{
+		"endurance": 60
+	},
+	"iceandfire:tide_red_boots":
+	{
+		"endurance": 60
+	},
+	"iceandfire:tide_red_chestplate":
+	{
+		"endurance": 60
+	},
+	"iceandfire:tide_red_helmet":
+	{
+		"endurance": 60
+	},
+	"iceandfire:tide_red_leggings":
+	{
+		"endurance": 60
+	},
+	"iceandfire:tide_teal_boots":
+	{
+		"endurance": 60
+	},
+	"iceandfire:tide_teal_chestplate":
+	{
+		"endurance": 60
+	},
+	"iceandfire:tide_teal_helmet":
+	{
+		"endurance": 60
+	},
+	"iceandfire:tide_teal_leggings":
+	{
+		"endurance": 60
+	},
+	"upgradednetherite:ender_upgraded_netherite_boots":
+	{
+		"endurance": 80
+	},
+	"upgradednetherite:ender_upgraded_netherite_chestplate":
+	{
+		"endurance": 80
+	},
+	"upgradednetherite:ender_upgraded_netherite_helmet":
+	{
+		"endurance": 80
+	},
+	"upgradednetherite:ender_upgraded_netherite_leggings":
+	{
+		"endurance": 80
+	},
+	"upgradednetherite:feather_upgraded_netherite_boots":
+	{
+		"endurance": 80
+	},
+	"upgradednetherite:feather_upgraded_netherite_chestplate":
+	{
+		"endurance": 80
+	},
+	"upgradednetherite:feather_upgraded_netherite_helmet":
+	{
+		"endurance": 80
+	},
+	"upgradednetherite:feather_upgraded_netherite_leggings":
+	{
+		"endurance": 80
+	},
+	"upgradednetherite:fire_upgraded_netherite_boots":
+	{
+		"endurance": 80
+	},
+	"upgradednetherite:fire_upgraded_netherite_chestplate":
+	{
+		"endurance": 80
+	},
+	"upgradednetherite:fire_upgraded_netherite_helmet":
+	{
+		"endurance": 80
+	},
+	"upgradednetherite:fire_upgraded_netherite_leggings":
+	{
+		"endurance": 80
+	},
+	"upgradednetherite:gold_upgraded_netherite_boots":
+	{
+		"endurance": 80
+	},
+	"upgradednetherite:gold_upgraded_netherite_chestplate":
+	{
+		"endurance": 80
+	},
+	"upgradednetherite:gold_upgraded_netherite_helmet":
+	{
+		"endurance": 80
+	},
+	"upgradednetherite:gold_upgraded_netherite_leggings":
+	{
+		"endurance": 80
+	},
+	"upgradednetherite:phantom_upgraded_netherite_boots":
+	{
+		"endurance": 80
+	},
+	"upgradednetherite:phantom_upgraded_netherite_chestplate":
+	{
+		"endurance": 80
+	},
+	"upgradednetherite:phantom_upgraded_netherite_helmet":
+	{
+		"endurance": 80
+	},
+	"upgradednetherite:phantom_upgraded_netherite_leggings":
+	{
+		"endurance": 80
+	},
+	"upgradednetherite:poison_upgraded_netherite_boots":
+	{
+		"endurance": 80
+	},
+	"upgradednetherite:poison_upgraded_netherite_chestplate":
+	{
+		"endurance": 80
+	},
+	"upgradednetherite:poison_upgraded_netherite_helmet":
+	{
+		"endurance": 80
+	},
+	"upgradednetherite:poison_upgraded_netherite_leggings":
+	{
+		"endurance": 80
+	},
+	"upgradednetherite:water_upgraded_netherite_boots":
+	{
+		"endurance": 80
+	},
+	"upgradednetherite:water_upgraded_netherite_chestplate":
+	{
+		"endurance": 80
+	},
+	"upgradednetherite:water_upgraded_netherite_helmet":
+	{
+		"endurance": 80
+	},
+	"upgradednetherite:water_upgraded_netherite_leggings":
+	{
+		"endurance": 80
+	},
+	"upgradednetherite:wither_upgraded_netherite_boots":
+	{
+		"endurance": 80
+	},
+	"upgradednetherite:wither_upgraded_netherite_chestplate":
+	{
+		"endurance": 80
+	},
+	"upgradednetherite:wither_upgraded_netherite_helmet":
+	{
+		"endurance": 80
+	},
+	"upgradednetherite:wither_upgraded_netherite_leggings":
+	{
+		"endurance": 80
+	},
+	"upgradednetherite:ultimate_upgraded_netherite_boots":
+	{
+		"endurance": 100
+	},
+	"upgradednetherite:ultimate_upgraded_netherite_chestplate":
+	{
+		"endurance": 100
+	},
+	"upgradednetherite:ultimate_upgraded_netherite_helmet":
+	{
+		"endurance": 100
+	},
+	"upgradednetherite:ultimate_upgraded_netherite_leggings":
+	{
+		"endurance": 100
+	},
+	"nocubes_wilderness:birch_helmet":
+	{
+		"endurance": 1
+	},
+	"nocubes_wilderness:birch_chestplate":
+	{
+		"endurance": 1
+	},
+	"nocubes_wilderness:birch_leggings":
+	{
+		"endurance": 1
+	},
+	"nocubes_wilderness:birch_boots":
+	{
+		"endurance": 1
+	},
+	"minecraft:leather_helmet":
+	{
+		"endurance": 5
+	},
+	"minecraft:leather_chestplate":
+	{
+		"endurance": 5
+	},
+	"minecraft:leather_leggings":
+	{
+		"endurance": 5
+	},
+	"minecraft:leather_boots":
+	{
+		"endurance": 5
+	},
+	"minecraft:chainmail_helmet":
+	{
+		"endurance": 15
+	},
+	"minecraft:chainmail_chestplate":
+	{
+		"endurance": 15
+	},
+	"minecraft:chainmail_leggings":
+	{
+		"endurance": 15
+	},
+	"minecraft:chainmail_boots":
+	{
+		"endurance": 15
+	},
+	"minecraft:golden_helmet":
+	{
+		"endurance": 10
+	},
+	"minecraft:golden_chestplate":
+	{
+		"endurance": 10
+	},
+	"minecraft:golden_leggings":
+	{
+		"endurance": 10
+	},
+	"minecraft:golden_boots":
+	{
+		"endurance": 10
+	},
+	"minecraft:iron_helmet":
+	{
+		"endurance": 20
+	},
+	"minecraft:iron_chestplate":
+	{
+		"endurance": 20
+	},
+	"minecraft:iron_leggings":
+	{
+		"endurance": 20
+	},
+	"minecraft:iron_boots":
+	{
+		"endurance": 20
+	},
+	"minecraft:diamond_helmet":
+	{
+		"endurance": 40
+	},
+	"minecraft:diamond_chestplate":
+	{
+		"endurance": 40
+	},
+	"minecraft:diamond_leggings":
+	{
+		"endurance": 40
+	},
+	"minecraft:diamond_boots":
+	{
+		"endurance": 40
+	},
+	"minecraft:netherite_helmet":
+	{
+		"endurance": 60
+	},
+	"minecraft:netherite_chestplate":
+	{
+		"endurance": 60
+	},
+	"minecraft:netherite_leggings":
+	{
+		"endurance": 60
+	},
+	"minecraft:netherite_boots":
+	{
+		"endurance": 60
+	},
+	"buriedknight:ancient_knightmetal_helmet":
+	{
+		"endurance": 1
+	},
+	"buriedknight:ancient_knightmetal_chestplate":
+	{
+		"endurance": 1
+	},
+	"buriedknight:ancient_knightmetal_leggings":
+	{
+		"endurance": 1
+	},
+	"buriedknight:ancient_knightmetal_boots":
+	{
+		"endurance": 1
+	},
+	"eidolon:warlock_hat":
+	{
+		"endurance": 1
+	}
+}

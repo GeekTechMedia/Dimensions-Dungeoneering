@@ -1,0 +1,72 @@
+
+[general]
+	#The amount of days that must pass for interest to be added, default is 6 days per compound, 72 for an IRL day (Reccomended for servers)
+	#Range: 1 ~ 504
+	days_per_compound = 6
+
+[vanilla]
+
+	[vanilla.coal]
+		#Interest rate of coal, 0 will give no interest, 1 will give 100% interest. Default is 0.015625, 1 per stack
+		#Range: 0.0 ~ 1.0
+		interest_rate = 0.015625
+		#Maximum amount of coal a piggybank can generate in 1 compound. Default is 2304 a compound
+		#Range: 0 ~ 5184
+		max_interest = 2304
+
+	[vanilla.iron]
+		#Interest rate of iron, 0 will give no interest, 1 will give 100% interest. Default is 0.0078125, 1 per 2 stacks
+		#Range: 0.0 ~ 1.0
+		interest_rate = 0.0078125
+		#Maximum amount of iron nuggets a piggybank can generate in 1 compound. Default is 20736 a compound
+		#Range: 0 ~ 46656
+		max_interest = 20736
+
+	[vanilla.redstone]
+		#Interest rate of redstone, 0 will give no interest, 1 will give 100% interest. Default is 0.015625, 1 per stack
+		#Range: 0.0 ~ 1.0
+		interest_rate = 0.015625
+		#Maximum amount of redstone a piggybank can generate in 1 compound. Default is 2304 a compound
+		#Range: 0 ~ 5184
+		max_interest = 2304
+
+	[vanilla.gold]
+		#Interest rate of gold, 0 will give no interest, 1 will give 100% interest. Default is 0.0078125, 1 per 2 stacks
+		#Range: 0.0 ~ 1.0
+		interest_rate = 0.0078125
+		#Maximum amount of gold nuggets a piggybank can generate in 1 compound. Default is 20736 a compound
+		#Range: 0 ~ 46656
+		max_interest = 20736
+
+	[vanilla.lapis]
+		#Interest rate of lapis, 0 will give no interest, 1 will give 100% interest. Default is 0.0078125, 1 per 2 stacks
+		#Range: 0.0 ~ 1.0
+		interest_rate = 0.0078125
+		#Maximum amount of lapis a piggybank can generate in 1 compound. Default is 2304 a compound
+		#Range: 0 ~ 5184
+		max_interest = 2304
+
+	[vanilla.emerald]
+		#Interest rate of emerald, 0 will give no interest, 1 will give 100% interest. Default is 0.0078125, 1 per 2 stacks
+		#Range: 0.0 ~ 1.0
+		interest_rate = 0.0078125
+		#Maximum amount of emerald a piggybank can generate in 1 compound. Default is 2304 a compound
+		#Range: 0 ~ 5184
+		max_interest = 2304
+
+	[vanilla.diamond]
+		#Interest rate of diamond, 0 will give no interest, 1 will give 100% interest. Default is 0.00390625, 1 per 4 stacks
+		#Range: 0.0 ~ 1.0
+		interest_rate = 0.00390625
+		#Maximum amount of diamond a piggybank can generate in 1 compound. Default is 2304 a compound
+		#Range: 0 ~ 5184
+		max_interest = 2304
+
+	[vanilla.netherite]
+		#Interest rate of netherite, 0 will give no interest, 1 will give 100% interest. Default is 0.00390625, 1 per 4 stacks
+		#Range: 0.0 ~ 1.0
+		interest_rate = 0.00390625
+		#Maximum amount of netherite a piggybank can generate in 1 compound. Default is 2304 a compound
+		#Range: 0 ~ 5184
+		max_interest = 2304
+

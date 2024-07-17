@@ -1,0 +1,585 @@
+{
+	id: "77D6F48391BE9073"
+	group: "1F22E46975B98D48"
+	order_index: 1
+	filename: "solar_flux_reborn"
+	title: "Renewable Energy"
+	icon: "solarflux:sp_3"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "circle"
+			description: ["The Solar Flux Reborn mod is a port to newer versions of a very popular mod called Solar Reborn. The mod is mainly used for power generation with it's many different solar panels. They can be useful for early game and late game."]
+			id: "50AF793F6297DFC0"
+			tasks: [{
+				id: "34D933CF6C518FF7"
+				type: "checkmark"
+				title: "Solar Flux Reborn"
+			}]
+			rewards: [
+				{
+					id: "047C9AC35743D674"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6D3FCB9D513BB09D"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -3.5d
+			description: ["Generates 1 FE/tick, transfers 8 FE/tick, has a capacity of 25,000 FE."]
+			dependencies: ["55ADC00660ED0697"]
+			id: "32F80427C3B1FF15"
+			tasks: [{
+				id: "3FB6B9C4DD91CDDC"
+				type: "item"
+				item: "solarflux:sp_1"
+			}]
+			rewards: [
+				{
+					id: "3E490AAFAC994544"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+				{
+					id: "256C1B8C28A37278"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "crafting"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -4.5d
+			description: ["Generates 8 FE/tick, transfers 64 FE/tick, has a capacity of 125,000 FE."]
+			dependencies: ["32F80427C3B1FF15"]
+			id: "59533432FD5809E6"
+			tasks: [{
+				id: "0812895A5275C6E0"
+				type: "item"
+				item: "solarflux:sp_2"
+			}]
+			rewards: [
+				{
+					id: "7EF0396EA493D10A"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+				{
+					id: "037D7C8CC649D376"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "crafting"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -5.5d
+			description: ["Generates 32 FE/tick, transfers 256 FE/tick, has a capacity of 425,000 FE."]
+			dependencies: [
+				"59533432FD5809E6"
+				"7AA81E08639A4356"
+			]
+			id: "1DC59C94893C083D"
+			tasks: [{
+				id: "5790CA37CCF7E3D8"
+				type: "item"
+				item: "solarflux:sp_3"
+			}]
+			rewards: [
+				{
+					id: "4CF356620962B4BA"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+				{
+					id: "18CD710953A677FC"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "crafting"
+					amount: 500.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -6.5d
+			description: ["Generates 128 FE/tick, transfers 1,024 FE/tick, has a capacity of 2,000,000 FE."]
+			dependencies: [
+				"5778D0218AA0CD4D"
+				"1DC59C94893C083D"
+			]
+			id: "2DE1FD2C8D8AC81F"
+			tasks: [{
+				id: "6149B12E3F1CA637"
+				type: "item"
+				item: "solarflux:sp_4"
+			}]
+			rewards: [
+				{
+					id: "73D8925B13E18416"
+					type: "ftbmoney:money"
+					ftb_money: 150L
+				}
+				{
+					id: "533CEF90028A2088"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "crafting"
+					amount: 500.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -7.5d
+			description: ["Generates 512 FE/tick, transfers 4,096 FE/tick, has a capacity of 8,000,000 FE."]
+			dependencies: [
+				"1826B639B03856FC"
+				"2DE1FD2C8D8AC81F"
+			]
+			id: "382D39E3263E254D"
+			tasks: [{
+				id: "0C102D92AFFE5BB9"
+				type: "item"
+				item: "solarflux:sp_5"
+			}]
+			rewards: [
+				{
+					id: "0FDA0A7C964AFEAC"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+				{
+					id: "45B2DCE35725DF58"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "crafting"
+					amount: 1000.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -8.5d
+			description: ["Generates 2,048 FE/tick, transfers 16,384 FE/tick, has a capacity of 32,000,000 FE."]
+			dependencies: [
+				"5CA27061B072A484"
+				"382D39E3263E254D"
+			]
+			id: "38458DB77821C0C7"
+			tasks: [{
+				id: "47988B95D6CC7600"
+				type: "item"
+				item: "solarflux:sp_6"
+			}]
+			rewards: [
+				{
+					id: "77E6C3C932C8FD92"
+					type: "ftbmoney:money"
+					ftb_money: 300L
+				}
+				{
+					id: "21A83844B843EFBF"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "crafting"
+					amount: 1000.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -9.5d
+			description: ["Generates 8,192 FE/tick, transfers 64,000 FE/tick, has a capacity of 64,000,000 FE."]
+			dependencies: [
+				"294642027582A9AD"
+				"38458DB77821C0C7"
+			]
+			id: "24E15B169AED2C91"
+			tasks: [{
+				id: "7B2CA71A31EE6171"
+				type: "item"
+				item: "solarflux:sp_7"
+			}]
+			rewards: [
+				{
+					id: "4E62031C8839FEBD"
+					type: "ftbmoney:money"
+					ftb_money: 400L
+				}
+				{
+					id: "7796FBE805AA9084"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "crafting"
+					amount: 1000.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -10.5d
+			description: ["Generates 32,768 FE/tick, transfers 256,000 FE/tick, has a capacity of 128,000,000 FE."]
+			dependencies: [
+				"66AA489895A1FB4D"
+				"24E15B169AED2C91"
+			]
+			id: "1885D28F83117048"
+			tasks: [{
+				id: "6507820655E1E875"
+				type: "item"
+				item: "solarflux:sp_8"
+			}]
+			rewards: [
+				{
+					id: "4269CBEADBC935F7"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "4B234CA693B200D8"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "crafting"
+					amount: 1000.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			description: ["A crafting component. (you will need a lot of these...)."]
+			dependencies: ["50AF793F6297DFC0"]
+			id: "55ADC00660ED0697"
+			tasks: [{
+				id: "757A1B1C2F4BFB0A"
+				type: "item"
+				item: "solarflux:mirror"
+			}]
+			rewards: [{
+				id: "557A1C6DE683747C"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -5.5d
+			description: ["A cell used for crafting a solar panel."]
+			dependencies: ["55ADC00660ED0697"]
+			id: "7AA81E08639A4356"
+			tasks: [{
+				id: "5A39A63B8B3ED9C0"
+				type: "item"
+				item: "solarflux:photovoltaic_cell_1"
+			}]
+			rewards: [{
+				id: "24B50F38E5115825"
+				type: "ftbmoney:money"
+				ftb_money: 25L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -6.5d
+			description: ["A cell used for crafting a solar panel."]
+			dependencies: ["7AA81E08639A4356"]
+			id: "5778D0218AA0CD4D"
+			tasks: [{
+				id: "04EF247654B4B02E"
+				type: "item"
+				item: "solarflux:photovoltaic_cell_2"
+			}]
+			rewards: [{
+				id: "21F813B8650AEFAD"
+				type: "ftbmoney:money"
+				ftb_money: 25L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -7.5d
+			description: ["A cell used for crafting a solar panel."]
+			dependencies: ["5778D0218AA0CD4D"]
+			id: "1826B639B03856FC"
+			tasks: [{
+				id: "698835905FF68AE5"
+				type: "item"
+				item: "solarflux:photovoltaic_cell_3"
+			}]
+			rewards: [{
+				id: "63761824CE86D825"
+				type: "ftbmoney:money"
+				ftb_money: 25L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -8.5d
+			description: ["A cell used for crafting a solar panel."]
+			dependencies: [
+				"1826B639B03856FC"
+				"4ED48DAC648EB63C"
+			]
+			id: "5CA27061B072A484"
+			tasks: [{
+				id: "3ED8DA0C991BA19F"
+				type: "item"
+				item: "solarflux:photovoltaic_cell_4"
+			}]
+			rewards: [{
+				id: "4221926B9A6DF784"
+				type: "ftbmoney:money"
+				ftb_money: 25L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -9.5d
+			description: ["A cell used for crafting a solar panel."]
+			dependencies: [
+				"5CA27061B072A484"
+				"4C0B0107A2DEEF3B"
+			]
+			id: "294642027582A9AD"
+			tasks: [{
+				id: "6BE70DF2165D881C"
+				type: "item"
+				item: "solarflux:photovoltaic_cell_5"
+			}]
+			rewards: [{
+				id: "4B27E22FF534CCF6"
+				type: "ftbmoney:money"
+				ftb_money: 25L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -10.5d
+			description: ["A cell used for crafting a solar panel."]
+			dependencies: [
+				"294642027582A9AD"
+				"0AA047C3A1664423"
+			]
+			id: "66AA489895A1FB4D"
+			tasks: [{
+				id: "388E3BA9C85EEF43"
+				type: "item"
+				item: "solarflux:photovoltaic_cell_6"
+			}]
+			rewards: [{
+				id: "231C084E84C031BB"
+				type: "ftbmoney:money"
+				ftb_money: 25L
+			}]
+		}
+		{
+			x: -2.0d
+			y: -8.5d
+			description: ["A crafting component."]
+			dependencies: ["55ADC00660ED0697"]
+			id: "4ED48DAC648EB63C"
+			tasks: [{
+				id: "37508FAC01753CE3"
+				type: "item"
+				item: "solarflux:blazing_coating"
+			}]
+			rewards: [{
+				id: "323C5E4FB8A540D0"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: -3.0d
+			y: -9.5d
+			description: ["A crafting component."]
+			dependencies: ["55ADC00660ED0697"]
+			id: "4C0B0107A2DEEF3B"
+			tasks: [{
+				id: "79ADFD3028FCA8FB"
+				type: "item"
+				item: "solarflux:emerald_glass"
+			}]
+			rewards: [{
+				id: "3E700EB0955B6D6E"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: -3.0d
+			y: -10.5d
+			description: ["A crafting component."]
+			dependencies: ["4C0B0107A2DEEF3B"]
+			id: "0AA047C3A1664423"
+			tasks: [{
+				id: "601396D36D811294"
+				type: "item"
+				item: "solarflux:ender_glass"
+			}]
+			rewards: [{
+				id: "376E2775F30DD5FE"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -3.5d
+			description: ["A crafting item used in crafting upgrades."]
+			dependencies: ["55ADC00660ED0697"]
+			id: "12C898340912E347"
+			tasks: [{
+				id: "7BAEA1870E674D8F"
+				type: "item"
+				item: "solarflux:blank_upgrade"
+			}]
+			rewards: [{
+				id: "125C2D13D5D0C368"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -8.0d
+			description: ["Can be stacked up to 20, allows for more power generation. (20 efficiency upgrades = 2x faster generation)."]
+			dependencies: ["12C898340912E347"]
+			id: "4F54F2217502A628"
+			tasks: [{
+				id: "14C2A8C919BDCFE5"
+				type: "item"
+				item: "solarflux:efficiency_upgrade"
+			}]
+			rewards: [{
+				id: "3FDC5B57A07D6BFB"
+				type: "ftbmoney:money"
+				ftb_money: 25L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -7.5d
+			description: ["Can be stacked up to 10, allows for a faster transfer rate. (10 transfer rate upgrades = 2.5x faster transfer)."]
+			dependencies: ["12C898340912E347"]
+			id: "33D291A06412D77B"
+			tasks: [{
+				id: "6F1E1E9170F6248E"
+				type: "item"
+				item: "solarflux:transfer_rate_upgrade"
+			}]
+			rewards: [{
+				id: "103550EF2397B370"
+				type: "ftbmoney:money"
+				ftb_money: 25L
+			}]
+		}
+		{
+			x: 4.0d
+			y: -7.0d
+			description: ["Can be stacked up to 10, allows for more storage capacity. (10 capacity upgrades = 2x capacity)."]
+			dependencies: ["12C898340912E347"]
+			id: "34F5C1576366D4AC"
+			tasks: [{
+				id: "18CB51BA1AD56867"
+				type: "item"
+				item: "solarflux:capacity_upgrade"
+			}]
+			rewards: [{
+				id: "3742E3445157CF2E"
+				type: "ftbmoney:money"
+				ftb_money: 25L
+			}]
+		}
+		{
+			x: 5.0d
+			y: -6.5d
+			description: ["When installed, the solar panel will output energy to machines attached, in 5 block range."]
+			dependencies: ["12C898340912E347"]
+			id: "2F26A6DD68B453CB"
+			tasks: [{
+				id: "51581F91BB8EAAD1"
+				type: "item"
+				item: "solarflux:traversal_upgrade"
+			}]
+			rewards: [{
+				id: "077C9966C96EDD30"
+				type: "ftbmoney:money"
+				ftb_money: 25L
+			}]
+		}
+		{
+			x: 5.5d
+			y: -5.5d
+			description: ["When installed, the solar panel will charge players nearby."]
+			dependencies: ["12C898340912E347"]
+			id: "752E885CF34EC692"
+			tasks: [{
+				id: "188BB221772D3C09"
+				type: "item"
+				item: "solarflux:dispersive_upgrade"
+			}]
+			rewards: [{
+				id: "4E144B401DC97C27"
+				type: "ftbmoney:money"
+				ftb_money: 25L
+			}]
+		}
+		{
+			x: 6.0d
+			y: -4.5d
+			description: ["Before installing, you must link it to the block it will send energy to. When installed, the solar panel will output energy to linked block, within 16 block range."]
+			dependencies: ["12C898340912E347"]
+			id: "1FE0C86346EFB4E7"
+			tasks: [{
+				id: "5CD9A8C65677FABA"
+				type: "item"
+				item: "solarflux:block_charging_upgrade"
+			}]
+			rewards: [{
+				id: "765A68B103CE03A2"
+				type: "ftbmoney:money"
+				ftb_money: 25L
+			}]
+		}
+		{
+			x: 6.5d
+			y: -3.5d
+			description: ["When installed, fuels the furnace below."]
+			dependencies: ["12C898340912E347"]
+			id: "55E138B161052FEA"
+			tasks: [{
+				id: "2983C3BE6C13396B"
+				type: "item"
+				item: "solarflux:furnace_upgrade"
+			}]
+			rewards: [{
+				id: "104B3C48A52F7C27"
+				type: "ftbmoney:money"
+				ftb_money: 25L
+			}]
+		}
+	]
+}

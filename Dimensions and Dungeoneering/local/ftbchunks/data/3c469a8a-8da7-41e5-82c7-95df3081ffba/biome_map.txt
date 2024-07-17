@@ -1,0 +1,7 @@
+#3AD byg:autumnal_valley
+#653 byg:cold_swamplands
+#06B byg:coniferous_forest
+#61B druidcraft:darkwood_forest
+#1F3 cavesandcliffs:dripstone_caves
+#010 minecraft:forest
+#5ED byg:seasonal_birch_forest

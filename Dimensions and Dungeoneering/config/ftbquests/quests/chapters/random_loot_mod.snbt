@@ -1,0 +1,217 @@
+{
+	id: "092AFC9D42F7E58C"
+	group: "2005A08BB83BFED6"
+	order_index: 0
+	filename: "random_loot_mod"
+	title: "Test Your Luck"
+	icon: "randomloot:titan_case"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 7.0d
+			y: -1.0d
+			width: 3.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "randomloot:textures/items/titan_case.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -7.0d
+			y: -1.0d
+			width: 3.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "randomloot:textures/items/golden_case.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "circle"
+			description: ["Introducing Looting like you've never seen it before! Have you ever felt that Minecraft didn't have enough tools and weapons to make you happy? Are you dissatisfied with the low amount of character each tool has? Ever wanted your tools to get better as you use them? Yes?!? Well then this is the mod for you!"]
+			id: "33A3674E0B1B825B"
+			tasks: [{
+				id: "55B4465576856307"
+				type: "checkmark"
+				title: "Random Loot Mod"
+			}]
+			rewards: [
+				{
+					id: "2C887E17E14F7F45"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6F648658D301F1D3"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			description: [
+				"Cases can be obtained in three ways."
+				""
+				"1. Trading with the Collector villager."
+				"2. Killing boss enemies."
+				"3. Buying them from the quest shop."
+				""
+				"When opened these cases will give you different tools, weapons, and armor with better cases giving better rewards."
+			]
+			dependencies: ["33A3674E0B1B825B"]
+			id: "73574F43B804EF95"
+			tasks: [{
+				id: "690E7E89F3DB6296"
+				type: "checkmark"
+				title: "Cases"
+			}]
+			rewards: [{
+				id: "5776D3D9259913B8"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			dependencies: ["73574F43B804EF95"]
+			id: "11B8DB0F05787AE6"
+			tasks: [{
+				id: "38DA2194DFC884A7"
+				type: "item"
+				item: "randomloot:golden_case"
+			}]
+			rewards: [{
+				id: "7D55E1A126C90652"
+				type: "item"
+				item: "randomloot:random_chunk"
+				count: 4
+			}]
+		}
+		{
+			x: 2.0d
+			y: -3.0d
+			dependencies: ["73574F43B804EF95"]
+			id: "4D036A1CDDAC37DB"
+			tasks: [{
+				id: "25D80D8EC3F7BBB6"
+				type: "item"
+				item: "randomloot:titan_case"
+			}]
+			rewards: [{
+				id: "44AFE6F229A26435"
+				type: "item"
+				item: "randomloot:random_cluster"
+				count: 4
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.0d
+			description: ["The tool editor can only be found in villages and is quite rare. It allows for adding traits to tools through the use of Mysterious Essence which can be obtained from 'Collector' villagers or from ripping traits from tools (Also done in the editor). You can also use the tool editor to level up your tools using the max level shard cluster. Also the Tool Editor is the workstation for the Collector villager."]
+			dependencies: ["33A3674E0B1B825B"]
+			id: "66F9388406AA21DB"
+			tasks: [{
+				id: "70D0700863966F34"
+				type: "item"
+				item: "randomloot:editor"
+			}]
+			rewards: [{
+				id: "4674B20B3F0F5D02"
+				type: "ftbmoney:money"
+				ftb_money: 100L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.0d
+			description: [
+				"Mysterious Essence can be obtained in two ways. They are:"
+				""
+				"1. Trading with collector villagers."
+				"2. Removing traits from other items using the tool editor. This will give you an essence with that trait that you removed."
+			]
+			dependencies: ["33A3674E0B1B825B"]
+			id: "603BFB5962ECF9DE"
+			tasks: [{
+				id: "5217F4062829AD5D"
+				type: "item"
+				item: "randomloot:trait_holder"
+			}]
+			rewards: [{
+				id: "576177D06EFBAEB7"
+				type: "ftbmoney:money"
+				ftb_money: 100L
+			}]
+		}
+		{
+			x: -2.0d
+			y: -3.0d
+			dependencies: ["73574F43B804EF95"]
+			id: "20E4C3535E97472B"
+			tasks: [{
+				id: "62E1E520452D527E"
+				type: "item"
+				item: "randomloot:basic_case"
+			}]
+			rewards: [{
+				id: "73D0787BDF7367D5"
+				type: "item"
+				item: "randomloot:random_shard"
+				count: 4
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.0d
+			description: [
+				"Traits are special abilities that can be applied to your items in various ways. Some methods are:"
+				""
+				"1. When unboxing an item from a case it can come with traits on it. Higher level cases have higher chances to have more traits."
+				"2. Trading with high level collector villagers to get mysterious essence with specific traits on them."
+				"3. Removing traits from other items using the Tool Editor."
+			]
+			dependencies: ["33A3674E0B1B825B"]
+			id: "068CC66CDF7E92AE"
+			tasks: [{
+				id: "5F1C4FB4F1383ACC"
+				type: "checkmark"
+				title: "Traits"
+			}]
+			rewards: [{
+				id: "5093387211CCB438"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.0d
+			description: ["Repairing tools is now done in vanilla anvils. The catch? You must use Random Clusters to repair your tools. Clusters are made from 4 chunks which are made from 4 shards which can be obtained through blasting cases away in the blast furnace or trading with a collector villager."]
+			dependencies: ["33A3674E0B1B825B"]
+			id: "7A3D3D5A3E969638"
+			tasks: [{
+				id: "5D963EB89794E05D"
+				type: "checkmark"
+				title: "Repairing"
+			}]
+			rewards: [{
+				id: "77B6D6ED1AAD4C41"
+				type: "xp"
+				xp: 10
+			}]
+		}
+	]
+}

@@ -1,0 +1,10 @@
+#281 byg:boreal_forest
+#35F cavebiomeapi:caves
+#1C1 cavesandcliffs:lush_caves
+#379 minecraft:mountains
+#535 projectvibrantjourneys:redwood_peaks
+#23E byg:seasonal_forest
+#47B byg:the_black_forest
+#473 byg:vibrant_swamplands
+#306 minecraft:wooded_mountains
+#11C byg:zelkova_forest

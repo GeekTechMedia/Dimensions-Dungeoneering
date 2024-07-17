@@ -1,0 +1,2579 @@
+{
+	id: "489C167C25172BC7"
+	group: "595AE539715DFFDD"
+	order_index: 4
+	filename: "simple_farming_farming"
+	title: "Farming With Simplicity"
+	icon: "simplefarming:tomato_seeds"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "circle"
+			description: ["Simple Farming is a mod that adds many different foods and plants into the game. It also adds an alcohol brewing system and a scarecrow."]
+			id: "0C41A0CA83AB04FB"
+			tasks: [{
+				id: "7E62C92CEA879067"
+				type: "checkmark"
+				title: "Simple Farming"
+			}]
+			rewards: [
+				{
+					id: "703DBFE441E447F9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1EDA4EFA13FEF1C7"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: -15.0d
+			y: -4.5d
+			dependencies: ["0C41A0CA83AB04FB"]
+			id: "38D21C153E47313A"
+			tasks: [{
+				id: "68721699C2814EC1"
+				type: "item"
+				item: "simplefarming:chicory_root"
+			}]
+			rewards: [
+				{
+					id: "1400C45CBE5589B1"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "269D8AA48787D62F"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -14.0d
+			y: -4.5d
+			dependencies: ["0C41A0CA83AB04FB"]
+			id: "686AA4C09A1FCAFF"
+			tasks: [{
+				id: "1DD814ECF5FB6A8E"
+				type: "item"
+				item: "simplefarming:cumin_seeds"
+			}]
+			rewards: [
+				{
+					id: "3F1EF053B0D38ED5"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "61CD5B5CDB6F318A"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -13.0d
+			y: -4.5d
+			dependencies: ["0C41A0CA83AB04FB"]
+			id: "11B19A1E14CE3C11"
+			tasks: [{
+				id: "250FCD3C5463A3F6"
+				type: "item"
+				item: "simplefarming:marshmallow_root"
+			}]
+			rewards: [
+				{
+					id: "759FDB6FCFA7F6BF"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "241C0341FF783DCA"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 13.0d
+			y: -4.5d
+			dependencies: ["0C41A0CA83AB04FB"]
+			id: "6E2F5BD9DA0174ED"
+			tasks: [{
+				id: "6DF5976D664F5A7A"
+				type: "item"
+				item: "simplefarming:quinoa_seeds"
+			}]
+			rewards: [
+				{
+					id: "02E908AF2A0FCB0A"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "5FD18A49BE4599CF"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 14.0d
+			y: -4.5d
+			dependencies: ["0C41A0CA83AB04FB"]
+			id: "66BC64015318766B"
+			tasks: [{
+				id: "4B6D14C2CD7485A7"
+				type: "item"
+				item: "simplefarming:sunflower_seeds"
+			}]
+			rewards: [
+				{
+					id: "53A268B522102F8C"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "4D9F2F0CEF3D1D3A"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -7.5d
+			dependencies: ["0C41A0CA83AB04FB"]
+			id: "2F69AB6D6E477074"
+			tasks: [{
+				id: "6A715CAA437864D9"
+				type: "item"
+				item: "simplefarming:cantaloupe_seeds"
+			}]
+			rewards: [
+				{
+					id: "6FED48C1C7365F5D"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "5AF5FD0A4C3EB8DD"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -7.5d
+			dependencies: ["0C41A0CA83AB04FB"]
+			id: "1DC46F868D635E80"
+			tasks: [{
+				id: "01429360909FB87F"
+				type: "item"
+				item: "simplefarming:honeydew_seeds"
+			}]
+			rewards: [
+				{
+					id: "697892A4FDCD22CF"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "239C5E8D7E5B1982"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -7.5d
+			dependencies: ["0C41A0CA83AB04FB"]
+			id: "1FFA12AD652D9D60"
+			tasks: [{
+				id: "73E6226F2E2450A6"
+				type: "item"
+				item: "simplefarming:squash_seeds"
+			}]
+			rewards: [
+				{
+					id: "2A6B60E21233D10D"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "40A403C0FEFE6223"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -7.5d
+			dependencies: ["0C41A0CA83AB04FB"]
+			id: "42756E47056F2F4E"
+			tasks: [{
+				id: "70994E4C78074F37"
+				type: "item"
+				item: "simplefarming:barley_seeds"
+			}]
+			rewards: [
+				{
+					id: "260972B10352BDF9"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "1E27CFB041E8D866"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -11.0d
+			y: -4.5d
+			dependencies: ["0C41A0CA83AB04FB"]
+			id: "1477A073501C7376"
+			tasks: [{
+				id: "0687FAD048EBD1F4"
+				type: "item"
+				item: "simplefarming:broccoli_seeds"
+			}]
+			rewards: [
+				{
+					id: "209297B2A47158FA"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "7B86DA7654FB2EC8"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -12.0d
+			y: -4.5d
+			dependencies: ["0C41A0CA83AB04FB"]
+			id: "33DE1EB5FFCEB854"
+			tasks: [{
+				id: "0E9C35A42BFF3FCF"
+				type: "item"
+				item: "simplefarming:carrot_seeds"
+			}]
+			rewards: [
+				{
+					id: "2B51F9E146269898"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "4DA0856397D0EF49"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -10.0d
+			y: -4.5d
+			dependencies: ["0C41A0CA83AB04FB"]
+			id: "736A9BBE9C6D63C6"
+			tasks: [{
+				id: "7D717C365ECFC7AE"
+				type: "item"
+				item: "simplefarming:cassava_seeds"
+			}]
+			rewards: [
+				{
+					id: "625026E9B8FC20D4"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "59593E2874825C56"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: -4.5d
+			dependencies: ["0C41A0CA83AB04FB"]
+			id: "74555ED8F6D472ED"
+			tasks: [{
+				id: "114D6B165B36D908"
+				type: "item"
+				item: "simplefarming:corn_seeds"
+			}]
+			rewards: [
+				{
+					id: "6CBB6247EC84B289"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "63BAB60C1840777F"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: -4.5d
+			dependencies: ["0C41A0CA83AB04FB"]
+			id: "560061099F25A196"
+			tasks: [{
+				id: "5256073762531DB6"
+				type: "item"
+				item: "simplefarming:cotton_seeds"
+			}]
+			rewards: [
+				{
+					id: "0265E2D7C9FAB617"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "0AC4AE6783BE07DD"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: -4.5d
+			dependencies: ["0C41A0CA83AB04FB"]
+			id: "0ED9B513789F92CD"
+			tasks: [{
+				id: "1FFF1C28D62EEA15"
+				type: "item"
+				item: "simplefarming:cucumber_seeds"
+			}]
+			rewards: [
+				{
+					id: "18B028C976BBAE02"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "33BF94B269DC3290"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -4.5d
+			dependencies: ["0C41A0CA83AB04FB"]
+			id: "3A68F8480FCFE9AC"
+			tasks: [{
+				id: "2078F421C773A0E4"
+				type: "item"
+				item: "simplefarming:eggplant_seeds"
+			}]
+			rewards: [
+				{
+					id: "5C75CE5F39B18694"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "1781B70C709FE17E"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -4.5d
+			dependencies: ["0C41A0CA83AB04FB"]
+			id: "6A63CE90A7BD1887"
+			tasks: [{
+				id: "1740550E45081E12"
+				type: "item"
+				item: "simplefarming:ginger_seeds"
+			}]
+			rewards: [
+				{
+					id: "3EABA1A82851D90F"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "5D2A93B4A33A9FA3"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -4.5d
+			description: ["The grape growing process is very different from normal crops. Planting the grape seeds in the dirt will result a grave vine plant, and you will quickly notice that it grows no grapes. To grow grapes, any type of fence block will need to be attached to the side of the grape leaves. You can only extend the fences one block away from the main leaves."]
+			dependencies: ["0C41A0CA83AB04FB"]
+			id: "3EDA7E58D013B15B"
+			tasks: [{
+				id: "029B1F68AA3DF4DE"
+				type: "item"
+				item: "simplefarming:grape_seeds"
+			}]
+			rewards: [
+				{
+					id: "5D12B5E2F13E8007"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "0B1728CB53863AB2"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -4.5d
+			dependencies: ["0C41A0CA83AB04FB"]
+			id: "76C00CCC3AEA1108"
+			tasks: [{
+				id: "58CA300585AEA71C"
+				type: "item"
+				item: "simplefarming:kenaf_seeds"
+			}]
+			rewards: [
+				{
+					id: "1CB152D12249EF99"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "16C8922B0A69DDB1"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -4.5d
+			dependencies: ["0C41A0CA83AB04FB"]
+			id: "3770CB26A7FDA89D"
+			tasks: [{
+				id: "550B1AD844DDC184"
+				type: "item"
+				item: "simplefarming:lettuce_seeds"
+			}]
+			rewards: [
+				{
+					id: "6693F7E4F110BD0D"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "6E5D71A55DF1A64E"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -7.5d
+			dependencies: ["0C41A0CA83AB04FB"]
+			id: "7903BCF737F1BAE5"
+			tasks: [{
+				id: "082E178C24A7737E"
+				type: "item"
+				item: "simplefarming:oat_seeds"
+			}]
+			rewards: [
+				{
+					id: "028296FC7C87AF57"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "1FC3F0EE56E81456"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -4.5d
+			dependencies: ["0C41A0CA83AB04FB"]
+			id: "2C65620299559B4C"
+			tasks: [{
+				id: "44E73D00A81A5E7C"
+				type: "item"
+				item: "simplefarming:onion_seeds"
+			}]
+			rewards: [
+				{
+					id: "5DB1D9E391627382"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "7C8AB5992AE00C36"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -4.5d
+			dependencies: ["0C41A0CA83AB04FB"]
+			id: "7A405C2500F2A71B"
+			tasks: [{
+				id: "30DAA03DE976B4ED"
+				type: "item"
+				item: "simplefarming:pea_seeds"
+			}]
+			rewards: [
+				{
+					id: "2BC3B2ADCDCFF959"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "12607A68DBB14805"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -4.5d
+			dependencies: ["0C41A0CA83AB04FB"]
+			id: "6FD7D41E2DB7F1BA"
+			tasks: [{
+				id: "3AC0C1EECABA16E7"
+				type: "item"
+				item: "simplefarming:peanut_seeds"
+			}]
+			rewards: [
+				{
+					id: "65288E6D7E96E409"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "13FF55AB9A8AF503"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -4.5d
+			dependencies: ["0C41A0CA83AB04FB"]
+			id: "24A2DE9E2ECC5B68"
+			tasks: [{
+				id: "662DC8F06CA0CF1B"
+				type: "item"
+				item: "simplefarming:pepper_seeds"
+			}]
+			rewards: [
+				{
+					id: "70FE1CDF25E093C8"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "7C704BD223866C1B"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 12.0d
+			y: -4.5d
+			dependencies: ["0C41A0CA83AB04FB"]
+			id: "4D35A902999C7414"
+			tasks: [{
+				id: "7CA76781D53D4A36"
+				type: "item"
+				item: "simplefarming:potato_seeds"
+			}]
+			rewards: [
+				{
+					id: "49CF842E83EEDFB5"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "7C6C746B46B2FFB0"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -4.5d
+			dependencies: ["0C41A0CA83AB04FB"]
+			id: "745E6CFC1C89C602"
+			tasks: [{
+				id: "7BA657CB464F7525"
+				type: "item"
+				item: "simplefarming:radish_seeds"
+			}]
+			rewards: [
+				{
+					id: "61024749D1E23B7A"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "5ACF030AB2997EFA"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -7.5d
+			dependencies: ["0C41A0CA83AB04FB"]
+			id: "4B5F5980AACACF3F"
+			tasks: [{
+				id: "310972AEB9A0EE4A"
+				type: "item"
+				item: "simplefarming:rice_seeds"
+			}]
+			rewards: [
+				{
+					id: "10BBD4849A41D15F"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "217AFB880692670C"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -7.5d
+			dependencies: ["0C41A0CA83AB04FB"]
+			id: "079AEF96249A1413"
+			tasks: [{
+				id: "5D331388FF911C31"
+				type: "item"
+				item: "simplefarming:rye_seeds"
+			}]
+			rewards: [
+				{
+					id: "1A6F527E51883CDF"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "303A5EDA6DC545A9"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -4.5d
+			dependencies: ["0C41A0CA83AB04FB"]
+			id: "79CCC31314083CAA"
+			tasks: [{
+				id: "64B0839D22329641"
+				type: "item"
+				item: "simplefarming:sorghum_seeds"
+			}]
+			rewards: [
+				{
+					id: "68C5B8D9380C4246"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "2ED255DADEC37DD7"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -4.5d
+			dependencies: ["0C41A0CA83AB04FB"]
+			id: "3ABF805710462641"
+			tasks: [{
+				id: "0F2B18C51D93DE31"
+				type: "item"
+				item: "simplefarming:soybean_seeds"
+			}]
+			rewards: [
+				{
+					id: "2659CA85EAD6C07D"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "6ED0841C7991147A"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -4.5d
+			dependencies: ["0C41A0CA83AB04FB"]
+			id: "22E5F92CEC93C841"
+			tasks: [{
+				id: "2B9733AB028D6083"
+				type: "item"
+				item: "simplefarming:spinach_seeds"
+			}]
+			rewards: [
+				{
+					id: "4DBBCACBDC75C795"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "1ED5C9A0D2921921"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: -4.5d
+			dependencies: ["0C41A0CA83AB04FB"]
+			id: "7239BBB960655B17"
+			tasks: [{
+				id: "76ED1DDCBECFB876"
+				type: "item"
+				item: "simplefarming:sweet_potato_seeds"
+			}]
+			rewards: [
+				{
+					id: "66799421B52C157C"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "2B1934F661779ADC"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: -4.5d
+			dependencies: ["0C41A0CA83AB04FB"]
+			id: "1F2EEB3012845F4C"
+			tasks: [{
+				id: "53B3C6A5B8A89466"
+				type: "item"
+				item: "simplefarming:tomato_seeds"
+			}]
+			rewards: [
+				{
+					id: "722437D6B33682BE"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "6CAC4A7CC07CA7E5"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: -4.5d
+			dependencies: ["0C41A0CA83AB04FB"]
+			id: "500537E22058D4C6"
+			tasks: [{
+				id: "1F08E3A65CA976CD"
+				type: "item"
+				item: "simplefarming:turnip_seeds"
+			}]
+			rewards: [
+				{
+					id: "66ADBBCC3DB5AD1A"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "50BA43322CD4E964"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: -4.5d
+			dependencies: ["0C41A0CA83AB04FB"]
+			id: "0DE2B7F343E19931"
+			tasks: [{
+				id: "10DB7299C484CD26"
+				type: "item"
+				item: "simplefarming:yam_seeds"
+			}]
+			rewards: [
+				{
+					id: "2E833529CEE292AE"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "746E4E45B0E4E55E"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 11.0d
+			y: -4.5d
+			dependencies: ["0C41A0CA83AB04FB"]
+			id: "573892D1D0FE425C"
+			tasks: [{
+				id: "7E7082B552535EA6"
+				type: "item"
+				item: "simplefarming:zucchini_seeds"
+			}]
+			rewards: [
+				{
+					id: "2BFCC1A58721EA47"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "532315120F8ECFB6"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -9.5d
+			dependencies: ["613E143294C72947"]
+			id: "2030737F4D24D4FA"
+			tasks: [{
+				id: "49F1ADF1992501CD"
+				type: "item"
+				item: "simplefarming:cantaloupe_block"
+				count: 4L
+			}]
+			rewards: [{
+				id: "32639C08286AA3F4"
+				type: "item"
+				item: "simplefarming:cantaloupe_block"
+				count: 3
+			}]
+		}
+		{
+			x: 0.0d
+			y: -9.5d
+			dependencies: ["71DE8E9ADEE881FD"]
+			id: "5A0E48AABD04A8AD"
+			tasks: [{
+				id: "0350D235BDBC9DD9"
+				type: "item"
+				item: "simplefarming:honeydew_block"
+				count: 4L
+			}]
+			rewards: [{
+				id: "3DDAB1F8F2B4335F"
+				type: "item"
+				item: "simplefarming:honeydew_block"
+				count: 3
+			}]
+		}
+		{
+			x: -1.0d
+			y: -8.5d
+			dependencies: ["2F69AB6D6E477074"]
+			id: "613E143294C72947"
+			tasks: [{
+				id: "7635570608A0B648"
+				type: "item"
+				item: "simplefarming:cantaloupe"
+			}]
+			rewards: [
+				{
+					id: "492D71DEB7805153"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "3D5A02CA975EEBB4"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -8.5d
+			dependencies: ["1DC46F868D635E80"]
+			id: "71DE8E9ADEE881FD"
+			tasks: [{
+				id: "38A9CB51C21D7BB6"
+				type: "item"
+				item: "simplefarming:honeydew"
+			}]
+			rewards: [
+				{
+					id: "204197DD90612388"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "34F1AEA158EA2E19"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -8.5d
+			dependencies: ["1FFA12AD652D9D60"]
+			id: "26D86F2AB1B8102B"
+			tasks: [{
+				id: "36705EE187EE1515"
+				type: "item"
+				item: "simplefarming:squash"
+			}]
+			rewards: [
+				{
+					id: "31F9EF134F53B997"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "4D532E45E78A116A"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -9.5d
+			dependencies: ["26D86F2AB1B8102B"]
+			id: "73BC0CF5DCF30F57"
+			tasks: [{
+				id: "76493EE3CC3DF974"
+				type: "item"
+				item: "simplefarming:squash_block"
+				count: 4L
+			}]
+			rewards: [{
+				id: "37C837AAAAB3972A"
+				type: "item"
+				item: "simplefarming:squash_block"
+				count: 3
+			}]
+		}
+		{
+			x: -3.0d
+			y: -8.5d
+			dependencies: ["42756E47056F2F4E"]
+			id: "28814AD6D55FD58D"
+			tasks: [{
+				id: "4E25A6EA13EB8093"
+				type: "item"
+				item: "simplefarming:barley"
+			}]
+			rewards: [
+				{
+					id: "6E77F07B24D1B1C1"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "3A179F62BC510B03"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -9.5d
+			dependencies: ["28814AD6D55FD58D"]
+			id: "22959DE484E500A1"
+			tasks: [{
+				id: "5B6B9D394F0E4742"
+				type: "item"
+				item: "simplefarming:barley_hay_block"
+				count: 4L
+			}]
+			rewards: [{
+				id: "46E5D1274188B098"
+				type: "item"
+				item: "simplefarming:barley_hay_block"
+				count: 3
+			}]
+		}
+		{
+			x: -11.0d
+			y: -5.5d
+			dependencies: ["1477A073501C7376"]
+			id: "20C94F61E94F6D4A"
+			tasks: [{
+				id: "05E9DD1817FF1E17"
+				type: "item"
+				item: "simplefarming:broccoli"
+			}]
+			rewards: [
+				{
+					id: "0EF37CE8E0E7D6E9"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "5826B8CA1F2D08F2"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -10.0d
+			y: -5.5d
+			dependencies: ["736A9BBE9C6D63C6"]
+			id: "5DAB3C573386A29B"
+			tasks: [{
+				id: "4B5A823B0BB49BB1"
+				type: "item"
+				item: "simplefarming:cassava"
+			}]
+			rewards: [
+				{
+					id: "52A81B69E67F68E8"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "7A415F78CE94EE53"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: -5.5d
+			dependencies: ["74555ED8F6D472ED"]
+			id: "6E625C3179BDB452"
+			tasks: [{
+				id: "1B789EE6383C3295"
+				type: "item"
+				item: "simplefarming:corn"
+			}]
+			rewards: [
+				{
+					id: "4A9FBF6F02F31084"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "512702638B84EF2C"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: -5.5d
+			dependencies: ["560061099F25A196"]
+			id: "4670A9641F2696CA"
+			tasks: [{
+				id: "060805FFFB784AFE"
+				type: "item"
+				item: "simplefarming:cotton"
+			}]
+			rewards: [
+				{
+					id: "0E2FD6352C2DD480"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "27C8B852DEC5E336"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: -5.5d
+			dependencies: ["0ED9B513789F92CD"]
+			id: "1813F166A6CADDBA"
+			tasks: [{
+				id: "0772A2889DF4AB87"
+				type: "item"
+				item: "simplefarming:cucumber"
+			}]
+			rewards: [
+				{
+					id: "1F4318D83F388A77"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "6F3B2403E0D08E16"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -5.5d
+			dependencies: ["3A68F8480FCFE9AC"]
+			id: "205047C9CE45110F"
+			tasks: [{
+				id: "0D71AFD773A9403B"
+				type: "item"
+				item: "simplefarming:eggplant"
+			}]
+			rewards: [
+				{
+					id: "671F837975B2D646"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "634CA18CCB5672CA"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -5.5d
+			dependencies: ["6A63CE90A7BD1887"]
+			id: "36711DE3D4414A12"
+			tasks: [{
+				id: "23040FBBA9EA162F"
+				type: "item"
+				item: "simplefarming:ginger"
+			}]
+			rewards: [
+				{
+					id: "73DF288C1E2813C0"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "6AF2DA457FC5CBEE"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -5.5d
+			dependencies: ["3EDA7E58D013B15B"]
+			id: "7F18BC379DFEBFAA"
+			tasks: [{
+				id: "16F12298945284A5"
+				type: "item"
+				item: "simplefarming:grapes"
+			}]
+			rewards: [
+				{
+					id: "7F13B69713338D9F"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "50F7FA4398F976AF"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -5.5d
+			dependencies: ["76C00CCC3AEA1108"]
+			id: "49F58E5693A9E374"
+			tasks: [{
+				id: "75601DC6D1F91C86"
+				type: "item"
+				item: "simplefarming:kenaf_fiber"
+			}]
+			rewards: [
+				{
+					id: "0CDB64A0FB5C38D2"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "6CC90112080E0676"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -5.5d
+			dependencies: ["3770CB26A7FDA89D"]
+			id: "0268872175A4CD5E"
+			tasks: [{
+				id: "5A69DE0D403E39F2"
+				type: "item"
+				item: "simplefarming:lettuce"
+			}]
+			rewards: [
+				{
+					id: "3959FB77EA84F2C4"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "6971428F879A8F01"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -8.5d
+			dependencies: ["7903BCF737F1BAE5"]
+			id: "1D701AA2C0B7B120"
+			tasks: [{
+				id: "7F9D1232A54532C9"
+				type: "item"
+				item: "simplefarming:oat"
+			}]
+			rewards: [
+				{
+					id: "137A1ABE53DCBBEF"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "069320DF00E18823"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -9.5d
+			dependencies: ["1D701AA2C0B7B120"]
+			id: "28F96D2B197B72F7"
+			tasks: [{
+				id: "05D77064B2F9ADD5"
+				type: "item"
+				item: "simplefarming:oat_hay_block"
+				count: 4L
+			}]
+			rewards: [{
+				id: "6F0473A618A6BAF8"
+				type: "item"
+				item: "simplefarming:oat_hay_block"
+				count: 3
+			}]
+		}
+		{
+			x: -1.0d
+			y: -5.5d
+			dependencies: ["2C65620299559B4C"]
+			id: "42C1785D80D8D7F6"
+			tasks: [{
+				id: "1EB5232B40E6E1BE"
+				type: "item"
+				item: "simplefarming:onion"
+			}]
+			rewards: [
+				{
+					id: "1D892F2220299093"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "791308BB9256A121"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -5.5d
+			dependencies: ["7A405C2500F2A71B"]
+			id: "2ED10D7D7B1D5D8E"
+			tasks: [{
+				id: "1AE057BFB0F85D7C"
+				type: "item"
+				item: "simplefarming:pea_pod"
+			}]
+			rewards: [
+				{
+					id: "6022C502D65818DD"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "7A96DE9566ADD8A0"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -5.5d
+			dependencies: ["6FD7D41E2DB7F1BA"]
+			id: "1B3142AD2948D503"
+			tasks: [{
+				id: "389C3AC4D63A2595"
+				type: "item"
+				item: "simplefarming:peanut"
+			}]
+			rewards: [
+				{
+					id: "5F9BF9A26997C5EE"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "7C46DC442DE42E20"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -5.5d
+			dependencies: ["24A2DE9E2ECC5B68"]
+			id: "45618255A03B4451"
+			tasks: [{
+				id: "505393A87CC3E914"
+				type: "item"
+				item: "simplefarming:pepper"
+			}]
+			rewards: [
+				{
+					id: "3F79BAD5B6841119"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "5D516B0739700198"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -5.5d
+			dependencies: ["745E6CFC1C89C602"]
+			id: "44BD7484BA41147B"
+			tasks: [{
+				id: "57C9196C141908BE"
+				type: "item"
+				item: "simplefarming:radish"
+			}]
+			rewards: [
+				{
+					id: "60E0F5EF4E098376"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "2C94B2745534BFB3"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -8.5d
+			dependencies: ["4B5F5980AACACF3F"]
+			id: "278F0BE731A2A494"
+			tasks: [{
+				id: "51B0B530DFF8F1F4"
+				type: "item"
+				item: "simplefarming:rice"
+			}]
+			rewards: [
+				{
+					id: "600D2F28C5FCC0C9"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "0106DD5EA20EB5AC"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -9.5d
+			dependencies: ["278F0BE731A2A494"]
+			id: "0B1986D5793CE75E"
+			tasks: [{
+				id: "6634389AA1FEF757"
+				type: "item"
+				item: "simplefarming:rice_hay_block"
+				count: 4L
+			}]
+			rewards: [{
+				id: "724534C7168533A7"
+				type: "item"
+				item: "simplefarming:rice_hay_block"
+				count: 3
+			}]
+		}
+		{
+			x: 3.0d
+			y: -8.5d
+			dependencies: ["079AEF96249A1413"]
+			id: "44B616FC9A55C5EC"
+			tasks: [{
+				id: "1D60FE9DB6315330"
+				type: "item"
+				item: "simplefarming:rye"
+			}]
+			rewards: [
+				{
+					id: "66EBFD0D3CC37439"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "2BC5FF202AFC5A3D"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -9.5d
+			dependencies: ["44B616FC9A55C5EC"]
+			id: "74DD6813B8CEFB88"
+			tasks: [{
+				id: "0A4EFD1607CEC497"
+				type: "item"
+				item: "simplefarming:rye_hay_block"
+				count: 4L
+			}]
+			rewards: [{
+				id: "6A53E952C6B1B343"
+				type: "item"
+				item: "simplefarming:rye_hay_block"
+				count: 3
+			}]
+		}
+		{
+			x: 4.0d
+			y: -5.5d
+			dependencies: ["79CCC31314083CAA"]
+			id: "32297FA5CA13A793"
+			tasks: [{
+				id: "381E021E5FAB243C"
+				type: "item"
+				item: "simplefarming:sorghum"
+			}]
+			rewards: [
+				{
+					id: "2B41E35B3CCAA9A3"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "4D2EA65ACCC19C78"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -5.5d
+			dependencies: ["3ABF805710462641"]
+			id: "61924D9E39CFA120"
+			tasks: [{
+				id: "09070D5E5EC5FE9B"
+				type: "item"
+				item: "simplefarming:soybean"
+			}]
+			rewards: [
+				{
+					id: "27488CC41BDD1FA0"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "1A309C1D51C49C16"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -5.5d
+			dependencies: ["22E5F92CEC93C841"]
+			id: "78273993C4F2E84E"
+			tasks: [{
+				id: "3AF5DE31A1378B32"
+				type: "item"
+				item: "simplefarming:spinach"
+			}]
+			rewards: [
+				{
+					id: "6CC5469502FB858C"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "4751914986F98C8F"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: -5.5d
+			dependencies: ["7239BBB960655B17"]
+			id: "50E0B8D98BCD5169"
+			tasks: [{
+				id: "04C2FC18C9204A28"
+				type: "item"
+				item: "simplefarming:sweet_potato"
+			}]
+			rewards: [
+				{
+					id: "1548E1F5650D4962"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "7C5ACDF8315645B9"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: -5.5d
+			dependencies: ["1F2EEB3012845F4C"]
+			id: "7BB646BB08CBBA41"
+			tasks: [{
+				id: "527DE5AD9EAC6DEC"
+				type: "item"
+				item: "simplefarming:tomato"
+			}]
+			rewards: [
+				{
+					id: "1DE152B316B52106"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "623B8473F8CF58D9"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: -5.5d
+			dependencies: ["500537E22058D4C6"]
+			id: "48716CBC5C663644"
+			tasks: [{
+				id: "0F13A1E8FE8BB34E"
+				type: "item"
+				item: "simplefarming:turnip"
+			}]
+			rewards: [
+				{
+					id: "189BC5A7D11F5A24"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "795D27E870212D48"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: -5.5d
+			dependencies: ["0DE2B7F343E19931"]
+			id: "1A92C1827D7D1BE5"
+			tasks: [{
+				id: "655D563821EB2689"
+				type: "item"
+				item: "simplefarming:yam"
+			}]
+			rewards: [
+				{
+					id: "788A6A78B2E04424"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "4275E35CD0427855"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 11.0d
+			y: -5.5d
+			dependencies: ["573892D1D0FE425C"]
+			id: "29E79343627B21AC"
+			tasks: [{
+				id: "24E94F6D60E1BA38"
+				type: "item"
+				item: "simplefarming:zucchini"
+			}]
+			rewards: [
+				{
+					id: "70578C6B31EBF784"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "5E32F59B844A4763"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: 2.5d
+			description: [
+				"The brewing barrel is used to create alcohol. Right-clicking the barrel while holding a valid item will start the fermentation process. During the process, bubble-like particles will be emitted by the barrel. When it is finished, no more particles will be emitted, and the barrel can be right clicked with an empty glass bottle to drop the finished alcohol. The items that can be inserted and their products are listed below:"
+				"Barley -> Beer"
+				"Cassava -> Cauim"
+				"Apple -> Cider"
+				"Honeycomb -> Mead"
+				"Rice -> Sake"
+				"Cactus fruit -> Tiswin"
+				"Potato -> Vodka"
+				"Wheat -> Whiskey"
+				"Grapes -> Wine"
+			]
+			dependencies: ["0C41A0CA83AB04FB"]
+			id: "2F0D9F2048EDAB68"
+			tasks: [{
+				id: "14085ECC835947EC"
+				type: "item"
+				item: "simplefarming:brewing_barrel"
+			}]
+			rewards: [{
+				id: "18DBAE3FD73E9CD3"
+				type: "item"
+				item: "minecraft:glass_bottle"
+				count: 5
+			}]
+		}
+		{
+			x: 5.5d
+			y: 2.5d
+			description: ["The scarecrow is a double-high block that prevents farmland from being trampled in a 10 block radius. Like flowers, it needs to be planted on some dirt-like block."]
+			dependencies: ["0C41A0CA83AB04FB"]
+			id: "10EA12F99CF9F53A"
+			tasks: [{
+				id: "1892272D6E028B8C"
+				type: "item"
+				item: "simplefarming:scarecrow"
+			}]
+			rewards: [{
+				id: "4FE577BB6B4FC547"
+				type: "item"
+				item: "simplefarming:scarecrow"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 7.0d
+			dependencies: ["0C41A0CA83AB04FB"]
+			id: "095FE0C0284E38F1"
+			tasks: [{
+				id: "4965763C89FD723D"
+				type: "item"
+				item: "simplefarming:blackberry_bush"
+			}]
+			rewards: [{
+				id: "7A67CEAFBDFB5141"
+				type: "item"
+				item: "simplefarming:blackberry_bush"
+				count: 2
+			}]
+		}
+		{
+			x: -0.5d
+			y: 7.0d
+			dependencies: ["0C41A0CA83AB04FB"]
+			dependency_requirement: "one_started"
+			id: "19F2147896BD79A0"
+			tasks: [{
+				id: "4A058A1ED14ED3EE"
+				type: "item"
+				item: "simplefarming:blueberry_bush"
+			}]
+			rewards: [{
+				id: "43643A5CEE94DFB4"
+				type: "item"
+				item: "simplefarming:blueberry_bush"
+				count: 2
+			}]
+		}
+		{
+			x: 0.5d
+			y: 7.0d
+			dependencies: ["0C41A0CA83AB04FB"]
+			id: "22A3A4AFFB97F8A4"
+			tasks: [{
+				id: "6EA8FE55924DC89A"
+				type: "item"
+				item: "simplefarming:raspberry_bush"
+			}]
+			rewards: [{
+				id: "7E0445C7645F78CE"
+				type: "item"
+				item: "simplefarming:raspberry_bush"
+				count: 2
+			}]
+		}
+		{
+			x: 1.5d
+			y: 7.0d
+			dependencies: ["0C41A0CA83AB04FB"]
+			id: "1354B7E1D2C0A630"
+			tasks: [{
+				id: "2D9FF3938CE26728"
+				type: "item"
+				item: "simplefarming:strawberry_bush"
+			}]
+			rewards: [{
+				id: "7AF3AF3F214F1E71"
+				type: "item"
+				item: "simplefarming:strawberry_bush"
+				count: 2
+			}]
+		}
+		{
+			x: 15.0d
+			y: -4.5d
+			dependencies: ["0C41A0CA83AB04FB"]
+			id: "189027F6AB7F5A14"
+			tasks: [{
+				id: "4F634B0D42210F96"
+				type: "item"
+				item: "simplefarming:cactus_fruit"
+			}]
+			rewards: [
+				{
+					id: "623A4A61D0FC732A"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "6CC72C36E8F9F209"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			dependencies: ["0C41A0CA83AB04FB"]
+			id: "12BDFA676DA35855"
+			tasks: [{
+				id: "6EEFC75FA2E43622"
+				type: "item"
+				item: "simplefarming:apple_sapling"
+			}]
+			rewards: [{
+				id: "59E9239A6696982C"
+				type: "item"
+				item: "simplefarming:apple_sapling"
+				count: 2
+			}]
+		}
+		{
+			x: -3.5d
+			y: 4.0d
+			dependencies: ["0C41A0CA83AB04FB"]
+			id: "01FF7A30D56EDF09"
+			tasks: [{
+				id: "3CF4C7B175775DC2"
+				type: "item"
+				item: "simplefarming:apricot_sapling"
+			}]
+			rewards: [{
+				id: "51B68E92DD9441D8"
+				type: "item"
+				item: "simplefarming:apricot_sapling"
+				count: 2
+			}]
+		}
+		{
+			x: -2.5d
+			y: 4.0d
+			dependencies: ["0C41A0CA83AB04FB"]
+			id: "45ED343E9CC184E9"
+			tasks: [{
+				id: "0BFCAB1D84EEF5D5"
+				type: "item"
+				item: "simplefarming:banana_sapling"
+			}]
+			rewards: [{
+				id: "0E68EA9387BD47C5"
+				type: "item"
+				item: "simplefarming:banana_sapling"
+				count: 2
+			}]
+		}
+		{
+			x: -1.5d
+			y: 4.0d
+			dependencies: ["0C41A0CA83AB04FB"]
+			id: "500A35D96E4CBA5A"
+			tasks: [{
+				id: "4BECAEB5BA07841F"
+				type: "item"
+				item: "simplefarming:cherry_sapling"
+			}]
+			rewards: [{
+				id: "5A014D834749F794"
+				type: "item"
+				item: "simplefarming:cherry_sapling"
+				count: 2
+			}]
+		}
+		{
+			x: -0.5d
+			y: 4.0d
+			dependencies: ["0C41A0CA83AB04FB"]
+			id: "1F7053B7C0C59E99"
+			tasks: [{
+				id: "548DB953E7BE2BBA"
+				type: "item"
+				item: "simplefarming:mango_sapling"
+			}]
+			rewards: [{
+				id: "41ED4912DEB24CB2"
+				type: "item"
+				item: "simplefarming:mango_sapling"
+				count: 2
+			}]
+		}
+		{
+			x: 0.5d
+			y: 4.0d
+			dependencies: ["0C41A0CA83AB04FB"]
+			id: "40D8D420CAB165A0"
+			tasks: [{
+				id: "2781DF8EA64808AA"
+				type: "item"
+				item: "simplefarming:olive_sapling"
+			}]
+			rewards: [{
+				id: "0A246E42886FB272"
+				type: "item"
+				item: "simplefarming:olive_sapling"
+				count: 2
+			}]
+		}
+		{
+			x: 1.5d
+			y: 4.0d
+			dependencies: ["0C41A0CA83AB04FB"]
+			id: "3341985FA24C0064"
+			tasks: [{
+				id: "7A2D4D0C514EBEBD"
+				type: "item"
+				item: "simplefarming:orange_sapling"
+			}]
+			rewards: [{
+				id: "5B27078B2F7F9C7C"
+				type: "item"
+				item: "simplefarming:orange_sapling"
+				count: 2
+			}]
+		}
+		{
+			x: 2.5d
+			y: 4.0d
+			dependencies: ["0C41A0CA83AB04FB"]
+			id: "240B2FD87F82FEFC"
+			tasks: [{
+				id: "678E1F22FDB278A2"
+				type: "item"
+				item: "simplefarming:pear_sapling"
+			}]
+			rewards: [{
+				id: "2724537739C6EE92"
+				type: "item"
+				item: "simplefarming:pear_sapling"
+				count: 2
+			}]
+		}
+		{
+			x: 3.5d
+			y: 4.0d
+			dependencies: ["0C41A0CA83AB04FB"]
+			id: "60132B73572825DF"
+			tasks: [{
+				id: "2F9482CF3D39BDFA"
+				type: "item"
+				item: "simplefarming:plum_sapling"
+			}]
+			rewards: [{
+				id: "6E2FF82BBDC216E0"
+				type: "item"
+				item: "simplefarming:plum_sapling"
+				count: 2
+			}]
+		}
+		{
+			x: -1.5d
+			y: 8.0d
+			dependencies: ["095FE0C0284E38F1"]
+			id: "595A02B4F217F6D0"
+			tasks: [{
+				id: "791F5AA80752D608"
+				type: "item"
+				item: "simplefarming:blackberries"
+			}]
+			rewards: [
+				{
+					id: "2D82089D2E78126B"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "6CF9C1EF577DD13E"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 8.0d
+			dependencies: ["19F2147896BD79A0"]
+			id: "3333003888F28828"
+			tasks: [{
+				id: "67DB92FB529521DE"
+				type: "item"
+				item: "simplefarming:blueberries"
+			}]
+			rewards: [
+				{
+					id: "4108A5B380404C9B"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "63508582FCD32463"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 8.0d
+			dependencies: ["22A3A4AFFB97F8A4"]
+			id: "25AF4EF0B717EDCC"
+			tasks: [{
+				id: "175342631976EC8B"
+				type: "item"
+				item: "simplefarming:raspberries"
+			}]
+			rewards: [
+				{
+					id: "5E92588B581AC5B5"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "2A3E40264E61FA40"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 8.0d
+			dependencies: ["1354B7E1D2C0A630"]
+			id: "67A430CA41BC8BC5"
+			tasks: [{
+				id: "2BC8563BA841A001"
+				type: "item"
+				item: "simplefarming:strawberries"
+			}]
+			rewards: [
+				{
+					id: "3B7F382D37036FCD"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "49E16AB80699A8EC"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 5.0d
+			dependencies: ["01FF7A30D56EDF09"]
+			id: "3C6BF8B46AB25900"
+			tasks: [{
+				id: "6E1C334E574BC03B"
+				type: "item"
+				item: "simplefarming:apricot"
+			}]
+			rewards: [
+				{
+					id: "3FC8708B446BD18D"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "509B8442882EFA43"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 5.0d
+			dependencies: ["45ED343E9CC184E9"]
+			id: "311AF780FC5CEDFB"
+			tasks: [{
+				id: "701D31F9FB98AC12"
+				type: "item"
+				item: "simplefarming:banana"
+			}]
+			rewards: [
+				{
+					id: "71A2A65434F0F555"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "619418BD036EA129"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 5.0d
+			dependencies: ["500A35D96E4CBA5A"]
+			id: "19562E126F6D6EE8"
+			tasks: [{
+				id: "71B6020735A4FDDA"
+				type: "item"
+				item: "simplefarming:cherries"
+			}]
+			rewards: [
+				{
+					id: "2ADF4F1F2300A7E6"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "59E90EA5BD5ABEDA"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 5.0d
+			dependencies: ["1F7053B7C0C59E99"]
+			id: "4194A07D72AFE411"
+			tasks: [{
+				id: "056513B628529500"
+				type: "item"
+				item: "simplefarming:mango"
+			}]
+			rewards: [
+				{
+					id: "61D442ACDADF3B37"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "4F2876A86BE055D4"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 5.0d
+			dependencies: ["40D8D420CAB165A0"]
+			id: "321D47102679EE04"
+			tasks: [{
+				id: "675AAB6754794BED"
+				type: "item"
+				item: "simplefarming:olives"
+			}]
+			rewards: [
+				{
+					id: "3CD5444C232E84D5"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "4CC98F940515DD1B"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 5.0d
+			dependencies: ["3341985FA24C0064"]
+			id: "55DA4D36DD445270"
+			tasks: [{
+				id: "4CB3956C83431E74"
+				type: "item"
+				item: "simplefarming:orange"
+			}]
+			rewards: [
+				{
+					id: "344A760DAF4207E9"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "55C6CFCBB32230A5"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 5.0d
+			dependencies: ["240B2FD87F82FEFC"]
+			id: "614DEA7A73A2B0B0"
+			tasks: [{
+				id: "5179AF138C4A5D58"
+				type: "item"
+				item: "simplefarming:pear"
+			}]
+			rewards: [
+				{
+					id: "1C502E7AC6C60A7F"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "317F29E167F2FEBC"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 5.0d
+			dependencies: ["60132B73572825DF"]
+			id: "733D3BE898684483"
+			tasks: [{
+				id: "4321214DC3D58051"
+				type: "item"
+				item: "simplefarming:plum"
+			}]
+			rewards: [
+				{
+					id: "6557EB78C9B0012B"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "622AF0512E4D6940"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -12.0d
+			y: -5.5d
+			dependencies: ["33DE1EB5FFCEB854"]
+			id: "0A696687EAC854D4"
+			tasks: [{
+				id: "5423EA82EC213C8A"
+				type: "item"
+				item: {
+					id: "minecraft:carrot"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0E82697D8DA9576C"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "068C2C7F06CA1C76"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 12.0d
+			y: -5.5d
+			dependencies: ["4D35A902999C7414"]
+			id: "7B4840DAAFCC01C0"
+			tasks: [{
+				id: "68824105B0F51BEB"
+				type: "item"
+				item: {
+					id: "minecraft:potato"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "41AF37B22C01B941"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "6246438579419406"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+	]
+}

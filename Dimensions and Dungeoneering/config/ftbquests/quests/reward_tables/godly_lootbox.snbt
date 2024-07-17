@@ -1,0 +1,16 @@
+{
+	id: "16C44CCB4515CE10"
+	order_index: 26
+	title: "Godly Lootbox"
+	loot_size: 1
+	rewards: [ ]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 16733525
+		string_id: "godly_lootbox"
+	}
+}

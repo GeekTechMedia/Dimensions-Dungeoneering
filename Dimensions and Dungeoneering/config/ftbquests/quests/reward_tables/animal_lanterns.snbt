@@ -1,0 +1,12 @@
+{
+	id: "3F61B2B9091052BA"
+	order_index: 12
+	title: "Animal Lanterns"
+	loot_size: 1
+	rewards: [
+		{ item: "skinnedlanterns:jellyfish_lantern_block" }
+		{ item: "skinnedlanterns:pufferfish_lantern_block" }
+		{ item: "skinnedlanterns:bee_lantern_block" }
+		{ item: "skinnedlanterns:guardian_lantern_block" }
+	]
+}

@@ -1,0 +1,10 @@
+#461 byg:blue_taiga
+#281 byg:boreal_forest
+#35F cavebiomeapi:caves
+#4FD projectvibrantjourneys:crystal_lakes
+#1C1 cavesandcliffs:lush_caves
+#79C byg:maple_taiga
+#3DC minecraft:plains
+#3A8 byg:seasonal_deciduous_forest
+#657 projectvibrantjourneys:windswept_cliffs
+#11C byg:zelkova_forest

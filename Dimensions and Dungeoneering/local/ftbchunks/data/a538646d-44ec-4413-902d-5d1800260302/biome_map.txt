@@ -1,0 +1,17 @@
+#368 byg:allium_fields
+#6C5 byg:aspen_forest
+#47F minecraft:birch_forest
+#0D2 minecraft:birch_forest_hills
+#2E8 byg:bluff_steeps
+#35F cavebiomeapi:caves
+#4F9 minecraft:dark_forest
+#5D7 byg:deciduous_forest
+#010 minecraft:forest
+#045 byg:jacaranda_forest
+#1C1 cavesandcliffs:lush_caves
+#66B byg:mangrove_marshes
+#379 minecraft:mountains
+#3DC minecraft:plains
+#6BC byg:tropical_rainforest
+#473 byg:vibrant_swamplands
+#306 minecraft:wooded_mountains

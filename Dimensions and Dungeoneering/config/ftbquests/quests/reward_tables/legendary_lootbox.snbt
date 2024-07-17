@@ -1,0 +1,92 @@
+{
+	id: "50B52FEBBA853C9C"
+	order_index: 3
+	title: "Legendary Lootbox"
+	loot_size: 1
+	rewards: [
+		{ item: "mysticalagradditions:supremium_coal", count: 2 }
+		{
+			item: {
+				id: "minecraft:diamond_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:diamond_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:diamond_leggings"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:diamond_boots"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "minecraft:netherite_scrap" }
+		{
+			item: {
+				id: "lootgames:pipes_activator"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "lootgames:gol_activator"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "lootgames:ms_activator"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+		}
+		{
+			ftb_money: 100L
+			type: "ftbmoney:money"
+		}
+	]
+	loot_crate: {
+		drops: {
+			boss: 5
+			passive: 0
+			monster: 5
+		}
+		color: 15965202
+		string_id: "legendary_lootbox"
+	}
+}

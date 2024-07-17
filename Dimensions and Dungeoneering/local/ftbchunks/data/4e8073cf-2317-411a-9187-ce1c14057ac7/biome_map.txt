@@ -1,0 +1,7 @@
+#05B minecraft:bamboo_jungle
+#7AE minecraft:bamboo_jungle_hills
+#00D minecraft:desert_lakes
+#4B0 minecraft:jungle
+#7F2 minecraft:jungle_edge
+#043 minecraft:jungle_hills
+#2E6 minecraft:modified_jungle

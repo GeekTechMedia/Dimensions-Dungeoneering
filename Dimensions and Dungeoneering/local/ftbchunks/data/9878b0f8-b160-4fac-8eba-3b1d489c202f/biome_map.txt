@@ -1,0 +1,17 @@
+#67D projectvibrantjourneys:aspen_grove
+#390 projectvibrantjourneys:aspen_grove_hills
+#556 minecraft:beach
+#35F cavebiomeapi:caves
+#61B druidcraft:darkwood_forest
+#64F byg:dover_mountains
+#674 minecraft:flower_forest
+#79A minecraft:lukewarm_ocean
+#379 minecraft:mountains
+#4A3 projectvibrantjourneys:pine_meadows
+#5FF minecraft:river
+#6F9 more_jellyfish:rock_bottom
+#1CA darkerdepths:sandy_catacombs
+#5ED byg:seasonal_birch_forest
+#23E byg:seasonal_forest
+#755 byg:seasonal_taiga
+#4DD byg:white_beach

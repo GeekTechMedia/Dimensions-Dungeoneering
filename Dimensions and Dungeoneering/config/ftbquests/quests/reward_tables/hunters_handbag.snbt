@@ -1,0 +1,19 @@
+{
+	id: "6DED4B34EAFE0571"
+	order_index: 23
+	title: "Hunter's Handbag"
+	icon: {
+		id: "blue_skies:loot_bag"
+		Count: 1b
+		tag: {
+			Rarity: 0
+		}
+		ForgeCaps: {
+			"dungeons_libraries:built_in_enchantments": {
+				BuiltInEnchantments: [ ]
+			}
+		}
+	}
+	loot_size: 1
+	rewards: [ ]
+}

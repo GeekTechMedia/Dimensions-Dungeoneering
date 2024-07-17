@@ -1,0 +1,9 @@
+#556 minecraft:beach
+#35F cavebiomeapi:caves
+#3DE minecraft:deep_ocean
+#67B byg:dunes
+#07C byg:mojave_desert
+#4F1 minecraft:ocean
+#14D projectvibrantjourneys:red_rock_valley
+#5FF minecraft:river
+#12E byg:shrublands

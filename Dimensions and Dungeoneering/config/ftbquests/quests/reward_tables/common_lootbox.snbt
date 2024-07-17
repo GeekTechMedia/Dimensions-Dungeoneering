@@ -1,0 +1,52 @@
+{
+	id: "4A02D2C1C45D5D9D"
+	order_index: 0
+	title: "Common Lootbox"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:oak_log", count: 8 }
+		{ item: "minecraft:cobblestone", count: 16 }
+		{ item: "minecraft:wheat", count: 8 }
+		{ item: "minecraft:coal", count: 16 }
+		{ item: "minecraft:charcoal", count: 16 }
+		{ item: "minecraft:arrow", count: 8 }
+		{
+			item: {
+				id: "minecraft:bow"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"dungeons_gear:bow": {
+						lastFiredTime: 0L
+						fuseShotCounter: 0
+						crossbowChargeTime: 0
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+		}
+		{ item: "minecraft:glass", count: 16 }
+		{ item: "minecraft:cooked_beef", count: 8 }
+		{ item: "minecraft:apple", count: 8 }
+		{ item: "minecraft:bone", count: 16 }
+		{ item: "minecraft:torch", count: 16 }
+		{ item: "minecraft:string", count: 8 }
+		{ item: "mysticalagriculture:inferium_essence", count: 4 }
+		{ item: "mysticalagradditions:inferium_coal", count: 8 }
+		{
+			ftb_money: 5L
+			type: "ftbmoney:money"
+		}
+	]
+	loot_crate: {
+		drops: {
+			boss: 100
+			passive: 25
+			monster: 50
+		}
+		color: 16777215
+		string_id: "common_lootbox"
+	}
+}

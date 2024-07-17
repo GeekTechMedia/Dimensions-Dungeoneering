@@ -1,0 +1,3 @@
+#Decides how the enchantments over level 10 will be shown. [default: true]
+useRomanNumerals = true
+

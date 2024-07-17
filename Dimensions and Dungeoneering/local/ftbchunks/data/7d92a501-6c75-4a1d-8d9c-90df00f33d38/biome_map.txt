@@ -1,0 +1,7 @@
+#34C byg:baobab_savanna
+#35F cavebiomeapi:caves
+#008 minecraft:desert
+#19B minecraft:desert_hills
+#3CD projectvibrantjourneys:desert_shrubland
+#5FF minecraft:river
+#67B minecraft:savanna

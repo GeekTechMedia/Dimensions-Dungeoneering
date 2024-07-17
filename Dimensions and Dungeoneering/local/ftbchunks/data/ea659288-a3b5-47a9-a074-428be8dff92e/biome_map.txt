@@ -1,0 +1,11 @@
+#368 byg:allium_fields
+#556 minecraft:beach
+#47F minecraft:birch_forest
+#35F cavebiomeapi:caves
+#3D6 minecraft:cold_ocean
+#4F9 minecraft:dark_forest
+#5D7 byg:deciduous_forest
+#5F3 byg:meadow
+#3DC minecraft:plains
+#5FF minecraft:river
+#447 byg:stone_forest

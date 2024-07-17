@@ -1,0 +1,13 @@
+#556 minecraft:beach
+#3DE minecraft:deep_ocean
+#3A0 minecraft:frozen_river
+#4B0 minecraft:jungle
+#7F2 minecraft:jungle_edge
+#043 minecraft:jungle_hills
+#4F1 minecraft:ocean
+#5FF minecraft:river
+#72D minecraft:snowy_beach
+#1D0 minecraft:snowy_mountains
+#340 minecraft:snowy_taiga
+#2D3 minecraft:snowy_taiga_hills
+#162 minecraft:snowy_tundra

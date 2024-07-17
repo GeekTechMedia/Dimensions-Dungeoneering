@@ -1,0 +1,13 @@
+#556 minecraft:beach
+#47F minecraft:birch_forest
+#35F cavebiomeapi:caves
+#4F9 minecraft:dark_forest
+#674 minecraft:flower_forest
+#010 minecraft:forest
+#1D2 more_jellyfish:kelp_forest
+#06F projectvibrantjourneys:mangrove_marsh
+#472 projectvibrantjourneys:meadows
+#5C1 byg:red_oak_forest
+#4D3 minecraft:swamp
+#1DB byg:weeping_witch_forest
+#452 minecraft:wooded_hills

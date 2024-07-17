@@ -1,0 +1,14 @@
+{
+	"powers":
+    [
+      "dimensionsdungeoneering:sorcerer_regen",
+      "dimensionsdungeoneering:sorcerer_acceptance",
+      "dimensionsdungeoneering:sorcerer_projectmmo",
+			"dimensionsdungeoneering:sorcerer_hat"
+	],
+	"icon": "schoolsofmagic:apprentice_wand_2",
+	"order": 5,
+	"impact": 1,
+	"name": "Sorcerer",
+	"description": "Sorcerers are mages who prefer to use spellcasting and wizardry in their combat."
+}

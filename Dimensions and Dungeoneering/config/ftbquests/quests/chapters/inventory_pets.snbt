@@ -1,0 +1,1041 @@
+{
+	id: "46BF473BBE23C5B7"
+	group: "16CBA37B8C6AAED4"
+	order_index: 4
+	filename: "inventory_pets"
+	title: "Pets Of The Inventory Variety"
+	icon: {
+		id: "inventorypets:pet_creeper"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 10.0d
+			y: -3.0d
+			width: 5.0d
+			height: 5.0d
+			rotation: 0.0d
+			image: "inventorypets:textures/items/patreon_shirt.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -10.0d
+			y: -3.0d
+			width: 5.0d
+			height: 5.0d
+			rotation: 0.0d
+			image: "inventorypets:textures/items/patreon_shirt.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			title: "Mob Pets"
+			x: -3.0d
+			y: -1.0d
+			description: ["Can be obtained by searching inventory pet loot chests."]
+			dependencies: ["3B46167FEC6101E9"]
+			id: "36E8096B10E22F37"
+			tasks: [
+				{
+					id: "26298C9D161F50BC"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_blaze"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3A7F5BAC7916521F"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_creeper"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "75070464CBE7AF47"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_enderman"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1D92CFB9FD501900"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_ghast"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3B7FAF42A6C05593"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_iron_golem"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "784D3F91FFC2A0A9"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_magma_cube"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "52C8202A4F4D5EB8"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_snow_golem"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3231B5EADB5EA0D6"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_spider"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "08033137EA21700C"
+					type: "choice"
+					table_id: 6196898936153999603L
+				}
+				{
+					id: "62A0756C07319E58"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			title: "Peaceful Pets"
+			x: -3.0d
+			y: 1.0d
+			description: ["Can be obtained by searching inventory pet loot chests."]
+			dependencies: ["3B46167FEC6101E9"]
+			id: "006EB84D48853D1A"
+			tasks: [
+				{
+					id: "2B6BEE43385136C2"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_chicken"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "76EC9548341B9C6C"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_cow"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "46A44B4ABC579B7B"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_mooshroom"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "07699372C4E25ECD"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_ocelot"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "542270A6D50F20F2"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_pig"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "403426E0E19F1214"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_sheep"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "22FDD79F6FB657AB"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_squid"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "49354B49AB415BAC"
+					type: "choice"
+					table_id: 6196898936153999603L
+				}
+				{
+					id: "1B4AF431BB181949"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			title: "Utility Pets"
+			x: 1.0d
+			y: -3.0d
+			description: ["Can be obtained by searching inventory pet loot chests."]
+			dependencies: ["3B46167FEC6101E9"]
+			id: "3289BAD856820BAF"
+			tasks: [
+				{
+					id: "473D0C70A66D5CBE"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_anvil"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "60ECC1A43D405B4B"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_bed"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "78C4668ADFBF91E6"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_brewing_stand"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2A6173EE69AD7B1D"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_chest"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							Parent: [ ]
+						}
+					}
+				}
+				{
+					id: "1C6C56EF095BCD5D"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_crafting_table"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "29EC431211D97DB6"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_double_chest"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							Parent: [ ]
+						}
+					}
+				}
+				{
+					id: "260E882F819A1AB3"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_enchanting_table"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "37638B8C381329E2"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_ender_chest"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0A6BB23697C1B6B9"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_furnace"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7BB9F607C287440B"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_jukebox"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3985D7F0595FB474"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_nether_portal"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5BC8428F56DBA618"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_saddle"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "35F641A32382E49C"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_lead"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "0C85578B0E6158FF"
+					type: "choice"
+					table_id: 6196898936153999603L
+				}
+				{
+					id: "36E49A99B458B4C3"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			title: "Special Pets"
+			x: 3.0d
+			y: 1.0d
+			description: ["Can be obtained by searching inventory pet loot chests."]
+			dependencies: ["3B46167FEC6101E9"]
+			id: "669AB8317AD8D3EA"
+			tasks: [
+				{
+					id: "2D0F135A6FC0915D"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_banana"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6974F4B30B4523E6"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_biome"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "767EE32CD51BA73B"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_flying_saddle"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4BA7975E91F872FE"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_grave"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "279BF37C3E2846C2"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_loot"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "73999A17A118B76E"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_meta"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4FEC478DBCB1D956"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_pingot"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0169B143AD27A181"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_purplicious_cow"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7EEEAC8F1CEBCE8A"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_qcm"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "434339E50CD32140"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_quiver"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1233BCF53347EEB7"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_sponge"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "11AC0D67F73EE643"
+					type: "choice"
+					table_id: 6196898936153999603L
+				}
+				{
+					id: "0EFEB194168CCC4D"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			title: "Youtuber Pets"
+			x: 3.0d
+			y: -1.0d
+			description: ["Can be obtained by searching inventory pet loot chests."]
+			dependencies: ["3B46167FEC6101E9"]
+			id: "5B62754489C0A8B9"
+			tasks: [
+				{
+					id: "5464220C69F34B13"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_cobblestone"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5A909F9D11A7F4A9"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_dirt"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4AD5FA30A057F618"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_juggernaut"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7E9CDC745070F858"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_illuminati"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "072D21EF34DA8F8F"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_siamese"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "3FBD619E1775E37A"
+					type: "choice"
+					table_id: 6196898936153999603L
+				}
+				{
+					id: "703F4C29632115FF"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			title: "Fan-Suggested Pets"
+			x: -1.0d
+			y: 3.0d
+			description: ["Can be obtained by searching inventory pet loot chests."]
+			dependencies: ["3B46167FEC6101E9"]
+			id: "6F0FAFDC36065E6E"
+			tasks: [
+				{
+					id: "56B5D2E63AD9FECB"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_apple"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "592BEDFBDAB36AB9"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_cheetah"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "261479CDDD8A104C"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_pacman"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "196BEC7EFE8427E8"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_pixie"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5F43ECD0D1C53B85"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_silverfish"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "45B88B9A4495508A"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_torch"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0EB72ED6C7674F96"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_wolf"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "23AA91D23DAA6132"
+					type: "choice"
+					table_id: 6196898936153999603L
+				}
+				{
+					id: "06410F5C6D23F6A9"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			title: "Area of Effect Pets"
+			x: -1.0d
+			y: -3.0d
+			description: ["Can be obtained by searching inventory pet loot chests."]
+			dependencies: ["3B46167FEC6101E9"]
+			id: "6850814A426B096A"
+			tasks: [
+				{
+					id: "78350E261F849A51"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_dubstep"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4357EDE4D756A1FE"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_heart"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3AEF59187EAD6399"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_moon"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6A6738FC3883462F"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_shield"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "4B847DC79177F9FA"
+					type: "choice"
+					table_id: 6196898936153999603L
+				}
+				{
+					id: "3AEB380193DD2F0A"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			title: "Holiday Pets"
+			x: 1.0d
+			y: 3.0d
+			description: ["Can be obtained by searching inventory pet loot chests."]
+			dependencies: ["3B46167FEC6101E9"]
+			id: "408675711C42078C"
+			tasks: [
+				{
+					id: "5C579B64A20E75B0"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_april_fool"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "46BE6E7CCFB0F893"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_christmas_tree"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "285FD0CF120B424B"
+					type: "item"
+					item: "inventorypets:pet_menorah"
+				}
+				{
+					id: "2AD34B038601BD54"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_mishumaa_saba"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5AC0CC97FFBEE7E3"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_politically_correct"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "7EC0FA219B0B5B33"
+					type: "choice"
+					table_id: 6196898936153999603L
+				}
+				{
+					id: "69D750354FF66148"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			title: "Legendary Pets"
+			x: 0.0d
+			y: 2.0d
+			description: ["Legendary pets can be obtained in the same way as other pets but are a much rarer find due to their incredible powers."]
+			dependencies: ["3B46167FEC6101E9"]
+			id: "572467AA59A51E94"
+			tasks: [
+				{
+					id: "447638010FB96A7D"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_black_hole"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "091BFB8B8120B8EF"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_cloud"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1EFCFC3A539894F5"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_pufferfish"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4FF6193833EAD67C"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_slime"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "21E11C4E65454DD3"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_sun"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1BD0186BF1FE8BAC"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_wither"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "03DC73EE5F879D50"
+					type: "choice"
+					table_id: 6196898936153999603L
+				}
+				{
+					id: "25D79363A37337EB"
+					type: "ftbmoney:money"
+					ftb_money: 5000L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "circle"
+			description: ["Inventory Pets are living animated creatures that exist in your inventory and give you amazing special effects, drops, buffs, utilities, defenses, and weapons in exchange for care and feeding. Pets can be found in four special places in the Overworld: Sea Caves, Cloud Dungeons, Treetops, and underground Dungeons."]
+			id: "3B46167FEC6101E9"
+			tasks: [{
+				id: "41CD8300CB064FA2"
+				type: "checkmark"
+				title: "Inventory Pets!"
+			}]
+			rewards: [
+				{
+					id: "0AAB25DF210C4796"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7E76D9F745D644F7"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			description: ["The only craftingable pet in the mod. Allows you to have a form of the ./sethome command."]
+			dependencies: ["3B46167FEC6101E9"]
+			id: "6AD5C8CDEF49320B"
+			tasks: [{
+				id: "453CB75ACE159153"
+				type: "item"
+				item: {
+					id: "inventorypets:pet_house"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "38E74757EAEEF027"
+				type: "ftbmoney:money"
+				ftb_money: 25L
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.5d
+			description: ["A bag used for holding items that pets use a food. Pets can eat items directly out of a feed bag automatically."]
+			dependencies: ["3B46167FEC6101E9"]
+			id: "1C8F6176A9AB233A"
+			tasks: [{
+				id: "3879003E02214C10"
+				type: "item"
+				item: {
+					id: "inventorypets:feed_bag_new"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "2CE0B4CC5941A19F"
+				type: "ftbmoney:money"
+				ftb_money: 25L
+			}]
+		}
+	]
+}

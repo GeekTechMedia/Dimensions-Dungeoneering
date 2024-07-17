@@ -1,0 +1,14 @@
+#556 minecraft:beach
+#461 byg:blue_taiga
+#35F cavebiomeapi:caves
+#1F3 cavesandcliffs:dripstone_caves
+#4B0 minecraft:jungle
+#7F2 minecraft:jungle_edge
+#043 minecraft:jungle_hills
+#1D2 more_jellyfish:kelp_forest
+#379 minecraft:mountains
+#4F1 minecraft:ocean
+#5ED byg:seasonal_birch_forest
+#3A8 byg:seasonal_deciduous_forest
+#406 minecraft:stone_shore
+#306 minecraft:wooded_mountains

@@ -1,0 +1,608 @@
+{
+	id: "2EB098F1E17BF6FF"
+	group: "36BEEFEA347FE093"
+	order_index: 1
+	filename: "nocubes_wilderness__cooking"
+	title: "Cooking In The Wilderness"
+	icon: "nocubes_wilderness:blueberry_jam"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "circle"
+			description: ["NoCube's Wilderness is a vanilla-styled minecraft mod. The main goal of a mod is to expand blooming forests and endless fields of Minecraft with fresh new wild flora and fauna, which all have different purposes or just being a good decoration for buildings!"]
+			id: "4A82DC0893DC3745"
+			tasks: [{
+				id: "303B569E4DCC571A"
+				type: "checkmark"
+				title: "NoCube's Wilderness"
+			}]
+			rewards: [
+				{
+					id: "191D57CE79DB4F6F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1AE122E1AEF0A810"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -5.0d
+			dependencies: ["4A82DC0893DC3745"]
+			id: "7C8671098F238D8D"
+			tasks: [{
+				id: "6DA2EC8B0566055B"
+				type: "item"
+				item: "nocubes_wilderness:blueberry_jam"
+			}]
+			rewards: [
+				{
+					id: "6D06D6D96304EF84"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "36655104EEE6C582"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "cooking"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -5.0d
+			dependencies: ["4A82DC0893DC3745"]
+			id: "1385D5D21CC8CAD1"
+			tasks: [{
+				id: "4888E75246C43200"
+				type: "item"
+				item: "nocubes_wilderness:raspberry_jam"
+			}]
+			rewards: [
+				{
+					id: "0F3C8952480A277A"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "5840029D60D775FB"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "cooking"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -5.0d
+			dependencies: ["4A82DC0893DC3745"]
+			id: "680C5897405B6B23"
+			tasks: [{
+				id: "3C1970FD25E7FF67"
+				type: "item"
+				item: "nocubes_wilderness:lingonberry_jam"
+			}]
+			rewards: [
+				{
+					id: "6DAEF0357BC5208C"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "00E78C11EE1434C1"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "cooking"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -5.0d
+			dependencies: ["4A82DC0893DC3745"]
+			id: "0944A00DCE714F5B"
+			tasks: [{
+				id: "08C24940236DBB90"
+				type: "item"
+				item: "nocubes_wilderness:sweet_berry_jam"
+			}]
+			rewards: [
+				{
+					id: "73C177453A0CF832"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "5DD44B6DF44230F3"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "cooking"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -6.0d
+			dependencies: ["7C8671098F238D8D"]
+			id: "3D45BE9C9D554DF9"
+			tasks: [{
+				id: "02F07A49490F8A19"
+				type: "item"
+				item: "nocubes_wilderness:blueberry_jam_bread"
+			}]
+			rewards: [
+				{
+					id: "7C4D490678064BC0"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "02583298DE077F9D"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "cooking"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -6.0d
+			dependencies: ["1385D5D21CC8CAD1"]
+			id: "04B1C8C3998A0E2A"
+			tasks: [{
+				id: "1EC8F0B52726A9A4"
+				type: "item"
+				item: "nocubes_wilderness:raspberry_jam_bread"
+			}]
+			rewards: [
+				{
+					id: "1258DEED1055BECB"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "0B3C425F15853A0F"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "cooking"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -6.0d
+			dependencies: ["680C5897405B6B23"]
+			id: "5733C7F29F5B34A6"
+			tasks: [{
+				id: "7D36BC946F65F0C7"
+				type: "item"
+				item: "nocubes_wilderness:lingonberry_jam_bread"
+			}]
+			rewards: [
+				{
+					id: "53865B74184EAC09"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "75FD07EF58AAAB5C"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "cooking"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -6.0d
+			dependencies: ["0944A00DCE714F5B"]
+			id: "35B16256578B14F1"
+			tasks: [{
+				id: "2227338A589051C7"
+				type: "item"
+				item: "nocubes_wilderness:sweet_berry_jam_bread"
+			}]
+			rewards: [
+				{
+					id: "2B96A8BC7BC99C9F"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "36BB9A46EE6782E2"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "cooking"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -5.0d
+			dependencies: ["4A82DC0893DC3745"]
+			id: "3540B21D6C011B9B"
+			tasks: [{
+				id: "49524B845C365F63"
+				type: "item"
+				item: "nocubes_wilderness:blueberry_pie"
+			}]
+			rewards: [
+				{
+					id: "31A0A788D18A04D3"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "3C29D411FDA289B6"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "cooking"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -5.0d
+			dependencies: ["4A82DC0893DC3745"]
+			id: "32878A47525F6BA9"
+			tasks: [{
+				id: "12CB204678A27B57"
+				type: "item"
+				item: "nocubes_wilderness:raspberry_pie"
+			}]
+			rewards: [
+				{
+					id: "057FFCB4D0FF0290"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "62F4DD36B7285528"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "cooking"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -5.0d
+			dependencies: ["4A82DC0893DC3745"]
+			id: "26DE326F500E2C0D"
+			tasks: [{
+				id: "28D8ADC2745A7130"
+				type: "item"
+				item: "nocubes_wilderness:sweet_berry_pie"
+			}]
+			rewards: [
+				{
+					id: "2808D623B1227DAA"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "2652C2CF7469AC79"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "cooking"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -5.0d
+			dependencies: ["4A82DC0893DC3745"]
+			id: "30568FA0B9768BFD"
+			tasks: [{
+				id: "5E69FD825BFDC0CA"
+				type: "item"
+				item: "nocubes_wilderness:lingonberry_pie"
+			}]
+			rewards: [
+				{
+					id: "61B5F772189E9EAC"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "15849F242775097A"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "cooking"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -7.5d
+			dependencies: ["4A82DC0893DC3745"]
+			id: "4D5FE04E6F4000C8"
+			tasks: [{
+				id: "5F33A2AF7D72B32D"
+				type: "item"
+				item: "nocubes_wilderness:pancakes"
+			}]
+			rewards: [
+				{
+					id: "3BDECB0002E48E34"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "3527D580D0BFF0E5"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "cooking"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -8.5d
+			dependencies: ["4D5FE04E6F4000C8"]
+			id: "35C1F4599D92A613"
+			tasks: [{
+				id: "45801399FEEBA74D"
+				type: "item"
+				item: "nocubes_wilderness:honey_pancakes"
+			}]
+			rewards: [
+				{
+					id: "47FEE12DDA61928B"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "5D96154EC5B96407"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "cooking"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -9.5d
+			dependencies: ["35C1F4599D92A613"]
+			id: "42881516F77B8A9A"
+			tasks: [{
+				id: "62F3EDFF706DAB5C"
+				type: "item"
+				item: "nocubes_wilderness:berry_pancakes"
+			}]
+			rewards: [
+				{
+					id: "49CCBB32D820357F"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "5C17D1171E1EF098"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "cooking"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -5.0d
+			dependencies: ["4A82DC0893DC3745"]
+			id: "79D15ED4DE62740F"
+			tasks: [{
+				id: "117E381D54AAED41"
+				type: "item"
+				item: "nocubes_wilderness:raspberry_cookie"
+			}]
+			rewards: [
+				{
+					id: "6281422EC47EC9A1"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "07FEFA8B74E25205"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "cooking"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: -5.0d
+			dependencies: ["4A82DC0893DC3745"]
+			id: "559C85EE318FC127"
+			tasks: [{
+				id: "29B999676C47A989"
+				type: "item"
+				item: "nocubes_wilderness:blueberry_cupcake"
+			}]
+			rewards: [
+				{
+					id: "79EB40F4F92F98A8"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "51754B1DA9BDD9D5"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "cooking"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: -5.0d
+			dependencies: ["4A82DC0893DC3745"]
+			id: "054FC49E98CE0271"
+			tasks: [{
+				id: "6D52E6EF68CAE78F"
+				type: "item"
+				item: "nocubes_wilderness:lingonberry_glazed_ham"
+			}]
+			rewards: [
+				{
+					id: "1D73BB92E9612B17"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "2B00A3729013B11B"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "cooking"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: -5.0d
+			dependencies: ["4A82DC0893DC3745"]
+			id: "50E229EA6B92EBCE"
+			tasks: [{
+				id: "205F60062F38C434"
+				type: "item"
+				item: "nocubes_wilderness:chanterelle_stew"
+			}]
+			rewards: [
+				{
+					id: "1A8CAD1E33B2BFEC"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "552274F60A9BB07B"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "cooking"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: -5.0d
+			dependencies: ["4A82DC0893DC3745"]
+			id: "36CFF24A735FB4D2"
+			tasks: [{
+				id: "208990BDB98FD582"
+				type: "item"
+				item: "nocubes_wilderness:boletus_stew"
+			}]
+			rewards: [
+				{
+					id: "2E182F3882F6E0DF"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "417C58922EE20310"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "cooking"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: -5.0d
+			dependencies: ["4A82DC0893DC3745"]
+			id: "6AD46DDDFB0E69F1"
+			tasks: [{
+				id: "3D8050F6F0CF5DE1"
+				type: "item"
+				item: "nocubes_wilderness:cooked_chanterelle"
+			}]
+			rewards: [
+				{
+					id: "63F025C59E494F31"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "557721308969A9F1"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "cooking"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: -5.0d
+			dependencies: ["4A82DC0893DC3745"]
+			id: "034C8D8292F7F5FD"
+			tasks: [{
+				id: "6CA26EEC165D66D2"
+				type: "item"
+				item: "nocubes_wilderness:cooked_boletus"
+			}]
+			rewards: [
+				{
+					id: "3B6DB5526C821AE1"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "1C93BDBC6E5C7BA2"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "cooking"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+	]
+}

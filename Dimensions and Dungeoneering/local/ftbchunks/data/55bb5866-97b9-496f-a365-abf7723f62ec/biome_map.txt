@@ -1,0 +1,11 @@
+#556 minecraft:beach
+#3DE minecraft:deep_ocean
+#008 minecraft:desert
+#19B minecraft:desert_hills
+#3CD projectvibrantjourneys:desert_shrubland
+#010 minecraft:forest
+#79A minecraft:lukewarm_ocean
+#07C byg:mojave_desert
+#4F1 minecraft:ocean
+#3DC minecraft:plains
+#5FF minecraft:river

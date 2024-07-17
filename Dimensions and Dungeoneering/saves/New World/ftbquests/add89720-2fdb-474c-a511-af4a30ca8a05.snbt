@@ -1,0 +1,20 @@
+{
+	version: 1
+	uuid: "add897202fdb474ca511af4a30ca8a05"
+	name: "Spudstak"
+	can_edit: false
+	lock: false
+	auto_pin: false
+	task_progress: {
+		16631E57D85A5BA0: 2
+	}
+	started: {
+		3882BD2FB18633EA: 1689644512482L
+		0000000000000001: 1689644512482L
+		16631E57D85A5BA0: 1689644512482L
+		18E83406F3DCC589: 1689644512482L
+	}
+	completed: { }
+	claimed_rewards: { }
+	pinned_quests: [ ]
+}

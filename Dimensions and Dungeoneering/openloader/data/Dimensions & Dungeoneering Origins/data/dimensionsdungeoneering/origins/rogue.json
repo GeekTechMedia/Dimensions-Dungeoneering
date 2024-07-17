@@ -1,0 +1,13 @@
+{
+	"powers":
+    [
+      "dimensionsdungeoneering:rogue_artifact",
+      "dimensionsdungeoneering:rogue_projectmmo",
+      "dimensionsdungeoneering:rogue_melee"
+	],
+	"icon": "spartanweaponry:dagger_iron",
+	"order": 5,
+	"impact": 1,
+	"name": "Rogue",
+	"description": "Rogues prefer fast paced and stealthy combat, they are known for being quick on their feet"
+}

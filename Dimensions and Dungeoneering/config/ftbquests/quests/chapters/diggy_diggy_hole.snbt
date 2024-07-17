@@ -1,0 +1,91 @@
+{
+	id: "1ED9F513AD67E84B"
+	group: "16CBA37B8C6AAED4"
+	order_index: 3
+	filename: "diggy_diggy_hole"
+	title: "Diggy Diggy Hole"
+	icon: {
+		id: "minecraft:iron_pickaxe"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 0.0d
+			y: 0.0d
+			width: 3.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "cavesandcliffs:textures/block/deepslate_diamond_ore.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -1.5d
+			y: -1.5d
+			width: 3.0d
+			height: 3.0d
+			rotation: 10.0d
+			image: "minecraft:textures/item/diamond_pickaxe.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			width: 3.0d
+			height: 3.0d
+			rotation: -70.0d
+			image: "minecraft:textures/item/iron_pickaxe.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -0.6d
+			y: -1.0d
+			width: 2.0d
+			height: 2.0d
+			rotation: 50.0d
+			image: "mowziesmobs:textures/particle/sparks_ring.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.75d
+			y: 0.0d
+			width: 2.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "mowziesmobs:textures/particle/sparks_ring.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.0d
+			y: -6.5d
+			width: 10.0d
+			height: 10.0d
+			rotation: 0.0d
+			image: "minecraft:textures/gui/wip.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [ ]
+}

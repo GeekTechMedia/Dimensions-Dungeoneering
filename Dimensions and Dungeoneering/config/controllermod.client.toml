@@ -1,0 +1,38 @@
+
+[developerOptions]
+	#Developer Options
+	debug_mode = false
+
+["Paper Doll"]
+	"Elytra Flying" = true
+	Riding = true
+	Spinning = true
+	Moving = true
+	Jumping = true
+	Attacking = true
+	Using = true
+	Hurt = true
+	Burning = true
+	"Hide Paper Doll" = true
+
+[controller]
+	#Controller
+	enableControllers = false
+	"In-Game Player Names" = true
+	"Hide Coordinates" = false
+	#Select Controller 
+	# Whatever controller you choose should be your controller minus 1. So that would mean controller 1 would be 0
+	#Range: 1 ~ 8
+	controllerNumber = 1
+	#The sensitivity of the controller ingame
+	#Range: 0.0 ~ 1.0
+	ingameSensitivity = 0.5
+	#The sensitivity of the controller in the menu
+	#Range: 0.0 ~ 1.0
+	menuSensitivity = 0.2
+	#The dead zone of the controller
+	#Range: 0.0 ~ 1.0
+	deadzone = 0.2
+	#Allowed Values: CUSTOM, XBOX_360, PS4
+	loadMap = "CUSTOM"
+

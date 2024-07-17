@@ -1,0 +1,9 @@
+#6F6 minecraft:badlands
+#481 minecraft:badlands_plateau
+#35F cavebiomeapi:caves
+#008 minecraft:desert
+#1A3 terraincognita:lush_hills
+#6DC terraincognita:lush_plains
+#3DC minecraft:plains
+#447 byg:stone_forest
+#454 minecraft:wooded_badlands_plateau

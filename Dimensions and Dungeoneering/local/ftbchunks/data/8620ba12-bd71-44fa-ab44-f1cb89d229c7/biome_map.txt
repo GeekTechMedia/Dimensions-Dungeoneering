@@ -1,0 +1,16 @@
+#34C byg:baobab_savanna
+#556 minecraft:beach
+#35F cavebiomeapi:caves
+#3D6 minecraft:cold_ocean
+#008 minecraft:desert
+#19B minecraft:desert_hills
+#67B byg:dunes
+#010 minecraft:forest
+#07C byg:mojave_desert
+#4F1 minecraft:ocean
+#3DC minecraft:plains
+#181 minecraft:savanna
+#706 minecraft:savanna_plateau
+#774 minecraft:sunflower_plains
+#298 projectvibrantjourneys:verdant_sands
+#452 minecraft:wooded_hills

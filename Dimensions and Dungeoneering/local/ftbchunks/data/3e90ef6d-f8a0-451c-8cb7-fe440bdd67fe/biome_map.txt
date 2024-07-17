@@ -1,0 +1,15 @@
+#556 minecraft:beach
+#47F minecraft:birch_forest
+#653 byg:cold_swamplands
+#34D minecraft:deep_lukewarm_ocean
+#3DE minecraft:deep_ocean
+#1F3 cavesandcliffs:dripstone_caves
+#476 jellyfishing:jellyfish_fields
+#79A minecraft:lukewarm_ocean
+#379 minecraft:mountains
+#4F1 minecraft:ocean
+#6CE projectvibrantjourneys:overgrown_spires
+#5FF minecraft:river
+#406 minecraft:stone_shore
+#00A projectvibrantjourneys:tropical_beach
+#306 minecraft:wooded_mountains

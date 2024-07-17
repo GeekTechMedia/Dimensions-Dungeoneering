@@ -1,0 +1,11 @@
+#556 minecraft:beach
+#461 byg:blue_taiga
+#3D6 minecraft:cold_ocean
+#5C0 corundum_meadows:corundum_meadows
+#109 minecraft:deep_cold_ocean
+#3DE minecraft:deep_ocean
+#73C byg:grassland_plateau
+#4F1 minecraft:ocean
+#48C corundum_meadows:onion_meadows
+#5FF minecraft:river
+#228 byg:rocky_beach

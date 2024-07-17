@@ -1,0 +1,6 @@
+{
+    "mob_id": "minecraft:ghast",
+    "ghast": {
+        "explosion_power": 2
+    }
+}

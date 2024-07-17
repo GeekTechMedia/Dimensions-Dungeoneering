@@ -1,0 +1,360 @@
+{
+	id: "794B788FBD0C8EEB"
+	group: "1F22E46975B98D48"
+	order_index: 0
+	filename: "simple_generators"
+	title: "Genning Electricity"
+	icon: "simplegens:simple_tnt"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "circle"
+			description: ["Simple Generators is a mod that adds some easy to setup power sources that can produce a suprising amount of power for early-midgame setups."]
+			id: "24A0A56B6C092C1A"
+			tasks: [{
+				id: "7C4557622F8DAB29"
+				type: "checkmark"
+				title: "Simple Generators"
+			}]
+			rewards: [
+				{
+					id: "34009BB5F0B92F50"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "74294B0839DB46DB"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: 0.0d
+			description: ["Produces energy from non-fluid furnace fuels."]
+			dependencies: ["24A0A56B6C092C1A"]
+			id: "1EB38DF5D0DE9AEC"
+			tasks: [{
+				id: "68CF13646985BD31"
+				type: "item"
+				item: "simplegens:simple_combustion"
+			}]
+			rewards: [
+				{
+					id: "4E321B804F4A8A91"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+				{
+					id: "716BFB8C9CCA37FC"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "crafting"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: -1.0d
+			description: ["Produces energy from food items. The better the food the more power it produces."]
+			dependencies: ["24A0A56B6C092C1A"]
+			id: "370539665492E2ED"
+			tasks: [{
+				id: "5713EC338B1D1AD7"
+				type: "item"
+				item: "simplegens:simple_culinary"
+			}]
+			rewards: [
+				{
+					id: "560B256F975AA648"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+				{
+					id: "63AD885DC124580A"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "crafting"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -2.0d
+			description: ["Produces energy from ender related items."]
+			dependencies: ["24A0A56B6C092C1A"]
+			id: "7E828FAF946DF5D8"
+			tasks: [{
+				id: "3FF52CE931206C24"
+				type: "item"
+				item: "simplegens:simple_ender"
+			}]
+			rewards: [
+				{
+					id: "68A95D6A9CAB96CE"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+				{
+					id: "0E56E037576E29BC"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "crafting"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: -3.0d
+			description: ["Produces energy from nether related items, mostly the nether star."]
+			dependencies: ["24A0A56B6C092C1A"]
+			id: "46BEB3DE10D145C2"
+			tasks: [{
+				id: "299BBD6C7F4B50DA"
+				type: "item"
+				item: "simplegens:simple_nether"
+			}]
+			rewards: [
+				{
+					id: "43843042A7F22ABD"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+				{
+					id: "47BAA5EF146EEF9D"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "crafting"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -4.0d
+			description: ["Produces energy from mob heads, eggs, bones etc. The remnants of dead creatures."]
+			dependencies: ["24A0A56B6C092C1A"]
+			id: "1C14B199BA1B79E0"
+			tasks: [{
+				id: "667E27D9FE6589E0"
+				type: "item"
+				item: "simplegens:simple_soul"
+			}]
+			rewards: [
+				{
+					id: "6F898F5F36BA39E7"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+				{
+					id: "234FC574C2B56A15"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "crafting"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -5.0d
+			description: ["Produces energy from pink items."]
+			dependencies: ["24A0A56B6C092C1A"]
+			id: "4A06001416DBBE34"
+			tasks: [{
+				id: "578A1905F3091D9C"
+				type: "item"
+				item: "simplegens:simple_pink"
+			}]
+			rewards: [
+				{
+					id: "4BBA3DD98985FF7E"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+				{
+					id: "0A662ED21521B99E"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "crafting"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -5.0d
+			description: ["Produces energy from tnt and other explosive items."]
+			dependencies: ["24A0A56B6C092C1A"]
+			id: "35D975E2154FAE72"
+			tasks: [{
+				id: "3346448B3D106484"
+				type: "item"
+				item: "simplegens:simple_tnt"
+			}]
+			rewards: [
+				{
+					id: "253B476E3FF3466A"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+				{
+					id: "4B32D0C9626E33E3"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "crafting"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -4.0d
+			description: ["Produces energy from potions."]
+			dependencies: ["24A0A56B6C092C1A"]
+			id: "2B011C8AEEBC732B"
+			tasks: [{
+				id: "4F1F69BB801AF4F2"
+				type: "item"
+				item: "simplegens:simple_potion"
+			}]
+			rewards: [
+				{
+					id: "6F339330DFC11CB0"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+				{
+					id: "4ABF4CF92404805A"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "crafting"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -3.0d
+			description: ["Produces energy from hot fluids."]
+			dependencies: ["24A0A56B6C092C1A"]
+			id: "672E36C115FEFA83"
+			tasks: [{
+				id: "74FC44A135629555"
+				type: "item"
+				item: "simplegens:simple_geothermal"
+			}]
+			rewards: [
+				{
+					id: "2A3243EFF10E3910"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+				{
+					id: "0BC4F8C8EECE7D65"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "crafting"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -2.0d
+			description: ["Produces energy from combustible fluids."]
+			dependencies: ["24A0A56B6C092C1A"]
+			id: "6998A64230F4580D"
+			tasks: [{
+				id: "4A1AD245ABAE0AA0"
+				type: "item"
+				item: "simplegens:simple_fluid_combustion"
+			}]
+			rewards: [
+				{
+					id: "738364B825C8F201"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+				{
+					id: "32EFD5DFBB0BAEDA"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "crafting"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: -1.0d
+			description: ["Produces energy from steam."]
+			dependencies: ["24A0A56B6C092C1A"]
+			id: "751CD6F93EDECC39"
+			tasks: [{
+				id: "2B85C1DF41E95318"
+				type: "item"
+				item: "simplegens:simple_turbine"
+			}]
+			rewards: [
+				{
+					id: "67406976D98694A7"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+				{
+					id: "0CCDFCCE8F7D7D1E"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "crafting"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: 0.0d
+			description: ["Produces energy from fluid forms of xp."]
+			dependencies: ["24A0A56B6C092C1A"]
+			id: "3CFC9D93053B10BF"
+			tasks: [{
+				id: "23D66AE7E830C7C7"
+				type: "item"
+				item: "simplegens:simple_xp"
+			}]
+			rewards: [
+				{
+					id: "06EF0CFDA2C8A321"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+				{
+					id: "6B23BBEC1435D14F"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "crafting"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+	]
+}

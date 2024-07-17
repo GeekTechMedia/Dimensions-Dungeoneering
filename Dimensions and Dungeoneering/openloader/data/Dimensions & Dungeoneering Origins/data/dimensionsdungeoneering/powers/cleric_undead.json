@@ -1,0 +1,17 @@
+{
+	"type": "origins:modify_damage_taken",
+	"name": "Holy Curse",
+	"description": "Clerics cannot bear to be in contact with impure beings such as undead mobs. Due to this they take more damage from them.",
+	"damage_condition": {
+		"type": "origins:attacker",
+		"condition": {
+			"type": "entity_group",
+			"group": "undead"
+		}
+	},
+	"modifier": {
+		"name": "weak to undead",
+		"operation": "multiply_base",
+		"value": 1.25
+	}
+}

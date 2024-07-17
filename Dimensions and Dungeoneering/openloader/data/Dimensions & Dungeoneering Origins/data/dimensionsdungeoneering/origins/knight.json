@@ -1,0 +1,13 @@
+{
+	"powers":
+    [
+      "dimensionsdungeoneering:knight_preference",
+      "dimensionsdungeoneering:knight_fortitude",
+      "dimensionsdungeoneering:knight_projectmmo"
+	],
+	"icon": "spartanweaponry:longsword_iron",
+	"order": 5,
+	"impact": 1,
+	"name": "Knight",
+	"description": "Knights work tirelessly to uphold justice. They prefer up close and personal combat."
+}

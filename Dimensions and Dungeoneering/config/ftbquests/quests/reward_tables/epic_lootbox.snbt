@@ -1,0 +1,59 @@
+{
+	id: "2E1F98B0213279E3"
+	order_index: 2
+	title: "Epic Lootbox"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:enchanted_golden_apple" }
+		{ item: "mysticalagradditions:insanium_coal", count: 2 }
+		{
+			item: {
+				id: "minecraft:netherite_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:netherite_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:netherite_leggings"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:netherite_boots"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			ftb_money: 250L
+			type: "ftbmoney:money"
+		}
+	]
+	loot_crate: {
+		drops: {
+			boss: 5
+			passive: 0
+			monster: 2
+		}
+		color: 9323693
+		string_id: "epic_lootbox"
+	}
+}

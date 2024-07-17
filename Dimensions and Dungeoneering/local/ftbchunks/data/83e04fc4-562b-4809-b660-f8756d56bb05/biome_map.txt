@@ -1,0 +1,13 @@
+#507 projectvibrantjourneys:baobab_fields
+#556 minecraft:beach
+#3D6 minecraft:cold_ocean
+#3DE minecraft:deep_ocean
+#1D2 more_jellyfish:kelp_forest
+#4F1 minecraft:ocean
+#3DC minecraft:plains
+#5C1 byg:red_oak_forest
+#5FF minecraft:river
+#6F9 more_jellyfish:rock_bottom
+#774 minecraft:sunflower_plains
+#71E byg:tropical_fungal_forest
+#6BC byg:tropical_rainforest

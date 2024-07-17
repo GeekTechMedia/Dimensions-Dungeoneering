@@ -1,0 +1,521 @@
+{
+	id: "3AECB635F66F962B"
+	group: "36BEEFEA347FE093"
+	order_index: 0
+	filename: "thermal_cultivation"
+	title: "Cooking With Cultivation"
+	icon: "thermal:carrot_cake"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "circle"
+			description: ["Thermal Cultivation is one of the addons to the very popular mod Thermal Foundation and is part of the Thermal Series of mods. This mod focuses on farming and cooking by adding some new plants and dishes. If you need any additional information while completing these questlines the Thermalpedia guide will have it!"]
+			id: "593DBF401A91591F"
+			tasks: [{
+				id: "002C14264584AA2F"
+				type: "checkmark"
+				title: "Thermal Cultivation"
+			}]
+			rewards: [
+				{
+					id: "2273644B8C6F0C03"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "11D6D24EC7F4DBE2"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -4.0d
+			dependencies: ["642F64136A8BD7BB"]
+			id: "07C118C4BF0FFB0D"
+			tasks: [{
+				id: "2A2E0F02A2F607E2"
+				type: "item"
+				item: "thermal:carrot_cake"
+			}]
+			rewards: [
+				{
+					id: "69FC82FFDE46F019"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "086D653E3D732D4E"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "cooking"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -4.0d
+			dependencies: ["642F64136A8BD7BB"]
+			id: "1D4D75A0C539D903"
+			tasks: [{
+				id: "783C0694CC5C1D4F"
+				type: "item"
+				item: "thermal:cheese_wheel"
+			}]
+			rewards: [
+				{
+					id: "1FE17080099DA073"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "652F6785C183388B"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "cooking"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -8.0d
+			dependencies: ["78CC4C115DE47E28"]
+			id: "20771A605B8DE4E6"
+			tasks: [{
+				id: "41CA838FF2A04546"
+				type: "item"
+				item: "thermal:stuffed_pumpkin"
+			}]
+			rewards: [
+				{
+					id: "1A1DBCFEF9A77F96"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "7F9FF19FC0D5F940"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "cooking"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -4.0d
+			dependencies: ["642F64136A8BD7BB"]
+			id: "09F32A64395A2CA4"
+			tasks: [{
+				id: "49BBD1DA2D2D985B"
+				type: "item"
+				item: "thermal:chocolate_cake"
+			}]
+			rewards: [
+				{
+					id: "74653DEEF8896387"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "5986B348FAA3C6F5"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "cooking"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -4.0d
+			dependencies: ["642F64136A8BD7BB"]
+			id: "70F6EAB636A3044D"
+			tasks: [{
+				id: "62F186E57F4A1BE1"
+				type: "item"
+				item: "thermal:potion_cake"
+			}]
+			rewards: [
+				{
+					id: "0A2CC66AAFC0AF50"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "600A157B22444666"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "cooking"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: -4.0d
+			dependencies: ["642F64136A8BD7BB"]
+			id: "21A5D828E77E687B"
+			tasks: [{
+				id: "3CCE2A414E7B56A3"
+				type: "item"
+				item: "thermal:spice_cake"
+			}]
+			rewards: [
+				{
+					id: "7E39BF0088490957"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "4059680D59DE5909"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "cooking"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: -4.0d
+			dependencies: ["642F64136A8BD7BB"]
+			id: "2B86405F3C553837"
+			tasks: [{
+				id: "0763DDBF0D1D5723"
+				type: "item"
+				item: "thermal:spring_salad"
+			}]
+			rewards: [
+				{
+					id: "0920310C7EB1A3B7"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "4DE3D3308BF401F7"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "cooking"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -8.0d
+			dependencies: ["78CC4C115DE47E28"]
+			id: "353A7282C6FBD998"
+			tasks: [{
+				id: "0CFF00DFC11C3D0A"
+				type: "item"
+				item: "thermal:hearty_stew"
+			}]
+			rewards: [
+				{
+					id: "0C81635ABA98B13B"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "25112758F42E4D2A"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "cooking"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: -4.0d
+			dependencies: ["642F64136A8BD7BB"]
+			id: "32F812AC1E66F33A"
+			tasks: [{
+				id: "0531936DA49ED62C"
+				type: "item"
+				item: "thermal:xp_stew"
+			}]
+			rewards: [
+				{
+					id: "73BF3204347F52E7"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "4EF81C009A4EEEF6"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "cooking"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -6.0d
+			dependencies: ["1D4D75A0C539D903"]
+			id: "3FE644C450EEE78C"
+			tasks: [{
+				id: "1F6EBAC75F08F929"
+				type: "item"
+				item: "thermal:cheese_wedge"
+			}]
+			rewards: [
+				{
+					id: "1E50B8EDDA9EE00D"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "6C642B2B73539F92"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "cooking"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -4.0d
+			dependencies: ["642F64136A8BD7BB"]
+			id: "5A7C045F15A74552"
+			tasks: [{
+				id: "47CE14EB8EDA5844"
+				type: "item"
+				item: "thermal:jar"
+			}]
+			rewards: [{
+				id: "0E79AB6757E9C99E"
+				type: "item"
+				item: "thermal:jar"
+				count: 2
+			}]
+		}
+		{
+			x: 0.0d
+			y: -6.0d
+			dependencies: ["5A7C045F15A74552"]
+			id: "4FB0F0DC7C3F8E1B"
+			tasks: [{
+				id: "454090BE345B7632"
+				type: "item"
+				item: "thermal:peanut_butter"
+			}]
+			rewards: [
+				{
+					id: "58C38163EE33B0DF"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "3D989CB184DA973F"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "cooking"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -6.0d
+			dependencies: ["5A7C045F15A74552"]
+			id: "78CC4C115DE47E28"
+			tasks: [{
+				id: "7315C5025F090BCB"
+				type: "item"
+				item: "thermal:tomato_sauce"
+			}]
+			rewards: [
+				{
+					id: "46B1B0EA2BF42D91"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "32911D6D3C0FC9E2"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "cooking"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -4.0d
+			dependencies: ["642F64136A8BD7BB"]
+			id: "6845B8FBC2273947"
+			tasks: [{
+				id: "0987BEE4CDDF3C3C"
+				type: "item"
+				item: "thermal:green_bean_pie"
+			}]
+			rewards: [
+				{
+					id: "0DE2FB173943F438"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "57708718ECFE809D"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "cooking"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -8.0d
+			dependencies: [
+				"4FB0F0DC7C3F8E1B"
+				"2A764C9AFC17BA6C"
+			]
+			id: "29EA72900EA8848B"
+			tasks: [{
+				id: "4AB40C33C75E14A9"
+				type: "item"
+				item: "thermal:pbj_sandwich"
+			}]
+			rewards: [
+				{
+					id: "07C550F24C97F6BF"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "5E4F958AC3F1A1F2"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "cooking"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -8.0d
+			dependencies: ["3FE644C450EEE78C"]
+			id: "79343E0EE1C9B787"
+			tasks: [{
+				id: "6A68AF751C655579"
+				type: "item"
+				item: "thermal:stuffed_pepper"
+			}]
+			rewards: [
+				{
+					id: "684E248D87461136"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "71B902DFA937B703"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "cooking"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -4.0d
+			dependencies: ["642F64136A8BD7BB"]
+			id: "09FC1463275D6571"
+			tasks: [{
+				id: "56789633E16976D7"
+				type: "item"
+				item: "thermal:sushi_maki"
+			}]
+			rewards: [
+				{
+					id: "15217E1B4946C725"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "5F67D35EAECA8E04"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "cooking"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			description: ["A guide to all Thermal Series mods. It is included in the starter Akashic Tome!"]
+			dependencies: ["593DBF401A91591F"]
+			id: "642F64136A8BD7BB"
+			tasks: [{
+				id: "0F37963820D94246"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "thermal:guidebook"
+					}
+				}
+			}]
+			rewards: [{
+				id: "2D4D700F34E01262"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -6.0d
+			dependencies: ["5A7C045F15A74552"]
+			id: "2A764C9AFC17BA6C"
+			tasks: [{
+				id: "2A61C04783A664D1"
+				type: "item"
+				item: "thermal:jelly"
+			}]
+			rewards: [
+				{
+					id: "446B70159AF86335"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "4B935FC358C3C47B"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "cooking"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+	]
+}

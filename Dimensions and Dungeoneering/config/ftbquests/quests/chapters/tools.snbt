@@ -1,0 +1,1063 @@
+{
+	id: "62630F010E660F4B"
+	group: "31DBD57DDF20D469"
+	order_index: 4
+	filename: "tools"
+	title: "Bring Out Your Inner Blacksmith"
+	icon: "silentgear:pickaxe_blueprint"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: 3.5d
+		width: 5.0d
+		height: 5.0d
+		rotation: 0.0d
+		image: "silentgear:textures/item/blueprint_pickaxe.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "circle"
+			description: [
+				"There are two different approaches you can take in your mastery of your tools either Tetra or Silent Gear. I would recommend diving into both to see which you prefer and to enjoy the modpack to the fullest! Of course you can also progress without these tool mods but they certainly add some variety for those who want it."
+				""
+				"***Recommendation***"
+				"You should finish the tool progression in the First Steps Questline before using tetra or silent gear due to PMMO requirements."
+			]
+			id: "75A3A53BBAC9B991"
+			tasks: [{
+				id: "4FB06D21B14582C0"
+				type: "checkmark"
+				title: "Tools"
+			}]
+			rewards: [
+				{
+					id: "25513B4A8544A1C2"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1EE0E50D3FA6631B"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: -10.0d
+			y: 8.0d
+			shape: "circle"
+			description: ["Tetra allows you to replace parts of items with different parts of different types and materials, some parts can also be improved. Which parts you may use is limited by the items capacity, which in this mod is referred to an items integrity. Some parts increase an items integrity while some parts have an integrity cost. Some parts require tools of differing quality to craft."]
+			dependencies: ["75A3A53BBAC9B991"]
+			id: "4C71F1B4A127EFF9"
+			tasks: [{
+				id: "3FBFE82734A4E390"
+				type: "checkmark"
+				title: "Tetra"
+			}]
+			rewards: [{
+				id: "2467CF6B87FAA3AB"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: 10.0d
+			y: 8.0d
+			shape: "circle"
+			description: ["Silent Gear is essentially the tool and armor system from Silent's Gems, moved to its own mod and rewritten from scratch. It shares many features of the Gems tool and armor system, but with a few changes and improvements. For example, gear crafting requires blueprints now (you could change this with a data pack). This prevents recipe conflicts. The mod focuses on tools, weapons, and armor (collectively called gear). Recipes are modular, down to each individual piece used in crafting. Possible combinations for each gear type are practically unlimited. In the base mod, gear can be made from all the vanilla materials you are familiar with, plus some extras."]
+			dependencies: ["75A3A53BBAC9B991"]
+			id: "6858CAF4B5CAA293"
+			tasks: [{
+				id: "70C363B5A42AE8D7"
+				type: "checkmark"
+				title: "Silent Gear"
+			}]
+			rewards: [{
+				id: "653850F37EC22263"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			title: "Wooden Hammer"
+			x: -10.0d
+			y: 7.0d
+			description: ["This is the first step to beginning Tetra! Simply craft a wooden hammer."]
+			dependencies: ["4C71F1B4A127EFF9"]
+			id: "26D5520A41F1DCD7"
+			tasks: [{
+				id: "4EFB1C7C80A788F0"
+				type: "advancement"
+				title: "Wooden Hammer"
+				icon: {
+					id: "tetra:modular_double"
+					Count: 1b
+					tag: {
+						"double/handle": "double/basic_handle"
+						"double/head_left": "double/basic_hammer_left"
+						"double/head_right": "double/basic_hammer_right"
+						id: "33953159-ea41-4450-9331-662096022997"
+						"double/basic_hammer_right_material": "basic_hammer/oak"
+						Damage: 0
+						"double/basic_handle_material": "basic_handle/stick"
+						"double/basic_hammer_left_material": "basic_hammer/oak"
+					}
+				}
+				advancement: "tetra:upgrades/root"
+				criterion: ""
+			}]
+		}
+		{
+			icon: "tetra:basic_workbench"
+			x: -10.0d
+			y: 6.0d
+			description: ["The next step is to right click a regular crafting table with the wooden hammer in your hand to create to workbench of tetra!"]
+			dependencies: ["26D5520A41F1DCD7"]
+			id: "6EB25F232551B6A1"
+			tasks: [{
+				id: "1F095E0CC3A5E719"
+				type: "advancement"
+				title: "Workbench MKII"
+				icon: "tetra:basic_workbench"
+				advancement: "tetra:upgrades/workbench"
+				criterion: ""
+			}]
+		}
+		{
+			x: -10.0d
+			y: 2.0d
+			dependencies: ["6EB25F232551B6A1"]
+			id: "3A1BF8B1F1B19DCF"
+			tasks: [{
+				id: "6FF2F6132A732FFD"
+				type: "advancement"
+				title: "Stone Hammer"
+				icon: {
+					id: "tetra:modular_double"
+					Count: 1b
+					tag: {
+						"double/handle": "double/basic_handle"
+						"double/head_left": "double/basic_hammer_left"
+						"double/head_right": "double/basic_hammer_right"
+						id: "2ac3bed7-dacc-4428-8406-cfe1d3a9b94d"
+						"double/basic_hammer_right_material": "basic_hammer/stone"
+						Damage: 0
+						"double/basic_handle_material": "basic_handle/stick"
+						"double/basic_hammer_left_material": "basic_hammer/stone"
+					}
+				}
+				advancement: "tetra:upgrades/hammer_2"
+				criterion: ""
+			}]
+		}
+		{
+			x: -10.0d
+			y: 1.0d
+			dependencies: ["3A1BF8B1F1B19DCF"]
+			id: "4444E01B2FF7E8E3"
+			tasks: [{
+				id: "20EFD385F8AFECCA"
+				type: "advancement"
+				title: "Iron Hammer"
+				icon: {
+					id: "tetra:modular_double"
+					Count: 1b
+					tag: {
+						"double/handle": "double/basic_handle"
+						"double/head_left": "double/basic_hammer_left"
+						"double/head_right": "double/basic_hammer_right"
+						id: "16982de5-3004-4bd1-b30d-b777b1bff70d"
+						"double/basic_hammer_right_material": "basic_hammer/iron"
+						Damage: 0
+						"double/basic_handle_material": "basic_handle/spruce"
+						"double/basic_hammer_left_material": "basic_hammer/iron"
+					}
+				}
+				advancement: "tetra:upgrades/hammer_3"
+				criterion: ""
+			}]
+		}
+		{
+			x: -10.0d
+			y: 0.0d
+			dependencies: ["4444E01B2FF7E8E3"]
+			id: "180CDC849B317D74"
+			tasks: [{
+				id: "4C46A4EB2E717C55"
+				type: "advancement"
+				title: "Blackstone Hammer"
+				icon: {
+					id: "tetra:modular_double"
+					Count: 1b
+					tag: {
+						"double/handle": "double/basic_handle"
+						"double/head_left": "double/basic_hammer_left"
+						"double/head_right": "double/basic_hammer_right"
+						id: "5e18f34e-d9c6-4cb9-bca7-90c2c85abb6e"
+						"double/basic_hammer_right_material": "basic_hammer/blackstone"
+						Damage: 0
+						"double/basic_handle_material": "basic_handle/spruce"
+						"double/basic_hammer_left_material": "basic_hammer/blackstone"
+					}
+				}
+				advancement: "tetra:upgrades/hammer_4"
+				criterion: ""
+			}]
+		}
+		{
+			x: -10.0d
+			y: -1.0d
+			dependencies: ["180CDC849B317D74"]
+			id: "43AAA716897BBE1F"
+			tasks: [{
+				id: "7DCB8DA3F858AA29"
+				type: "advancement"
+				title: "Obsidian Hammer"
+				icon: {
+					id: "tetra:modular_double"
+					Count: 1b
+					tag: {
+						"double/handle": "double/basic_handle"
+						"double/head_left": "double/basic_hammer_left"
+						"double/head_right": "double/basic_hammer_right"
+						id: "4e2cd97e-9d90-42e3-9d22-a2a875875ea2"
+						"double/basic_hammer_right_material": "basic_hammer/obsidian"
+						Damage: 0
+						"double/basic_handle_material": "basic_handle/iron"
+						"double/basic_hammer_left_material": "basic_hammer/obsidian"
+					}
+				}
+				advancement: "tetra:upgrades/hammer_5"
+				criterion: ""
+			}]
+		}
+		{
+			x: -10.0d
+			y: -2.0d
+			dependencies: ["43AAA716897BBE1F"]
+			id: "2BA98397FBD300CA"
+			tasks: [{
+				id: "257D971CF069F808"
+				type: "advancement"
+				title: "Netherite Hammer"
+				icon: {
+					id: "tetra:modular_double"
+					Count: 1b
+					tag: {
+						"double/handle": "double/basic_handle"
+						"double/head_left": "double/basic_hammer_left"
+						"double/head_right": "double/basic_hammer_right"
+						id: "8fbd35e6-49b4-4d01-9697-b2859d1c1d17"
+						"double/basic_hammer_right_material": "basic_hammer/netherite"
+						Damage: 0
+						"double/basic_handle_material": "basic_handle/forged_beam"
+						"double/basic_hammer_left_material": "basic_hammer/netherite"
+					}
+				}
+				advancement: "tetra:upgrades/hammer_6"
+				criterion: ""
+			}]
+		}
+		{
+			x: 10.0d
+			y: 7.0d
+			description: ["Rough rods are be used to craft a limited number of tools without blueprints or templates."]
+			dependencies: ["6858CAF4B5CAA293"]
+			id: "6F8247C0B7044BF3"
+			tasks: [{
+				id: "044C6866B0A2695E"
+				type: "item"
+				item: "silentgear:rough_rod"
+			}]
+		}
+		{
+			title: "Craft A Knife Or A Dagger"
+			x: 10.0d
+			y: 6.0d
+			description: ["A dagger can be crafted with one main material above a rough rod if you don't have a blueprint for it. For a knife, place the items diagonally instead."]
+			dependencies: ["6F8247C0B7044BF3"]
+			id: "6C7CFD5EB321778F"
+			tasks: [{
+				id: "215F5396052D1A28"
+				type: "advancement"
+				title: "Craft A Knife Or A Dagger"
+				advancement: "silentgear:survival_tool"
+				criterion: ""
+			}]
+		}
+		{
+			x: 10.0d
+			y: 5.0d
+			description: ["Template boards are used to craft templates and crude repair kits. Craft a knife or dagger with a log to make template boards. Templates are single use whereas blueprints can be used multiple times."]
+			dependencies: ["6C7CFD5EB321778F"]
+			id: "166608FE117E5D95"
+			tasks: [{
+				id: "11A252C69A05C2AD"
+				type: "item"
+				item: "silentgear:template_board"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 4.0d
+			description: ["Blueprints are required to craft all gear types. Templates serve the same purpose, but are single use and have some restrictions. For tools and weapons, the blueprint makes a \"tool head\", which you then need to craft with additional items. Or you can add a rod or bowstring into the crafting grid to craft the whole tool at once (check JEI). For armor, the blueprint crafts the armor directly."]
+			dependencies: ["166608FE117E5D95"]
+			id: "775DE94F0D665F7E"
+			tasks: [{
+				id: "412AC38D3F3185D6"
+				type: "item"
+				item: "silentgear:blueprint_paper"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 4.0d
+			description: ["Some parts serve as upgrades for existing gear. Some upgrades can be applied by simply crafting the upgrade item with the gear item. Some can only be applied in the smithing table. Note that you can only have one of each type per item for most types. Trying to apply another upgrade will replace the existing one. For example, if you replace a diamond-tipped upgrade with emerald-tipped, the effects of the diamond-tipped upgrade are gone."]
+			dependencies: ["166608FE117E5D95"]
+			id: "54DD10BF92FA6625"
+			tasks: [{
+				id: "6AC0F6F5578A10D0"
+				type: "item"
+				item: "silentgear:upgrade_base"
+			}]
+		}
+		{
+			x: 11.5d
+			y: -0.5d
+			description: ["Used for salvaging various tools and armor."]
+			dependencies: ["775DE94F0D665F7E"]
+			id: "1604F7A0065109FC"
+			tasks: [{
+				id: "1D5666ADFEB9F27B"
+				type: "item"
+				item: "silentgear:salvager"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -0.5d
+			description: ["Grades apply an additional multiplier on material stats Possible grades are E, D, C, B, A, S, SS, SSS, and MAX. Not all stats are affected by grades, but many are. The material grader requires catalyst to function. Materials that are already graded can be placed back into the grader to re-grade them. If the material grader rolls a higher grader, the material gets the new grade. If it rolls the same grader or lower, nothing changes but catalyst is still consumed. The second input slot is for \"catalysts\", the fuel for the grader. Catalysts are consumed when grading, but they increase the average grade based on the tier of catalyst. In other words, you have a higher chance of getting better grades. There are multiple tiers of catalysts, defined by item tags. There are five tiers, but only three have items by default. The default catalysts are glowstone dust (tier 1), blazing dust (tier 2) and glittery dust (tier 3)."]
+			dependencies: ["775DE94F0D665F7E"]
+			id: "2EA3AC341EC7789F"
+			tasks: [{
+				id: "32FDE6426D6A9E8F"
+				type: "item"
+				item: "silentgear:material_grader"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 2.0d
+			description: ["A more advanced version of the standard upgrade that offers some very useful upgrades."]
+			dependencies: ["54DD10BF92FA6625"]
+			id: "3DFEEC39D6E46DD1"
+			tasks: [{
+				id: "19415D9ED9D2A134"
+				type: "item"
+				item: "silentgear:advanced_upgrade_base"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 5.5d
+			description: ["Placing a vanilla item into a crafting grid by itself will convert it into an equivalent Silent Gear item, assuming there is a recipe for it. These items will have higher PMMO requirements however so be careful with this!"]
+			dependencies: ["6858CAF4B5CAA293"]
+			id: "67501CC5B0F397E8"
+			tasks: [{
+				id: "2E4515AED960EACA"
+				type: "checkmark"
+				title: "Vanilla Conversion"
+			}]
+			rewards: [{
+				id: "553C9C85F07C36ED"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: 8.0d
+			y: 5.5d
+			description: ["There are a couple of ways to repair gear, outlined below. Note that you cannot simply craft two similar gear items together. The vanilla \"repair recipe\" does not work for more complex items because it strips all their data. Repair methods from other mods can also be a bit hit-or-miss because of this. If something doesnt work, let me know. Theres a good chance I can add support for other mods. Also keep in mind that gear items have a hidden repair efficiency stat. For example, shovels get double the amount of most tools. Some upgrades and other parts may also increase/decrease repair efficiency."]
+			dependencies: ["6858CAF4B5CAA293"]
+			id: "07986BECC93A8131"
+			tasks: [{
+				id: "3CBD5D3E777B61DC"
+				type: "checkmark"
+				title: "Repairing"
+			}]
+			rewards: [{
+				id: "1CBE4C9B9A257D71"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: 8.5d
+			y: 4.5d
+			description: ["Repair kits allow gear items to be quickly repaired in any crafting grid. The repair kit can either be filled with materials ahead of time, or place the gear item, repair kit, and materials into any crafting grid. But the tier of the material must be the same or higher than that of the gear's primary part. No repairing your emerald pickaxe with cobblestone, that would be silly!There are several tiers of repair kits. Each has a different capacity and efficiency modifier. Higher efficiency means you get more out of the materials used during repairs."]
+			dependencies: [
+				"166608FE117E5D95"
+				"07986BECC93A8131"
+			]
+			id: "74A189F0FDF526FF"
+			tasks: [{
+				id: "3BBA1514443C274E"
+				type: "item"
+				item: {
+					id: "silentgear:very_crude_repair_kit"
+					Count: 1b
+					tag: {
+						Storage: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: 4.5d
+			description: ["Quick repairs are convenient, but using an anvil will often get more out of the materials. Like with normal anvil uses, this will cost XP levels."]
+			dependencies: ["07986BECC93A8131"]
+			id: "2E6E48036E2B282C"
+			tasks: [{
+				id: "1A0AAE36C132A087"
+				type: "item"
+				item: "minecraft:anvil"
+			}]
+		}
+		{
+			x: 14.5d
+			y: 2.0d
+			description: ["The blueprint book provides blueprint storage. It acts like the selected blueprint in recipes."]
+			dependencies: ["775DE94F0D665F7E"]
+			id: "622E082B8FDCB200"
+			tasks: [{
+				id: "19C412EB357503DA"
+				type: "item"
+				item: {
+					id: "silentgear:blueprint_book"
+					Count: 1b
+					tag: {
+						Inventory: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "5D4780C71311D657"
+				type: "item"
+				item: {
+					id: "silentgear:blueprint_package"
+					Count: 1b
+					tag: {
+						silentlib.LootContainer: {
+							LootTable: "silentgear:starter_blueprints"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: 1.0d
+			description: ["Allows pickaxes (and only pickaxes) to mine anything a shovel can."]
+			dependencies: ["3DFEEC39D6E46DD1"]
+			id: "24A46BB161B5F2EE"
+			tasks: [{
+				id: "6E73249D14A31A7B"
+				type: "item"
+				item: "silentgear:spoon_upgrade"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 1.0d
+			description: ["Increases the area-of-effect for hammers and excavators. Max level 3, only 1 is obtainable by default."]
+			dependencies: ["3DFEEC39D6E46DD1"]
+			id: "34B6DCED4B15868C"
+			tasks: [{
+				id: "1E050114D7FB87E0"
+				type: "item"
+				item: "silentgear:wide_plate_upgrade"
+			}]
+		}
+		{
+			x: 13.0d
+			y: 4.0d
+			description: ["Material mixing! Just because you can doesn't mean you should... Mixing drastically different materials will reduce stats. The math is somewhat complex, so I won't go too far into the details. The order of materials now matters. The first (leftmost on top row) will have the greatest effect on stats. This is called the primary material and also determines the texture. The second has no more than half the impact on stats, third is no more than one-third, etc. The bigger the difference in any stat between the primary part and another, the lower the effect of the other part on that stat. "]
+			dependencies: ["775DE94F0D665F7E"]
+			id: "0F6C6B7620D45A2B"
+			tasks: [{
+				id: "49A4BEEE365FF936"
+				type: "advancement"
+				title: "Mix Two Or More Materials Together When Creating A Piece Of Gear"
+				advancement: "silentgear:mixed_materials"
+				criterion: ""
+			}]
+		}
+		{
+			x: 8.0d
+			y: 3.5d
+			dependencies: ["74A189F0FDF526FF"]
+			id: "5C175B2C03F74B73"
+			tasks: [{
+				id: "25BFEA5D10092284"
+				type: "item"
+				item: {
+					id: "silentgear:crude_repair_kit"
+					Count: 1b
+					tag: {
+						Storage: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: 3.0d
+			dependencies: ["5C175B2C03F74B73"]
+			id: "53462E1A69C75F79"
+			tasks: [{
+				id: "76D4377445804D91"
+				type: "item"
+				item: {
+					id: "silentgear:sturdy_repair_kit"
+					Count: 1b
+					tag: {
+						Storage: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: 2.5d
+			dependencies: ["53462E1A69C75F79"]
+			id: "34FF8FE7783C733D"
+			tasks: [{
+				id: "44702003D85DF877"
+				type: "item"
+				item: {
+					id: "silentgear:crimson_repair_kit"
+					Count: 1b
+					tag: {
+						Storage: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 2.0d
+			dependencies: ["34FF8FE7783C733D"]
+			id: "3AA85351D47DB5B2"
+			tasks: [{
+				id: "37445F62812F6ED3"
+				type: "item"
+				item: {
+					id: "silentgear:azure_repair_kit"
+					Count: 1b
+					tag: {
+						Storage: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 8.5d
+			y: 2.0d
+			description: ["Tip upgrades work more or less the same way as they did in Silent's Gems. Applying will augment the stats of a tool, usually increasing durability and harvest level. Check the tooltip of the upgrade to see exactly what stats will be affected and how."]
+			dependencies: ["54DD10BF92FA6625"]
+			id: "21A7FE9E14E47EA4"
+			tasks: [{
+				id: "78B1DD2B4D154DBB"
+				type: "advancement"
+				title: "Craft A Tip Upgrade"
+				advancement: "silentgear:tip_upgrade"
+				criterion: ""
+			}]
+		}
+		{
+			title: "Tier 2 Catalyst"
+			x: 9.0d
+			y: -2.5d
+			dependencies: ["19906DD71C2C0F18"]
+			id: "3A98C9480D734BE7"
+			tasks: [{
+				id: "3084C10654A66584"
+				type: "item"
+				item: "silentgear:blazing_dust"
+			}]
+		}
+		{
+			title: "Tier 1 Catalyst"
+			x: 9.0d
+			y: -1.5d
+			dependencies: ["2EA3AC341EC7789F"]
+			id: "19906DD71C2C0F18"
+			tasks: [
+				{
+					id: "15447E3DA4748245"
+					type: "item"
+					item: "minecraft:glowstone_dust"
+				}
+				{
+					id: "71A21E104FC71D6D"
+					type: "item"
+					item: "silentgear:glowing_dust"
+				}
+			]
+		}
+		{
+			title: "Tier 3 Catalyst"
+			x: 9.0d
+			y: -3.5d
+			dependencies: ["3A98C9480D734BE7"]
+			id: "263157F711CA6672"
+			tasks: [{
+				id: "3F643C65357B36C6"
+				type: "item"
+				item: "silentgear:glittery_dust"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -0.5d
+			description: ["Much like the supercharger from Silent's Gems, the starlight charger can enhance materials substantially by applying the Star Charged enchantment to them. It also requires a pseudo multi-block structure with four pillars, just like the supercharger, but only cares about the caps of the pillars. The starlight charger gains energy during the nighttime, but only when exposed to the sky. The stored charge is used when charging a material. The amount of charge used depends on the charge tier (determined by the catalyst and pillar caps) and the tier of the material. Chargeability (\"charge-ability\", like enchantability) is a stat that determines how well a material responds to supercharging. How exactly this affects different stats varies, but most multiply the enchantment level by chargeability and do something with that. Some stats will ignore chargeability. Some stats (like durability and armor durability) have exponential increases. Charging requires a catalyst item in addition to a properly set up starlight charger. The available catalysts can be controlled with item tags. The defaults are listed as follows. Tier 1: blaze gold dust. Tier 2: azure silver dust. Tier 3: starmetal dust. Four pillars must be built around the starlight charger, with the pillars being at the corners of a 7x7 square area and the charger in the center. The blocks used for the floor do not matter, nor does line of sight. The pillars must be three blocks high. Only the topmost block matters, the other two can be any block you wish. NOTE: After you finish the pillars, give the starlight charger up to 15 seconds to detect them. The pillar caps determine the maximum charge level that can be applied. You can still charge to lower levels by using a catalyst of that level. Tier 1: crimson steel block. Tier 2: azure electrum block. Tier 3: tyrian steel block."]
+			dependencies: ["775DE94F0D665F7E"]
+			id: "2B5A7D405C748786"
+			tasks: [{
+				id: "5D1BD7D2587E9DE9"
+				type: "item"
+				item: "silentgear:starlight_charger"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -1.5d
+			dependencies: ["2B5A7D405C748786"]
+			id: "612AD79784D2FA25"
+			tasks: [{
+				id: "0E1AF1F74CB70761"
+				type: "item"
+				item: "silentgear:blaze_gold_dust"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -2.5d
+			dependencies: ["612AD79784D2FA25"]
+			id: "307C5539E03A523E"
+			tasks: [{
+				id: "440A75E5168A74C6"
+				type: "item"
+				item: "silentgear:azure_silver_dust"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -3.5d
+			dependencies: ["307C5539E03A523E"]
+			id: "6D279F3A039154F6"
+			tasks: [{
+				id: "4C98F37BB4975C18"
+				type: "item"
+				item: "silentgear:starmetal_dust"
+			}]
+		}
+		{
+			x: 11.0d
+			y: -1.5d
+			dependencies: ["2B5A7D405C748786"]
+			id: "22F3956425605D53"
+			tasks: [{
+				id: "17F2F74FF4D0571C"
+				type: "item"
+				item: "silentgear:crimson_steel_block"
+			}]
+		}
+		{
+			x: 11.0d
+			y: -2.5d
+			dependencies: ["22F3956425605D53"]
+			id: "61BCD42C673D2053"
+			tasks: [{
+				id: "3C86284063061B63"
+				type: "item"
+				item: "silentgear:azure_electrum_block"
+			}]
+		}
+		{
+			x: 11.0d
+			y: -3.5d
+			dependencies: ["61BCD42C673D2053"]
+			id: "1FAE065461C637D5"
+			tasks: [{
+				id: "4FFD00C9835D4FE8"
+				type: "item"
+				item: "silentgear:tyrian_steel_block"
+			}]
+		}
+		{
+			x: 12.5d
+			y: -0.5d
+			description: ["The supercharger is a block capable of enhancing Silent Gear main materials far beyond their normal level. This produces significant boosts to many but not all stats. The supercharger is a multi-block structure (to some extent). The supercharger itself is a single block, but it also requires four pillars to function. There are three different pillar levels and the supercharger will operate at the lowest pillar level, the floor does not matter. The four pillars are built around the supercharger, three blocks out diagonally (i.e. the whole structure has a 7x7 footprint). There are three pillar levels, which affects what supercharge level you can apply. The bottom block of the pillar is on the same level as the supercharger. NOTE: After you finish the pillars, give the supercharger up to 15 seconds to detect them. The block's interface is very similar to the chaos altar: input (for main materials) on the left, output on the right, and a catalyst slot below. The \"catalyst\" in this case is charging agent. One charging agent is consumed per item supercharged. The structure level of the supercharger (lowest pillar level) and the tier of the charging agent determine what level of the supercharged enchantment you get. You can charge to lower levels by just using a lower-tier charging agent, no need to tear down the pillars! Chargeability (\"charge-ability\", like enchantability) is a stat that determines how well a material responds to supercharging. How exactly this affects different stats varies, but most multiply the supercharge level by chargeability and do something with that. Some will ignore chargeability (e.g. harvest level, increased by one per supercharge level for all materials). Some stats (durability and armor durability) have exponential increases. "]
+			dependencies: ["775DE94F0D665F7E"]
+			id: "1D661285DE3851FE"
+			tasks: [{
+				id: "544120252732949C"
+				type: "item"
+				item: "silentgems:supercharger"
+			}]
+		}
+		{
+			title: "Tier 1 Structure"
+			x: 13.0d
+			y: -1.5d
+			dependencies: ["1D661285DE3851FE"]
+			id: "5B4F0681C5E9A181"
+			tasks: [
+				{
+					id: "0294C75B13FC1129"
+					type: "item"
+					item: "silentgems:chaos_iron_block"
+					count: 4L
+				}
+				{
+					id: "20720EDBF33C7016"
+					type: "item"
+					title: "Any #silentgems:gem_blocks"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "silentgems:gem_blocks"
+						}
+					}
+					count: 4L
+				}
+			]
+		}
+		{
+			title: "Tier 2 Structure"
+			x: 13.0d
+			y: -2.5d
+			dependencies: ["5B4F0681C5E9A181"]
+			id: "2981AAEB5C885A93"
+			tasks: [
+				{
+					id: "4228F7522D623AC5"
+					type: "item"
+					item: "silentgems:chaos_crystal_block"
+					count: 4L
+				}
+				{
+					id: "3A492F8BFB215C41"
+					type: "item"
+					item: "silentgems:enriched_chaos_crystal_block"
+					count: 4L
+				}
+				{
+					id: "02E5ACC6155113F9"
+					type: "item"
+					title: "Any #silentgems:gem_blocks"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "silentgems:gem_blocks"
+						}
+					}
+					count: 4L
+				}
+			]
+		}
+		{
+			title: "Tier 3 Structure"
+			x: 13.0d
+			y: -3.5d
+			dependencies: ["2981AAEB5C885A93"]
+			id: "1C078D7073AE817D"
+			tasks: [
+				{
+					id: "2F49BA71C704EF63"
+					type: "item"
+					item: "silentgems:chaos_iron_block"
+					count: 4L
+				}
+				{
+					id: "4151A9A2A190BB3B"
+					type: "item"
+					item: "silentgems:enriched_chaos_crystal_block"
+					count: 4L
+				}
+				{
+					id: "663382604F3DE8DC"
+					type: "item"
+					item: "silentgems:ender_crystal_block"
+					count: 8L
+				}
+				{
+					id: "7E1557703C8E9845"
+					type: "item"
+					title: "Any #silentgems:gem_blocks"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "silentgems:gem_blocks"
+						}
+					}
+					count: 4L
+				}
+			]
+		}
+		{
+			x: 12.0d
+			y: -1.5d
+			dependencies: ["1D661285DE3851FE"]
+			id: "3A4CD924A7EB7F65"
+			tasks: [{
+				id: "05C8D25B09D075F4"
+				type: "item"
+				item: "silentgems:charging_agent"
+			}]
+		}
+		{
+			x: 12.0d
+			y: -2.5d
+			dependencies: ["3A4CD924A7EB7F65"]
+			id: "349D1711C3E57802"
+			tasks: [{
+				id: "5DED424C023D3FE5"
+				type: "item"
+				item: "silentgems:super_charging_agent"
+			}]
+		}
+		{
+			x: 12.0d
+			y: -3.5d
+			dependencies: ["349D1711C3E57802"]
+			id: "66D21353C93B8400"
+			tasks: [{
+				id: "651EE101FB14FE1D"
+				type: "item"
+				item: "silentgems:ultra_charging_agent"
+			}]
+		}
+		{
+			x: 13.5d
+			y: -0.5d
+			description: ["Currently only used to alloy metals together and combine the stats of both metals, but expect changes in the future. Used to make tyrian."]
+			dependencies: ["775DE94F0D665F7E"]
+			id: "7465ED3B2772F526"
+			tasks: [{
+				id: "016A4DF7D7A2DCD3"
+				type: "item"
+				item: "silentgear:metal_alloyer"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 0.0d
+			description: ["The token enchanter is a block that can combine several items into a new item. Specifically, Silent's Gems uses this to create enchantment tokens. However, the token enchanter can create almost anything. The result does not copy any data from the inputs, so it's not suitable for enchanting many items, such as tools or armor (but that's what enchantment tokens are for). The token enchanter requires no energy or fuel, but generates chaos while working. The amount depends on the recipe. No chaos is created while not in use. "]
+			dependencies: ["775DE94F0D665F7E"]
+			id: "5698D66AD902CA41"
+			tasks: [{
+				id: "6EC2716E61EF5289"
+				type: "item"
+				item: "silentgems:token_enchanter"
+			}]
+		}
+		{
+			x: 14.5d
+			y: 1.0d
+			description: ["Processes recipes that take one input, one catalyst (not consumed), and produces one output. Generates chaos when working. Recipes can be added with data packs."]
+			dependencies: ["775DE94F0D665F7E"]
+			id: "13D6C42BE47E35E0"
+			tasks: [{
+				id: "765B56EA8DA0E7D6"
+				type: "item"
+				item: "silentgems:transmutation_altar"
+			}]
+		}
+		{
+			x: -10.5d
+			y: 3.5d
+			dependencies: ["6EB25F232551B6A1"]
+			id: "20C4B80462D2D666"
+			tasks: [{
+				id: "211827C4D2FAC7D0"
+				type: "advancement"
+				title: "Upgrade A Vanilla Tool"
+				advancement: "tetra:upgrades/tool_upgrade"
+				criterion: ""
+			}]
+		}
+		{
+			x: -12.5d
+			y: 6.0d
+			dependencies: ["6EB25F232551B6A1"]
+			id: "64E7D4F5EA4FFCD8"
+			tasks: [{
+				id: "346D1A2775ACC1C7"
+				type: "advancement"
+				title: "Make A Toolbelt"
+				advancement: "tetra:upgrades/toolbelt"
+				criterion: ""
+			}]
+		}
+		{
+			x: -14.0d
+			y: 6.0d
+			dependencies: ["64E7D4F5EA4FFCD8"]
+			id: "37F44D94151F6635"
+			tasks: [{
+				id: "686763A475060EBF"
+				type: "advancement"
+				title: "Fully Upgrade A Toolbelt"
+				advancement: "tetra:upgrades/toolbelt_upgraded"
+				criterion: ""
+			}]
+		}
+		{
+			x: -11.5d
+			y: 4.0d
+			dependencies: ["6EB25F232551B6A1"]
+			id: "1FB53E94FD08B4D3"
+			tasks: [{
+				id: "49FCC5FB62395E4F"
+				type: "advancement"
+				title: "Upgrade A Bow"
+				advancement: "tetra:upgrades/bow_upgrade"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "261C88358BCFD608"
+				type: "random"
+				title: "Archer's Quiver"
+				table_id: 8727349630965326052L
+			}]
+		}
+		{
+			x: -12.0d
+			y: 5.0d
+			dependencies: ["6EB25F232551B6A1"]
+			id: "770B25759AF6B5E6"
+			tasks: [{
+				id: "3EE0DDBFCD7808C6"
+				type: "advancement"
+				title: "Upgrade A Shield"
+				advancement: "tetra:upgrades/shield_upgrade"
+				criterion: ""
+			}]
+		}
+		{
+			x: -9.0d
+			y: 3.5d
+			dependencies: ["6EB25F232551B6A1"]
+			id: "1F2A9922A02DF00B"
+			tasks: [{
+				id: "5A7BC7FA1F39BF4D"
+				type: "advancement"
+				title: "Upgrade A Sword"
+				advancement: "tetra:upgrades/sword_upgrade"
+				criterion: ""
+			}]
+		}
+		{
+			x: -8.5d
+			y: 6.0d
+			dependencies: ["6EB25F232551B6A1"]
+			id: "63F4ADA9CB837468"
+			tasks: [{
+				id: "290E46083103E018"
+				type: "advancement"
+				title: "Make A Rack"
+				advancement: "tetra:upgrades/rack"
+				criterion: ""
+			}]
+		}
+		{
+			x: -8.5d
+			y: 2.5d
+			dependencies: ["1F2A9922A02DF00B"]
+			id: "74AD70BB7D7D6971"
+			tasks: [{
+				id: "76FB3F08670CA9AA"
+				type: "advancement"
+				title: "Hone A Sword"
+				advancement: "tetra:upgrades/sword_hone"
+				criterion: ""
+			}]
+		}
+		{
+			x: -7.5d
+			y: 3.5d
+			dependencies: ["1F2A9922A02DF00B"]
+			id: "3656934B07CF3672"
+			tasks: [{
+				id: "2AA53275D8E30EA7"
+				type: "advancement"
+				title: "Strengthen A Sword's Integrity"
+				advancement: "tetra:upgrades/sword_integrity"
+				criterion: ""
+			}]
+		}
+		{
+			x: -8.0d
+			y: 1.0d
+			dependencies: ["74AD70BB7D7D6971"]
+			id: "1724F894D0E274A4"
+			tasks: [{
+				id: "60FEFB730DA59F02"
+				type: "advancement"
+				title: "Hone A Sword To Level 5"
+				advancement: "tetra:upgrades/sword_hone_peak"
+				criterion: ""
+			}]
+		}
+		{
+			x: -7.0d
+			y: 2.0d
+			dependencies: ["74AD70BB7D7D6971"]
+			id: "2613A0D737B80039"
+			tasks: [{
+				id: "04FBB463774603D4"
+				type: "advancement"
+				title: "Hone An Improvement To A Sword"
+				advancement: "tetra:upgrades/sword_improvement_hone"
+				criterion: ""
+			}]
+		}
+		{
+			x: 14.5d
+			y: 0.0d
+			description: ["Consumes purifying powder to remove chaos from the world. Will not reduce chaos below the equilibrium level. Useful if you accidentally leaked a lot of chaos into the world."]
+			dependencies: ["775DE94F0D665F7E"]
+			id: "30B61DFCFF262662"
+			tasks: [{
+				id: "2874B3B997A1CE7B"
+				type: "item"
+				item: "silentgems:purifier"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 1.0d
+			description: ["Allows excavators to create paths in a 3x3 area."]
+			dependencies: ["3DFEEC39D6E46DD1"]
+			id: "61DBF889D198178A"
+			tasks: [{
+				id: "695EC9C23CA1EE11"
+				type: "item"
+				item: "silentgear:road_maker_upgrade"
+			}]
+		}
+	]
+}

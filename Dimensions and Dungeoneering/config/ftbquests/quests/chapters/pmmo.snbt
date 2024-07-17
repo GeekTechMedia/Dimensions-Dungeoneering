@@ -1,0 +1,6081 @@
+{
+	id: "53F3279DDE69F91A"
+	group: "31DBD57DDF20D469"
+	order_index: 2
+	filename: "pmmo"
+	title: "PMMO"
+	icon: "forbidden_arcanus:dark_nether_star"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 0.0d
+			y: -10.0d
+			width: 3.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "pmmo:textures/gui/star.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -12.0d
+			y: -8.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/item/diamond_pickaxe.png"
+			hover: ["Mining"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -10.5d
+			y: -8.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/item/diamond_axe.png"
+			hover: ["Woodcutting"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -9.0d
+			y: -8.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/item/diamond_sword.png"
+			hover: ["Combat"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -6.0d
+			y: -8.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/item/diamond_chestplate.png"
+			hover: ["Endurance"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 7.5d
+			y: -8.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/block/crafting_table_top.png"
+			hover: ["Crafting"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -15.0d
+			y: -8.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "betterendforge:textures/item/diamond_hammer.png"
+			hover: ["Smithing"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 3.0d
+			y: -8.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/item/brewing_stand.png"
+			hover: ["Alchemy"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 4.5d
+			y: -8.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/mob_effect/speed.png"
+			hover: ["Agility"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 6.0d
+			y: -8.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "farmersdelight:textures/item/cooking_pot.png"
+			hover: ["Cooking"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -13.5d
+			y: -8.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/item/diamond_shovel.png"
+			hover: ["Excavation"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 9.0d
+			y: -8.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/item/fishing_rod.png"
+			hover: ["Fishing"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 10.5d
+			y: -8.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/item/wheat_seeds.png"
+			hover: ["Farming"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 12.0d
+			y: -8.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "eidolon:textures/particle/wicked_sign.png"
+			hover: ["Magic"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -7.5d
+			y: -8.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/item/bow.png"
+			hover: ["Archery"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 13.5d
+			y: -8.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "mcwwindows:textures/item/hammer.png"
+			hover: ["Building"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -4.5d
+			y: -8.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/item/oak_boat.png"
+			hover: ["Sailing"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -3.0d
+			y: -8.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "artifacts:textures/item/flippers.png"
+			hover: ["Swimming"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 15.0d
+			y: -8.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/item/elytra.png"
+			hover: ["Flying"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -1.5d
+			y: -8.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/item/wheat.png"
+			hover: ["Taming"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 1.5d
+			y: -8.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "gunswithoutroses:textures/item/diamond_sniper.png"
+			hover: ["Gunslinging"]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			x: -12.0d
+			y: -7.0d
+			description: ["The mining skill is one of the most useful skills in PMMO. Mining can be leveled up by mining stone related materials. As you level up your mining skill you will gain the ability to mine certain ores. Also the higher your mining level the faster you will be able to mine stoney materials, and possibly have a chance to get extra ores from the same block while mining!"]
+			dependencies: ["67AA905426C2C9E9"]
+			id: "760E3A310E6520BD"
+			tasks: [{
+				id: "78A3B98DF3200F3B"
+				type: "pmmo:skill"
+				title: "Mining 10"
+				icon: {
+					id: "minecraft:wooden_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "mining"
+				requiredLevel: 10.0d
+			}]
+			rewards: [
+				{
+					id: "336652B9EA408821"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+				{
+					id: "77DD681B90D148ED"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "mining"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: -7.0d
+			description: ["Woodcutting is a skill that can be leveled up by mining wood related materials. As you level up your woodcutting skill you will be able to mine these materials faster as well as having a chance to drop extra logs when mining trees."]
+			dependencies: ["67AA905426C2C9E9"]
+			id: "3C97E592478C5E1B"
+			tasks: [{
+				id: "30350097734A011A"
+				type: "pmmo:skill"
+				title: "Woodcutting 10"
+				icon: {
+					id: "minecraft:wooden_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "woodcutting"
+				requiredLevel: 10.0d
+			}]
+			rewards: [
+				{
+					id: "1125C6DB9DCCAE97"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+				{
+					id: "432DFF36A352F3B0"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "woodcutting"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: -7.0d
+			description: ["Combat is a skill that can be leveled up by hitting mobs and killing mobs. As you level this skill up you will deal more damage."]
+			dependencies: ["67AA905426C2C9E9"]
+			id: "0ADB3137AF2A6256"
+			tasks: [{
+				id: "26AD4DE392661528"
+				type: "pmmo:skill"
+				title: "Combat 10"
+				icon: {
+					id: "minecraft:wooden_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "combat"
+				requiredLevel: 10.0d
+			}]
+			rewards: [
+				{
+					id: "70A4A2FFD60C1D1C"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+				{
+					id: "5FE2B08CFB71B509"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "combat"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -12.0d
+			y: -5.5d
+			dependencies: ["760E3A310E6520BD"]
+			id: "469D0DD5228B55B1"
+			tasks: [{
+				id: "1F0D7F16343940E4"
+				type: "pmmo:skill"
+				title: "Mining 20"
+				icon: {
+					id: "minecraft:stone_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "mining"
+				requiredLevel: 20.0d
+			}]
+			rewards: [{
+				id: "665198F8B9FE1A26"
+				type: "ftbmoney:money"
+				ftb_money: 100L
+			}]
+		}
+		{
+			x: -12.0d
+			y: -4.0d
+			dependencies: ["469D0DD5228B55B1"]
+			id: "203BB14D74E07B5D"
+			tasks: [{
+				id: "3529894CC9BBD433"
+				type: "pmmo:skill"
+				title: "Mining 30"
+				icon: {
+					id: "minecraft:golden_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "mining"
+				requiredLevel: 30.0d
+			}]
+			rewards: [{
+				id: "25B60BD53A67C693"
+				type: "ftbmoney:money"
+				ftb_money: 200L
+			}]
+		}
+		{
+			x: -12.0d
+			y: -2.5d
+			dependencies: ["203BB14D74E07B5D"]
+			id: "25A8313AF71DB4F3"
+			tasks: [{
+				id: "7572BEBDFAD01637"
+				type: "pmmo:skill"
+				title: "Mining 40"
+				icon: {
+					id: "minecraft:iron_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "mining"
+				requiredLevel: 40.0d
+			}]
+			rewards: [{
+				id: "34415E3FC12039D9"
+				type: "ftbmoney:money"
+				ftb_money: 400L
+			}]
+		}
+		{
+			x: -12.0d
+			y: -1.0d
+			dependencies: ["25A8313AF71DB4F3"]
+			id: "677180466644B1F8"
+			tasks: [{
+				id: "60D5193439A46164"
+				type: "pmmo:skill"
+				title: "Mining 50"
+				icon: {
+					id: "minecraft:diamond_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "mining"
+				requiredLevel: 50.0d
+			}]
+			rewards: [{
+				id: "781D7B37FF310179"
+				type: "ftbmoney:money"
+				ftb_money: 800L
+			}]
+		}
+		{
+			x: -12.0d
+			y: 0.5d
+			dependencies: ["677180466644B1F8"]
+			id: "4836E0BD9DEBA948"
+			tasks: [{
+				id: "65A33DD3EDBD973C"
+				type: "pmmo:skill"
+				title: "Mining 60"
+				icon: {
+					id: "minecraft:netherite_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "mining"
+				requiredLevel: 60.0d
+			}]
+			rewards: [{
+				id: "6C7757C6D450EDFA"
+				type: "ftbmoney:money"
+				ftb_money: 1600L
+			}]
+		}
+		{
+			x: -12.0d
+			y: 2.0d
+			dependencies: ["4836E0BD9DEBA948"]
+			id: "0D7D7E68DB6D1CF6"
+			tasks: [{
+				id: "6799748C1B7B0B02"
+				type: "pmmo:skill"
+				title: "Mining 70"
+				icon: {
+					id: "mysticalagriculture:inferium_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "mining"
+				requiredLevel: 70.0d
+			}]
+			rewards: [{
+				id: "7F2F11CB5232C369"
+				type: "ftbmoney:money"
+				ftb_money: 3200L
+			}]
+		}
+		{
+			x: -4.5d
+			y: -7.0d
+			description: ["Saling is a skill that can be leveled up simply by saling in a boat. Unfortunately leveling it to higher levels doesn't offer and buffs other then the rewards from this questline."]
+			dependencies: ["67AA905426C2C9E9"]
+			id: "0502590ADB927FE7"
+			tasks: [{
+				id: "6417E2957D72ECCC"
+				type: "pmmo:skill"
+				title: "Sailing 10"
+				icon: "minecraft:oak_boat"
+				skill: "sailing"
+				requiredLevel: 10.0d
+			}]
+			rewards: [
+				{
+					id: "10371D7C709CCA3C"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+				{
+					id: "39D3BA6CAB7A4D58"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "sailing"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -7.0d
+			description: ["Swimming is a skill that can be leveled up by well... swimming. As you level up this skill you will be able to see better underwater and breathe for longer underwater."]
+			dependencies: ["67AA905426C2C9E9"]
+			id: "36BB3447DED1E6D3"
+			tasks: [{
+				id: "13604E423610DF78"
+				type: "pmmo:skill"
+				title: "Swimming 10"
+				icon: "artifacts:flippers"
+				skill: "swimming"
+				requiredLevel: 10.0d
+			}]
+			rewards: [
+				{
+					id: "748AD8C3429DCBA0"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+				{
+					id: "60358ED69A048197"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "swimming"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -12.0d
+			y: 3.5d
+			dependencies: ["0D7D7E68DB6D1CF6"]
+			id: "34014327677DBEDC"
+			tasks: [{
+				id: "1D29C88DE5153952"
+				type: "pmmo:skill"
+				title: "Mining 80"
+				icon: {
+					id: "mysticalagriculture:prudentium_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "mining"
+				requiredLevel: 80.0d
+			}]
+			rewards: [{
+				id: "44D445826CC4B8D9"
+				type: "ftbmoney:money"
+				ftb_money: 6400L
+			}]
+		}
+		{
+			x: -12.0d
+			y: 5.0d
+			dependencies: ["34014327677DBEDC"]
+			id: "07FBBD00BA662BB2"
+			tasks: [{
+				id: "4A7AC8143A71334E"
+				type: "pmmo:skill"
+				title: "Mining 90"
+				icon: {
+					id: "mysticalagriculture:tertium_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "mining"
+				requiredLevel: 90.0d
+			}]
+			rewards: [{
+				id: "33B20F02C0FFFD59"
+				type: "ftbmoney:money"
+				ftb_money: 12800L
+			}]
+		}
+		{
+			x: -12.0d
+			y: 6.5d
+			dependencies: ["07FBBD00BA662BB2"]
+			id: "69AAB59553688811"
+			tasks: [{
+				id: "09BBC45E3A4E21AA"
+				type: "pmmo:skill"
+				title: "Mining 100"
+				icon: {
+					id: "mysticalagriculture:imperium_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "mining"
+				requiredLevel: 100.0d
+			}]
+			rewards: [{
+				id: "5C810D68D0F2A3C3"
+				type: "ftbmoney:money"
+				ftb_money: 25600L
+			}]
+		}
+		{
+			x: -12.0d
+			y: 8.0d
+			dependencies: ["69AAB59553688811"]
+			id: "673778A687C0F398"
+			tasks: [{
+				id: "699A14B0E5A15121"
+				type: "pmmo:skill"
+				title: "Mining 110"
+				icon: "mysticalagriculture:supremium_pickaxe"
+				skill: "mining"
+				requiredLevel: 110.0d
+			}]
+			rewards: [{
+				id: "254345019BFDF8CA"
+				type: "ftbmoney:money"
+				ftb_money: 51200L
+			}]
+		}
+		{
+			x: -12.0d
+			y: 9.5d
+			dependencies: ["673778A687C0F398"]
+			id: "07A03EF009A996AB"
+			tasks: [{
+				id: "424144B4D036DD36"
+				type: "pmmo:skill"
+				title: "Mining 120"
+				icon: "mysticaladaptations:insanium_pickaxe"
+				skill: "mining"
+				requiredLevel: 120.0d
+			}]
+			rewards: [{
+				id: "2010CC7F241965A7"
+				type: "ftbmoney:money"
+				ftb_money: 102400L
+			}]
+		}
+		{
+			x: -10.5d
+			y: -5.5d
+			dependencies: ["3C97E592478C5E1B"]
+			id: "3D65095C597A4404"
+			tasks: [{
+				id: "0E97FF25A5A17DA6"
+				type: "pmmo:skill"
+				title: "Woodcutting 20"
+				icon: {
+					id: "minecraft:stone_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "woodcutting"
+				requiredLevel: 20.0d
+			}]
+			rewards: [{
+				id: "2AF878ECFA889B29"
+				type: "ftbmoney:money"
+				ftb_money: 100L
+			}]
+		}
+		{
+			x: -10.5d
+			y: -4.0d
+			dependencies: ["3D65095C597A4404"]
+			id: "65048E24E9F14A8A"
+			tasks: [{
+				id: "34BED909D610F310"
+				type: "pmmo:skill"
+				title: "Woodcutting 30"
+				icon: {
+					id: "minecraft:golden_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "woodcutting"
+				requiredLevel: 30.0d
+			}]
+			rewards: [{
+				id: "45DFF150065CAB87"
+				type: "ftbmoney:money"
+				ftb_money: 200L
+			}]
+		}
+		{
+			x: -10.5d
+			y: -2.5d
+			dependencies: ["65048E24E9F14A8A"]
+			id: "78B962F13D597057"
+			tasks: [{
+				id: "37D8F725E89D6301"
+				type: "pmmo:skill"
+				title: "Woodcutting 40"
+				icon: {
+					id: "minecraft:iron_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "woodcutting"
+				requiredLevel: 40.0d
+			}]
+			rewards: [{
+				id: "60CDCE63A786E2EB"
+				type: "ftbmoney:money"
+				ftb_money: 400L
+			}]
+		}
+		{
+			x: -10.5d
+			y: -1.0d
+			dependencies: ["78B962F13D597057"]
+			id: "321B99C5D72979F9"
+			tasks: [{
+				id: "1F87984C3FA8199D"
+				type: "pmmo:skill"
+				title: "Woodcutting 50"
+				icon: {
+					id: "minecraft:diamond_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "woodcutting"
+				requiredLevel: 50.0d
+			}]
+			rewards: [{
+				id: "09531952BF9D08E8"
+				type: "ftbmoney:money"
+				ftb_money: 800L
+			}]
+		}
+		{
+			x: -10.5d
+			y: 0.5d
+			dependencies: ["321B99C5D72979F9"]
+			id: "1B2837C3728804BB"
+			tasks: [{
+				id: "515544797DB886EA"
+				type: "pmmo:skill"
+				title: "Woodcutting 60"
+				icon: {
+					id: "minecraft:netherite_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "woodcutting"
+				requiredLevel: 60.0d
+			}]
+			rewards: [{
+				id: "5D0243663A9B8A6A"
+				type: "ftbmoney:money"
+				ftb_money: 1600L
+			}]
+		}
+		{
+			x: -10.5d
+			y: 2.0d
+			dependencies: ["1B2837C3728804BB"]
+			id: "179690295C47F7D0"
+			tasks: [{
+				id: "4B4922FE4CB16F86"
+				type: "pmmo:skill"
+				title: "Woodcutting 70"
+				icon: {
+					id: "mysticalagriculture:inferium_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "woodcutting"
+				requiredLevel: 70.0d
+			}]
+			rewards: [{
+				id: "038C3323C1CEE877"
+				type: "ftbmoney:money"
+				ftb_money: 3200L
+			}]
+		}
+		{
+			x: -10.5d
+			y: 3.5d
+			dependencies: ["179690295C47F7D0"]
+			id: "40A7413EB6F433AF"
+			tasks: [{
+				id: "0F5F15FDA78FE30C"
+				type: "pmmo:skill"
+				title: "Woodcutting 80"
+				icon: {
+					id: "mysticalagriculture:prudentium_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "woodcutting"
+				requiredLevel: 80.0d
+			}]
+			rewards: [{
+				id: "31F6DD4B768E9F39"
+				type: "ftbmoney:money"
+				ftb_money: 6400L
+			}]
+		}
+		{
+			x: -10.5d
+			y: 5.0d
+			dependencies: ["40A7413EB6F433AF"]
+			id: "3AC6F76CC6890D88"
+			tasks: [{
+				id: "77CE44B18401D746"
+				type: "pmmo:skill"
+				title: "Woodcutting 90"
+				icon: {
+					id: "mysticalagriculture:tertium_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "woodcutting"
+				requiredLevel: 90.0d
+			}]
+			rewards: [{
+				id: "08AAFF62901337F1"
+				type: "ftbmoney:money"
+				ftb_money: 12800L
+			}]
+		}
+		{
+			x: -10.5d
+			y: 6.5d
+			dependencies: ["3AC6F76CC6890D88"]
+			id: "1D388090A934949C"
+			tasks: [{
+				id: "367A0EDEB7D08FA9"
+				type: "pmmo:skill"
+				title: "Woodcutting 100"
+				icon: {
+					id: "mysticalagriculture:imperium_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "woodcutting"
+				requiredLevel: 100.0d
+			}]
+			rewards: [{
+				id: "30F64963FBFE5E2A"
+				type: "ftbmoney:money"
+				ftb_money: 25600L
+			}]
+		}
+		{
+			x: -10.5d
+			y: 8.0d
+			dependencies: ["1D388090A934949C"]
+			id: "6498DF1771B72047"
+			tasks: [{
+				id: "26E5CAF44881CFA8"
+				type: "pmmo:skill"
+				title: "Woodcutting 110"
+				icon: "mysticalagriculture:supremium_axe"
+				skill: "woodcutting"
+				requiredLevel: 110.0d
+			}]
+			rewards: [{
+				id: "27AE55A28224C2E3"
+				type: "ftbmoney:money"
+				ftb_money: 51200L
+			}]
+		}
+		{
+			x: -10.5d
+			y: 9.5d
+			dependencies: ["6498DF1771B72047"]
+			id: "1E317132A3142949"
+			tasks: [{
+				id: "775F9899CEA03DF1"
+				type: "pmmo:skill"
+				title: "Woodcutting 120"
+				icon: "mysticaladaptations:insanium_axe"
+				skill: "woodcutting"
+				requiredLevel: 120.0d
+			}]
+			rewards: [{
+				id: "7BD9F4F74B0E55E1"
+				type: "ftbmoney:money"
+				ftb_money: 102400L
+			}]
+		}
+		{
+			x: -6.0d
+			y: -7.0d
+			description: ["Endurance is a skill that is necessary to wear armors. You can simply level this up by taking damage. As you level this skill up you will take less damage, gain additional hearts, get better passive regeneration, and be able to breathe underwater for longer."]
+			dependencies: ["67AA905426C2C9E9"]
+			id: "6125BC877E2C1EAD"
+			tasks: [{
+				id: "03BA356BC235BC45"
+				type: "pmmo:skill"
+				title: "Endurance 10"
+				icon: {
+					id: "nocubes_wilderness:birch_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "endurance"
+				requiredLevel: 10.0d
+			}]
+			rewards: [
+				{
+					id: "10E985BC46ACA541"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+				{
+					id: "0F942607F51C8BEB"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "endurance"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -5.5d
+			dependencies: ["6125BC877E2C1EAD"]
+			id: "2FC58C98EF8327CE"
+			tasks: [{
+				id: "341847A5B78062D6"
+				type: "pmmo:skill"
+				title: "Endurance 20"
+				icon: {
+					id: "minecraft:leather_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "endurance"
+				requiredLevel: 20.0d
+			}]
+			rewards: [{
+				id: "48EFD6AA08C24126"
+				type: "ftbmoney:money"
+				ftb_money: 100L
+			}]
+		}
+		{
+			x: -6.0d
+			y: -4.0d
+			dependencies: ["2FC58C98EF8327CE"]
+			id: "25F0556941FF3EBB"
+			tasks: [{
+				id: "0BCAF859B5BF855F"
+				type: "pmmo:skill"
+				title: "Endurance 30"
+				icon: {
+					id: "minecraft:golden_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "endurance"
+				requiredLevel: 30.0d
+			}]
+			rewards: [{
+				id: "67BF5242E428136A"
+				type: "ftbmoney:money"
+				ftb_money: 200L
+			}]
+		}
+		{
+			x: -6.0d
+			y: -2.5d
+			dependencies: ["25F0556941FF3EBB"]
+			id: "3C8007A43A28EBCF"
+			tasks: [{
+				id: "3088F86A33125378"
+				type: "pmmo:skill"
+				title: "Endurance 40"
+				icon: {
+					id: "minecraft:iron_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "endurance"
+				requiredLevel: 40.0d
+			}]
+			rewards: [{
+				id: "66C014C844DC9AA9"
+				type: "ftbmoney:money"
+				ftb_money: 400L
+			}]
+		}
+		{
+			x: -6.0d
+			y: -1.0d
+			dependencies: ["3C8007A43A28EBCF"]
+			id: "6AEB538757A32A58"
+			tasks: [{
+				id: "22C7EAF4A13384CD"
+				type: "pmmo:skill"
+				title: "Endurance 50"
+				icon: {
+					id: "minecraft:diamond_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "endurance"
+				requiredLevel: 50.0d
+			}]
+			rewards: [{
+				id: "470FE1EBDC589643"
+				type: "ftbmoney:money"
+				ftb_money: 800L
+			}]
+		}
+		{
+			x: -6.0d
+			y: 0.5d
+			dependencies: ["6AEB538757A32A58"]
+			id: "7954EFD802E11BC0"
+			tasks: [{
+				id: "43E621AF7A139475"
+				type: "pmmo:skill"
+				title: "Endurance 60"
+				icon: {
+					id: "minecraft:netherite_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "endurance"
+				requiredLevel: 60.0d
+			}]
+			rewards: [{
+				id: "19BCCA7071B44786"
+				type: "ftbmoney:money"
+				ftb_money: 1600L
+			}]
+		}
+		{
+			x: -6.0d
+			y: 2.0d
+			dependencies: ["7954EFD802E11BC0"]
+			id: "77C5DADA8664E2B3"
+			tasks: [{
+				id: "69848F20DC8FA1F8"
+				type: "pmmo:skill"
+				title: "Endurance 70"
+				icon: {
+					id: "mysticalagriculture:inferium_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "endurance"
+				requiredLevel: 70.0d
+			}]
+			rewards: [{
+				id: "084EC1911C5F00C9"
+				type: "ftbmoney:money"
+				ftb_money: 3200L
+			}]
+		}
+		{
+			x: -6.0d
+			y: 3.5d
+			dependencies: ["77C5DADA8664E2B3"]
+			id: "18DF7E6D34D5C7C6"
+			tasks: [{
+				id: "5E994CD13A2B4FEA"
+				type: "pmmo:skill"
+				title: "Endurance 80"
+				icon: {
+					id: "mysticalagriculture:prudentium_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "endurance"
+				requiredLevel: 80.0d
+			}]
+			rewards: [{
+				id: "5870F2416E654074"
+				type: "ftbmoney:money"
+				ftb_money: 6400L
+			}]
+		}
+		{
+			x: -6.0d
+			y: 5.0d
+			dependencies: ["18DF7E6D34D5C7C6"]
+			id: "1913660EED2CA4AA"
+			tasks: [{
+				id: "22AFA71C81B3659C"
+				type: "pmmo:skill"
+				title: "Endurance 90"
+				icon: {
+					id: "mysticalagriculture:tertium_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "endurance"
+				requiredLevel: 90.0d
+			}]
+			rewards: [{
+				id: "3998F3A21DA92F7A"
+				type: "ftbmoney:money"
+				ftb_money: 12800L
+			}]
+		}
+		{
+			x: -6.0d
+			y: 6.5d
+			dependencies: ["1913660EED2CA4AA"]
+			id: "29E997B964EBB65F"
+			tasks: [{
+				id: "152D1DA0D2B655B1"
+				type: "pmmo:skill"
+				title: "Endurance 100"
+				icon: {
+					id: "mysticalagriculture:imperium_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "endurance"
+				requiredLevel: 100.0d
+			}]
+			rewards: [{
+				id: "38E7015A29211AA4"
+				type: "ftbmoney:money"
+				ftb_money: 25600L
+			}]
+		}
+		{
+			x: -6.0d
+			y: 8.0d
+			dependencies: ["29E997B964EBB65F"]
+			id: "5BF7F4712FBFAFA1"
+			tasks: [{
+				id: "36204B4EB6EB1488"
+				type: "pmmo:skill"
+				title: "Endurance 110"
+				icon: {
+					id: "mysticalagriculture:supremium_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "endurance"
+				requiredLevel: 110.0d
+			}]
+			rewards: [{
+				id: "66C456BBE67B1FE9"
+				type: "ftbmoney:money"
+				ftb_money: 51200L
+			}]
+		}
+		{
+			x: -6.0d
+			y: 9.5d
+			dependencies: ["5BF7F4712FBFAFA1"]
+			id: "2526C6952027912C"
+			tasks: [{
+				id: "17537C999F953E90"
+				type: "pmmo:skill"
+				title: "Endurance 120"
+				icon: {
+					id: "mysticaladaptations:insanium_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "endurance"
+				requiredLevel: 120.0d
+			}]
+			rewards: [{
+				id: "4F6DD8D6631B3DA5"
+				type: "ftbmoney:money"
+				ftb_money: 102400L
+			}]
+		}
+		{
+			x: 7.5d
+			y: -7.0d
+			description: ["Crafting is a skill that can be leveled up simply by crafting. Unfortunately leveling it to higher levels doesn't offer and buffs other then the rewards from this questline. However, many items require higher crafting levels in order to craft them."]
+			dependencies: ["67AA905426C2C9E9"]
+			id: "2D8DD5D08CCF14CD"
+			tasks: [{
+				id: "79AF7107F356E3F1"
+				type: "pmmo:skill"
+				title: "Crafting 10"
+				icon: "minecraft:crafting_table"
+				skill: "crafting"
+				requiredLevel: 10.0d
+			}]
+			rewards: [
+				{
+					id: "093DF3C3BE24DCDA"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+				{
+					id: "505CDB6B9BCE85F2"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "crafting"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: -5.5d
+			dependencies: ["0ADB3137AF2A6256"]
+			id: "7EBDB53D9624DEA1"
+			tasks: [{
+				id: "59038752893E2CBF"
+				type: "pmmo:skill"
+				title: "Combat 20"
+				icon: {
+					id: "minecraft:stone_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "combat"
+				requiredLevel: 20.0d
+			}]
+			rewards: [{
+				id: "42F4865506A462EA"
+				type: "ftbmoney:money"
+				ftb_money: 100L
+			}]
+		}
+		{
+			x: -9.0d
+			y: -4.0d
+			dependencies: ["7EBDB53D9624DEA1"]
+			id: "7D19A12CF2264691"
+			tasks: [{
+				id: "2F4EC71CF2C0FED8"
+				type: "pmmo:skill"
+				title: "Combat 30"
+				icon: {
+					id: "minecraft:golden_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "combat"
+				requiredLevel: 30.0d
+			}]
+			rewards: [{
+				id: "79CBFCE3DC73F7B8"
+				type: "ftbmoney:money"
+				ftb_money: 200L
+			}]
+		}
+		{
+			x: -9.0d
+			y: -2.5d
+			dependencies: ["7D19A12CF2264691"]
+			id: "01D89BB9E049CFB1"
+			tasks: [{
+				id: "2077C7B30DAAA2B4"
+				type: "pmmo:skill"
+				title: "Combat 40"
+				icon: {
+					id: "minecraft:iron_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "combat"
+				requiredLevel: 40.0d
+			}]
+			rewards: [{
+				id: "31FC45E301EDB195"
+				type: "ftbmoney:money"
+				ftb_money: 400L
+			}]
+		}
+		{
+			x: -9.0d
+			y: -1.0d
+			dependencies: ["01D89BB9E049CFB1"]
+			id: "1D28C304287614FA"
+			tasks: [{
+				id: "2B6607B553412A4F"
+				type: "pmmo:skill"
+				title: "Combat 50"
+				icon: {
+					id: "minecraft:diamond_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "combat"
+				requiredLevel: 50.0d
+			}]
+			rewards: [{
+				id: "0D38D23807423756"
+				type: "ftbmoney:money"
+				ftb_money: 800L
+			}]
+		}
+		{
+			x: -9.0d
+			y: 0.5d
+			dependencies: ["1D28C304287614FA"]
+			id: "508189DC02439155"
+			tasks: [{
+				id: "1A568662BFD1CC6E"
+				type: "pmmo:skill"
+				title: "Combat 60"
+				icon: {
+					id: "minecraft:netherite_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "combat"
+				requiredLevel: 60.0d
+			}]
+			rewards: [{
+				id: "03F1A9BAE84D1FFD"
+				type: "ftbmoney:money"
+				ftb_money: 1600L
+			}]
+		}
+		{
+			x: -9.0d
+			y: 2.0d
+			dependencies: ["508189DC02439155"]
+			id: "7D76563D76CEA73B"
+			tasks: [{
+				id: "097919864B8F2153"
+				type: "pmmo:skill"
+				title: "Combat 70"
+				icon: {
+					id: "mysticalagriculture:inferium_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "combat"
+				requiredLevel: 70.0d
+			}]
+			rewards: [{
+				id: "4938B213652ABA6D"
+				type: "ftbmoney:money"
+				ftb_money: 3200L
+			}]
+		}
+		{
+			x: -9.0d
+			y: 3.5d
+			dependencies: ["7D76563D76CEA73B"]
+			id: "1B983C6C50B03F3F"
+			tasks: [{
+				id: "4D19F8ABD9D6D272"
+				type: "pmmo:skill"
+				title: "Combat 80"
+				icon: {
+					id: "mysticalagriculture:prudentium_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "combat"
+				requiredLevel: 80.0d
+			}]
+			rewards: [{
+				id: "38E14DCF3F08751E"
+				type: "ftbmoney:money"
+				ftb_money: 6400L
+			}]
+		}
+		{
+			x: -9.0d
+			y: 5.0d
+			dependencies: ["1B983C6C50B03F3F"]
+			id: "1D39CA2394A027DD"
+			tasks: [{
+				id: "724CE43F9A9F113A"
+				type: "pmmo:skill"
+				title: "Combat 90"
+				icon: {
+					id: "mysticalagriculture:tertium_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "combat"
+				requiredLevel: 90.0d
+			}]
+			rewards: [{
+				id: "0922FA2C4329478D"
+				type: "ftbmoney:money"
+				ftb_money: 12800L
+			}]
+		}
+		{
+			x: -9.0d
+			y: 6.5d
+			dependencies: ["1D39CA2394A027DD"]
+			id: "728361B7A0945E72"
+			tasks: [{
+				id: "67B43F0DABC170B9"
+				type: "pmmo:skill"
+				title: "Combat 100"
+				icon: {
+					id: "mysticalagriculture:imperium_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "combat"
+				requiredLevel: 100.0d
+			}]
+			rewards: [{
+				id: "5ECA010484656A95"
+				type: "ftbmoney:money"
+				ftb_money: 25600L
+			}]
+		}
+		{
+			x: -9.0d
+			y: 8.0d
+			dependencies: ["728361B7A0945E72"]
+			id: "4B109BA8D8FE25E6"
+			tasks: [{
+				id: "3F699E5A9D995180"
+				type: "pmmo:skill"
+				title: "Combat 110"
+				icon: "mysticalagriculture:supremium_sword"
+				skill: "combat"
+				requiredLevel: 110.0d
+			}]
+			rewards: [{
+				id: "4729FC65957EE968"
+				type: "ftbmoney:money"
+				ftb_money: 51200L
+			}]
+		}
+		{
+			x: -9.0d
+			y: 9.5d
+			dependencies: ["4B109BA8D8FE25E6"]
+			id: "2B2F44B0E7EAF9C9"
+			tasks: [{
+				id: "17632ED84F853BE9"
+				type: "pmmo:skill"
+				title: "Combat 120"
+				icon: "mysticaladaptations:insanium_sword"
+				skill: "combat"
+				requiredLevel: 120.0d
+			}]
+			rewards: [{
+				id: "350F3CB4D706BD2A"
+				type: "ftbmoney:money"
+				ftb_money: 102400L
+			}]
+		}
+		{
+			x: -7.5d
+			y: -7.0d
+			description: ["Archery is a skill that can be leveled up by shooting and killing mobs. The further the arrow travels the more xp you will get. As you level up this skill you will do more damage with ranged weapons."]
+			dependencies: ["67AA905426C2C9E9"]
+			id: "0C9B4F740AC3E8CA"
+			tasks: [{
+				id: "39364AC63E96341D"
+				type: "pmmo:skill"
+				title: "Archery 10"
+				icon: {
+					id: "spartanweaponry:longbow_wood"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_gear:bow": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+				skill: "archery"
+				requiredLevel: 10.0d
+			}]
+			rewards: [
+				{
+					id: "623C4D9F68BF800B"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+				{
+					id: "2113E6CFE12755FF"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "archery"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -7.0d
+			description: ["Gunslinging is a skill that can be leveled up by shooting mobs and killing mobs. As you level up this skill your guns will deal more damage."]
+			dependencies: ["67AA905426C2C9E9"]
+			id: "16EE1277380FC89C"
+			tasks: [{
+				id: "5B205ED103B845D7"
+				type: "pmmo:skill"
+				title: "Gunslinging 10"
+				icon: {
+					id: "gunswithoutroses:iron_gun"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_gear:bow": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+				skill: "gunslinging"
+				requiredLevel: 10.0d
+			}]
+			rewards: [
+				{
+					id: "6EA9C16221937E0A"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+				{
+					id: "5E975F169CA68220"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "gunslinging"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 15.0d
+			y: -7.0d
+			description: ["Flying is a skill that can be leveled up simply by flying with your elytra. Unfortunately leveling it to higher levels doesn't offer and buffs other then the rewards from this questline."]
+			dependencies: ["67AA905426C2C9E9"]
+			id: "68A3A0881CA2ADE4"
+			tasks: [{
+				id: "747C66FD3A56AEEA"
+				type: "pmmo:skill"
+				title: "Flying 10"
+				icon: "silentgear:elytra_template"
+				skill: "flying"
+				requiredLevel: 10.0d
+			}]
+			rewards: [
+				{
+					id: "3CD07804FF4EA512"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+				{
+					id: "11A113A9EAE98077"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "flying"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 12.0d
+			y: -7.0d
+			description: ["Magic is gained through many mystical means that are secretive... Higher levels cause magic weapons to deal more damage."]
+			dependencies: ["67AA905426C2C9E9"]
+			id: "0724DAA0C534E4EC"
+			tasks: [{
+				id: "78D6C9FE9706C4E4"
+				type: "pmmo:skill"
+				title: "Magic 10"
+				icon: "aoa3:compass_rune"
+				skill: "magic"
+				requiredLevel: 10.0d
+			}]
+			rewards: [
+				{
+					id: "4A8E6386BD7A0EE8"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+				{
+					id: "24852927A70A8AEF"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "magic"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 12.0d
+			y: -5.5d
+			dependencies: ["0724DAA0C534E4EC"]
+			id: "1233271EE363938F"
+			tasks: [{
+				id: "4626B24F87E775EC"
+				type: "pmmo:skill"
+				title: "Magic 20"
+				icon: "aoa3:distortion_rune"
+				skill: "magic"
+				requiredLevel: 20.0d
+			}]
+			rewards: [{
+				id: "0BAF1875C91EBC93"
+				type: "ftbmoney:money"
+				ftb_money: 100L
+			}]
+		}
+		{
+			x: 9.0d
+			y: -7.0d
+			description: ["Fishing is a skill that you level up by well... fishing. As you level up this skill higher chances at getting better items from fishing as well as unlock access to a Project MMO specific fishing loot table."]
+			dependencies: ["67AA905426C2C9E9"]
+			id: "341478D83CE16FF0"
+			tasks: [{
+				id: "7FCA5BE1944205FC"
+				type: "pmmo:skill"
+				title: "Fishing 10"
+				icon: "minecraft:cod"
+				skill: "fishing"
+				requiredLevel: 10.0d
+			}]
+			rewards: [
+				{
+					id: "62F1297289F7F543"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+				{
+					id: "5A3BE0C5E6989EBF"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "fishing"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -13.5d
+			y: -7.0d
+			description: ["The excavation skill can be leveled up by mining dirt related blocks such as grass, gravel, sand etc. As you level up your excavation skill you will be able to mine dirt related materials faster and possibly have a chance of finding treasures while mining!"]
+			dependencies: ["67AA905426C2C9E9"]
+			id: "7B1E230F57F6B00C"
+			tasks: [{
+				id: "2F4804470F46413A"
+				type: "pmmo:skill"
+				title: "Excavation 10"
+				icon: {
+					id: "minecraft:wooden_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "excavation"
+				requiredLevel: 10.0d
+			}]
+			rewards: [
+				{
+					id: "5DC5D9E44F1891FC"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+				{
+					id: "60773AA39D3C692C"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "excavation"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -13.5d
+			y: -5.5d
+			dependencies: ["7B1E230F57F6B00C"]
+			id: "47B00E4A4EE66087"
+			tasks: [{
+				id: "75AF9540998B0A09"
+				type: "pmmo:skill"
+				title: "Excavation 20"
+				icon: {
+					id: "minecraft:stone_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "excavation"
+				requiredLevel: 20.0d
+			}]
+			rewards: [{
+				id: "22E561DE1DD0A41C"
+				type: "ftbmoney:money"
+				ftb_money: 100L
+			}]
+		}
+		{
+			x: -13.5d
+			y: -4.0d
+			dependencies: ["47B00E4A4EE66087"]
+			id: "267A4A5AA6A43E33"
+			tasks: [{
+				id: "71DFDA96EE253689"
+				type: "pmmo:skill"
+				title: "Excavation 30"
+				icon: {
+					id: "minecraft:golden_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "excavation"
+				requiredLevel: 30.0d
+			}]
+			rewards: [{
+				id: "2F04C2820C203B62"
+				type: "ftbmoney:money"
+				ftb_money: 200L
+			}]
+		}
+		{
+			x: -13.5d
+			y: -2.5d
+			dependencies: ["267A4A5AA6A43E33"]
+			id: "0285FE6E575DB32C"
+			tasks: [{
+				id: "13046AD691EB57E5"
+				type: "pmmo:skill"
+				title: "Excavation 40"
+				icon: {
+					id: "minecraft:iron_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "excavation"
+				requiredLevel: 40.0d
+			}]
+			rewards: [{
+				id: "0DFB1C8595B7F378"
+				type: "ftbmoney:money"
+				ftb_money: 400L
+			}]
+		}
+		{
+			x: -13.5d
+			y: -1.0d
+			dependencies: ["0285FE6E575DB32C"]
+			id: "610E322F47AFF64C"
+			tasks: [{
+				id: "2C4BD4BBBB1328DD"
+				type: "pmmo:skill"
+				title: "Excavation 50"
+				icon: {
+					id: "minecraft:diamond_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "excavation"
+				requiredLevel: 50.0d
+			}]
+			rewards: [{
+				id: "103D78918229A3CC"
+				type: "ftbmoney:money"
+				ftb_money: 800L
+			}]
+		}
+		{
+			x: -13.5d
+			y: 0.5d
+			dependencies: ["610E322F47AFF64C"]
+			id: "4313C27B584E8F31"
+			tasks: [{
+				id: "561E8A368593D710"
+				type: "pmmo:skill"
+				title: "Excavation 60"
+				icon: {
+					id: "minecraft:netherite_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "excavation"
+				requiredLevel: 60.0d
+			}]
+			rewards: [{
+				id: "7027B217B4999ED3"
+				type: "ftbmoney:money"
+				ftb_money: 1600L
+			}]
+		}
+		{
+			x: -13.5d
+			y: 2.0d
+			dependencies: ["4313C27B584E8F31"]
+			id: "15136687F8B02E9D"
+			tasks: [{
+				id: "6A03F2DA7DE0E968"
+				type: "pmmo:skill"
+				title: "Excavation 70"
+				icon: {
+					id: "mysticalagriculture:inferium_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "excavation"
+				requiredLevel: 70.0d
+			}]
+			rewards: [{
+				id: "2897878FA2ADE110"
+				type: "ftbmoney:money"
+				ftb_money: 3200L
+			}]
+		}
+		{
+			x: -13.5d
+			y: 3.5d
+			dependencies: ["15136687F8B02E9D"]
+			id: "630A00DFE0E51C7B"
+			tasks: [{
+				id: "7FAA7D1D34856048"
+				type: "pmmo:skill"
+				title: "Excavation 80"
+				icon: {
+					id: "mysticalagriculture:prudentium_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "excavation"
+				requiredLevel: 80.0d
+			}]
+			rewards: [{
+				id: "130EA98F7A9E97E1"
+				type: "ftbmoney:money"
+				ftb_money: 6400L
+			}]
+		}
+		{
+			x: -13.5d
+			y: 5.0d
+			dependencies: ["630A00DFE0E51C7B"]
+			id: "0C796C98EE33B727"
+			tasks: [{
+				id: "6E7481994CAE20C5"
+				type: "pmmo:skill"
+				title: "Excavation 90"
+				icon: {
+					id: "mysticalagriculture:tertium_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "excavation"
+				requiredLevel: 90.0d
+			}]
+			rewards: [{
+				id: "66AF6006EDFD3F05"
+				type: "ftbmoney:money"
+				ftb_money: 12800L
+			}]
+		}
+		{
+			x: -13.5d
+			y: 6.5d
+			dependencies: ["0C796C98EE33B727"]
+			id: "3EDDABA6BC57A526"
+			tasks: [{
+				id: "51E4FF204DFC2C29"
+				type: "pmmo:skill"
+				title: "Excavation 100"
+				icon: {
+					id: "mysticalagriculture:imperium_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "excavation"
+				requiredLevel: 100.0d
+			}]
+			rewards: [{
+				id: "37CB38608E198C4D"
+				type: "ftbmoney:money"
+				ftb_money: 25600L
+			}]
+		}
+		{
+			x: -13.5d
+			y: 8.0d
+			dependencies: ["3EDDABA6BC57A526"]
+			id: "3085F9608C9CEC52"
+			tasks: [{
+				id: "39417B093445A6A3"
+				type: "pmmo:skill"
+				title: "Excavation 110"
+				icon: "mysticalagriculture:supremium_shovel"
+				skill: "excavation"
+				requiredLevel: 110.0d
+			}]
+			rewards: [{
+				id: "28541582AF6D7582"
+				type: "ftbmoney:money"
+				ftb_money: 51200L
+			}]
+		}
+		{
+			x: -13.5d
+			y: 9.5d
+			dependencies: ["3085F9608C9CEC52"]
+			id: "38742026B1B8F652"
+			tasks: [{
+				id: "3070289B2B3C9E9C"
+				type: "pmmo:skill"
+				title: "Excavation 120"
+				icon: "mysticaladaptations:insanium_shovel"
+				skill: "excavation"
+				requiredLevel: 120.0d
+			}]
+			rewards: [{
+				id: "2FAE6EC707D3CD82"
+				type: "ftbmoney:money"
+				ftb_money: 102400L
+			}]
+		}
+		{
+			x: -7.5d
+			y: -5.5d
+			dependencies: ["0C9B4F740AC3E8CA"]
+			id: "5062432D7294793C"
+			tasks: [{
+				id: "0AB2635E3D8A122B"
+				type: "pmmo:skill"
+				title: "Archery 20"
+				icon: {
+					id: "spartanweaponry:longbow_leather"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_gear:bow": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+				skill: "archery"
+				requiredLevel: 20.0d
+			}]
+			rewards: [{
+				id: "2B11E434E0E2A7A3"
+				type: "ftbmoney:money"
+				ftb_money: 100L
+			}]
+		}
+		{
+			x: -7.5d
+			y: -4.0d
+			dependencies: ["5062432D7294793C"]
+			id: "3CCBDCD31CB4C758"
+			tasks: [{
+				id: "305B1885FC48FC72"
+				type: "pmmo:skill"
+				title: "Archery 30"
+				icon: {
+					id: "spartanweaponry:longbow_gold"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_gear:bow": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+				skill: "archery"
+				requiredLevel: 30.0d
+			}]
+			rewards: [{
+				id: "34D369E7A6E33B2A"
+				type: "ftbmoney:money"
+				ftb_money: 200L
+			}]
+		}
+		{
+			x: -7.5d
+			y: -2.5d
+			dependencies: ["3CCBDCD31CB4C758"]
+			id: "492195A44411EDFE"
+			tasks: [{
+				id: "3A48B28DD062AB71"
+				type: "pmmo:skill"
+				title: "Archery 40"
+				icon: {
+					id: "spartanweaponry:longbow_iron"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_gear:bow": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+				skill: "archery"
+				requiredLevel: 40.0d
+			}]
+			rewards: [{
+				id: "799B438FCECEE62D"
+				type: "ftbmoney:money"
+				ftb_money: 400L
+			}]
+		}
+		{
+			x: -7.5d
+			y: -1.0d
+			dependencies: ["492195A44411EDFE"]
+			id: "6D0A3BC508B1EA54"
+			tasks: [{
+				id: "5B87624003CCF490"
+				type: "pmmo:skill"
+				title: "Archery 50"
+				icon: {
+					id: "spartanweaponry:longbow_diamond"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_gear:bow": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+				skill: "archery"
+				requiredLevel: 50.0d
+			}]
+			rewards: [{
+				id: "0392E2ABCA48E6DA"
+				type: "ftbmoney:money"
+				ftb_money: 800L
+			}]
+		}
+		{
+			x: -7.5d
+			y: 0.5d
+			dependencies: ["6D0A3BC508B1EA54"]
+			id: "70A6C6C14847EBA5"
+			tasks: [{
+				id: "15560513C1DDA4DA"
+				type: "pmmo:skill"
+				title: "Archery 60"
+				icon: {
+					id: "spartanweaponry:longbow_netherite"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_gear:bow": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+				skill: "archery"
+				requiredLevel: 60.0d
+			}]
+			rewards: [{
+				id: "006247B14A9055B0"
+				type: "ftbmoney:money"
+				ftb_money: 1600L
+			}]
+		}
+		{
+			x: -7.5d
+			y: 2.0d
+			dependencies: ["70A6C6C14847EBA5"]
+			id: "292B064476381748"
+			tasks: [{
+				id: "570810009C3E57B8"
+				type: "pmmo:skill"
+				title: "Archery 70"
+				icon: {
+					id: "aoa3:poison_bow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_gear:bow": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+				skill: "archery"
+				requiredLevel: 70.0d
+			}]
+			rewards: [{
+				id: "08B818B051EE12C9"
+				type: "ftbmoney:money"
+				ftb_money: 3200L
+			}]
+		}
+		{
+			x: -7.5d
+			y: 3.5d
+			dependencies: ["292B064476381748"]
+			id: "2643C9C6A1DF4C05"
+			tasks: [{
+				id: "563190BECCB151F3"
+				type: "pmmo:skill"
+				title: "Archery 80"
+				icon: {
+					id: "aoa3:toxin_bow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_gear:bow": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+				skill: "archery"
+				requiredLevel: 80.0d
+			}]
+			rewards: [{
+				id: "35F908240E3C783F"
+				type: "ftbmoney:money"
+				ftb_money: 6400L
+			}]
+		}
+		{
+			x: -7.5d
+			y: 5.0d
+			dependencies: ["2643C9C6A1DF4C05"]
+			id: "62175A31B164D046"
+			tasks: [{
+				id: "36DE5C1796CFE8A2"
+				type: "pmmo:skill"
+				title: "Archery 90"
+				icon: {
+					id: "aoa3:skydriver_bow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_gear:bow": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+				skill: "archery"
+				requiredLevel: 90.0d
+			}]
+			rewards: [{
+				id: "64BA4A30315A0C78"
+				type: "ftbmoney:money"
+				ftb_money: 12800L
+			}]
+		}
+		{
+			x: -7.5d
+			y: 6.5d
+			dependencies: ["62175A31B164D046"]
+			id: "7BB4F189315C0E8B"
+			tasks: [{
+				id: "3F57DC486560278C"
+				type: "pmmo:skill"
+				title: "Archery 100"
+				icon: {
+					id: "aoa3:soulfire_bow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_gear:bow": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+				skill: "archery"
+				requiredLevel: 100.0d
+			}]
+			rewards: [{
+				id: "1512CB209572198C"
+				type: "ftbmoney:money"
+				ftb_money: 25600L
+			}]
+		}
+		{
+			x: -7.5d
+			y: 8.0d
+			dependencies: ["7BB4F189315C0E8B"]
+			id: "528BE961052F94D7"
+			tasks: [{
+				id: "5368EEB33E53B360"
+				type: "pmmo:skill"
+				title: "Archery 110"
+				icon: {
+					id: "aoa3:primordial_bow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_gear:bow": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+				skill: "archery"
+				requiredLevel: 110.0d
+			}]
+			rewards: [{
+				id: "63960E727850D3FD"
+				type: "ftbmoney:money"
+				ftb_money: 51200L
+			}]
+		}
+		{
+			x: -7.5d
+			y: 9.5d
+			dependencies: ["528BE961052F94D7"]
+			id: "7B82DC8E3432264A"
+			tasks: [{
+				id: "1D1969EF992A8BBE"
+				type: "pmmo:skill"
+				title: "Archery 120"
+				icon: {
+					id: "aoa3:haunted_bow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_gear:bow": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+				skill: "archery"
+				requiredLevel: 120.0d
+			}]
+			rewards: [{
+				id: "0CD82F42AAD2D29F"
+				type: "ftbmoney:money"
+				ftb_money: 102400L
+			}]
+		}
+		{
+			x: -15.0d
+			y: -7.0d
+			description: ["Smithing is a skill that can be leveled up by smelting items, repairing items, and salvaging items. As you level up this skill you will be able to smelt extra ores, allow for better salvaging, and have more luck when repairing items (less chance to damage anvils, more durability per repair, allow for enchants above max level)."]
+			dependencies: ["67AA905426C2C9E9"]
+			id: "13F2B021217CC30F"
+			tasks: [{
+				id: "2B126C4E65F374C2"
+				type: "pmmo:skill"
+				title: "Smithing 10"
+				icon: {
+					id: "spartanweaponry:hammer_wood"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "smithing"
+				requiredLevel: 10.0d
+			}]
+			rewards: [
+				{
+					id: "374C6B5734BFC6C3"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+				{
+					id: "6D8C7B297AAF4C55"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "smithing"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -15.0d
+			y: -5.5d
+			dependencies: ["13F2B021217CC30F"]
+			id: "1D6B486F02353589"
+			tasks: [{
+				id: "402EE4B6440A8A60"
+				type: "pmmo:skill"
+				title: "Smithing 20"
+				icon: {
+					id: "spartanweaponry:hammer_stone"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "smithing"
+				requiredLevel: 20.0d
+			}]
+			rewards: [{
+				id: "3472E268D71BAC0E"
+				type: "ftbmoney:money"
+				ftb_money: 100L
+			}]
+		}
+		{
+			x: -15.0d
+			y: -4.0d
+			dependencies: ["1D6B486F02353589"]
+			id: "4BB26836A1F39B66"
+			tasks: [{
+				id: "124F72CA8004C17E"
+				type: "pmmo:skill"
+				title: "Smithing 30"
+				icon: {
+					id: "spartanweaponry:hammer_gold"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "smithing"
+				requiredLevel: 30.0d
+			}]
+			rewards: [{
+				id: "400DC9A1876E1AC6"
+				type: "ftbmoney:money"
+				ftb_money: 200L
+			}]
+		}
+		{
+			x: -15.0d
+			y: -2.5d
+			dependencies: ["4BB26836A1F39B66"]
+			id: "0027B000BF4CA913"
+			tasks: [{
+				id: "5A8BD757D2E2F9F1"
+				type: "pmmo:skill"
+				title: "Smithing 40"
+				icon: {
+					id: "spartanweaponry:hammer_iron"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "smithing"
+				requiredLevel: 40.0d
+			}]
+			rewards: [{
+				id: "4A595EFFA09B7601"
+				type: "ftbmoney:money"
+				ftb_money: 400L
+			}]
+		}
+		{
+			x: -15.0d
+			y: -1.0d
+			dependencies: ["0027B000BF4CA913"]
+			id: "1235435C656AA938"
+			tasks: [{
+				id: "5535D9073F46E7D7"
+				type: "pmmo:skill"
+				title: "Smithing 50"
+				icon: {
+					id: "spartanweaponry:hammer_diamond"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "smithing"
+				requiredLevel: 50.0d
+			}]
+			rewards: [{
+				id: "57659F846C2F37DB"
+				type: "ftbmoney:money"
+				ftb_money: 800L
+			}]
+		}
+		{
+			x: -15.0d
+			y: 0.5d
+			dependencies: ["1235435C656AA938"]
+			id: "18E9F67B8D97BCAA"
+			tasks: [{
+				id: "75575D458FE23BB9"
+				type: "pmmo:skill"
+				title: "Smithing 60"
+				icon: {
+					id: "spartanweaponry:hammer_netherite"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "smithing"
+				requiredLevel: 60.0d
+			}]
+			rewards: [{
+				id: "43F1EBE6293FB726"
+				type: "ftbmoney:money"
+				ftb_money: 1600L
+			}]
+		}
+		{
+			x: -15.0d
+			y: 2.0d
+			dependencies: ["18E9F67B8D97BCAA"]
+			id: "5D1C75BCC248BB46"
+			tasks: [{
+				id: "653E2B37910C22B4"
+				type: "pmmo:skill"
+				title: "Smithing 70"
+				icon: {
+					id: "betterendforge:iron_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "smithing"
+				requiredLevel: 70.0d
+			}]
+			rewards: [{
+				id: "242F1F8FD529A76C"
+				type: "ftbmoney:money"
+				ftb_money: 3200L
+			}]
+		}
+		{
+			x: -15.0d
+			y: 3.5d
+			dependencies: ["5D1C75BCC248BB46"]
+			id: "1A19CEA200157DB0"
+			tasks: [{
+				id: "2645314ABC6BAD39"
+				type: "pmmo:skill"
+				title: "Smithing 80"
+				icon: {
+					id: "betterendforge:diamond_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "smithing"
+				requiredLevel: 80.0d
+			}]
+			rewards: [{
+				id: "01B774C83926BD4B"
+				type: "ftbmoney:money"
+				ftb_money: 6400L
+			}]
+		}
+		{
+			x: -15.0d
+			y: 5.0d
+			dependencies: ["1A19CEA200157DB0"]
+			id: "376A9078EBDC6C33"
+			tasks: [{
+				id: "2354B724F3F71888"
+				type: "pmmo:skill"
+				title: "Smithing 90"
+				icon: {
+					id: "betterendforge:netherite_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "smithing"
+				requiredLevel: 90.0d
+			}]
+			rewards: [{
+				id: "360471A058A0AF77"
+				type: "ftbmoney:money"
+				ftb_money: 12800L
+			}]
+		}
+		{
+			x: -15.0d
+			y: 6.5d
+			dependencies: ["376A9078EBDC6C33"]
+			id: "11CF3F306A5C54A5"
+			tasks: [{
+				id: "467C424CEE7CB3ED"
+				type: "pmmo:skill"
+				title: "Smithing 100"
+				icon: {
+					id: "betterendforge:thallasium_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "smithing"
+				requiredLevel: 100.0d
+			}]
+			rewards: [{
+				id: "159F03D59F4219A0"
+				type: "ftbmoney:money"
+				ftb_money: 25600L
+			}]
+		}
+		{
+			x: -15.0d
+			y: 8.0d
+			dependencies: ["11CF3F306A5C54A5"]
+			id: "1E5153D96513C4F8"
+			tasks: [{
+				id: "3A6966677BE4A243"
+				type: "pmmo:skill"
+				title: "Smithing 110"
+				icon: {
+					id: "betterendforge:terminite_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "smithing"
+				requiredLevel: 110.0d
+			}]
+			rewards: [{
+				id: "1AF23FAC897FA5AA"
+				type: "ftbmoney:money"
+				ftb_money: 51200L
+			}]
+		}
+		{
+			x: -15.0d
+			y: 9.5d
+			dependencies: ["1E5153D96513C4F8"]
+			id: "30306930B7852713"
+			tasks: [{
+				id: "6103135B17F4540F"
+				type: "pmmo:skill"
+				title: "Smithing 120"
+				icon: {
+					id: "betterendforge:aeternium_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "smithing"
+				requiredLevel: 120.0d
+			}]
+			rewards: [{
+				id: "2651F8A0CBB94966"
+				type: "ftbmoney:money"
+				ftb_money: 102400L
+			}]
+		}
+		{
+			x: -4.5d
+			y: -5.5d
+			dependencies: ["0502590ADB927FE7"]
+			id: "6B7A634D520133B1"
+			tasks: [{
+				id: "35861A4ADDBFD53B"
+				type: "pmmo:skill"
+				title: "Sailing 20"
+				icon: "minecraft:spruce_boat"
+				skill: "sailing"
+				requiredLevel: 20.0d
+			}]
+			rewards: [{
+				id: "774D9579C3F89FA5"
+				type: "ftbmoney:money"
+				ftb_money: 100L
+			}]
+		}
+		{
+			x: -4.5d
+			y: -4.0d
+			dependencies: ["6B7A634D520133B1"]
+			id: "43E925D29D60E429"
+			tasks: [{
+				id: "75EA6ACD267633EC"
+				type: "pmmo:skill"
+				title: "Sailing 30"
+				icon: "minecraft:birch_boat"
+				skill: "sailing"
+				requiredLevel: 30.0d
+			}]
+			rewards: [{
+				id: "6899D5B5F015F530"
+				type: "ftbmoney:money"
+				ftb_money: 200L
+			}]
+		}
+		{
+			x: -4.5d
+			y: -2.5d
+			dependencies: ["43E925D29D60E429"]
+			id: "76AC9CEA642E277E"
+			tasks: [{
+				id: "1A749D5C5D7383E4"
+				type: "pmmo:skill"
+				title: "Sailing 40"
+				icon: "minecraft:jungle_boat"
+				skill: "sailing"
+				requiredLevel: 40.0d
+			}]
+			rewards: [{
+				id: "39B32AC6B7451689"
+				type: "ftbmoney:money"
+				ftb_money: 400L
+			}]
+		}
+		{
+			x: -4.5d
+			y: -1.0d
+			dependencies: ["76AC9CEA642E277E"]
+			id: "39B5F4C3CB7E51E8"
+			tasks: [{
+				id: "62CCAFBC58AB202B"
+				type: "pmmo:skill"
+				title: "Sailing 50"
+				icon: "minecraft:acacia_boat"
+				skill: "sailing"
+				requiredLevel: 50.0d
+			}]
+			rewards: [{
+				id: "69E6DFDE08789D21"
+				type: "ftbmoney:money"
+				ftb_money: 800L
+			}]
+		}
+		{
+			x: -4.5d
+			y: 0.5d
+			dependencies: ["39B5F4C3CB7E51E8"]
+			id: "63A4D912C4AA8A5D"
+			tasks: [{
+				id: "65A944DC63995418"
+				type: "pmmo:skill"
+				title: "Sailing 60"
+				icon: "minecraft:dark_oak_boat"
+				skill: "sailing"
+				requiredLevel: 60.0d
+			}]
+			rewards: [{
+				id: "41A9A5842A8B80B6"
+				type: "ftbmoney:money"
+				ftb_money: 1600L
+			}]
+		}
+		{
+			x: -4.5d
+			y: 2.0d
+			dependencies: ["63A4D912C4AA8A5D"]
+			id: "3A82F05335405BE4"
+			tasks: [{
+				id: "71C9C119380DE634"
+				type: "pmmo:skill"
+				title: "Sailing 70"
+				icon: "byg:green_enchanted_boat"
+				skill: "sailing"
+				requiredLevel: 70.0d
+			}]
+			rewards: [{
+				id: "2857084277E54A6C"
+				type: "ftbmoney:money"
+				ftb_money: 3200L
+			}]
+		}
+		{
+			x: -4.5d
+			y: 3.5d
+			dependencies: ["3A82F05335405BE4"]
+			id: "41B7E5F3A1D4D43E"
+			tasks: [{
+				id: "61F4632A3C26E66B"
+				type: "pmmo:skill"
+				title: "Sailing 80"
+				icon: "byg:witch_hazel_boat"
+				skill: "sailing"
+				requiredLevel: 80.0d
+			}]
+			rewards: [{
+				id: "5043224A3E516718"
+				type: "ftbmoney:money"
+				ftb_money: 6400L
+			}]
+		}
+		{
+			x: -4.5d
+			y: 5.0d
+			dependencies: ["41B7E5F3A1D4D43E"]
+			id: "7CA1EBB9EEA72909"
+			tasks: [{
+				id: "034E5ABAAC11277E"
+				type: "pmmo:skill"
+				title: "Sailing 90"
+				icon: {
+					id: "byg:cika_boat"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				skill: "sailing"
+				requiredLevel: 90.0d
+			}]
+			rewards: [{
+				id: "6FF32D103BA21ED5"
+				type: "ftbmoney:money"
+				ftb_money: 12800L
+			}]
+		}
+		{
+			x: -4.5d
+			y: 6.5d
+			dependencies: ["7CA1EBB9EEA72909"]
+			id: "26473F27E85EF99F"
+			tasks: [{
+				id: "32DD2ABA26377593"
+				type: "pmmo:skill"
+				title: "Sailing 100"
+				icon: "byg:blue_enchanted_boat"
+				skill: "sailing"
+				requiredLevel: 100.0d
+			}]
+			rewards: [{
+				id: "383EE79614583162"
+				type: "ftbmoney:money"
+				ftb_money: 25600L
+			}]
+		}
+		{
+			x: -4.5d
+			y: 8.0d
+			dependencies: ["26473F27E85EF99F"]
+			id: "4F862D2681A53671"
+			tasks: [{
+				id: "15EF3505B1754240"
+				type: "pmmo:skill"
+				title: "Sailing 110"
+				icon: "byg:cherry_boat"
+				skill: "sailing"
+				requiredLevel: 110.0d
+			}]
+			rewards: [{
+				id: "07CE8EE01DA9193F"
+				type: "ftbmoney:money"
+				ftb_money: 51200L
+			}]
+		}
+		{
+			x: -4.5d
+			y: 9.5d
+			dependencies: ["4F862D2681A53671"]
+			id: "0CEF8BA6E1B15449"
+			tasks: [{
+				id: "4CF15351A5E3419B"
+				type: "pmmo:skill"
+				title: "Sailing 120"
+				icon: "byg:rainbow_eucalyptus_boat"
+				skill: "sailing"
+				requiredLevel: 120.0d
+			}]
+			rewards: [{
+				id: "26890764658F3B56"
+				type: "ftbmoney:money"
+				ftb_money: 102400L
+			}]
+		}
+		{
+			x: -1.5d
+			y: -7.0d
+			description: ["Taming is a skill that can be leveled up taming animals and breeding animals. Unfortunately leveling it to higher levels doesn't offer and buffs other then the rewards from this questline."]
+			dependencies: ["67AA905426C2C9E9"]
+			id: "3426F94C7BB9D97C"
+			tasks: [{
+				id: "5B472EF270F6790F"
+				type: "pmmo:skill"
+				title: "Taming 10"
+				icon: "minecraft:wheat"
+				skill: "taming"
+				requiredLevel: 10.0d
+			}]
+			rewards: [
+				{
+					id: "776E5045A6F381E1"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+				{
+					id: "248B78BE217FC150"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "taming"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -5.5d
+			dependencies: ["3426F94C7BB9D97C"]
+			id: "488B4C36275087A3"
+			tasks: [{
+				id: "043098E00FB83988"
+				type: "pmmo:skill"
+				title: "Taming 20"
+				icon: "minecraft:potato"
+				skill: "taming"
+				requiredLevel: 20.0d
+			}]
+			rewards: [{
+				id: "6CE89188B97601AE"
+				type: "ftbmoney:money"
+				ftb_money: 100L
+			}]
+		}
+		{
+			x: -1.5d
+			y: -4.0d
+			dependencies: ["488B4C36275087A3"]
+			id: "61E5629225BFF970"
+			tasks: [{
+				id: "72C80F8EB46575DA"
+				type: "pmmo:skill"
+				title: "Taming 30"
+				icon: "minecraft:carrot"
+				skill: "taming"
+				requiredLevel: 30.0d
+			}]
+			rewards: [{
+				id: "353EF2EF754CBFA8"
+				type: "ftbmoney:money"
+				ftb_money: 200L
+			}]
+		}
+		{
+			x: -1.5d
+			y: -2.5d
+			dependencies: ["61E5629225BFF970"]
+			id: "372F6DE7E539AD96"
+			tasks: [{
+				id: "2514D785A3728D1E"
+				type: "pmmo:skill"
+				title: "Taming 40"
+				icon: "minecraft:apple"
+				skill: "taming"
+				requiredLevel: 40.0d
+			}]
+			rewards: [{
+				id: "63E2720C27B976D6"
+				type: "ftbmoney:money"
+				ftb_money: 400L
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.0d
+			dependencies: ["372F6DE7E539AD96"]
+			id: "0D2AEA41C629E88E"
+			tasks: [{
+				id: "2023F12C2A80CE71"
+				type: "pmmo:skill"
+				title: "Taming 50"
+				icon: "minecraft:hay_block"
+				skill: "taming"
+				requiredLevel: 50.0d
+			}]
+			rewards: [{
+				id: "54E3ADF53C196D6D"
+				type: "ftbmoney:money"
+				ftb_money: 800L
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.5d
+			dependencies: ["0D2AEA41C629E88E"]
+			id: "1B49EB5A6F85D985"
+			tasks: [{
+				id: "46B5D1C29A5986C7"
+				type: "pmmo:skill"
+				title: "Taming 60"
+				icon: "minecraft:bone"
+				skill: "taming"
+				requiredLevel: 60.0d
+			}]
+			rewards: [{
+				id: "4362FF38D52DCE8A"
+				type: "ftbmoney:money"
+				ftb_money: 1600L
+			}]
+		}
+		{
+			x: -1.5d
+			y: 2.0d
+			dependencies: ["1B49EB5A6F85D985"]
+			id: "01C474434FFECF24"
+			tasks: [{
+				id: "1321B0C90879FAEF"
+				type: "pmmo:skill"
+				title: "Taming 70"
+				icon: "minecraft:wheat_seeds"
+				skill: "taming"
+				requiredLevel: 70.0d
+			}]
+			rewards: [{
+				id: "7CB7C6446564DED2"
+				type: "ftbmoney:money"
+				ftb_money: 3200L
+			}]
+		}
+		{
+			x: -1.5d
+			y: 3.5d
+			dependencies: ["01C474434FFECF24"]
+			id: "75572FAA8A01ADB1"
+			tasks: [{
+				id: "70F734CA65A00487"
+				type: "pmmo:skill"
+				title: "Taming 80"
+				icon: "minecraft:cod"
+				skill: "taming"
+				requiredLevel: 80.0d
+			}]
+			rewards: [{
+				id: "46655BCE1BF743C9"
+				type: "ftbmoney:money"
+				ftb_money: 6400L
+			}]
+		}
+		{
+			x: -1.5d
+			y: 6.5d
+			dependencies: ["1F8E3F8B649BF0AB"]
+			id: "5BDC900C913C9438"
+			tasks: [{
+				id: "144D89992F4CF945"
+				type: "pmmo:skill"
+				title: "Taming 100"
+				icon: "minecraft:rabbit_foot"
+				skill: "taming"
+				requiredLevel: 100.0d
+			}]
+			rewards: [{
+				id: "0CE5227BFACD7A7B"
+				type: "ftbmoney:money"
+				ftb_money: 25600L
+			}]
+		}
+		{
+			x: -1.5d
+			y: 5.0d
+			dependencies: ["75572FAA8A01ADB1"]
+			id: "1F8E3F8B649BF0AB"
+			tasks: [{
+				id: "4C2DAA73ED5D8944"
+				type: "pmmo:skill"
+				title: "Taming 90"
+				icon: "minecraft:golden_apple"
+				skill: "taming"
+				requiredLevel: 90.0d
+			}]
+			rewards: [{
+				id: "034F9A90F6A8E510"
+				type: "ftbmoney:money"
+				ftb_money: 12800L
+			}]
+		}
+		{
+			x: -1.5d
+			y: 8.0d
+			dependencies: ["5BDC900C913C9438"]
+			id: "2170AD5192FCBC22"
+			tasks: [{
+				id: "5D9419D18F7E94A2"
+				type: "pmmo:skill"
+				title: "Taming 110"
+				icon: "iceandfire:dragonegg_red"
+				skill: "taming"
+				requiredLevel: 110.0d
+			}]
+			rewards: [{
+				id: "48F35824DD633939"
+				type: "ftbmoney:money"
+				ftb_money: 51200L
+			}]
+		}
+		{
+			x: -1.5d
+			y: 9.5d
+			dependencies: ["2170AD5192FCBC22"]
+			id: "2223E5F15E13AA64"
+			tasks: [{
+				id: "0724A1B2E14D646B"
+				type: "pmmo:skill"
+				title: "Taming 120"
+				icon: "iceandfire:dragonegg_white"
+				skill: "taming"
+				requiredLevel: 120.0d
+			}]
+			rewards: [{
+				id: "5640C74B8F73F075"
+				type: "ftbmoney:money"
+				ftb_money: 102400L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 9.5d
+			dependencies: ["496227AF332382FB"]
+			id: "2058B961E6F638E2"
+			tasks: [{
+				id: "7943328955E015D2"
+				type: "pmmo:skill"
+				title: "Swimming 120"
+				icon: {
+					id: "mekanism:scuba_mask"
+					Count: 1b
+					tag: {
+						HideFlags: 2
+					}
+					ForgeCaps: {
+						"agricraft:gene_inspector": {
+							agri_flag: 0b
+						}
+					}
+				}
+				skill: "swimming"
+				requiredLevel: 120.0d
+			}]
+			rewards: [{
+				id: "6C9A2235EE1016B6"
+				type: "ftbmoney:money"
+				ftb_money: 102400L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 8.0d
+			dependencies: ["03D2AF5AE0B4D307"]
+			id: "496227AF332382FB"
+			tasks: [{
+				id: "6F2291E205168DC2"
+				type: "pmmo:skill"
+				title: "Swimming 110"
+				icon: {
+					id: "mekanism:scuba_tank"
+					Count: 1b
+					tag: {
+						HideFlags: 2
+					}
+				}
+				skill: "swimming"
+				requiredLevel: 110.0d
+			}]
+			rewards: [{
+				id: "0495AD8D8F23C881"
+				type: "ftbmoney:money"
+				ftb_money: 51200L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 6.5d
+			dependencies: ["6069D5F8DD752DF2"]
+			id: "03D2AF5AE0B4D307"
+			tasks: [{
+				id: "5710D85FF491A9C1"
+				type: "pmmo:skill"
+				title: "Swimming 100"
+				icon: {
+					id: "scuba_gear:scuba_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"agricraft:gene_inspector": {
+							agri_flag: 0b
+						}
+					}
+				}
+				skill: "swimming"
+				requiredLevel: 100.0d
+			}]
+			rewards: [{
+				id: "48D1F826DA0E02EE"
+				type: "ftbmoney:money"
+				ftb_money: 25600L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 5.0d
+			dependencies: ["2C61D77C6E355C62"]
+			id: "6069D5F8DD752DF2"
+			tasks: [{
+				id: "2BED1C833E8C7E6C"
+				type: "pmmo:skill"
+				title: "Swimming 90"
+				icon: {
+					id: "scuba_gear:scuba_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "swimming"
+				requiredLevel: 90.0d
+			}]
+			rewards: [{
+				id: "3B3A3B13C2209E68"
+				type: "ftbmoney:money"
+				ftb_money: 12800L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 3.5d
+			dependencies: ["37037D43DC02A94F"]
+			id: "2C61D77C6E355C62"
+			tasks: [{
+				id: "4D546D0C3F292E7F"
+				type: "pmmo:skill"
+				title: "Swimming 80"
+				icon: {
+					id: "scuba_gear:scuba_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "swimming"
+				requiredLevel: 80.0d
+			}]
+			rewards: [{
+				id: "30A5F8F99DFD7A14"
+				type: "ftbmoney:money"
+				ftb_money: 6400L
+			}]
+		}
+		{
+			x: -3.0d
+			y: -5.5d
+			dependencies: ["36BB3447DED1E6D3"]
+			id: "09A6A635DC77A9C8"
+			tasks: [{
+				id: "478E106EAE8B84F5"
+				type: "pmmo:skill"
+				title: "Swimming 20"
+				icon: {
+					id: "thermal:diving_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "swimming"
+				requiredLevel: 20.0d
+			}]
+			rewards: [{
+				id: "5C67875A02FDB73D"
+				type: "ftbmoney:money"
+				ftb_money: 100L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 2.0d
+			dependencies: ["071F53A25750119B"]
+			id: "37037D43DC02A94F"
+			tasks: [{
+				id: "41740433AF05B4F8"
+				type: "pmmo:skill"
+				title: "Swimming 70"
+				icon: {
+					id: "scuba_gear:scuba_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "swimming"
+				requiredLevel: 70.0d
+			}]
+			rewards: [{
+				id: "3C11B363EFE8F71A"
+				type: "ftbmoney:money"
+				ftb_money: 3200L
+			}]
+		}
+		{
+			x: -3.0d
+			y: -4.0d
+			dependencies: ["09A6A635DC77A9C8"]
+			id: "2B6ABB81495D708A"
+			tasks: [{
+				id: "1F3E2C68B1FF002B"
+				type: "pmmo:skill"
+				title: "Swimming 30"
+				icon: {
+					id: "tropicraft:yellow_scuba_flippers"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "swimming"
+				requiredLevel: 30.0d
+			}]
+			rewards: [{
+				id: "0D32AB9C31AF6D6F"
+				type: "ftbmoney:money"
+				ftb_money: 200L
+			}]
+		}
+		{
+			x: -3.0d
+			y: -2.5d
+			dependencies: ["2B6ABB81495D708A"]
+			id: "0C0CFBB190F2402E"
+			tasks: [{
+				id: "73C5A20F0205A322"
+				type: "pmmo:skill"
+				title: "Swimming 40"
+				icon: {
+					id: "tropicraft:yellow_scuba_goggles"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"agricraft:gene_inspector": {
+							agri_flag: 0b
+						}
+					}
+				}
+				skill: "swimming"
+				requiredLevel: 40.0d
+			}]
+			rewards: [{
+				id: "22197CF9AE597FFD"
+				type: "ftbmoney:money"
+				ftb_money: 400L
+			}]
+		}
+		{
+			x: -3.0d
+			y: -1.0d
+			dependencies: ["0C0CFBB190F2402E"]
+			id: "42F15E1B0BBF79C5"
+			tasks: [{
+				id: "00BFC8595028B066"
+				type: "pmmo:skill"
+				title: "Swimming 50"
+				icon: {
+					id: "tropicraft:pink_scuba_flippers"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "swimming"
+				requiredLevel: 50.0d
+			}]
+			rewards: [{
+				id: "7B14AE83A231F4D4"
+				type: "ftbmoney:money"
+				ftb_money: 800L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.5d
+			dependencies: ["42F15E1B0BBF79C5"]
+			id: "071F53A25750119B"
+			tasks: [{
+				id: "2863695FB4674486"
+				type: "pmmo:skill"
+				title: "Swimming 60"
+				icon: {
+					id: "tropicraft:pink_scuba_goggles"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"agricraft:gene_inspector": {
+							agri_flag: 0b
+						}
+					}
+				}
+				skill: "swimming"
+				requiredLevel: 60.0d
+			}]
+			rewards: [{
+				id: "0DAD9E3A0F360049"
+				type: "ftbmoney:money"
+				ftb_money: 1600L
+			}]
+		}
+		{
+			x: 12.0d
+			y: -4.0d
+			dependencies: ["1233271EE363938F"]
+			id: "3FCEC06492C3E124"
+			tasks: [{
+				id: "77E4B879791A5C74"
+				type: "pmmo:skill"
+				title: "Magic 30"
+				icon: "aoa3:energy_rune"
+				skill: "magic"
+				requiredLevel: 30.0d
+			}]
+			rewards: [{
+				id: "4FC2F90A44B0A042"
+				type: "ftbmoney:money"
+				ftb_money: 200L
+			}]
+		}
+		{
+			x: 12.0d
+			y: -2.5d
+			dependencies: ["3FCEC06492C3E124"]
+			id: "5FEAED2BA0658E63"
+			tasks: [{
+				id: "2FEF6F133ACB4208"
+				type: "pmmo:skill"
+				title: "Magic 40"
+				icon: "aoa3:fire_rune"
+				skill: "magic"
+				requiredLevel: 40.0d
+			}]
+			rewards: [{
+				id: "053D6185CB95EA32"
+				type: "ftbmoney:money"
+				ftb_money: 400L
+			}]
+		}
+		{
+			x: 12.0d
+			y: -1.0d
+			dependencies: ["5FEAED2BA0658E63"]
+			id: "043A0DA368082045"
+			tasks: [{
+				id: "440DD9171AC6D884"
+				type: "pmmo:skill"
+				title: "Magic 50"
+				icon: "aoa3:kinetic_rune"
+				skill: "magic"
+				requiredLevel: 50.0d
+			}]
+			rewards: [{
+				id: "2F3A3FFF3DEEE2FB"
+				type: "ftbmoney:money"
+				ftb_money: 800L
+			}]
+		}
+		{
+			x: 12.0d
+			y: 0.5d
+			dependencies: ["043A0DA368082045"]
+			id: "6C6A00E5BAE6FC8C"
+			tasks: [{
+				id: "1A6FF6680D101E8D"
+				type: "pmmo:skill"
+				title: "Magic 60"
+				icon: "aoa3:life_rune"
+				skill: "magic"
+				requiredLevel: 60.0d
+			}]
+			rewards: [{
+				id: "2AB9736E6B002915"
+				type: "ftbmoney:money"
+				ftb_money: 1600L
+			}]
+		}
+		{
+			x: 12.0d
+			y: 2.0d
+			dependencies: ["6C6A00E5BAE6FC8C"]
+			id: "21318A08D163C7C2"
+			tasks: [{
+				id: "68C565716A01BD3C"
+				type: "pmmo:skill"
+				title: "Magic 70"
+				icon: "aoa3:lunar_rune"
+				skill: "magic"
+				requiredLevel: 70.0d
+			}]
+			rewards: [{
+				id: "2177744096DF3F16"
+				type: "ftbmoney:money"
+				ftb_money: 3200L
+			}]
+		}
+		{
+			x: 12.0d
+			y: 3.5d
+			dependencies: ["21318A08D163C7C2"]
+			id: "474DC153CEC7DE7B"
+			tasks: [{
+				id: "7E003B900A91F757"
+				type: "pmmo:skill"
+				title: "Magic 80"
+				icon: "aoa3:poison_rune"
+				skill: "magic"
+				requiredLevel: 80.0d
+			}]
+			rewards: [{
+				id: "7A0A589BD4A008AC"
+				type: "ftbmoney:money"
+				ftb_money: 6400L
+			}]
+		}
+		{
+			x: 12.0d
+			y: 5.0d
+			dependencies: ["474DC153CEC7DE7B"]
+			id: "5F765DE9CA2D03D7"
+			tasks: [{
+				id: "2614E4D37D4E69C9"
+				type: "pmmo:skill"
+				title: "Magic 90"
+				icon: "aoa3:power_rune"
+				skill: "magic"
+				requiredLevel: 90.0d
+			}]
+			rewards: [{
+				id: "370795DAC335BB3E"
+				type: "ftbmoney:money"
+				ftb_money: 12800L
+			}]
+		}
+		{
+			x: 12.0d
+			y: 6.5d
+			dependencies: ["5F765DE9CA2D03D7"]
+			id: "66D7451359F08A56"
+			tasks: [{
+				id: "504621CF751752B7"
+				type: "pmmo:skill"
+				title: "Magic 100"
+				icon: "aoa3:storm_rune"
+				skill: "magic"
+				requiredLevel: 100.0d
+			}]
+			rewards: [{
+				id: "3CC38AFD6BD393C0"
+				type: "ftbmoney:money"
+				ftb_money: 25600L
+			}]
+		}
+		{
+			x: 12.0d
+			y: 8.0d
+			dependencies: ["66D7451359F08A56"]
+			id: "4943F4BB9C666478"
+			tasks: [{
+				id: "7852E4F3E41DB3CC"
+				type: "pmmo:skill"
+				title: "Magic 110"
+				icon: "aoa3:strike_rune"
+				skill: "magic"
+				requiredLevel: 110.0d
+			}]
+			rewards: [{
+				id: "52375AAC9D53270C"
+				type: "ftbmoney:money"
+				ftb_money: 51200L
+			}]
+		}
+		{
+			x: 12.0d
+			y: 9.5d
+			dependencies: ["4943F4BB9C666478"]
+			id: "45B9F4A2ED3E10EA"
+			tasks: [{
+				id: "617A5FC488519E62"
+				type: "pmmo:skill"
+				title: "Magic 120"
+				icon: "aoa3:wind_rune"
+				skill: "magic"
+				requiredLevel: 120.0d
+			}]
+			rewards: [{
+				id: "2AED824636782D3A"
+				type: "ftbmoney:money"
+				ftb_money: 102400L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -6.0d
+			description: ["Vein miner in this pack behaves differently than most other modpacks. It has a more balanced feel to vein mining while still being very useful. Firstly when you vein mine objects your vein miner will need to recharge before you can use it to its full potential again. If you use it before it's fully recharged you simply wont mine as many blocks as you could've with it at 100% charge. Also vein mining is skill dependent. This means that starting off vein mining will not be very useful and you might only be able to mine one to two blocks. As you level up your PMMO skills your vein miner will also level up. For example, a person with Woodcutting 10 might be able to vein mine 8 blocks whereas someone with woodcutting 30 might be able to vein mine 24 blocks."]
+			dependencies: ["67AA905426C2C9E9"]
+			id: "00CACEDFFF550A16"
+			tasks: [{
+				id: "32D24490678813D1"
+				type: "checkmark"
+				title: "Vein Miner"
+			}]
+			rewards: [
+				{
+					id: "3606C01929856342"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "247562770E90C4DB"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -8.0d
+			shape: "circle"
+			description: ["Project MMO is one of this modpacks main mods. It controls your vein miner, what you can mine, what you can place, what you can craft and many more things. It also has many different skills to level up similarily to the popular minecraft server plugin MCMMO. As you level up these skills you will gain access to the ability to craft certain items but also you will gain extra perks with that specific skill. These will be explained in the quests to follow! This questline simply serves as milestone points where you can gain rewards for reaching certain levels within each skill!"]
+			id: "67AA905426C2C9E9"
+			tasks: [{
+				id: "315C338F4C8E8F9E"
+				type: "checkmark"
+				title: "Project MMO"
+			}]
+			rewards: [
+				{
+					id: "4DA8F4B5D7314B0F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "403F478856FA27D2"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: 10.5d
+			y: -7.0d
+			description: ["Farming is a skill related to harvesting plants and breeding animals. As you level up your farming skill you will recieve extra drops from farming plants as well as be able to farm faster!"]
+			dependencies: ["67AA905426C2C9E9"]
+			id: "1BDBADFF7F74CD0E"
+			tasks: [{
+				id: "263248F6DF3D1334"
+				type: "pmmo:skill"
+				title: "Farming 10"
+				icon: "minecraft:wheat_seeds"
+				skill: "farming"
+				requiredLevel: 10.0d
+			}]
+			rewards: [
+				{
+					id: "09D5ECB8C28C6A3A"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+				{
+					id: "07B5FE19A767747D"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 10.5d
+			y: -5.5d
+			dependencies: ["1BDBADFF7F74CD0E"]
+			id: "095B5DAE39DDD825"
+			tasks: [{
+				id: "72F2625B6EBA3A6A"
+				type: "pmmo:skill"
+				title: "Farming 20"
+				icon: "minecraft:pumpkin_seeds"
+				skill: "farming"
+				requiredLevel: 20.0d
+			}]
+			rewards: [{
+				id: "237481965BE68B2F"
+				type: "ftbmoney:money"
+				ftb_money: 100L
+			}]
+		}
+		{
+			x: 10.5d
+			y: -4.0d
+			dependencies: ["095B5DAE39DDD825"]
+			id: "176A2A3148351305"
+			tasks: [{
+				id: "05D78CE2FA947255"
+				type: "pmmo:skill"
+				title: "Farming 30"
+				icon: "minecraft:melon_seeds"
+				skill: "farming"
+				requiredLevel: 30.0d
+			}]
+			rewards: [{
+				id: "468C32D295CA7B16"
+				type: "ftbmoney:money"
+				ftb_money: 200L
+			}]
+		}
+		{
+			x: 10.5d
+			y: -2.5d
+			dependencies: ["176A2A3148351305"]
+			id: "7DFED42440961306"
+			tasks: [{
+				id: "2B62601EE661DC5D"
+				type: "pmmo:skill"
+				title: "Farming 40"
+				icon: "minecraft:beetroot_seeds"
+				skill: "farming"
+				requiredLevel: 40.0d
+			}]
+			rewards: [{
+				id: "172A52F848ED1776"
+				type: "ftbmoney:money"
+				ftb_money: 400L
+			}]
+		}
+		{
+			x: 10.5d
+			y: -1.0d
+			dependencies: ["7DFED42440961306"]
+			id: "68131E4AF38C3A2F"
+			tasks: [{
+				id: "4AA6D2BAAB5B4DEC"
+				type: "pmmo:skill"
+				title: "Farming 50"
+				icon: "croptopia:artichoke_seed"
+				skill: "farming"
+				requiredLevel: 50.0d
+			}]
+			rewards: [{
+				id: "39068662EEB16D25"
+				type: "ftbmoney:money"
+				ftb_money: 800L
+			}]
+		}
+		{
+			x: 10.5d
+			y: 0.5d
+			dependencies: ["68131E4AF38C3A2F"]
+			id: "4EF3730FB0FFE98E"
+			tasks: [{
+				id: "72FDDE140E1E40D0"
+				type: "pmmo:skill"
+				title: "Farming 60"
+				icon: "croptopia:bellpepper_seed"
+				skill: "farming"
+				requiredLevel: 60.0d
+			}]
+			rewards: [{
+				id: "4D4F2159B3523FE6"
+				type: "ftbmoney:money"
+				ftb_money: 1600L
+			}]
+		}
+		{
+			x: 10.5d
+			y: 2.0d
+			dependencies: ["4EF3730FB0FFE98E"]
+			id: "39DD39B3660EB55C"
+			tasks: [{
+				id: "5EE5BEC4681F1408"
+				type: "pmmo:skill"
+				title: "Farming 70"
+				icon: "croptopia:blackbean_seed"
+				skill: "farming"
+				requiredLevel: 70.0d
+			}]
+			rewards: [{
+				id: "54C4B7075D6E6DF0"
+				type: "ftbmoney:money"
+				ftb_money: 3200L
+			}]
+		}
+		{
+			x: 10.5d
+			y: 3.5d
+			dependencies: ["39DD39B3660EB55C"]
+			id: "51D39BAFE7B2304E"
+			tasks: [{
+				id: "1CA2BFC4F1125381"
+				type: "pmmo:skill"
+				title: "Farming 80"
+				icon: "croptopia:lettuce_seed"
+				skill: "farming"
+				requiredLevel: 80.0d
+			}]
+			rewards: [{
+				id: "69251F0002721F99"
+				type: "ftbmoney:money"
+				ftb_money: 6400L
+			}]
+		}
+		{
+			x: 10.5d
+			y: 5.0d
+			dependencies: ["51D39BAFE7B2304E"]
+			id: "59130B358FD12AE6"
+			tasks: [{
+				id: "24052C586B9690CD"
+				type: "pmmo:skill"
+				title: "Farming 90"
+				icon: "croptopia:cantaloupe_seed"
+				skill: "farming"
+				requiredLevel: 90.0d
+			}]
+			rewards: [{
+				id: "3BBD20C0DD7B8FE3"
+				type: "ftbmoney:money"
+				ftb_money: 12800L
+			}]
+		}
+		{
+			x: 10.5d
+			y: 6.5d
+			dependencies: ["59130B358FD12AE6"]
+			id: "71DADEDA3390174C"
+			tasks: [{
+				id: "6B70F91974CCA949"
+				type: "pmmo:skill"
+				title: "Farming 100"
+				icon: "croptopia:blueberry_seed"
+				skill: "farming"
+				requiredLevel: 100.0d
+			}]
+			rewards: [{
+				id: "059CF9A8FE8C15EB"
+				type: "ftbmoney:money"
+				ftb_money: 25600L
+			}]
+		}
+		{
+			x: 10.5d
+			y: 8.0d
+			dependencies: ["71DADEDA3390174C"]
+			id: "096F9D66775645C4"
+			tasks: [{
+				id: "17EEDA7DC14D1359"
+				type: "pmmo:skill"
+				title: "Farming 110"
+				icon: "croptopia:currant_seed"
+				skill: "farming"
+				requiredLevel: 110.0d
+			}]
+			rewards: [{
+				id: "024FCAD1702C4FAA"
+				type: "ftbmoney:money"
+				ftb_money: 51200L
+			}]
+		}
+		{
+			x: 10.5d
+			y: 9.5d
+			dependencies: ["096F9D66775645C4"]
+			id: "51CA3632DD8DC498"
+			tasks: [{
+				id: "6D3912EAE917536C"
+				type: "pmmo:skill"
+				title: "Farming 120"
+				icon: "croptopia:eggplant_seed"
+				skill: "farming"
+				requiredLevel: 120.0d
+			}]
+			rewards: [{
+				id: "7ED23B8218519072"
+				type: "ftbmoney:money"
+				ftb_money: 102400L
+			}]
+		}
+		{
+			x: 9.0d
+			y: -5.5d
+			dependencies: ["341478D83CE16FF0"]
+			id: "24BF218E06BAEF2C"
+			tasks: [{
+				id: "4E02824BCF781DCF"
+				type: "pmmo:skill"
+				title: "Fishing 20"
+				icon: "minecraft:salmon"
+				skill: "fishing"
+				requiredLevel: 20.0d
+			}]
+			rewards: [{
+				id: "2EC324805372749E"
+				type: "ftbmoney:money"
+				ftb_money: 100L
+			}]
+		}
+		{
+			x: 9.0d
+			y: -4.0d
+			dependencies: ["24BF218E06BAEF2C"]
+			id: "26058EA8FE15C3F2"
+			tasks: [{
+				id: "328099B5BF7E7C6B"
+				type: "pmmo:skill"
+				title: "Fishing 30"
+				icon: "minecraft:tropical_fish"
+				skill: "fishing"
+				requiredLevel: 30.0d
+			}]
+			rewards: [{
+				id: "6889700413DD8094"
+				type: "ftbmoney:money"
+				ftb_money: 200L
+			}]
+		}
+		{
+			x: 9.0d
+			y: -2.5d
+			dependencies: ["26058EA8FE15C3F2"]
+			id: "538869627DD8D318"
+			tasks: [{
+				id: "66D6C17D7CEDAC8F"
+				type: "pmmo:skill"
+				title: "Fishing 40"
+				icon: "minecraft:pufferfish"
+				skill: "fishing"
+				requiredLevel: 40.0d
+			}]
+			rewards: [{
+				id: "331AF6CF5443FBBD"
+				type: "ftbmoney:money"
+				ftb_money: 400L
+			}]
+		}
+		{
+			x: 9.0d
+			y: -1.0d
+			dependencies: ["538869627DD8D318"]
+			id: "0BAA6095A7660614"
+			tasks: [{
+				id: "0FCBE3CE00F12234"
+				type: "pmmo:skill"
+				title: "Fishing 50"
+				icon: "aquaculture:atlantic_cod"
+				skill: "fishing"
+				requiredLevel: 50.0d
+			}]
+			rewards: [{
+				id: "54E4557278D34BF0"
+				type: "ftbmoney:money"
+				ftb_money: 800L
+			}]
+		}
+		{
+			x: 9.0d
+			y: 0.5d
+			dependencies: ["0BAA6095A7660614"]
+			id: "230D45D815C26217"
+			tasks: [{
+				id: "4EE8415394CB848E"
+				type: "pmmo:skill"
+				title: "Fishing 60"
+				icon: "aquaculture:blackfish"
+				skill: "fishing"
+				requiredLevel: 60.0d
+			}]
+			rewards: [{
+				id: "53EEE7BC5C78815C"
+				type: "ftbmoney:money"
+				ftb_money: 1600L
+			}]
+		}
+		{
+			x: 9.0d
+			y: 2.0d
+			dependencies: ["230D45D815C26217"]
+			id: "680ACEBE77DEFBCC"
+			tasks: [{
+				id: "339434F7DEB47A2F"
+				type: "pmmo:skill"
+				title: "Fishing 70"
+				icon: "aquaculture:pacific_halibut"
+				skill: "fishing"
+				requiredLevel: 70.0d
+			}]
+			rewards: [{
+				id: "21E592B64EE53367"
+				type: "ftbmoney:money"
+				ftb_money: 3200L
+			}]
+		}
+		{
+			x: 9.0d
+			y: 3.5d
+			dependencies: ["680ACEBE77DEFBCC"]
+			id: "6701EB1F9C55A798"
+			tasks: [{
+				id: "07B213242440D7AF"
+				type: "pmmo:skill"
+				title: "Fishing 80"
+				icon: "aquaculture:atlantic_halibut"
+				skill: "fishing"
+				requiredLevel: 80.0d
+			}]
+			rewards: [{
+				id: "4E82BBEF86FA7FC9"
+				type: "ftbmoney:money"
+				ftb_money: 6400L
+			}]
+		}
+		{
+			x: 9.0d
+			y: 5.0d
+			dependencies: ["6701EB1F9C55A798"]
+			id: "68BA3BA359702C79"
+			tasks: [{
+				id: "02D636E17FD5CD05"
+				type: "pmmo:skill"
+				title: "Fishing 90"
+				icon: "aquaculture:atlantic_herring"
+				skill: "fishing"
+				requiredLevel: 90.0d
+			}]
+			rewards: [{
+				id: "11ACB656EB1B69A3"
+				type: "ftbmoney:money"
+				ftb_money: 12800L
+			}]
+		}
+		{
+			x: 9.0d
+			y: 6.5d
+			dependencies: ["68BA3BA359702C79"]
+			id: "1755F64F79D692E6"
+			tasks: [{
+				id: "7117DE31B83E08AB"
+				type: "pmmo:skill"
+				title: "Fishing 100"
+				icon: "aquaculture:pink_salmon"
+				skill: "fishing"
+				requiredLevel: 100.0d
+			}]
+			rewards: [{
+				id: "54F27750ACE40AC7"
+				type: "ftbmoney:money"
+				ftb_money: 25600L
+			}]
+		}
+		{
+			x: 9.0d
+			y: 8.0d
+			dependencies: ["1755F64F79D692E6"]
+			id: "11180278203CD746"
+			tasks: [{
+				id: "26752BF8EF4F3D13"
+				type: "pmmo:skill"
+				title: "Fishing 110"
+				icon: "aquaculture:pollock"
+				skill: "fishing"
+				requiredLevel: 110.0d
+			}]
+			rewards: [{
+				id: "65C60562D0C92478"
+				type: "ftbmoney:money"
+				ftb_money: 51200L
+			}]
+		}
+		{
+			x: 9.0d
+			y: 9.5d
+			dependencies: ["11180278203CD746"]
+			id: "169FFB4F536AE8A4"
+			tasks: [{
+				id: "328BA85923CCCEB7"
+				type: "pmmo:skill"
+				title: "Fishing 120"
+				icon: "aquaculture:rainbow_trout"
+				skill: "fishing"
+				requiredLevel: 120.0d
+			}]
+			rewards: [{
+				id: "7B050439AF2C04B8"
+				type: "ftbmoney:money"
+				ftb_money: 102400L
+			}]
+		}
+		{
+			x: 1.5d
+			y: -5.5d
+			dependencies: ["16EE1277380FC89C"]
+			id: "6C788E35327EB486"
+			tasks: [{
+				id: "12F31979FD2855B5"
+				type: "pmmo:skill"
+				title: "Gunslinging 20"
+				icon: {
+					id: "gunswithoutroses:iron_gun"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				skill: "gunslinging"
+				requiredLevel: 20.0d
+			}]
+			rewards: [{
+				id: "617DF95C9EF18DBE"
+				type: "ftbmoney:money"
+				ftb_money: 100L
+			}]
+		}
+		{
+			x: 1.5d
+			y: -4.0d
+			dependencies: ["6C788E35327EB486"]
+			id: "1ABFE490C625AE2C"
+			tasks: [{
+				id: "7FA398F6B11E7836"
+				type: "pmmo:skill"
+				title: "Gunslinging 30"
+				icon: {
+					id: "gunswithoutroses:gold_gun"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				skill: "gunslinging"
+				requiredLevel: 30.0d
+			}]
+			rewards: [{
+				id: "13EBD63C14A12D1E"
+				type: "ftbmoney:money"
+				ftb_money: 200L
+			}]
+		}
+		{
+			x: 1.5d
+			y: -2.5d
+			dependencies: ["1ABFE490C625AE2C"]
+			id: "630C56E21A510615"
+			tasks: [{
+				id: "68435C93A916FD56"
+				type: "pmmo:skill"
+				title: "Gunslinging 40"
+				icon: {
+					id: "gunswithoutroses:gold_gun"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				skill: "gunslinging"
+				requiredLevel: 40.0d
+			}]
+			rewards: [{
+				id: "75DF2221F5FCA3F3"
+				type: "ftbmoney:money"
+				ftb_money: 400L
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.0d
+			dependencies: ["630C56E21A510615"]
+			id: "797F42E94588AA3A"
+			tasks: [{
+				id: "38F87185D03A63D2"
+				type: "pmmo:skill"
+				title: "Gunslinging 50"
+				icon: {
+					id: "gunswithoutroses:diamond_gatling"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				skill: "gunslinging"
+				requiredLevel: 50.0d
+			}]
+			rewards: [{
+				id: "42582B35295F8C76"
+				type: "ftbmoney:money"
+				ftb_money: 800L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.0d
+			description: ["Salvaging in PMMO is a way you can get some resources back from tools and other things that have already been crafted. In order to salvage an item you need to shift right click on a smithing table with the item held in your hand. Sometimes items will have smithing requirements before you can salvage them though!"]
+			dependencies: ["00CACEDFFF550A16"]
+			id: "3DC99A0023106AAA"
+			tasks: [{
+				id: "42E63F39BA2FA1B9"
+				type: "checkmark"
+				title: "Salvaging"
+			}]
+			rewards: [
+				{
+					id: "42A0B647B3BB38DA"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0123A511743E0376"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: -5.5d
+			dependencies: ["2D8DD5D08CCF14CD"]
+			id: "19834B37F0C6A165"
+			tasks: [{
+				id: "2EE66437D155A4DC"
+				type: "pmmo:skill"
+				title: "Crafting 20"
+				icon: "byg:aspen_crafting_table"
+				skill: "crafting"
+				requiredLevel: 20.0d
+			}]
+			rewards: [{
+				id: "0BC0C26CE5FE67D5"
+				type: "ftbmoney:money"
+				ftb_money: 100L
+			}]
+		}
+		{
+			x: 7.5d
+			y: -4.0d
+			dependencies: ["19834B37F0C6A165"]
+			id: "1CFF24CE14054FA8"
+			tasks: [{
+				id: "43E674C59DE17CF6"
+				type: "pmmo:skill"
+				title: "Crafting 30"
+				icon: "byg:baobab_crafting_table"
+				skill: "crafting"
+				requiredLevel: 30.0d
+			}]
+			rewards: [{
+				id: "02598B88F87F4CAF"
+				type: "ftbmoney:money"
+				ftb_money: 200L
+			}]
+		}
+		{
+			x: 7.5d
+			y: -2.5d
+			dependencies: ["1CFF24CE14054FA8"]
+			id: "31242A4E5C49851F"
+			tasks: [{
+				id: "2F8B65A90D36362E"
+				type: "pmmo:skill"
+				title: "Crafting 40"
+				icon: "byg:bulbis_crafting_table"
+				skill: "crafting"
+				requiredLevel: 40.0d
+			}]
+			rewards: [{
+				id: "5DCEFC427B86BB43"
+				type: "ftbmoney:money"
+				ftb_money: 400L
+			}]
+		}
+		{
+			x: 7.5d
+			y: -1.0d
+			dependencies: ["31242A4E5C49851F"]
+			id: "2BCF3F3813BA7B66"
+			tasks: [{
+				id: "6231564751FA0879"
+				type: "pmmo:skill"
+				title: "Crafting 50"
+				icon: "byg:cherry_crafting_table"
+				skill: "crafting"
+				requiredLevel: 50.0d
+			}]
+			rewards: [{
+				id: "79994BDA91BDB6BA"
+				type: "ftbmoney:money"
+				ftb_money: 800L
+			}]
+		}
+		{
+			x: 7.5d
+			y: 0.5d
+			dependencies: ["2BCF3F3813BA7B66"]
+			id: "161DBB68C6D6623A"
+			tasks: [{
+				id: "066883EAB219566D"
+				type: "pmmo:skill"
+				title: "Crafting 60"
+				icon: "byg:cika_crafting_table"
+				skill: "crafting"
+				requiredLevel: 60.0d
+			}]
+			rewards: [{
+				id: "426DEFA3D5AF7555"
+				type: "ftbmoney:money"
+				ftb_money: 1600L
+			}]
+		}
+		{
+			x: 7.5d
+			y: 2.0d
+			dependencies: ["161DBB68C6D6623A"]
+			id: "2C3FE17DBA5FB8E8"
+			tasks: [{
+				id: "2BA957D70852CF9A"
+				type: "pmmo:skill"
+				title: "Crafting 70"
+				icon: "byg:cypress_crafting_table"
+				skill: "crafting"
+				requiredLevel: 70.0d
+			}]
+			rewards: [{
+				id: "55F67986D5A85A0D"
+				type: "ftbmoney:money"
+				ftb_money: 3200L
+			}]
+		}
+		{
+			x: 7.5d
+			y: 3.5d
+			dependencies: ["2C3FE17DBA5FB8E8"]
+			id: "72429B50509566ED"
+			tasks: [{
+				id: "0AC2BF9DAD806CDF"
+				type: "pmmo:skill"
+				title: "Crafting 80"
+				icon: "byg:ebony_crafting_table"
+				skill: "crafting"
+				requiredLevel: 80.0d
+			}]
+			rewards: [{
+				id: "70708BBE14735A72"
+				type: "ftbmoney:money"
+				ftb_money: 6400L
+			}]
+		}
+		{
+			x: 7.5d
+			y: 5.0d
+			dependencies: ["72429B50509566ED"]
+			id: "588195122ECCD023"
+			tasks: [{
+				id: "54014215ABDF741A"
+				type: "pmmo:skill"
+				title: "Crafting 90"
+				icon: "byg:ether_crafting_table"
+				skill: "crafting"
+				requiredLevel: 90.0d
+			}]
+			rewards: [{
+				id: "00E2D28D10745B44"
+				type: "ftbmoney:money"
+				ftb_money: 12800L
+			}]
+		}
+		{
+			x: 7.5d
+			y: 6.5d
+			dependencies: ["588195122ECCD023"]
+			id: "18C7632EB58DA0B8"
+			tasks: [{
+				id: "5CD9B81333E4485B"
+				type: "pmmo:skill"
+				title: "Crafting 100"
+				icon: "byg:rainbow_eucalyptus_crafting_table"
+				skill: "crafting"
+				requiredLevel: 100.0d
+			}]
+			rewards: [{
+				id: "5810CD75175342D0"
+				type: "ftbmoney:money"
+				ftb_money: 25600L
+			}]
+		}
+		{
+			x: 7.5d
+			y: 8.0d
+			dependencies: ["18C7632EB58DA0B8"]
+			id: "3D5BFB53373CC084"
+			tasks: [{
+				id: "4A440383C9D1ECCE"
+				type: "pmmo:skill"
+				title: "Crafting 110"
+				icon: "byg:green_enchanted_crafting_table"
+				skill: "crafting"
+				requiredLevel: 110.0d
+			}]
+			rewards: [{
+				id: "62CA446953FB08C8"
+				type: "ftbmoney:money"
+				ftb_money: 51200L
+			}]
+		}
+		{
+			x: 7.5d
+			y: 9.5d
+			dependencies: ["3D5BFB53373CC084"]
+			id: "1F5029DE2A248BE2"
+			tasks: [{
+				id: "231D7FF833AF6AF1"
+				type: "pmmo:skill"
+				title: "Crafting 120"
+				icon: "byg:blue_enchanted_crafting_table"
+				skill: "crafting"
+				requiredLevel: 120.0d
+			}]
+			rewards: [{
+				id: "1D88EC515083C0C1"
+				type: "ftbmoney:money"
+				ftb_money: 102400L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -7.0d
+			description: ["Alchemy is a skill that can be leveled up by brewing potions. As you level up this skill you cna get extra returns on the potions you brew."]
+			dependencies: ["67AA905426C2C9E9"]
+			id: "11F7A0F531E94B89"
+			tasks: [{
+				id: "2DEE81331B112D19"
+				type: "pmmo:skill"
+				title: "Alchemy 10"
+				icon: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:mundane"
+					}
+				}
+				skill: "alchemy"
+				requiredLevel: 10.0d
+			}]
+			rewards: [
+				{
+					id: "3940BEB90EBE4503"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+				{
+					id: "4CF5B2A14F2EFCD9"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "alchemy"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -5.5d
+			dependencies: ["11F7A0F531E94B89"]
+			id: "330463182F68E6E6"
+			tasks: [{
+				id: "0A03F4076D2778E6"
+				type: "pmmo:skill"
+				title: "Alchemy 20"
+				icon: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:night_vision"
+					}
+				}
+				skill: "alchemy"
+				requiredLevel: 20.0d
+			}]
+			rewards: [{
+				id: "6103DE81F40D3C66"
+				type: "ftbmoney:money"
+				ftb_money: 100L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -4.0d
+			dependencies: ["330463182F68E6E6"]
+			id: "04C30A102F6E1B1E"
+			tasks: [{
+				id: "28461D4ED06F6F93"
+				type: "pmmo:skill"
+				title: "Alchemy 30"
+				icon: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:invisibility"
+					}
+				}
+				skill: "alchemy"
+				requiredLevel: 30.0d
+			}]
+			rewards: [{
+				id: "3E8F9DA2B8F01574"
+				type: "ftbmoney:money"
+				ftb_money: 200L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.5d
+			dependencies: ["04C30A102F6E1B1E"]
+			id: "4C3BB4AC2660FB64"
+			tasks: [{
+				id: "26587D0BF19E1F31"
+				type: "pmmo:skill"
+				title: "Alchemy 40"
+				icon: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:leaping"
+					}
+				}
+				skill: "alchemy"
+				requiredLevel: 40.0d
+			}]
+			rewards: [{
+				id: "681233DFCF39D99C"
+				type: "ftbmoney:money"
+				ftb_money: 400L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.0d
+			dependencies: ["4C3BB4AC2660FB64"]
+			id: "40CED224ADA26CA9"
+			tasks: [{
+				id: "42DC102952F00568"
+				type: "pmmo:skill"
+				title: "Alchemy 50"
+				icon: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:fire_resistance"
+					}
+				}
+				skill: "alchemy"
+				requiredLevel: 50.0d
+			}]
+			rewards: [{
+				id: "0CE247185DD38661"
+				type: "ftbmoney:money"
+				ftb_money: 800L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.5d
+			dependencies: ["40CED224ADA26CA9"]
+			id: "7F8618F02B2F530F"
+			tasks: [{
+				id: "325FAB07A7EA8124"
+				type: "pmmo:skill"
+				title: "Alchemy 60"
+				icon: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:swiftness"
+					}
+				}
+				skill: "alchemy"
+				requiredLevel: 60.0d
+			}]
+			rewards: [{
+				id: "69E16F38992198EA"
+				type: "ftbmoney:money"
+				ftb_money: 1600L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.0d
+			dependencies: ["7F8618F02B2F530F"]
+			id: "641083B81B5D0C2A"
+			tasks: [{
+				id: "078E4E49EAAA0743"
+				type: "pmmo:skill"
+				title: "Alchemy 70"
+				icon: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:slowness"
+					}
+				}
+				skill: "alchemy"
+				requiredLevel: 70.0d
+			}]
+			rewards: [{
+				id: "52710687CCBF356F"
+				type: "ftbmoney:money"
+				ftb_money: 3200L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.5d
+			dependencies: ["641083B81B5D0C2A"]
+			id: "674065548EE756D1"
+			tasks: [{
+				id: "45E760A170CE41A8"
+				type: "pmmo:skill"
+				title: "Alchemy 80"
+				icon: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:turtle_master"
+					}
+				}
+				skill: "alchemy"
+				requiredLevel: 80.0d
+			}]
+			rewards: [{
+				id: "6CFE414E5F35C1AC"
+				type: "ftbmoney:money"
+				ftb_money: 6400L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 5.0d
+			dependencies: ["674065548EE756D1"]
+			id: "442C95DBCF40233F"
+			tasks: [{
+				id: "59F7EEFCAB28A974"
+				type: "pmmo:skill"
+				title: "Alchemy 90"
+				icon: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:water_breathing"
+					}
+				}
+				skill: "alchemy"
+				requiredLevel: 90.0d
+			}]
+			rewards: [{
+				id: "17098782A930923A"
+				type: "ftbmoney:money"
+				ftb_money: 12800L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 6.5d
+			dependencies: ["442C95DBCF40233F"]
+			id: "770B103B073FD845"
+			tasks: [{
+				id: "6DF0B8975946FAB8"
+				type: "pmmo:skill"
+				title: "Alchemy 100"
+				icon: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:healing"
+					}
+				}
+				skill: "alchemy"
+				requiredLevel: 100.0d
+			}]
+			rewards: [{
+				id: "791247CCFDB5DF43"
+				type: "ftbmoney:money"
+				ftb_money: 25600L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 8.0d
+			dependencies: ["770B103B073FD845"]
+			id: "51B1B5CED18DF443"
+			tasks: [{
+				id: "33995453C181C4F3"
+				type: "pmmo:skill"
+				title: "Alchemy 110"
+				icon: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:harming"
+					}
+				}
+				skill: "alchemy"
+				requiredLevel: 110.0d
+			}]
+			rewards: [{
+				id: "6AAAF6E256537BF8"
+				type: "ftbmoney:money"
+				ftb_money: 51200L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 9.5d
+			dependencies: ["51B1B5CED18DF443"]
+			id: "013803D1A09C1566"
+			tasks: [{
+				id: "61E666F39E1B0BD4"
+				type: "pmmo:skill"
+				title: "Alchemy 120"
+				icon: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:regeneration"
+					}
+				}
+				skill: "alchemy"
+				requiredLevel: 120.0d
+			}]
+			rewards: [{
+				id: "62C450219457D9FF"
+				type: "ftbmoney:money"
+				ftb_money: 102400L
+			}]
+		}
+		{
+			x: 6.0d
+			y: -7.0d
+			description: ["Cooking is a skill that you can level up by cooking items. As you level up this skill you can get extra return on your food that you cook."]
+			dependencies: ["67AA905426C2C9E9"]
+			id: "03EFADE570E4084B"
+			tasks: [{
+				id: "210111CB99D2E869"
+				type: "pmmo:skill"
+				title: "Cooking 10"
+				icon: "minecraft:cooked_beef"
+				skill: "cooking"
+				requiredLevel: 10.0d
+			}]
+			rewards: [
+				{
+					id: "1DBF636879DCA3A5"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+				{
+					id: "007146BA7CA1CA79"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "cooking"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -5.5d
+			dependencies: ["03EFADE570E4084B"]
+			id: "216CC0C2492ED2E7"
+			tasks: [{
+				id: "3CA9AD070B11D990"
+				type: "pmmo:skill"
+				title: "Cooking 20"
+				icon: "minecraft:cooked_porkchop"
+				skill: "cooking"
+				requiredLevel: 20.0d
+			}]
+			rewards: [{
+				id: "1D22552D3739CC83"
+				type: "ftbmoney:money"
+				ftb_money: 100L
+			}]
+		}
+		{
+			x: 6.0d
+			y: -4.0d
+			dependencies: ["216CC0C2492ED2E7"]
+			id: "1DFA21E3B4C910C1"
+			tasks: [{
+				id: "50325FBB8CB977EA"
+				type: "pmmo:skill"
+				title: "Cooking 30"
+				icon: "minecraft:cooked_chicken"
+				skill: "cooking"
+				requiredLevel: 30.0d
+			}]
+			rewards: [{
+				id: "242E26DA3E2B6D55"
+				type: "ftbmoney:money"
+				ftb_money: 200L
+			}]
+		}
+		{
+			x: 6.0d
+			y: -2.5d
+			dependencies: ["1DFA21E3B4C910C1"]
+			id: "7C86627D28FEA7D0"
+			tasks: [{
+				id: "22B1F44019038C06"
+				type: "pmmo:skill"
+				title: "Cooking 40"
+				icon: "minecraft:cooked_rabbit"
+				skill: "cooking"
+				requiredLevel: 40.0d
+			}]
+			rewards: [{
+				id: "34EDE779F68C787F"
+				type: "ftbmoney:money"
+				ftb_money: 400L
+			}]
+		}
+		{
+			x: 6.0d
+			y: -1.0d
+			dependencies: ["7C86627D28FEA7D0"]
+			id: "6CC67AB9112B4E96"
+			tasks: [{
+				id: "77E7294AE701FFBE"
+				type: "pmmo:skill"
+				title: "Cooking 50"
+				icon: "minecraft:cooked_mutton"
+				skill: "cooking"
+				requiredLevel: 50.0d
+			}]
+			rewards: [{
+				id: "3E9AAF236A62769B"
+				type: "ftbmoney:money"
+				ftb_money: 800L
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.5d
+			dependencies: ["6CC67AB9112B4E96"]
+			id: "246F073B79FD3A42"
+			tasks: [{
+				id: "2A7CA9807FEFA025"
+				type: "pmmo:skill"
+				title: "Cooking 60"
+				icon: "minecraft:cooked_cod"
+				skill: "cooking"
+				requiredLevel: 60.0d
+			}]
+			rewards: [{
+				id: "31C441C0536A9184"
+				type: "ftbmoney:money"
+				ftb_money: 1600L
+			}]
+		}
+		{
+			x: 6.0d
+			y: 2.0d
+			dependencies: ["246F073B79FD3A42"]
+			id: "23FB9097D957811E"
+			tasks: [{
+				id: "2AEF2D5D9EBFCA61"
+				type: "pmmo:skill"
+				title: "Cooking 70"
+				icon: "minecraft:cooked_salmon"
+				skill: "cooking"
+				requiredLevel: 70.0d
+			}]
+			rewards: [{
+				id: "761EEF9131752ADC"
+				type: "ftbmoney:money"
+				ftb_money: 3200L
+			}]
+		}
+		{
+			x: 6.0d
+			y: 3.5d
+			dependencies: ["23FB9097D957811E"]
+			id: "1DAA1656B0F80473"
+			tasks: [{
+				id: "306BF0CC58610D33"
+				type: "pmmo:skill"
+				title: "Cooking 80"
+				icon: "farmersdelight:cooked_chicken_cuts"
+				skill: "cooking"
+				requiredLevel: 80.0d
+			}]
+			rewards: [{
+				id: "3500BA574A5CFD78"
+				type: "ftbmoney:money"
+				ftb_money: 6400L
+			}]
+		}
+		{
+			x: 6.0d
+			y: 5.0d
+			dependencies: ["1DAA1656B0F80473"]
+			id: "7CD080FB4C5A5157"
+			tasks: [{
+				id: "57D4F6083833B998"
+				type: "pmmo:skill"
+				title: "Cooking 90"
+				icon: "farmersdelight:cooked_bacon"
+				skill: "cooking"
+				requiredLevel: 90.0d
+			}]
+			rewards: [{
+				id: "5B6A71909FD212D0"
+				type: "ftbmoney:money"
+				ftb_money: 12800L
+			}]
+		}
+		{
+			x: 6.0d
+			y: 6.5d
+			dependencies: ["7CD080FB4C5A5157"]
+			id: "143A6CFBEFD58A87"
+			tasks: [{
+				id: "200107A9B9292540"
+				type: "pmmo:skill"
+				title: "Cooking 100"
+				icon: "farmersdelight:cooked_cod_slice"
+				skill: "cooking"
+				requiredLevel: 100.0d
+			}]
+			rewards: [{
+				id: "193B221E36A71AC0"
+				type: "ftbmoney:money"
+				ftb_money: 25600L
+			}]
+		}
+		{
+			x: 6.0d
+			y: 8.0d
+			dependencies: ["143A6CFBEFD58A87"]
+			id: "238F926E9636C997"
+			tasks: [{
+				id: "5EA70888BB362EEB"
+				type: "pmmo:skill"
+				title: "Cooking 110"
+				icon: "farmersdelight:cooked_salmon_slice"
+				skill: "cooking"
+				requiredLevel: 110.0d
+			}]
+			rewards: [{
+				id: "049C78BA972B1317"
+				type: "ftbmoney:money"
+				ftb_money: 51200L
+			}]
+		}
+		{
+			x: 6.0d
+			y: 9.5d
+			dependencies: ["238F926E9636C997"]
+			id: "53CE7F8A03C90DEE"
+			tasks: [{
+				id: "4E33AC079181E105"
+				type: "pmmo:skill"
+				title: "Cooking 120"
+				icon: "farmersdelight:cooked_mutton_chops"
+				skill: "cooking"
+				requiredLevel: 120.0d
+			}]
+			rewards: [{
+				id: "31FC9CB96D65A260"
+				type: "ftbmoney:money"
+				ftb_money: 102400L
+			}]
+		}
+		{
+			x: 13.5d
+			y: -7.0d
+			description: ["Building is a skill that can be leveled up by simply building and placing blocks in your world. The stronger the block is the more xp it is worth. As you level up this skill you will get increased reach distance."]
+			dependencies: ["67AA905426C2C9E9"]
+			id: "4894ADE67371BC95"
+			tasks: [{
+				id: "568CB3D1682F8AC0"
+				type: "pmmo:skill"
+				title: "Building 10"
+				icon: "minecraft:oak_planks"
+				skill: "building"
+				requiredLevel: 10.0d
+			}]
+			rewards: [
+				{
+					id: "5806651C344F2B26"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+				{
+					id: "1B5BC9B4A19375B8"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "building"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 13.5d
+			y: -5.5d
+			dependencies: ["4894ADE67371BC95"]
+			id: "0A782F9B03E724C8"
+			tasks: [{
+				id: "186FAF5E561B1A40"
+				type: "pmmo:skill"
+				title: "Building 20"
+				icon: "minecraft:spruce_planks"
+				skill: "building"
+				requiredLevel: 20.0d
+			}]
+			rewards: [{
+				id: "460A7D72A9834BF9"
+				type: "ftbmoney:money"
+				ftb_money: 100L
+			}]
+		}
+		{
+			x: 13.5d
+			y: -4.0d
+			dependencies: ["0A782F9B03E724C8"]
+			id: "1CEDC83187678DF6"
+			tasks: [{
+				id: "01D324CF0CEBB389"
+				type: "pmmo:skill"
+				title: "Building 30"
+				icon: "minecraft:birch_planks"
+				skill: "building"
+				requiredLevel: 30.0d
+			}]
+			rewards: [{
+				id: "07F62E40CBD3270B"
+				type: "ftbmoney:money"
+				ftb_money: 200L
+			}]
+		}
+		{
+			x: 13.5d
+			y: -2.5d
+			dependencies: ["1CEDC83187678DF6"]
+			id: "684F390318B272EF"
+			tasks: [{
+				id: "50E03BEC6E9C5F32"
+				type: "pmmo:skill"
+				title: "Building 40"
+				icon: "minecraft:jungle_planks"
+				skill: "building"
+				requiredLevel: 40.0d
+			}]
+			rewards: [{
+				id: "2EA55EAA6DA64FF0"
+				type: "ftbmoney:money"
+				ftb_money: 400L
+			}]
+		}
+		{
+			x: 13.5d
+			y: -1.0d
+			dependencies: ["684F390318B272EF"]
+			id: "2B7CD1B1F10A4FD1"
+			tasks: [{
+				id: "16F1A77BCB16DB23"
+				type: "pmmo:skill"
+				title: "Building 50"
+				icon: "minecraft:acacia_planks"
+				skill: "building"
+				requiredLevel: 50.0d
+			}]
+			rewards: [{
+				id: "7C6133EBEF263185"
+				type: "ftbmoney:money"
+				ftb_money: 800L
+			}]
+		}
+		{
+			x: 13.5d
+			y: 0.5d
+			dependencies: ["2B7CD1B1F10A4FD1"]
+			id: "08283AB367F4CC3F"
+			tasks: [{
+				id: "2A874FD668A4339F"
+				type: "pmmo:skill"
+				title: "Building 60"
+				icon: "minecraft:dark_oak_planks"
+				skill: "building"
+				requiredLevel: 60.0d
+			}]
+			rewards: [{
+				id: "411DCA986E5B933B"
+				type: "ftbmoney:money"
+				ftb_money: 1600L
+			}]
+		}
+		{
+			x: 13.5d
+			y: 2.0d
+			dependencies: ["08283AB367F4CC3F"]
+			id: "31AF95E755B1E25A"
+			tasks: [{
+				id: "3DCE6D487B20977C"
+				type: "pmmo:skill"
+				title: "Building 70"
+				icon: "minecraft:oak_log"
+				skill: "building"
+				requiredLevel: 70.0d
+			}]
+			rewards: [{
+				id: "49ADFAE218284CE7"
+				type: "ftbmoney:money"
+				ftb_money: 3200L
+			}]
+		}
+		{
+			x: 13.5d
+			y: 3.5d
+			dependencies: ["31AF95E755B1E25A"]
+			id: "3E276D5C1A17ECAC"
+			tasks: [{
+				id: "70AFD3A88C295D2F"
+				type: "pmmo:skill"
+				title: "Building 80"
+				icon: "minecraft:spruce_log"
+				skill: "building"
+				requiredLevel: 80.0d
+			}]
+			rewards: [{
+				id: "62D17FC5005B00A3"
+				type: "ftbmoney:money"
+				ftb_money: 6400L
+			}]
+		}
+		{
+			x: 13.5d
+			y: 5.0d
+			dependencies: ["3E276D5C1A17ECAC"]
+			id: "5098FFE0F441A0B7"
+			tasks: [{
+				id: "4751E24A6D344197"
+				type: "pmmo:skill"
+				title: "Building 90"
+				icon: "minecraft:birch_log"
+				skill: "building"
+				requiredLevel: 90.0d
+			}]
+			rewards: [{
+				id: "1B7701CDE378DA94"
+				type: "ftbmoney:money"
+				ftb_money: 12800L
+			}]
+		}
+		{
+			x: 13.5d
+			y: 6.5d
+			dependencies: ["5098FFE0F441A0B7"]
+			id: "127216BD45CDE9D1"
+			tasks: [{
+				id: "043ADBC65C32D3EA"
+				type: "pmmo:skill"
+				title: "Building 100"
+				icon: "minecraft:jungle_log"
+				skill: "building"
+				requiredLevel: 100.0d
+			}]
+			rewards: [{
+				id: "5A62E672C90C3E5A"
+				type: "ftbmoney:money"
+				ftb_money: 25600L
+			}]
+		}
+		{
+			x: 13.5d
+			y: 8.0d
+			dependencies: ["127216BD45CDE9D1"]
+			id: "4ED36AD1EAFF2527"
+			tasks: [{
+				id: "4508967E536C6FD0"
+				type: "pmmo:skill"
+				title: "Building 110"
+				icon: "minecraft:acacia_log"
+				skill: "building"
+				requiredLevel: 110.0d
+			}]
+			rewards: [{
+				id: "3FD027D21931CA6C"
+				type: "ftbmoney:money"
+				ftb_money: 51200L
+			}]
+		}
+		{
+			x: 13.5d
+			y: 9.5d
+			dependencies: ["4ED36AD1EAFF2527"]
+			id: "13D98BEED60916B3"
+			tasks: [{
+				id: "1540BA642267BF3E"
+				type: "pmmo:skill"
+				title: "Building 120"
+				icon: "minecraft:dark_oak_log"
+				skill: "building"
+				requiredLevel: 120.0d
+			}]
+			rewards: [{
+				id: "5745A81F4FA4EA20"
+				type: "ftbmoney:money"
+				ftb_money: 102400L
+			}]
+		}
+		{
+			x: 15.0d
+			y: -5.5d
+			dependencies: ["68A3A0881CA2ADE4"]
+			id: "40B755851F0DF7B0"
+			tasks: [{
+				id: "38FCE86C7670847C"
+				type: "pmmo:skill"
+				title: "Flying 20"
+				icon: "silentgear:elytra_blueprint"
+				skill: "flying"
+				requiredLevel: 20.0d
+			}]
+			rewards: [{
+				id: "67BB98E21BE916C0"
+				type: "ftbmoney:money"
+				ftb_money: 100L
+			}]
+		}
+		{
+			x: 15.0d
+			y: -4.0d
+			dependencies: ["40B755851F0DF7B0"]
+			id: "40DC977F3A30E329"
+			tasks: [{
+				id: "70B41047F790C91E"
+				type: "pmmo:skill"
+				title: "Flying 30"
+				icon: {
+					id: "silentgear:elytra_wings"
+					Count: 1b
+					tag: {
+						Materials: [{
+							ID: "silentgear:example"
+						}]
+					}
+				}
+				skill: "flying"
+				requiredLevel: 30.0d
+			}]
+			rewards: [{
+				id: "5A839766C5D59A12"
+				type: "ftbmoney:money"
+				ftb_money: 200L
+			}]
+		}
+		{
+			x: 15.0d
+			y: -2.5d
+			dependencies: ["40DC977F3A30E329"]
+			id: "16E9EE875DBEF104"
+			tasks: [{
+				id: "419072AEA74DCD74"
+				type: "pmmo:skill"
+				title: "Flying 40"
+				icon: {
+					id: "minecraft:elytra"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "flying"
+				requiredLevel: 40.0d
+			}]
+			rewards: [{
+				id: "7345F723E81E6C4D"
+				type: "ftbmoney:money"
+				ftb_money: 400L
+			}]
+		}
+		{
+			x: 15.0d
+			y: -1.0d
+			dependencies: ["16E9EE875DBEF104"]
+			id: "30210D46C6AD8144"
+			tasks: [{
+				id: "16A35B8F2439AFF1"
+				type: "pmmo:skill"
+				title: "Flying 50"
+				icon: {
+					id: "minecraft:elytra"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "flying"
+				requiredLevel: 50.0d
+			}]
+			rewards: [{
+				id: "0011AC50BF84D527"
+				type: "ftbmoney:money"
+				ftb_money: 800L
+			}]
+		}
+		{
+			x: 15.0d
+			y: 0.5d
+			dependencies: ["30210D46C6AD8144"]
+			id: "2CCA1A9FE78B7F27"
+			tasks: [{
+				id: "58D52ECACFEF4984"
+				type: "pmmo:skill"
+				title: "Flying 60"
+				icon: {
+					id: "minecraft:elytra"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "flying"
+				requiredLevel: 60.0d
+			}]
+			rewards: [{
+				id: "594301E16A1DA4BE"
+				type: "ftbmoney:money"
+				ftb_money: 1600L
+			}]
+		}
+		{
+			x: 15.0d
+			y: 2.0d
+			dependencies: ["2CCA1A9FE78B7F27"]
+			id: "23DB18DC517059FE"
+			tasks: [{
+				id: "47FC9F03DD05DF91"
+				type: "pmmo:skill"
+				title: "Flying 70"
+				icon: {
+					id: "relics:elytra_booster"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "flying"
+				requiredLevel: 70.0d
+			}]
+			rewards: [{
+				id: "2FC24677A6DECCDE"
+				type: "ftbmoney:money"
+				ftb_money: 3200L
+			}]
+		}
+		{
+			x: 15.0d
+			y: 3.5d
+			dependencies: ["23DB18DC517059FE"]
+			id: "3DC0005F80C33D46"
+			tasks: [{
+				id: "4A84D8E8F7E46646"
+				type: "pmmo:skill"
+				title: "Flying 80"
+				icon: {
+					id: "relics:elytra_booster"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "flying"
+				requiredLevel: 80.0d
+			}]
+			rewards: [{
+				id: "41DC054B0DB752C7"
+				type: "ftbmoney:money"
+				ftb_money: 6400L
+			}]
+		}
+		{
+			x: 15.0d
+			y: 5.0d
+			dependencies: ["3DC0005F80C33D46"]
+			id: "08C8B4170D791B61"
+			tasks: [{
+				id: "349EFA1B2D9B091E"
+				type: "pmmo:skill"
+				title: "Flying 90"
+				icon: {
+					id: "relics:elytra_booster"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "flying"
+				requiredLevel: 90.0d
+			}]
+			rewards: [{
+				id: "7D5EECE8F79DB9F4"
+				type: "ftbmoney:money"
+				ftb_money: 12800L
+			}]
+		}
+		{
+			x: 15.0d
+			y: 6.5d
+			dependencies: ["08C8B4170D791B61"]
+			id: "1B75C72B68F285CC"
+			tasks: [{
+				id: "5A55C2BF957A7A16"
+				type: "pmmo:skill"
+				title: "Flying 100"
+				icon: {
+					id: "enderitemod:enderite_elytra"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "flying"
+				requiredLevel: 100.0d
+			}]
+			rewards: [{
+				id: "1D7F5DB1DD51D6F3"
+				type: "ftbmoney:money"
+				ftb_money: 25600L
+			}]
+		}
+		{
+			x: 15.0d
+			y: 8.0d
+			dependencies: ["1B75C72B68F285CC"]
+			id: "68B0080EBE3AF7BF"
+			tasks: [{
+				id: "328C636D0A26D7FD"
+				type: "pmmo:skill"
+				title: "Flying 110"
+				icon: {
+					id: "enderitemod:enderite_elytra"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "flying"
+				requiredLevel: 110.0d
+			}]
+			rewards: [{
+				id: "7A029CF46B31216E"
+				type: "ftbmoney:money"
+				ftb_money: 51200L
+			}]
+		}
+		{
+			x: 15.0d
+			y: 9.5d
+			dependencies: ["68B0080EBE3AF7BF"]
+			id: "239959B2D0C6227E"
+			tasks: [{
+				id: "37DE40C474B8912B"
+				type: "pmmo:skill"
+				title: "Flying 120"
+				icon: {
+					id: "enderitemod:enderite_elytra"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "flying"
+				requiredLevel: 120.0d
+			}]
+			rewards: [{
+				id: "1543D10FEFDF955B"
+				type: "ftbmoney:money"
+				ftb_money: 102400L
+			}]
+		}
+		{
+			x: 4.5d
+			y: -7.0d
+			description: ["Agility is a skill that can be leveled up by simply running, jumping, or saving fall damage. As you level up this skill you will increase your sprinting speed, your sprinting jump, your sneaking jump, and a higher chance to save fall damage."]
+			dependencies: ["67AA905426C2C9E9"]
+			id: "692FD3A33FC6652D"
+			tasks: [{
+				id: "4809EC3E3F774685"
+				type: "pmmo:skill"
+				title: "Agility 10"
+				icon: {
+					id: "alexsmobs:roadrunner_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "agility"
+				requiredLevel: 10.0d
+			}]
+			rewards: [
+				{
+					id: "503BCC02AE68FF80"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+				{
+					id: "09CA3B422E075487"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "agility"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -5.5d
+			dependencies: ["692FD3A33FC6652D"]
+			id: "7B62FC89A070A402"
+			tasks: [{
+				id: "71BF55784B539E58"
+				type: "pmmo:skill"
+				title: "Agility 20"
+				icon: {
+					id: "alexsmobs:roadrunner_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "agility"
+				requiredLevel: 20.0d
+			}]
+			rewards: [{
+				id: "52224151E6C376AA"
+				type: "ftbmoney:money"
+				ftb_money: 100L
+			}]
+		}
+		{
+			x: 4.5d
+			y: -4.0d
+			dependencies: ["7B62FC89A070A402"]
+			id: "4D9DE8F18DD76042"
+			tasks: [{
+				id: "2E68AD765744B9ED"
+				type: "pmmo:skill"
+				title: "Agility 30"
+				icon: {
+					id: "alexsmobs:roadrunner_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "agility"
+				requiredLevel: 30.0d
+			}]
+			rewards: [{
+				id: "54CA20D18DC8ECA3"
+				type: "ftbmoney:money"
+				ftb_money: 200L
+			}]
+		}
+		{
+			x: 4.5d
+			y: -2.5d
+			dependencies: ["4D9DE8F18DD76042"]
+			id: "0021C1C3D39586B6"
+			tasks: [{
+				id: "1A30AA033843A490"
+				type: "pmmo:skill"
+				title: "Agility 40"
+				icon: {
+					id: "relics:out_runner"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "agility"
+				requiredLevel: 40.0d
+			}]
+			rewards: [{
+				id: "24ED0471D819FFA1"
+				type: "ftbmoney:money"
+				ftb_money: 400L
+			}]
+		}
+		{
+			x: 4.5d
+			y: -1.0d
+			dependencies: ["0021C1C3D39586B6"]
+			id: "763D88DF09F3667D"
+			tasks: [{
+				id: "424E6306A4B06364"
+				type: "pmmo:skill"
+				title: "Agility 50"
+				icon: {
+					id: "relics:out_runner"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "agility"
+				requiredLevel: 50.0d
+			}]
+			rewards: [{
+				id: "3E46E653072929CF"
+				type: "ftbmoney:money"
+				ftb_money: 800L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.5d
+			dependencies: ["763D88DF09F3667D"]
+			id: "3DC8AF9AB2E5AF3C"
+			tasks: [{
+				id: "36F081A0030F8C49"
+				type: "pmmo:skill"
+				title: "Agility 60"
+				icon: {
+					id: "relics:out_runner"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "agility"
+				requiredLevel: 60.0d
+			}]
+			rewards: [{
+				id: "67ED0778691EB3F4"
+				type: "ftbmoney:money"
+				ftb_money: 1600L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 2.0d
+			dependencies: ["3DC8AF9AB2E5AF3C"]
+			id: "09F3A0F2AABB5476"
+			tasks: [{
+				id: "1367EB9F6427E117"
+				type: "pmmo:skill"
+				title: "Agility 70"
+				icon: "artifacts:running_shoes"
+				skill: "agility"
+				requiredLevel: 70.0d
+			}]
+			rewards: [{
+				id: "50D155EF28BBAE0D"
+				type: "ftbmoney:money"
+				ftb_money: 3200L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 3.5d
+			dependencies: ["09F3A0F2AABB5476"]
+			id: "7AB4A98AD7397FF6"
+			tasks: [{
+				id: "045C7A601E8D88F3"
+				type: "pmmo:skill"
+				title: "Agility 80"
+				icon: "artifacts:running_shoes"
+				skill: "agility"
+				requiredLevel: 80.0d
+			}]
+			rewards: [{
+				id: "6E141A4FB0A62417"
+				type: "ftbmoney:money"
+				ftb_money: 6400L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 5.0d
+			dependencies: ["7AB4A98AD7397FF6"]
+			id: "219140C85A014DDF"
+			tasks: [{
+				id: "321AEFA6C9BA67FD"
+				type: "pmmo:skill"
+				title: "Agility 90"
+				icon: "artifacts:running_shoes"
+				skill: "agility"
+				requiredLevel: 90.0d
+			}]
+			rewards: [{
+				id: "1BB3EEC2F6027390"
+				type: "ftbmoney:money"
+				ftb_money: 12800L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 6.5d
+			dependencies: ["219140C85A014DDF"]
+			id: "3CB5E877704B8AC5"
+			tasks: [{
+				id: "5036ABD9D8FF0CD1"
+				type: "pmmo:skill"
+				title: "Agility 100"
+				icon: {
+					id: "mekanism:free_runners"
+					Count: 1b
+					tag: { }
+				}
+				skill: "agility"
+				requiredLevel: 100.0d
+			}]
+			rewards: [{
+				id: "3F365B67AEA6E24D"
+				type: "ftbmoney:money"
+				ftb_money: 25600L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 8.0d
+			dependencies: ["3CB5E877704B8AC5"]
+			id: "0E394F7EA128050A"
+			tasks: [{
+				id: "17518631AFDF1036"
+				type: "pmmo:skill"
+				title: "Agility 110"
+				icon: {
+					id: "mekanism:free_runners"
+					Count: 1b
+					tag: { }
+				}
+				skill: "agility"
+				requiredLevel: 110.0d
+			}]
+			rewards: [{
+				id: "7424ACAE4AD8124A"
+				type: "ftbmoney:money"
+				ftb_money: 51200L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 9.5d
+			dependencies: ["0E394F7EA128050A"]
+			id: "06D45F99B008CADC"
+			tasks: [{
+				id: "071B39570EEDB865"
+				type: "pmmo:skill"
+				title: "Agility 120"
+				icon: {
+					id: "mekanism:free_runners"
+					Count: 1b
+					tag: { }
+				}
+				skill: "agility"
+				requiredLevel: 120.0d
+			}]
+			rewards: [{
+				id: "262F62106A2FF7F6"
+				type: "ftbmoney:money"
+				ftb_money: 102400L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.5d
+			dependencies: ["797F42E94588AA3A"]
+			id: "3BF77D01C53B8584"
+			tasks: [{
+				id: "16FE909514B30ED0"
+				type: "pmmo:skill"
+				title: "Gunslinging 60"
+				icon: {
+					id: "gunswithoutroses:diamond_gatling"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				skill: "gunslinging"
+				requiredLevel: 60.0d
+			}]
+			rewards: [{
+				id: "122D87D63385A381"
+				type: "ftbmoney:money"
+				ftb_money: 1600L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 2.0d
+			dependencies: ["3BF77D01C53B8584"]
+			id: "6823FC913FAD66E7"
+			tasks: [{
+				id: "24BA2E680922A9EA"
+				type: "pmmo:skill"
+				title: "Gunslinging 70"
+				icon: {
+					id: "gunswithoutroses:diamond_shotgun"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				skill: "gunslinging"
+				requiredLevel: 70.0d
+			}]
+			rewards: [{
+				id: "31653C3F851C8500"
+				type: "ftbmoney:money"
+				ftb_money: 3200L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 3.5d
+			dependencies: ["6823FC913FAD66E7"]
+			id: "69D03429939AFAFD"
+			tasks: [{
+				id: "6322ED00FB967D35"
+				type: "pmmo:skill"
+				title: "Gunslinging 80"
+				icon: {
+					id: "gunswithoutroses:diamond_shotgun"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				skill: "gunslinging"
+				requiredLevel: 80.0d
+			}]
+			rewards: [{
+				id: "4174A843DAB64587"
+				type: "ftbmoney:money"
+				ftb_money: 6400L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 5.0d
+			dependencies: ["69D03429939AFAFD"]
+			id: "5681E12EEC84DAB5"
+			tasks: [{
+				id: "04079BB3B09C3DBB"
+				type: "pmmo:skill"
+				title: "Gunslinging 90"
+				icon: {
+					id: "gunswithoutroses:diamond_sniper"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				skill: "gunslinging"
+				requiredLevel: 90.0d
+			}]
+			rewards: [{
+				id: "2F6DFB0DD5C605BF"
+				type: "ftbmoney:money"
+				ftb_money: 12800L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 6.5d
+			dependencies: ["5681E12EEC84DAB5"]
+			id: "500613DF6F97C76E"
+			tasks: [{
+				id: "28573FD3DDD3964E"
+				type: "pmmo:skill"
+				title: "Gunslinging 100"
+				icon: {
+					id: "gunswithoutroses:diamond_sniper"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				skill: "gunslinging"
+				requiredLevel: 100.0d
+			}]
+			rewards: [{
+				id: "7E7DD8010BAAD6ED"
+				type: "ftbmoney:money"
+				ftb_money: 25600L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 8.0d
+			dependencies: ["500613DF6F97C76E"]
+			id: "13E74CF3398BC613"
+			tasks: [{
+				id: "194359FE6AEC0EC3"
+				type: "pmmo:skill"
+				title: "Gunslinging 110"
+				icon: {
+					id: "pneumaticcraft:minigun"
+					Count: 1b
+					tag: {
+						"pneumaticcraft:air": 30000
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				skill: "gunslinging"
+				requiredLevel: 110.0d
+			}]
+			rewards: [{
+				id: "534D5D0C06AE7B75"
+				type: "ftbmoney:money"
+				ftb_money: 51200L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 9.5d
+			dependencies: ["13E74CF3398BC613"]
+			id: "45852E1FB153E338"
+			tasks: [{
+				id: "54798A7885850AA4"
+				type: "pmmo:skill"
+				title: "Gunslinging 120"
+				icon: {
+					id: "pneumaticcraft:minigun"
+					Count: 1b
+					tag: {
+						"pneumaticcraft:air": 30000
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				skill: "gunslinging"
+				requiredLevel: 120.0d
+			}]
+			rewards: [{
+				id: "60B7EA536CA0DDAB"
+				type: "ftbmoney:money"
+				ftb_money: 102400L
+			}]
+		}
+	]
+}

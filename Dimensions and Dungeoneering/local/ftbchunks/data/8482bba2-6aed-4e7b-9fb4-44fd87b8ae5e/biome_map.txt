@@ -1,0 +1,6 @@
+#507 projectvibrantjourneys:baobab_fields
+#010 minecraft:forest
+#3DC minecraft:plains
+#14D projectvibrantjourneys:red_rock_valley
+#4C0 byg:sierra_range
+#45C byg:sierra_valley

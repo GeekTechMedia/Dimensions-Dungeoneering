@@ -1,0 +1,14 @@
+#290 byg:bayou
+#556 minecraft:beach
+#47F minecraft:birch_forest
+#35F cavebiomeapi:caves
+#5D7 byg:deciduous_forest
+#3DE minecraft:deep_ocean
+#010 minecraft:forest
+#045 byg:jacaranda_forest
+#79A minecraft:lukewarm_ocean
+#1C1 cavesandcliffs:lush_caves
+#379 minecraft:mountains
+#4F1 minecraft:ocean
+#5A6 projectvibrantjourneys:prairie
+#406 minecraft:stone_shore

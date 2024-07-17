@@ -1,0 +1,104 @@
+{
+	id: "14D1D13DAFA48A4C"
+	group: "4B5D122F75FB7F81"
+	order_index: 4
+	filename: "warding_away"
+	title: "Warding Away"
+	icon: {
+		id: "wards:ward"
+		Count: 1b
+		ForgeCaps: {
+			"dungeons_libraries:built_in_enchantments": {
+				BuiltInEnchantments: [ ]
+			}
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "circle"
+			description: ["Wards is a mod that puts all of your extra enchantment books to good use! Wards harness the magic that binds enchantments into an enchanted book as well as power from a source. After a certain amount of time the ward would have accumulated enough energy and overloads, releasing the energy to nearby mobs. This means that you can use wards to protect your base a provide buffs to your player!"]
+			id: "3B37BCFCB4B81304"
+			tasks: [{
+				id: "16D295F1ED2690D7"
+				type: "checkmark"
+				title: "Wards"
+			}]
+			rewards: [
+				{
+					id: "4D89FB890657B3F1"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "389131900F9C2281"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			description: [
+				"The ward periodically performs two functions: expel magic and empower player. The effects of these depend on the enchantment category. Both its expel magic and empower player functions cost 20 power, and automatically occur when a target is within range. Wards can only perform these functions on targets within its line of sight. The strength of a ward depends on the level of enchantment in the enchanted book. Higher levels extend the wards range and give stronger effects. A ward can benefit from up to two enchantments: primary and secondary. The primary enchantment is always the highest level, and the secondary enchantment is the next highlest level enchantment. If an enchanted book has two enchantments of the same level, this order is picked based on the order of enchantments displayed in the book. Secondary enchantments are always treated as level one. If a ward's range overlaps with another active ward, both wards cause magical interference and deactivates both wards. When this occurs, the wards will pulse redstone particles in the direction of the interfering ward. Enchantments that do not have a category default to combat."
+				""
+				"It is important to use the type of enchantment that corresponds to the desired outcome these are posted below."
+				""
+				"Combat: Sharpness, Knockback, Power, Punch, Riptide: Damages nearby enemies. Gives the player a strength effect."
+				""
+				"Fortitude: Protection, Projectile Protection, Thorns, Unbreaking, Feather Falling: Weakens nearby enemies. Gives the player a resistance effect."
+				""
+				"Fire: Fire Protection, Fire Aspect, Flame: Sets nearby enemies on fire. Gives the player fire resistance."
+				""
+				"Water: Respiration, Aqua Affinity, Depth Strider, Frost Walker: Slightly damages nearby enemies. Damage is tripled if enemy is in water or in rain. Gives the player water breathing."
+				""
+				"Luck: Looting, Silk Touch, Fortune, Luck of the Sea, Lure: Slightly damages nearby enemies, with a small chance of forcing them to drop an experience orb. Gives the player a luck effect."
+				""
+				"Destruction: Blast Protection, Multishot, Sweeping, Channeling: Applies a stacking debuff to nearby enemies and slightly damages them. At 3 stacks the enemy explodes. Gives the player an absorption effect."
+				""
+				"Slayer: Smite, Bane of Arthropods, Impaling, Piercing: Slightly damages nearby enemies, tripled against spiders or undead. Gives the player the slayer effect. While this effect is active, killing a mob has a chance to trigger frenzy, which grants strength, regeneration, and health boost for a short duration."
+				""
+				"Haste: Effiency, Quick Charge: Slows nearby enemies. Increases player speed."
+				""
+				"Knowledge: Infinity, Mending, Loyalty: Applies the glowing effect to nearby enemies. Gives night vision and invisibility to the player."
+				""
+				"Curse: Curse of Binding, Curse of Vanishing: Applies the wither effect to nearby enemies. Poisons the player. Sorry, curses are still curses."
+				""
+				""
+			]
+			dependencies: ["3B37BCFCB4B81304"]
+			id: "56267E20C78E77C9"
+			tasks: [{
+				id: "68C5F1832B3A3FBF"
+				type: "item"
+				item: {
+					id: "wards:ward"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "410706F93647E0C7"
+				type: "item"
+				item: {
+					id: "wards:enchanted_paper"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 2
+			}]
+		}
+	]
+}

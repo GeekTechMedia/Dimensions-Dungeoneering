@@ -1,0 +1,2346 @@
+{
+	id: "738BCA9CE6DD02C3"
+	group: "16CBA37B8C6AAED4"
+	order_index: 1
+	filename: "the_collector"
+	title: "The Collector"
+	icon: "trofers:large_pillar"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: -13.5d
+			y: -9.0d
+			width: 5.0d
+			height: 5.0d
+			rotation: 0.0d
+			image: "trofers:textures/block/large_pillar_side.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 13.5d
+			y: -9.0d
+			width: 5.0d
+			height: 5.0d
+			rotation: 0.0d
+			image: "trofers:textures/block/large_pillar_side.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			title: "Slime Trophy"
+			x: -2.0d
+			y: -7.5d
+			id: "6CA89876235B0FE6"
+			tasks: [{
+				id: "7E0B01A0BA8F4C2D"
+				type: "item"
+				icon: {
+					id: "trofers:small_plate"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:slime"
+						}
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							BlockEntityTag: {
+								Trophy: "trofers:slime"
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "7BD5C148DF7B1BE0"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			title: "Bat Trophy"
+			icon: {
+				id: "trofers:small_plate"
+				Count: 1b
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:bat"
+					}
+				}
+			}
+			x: -9.0d
+			y: -9.5d
+			id: "6D69150F8796168C"
+			tasks: [{
+				id: "377D033425D19A59"
+				type: "item"
+				icon: {
+					id: "trofers:small_plate"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:bat"
+						}
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							BlockEntityTag: {
+								Trophy: "trofers:bat"
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "0E786F6B4C2C7060"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			title: "Bee Trophy"
+			x: -8.0d
+			y: -9.5d
+			id: "45B12F4897CC6FB1"
+			tasks: [{
+				id: "1AFEDAF8D6CBEF31"
+				type: "item"
+				icon: {
+					id: "trofers:small_plate"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:bee"
+						}
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							BlockEntityTag: {
+								Trophy: "trofers:bee"
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "44609CCAD4C67BFB"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			title: "Blaze Trophy"
+			x: -7.0d
+			y: -9.5d
+			id: "2547BCECB8EFF15C"
+			tasks: [{
+				id: "6E9216E2D1262702"
+				type: "item"
+				icon: {
+					id: "trofers:small_plate"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:blaze"
+						}
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							BlockEntityTag: {
+								Trophy: "trofers:blaze"
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "6BBEE5D259FEC48A"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			title: "Cat Trophy"
+			x: -6.0d
+			y: -9.5d
+			id: "5B1083632CC532AC"
+			tasks: [{
+				id: "4E4478C98C5549EC"
+				type: "item"
+				icon: {
+					id: "trofers:small_plate"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:cat"
+						}
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							BlockEntityTag: {
+								Trophy: "trofers:cat"
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "0637F0B94517CF99"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			title: "Cave Spider Trophy"
+			x: -5.0d
+			y: -9.5d
+			id: "5080CEBA539FBD4E"
+			tasks: [{
+				id: "39E11D29D889EE60"
+				type: "item"
+				icon: {
+					id: "trofers:small_plate"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:cave_spider"
+						}
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							BlockEntityTag: {
+								Trophy: "trofers:cave_spider"
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "133DA50199FC9225"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			title: "Chicken Trophy"
+			x: -4.0d
+			y: -9.5d
+			id: "2DC50982CA88E879"
+			tasks: [{
+				id: "3EC7D2C3CE3362AF"
+				type: "item"
+				icon: {
+					id: "trofers:small_plate"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:chicken"
+						}
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							BlockEntityTag: {
+								Trophy: "trofers:chicken"
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "0C2373F9D5C5A624"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			title: "Cod Trophy"
+			x: -3.0d
+			y: -9.5d
+			id: "7FF2AD3D59B11F63"
+			tasks: [{
+				id: "5D087E0CF8978F5B"
+				type: "item"
+				icon: {
+					id: "trofers:small_plate"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:cod"
+						}
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							BlockEntityTag: {
+								Trophy: "trofers:cod"
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "6A0DF4B35B9ADDA6"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			title: "Cow Trophy"
+			x: -2.0d
+			y: -9.5d
+			id: "3F4750A2A1BC4E64"
+			tasks: [{
+				id: "276C86F174989D83"
+				type: "item"
+				icon: {
+					id: "trofers:small_plate"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:cow"
+						}
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							BlockEntityTag: {
+								Trophy: "trofers:cow"
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "6ABE1EC78CD16E51"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			title: "Creeper Trophy"
+			x: -1.0d
+			y: -9.5d
+			id: "16B3EE3B7922BF2A"
+			tasks: [{
+				id: "7072B01743237C5D"
+				type: "item"
+				icon: {
+					id: "trofers:small_plate"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:creeper"
+						}
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							BlockEntityTag: {
+								Trophy: "trofers:creeper"
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "2E93E104A54DA670"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			title: "Dolphin Trophy"
+			x: 0.0d
+			y: -9.5d
+			id: "4BA7A44E3CE44131"
+			tasks: [{
+				id: "475B345EDC4F8D30"
+				type: "item"
+				icon: {
+					id: "trofers:small_plate"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:dolphin"
+						}
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							BlockEntityTag: {
+								Trophy: "trofers:dolphin"
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "62CF76434B209DAA"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			title: "Donkey Trophy"
+			x: 1.0d
+			y: -9.5d
+			id: "3E52471094B30F0F"
+			tasks: [{
+				id: "701521E78D6DFC0A"
+				type: "item"
+				icon: {
+					id: "trofers:small_plate"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:donkey"
+						}
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							BlockEntityTag: {
+								Trophy: "trofers:donkey"
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "1AA4532AF0C40E9D"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			title: "Drowned Trophy"
+			x: 2.0d
+			y: -9.5d
+			id: "494B6A3C63884A49"
+			tasks: [{
+				id: "3245E0AE61159634"
+				type: "item"
+				icon: {
+					id: "trofers:small_plate"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:drowned"
+						}
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							BlockEntityTag: {
+								Trophy: "trofers:drowned"
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "11BFE9C9A0C0E3C7"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			title: "Elder Guardian Trophy"
+			x: 3.0d
+			y: -9.5d
+			id: "49BACB6AAA82BEBF"
+			tasks: [{
+				id: "52156E4B5587FD31"
+				type: "item"
+				icon: {
+					id: "trofers:small_plate"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:elder_guardian"
+						}
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							BlockEntityTag: {
+								Trophy: "trofers:elder_guardian"
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "20BF5848ED16F7E7"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			title: "Enderman Trophy"
+			x: 4.0d
+			y: -9.5d
+			id: "0D894895F23DED1C"
+			tasks: [{
+				id: "3D00036A7970000E"
+				type: "item"
+				icon: {
+					id: "trofers:small_plate"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:enderman"
+						}
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							BlockEntityTag: {
+								Trophy: "trofers:enderman"
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "48C0E9440226EE78"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			title: "Endermite Trophy"
+			x: 5.0d
+			y: -9.5d
+			id: "36173073E4BE91BE"
+			tasks: [{
+				id: "22C5C73B5E368CDB"
+				type: "item"
+				icon: {
+					id: "trofers:small_plate"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:endermite"
+						}
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							BlockEntityTag: {
+								Trophy: "trofers:endermite"
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "054F9DB7A44041AB"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			title: "Evoker Trophy"
+			x: 6.0d
+			y: -9.5d
+			id: "35A082DEA509CC9E"
+			tasks: [{
+				id: "6775549A563E1071"
+				type: "item"
+				icon: {
+					id: "trofers:small_plate"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:evoker"
+						}
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							BlockEntityTag: {
+								Trophy: "trofers:evoker"
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "0F35FB1AA385D0AB"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			title: "Fox Trophy"
+			x: 7.0d
+			y: -9.5d
+			id: "6508995F8E6C20A7"
+			tasks: [{
+				id: "36C337BC4CD55BEB"
+				type: "item"
+				icon: {
+					id: "trofers:small_plate"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:fox"
+						}
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							BlockEntityTag: {
+								Trophy: "trofers:fox"
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "35D7AD2BF1452C95"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			title: "Ghast Trophy"
+			x: 8.0d
+			y: -9.5d
+			id: "5941DE0E81E3DEE8"
+			tasks: [{
+				id: "7B0B75A9F0A283B4"
+				type: "item"
+				icon: {
+					id: "trofers:small_plate"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:ghast"
+						}
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							BlockEntityTag: {
+								Trophy: "trofers:ghast"
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "7F30B8825B3C34DD"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			title: "Guardian Trophy"
+			x: 9.0d
+			y: -9.5d
+			id: "6A1FE0C935B1FFA7"
+			tasks: [{
+				id: "74266AF81956DB90"
+				type: "item"
+				icon: {
+					id: "trofers:small_plate"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:guardian"
+						}
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							BlockEntityTag: {
+								Trophy: "trofers:guardian"
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "41827AB630188D07"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			title: "Hoglin Trophy"
+			x: -9.0d
+			y: -8.5d
+			id: "24AA7DD5170ABFE6"
+			tasks: [{
+				id: "6C8BC149D64950A5"
+				type: "item"
+				icon: {
+					id: "trofers:small_plate"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:hoglin"
+						}
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							BlockEntityTag: {
+								Trophy: "trofers:hoglin"
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "1E5FCCC1483C1DA3"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			title: "Horse Trophy"
+			x: -8.0d
+			y: -8.5d
+			id: "035F0A6603FCFECB"
+			tasks: [{
+				id: "1CBD47BE5885E481"
+				type: "item"
+				icon: {
+					id: "trofers:small_plate"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:horse"
+						}
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							BlockEntityTag: {
+								Trophy: "trofers:horse"
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "27CEB34273D095A6"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			title: "Husk Trophy"
+			x: -7.0d
+			y: -8.5d
+			id: "748F4163BB0BFD12"
+			tasks: [{
+				id: "1993AFAD97C3CC62"
+				type: "item"
+				icon: {
+					id: "trofers:small_plate"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:husk"
+						}
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							BlockEntityTag: {
+								Trophy: "trofers:husk"
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "1F6C23097AE4DF2B"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			title: "Iron Golem Trophy"
+			x: -6.0d
+			y: -8.5d
+			id: "1A3FF444A13C8E7F"
+			tasks: [{
+				id: "09A6CAD3A50EB0B2"
+				type: "item"
+				icon: {
+					id: "trofers:small_plate"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:iron_golem"
+						}
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							BlockEntityTag: {
+								Trophy: "trofers:iron_golem"
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "35F7EC3B58B15F6B"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			title: "Llama Trophy"
+			x: -5.0d
+			y: -8.5d
+			id: "2BBC7E347B34B6DC"
+			tasks: [{
+				id: "3B455FB6086C022F"
+				type: "item"
+				icon: {
+					id: "trofers:small_plate"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:llama"
+						}
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							BlockEntityTag: {
+								Trophy: "trofers:llama"
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "6CD24EBCF8609DF2"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			title: "Magma Cube Trophy"
+			x: -4.0d
+			y: -8.5d
+			id: "25032F426F7D4F5D"
+			tasks: [{
+				id: "1536A33FED7899BD"
+				type: "item"
+				icon: {
+					id: "trofers:small_plate"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:magma_cube"
+						}
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							BlockEntityTag: {
+								Trophy: "trofers:magma_cube"
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "39361E2FEE4E1011"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			title: "Mooshroom Trophy"
+			x: -3.0d
+			y: -8.5d
+			id: "47B14C1B007A0609"
+			tasks: [{
+				id: "5492F3382891D975"
+				type: "item"
+				icon: {
+					id: "trofers:small_plate"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:mooshroom"
+						}
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							BlockEntityTag: {
+								Trophy: "trofers:mooshroom"
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "146B325422277CDE"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			title: "Mule Trophy"
+			x: -2.0d
+			y: -8.5d
+			id: "2C8B476F146C6C32"
+			tasks: [{
+				id: "49C974A0CDFCA521"
+				type: "item"
+				icon: {
+					id: "trofers:small_plate"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:mule"
+						}
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							BlockEntityTag: {
+								Trophy: "trofers:mule"
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "39ABA818EEE1C6AD"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			title: "Ocelot Trophy"
+			x: -1.0d
+			y: -8.5d
+			id: "2B845BED0AAEB237"
+			tasks: [{
+				id: "16AA3C69EE9BA118"
+				type: "item"
+				icon: {
+					id: "trofers:small_plate"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:ocelot"
+						}
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							BlockEntityTag: {
+								Trophy: "trofers:ocelot"
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "7A36350219F489AB"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			title: "Panda Trophy"
+			x: 0.0d
+			y: -8.5d
+			id: "12E8A7CDBFCB2DFB"
+			tasks: [{
+				id: "79DD88905EB1630F"
+				type: "item"
+				icon: {
+					id: "trofers:small_plate"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:panda"
+						}
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							BlockEntityTag: {
+								Trophy: "trofers:panda"
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "47479652507EB463"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			title: "Parrot Trophy"
+			x: 1.0d
+			y: -8.5d
+			id: "6085A4656D560AD7"
+			tasks: [{
+				id: "1C2B43340B0FFD02"
+				type: "item"
+				icon: {
+					id: "trofers:small_plate"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:parrot"
+						}
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							BlockEntityTag: {
+								Trophy: "trofers:parrot"
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "275225DBC1CA7CD3"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			title: "Phantom Filter"
+			x: 2.0d
+			y: -8.5d
+			id: "5DF445513F4E030C"
+			tasks: [{
+				id: "4A7F0757AA92B2CE"
+				type: "item"
+				icon: {
+					id: "trofers:small_plate"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:phantom"
+						}
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							BlockEntityTag: {
+								Trophy: "trofers:phantom"
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "451FF440435CF8F9"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			title: "Pig Trophy"
+			x: 3.0d
+			y: -8.5d
+			id: "6EBB04BDE1CFB019"
+			tasks: [{
+				id: "41810A9CC58E8AA7"
+				type: "item"
+				icon: {
+					id: "trofers:small_plate"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:pig"
+						}
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							BlockEntityTag: {
+								Trophy: "trofers:pig"
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "74F549219E1DAF77"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			title: "Piglin Trophy"
+			x: 4.0d
+			y: -8.5d
+			id: "0862592A6594CFBF"
+			tasks: [{
+				id: "29EC6DAB35C4B90D"
+				type: "item"
+				icon: {
+					id: "trofers:small_plate"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:piglin"
+						}
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							BlockEntityTag: {
+								Trophy: "trofers:piglin"
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "6A45D90B67F10761"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			title: "Piglin Brute Trophy"
+			x: 5.0d
+			y: -8.5d
+			id: "3FB50CD414F6F876"
+			tasks: [{
+				id: "0F924CD61A23D658"
+				type: "item"
+				icon: {
+					id: "trofers:small_plate"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:piglin_brute"
+						}
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							BlockEntityTag: {
+								Trophy: "trofers:piglin_brute"
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "46650038A5F5EAC9"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			title: "Pillager Trophy"
+			x: 6.0d
+			y: -8.5d
+			id: "6F56B693012EA09A"
+			tasks: [{
+				id: "37B81D2CB9A8B5EB"
+				type: "item"
+				icon: {
+					id: "trofers:small_plate"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:pillager"
+						}
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							BlockEntityTag: {
+								Trophy: "trofers:pillager"
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "305147BCC028BF78"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			title: "Polar Bear Trophy"
+			x: 7.0d
+			y: -8.5d
+			id: "77803C716E25B134"
+			tasks: [{
+				id: "7F4EAD1F6105FF5D"
+				type: "item"
+				icon: {
+					id: "trofers:small_plate"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:polar_bear"
+						}
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							BlockEntityTag: {
+								Trophy: "trofers:polar_bear"
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "0C84CB5AB132813C"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			title: "Pufferfish Trophy"
+			x: 8.0d
+			y: -8.5d
+			id: "3DAD38B6DD4FFF5C"
+			tasks: [{
+				id: "1F67AAFA45842A81"
+				type: "item"
+				icon: {
+					id: "trofers:small_plate"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:pufferfish"
+						}
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							BlockEntityTag: {
+								Trophy: "trofers:pufferfish"
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "657D3AE2A63120A1"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			title: "Rabbit Trophy"
+			x: 9.0d
+			y: -8.5d
+			id: "160C453B2831A399"
+			tasks: [{
+				id: "24A91D083AD4699E"
+				type: "item"
+				icon: {
+					id: "trofers:small_plate"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:rabbit"
+						}
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							BlockEntityTag: {
+								Trophy: "trofers:rabbit"
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "4F86411015D91FC8"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			title: "Ravager Trophy"
+			x: -9.0d
+			y: -7.5d
+			id: "4B0AD0931A7A1506"
+			tasks: [{
+				id: "4762EC1F047FFF04"
+				type: "item"
+				icon: {
+					id: "trofers:small_plate"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:ravager"
+						}
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							BlockEntityTag: {
+								Trophy: "trofers:ravager"
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "3D03B34BEA21E950"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			title: "Salmon Trophy"
+			x: -8.0d
+			y: -7.5d
+			id: "64DD1EE0F6E1420B"
+			tasks: [{
+				id: "141D1475586F22C5"
+				type: "item"
+				icon: {
+					id: "trofers:small_plate"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:salmon"
+						}
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							BlockEntityTag: {
+								Trophy: "trofers:salmon"
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "5424BAFBD121F0C7"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			title: "Sheep Trophy"
+			x: -7.0d
+			y: -7.5d
+			id: "660075E8A549E6FE"
+			tasks: [{
+				id: "1BB82F0C3F0DE449"
+				type: "item"
+				icon: {
+					id: "trofers:small_plate"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:sheep"
+						}
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							BlockEntityTag: {
+								Trophy: "trofers:sheep"
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "0C762FE1799D9906"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			title: "Shulker Trophy"
+			x: -6.0d
+			y: -7.5d
+			id: "182E56575468F2F7"
+			tasks: [{
+				id: "5551881CF1D0D6C1"
+				type: "item"
+				icon: {
+					id: "trofers:small_plate"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:shulker"
+						}
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							BlockEntityTag: {
+								Trophy: "trofers:shulker"
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "6500A5D7BFB96E51"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			title: "Silverfish Trophy"
+			x: -5.0d
+			y: -7.5d
+			id: "6266BD26E02CAD22"
+			tasks: [{
+				id: "791CE818C23ED358"
+				type: "item"
+				icon: {
+					id: "trofers:small_plate"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:silverfish"
+						}
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							BlockEntityTag: {
+								Trophy: "trofers:silverfish"
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "417B3332FC33691A"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			title: "Skeleton Trophy"
+			x: -4.0d
+			y: -7.5d
+			id: "6995CB1A35FA16D8"
+			tasks: [{
+				id: "01B4300D4D82D447"
+				type: "item"
+				icon: {
+					id: "trofers:small_plate"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:skeleton"
+						}
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							BlockEntityTag: {
+								Trophy: "trofers:skeleton"
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "5CC1A89A0492CF97"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			title: "Skeleton Horse Trophy"
+			x: -3.0d
+			y: -7.5d
+			id: "261DD794B4D960A0"
+			tasks: [{
+				id: "56D73AB1D66258AE"
+				type: "item"
+				icon: {
+					id: "trofers:small_plate"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:skeleton_horse"
+						}
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							BlockEntityTag: {
+								Trophy: "trofers:skeleton_horse"
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "4B553689E65BF41B"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			title: "Snow Golem Trophy"
+			x: -1.0d
+			y: -7.5d
+			id: "6C5E44206F1D1A6E"
+			tasks: [{
+				id: "57C71E246BDD214C"
+				type: "item"
+				icon: {
+					id: "trofers:small_plate"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:snow_golem"
+						}
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							BlockEntityTag: {
+								Trophy: "trofers:snow_golem"
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "313D766C71583AFF"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			title: "Spider Trophy"
+			x: 0.0d
+			y: -7.5d
+			id: "3CBCC86C453A19E1"
+			tasks: [{
+				id: "31748B070C3ABA00"
+				type: "item"
+				icon: {
+					id: "trofers:small_plate"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:spider"
+						}
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							BlockEntityTag: {
+								Trophy: "trofers:spider"
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "683C8E8FC495BF77"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			title: "Squid Trophy"
+			x: 1.0d
+			y: -7.5d
+			id: "6FB9A020D6D4638C"
+			tasks: [{
+				id: "56E55B6BA27B6074"
+				type: "item"
+				icon: {
+					id: "trofers:small_plate"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:squid"
+						}
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							BlockEntityTag: {
+								Trophy: "trofers:squid"
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "411CF4E7CD73823A"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			title: "Stray Trophy"
+			x: 2.0d
+			y: -7.5d
+			id: "6EFFD43C1430F3E5"
+			tasks: [{
+				id: "26704B4572D77664"
+				type: "item"
+				icon: {
+					id: "trofers:small_plate"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:stray"
+						}
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							BlockEntityTag: {
+								Trophy: "trofers:stray"
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "49FC680287200A51"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			title: "Strider Trophy"
+			x: 3.0d
+			y: -7.5d
+			id: "024FC558BD3C4A39"
+			tasks: [{
+				id: "1D98A7DA99726253"
+				type: "item"
+				icon: {
+					id: "trofers:small_plate"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:strider"
+						}
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							BlockEntityTag: {
+								Trophy: "trofers:strider"
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "6A9BC71510210AB2"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			title: "Trader Llama Trophy"
+			x: 4.0d
+			y: -7.5d
+			id: "09A4A8148342F460"
+			tasks: [{
+				id: "38AD9BF826464C7E"
+				type: "item"
+				icon: {
+					id: "trofers:small_plate"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:trader_llama"
+						}
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							BlockEntityTag: {
+								Trophy: "trofers:trader_llama"
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "3B93BB82059086CB"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			title: "Tropical Fish Trophy"
+			x: 5.0d
+			y: -7.5d
+			id: "6FEC0BD6C082BA3F"
+			tasks: [{
+				id: "72EBFACDE46E6BFB"
+				type: "item"
+				icon: {
+					id: "trofers:small_plate"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:tropical_fish"
+						}
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							BlockEntityTag: {
+								Trophy: "trofers:tropical_fish"
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "628364BCE7A73257"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			title: "Turtle Trophy"
+			x: 6.0d
+			y: -7.5d
+			id: "23832E0368154722"
+			tasks: [{
+				id: "03FDE8E1F22D4414"
+				type: "item"
+				icon: {
+					id: "trofers:small_plate"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:turtle"
+						}
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							BlockEntityTag: {
+								Trophy: "trofers:turtle"
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "51FD6C59D512E64D"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			title: "Vex Trophy"
+			x: 7.0d
+			y: -7.5d
+			id: "6F32F1DFD30CA25D"
+			tasks: [{
+				id: "0FCC9564532F6F46"
+				type: "item"
+				icon: {
+					id: "trofers:small_plate"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:vex"
+						}
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							BlockEntityTag: {
+								Trophy: "trofers:vex"
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "55E7B17322A79922"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			title: "Villager Trophy"
+			x: 8.0d
+			y: -7.5d
+			id: "05206D1002D6AB22"
+			tasks: [{
+				id: "50CECE17CBE3F27C"
+				type: "item"
+				icon: {
+					id: "trofers:small_plate"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:villager"
+						}
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							BlockEntityTag: {
+								Trophy: "trofers:villager"
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "2B92B4DA54D00542"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			title: "Vindicator Trophy"
+			x: 9.0d
+			y: -7.5d
+			id: "1B9DD8A1C764EE65"
+			tasks: [{
+				id: "2D7CE6E4496DFB90"
+				type: "item"
+				icon: {
+					id: "trofers:small_plate"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:vindicator"
+						}
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							BlockEntityTag: {
+								Trophy: "trofers:vindicator"
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "788A725F4102BDC0"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			title: "Wandering Trader Trophy"
+			x: -3.5d
+			y: -6.5d
+			id: "3CAE9D6C2AC4C601"
+			tasks: [{
+				id: "13C455A356ED015D"
+				type: "item"
+				icon: {
+					id: "trofers:small_plate"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:wandering_trader"
+						}
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							BlockEntityTag: {
+								Trophy: "trofers:wandering_trader"
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "2ECEF2D9C41C549C"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			title: "Witch Trophy"
+			x: -2.5d
+			y: -6.5d
+			id: "08675EA706F19C6B"
+			tasks: [{
+				id: "5AE6CAB944B707B4"
+				type: "item"
+				icon: {
+					id: "trofers:small_plate"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:witch"
+						}
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							BlockEntityTag: {
+								Trophy: "trofers:witch"
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "2A1F02D313DE215D"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			title: "Wither Skeleton Trophy"
+			x: -1.5d
+			y: -6.5d
+			id: "35BE492CBD49F14E"
+			tasks: [{
+				id: "58DBB844360C5C2F"
+				type: "item"
+				icon: {
+					id: "trofers:small_plate"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:wither_skeleton"
+						}
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							BlockEntityTag: {
+								Trophy: "trofers:wither_skeleton"
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "0D28D4B61F4873C4"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			title: "Wolf Trophy"
+			x: -0.5d
+			y: -6.5d
+			id: "0692CFF3EDBABFF9"
+			tasks: [{
+				id: "09098B99AEBF9310"
+				type: "item"
+				icon: {
+					id: "trofers:small_plate"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:wolf"
+						}
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							BlockEntityTag: {
+								Trophy: "trofers:wolf"
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "245762E60A8AB3EA"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			title: "Zoglin Trophy"
+			x: 0.5d
+			y: -6.5d
+			id: "3A5C148B98A24C34"
+			tasks: [{
+				id: "3759958899C9816E"
+				type: "item"
+				icon: {
+					id: "trofers:small_plate"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:zoglin"
+						}
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							BlockEntityTag: {
+								Trophy: "trofers:zoglin"
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "7F768F6ED210B417"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			title: "Zombie Trophy"
+			x: 1.5d
+			y: -6.5d
+			id: "17B8CCF1AE07A533"
+			tasks: [{
+				id: "43B4EAB2A6B33BC7"
+				type: "item"
+				icon: {
+					id: "trofers:small_plate"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:zombie"
+						}
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							BlockEntityTag: {
+								Trophy: "trofers:zombie"
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "6669A0ECF77DFFF6"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			title: "Zombie Villager Trophy"
+			x: 2.5d
+			y: -6.5d
+			id: "26E3AD8AE4EECC68"
+			tasks: [{
+				id: "65DFF5610585B637"
+				type: "item"
+				icon: {
+					id: "trofers:small_plate"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:zombie_villager"
+						}
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							BlockEntityTag: {
+								Trophy: "trofers:zombie_villager"
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "6C7F581769898C1F"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			title: "Zombified Piglin Trophy"
+			x: 3.5d
+			y: -6.5d
+			id: "6D68CF1C242FD341"
+			tasks: [{
+				id: "14B53E5E0ADEABBB"
+				type: "item"
+				icon: {
+					id: "trofers:small_plate"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:zombified_piglin"
+						}
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							BlockEntityTag: {
+								Trophy: "trofers:zombified_piglin"
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "081C1ABBB90EEA13"
+				type: "ftbmoney:money"
+				ftb_money: 250L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "circle"
+			description: ["The Collector is a questline which requires you to obtain trophies from killing different entities. Every entity you kill has a 1/1000 chance to drop a trophy and each trophy has a special reward when right clicked, however there is a cooldown for this!"]
+			id: "14AB5FCF25840549"
+			tasks: [{
+				id: "55E4AE797CEE37F0"
+				type: "checkmark"
+				title: "The Collector"
+			}]
+			rewards: [
+				{
+					id: "50F1E18FD2A38D39"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "79F09728EDDB7C5C"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+	]
+}

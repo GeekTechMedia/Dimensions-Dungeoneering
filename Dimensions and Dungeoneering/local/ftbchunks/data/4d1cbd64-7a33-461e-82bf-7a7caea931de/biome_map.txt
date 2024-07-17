@@ -1,0 +1,17 @@
+#556 minecraft:beach
+#35F cavebiomeapi:caves
+#3D6 minecraft:cold_ocean
+#64F byg:dover_mountains
+#010 minecraft:forest
+#292 minecraft:frozen_ocean
+#3B7 projectvibrantjourneys:gravel_shore
+#045 byg:jacaranda_forest
+#1C1 cavesandcliffs:lush_caves
+#472 projectvibrantjourneys:meadows
+#4F1 minecraft:ocean
+#3DC minecraft:plains
+#3A8 byg:seasonal_deciduous_forest
+#23E byg:seasonal_forest
+#7C1 projectvibrantjourneys:stony_fields
+#657 projectvibrantjourneys:windswept_cliffs
+#452 minecraft:wooded_hills

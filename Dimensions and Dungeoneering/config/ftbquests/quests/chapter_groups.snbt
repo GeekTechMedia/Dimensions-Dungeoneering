@@ -1,0 +1,15 @@
+{
+	chapter_groups: [
+		{ id: "31DBD57DDF20D469", title: "The Basics" }
+		{ id: "16CBA37B8C6AAED4", title: "Exploration" }
+		{ id: "2005A08BB83BFED6", title: "Loot" }
+		{ id: "595AE539715DFFDD", title: "Farming and Fishing" }
+		{ id: "36BEEFEA347FE093", title: "Cooking" }
+		{ id: "59C52D0551711357", title: "Dimensions" }
+		{ id: "4B5D122F75FB7F81", title: "Magic" }
+		{ id: "469C0E7F7E302F41", title: "Building" }
+		{ id: "1F22E46975B98D48", title: "Tech" }
+		{ id: "210F86E2FF26C10B", title: "Miscellaneous" }
+		{ id: "6D4CDCB7B3661F4B", title: "We Are In The Endgame Now" }
+	]
+}

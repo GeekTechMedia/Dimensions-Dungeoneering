@@ -1,0 +1,16 @@
+{
+	id: "677326B21A84652F"
+	order_index: 10
+	title: "Tier V Augments"
+	loot_size: 1
+	rewards: [
+		{ item: "mysticalagriculture:absorption_v_augment" }
+		{ item: "mysticalagriculture:wither_resistance_augment" }
+		{ item: "mysticalagriculture:health_boost_v_augment" }
+		{ item: "mysticalagriculture:strength_iii_augment" }
+		{ item: "mysticalagriculture:flight_augment" }
+		{ item: "mysticalagriculture:mining_aoe_iv_augment" }
+		{ item: "mysticalagriculture:attack_aoe_iii_augment" }
+		{ item: "mysticalagriculture:tilling_aoe_iv_augment" }
+	]
+}

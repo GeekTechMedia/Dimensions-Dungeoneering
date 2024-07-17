@@ -1,0 +1,10 @@
+#35F cavebiomeapi:caves
+#008 minecraft:desert
+#074 byg:ebony_woods
+#66B byg:mangrove_marshes
+#07C byg:mojave_desert
+#3DC minecraft:plains
+#090 byg:red_rock_lowlands
+#7AA byg:red_rock_mountains
+#67B minecraft:savanna
+#174 minecraft:shattered_savanna

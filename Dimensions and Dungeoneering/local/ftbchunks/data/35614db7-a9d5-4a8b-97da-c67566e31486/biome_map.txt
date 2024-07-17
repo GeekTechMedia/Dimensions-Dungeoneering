@@ -1,0 +1,14 @@
+#556 minecraft:beach
+#35F cavebiomeapi:caves
+#3D6 minecraft:cold_ocean
+#4F9 minecraft:dark_forest
+#3DE minecraft:deep_ocean
+#008 minecraft:desert
+#042 minecraft:giant_tree_taiga
+#655 minecraft:giant_tree_taiga_hills
+#07C byg:mojave_desert
+#774 minecraft:mushroom_field_shore
+#073 minecraft:mushroom_fields
+#4F1 minecraft:ocean
+#169 minecraft:taiga
+#63C minecraft:taiga_hills

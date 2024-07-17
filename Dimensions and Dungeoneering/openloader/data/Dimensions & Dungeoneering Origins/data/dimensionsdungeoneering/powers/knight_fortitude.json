@@ -1,0 +1,9 @@
+{
+    "type": "origins:modify_damage_taken",
+    "modifier": {
+        "operation": "multiply_base",
+        "value": 0.9
+    },
+    "name": "A Knight's Fortitude",
+    "description": "Knights will take slightly less damage due to their strength and fortitude."
+}

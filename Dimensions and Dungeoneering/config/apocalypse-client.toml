@@ -1,0 +1,31 @@
+
+[in_game_gui]
+	#Determines the base X position on the screen where the world difficulty count should render
+	#Allowed Values: MIDDLE, RIGHT, LEFT
+	difficultyRenderPosWidth = "LEFT"
+	#Determines the base Y position on the screen where the world difficulty count should render
+	#Allowed Values: MIDDLE, TOP, BOTTOM
+	difficultyRenderPosHeight = "BOTTOM"
+	#Additional X offset for where to render difficulty in-game
+	#Range: -10000 ~ 10000
+	difficultyRenderXOffset = 0
+	#Additional Y offset for where to render difficulty in-game
+	#Range: -10000 ~ 10000
+	difficultyRenderYOffset = 0
+	#Toggles difficulty being rendered when the player is in creative mode.
+	renderDifficultyInCreative = true
+
+[world_config_button]
+	#Determines the base X position of the Apocalypse world config button.
+	#Allowed Values: MIDDLE, RIGHT, LEFT
+	worldConfigButtonPosWidth = "MIDDLE"
+	#Determines the base Y position of the Apocalypse world config button.
+	#Allowed Values: MIDDLE, TOP, BOTTOM
+	worldConfigButtonPosHeight = "TOP"
+	#Additional X offset.
+	#Range: -10000 ~ 10000
+	worldConfigButtonXOffset = 225
+	#Additional Y offset.
+	#Range: -10000 ~ 10000
+	worldConfigButtonYOffset = 100
+

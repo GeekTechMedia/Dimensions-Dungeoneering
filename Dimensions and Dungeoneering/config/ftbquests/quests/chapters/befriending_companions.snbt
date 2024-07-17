@@ -1,0 +1,161 @@
+{
+	id: "06F357F8794D733A"
+	group: "210F86E2FF26C10B"
+	order_index: 2
+	filename: "befriending_companions"
+	title: "Befriending Companions"
+	icon: "doggytalents:doggy_charm"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: -6.5d
+		width: 10.0d
+		height: 10.0d
+		rotation: 0.0d
+		image: "minecraft:textures/gui/wip.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			x: 0.0d
+			y: -1.5d
+			shape: "circle"
+			id: "76C7841101E6414C"
+			tasks: [{
+				id: "20F01DE377106EE6"
+				type: "checkmark"
+				title: "Doggy Talents"
+			}]
+			rewards: [
+				{
+					id: "2F1EC6F7A7753DDB"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1D7C6EC655728E42"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			shape: "circle"
+			id: "6B79FBFB165A9AC1"
+			tasks: [{
+				id: "7D619B02041E57E4"
+				type: "checkmark"
+				title: "Arachnid Rancher"
+			}]
+			rewards: [
+				{
+					id: "32165CAAE78C459C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "638F49DD06C37818"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			shape: "circle"
+			description: ["Companion Bats makes it so that you can tame bats and have them fight for you! In order to obtain a companion bat you will need to feed a regular bat some pumpkin pie."]
+			id: "00545335B0F936BE"
+			tasks: [{
+				id: "7CABBF7C43D12B58"
+				type: "checkmark"
+				title: "Companion Bats"
+			}]
+			rewards: [
+				{
+					id: "75D9CF3C8FECFD83"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6792BAEB960048A7"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			description: [
+				"When tamed the companion bat will be added to your inventory as an item, this item can be used later to summon your new sidekick. When summoned the bat will give the player a special flute to recall it back. When in danger the companion bat will teleport automatically into the player's inventory, as long as its flute is still present."
+				""
+				"The companion bat initially starts weak but gets stronger by leveling up. The bat can obtain experience by attacking mobs."
+			]
+			id: "3C1F07B7A7B1A2C2"
+			tasks: [{
+				id: "1914F33B85B63FBE"
+				type: "item"
+				item: {
+					id: "companion_bats:bat_item"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 0.0d
+			id: "30EB0B94A723C8EF"
+			tasks: [{
+				id: "7B51F0E3BDEC45B3"
+				type: "item"
+				item: {
+					id: "companion_bats:experience_pie"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			shape: "circle"
+			id: "5CF644043307CB3B"
+			tasks: [{
+				id: "145E65CA8EDB16B9"
+				type: "checkmark"
+				title: "Human Companions"
+			}]
+			rewards: [
+				{
+					id: "7F263AB16603A7ED"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0EAD6131F6669109"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+	]
+}

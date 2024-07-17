@@ -1,0 +1,919 @@
+{
+	id: "5ABDCF11863ACAE4"
+	group: "16CBA37B8C6AAED4"
+	order_index: 2
+	filename: "adventuring"
+	title: "Adventure Is Out There"
+	icon: "minecraft:map"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 5.0d
+			y: -15.0d
+			width: 5.0d
+			height: 5.0d
+			rotation: 0.0d
+			image: "rats:textures/item/archeologist_hat.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -5.0d
+			y: -15.0d
+			width: 5.0d
+			height: 5.0d
+			rotation: 0.0d
+			image: "rats:textures/item/archeologist_hat.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 12.5d
+			y: 0.0d
+			width: 5.0d
+			height: 5.0d
+			rotation: 0.0d
+			image: "ftblibrary:textures/icons/globe.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.0d
+			y: -7.5d
+			width: 10.0d
+			height: 10.0d
+			rotation: 0.0d
+			image: "minecraft:textures/gui/wip.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "circle"
+			description: ["Adventuring is one of the core components of this modpack! There are hundreds of structures and biomes for you to find lying around waiting to be explored! Be wary though, these structures can be no easy feat without the proper equipment. Not all structures are contained within the questbook only a select few from a select few mods! Get out there and start exploring!"]
+			id: "265DB82AA121C940"
+			tasks: [{
+				id: "11846BBB225BB3C5"
+				type: "checkmark"
+				title: "Adventuring"
+			}]
+			rewards: [
+				{
+					id: "32C4B754FE256E36"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "20FADFB48EFB02DE"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			icon: "minecraft:iron_bars"
+			x: -7.5d
+			y: -1.5d
+			description: ["These towers have four floors with monster spawners and loot. The first three floors are randomized and can be zombie, spider, or skeleton rooms. The fourth floor is a vex room. Inside this tower, you can find a map that will lead you to the buried dungeon. Generates in either plains, forests, roofed forests, birch forests, and mountains."]
+			dependencies: ["265DB82AA121C940"]
+			id: "0343CDB2337310F8"
+			tasks: [{
+				id: "15138B31D336F409"
+				type: "advancement"
+				title: "Battle Towers"
+				advancement: "dungeons_plus:adventure/find_tower"
+				criterion: ""
+			}]
+		}
+		{
+			x: -7.5d
+			y: 0.5d
+			description: ["Found underground, this dungeon contains three spawner rooms. To the left and right, you can find either a zombie or skeleton room, or rarely a husk or stray room. The room in the middle will either have husks or strays. When you enter the husk or stray room, you’ll find a map to lead you to either the Leviathan or the Snowy Temple respectively."]
+			dependencies: ["265DB82AA121C940"]
+			id: "1ADCC89CB2D85C09"
+			tasks: [{
+				id: "6B6F20EF84DC1646"
+				type: "advancement"
+				title: "Underground Dungeon"
+				icon: "minecraft:stone"
+				advancement: "dungeons_plus:adventure/find_bigger_dungeon"
+				criterion: ""
+			}]
+		}
+		{
+			x: -7.5d
+			y: -0.5d
+			description: ["This unnatural aquatic structure found in the ocean is home to many axe-wielding drowned and provides a renewable source of coral blocks. Collect golden and nautical rewards inside."]
+			dependencies: ["265DB82AA121C940"]
+			id: "5A7C2D590B106B74"
+			tasks: [{
+				id: "0D9F3EF2EFE7272A"
+				type: "advancement"
+				title: "Warped Garden"
+				icon: "minecraft:warped_fungus"
+				advancement: "dungeons_plus:adventure/find_warped_garden"
+				criterion: ""
+			}]
+		}
+		{
+			x: -7.5d
+			y: -2.5d
+			description: ["This ancient skeleton can be found in deserts and hides a secret beneath. Dig your way down, and you’ll be met with a husk spawner. Not only that, but husks are the only mob that can spawn in the structure, and the husks that do spawn there will drop sand on death."]
+			dependencies: ["265DB82AA121C940"]
+			id: "4139CF49CC8B8006"
+			tasks: [{
+				id: "2F84E888D28088CF"
+				type: "advancement"
+				title: "Find Leviathan"
+				icon: "minecraft:bone_block"
+				advancement: "dungeons_plus:adventure/find_leviathan"
+				criterion: ""
+			}]
+		}
+		{
+			x: -7.5d
+			y: -3.5d
+			description: ["Within this icy pyramid, you can find yourself in a small maze of ice with the strays living within around every corner. Strays spawned within this structure can drop ice, or rarely packed ice, on death, and they’re the only mob allowed to spawn inside."]
+			dependencies: ["265DB82AA121C940"]
+			id: "7EBBF0CD592524EC"
+			tasks: [{
+				id: "2794C9E7591CE59C"
+				type: "advancement"
+				title: "Snowy Temple"
+				icon: "minecraft:blue_ice"
+				advancement: "dungeons_plus:adventure/find_snowy_temple"
+				criterion: ""
+			}]
+		}
+		{
+			x: -7.5d
+			y: 2.5d
+			description: ["Once you defeat the dragon and gain access to the outer islands, you may be lucky enough to find this dilapidated structure. There isn’t much loot inside, but at the top of the tower, you can find a dragon egg. Be careful though, the endermen inside aren’t quite as peaceful as the ones outside of the structure."]
+			dependencies: ["265DB82AA121C940"]
+			id: "40563569DC6FEDB0"
+			tasks: [{
+				id: "2A9D54F770B24604"
+				type: "advancement"
+				title: "End Ruins"
+				icon: "minecraft:end_stone_bricks"
+				advancement: "dungeons_plus:end/find_end_ruins"
+				criterion: ""
+			}]
+		}
+		{
+			x: -7.5d
+			y: 1.5d
+			description: ["Found in the lava pools of the Nether's soul sand valley, you may find this prison of souls. With the amount of ghasts surrounding it, approaching and reaching the top for your reward may prove to be a no small task. Be wary as the ghasts are not opposed to destroying the structure around you with their fireballs."]
+			dependencies: ["265DB82AA121C940"]
+			id: "2760873F54F93802"
+			tasks: [{
+				id: "0DA2FBC38602B86E"
+				type: "advancement"
+				title: "Soul Prison"
+				icon: "minecraft:soul_soil"
+				advancement: "dungeons_plus:nether/find_soul_prison"
+				criterion: ""
+			}]
+		}
+		{
+			x: -0.5d
+			y: 7.5d
+			description: ["Nature's Compass is a utility item that allows you to search for a biome's location anywhere in the world and view information about it."]
+			id: "329DF1B3BBBEB52D"
+			tasks: [{
+				id: "41646D4756CC796C"
+				type: "item"
+				item: {
+					id: "naturescompass:naturescompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "01BF71AA1E3C4C01"
+				type: "ftbmoney:money"
+				ftb_money: 50L
+			}]
+		}
+		{
+			x: 0.5d
+			y: 7.5d
+			description: ["Explorer's Compass is an item that allows you to locate structures anywhere in the world. It is the sister mod of Nature's Compass, an item that can be used to locate biomes."]
+			id: "55FF7A44456B2ED8"
+			tasks: [{
+				id: "40C8EC18C59BECAC"
+				type: "item"
+				item: {
+					id: "explorerscompass:explorerscompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "0DF5C459209E02B8"
+				type: "ftbmoney:money"
+				ftb_money: 50L
+			}]
+		}
+		{
+			x: 7.5d
+			y: 5.5d
+			dependencies: ["265DB82AA121C940"]
+			id: "327695922685F7E8"
+			tasks: [{
+				id: "12FC1FA5991AC538"
+				type: "advancement"
+				advancement: "mostructures:pillager_factory"
+				criterion: ""
+			}]
+		}
+		{
+			x: 6.5d
+			y: 5.5d
+			dependencies: ["265DB82AA121C940"]
+			id: "18403478F0F7A455"
+			tasks: [{
+				id: "7A2053A2022BB742"
+				type: "advancement"
+				advancement: "mostructures:abandoned_church"
+				criterion: ""
+			}]
+		}
+		{
+			x: 5.5d
+			y: 5.5d
+			dependencies: ["265DB82AA121C940"]
+			id: "0F6D4F4B97F4BA4A"
+			tasks: [{
+				id: "72499DBE24F2B5D0"
+				type: "advancement"
+				advancement: "mostructures:jungle_pyramid"
+				criterion: ""
+			}]
+		}
+		{
+			x: 4.5d
+			y: 5.5d
+			dependencies: ["265DB82AA121C940"]
+			id: "140B1514A9379C07"
+			tasks: [{
+				id: "1566F94A44E1F6E3"
+				type: "advancement"
+				advancement: "mostructures:big_pyramid"
+				criterion: ""
+			}]
+		}
+		{
+			x: 3.5d
+			y: 5.5d
+			dependencies: ["265DB82AA121C940"]
+			id: "1818155DE6BE31A4"
+			tasks: [{
+				id: "0891B99DCDF79DBA"
+				type: "advancement"
+				advancement: "mostructures:lighthouse"
+				criterion: ""
+			}]
+		}
+		{
+			x: 2.5d
+			y: 5.5d
+			dependencies: ["265DB82AA121C940"]
+			id: "1FE16ADA2A207D79"
+			tasks: [{
+				id: "7F7DE57EE98485B2"
+				type: "advancement"
+				advancement: "mostructures:tavern"
+				criterion: ""
+			}]
+		}
+		{
+			x: 1.5d
+			y: 5.5d
+			dependencies: ["265DB82AA121C940"]
+			id: "0AE2C07633EE0873"
+			tasks: [{
+				id: "2430A7E897BA194F"
+				type: "advancement"
+				advancement: "mostructures:villager_tower"
+				criterion: ""
+			}]
+		}
+		{
+			x: 0.5d
+			y: 5.5d
+			dependencies: ["265DB82AA121C940"]
+			id: "354A1F50CCA7F796"
+			tasks: [{
+				id: "7A4097FCC2524969"
+				type: "advancement"
+				advancement: "mostructures:killer_bunny_castle"
+				criterion: ""
+			}]
+		}
+		{
+			x: -0.5d
+			y: 5.5d
+			dependencies: ["265DB82AA121C940"]
+			id: "7E02185D00404E77"
+			tasks: [{
+				id: "31F2B11D357D8AE7"
+				type: "advancement"
+				advancement: "mostructures:pirate_ship"
+				criterion: ""
+			}]
+		}
+		{
+			x: -1.5d
+			y: 5.5d
+			dependencies: ["265DB82AA121C940"]
+			id: "1A2BB78B6FE12150"
+			tasks: [{
+				id: "2725711F8C97D1E9"
+				type: "advancement"
+				advancement: "mostructures:barn_house"
+				criterion: ""
+			}]
+		}
+		{
+			x: -2.5d
+			y: 5.5d
+			dependencies: ["265DB82AA121C940"]
+			id: "26AE154F8C841ED1"
+			tasks: [{
+				id: "22EA825BE7D76818"
+				type: "advancement"
+				advancement: "mostructures:ice_tower"
+				criterion: ""
+			}]
+		}
+		{
+			x: -3.5d
+			y: 5.5d
+			dependencies: ["265DB82AA121C940"]
+			id: "17833CC7FABD0B07"
+			tasks: [{
+				id: "5CC405C617B98848"
+				type: "advancement"
+				advancement: "mostructures:villager_market"
+				criterion: ""
+			}]
+		}
+		{
+			x: -4.5d
+			y: 5.5d
+			dependencies: ["265DB82AA121C940"]
+			id: "56893F282243F260"
+			tasks: [{
+				id: "545AB29686AB874E"
+				type: "advancement"
+				advancement: "mostructures:the_castle_in_the_sky"
+				criterion: ""
+			}]
+		}
+		{
+			x: -7.5d
+			y: -5.5d
+			dependencies: ["265DB82AA121C940"]
+			id: "40572F531E375BF5"
+			tasks: [{
+				id: "759C60BE8DB8C79D"
+				type: "advancement"
+				advancement: "betterdungeons:small_dungeon"
+				criterion: ""
+			}]
+		}
+		{
+			x: -6.5d
+			y: -5.5d
+			dependencies: ["265DB82AA121C940"]
+			id: "13151972ED59015F"
+			tasks: [{
+				id: "59FB7DC48E0C331A"
+				type: "advancement"
+				advancement: "betterdungeons:spider_dungeon"
+				criterion: ""
+			}]
+		}
+		{
+			x: -5.5d
+			y: -5.5d
+			dependencies: ["265DB82AA121C940"]
+			id: "032790D733F86F3E"
+			tasks: [{
+				id: "7F33516006A1E213"
+				type: "advancement"
+				advancement: "betterdungeons:skeleton_dungeon"
+				criterion: ""
+			}]
+		}
+		{
+			x: -4.5d
+			y: -5.5d
+			dependencies: ["265DB82AA121C940"]
+			id: "0E21EBD4A22A5E95"
+			tasks: [{
+				id: "70152E0D1D56713A"
+				type: "advancement"
+				advancement: "betterdungeons:all_dungeons"
+				criterion: ""
+			}]
+		}
+		{
+			x: -3.5d
+			y: -5.5d
+			dependencies: ["265DB82AA121C940"]
+			id: "542EB4DD5776B0C4"
+			tasks: [{
+				id: "1FEECFE9833B1475"
+				type: "advancement"
+				advancement: "betterdungeons:zombie_dungeon"
+				criterion: ""
+			}]
+		}
+		{
+			x: 7.5d
+			y: -7.0d
+			id: "08778F12EF797726"
+			tasks: [{
+				id: "2B1F726C034D959B"
+				type: "structure"
+				structure: "castle_in_the_sky:castle_in_the_sky"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -8.5d
+			id: "2D0B34EAD49ED8B5"
+			tasks: [{
+				id: "2F23ADC298FCAC13"
+				type: "structure"
+				structure: "conjurer_illager:theatre"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -3.0d
+			id: "795339C6919751F6"
+			tasks: [{
+				id: "139B257DA8D25946"
+				type: "structure"
+				structure: "endrem:end_castle"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -2.0d
+			id: "050DC3CD3EF93996"
+			tasks: [{
+				id: "5A5919F4BC07F023"
+				type: "structure"
+				structure: "endrem:end_gate"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -5.5d
+			id: "35F0EAFCBFAC357F"
+			tasks: [{
+				id: "7EB21F39B889D895"
+				type: "structure"
+				structure: "takesapillage:bastille"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -4.5d
+			id: "507A89F1B7808632"
+			tasks: [{
+				id: "1990B736B24978B7"
+				type: "structure"
+				structure: "takesapillage:pillager_camp"
+			}]
+		}
+		{
+			x: 15.5d
+			y: 0.0d
+			id: "640495BA640A3C6D"
+			tasks: [{
+				id: "18D19C25E9A9BB6E"
+				type: "biome"
+				biome: "minecraft:plains"
+			}]
+		}
+		{
+			x: 15.5d
+			y: -1.0d
+			id: "27E01EC2FEB889EA"
+			tasks: [{
+				id: "66EA3B4FD005BE56"
+				type: "biome"
+				biome: "minecraft:mountains"
+			}]
+		}
+		{
+			x: 15.5d
+			y: -2.0d
+			id: "6B43827488025099"
+			tasks: [{
+				id: "3265877809F39CB4"
+				type: "biome"
+				biome: "minecraft:swamp"
+			}]
+		}
+		{
+			x: 14.0d
+			y: -3.0d
+			id: "134FC7EAB5769411"
+			tasks: [{
+				id: "37917749175D1315"
+				type: "biome"
+				biome: "byg:seasonal_forest"
+			}]
+		}
+		{
+			x: 13.0d
+			y: -3.0d
+			id: "2F943EA0E0DB18ED"
+			tasks: [{
+				id: "7ABB2E0D1928D09C"
+				type: "biome"
+				biome: "byg:redwood_tropics"
+			}]
+		}
+		{
+			x: 15.5d
+			y: 1.0d
+			id: "4CAD7DE8CEA86AD6"
+			tasks: [{
+				id: "798EB739AF0430B6"
+				type: "biome"
+				biome: "minecraft:ocean"
+			}]
+		}
+		{
+			x: 12.0d
+			y: -3.0d
+			id: "729EE4EDBA543B2C"
+			tasks: [{
+				id: "7A4555821BB9D6C7"
+				type: "biome"
+				biome: "byg:cika_woods"
+			}]
+		}
+		{
+			x: 11.0d
+			y: -3.0d
+			id: "29138B34890E1A37"
+			tasks: [{
+				id: "4A722ABFC1D36D0F"
+				type: "biome"
+				biome: "byg:seasonal_taiga"
+			}]
+		}
+		{
+			x: 14.0d
+			y: -4.0d
+			id: "5A037B157436922F"
+			tasks: [{
+				id: "63BF44116503C1B7"
+				type: "biome"
+				biome: "byg:blue_taiga"
+			}]
+		}
+		{
+			x: 13.0d
+			y: -4.0d
+			id: "1606C82B001B804F"
+			tasks: [{
+				id: "1A9CECBF7C2D7E2F"
+				type: "biome"
+				biome: "byg:bluff_steeps"
+			}]
+		}
+		{
+			x: 12.0d
+			y: -4.0d
+			id: "5D2CD41B5852DE85"
+			tasks: [{
+				id: "30736D06B248D7ED"
+				type: "biome"
+				biome: "byg:the_black_forest"
+			}]
+		}
+		{
+			x: 13.0d
+			y: -5.0d
+			id: "59B1D9D0135B6371"
+			tasks: [{
+				id: "3D71FE599A3564AD"
+				type: "biome"
+				biome: "byg:aspen_forest"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -2.0d
+			id: "230A46AF27D051D0"
+			tasks: [{
+				id: "7B9B0EB2471A8EA2"
+				type: "biome"
+				biome: "projectvibrantjourneys:aspen_grove_hills"
+			}]
+		}
+		{
+			x: 14.0d
+			y: -5.0d
+			id: "508B1F5FD24BF77D"
+			tasks: [{
+				id: "21C65E68F1BB42D4"
+				type: "biome"
+				biome: "byg:vibrant_swamplands"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -1.0d
+			id: "41E91CDE78F76B45"
+			tasks: [{
+				id: "186C5986199D1B7E"
+				type: "biome"
+				biome: "projectvibrantjourneys:windswept_cliffs"
+			}]
+		}
+		{
+			x: 12.0d
+			y: -5.0d
+			id: "0861B17077ECA653"
+			tasks: [{
+				id: "69761CD1BFC19553"
+				type: "biome"
+				biome: "byg:seasonal_deciduous_forest"
+			}]
+		}
+		{
+			x: 11.0d
+			y: -4.0d
+			id: "2505417462A348DA"
+			tasks: [{
+				id: "74F69C5A305EA099"
+				type: "biome"
+				biome: "byg:skyris_steeps"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 0.0d
+			id: "18A172ACFCF9BA52"
+			tasks: [{
+				id: "72880BA4568C60C4"
+				type: "biome"
+				biome: "projectvibrantjourneys:redwoods"
+			}]
+		}
+		{
+			x: 16.5d
+			y: -2.0d
+			id: "3E998A519EE7C49D"
+			tasks: [{
+				id: "67CE6EF09EF5B4E6"
+				type: "biome"
+				biome: "minecraft:taiga"
+			}]
+		}
+		{
+			x: 11.0d
+			y: -5.0d
+			id: "68FBA82A8F7C0565"
+			tasks: [{
+				id: "5E8B7DD836E7BFE5"
+				type: "biome"
+				biome: "byg:ancient_forest"
+			}]
+		}
+		{
+			x: 14.0d
+			y: -6.0d
+			id: "49B9308E622C097A"
+			tasks: [{
+				id: "44DA33A4E167B1B5"
+				type: "biome"
+				biome: "byg:bayou"
+			}]
+		}
+		{
+			x: 13.0d
+			y: -6.0d
+			id: "77CD9A61F5448C3F"
+			tasks: [{
+				id: "498782531CDEF1FE"
+				type: "biome"
+				biome: "byg:autumnal_valley"
+			}]
+		}
+		{
+			x: 12.0d
+			y: -6.0d
+			id: "6ED472365649AF2C"
+			tasks: [{
+				id: "69F2BA3D0488CB7E"
+				type: "biome"
+				biome: "byg:cherry_blossom_forest"
+			}]
+		}
+		{
+			x: 16.5d
+			y: -1.0d
+			id: "78F3BA732CE20F92"
+			tasks: [{
+				id: "5FF4FD2A18175372"
+				type: "biome"
+				biome: "minecraft:birch_forest"
+			}]
+		}
+		{
+			x: 16.5d
+			y: -1.0d
+			id: "5F8A1DE0B0F25D1A"
+			tasks: [{
+				id: "4DA24AD43BC8E620"
+				type: "biome"
+				biome: "minecraft:birch_forest"
+			}]
+		}
+		{
+			x: 16.5d
+			y: 0.0d
+			id: "0EB47ECC2505212F"
+			tasks: [{
+				id: "483EB689C7B7C6F9"
+				type: "biome"
+				biome: "minecraft:desert"
+			}]
+		}
+		{
+			x: 16.5d
+			y: 1.0d
+			id: "7FF9FB376023A042"
+			tasks: [{
+				id: "42FF59686B13E6FC"
+				type: "biome"
+				biome: "minecraft:forest"
+			}]
+		}
+		{
+			x: 11.0d
+			y: -6.0d
+			id: "2EE2D9F2C6EE3D8A"
+			tasks: [{
+				id: "036E24CEE5BFCF9E"
+				type: "biome"
+				biome: "byg:shrublands"
+			}]
+		}
+		{
+			x: 17.5d
+			y: -2.0d
+			id: "7EAAF25AFBCE9A41"
+			tasks: [{
+				id: "6AEF3C5E5970338D"
+				type: "biome"
+				biome: "minecraft:badlands"
+			}]
+		}
+		{
+			x: 17.5d
+			y: -1.0d
+			id: "080E46FE84F082AE"
+			tasks: [{
+				id: "2055D4A5F7F7EB3C"
+				type: "biome"
+				biome: "minecraft:savanna"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 10.0d
+			description: ["Fast, one seat, medium difficulty."]
+			id: "38E31FAE95AFCE44"
+			tasks: [{
+				id: "58B7B4FEE390E95B"
+				type: "item"
+				item: {
+					id: "immersive_aircraft:biplane"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "247B8D790272F0A2"
+				type: "ftbmoney:money"
+				ftb_money: 50L
+			}]
+		}
+		{
+			x: -0.5d
+			y: 10.0d
+			description: ["Human-powered primitive dual seater. Trusty, yet neither the fastest nor the easiest to fly. Needs a good initial push to get the rotor spinning."]
+			id: "69EC3BDF6261D015"
+			tasks: [{
+				id: "3B0FEE0A55567128"
+				type: "item"
+				item: {
+					id: "immersive_aircraft:gyrodyne"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "583A9D0680882E3A"
+				type: "ftbmoney:money"
+				ftb_money: 50L
+			}]
+		}
+		{
+			x: 0.5d
+			y: 10.0d
+			description: ["Slower, but with two seats. Quite easy to maneuver, with acceptable speed thanks to the engine in the back."]
+			id: "5E5F5793BB02D7CA"
+			tasks: [{
+				id: "351124CD66D2E4CF"
+				type: "item"
+				item: {
+					id: "immersive_aircraft:airship"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "0670207CCAE07671"
+				type: "ftbmoney:money"
+				ftb_money: 50L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 10.0d
+			description: ["A masterwork of engineering! Four propellers strapped on a bunch of bamboos. It's quite handy for building."]
+			id: "0F80864009A23518"
+			tasks: [{
+				id: "071A5660EEC04A0F"
+				type: "item"
+				item: {
+					id: "immersive_aircraft:quadrocopter"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "0D24452693BD460A"
+				type: "ftbmoney:money"
+				ftb_money: 50L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 9.0d
+			description: ["If your looking to do some longer range exploring then crafting one of the flying machines from Immersive Aircraft is probably the way to go. They aren't the fastest machines, but they are very fun to fly and can be upgraded and customized to your liking!"]
+			id: "564E21CC567AF679"
+			tasks: [{
+				id: "397B402294BD48CD"
+				type: "checkmark"
+				title: "Immersive Aircraft"
+			}]
+			rewards: [{
+				id: "03B0173B03F553AA"
+				type: "xp"
+				xp: 10
+			}]
+		}
+	]
+}

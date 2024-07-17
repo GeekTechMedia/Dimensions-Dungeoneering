@@ -1,0 +1,47 @@
+{
+	id: "2EE8A19A760D5610"
+	order_index: 25
+	title: "Butcher's Backpack"
+	icon: {
+		id: "quark:backpack"
+		Count: 1b
+		tag: {
+			Inventory: [
+				{ }
+				{ }
+				{ }
+				{ }
+				{ }
+				{ }
+				{ }
+				{ }
+				{ }
+				{ }
+				{ }
+				{ }
+				{ }
+				{ }
+				{ }
+				{ }
+				{ }
+				{ }
+				{ }
+				{ }
+				{ }
+				{ }
+				{ }
+				{ }
+				{ }
+				{ }
+				{ }
+			]
+		}
+		ForgeCaps: {
+			"dungeons_libraries:built_in_enchantments": {
+				BuiltInEnchantments: [ ]
+			}
+		}
+	}
+	loot_size: 1
+	rewards: [ ]
+}

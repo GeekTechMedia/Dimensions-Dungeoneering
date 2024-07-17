@@ -1,0 +1,2141 @@
+{
+	id: "15651DFACC580506"
+	group: "31DBD57DDF20D469"
+	order_index: 5
+	filename: "storage"
+	title: "Organization Woes"
+	icon: "minecraft:chest"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: -0.5d
+		width: 5.0d
+		height: 5.0d
+		rotation: 0.0d
+		image: "pneumaticcraft:textures/block/chest/front_panel.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			x: 5.0d
+			y: 3.0d
+			shape: "circle"
+			description: ["Put your most frequently used items within convenient reach. Storage Drawers borrows ideas from Jabba and Bibliocraft, resulting in a highly functional, compact, and aesthetic storage solution."]
+			id: "7EFD6BBED634698D"
+			tasks: [{
+				id: "0FDA0275CA1050E0"
+				type: "checkmark"
+				title: "Storage Drawers"
+			}]
+			rewards: [{
+				id: "23BE4CF73FD35BD9"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			shape: "circle"
+			description: ["Basically the tech storage option of this modpack, however it uses connected inventories and doesnt have any internal storage itself."]
+			id: "6BCF16F59C704FA1"
+			tasks: [{
+				id: "7BC48EB22B246595"
+				type: "checkmark"
+				title: "Simple Storage Network"
+			}]
+			rewards: [{
+				id: "06F59A0F5AADF188"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			title: "Colossal Chests"
+			x: 5.0d
+			y: 0.0d
+			shape: "circle"
+			description: ["Sometimes, regular chests are just too small, this mod allows you to create multiblock chests of any size. To build these chests, you will need multiple Colossal Chest Wall blocks and exactly one Colossal Chest Core block. This Core block will contain the actual items of the multiblock, so break that one, and all items will pop out. Your structure must be cubic, each side must have an equal length. The minimum size of the structure is two blocks. You must only build the actual walls of the structure, leave the inside of the structure hollow."]
+			id: "4B4C39533CC0831C"
+			tasks: [{
+				id: "576BFDF9DE305A73"
+				type: "checkmark"
+				title: "Colassal Chests"
+			}]
+			rewards: [{
+				id: "241C1A9F76287AF7"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: 5.0d
+			y: -4.0d
+			shape: "circle"
+			description: ["Iron Chests mod has chests for the various metals in vanilla minecraft with varying sizes!"]
+			id: "33142FC1D4696698"
+			tasks: [{
+				id: "6FCDF64DE7B4FDD4"
+				type: "checkmark"
+				title: "Iron Chests"
+			}]
+			rewards: [{
+				id: "1159B02D3A18AF60"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			title: "Metal Barrels"
+			x: -4.0d
+			y: -4.0d
+			shape: "circle"
+			description: ["This mod adds additional barrels to the game that can store more items. They function like their vanilla counterparts in that they can be opened with a solid block on top and don't cause any fps issues in large numbers unlike chests."]
+			id: "6A9ED626867DBD94"
+			tasks: [{
+				id: "58547734E41E4BB2"
+				type: "checkmark"
+				title: "Metal Barrels"
+			}]
+			rewards: [{
+				id: "36D306488137142C"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			title: "Drawers"
+			x: 6.0d
+			y: 4.5d
+			description: [
+				"The wooden drawers are the main storage block in Storage Drawers, and they come in a variety of configurations and styles. You can pick from any of the Vanilla plank colors when crafting to get a matching block. Drawers come in five configurations, trading capacity and compactness at different points:"
+				""
+				"Half-size 2x2: Stores 4 stacks per drawer."
+				"Half-size 1x2: Stores 8 stacks per drawer."
+				"Full-size 2x2: Stores 8 stacks per drawer."
+				"Full-size 1x2: Stores 16 stacks per drawer."
+				"Full-size 1x1: Stores 32 stacks per drawer."
+			]
+			dependencies: ["7EFD6BBED634698D"]
+			id: "6A72CE52231DC7B1"
+			tasks: [{
+				id: "2A192B34D22D3209"
+				type: "item"
+				title: "Any #storagedrawers:drawers"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "storagedrawers:drawers"
+					}
+				}
+			}]
+			rewards: [{
+				id: "6FE822CC585B107E"
+				type: "choice"
+				table_id: 6457263372863641687L
+			}]
+		}
+		{
+			x: -5.0d
+			y: 3.5d
+			shape: "circle"
+			description: ["This mod adds 7 new containers that function as both storage, and backpacks and so much more.  These will be called danks from now on for the sake of brevity. These aren't your typical storage containers because each slot can hold much more than a normal stack and gets larger with each tier. Each tier can have it's stacksize configured which are fully configurable and listed on the tooltip. Colors provide a visual means of determining the tier at a glance, below are the defaults."]
+			id: "0B5AC426D24D2B4D"
+			tasks: [{
+				id: "46FD6A253CEA69F1"
+				type: "checkmark"
+				title: "Dank Storage"
+			}]
+			rewards: [{
+				id: "38686B249B39A198"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -5.0d
+			y: -2.5d
+			shape: "circle"
+			description: ["Krate is a storage mod that adds storage blocks with filters and various and useful upgrades. There are 4 tiers small, basic, big, and large Krate each tier with a different inventory size."]
+			id: "2C5E48AD272B82FE"
+			tasks: [{
+				id: "12CFEDE6AF50CF3C"
+				type: "checkmark"
+				title: "Krate"
+			}]
+			rewards: [{
+				id: "4387803B4D080241"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -6.0d
+			y: -2.5d
+			description: ["A krate with 9 inventory slots."]
+			dependencies: ["2C5E48AD272B82FE"]
+			id: "3BDDE05303DEC426"
+			tasks: [{
+				id: "319D66FC9BABF180"
+				type: "item"
+				item: "krate:krate_small"
+			}]
+			rewards: [{
+				id: "30758A7F4A9E8B0A"
+				type: "item"
+				item: "minecraft:oak_log"
+				count: 8
+			}]
+		}
+		{
+			x: -7.0d
+			y: -2.5d
+			description: ["A krate with 36 inventory slots."]
+			dependencies: ["3BDDE05303DEC426"]
+			id: "68AA7C939DECC265"
+			tasks: [{
+				id: "0A821FE0B4D1931D"
+				type: "item"
+				item: "krate:krate_basic"
+			}]
+			rewards: [{
+				id: "75363C2433BD779C"
+				type: "item"
+				item: {
+					id: "minecraft:iron_ingot"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 4
+			}]
+		}
+		{
+			x: -8.0d
+			y: -2.5d
+			description: ["A krate with 72 inventory slots."]
+			dependencies: ["68AA7C939DECC265"]
+			id: "103552052FC5CAEE"
+			tasks: [{
+				id: "2EDAA180049C6CF7"
+				type: "item"
+				item: "krate:krate_big"
+			}]
+			rewards: [{
+				id: "3E37253B721AD43A"
+				type: "item"
+				item: {
+					id: "minecraft:iron_ingot"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 8
+			}]
+		}
+		{
+			x: -9.0d
+			y: -2.5d
+			description: ["A krate with 144 inventory slots."]
+			dependencies: ["103552052FC5CAEE"]
+			id: "77515645F8270E6C"
+			tasks: [{
+				id: "005FA34765371AC7"
+				type: "item"
+				item: "krate:krate_large"
+			}]
+			rewards: [{
+				id: "2F9784F221778B7B"
+				type: "item"
+				item: {
+					id: "minecraft:iron_ingot"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 12
+			}]
+		}
+		{
+			x: -6.0d
+			y: -3.5d
+			description: ["Filter: Used to filter what items pass to or from a krate inventory."]
+			dependencies: ["2C5E48AD272B82FE"]
+			id: "3BC3FFD04B7190B0"
+			tasks: [{
+				id: "43BE1605D5A3903D"
+				type: "item"
+				item: "krate:filter"
+			}]
+			rewards: [{
+				id: "5815B026674385AB"
+				type: "item"
+				item: "krate:filter"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -1.5d
+			description: ["Used for crafting various krate upgrades."]
+			dependencies: ["2C5E48AD272B82FE"]
+			id: "586078C55ECBD256"
+			tasks: [{
+				id: "1891A31F7B4A21E2"
+				type: "item"
+				item: "krate:empty_upgrade"
+			}]
+			rewards: [{
+				id: "28AFC477A6EB20EE"
+				type: "item"
+				item: "krate:empty_upgrade"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -0.5d
+			description: ["Hopper upgrade: It is an Item transfer upgrade, which allows items to be pushed/pulled from on adjacent inventory."]
+			dependencies: ["586078C55ECBD256"]
+			id: "4290F7AF75DFCE28"
+			tasks: [{
+				id: "3F006A9D13E87275"
+				type: "item"
+				item: "krate:hopper_upgrade"
+			}]
+			rewards: [{
+				id: "45EDBC611268B94C"
+				type: "item"
+				item: {
+					id: "minecraft:iron_ingot"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 4
+			}]
+		}
+		{
+			x: -5.5d
+			y: -0.5d
+			description: ["Compacting upgrade: Krate will automatically craft items into blocks, you can choose 2X2 or 3X3 crafting matrix."]
+			dependencies: ["586078C55ECBD256"]
+			id: "506DEAE1B0C0E52F"
+			tasks: [{
+				id: "459C782E7EE3F7DE"
+				type: "item"
+				item: "krate:compacting_upgrade"
+			}]
+			rewards: [{
+				id: "5BC0C1F9624E3A96"
+				type: "item"
+				item: "minecraft:diamond"
+				count: 4
+			}]
+		}
+		{
+			x: -5.0d
+			y: -1.5d
+			description: ["Shulker upgrade: Krate will keep its inventory items when broken."]
+			dependencies: ["586078C55ECBD256"]
+			id: "6797E3B83D041312"
+			tasks: [{
+				id: "16BDD372D8507594"
+				type: "item"
+				item: "krate:shulker_upgrade"
+			}]
+			rewards: [{
+				id: "393F91AE3E737450"
+				type: "item"
+				item: {
+					id: "minecraft:shulker_shell"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 2
+			}]
+		}
+		{
+			x: -7.0d
+			y: -1.5d
+			description: ["Collecting upgrade: Krate will start collecting items in a configurable block radius."]
+			dependencies: ["586078C55ECBD256"]
+			id: "0FEA6F6D513F0F81"
+			tasks: [{
+				id: "0BFB60D896CB011E"
+				type: "item"
+				item: "krate:collect_upgrade"
+			}]
+			rewards: [{
+				id: "2413C4AB55AC5430"
+				type: "item"
+				item: "minecraft:ender_pearl"
+				count: 2
+			}]
+		}
+		{
+			x: -6.0d
+			y: 3.0d
+			description: ["A block to easily empty a dank."]
+			dependencies: ["0B5AC426D24D2B4D"]
+			id: "2B93F16ECF3287C1"
+			tasks: [{
+				id: "560A051E44E73640"
+				type: "item"
+				item: "dankstorage:dock"
+			}]
+			rewards: [{
+				id: "6ADCFB66B59B1752"
+				type: "item"
+				item: "minecraft:black_concrete"
+				count: 64
+			}]
+		}
+		{
+			x: -6.0d
+			y: 4.0d
+			description: ["Has 9 slots, each can hold 256 items."]
+			dependencies: ["0B5AC426D24D2B4D"]
+			id: "00C9D5AC5960A8E9"
+			tasks: [{
+				id: "5CE07403517A6468"
+				type: "item"
+				item: "dankstorage:dank_1"
+			}]
+			rewards: [{
+				id: "20E359A4142434EE"
+				type: "item"
+				item: "minecraft:coal"
+				count: 32
+			}]
+		}
+		{
+			x: -7.0d
+			y: 4.0d
+			description: ["Has 18 slots, each can hold 1024 items."]
+			dependencies: ["00C9D5AC5960A8E9"]
+			id: "146F65FCBD6A6CF0"
+			tasks: [{
+				id: "5BA22A2CE1314F46"
+				type: "item"
+				item: "dankstorage:dank_2"
+			}]
+			rewards: [{
+				id: "33A1B2A5C7B0C1CB"
+				type: "item"
+				item: "minecraft:redstone"
+				count: 32
+			}]
+		}
+		{
+			x: -8.0d
+			y: 4.0d
+			description: ["Has 27 slots, each can hold 4096 items."]
+			dependencies: ["146F65FCBD6A6CF0"]
+			id: "00FE832DA4683F21"
+			tasks: [{
+				id: "1FD92A1A20290A9A"
+				type: "item"
+				item: "dankstorage:dank_3"
+			}]
+			rewards: [{
+				id: "01BE6F701B618AEE"
+				type: "item"
+				item: "minecraft:gold_ingot"
+				count: 32
+			}]
+		}
+		{
+			x: -9.0d
+			y: 4.0d
+			description: ["Has 36 slots, each can hold 16384 items."]
+			dependencies: ["00FE832DA4683F21"]
+			id: "61259424F4ADF964"
+			tasks: [{
+				id: "430A1CF0E47F3F9E"
+				type: "item"
+				item: "dankstorage:dank_4"
+			}]
+			rewards: [{
+				id: "2FF1246D8B4B4AC2"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 32
+			}]
+		}
+		{
+			x: -10.0d
+			y: 4.0d
+			description: ["Has 45 slots, each can hold 65536 items."]
+			dependencies: ["61259424F4ADF964"]
+			id: "58D848662C4106B9"
+			tasks: [{
+				id: "1582AF94ADD85186"
+				type: "item"
+				item: "dankstorage:dank_5"
+			}]
+			rewards: [{
+				id: "5F05B7B29C3C4D99"
+				type: "item"
+				item: "minecraft:diamond"
+				count: 32
+			}]
+		}
+		{
+			x: -11.0d
+			y: 4.0d
+			description: ["Has 54 slots, each can hold 262144 items."]
+			dependencies: ["58D848662C4106B9"]
+			id: "0D04D5948D62F9D1"
+			tasks: [{
+				id: "19E570A70C46A6EC"
+				type: "item"
+				item: "dankstorage:dank_6"
+			}]
+			rewards: [{
+				id: "612B88DDE34FCF52"
+				type: "item"
+				item: "minecraft:obsidian"
+				count: 32
+			}]
+		}
+		{
+			x: -12.0d
+			y: 4.0d
+			description: ["Has 81 slots, each can hold 2147483647 items."]
+			dependencies: ["0D04D5948D62F9D1"]
+			id: "0AEFCCABEBEB3E07"
+			tasks: [{
+				id: "4C9812CAC3535DB0"
+				type: "item"
+				item: "dankstorage:dank_7"
+			}]
+			rewards: [{
+				id: "72519E43BCC6CBCD"
+				type: "item"
+				item: "mysticalagradditions:nether_star_shard"
+				count: 16
+			}]
+		}
+		{
+			x: 2.5d
+			y: 5.5d
+			description: ["A crafting component for all other upgrades from the mod."]
+			dependencies: ["7EFD6BBED634698D"]
+			id: "45BF4905DC5BA7C5"
+			tasks: [{
+				id: "506B842724B98D80"
+				type: "item"
+				item: "storagedrawers:upgrade_template"
+			}]
+			rewards: [{
+				id: "78C04EE57C4663FD"
+				type: "item"
+				item: "storagedrawers:upgrade_template"
+				count: 4
+			}]
+		}
+		{
+			x: 2.5d
+			y: 8.0d
+			description: ["This item is used to lock drawers to the item currently inside it; a black keyhole icon is displayed on the top edge of the front face. The drawer will be whitelisted to that item even when 0 copies are inside; other items will be unable to overwrite the Drawer's filter."]
+			dependencies: ["45BF4905DC5BA7C5"]
+			id: "4E7502DE43699A17"
+			tasks: [{
+				id: "5E3847583E32E3FD"
+				type: "item"
+				item: "storagedrawers:drawer_key"
+			}]
+			rewards: [{
+				id: "2E8A85F1199D805A"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: 7.0d
+			y: 5.5d
+			description: ["Compacting drawers are a special stone-colored drawer that auto-convert compressible items. Instead of manually crafting and uncrafting between gold blocks, ingots, and nuggets, put them in a compacting drawer. The drawer will internally maintain a pool of the material, and let you insert or remove the material in any of the shown forms."]
+			dependencies: ["6A72CE52231DC7B1"]
+			id: "34512486C4EC0693"
+			tasks: [{
+				id: "4CAFC720B2B2D158"
+				type: "item"
+				item: "storagedrawers:compacting_drawers_3"
+			}]
+			rewards: [{
+				id: "7BB8A26D22CC4980"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			x: 6.0d
+			y: 5.5d
+			description: ["Drawer Controllers are the second special block in the mod. They will search for any connected drawer within 12 blocks, and then expose all of those drawers as a large combined inventory. This lets you hook up a single pipe, tube, duct, spark, storage bus, etc. and interact with the entire bank of drawers."]
+			dependencies: ["6A72CE52231DC7B1"]
+			id: "06411CE496CEF5BC"
+			tasks: [{
+				id: "613224FB9A4FD93C"
+				type: "item"
+				item: "storagedrawers:controller"
+			}]
+			rewards: [{
+				id: "7435A4DC819AB29B"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 5.5d
+			description: ["Controller Slaves act as an extension of a drawer controller, exposing more faces for attaching machines, pipes, or crafting frames. Controllers will bind to a slave when they find them on the network, and all slaves bound to the same controller will share the same inventory and range as that controller. Unlike drawers, slaves cannot be shared, and you should be careful to not put them in range of multiple controllers. Using controller slaves is better for performance than using multiple controllers."]
+			dependencies: ["6A72CE52231DC7B1"]
+			id: "68ECD034F8FACA81"
+			tasks: [{
+				id: "1797865D649D5064"
+				type: "item"
+				item: "storagedrawers:controller_slave"
+			}]
+			rewards: [{
+				id: "2C955EC3D61FCA46"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 7.0d
+			description: ["It increases the maximum storage of a Drawer by 2 times its base value. For instance, with only one it will increase the maximum storage to 64 stacks from 32. It can be applied by right-clicking with it on a Drawer or placed manually in the Drawer's GUI when right-clicked with an empty hand."]
+			dependencies: ["45BF4905DC5BA7C5"]
+			id: "6348EB311BEBFA43"
+			tasks: [{
+				id: "3ABAB4D9C041B153"
+				type: "item"
+				item: "storagedrawers:obsidian_storage_upgrade"
+			}]
+			rewards: [{
+				id: "4DF4BD16840026D2"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 7.0d
+			description: ["It increases the maximum storage of a Drawer by 4 times its base value. For instance, with only one installed it will increase the maximum storage to 128 stacks from 32. It can be applied by right-clicking with it on a Drawer or placed manually in the Drawer's GUI when right-clicked with an empty hand."]
+			dependencies: ["45BF4905DC5BA7C5"]
+			id: "68E3303181B301A3"
+			tasks: [{
+				id: "45FDDB984A72FE1F"
+				type: "item"
+				item: "storagedrawers:iron_storage_upgrade"
+			}]
+			rewards: [{
+				id: "27728FD8D551D754"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 7.0d
+			description: ["It increases the maximum storage of a Drawer by 5 times its base value. For instance, with only one installed it will increase the maximum storage to 256 stacks from 32. It can be applied by right-clicking with it on a Drawer or placed manually in the Drawer's GUI when right-clicked with an empty hand."]
+			dependencies: ["45BF4905DC5BA7C5"]
+			id: "01FE3890DF185876"
+			tasks: [{
+				id: "7DF55D8113A90664"
+				type: "item"
+				item: "storagedrawers:gold_storage_upgrade"
+			}]
+			rewards: [{
+				id: "54E0CB77D1520CDB"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 7.0d
+			description: ["It increases the maximum storage of a Drawer by 16 times its base value. For instance, with only one installed it will increase the maximum storage to 512 stacks from 32. It can be applied by right-clicking with it on a Drawer or placed manually in the Drawer's GUI when right-clicked with an empty hand."]
+			dependencies: ["45BF4905DC5BA7C5"]
+			id: "682775DD87E87B32"
+			tasks: [{
+				id: "137FCC45EBE914E2"
+				type: "item"
+				item: "storagedrawers:diamond_storage_upgrade"
+			}]
+			rewards: [{
+				id: "18E135C55E344D27"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 7.0d
+			description: ["It increases the maximum storage of a Drawer by 32 times its base value. For instance, with only one installed it will increase the maximum storage to 1024 stacks from 32. It can be applied by right-clicking with it on a Drawer or placed manually in the Drawer's GUI when right-clicked with an empty hand. "]
+			dependencies: ["45BF4905DC5BA7C5"]
+			id: "4AA4FFF7D2F8E689"
+			tasks: [{
+				id: "568916BEB499A19F"
+				type: "item"
+				item: "storagedrawers:emerald_storage_upgrade"
+			}]
+			rewards: [{
+				id: "2A71FAC2A9E4044E"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 7.0d
+			description: ["It reduces the stack limit of the Drawer to 1. It will stack with Storage Upgrades additively, though there is no reason to use them simultaneously."]
+			dependencies: ["45BF4905DC5BA7C5"]
+			id: "5230627C302377FE"
+			tasks: [{
+				id: "47DFD9CD71CB6793"
+				type: "item"
+				item: "storagedrawers:one_stack_upgrade"
+			}]
+			rewards: [{
+				id: "7A9038C05897B12F"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 7.0d
+			description: ["This upgrade makes it so items entering the Drawer after the Upgrade is applied will be deleted when it becomes full."]
+			dependencies: ["45BF4905DC5BA7C5"]
+			id: "602933A259987D7D"
+			tasks: [{
+				id: "64CE9D0DC35156EB"
+				type: "item"
+				item: "storagedrawers:void_upgrade"
+			}]
+			rewards: [{
+				id: "38D5DF14D3F6A73D"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 7.0d
+			description: ["Can auto-convert items."]
+			dependencies: ["45BF4905DC5BA7C5"]
+			id: "08ABCDBAB9814A09"
+			tasks: [{
+				id: "548DC0ABD850CF08"
+				type: "item"
+				item: "storagedrawers:conversion_upgrade"
+			}]
+			rewards: [{
+				id: "3A1B7BF1F2358185"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 7.0d
+			description: ["This upgrade causes the upgraded drawer to emit a signal depending on how much storage the drawer has."]
+			dependencies: ["45BF4905DC5BA7C5"]
+			id: "13519C9BB237381D"
+			tasks: [{
+				id: "2BF1036A402AB13C"
+				type: "item"
+				item: "storagedrawers:redstone_upgrade"
+			}]
+			rewards: [{
+				id: "3E8000BF0C71EB12"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: 6.0d
+			y: 7.0d
+			description: ["Outputs a redstone signal depending on the least full slot of a drawer."]
+			dependencies: ["45BF4905DC5BA7C5"]
+			id: "4FBCF4D5D0DC9D97"
+			tasks: [{
+				id: "54ABA4C191E07D3A"
+				type: "item"
+				item: "storagedrawers:min_redstone_upgrade"
+			}]
+			rewards: [{
+				id: "255571F09BEDF02A"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: 7.0d
+			y: 7.0d
+			description: ["Outputs a redstone signal depending on the most full slot of a drawer."]
+			dependencies: ["45BF4905DC5BA7C5"]
+			id: "7AC34C93DC5F3A60"
+			tasks: [{
+				id: "3ACBC23BA6EE1DE8"
+				type: "item"
+				item: "storagedrawers:max_redstone_upgrade"
+			}]
+			rewards: [{
+				id: "2AE5221B41C46C40"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: 8.0d
+			y: 7.0d
+			description: ["This item causes drawer labels to be illuminated even during the night."]
+			dependencies: ["45BF4905DC5BA7C5"]
+			id: "018A02AC9BB38480"
+			tasks: [{
+				id: "56150136D0E1C27E"
+				type: "item"
+				item: "storagedrawers:illumination_upgrade"
+			}]
+			rewards: [{
+				id: "20EAE2FB68D057D7"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: 10.5d
+			y: 0.0d
+			description: ["The most colossal chest of 'em all! (Crafted with a Chest Wall and a Wood Plank)"]
+			dependencies: ["4B4C39533CC0831C"]
+			id: "78369247B895751E"
+			tasks: [{
+				id: "70554F67499ADEE2"
+				type: "item"
+				item: "colossalchests:uncolossal_chest"
+			}]
+			rewards: [{
+				id: "39CF2B37384545F0"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: 7.5d
+			y: -3.0d
+			dependencies: ["4B4C39533CC0831C"]
+			id: "2147D1CF7C36F453"
+			tasks: [{
+				id: "3DC23361DD061C65"
+				type: "item"
+				item: "colossalchests:chest_wall_wood"
+			}]
+			rewards: [{
+				id: "21FA9F637DED82FD"
+				type: "item"
+				item: {
+					id: "minecraft:oak_log"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 4
+			}]
+		}
+		{
+			x: 8.5d
+			y: -3.0d
+			dependencies: ["2147D1CF7C36F453"]
+			id: "1E6CEB92472DF30D"
+			tasks: [{
+				id: "7B71AB8FA6BEF5F8"
+				type: "item"
+				item: "colossalchests:colossal_chest_wood"
+			}]
+			rewards: [{
+				id: "0C57E761DA0113E6"
+				type: "item"
+				item: {
+					id: "minecraft:oak_log"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 4
+			}]
+		}
+		{
+			x: 7.5d
+			y: -2.0d
+			dependencies: ["4B4C39533CC0831C"]
+			id: "160B5F31DA9181A6"
+			tasks: [{
+				id: "525A6DB2E441FCCB"
+				type: "item"
+				item: "colossalchests:chest_wall_copper"
+			}]
+			rewards: [{
+				id: "7E79FC1AD389E991"
+				type: "item"
+				item: {
+					id: "emendatusenigmatica:copper_ingot"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 4
+			}]
+		}
+		{
+			x: 8.5d
+			y: -2.0d
+			dependencies: ["160B5F31DA9181A6"]
+			id: "05BE63E0A74F8D97"
+			tasks: [{
+				id: "272CAD035E4AB98B"
+				type: "item"
+				item: "colossalchests:colossal_chest_copper"
+			}]
+			rewards: [{
+				id: "4EBF5B7675EE2781"
+				type: "item"
+				item: {
+					id: "emendatusenigmatica:copper_ingot"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 4
+			}]
+		}
+		{
+			x: 7.5d
+			y: -1.0d
+			dependencies: ["4B4C39533CC0831C"]
+			id: "6F6916D564D84C24"
+			tasks: [{
+				id: "69EC8ACCAA6DFDFE"
+				type: "item"
+				item: "colossalchests:chest_wall_iron"
+			}]
+			rewards: [{
+				id: "048CA3BB2A644061"
+				type: "item"
+				item: {
+					id: "minecraft:iron_ingot"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 4
+			}]
+		}
+		{
+			x: 8.5d
+			y: -1.0d
+			dependencies: ["6F6916D564D84C24"]
+			id: "6AEAF5D9D79D5972"
+			tasks: [{
+				id: "631584F5A04B159A"
+				type: "item"
+				item: "colossalchests:colossal_chest_iron"
+			}]
+			rewards: [{
+				id: "664654B6FFAA0E29"
+				type: "item"
+				item: {
+					id: "minecraft:iron_ingot"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 4
+			}]
+		}
+		{
+			x: 7.5d
+			y: 0.0d
+			dependencies: ["4B4C39533CC0831C"]
+			id: "751EED8C959F1F3A"
+			tasks: [{
+				id: "0653E97E235A626B"
+				type: "item"
+				item: "colossalchests:chest_wall_silver"
+			}]
+			rewards: [{
+				id: "2C4B84579FF7C747"
+				type: "item"
+				item: {
+					id: "emendatusenigmatica:silver_ingot"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 4
+			}]
+		}
+		{
+			x: 8.5d
+			y: 0.0d
+			dependencies: ["751EED8C959F1F3A"]
+			id: "2B5CC92920175137"
+			tasks: [{
+				id: "731C6B6C63AC9B39"
+				type: "item"
+				item: "colossalchests:colossal_chest_silver"
+			}]
+			rewards: [{
+				id: "49339FFBBA138F2A"
+				type: "item"
+				item: {
+					id: "emendatusenigmatica:silver_ingot"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 4
+			}]
+		}
+		{
+			x: 7.5d
+			y: 1.0d
+			dependencies: ["4B4C39533CC0831C"]
+			id: "6F372A00B3DF0FF3"
+			tasks: [{
+				id: "4CE0C607C28A4E4D"
+				type: "item"
+				item: "colossalchests:chest_wall_gold"
+			}]
+			rewards: [{
+				id: "0480B340ACEAE78B"
+				type: "item"
+				item: {
+					id: "minecraft:gold_ingot"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 4
+			}]
+		}
+		{
+			x: 8.5d
+			y: 1.0d
+			dependencies: ["6F372A00B3DF0FF3"]
+			id: "388CC78FA8DBACF1"
+			tasks: [{
+				id: "584DF0F1D85AEC15"
+				type: "item"
+				item: "colossalchests:colossal_chest_gold"
+			}]
+			rewards: [{
+				id: "606D90F6A1831311"
+				type: "item"
+				item: {
+					id: "minecraft:gold_ingot"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 4
+			}]
+		}
+		{
+			x: 7.5d
+			y: 2.0d
+			dependencies: ["4B4C39533CC0831C"]
+			id: "056024D5C1FD4C76"
+			tasks: [{
+				id: "402C4E84CF552166"
+				type: "item"
+				item: "colossalchests:chest_wall_diamond"
+			}]
+			rewards: [{
+				id: "7B4BB455A673DC2A"
+				type: "item"
+				item: {
+					id: "minecraft:diamond"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 4
+			}]
+		}
+		{
+			x: 8.5d
+			y: 2.0d
+			dependencies: ["056024D5C1FD4C76"]
+			id: "61547B8C84F2E621"
+			tasks: [{
+				id: "28192F4C35AC6465"
+				type: "item"
+				item: "colossalchests:colossal_chest_diamond"
+			}]
+			rewards: [{
+				id: "3835C6795ACF3AF2"
+				type: "item"
+				item: {
+					id: "minecraft:diamond"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 4
+			}]
+		}
+		{
+			x: 7.5d
+			y: 3.0d
+			description: ["The Obsidian Colossal Chest is an upgraded version of the Diamond Colossal Chest, which has the same content size, but can not explode. The wall can be crafted by surrounding a diamond chest wall with eight obsidian blocks in a crafting grid."]
+			dependencies: ["4B4C39533CC0831C"]
+			id: "101A0CE1C9508358"
+			tasks: [{
+				id: "3C383CF0A6541983"
+				type: "item"
+				item: "colossalchests:chest_wall_obsidian"
+			}]
+			rewards: [{
+				id: "31A704016805FE04"
+				type: "item"
+				item: {
+					id: "minecraft:obsidian"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 4
+			}]
+		}
+		{
+			x: 8.5d
+			y: 3.0d
+			dependencies: ["101A0CE1C9508358"]
+			id: "63086CA4A3867322"
+			tasks: [{
+				id: "1A3136285E7FBBF7"
+				type: "item"
+				item: "colossalchests:colossal_chest_obsidian"
+			}]
+			rewards: [{
+				id: "555926DEEE056CEF"
+				type: "item"
+				item: {
+					id: "minecraft:obsidian"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 4
+			}]
+		}
+		{
+			x: 9.5d
+			y: -3.0d
+			dependencies: ["2147D1CF7C36F453"]
+			id: "1E51CD3276126462"
+			tasks: [{
+				id: "3F4A1497EB4B36DF"
+				type: "item"
+				item: "colossalchests:interface_wood"
+			}]
+			rewards: [{
+				id: "4A2A9B27AA337F04"
+				type: "item"
+				item: {
+					id: "minecraft:oak_log"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 4
+			}]
+		}
+		{
+			x: 9.5d
+			y: -2.0d
+			dependencies: ["160B5F31DA9181A6"]
+			id: "177DED314F866284"
+			tasks: [{
+				id: "05A542E86BF284B7"
+				type: "item"
+				item: "colossalchests:interface_copper"
+			}]
+			rewards: [{
+				id: "0581C92718D34061"
+				type: "item"
+				item: {
+					id: "emendatusenigmatica:copper_ingot"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 4
+			}]
+		}
+		{
+			x: 9.5d
+			y: -1.0d
+			dependencies: ["6F6916D564D84C24"]
+			id: "13364CD4E0D2120F"
+			tasks: [{
+				id: "4E7028C13D90FADF"
+				type: "item"
+				item: "colossalchests:interface_iron"
+			}]
+			rewards: [{
+				id: "6ABDE30590D6F52A"
+				type: "item"
+				item: {
+					id: "minecraft:iron_ingot"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 4
+			}]
+		}
+		{
+			x: 9.5d
+			y: 0.0d
+			dependencies: ["751EED8C959F1F3A"]
+			id: "4CEFDE95EEFFFB6B"
+			tasks: [{
+				id: "2C92BABAB994D146"
+				type: "item"
+				item: "colossalchests:interface_silver"
+			}]
+			rewards: [{
+				id: "092649C443290074"
+				type: "item"
+				item: {
+					id: "emendatusenigmatica:silver_ingot"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 4
+			}]
+		}
+		{
+			x: 9.5d
+			y: 1.0d
+			dependencies: ["6F372A00B3DF0FF3"]
+			id: "259C9FBD5C800479"
+			tasks: [{
+				id: "526882E7D72A4CD2"
+				type: "item"
+				item: "colossalchests:interface_gold"
+			}]
+			rewards: [{
+				id: "530F39AAD91AF296"
+				type: "item"
+				item: {
+					id: "minecraft:gold_ingot"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 4
+			}]
+		}
+		{
+			x: 9.5d
+			y: 2.0d
+			dependencies: ["056024D5C1FD4C76"]
+			id: "64EA2AF01CE7C0FE"
+			tasks: [{
+				id: "6C8B8883442A0BE5"
+				type: "item"
+				item: "colossalchests:interface_diamond"
+			}]
+			rewards: [{
+				id: "23BF1DDA2D17591F"
+				type: "item"
+				item: {
+					id: "minecraft:diamond"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 4
+			}]
+		}
+		{
+			x: 9.5d
+			y: 3.0d
+			dependencies: ["101A0CE1C9508358"]
+			id: "6BD3D10CFCE62CC0"
+			tasks: [{
+				id: "7FFC8EB815D5A7E1"
+				type: "item"
+				item: "colossalchests:interface_obsidian"
+			}]
+			rewards: [{
+				id: "3973A1989CEED0A5"
+				type: "item"
+				item: {
+					id: "minecraft:obsidian"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 4
+			}]
+		}
+		{
+			x: 1.5d
+			y: -5.5d
+			description: ["1 Inventory slot, with a special message."]
+			dependencies: ["33142FC1D4696698"]
+			id: "46B05F79BAF1A61F"
+			tasks: [{
+				id: "31376BDB5B7A5398"
+				type: "item"
+				item: "ironchest:dirt_chest"
+			}]
+			rewards: [{
+				id: "171CD8007934E3A9"
+				type: "item"
+				item: "minecraft:dirt"
+				count: 64
+			}]
+		}
+		{
+			x: 3.5d
+			y: -5.5d
+			description: ["54 Inventory slots."]
+			dependencies: ["33142FC1D4696698"]
+			id: "3B03CC9854D5C6DD"
+			tasks: [{
+				id: "2A63808C6E242E87"
+				type: "item"
+				item: "ironchest:iron_chest"
+			}]
+			rewards: [{
+				id: "6C7CA5AC2E159355"
+				type: "item"
+				item: {
+					id: "minecraft:iron_ingot"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 4
+			}]
+		}
+		{
+			x: 5.5d
+			y: -5.5d
+			description: ["81 Inventory slots."]
+			dependencies: ["33142FC1D4696698"]
+			id: "4ABDB008E8A27DB0"
+			tasks: [{
+				id: "1B674A8EC82C51CC"
+				type: "item"
+				item: "ironchest:gold_chest"
+			}]
+			rewards: [{
+				id: "0142E78BCA27D856"
+				type: "item"
+				item: {
+					id: "minecraft:gold_ingot"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 4
+			}]
+		}
+		{
+			x: 2.5d
+			y: -5.5d
+			description: ["45 Inventory slots."]
+			dependencies: ["33142FC1D4696698"]
+			id: "57B27D5E28E84B77"
+			tasks: [{
+				id: "64168090CA4FB38F"
+				type: "item"
+				item: "ironchest:copper_chest"
+			}]
+			rewards: [{
+				id: "7CCB2054588FD71F"
+				type: "item"
+				item: {
+					id: "emendatusenigmatica:copper_ingot"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 4
+			}]
+		}
+		{
+			x: 4.5d
+			y: -5.5d
+			description: ["72 Inventory slots."]
+			dependencies: ["33142FC1D4696698"]
+			id: "1309622EE8918FA2"
+			tasks: [{
+				id: "47707A962CFE2122"
+				type: "item"
+				item: "ironchest:silver_chest"
+			}]
+			rewards: [{
+				id: "7D92E7BFE14C49E6"
+				type: "item"
+				item: {
+					id: "emendatusenigmatica:silver_ingot"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 4
+			}]
+		}
+		{
+			x: 6.5d
+			y: -5.5d
+			description: ["108 Inventory slots."]
+			dependencies: ["33142FC1D4696698"]
+			id: "24F3D4E8D62E114A"
+			tasks: [{
+				id: "1B699AD1304CB66B"
+				type: "item"
+				item: "ironchest:diamond_chest"
+			}]
+			rewards: [{
+				id: "5E26DB6C33CB7448"
+				type: "item"
+				item: {
+					id: "minecraft:diamond"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 4
+			}]
+		}
+		{
+			x: 7.5d
+			y: -5.5d
+			description: ["108 Inventory slots (transparent)."]
+			dependencies: ["33142FC1D4696698"]
+			id: "1DB8C8B85825AE70"
+			tasks: [{
+				id: "06052D7191D1F411"
+				type: "item"
+				item: "ironchest:crystal_chest"
+			}]
+			rewards: [{
+				id: "401CF0F9EF365EFB"
+				type: "item"
+				item: {
+					id: "minecraft:glass"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 32
+			}]
+		}
+		{
+			x: 8.5d
+			y: -5.5d
+			description: ["108 Inventory slots (explosive resistant)."]
+			dependencies: ["33142FC1D4696698"]
+			id: "0281CA2794DD1FF0"
+			tasks: [{
+				id: "1C39DEB2F33ACCBC"
+				type: "item"
+				item: "ironchest:obsidian_chest"
+			}]
+			rewards: [{
+				id: "08AB984F7A9ECD91"
+				type: "item"
+				item: {
+					id: "minecraft:obsidian"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 4
+			}]
+		}
+		{
+			x: -7.5d
+			y: -5.5d
+			description: ["The copper barrel stores 45 stacks of items."]
+			dependencies: ["6A9ED626867DBD94"]
+			id: "0CF499711474F6E3"
+			tasks: [{
+				id: "47053329A558D677"
+				type: "item"
+				item: "metalbarrels:copper_barrel"
+			}]
+			rewards: [{
+				id: "47FD93382B6D6146"
+				type: "item"
+				item: {
+					id: "emendatusenigmatica:copper_ingot"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 4
+			}]
+		}
+		{
+			x: -6.5d
+			y: -5.5d
+			description: ["The iron barrel stores 54 stacks of items."]
+			dependencies: ["6A9ED626867DBD94"]
+			id: "1A0CD4BB8125585F"
+			tasks: [{
+				id: "188975194F605457"
+				type: "item"
+				item: "metalbarrels:iron_barrel"
+			}]
+			rewards: [{
+				id: "5018A5875DA13EE1"
+				type: "item"
+				item: {
+					id: "minecraft:iron_ingot"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 4
+			}]
+		}
+		{
+			x: -5.5d
+			y: -5.5d
+			description: ["The silver barrel stores 72 stacks of items."]
+			dependencies: ["6A9ED626867DBD94"]
+			id: "02962D76EB5739F7"
+			tasks: [{
+				id: "1F992A8639284DE4"
+				type: "item"
+				item: "metalbarrels:silver_barrel"
+			}]
+			rewards: [{
+				id: "623A4698515CE212"
+				type: "item"
+				item: {
+					id: "emendatusenigmatica:silver_ingot"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 4
+			}]
+		}
+		{
+			x: -4.5d
+			y: -5.5d
+			description: ["The gold barrel stores 81 stacks of items."]
+			dependencies: ["6A9ED626867DBD94"]
+			id: "1B678A740AEACDE2"
+			tasks: [{
+				id: "5DD628916924F889"
+				type: "item"
+				item: "metalbarrels:gold_barrel"
+			}]
+			rewards: [{
+				id: "1626E4C29DABDF17"
+				type: "item"
+				item: {
+					id: "minecraft:gold_ingot"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 4
+			}]
+		}
+		{
+			x: -3.5d
+			y: -5.5d
+			description: ["The diamond barrel stores 108 stacks of items."]
+			dependencies: ["6A9ED626867DBD94"]
+			id: "6EE149355C0B8883"
+			tasks: [{
+				id: "7BA77077B9E44C82"
+				type: "item"
+				item: "metalbarrels:diamond_barrel"
+			}]
+			rewards: [{
+				id: "3FB46248947D32F5"
+				type: "item"
+				item: {
+					id: "minecraft:diamond"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 4
+			}]
+		}
+		{
+			x: -1.5d
+			y: -5.5d
+			description: ["The obsidian barrel stores 108 stacks of items, but has a blast resistance of 30 thousand so it can withstand almost any explosion."]
+			dependencies: ["6A9ED626867DBD94"]
+			id: "514416CB3674A608"
+			tasks: [{
+				id: "044A935EAF07B2D8"
+				type: "item"
+				item: "metalbarrels:obsidian_barrel"
+			}]
+			rewards: [{
+				id: "705A9226ECA0982E"
+				type: "item"
+				item: {
+					id: "minecraft:obsidian"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 4
+			}]
+		}
+		{
+			x: -0.5d
+			y: -5.5d
+			description: ["The netherite barrel stores 135 stacks of items, and is also resistant to lava like other netherite items."]
+			dependencies: ["6A9ED626867DBD94"]
+			id: "3C92DD408979868D"
+			tasks: [{
+				id: "4C981BC0469B0663"
+				type: "item"
+				item: "metalbarrels:netherite_barrel"
+			}]
+			rewards: [{
+				id: "4601A3BBBE0E384D"
+				type: "item"
+				item: {
+					id: "minecraft:netherite_scrap"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 4
+			}]
+		}
+		{
+			x: -2.5d
+			y: -5.5d
+			description: ["The copper barrel stores 108 stacks of items, but the top 8 items can be seen inside."]
+			dependencies: ["6A9ED626867DBD94"]
+			id: "0602ED15C2C29B54"
+			tasks: [{
+				id: "400DF759CEF1C5D2"
+				type: "item"
+				item: "metalbarrels:crystal_barrel"
+			}]
+			rewards: [{
+				id: "7F1967C003F5F344"
+				type: "item"
+				item: {
+					id: "minecraft:glass"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 32
+			}]
+		}
+		{
+			x: 1.0d
+			y: 4.0d
+			description: ["A mandatory component, and only one may be present in each SSN. Has no functionality by itself, but is used to connect Storage Remotes to a specific SSN."]
+			dependencies: ["6BCF16F59C704FA1"]
+			id: "2212CF43FFA728A9"
+			tasks: [{
+				id: "2F38DEA1DF29AFC3"
+				type: "item"
+				item: "storagenetwork:master"
+			}]
+			rewards: [{
+				id: "15A23F0FAB3AA870"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.0d
+			description: ["An interface with which any item present in inventories linked to the SSN with Storage Link Cables can be accessed. Does not include a crafting table!"]
+			dependencies: ["6BCF16F59C704FA1"]
+			id: "3FEA2C7786A0CB87"
+			tasks: [{
+				id: "1C8069FA1665CE9C"
+				type: "item"
+				item: "storagenetwork:inventory"
+			}]
+			rewards: [{
+				id: "3C41D29600A12B66"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			x: -0.5d
+			y: 5.0d
+			description: ["An interface with which any item present in inventories linked to the SSN with Storage Link Cables can be accessed. Includes a crafting table too!"]
+			dependencies: ["3FEA2C7786A0CB87"]
+			id: "12406B71DC8BD84C"
+			tasks: [{
+				id: "674E96A7B8992421"
+				type: "item"
+				item: "storagenetwork:request"
+			}]
+			rewards: [{
+				id: "606A57E3A1F1E1F3"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			x: -5.5d
+			y: 5.0d
+			description: ["Can be added to Import and Export cables to speed them up."]
+			dependencies: ["2CF1010BDD2D8642"]
+			id: "08F6B4B6E6C06EF9"
+			tasks: [{
+				id: "6D7878893F7AC808"
+				type: "item"
+				item: "storagenetwork:speed_upgrade"
+			}]
+			rewards: [{
+				id: "30D6EC86F16DFDEB"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: -1.5d
+			y: 5.0d
+			description: ["Increases the stack size of an operation."]
+			dependencies: ["2CF1010BDD2D8642"]
+			id: "101B7B8FA6013E49"
+			tasks: [{
+				id: "6D0467CC2BB25CD8"
+				type: "item"
+				item: "storagenetwork:stack_upgrade"
+			}]
+			rewards: [{
+				id: "1160D4644AE71660"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: -3.5d
+			y: 4.0d
+			description: ["The basic cable. Serves no function besides linking other components together and has no functions of its own."]
+			dependencies: ["6BCF16F59C704FA1"]
+			id: "2CF1010BDD2D8642"
+			tasks: [{
+				id: "03B9F510644FC084"
+				type: "item"
+				item: "storagenetwork:kabel"
+			}]
+			rewards: [{
+				id: "667083EB61202268"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: -3.5d
+			y: 5.0d
+			description: ["Connects storage inventories (such as chests) to the network, making it possible to store into and retrieve from the chest through a Storage Request Table or Storage Remote."]
+			dependencies: ["2CF1010BDD2D8642"]
+			id: "15E511B6948C1632"
+			tasks: [{
+				id: "32CDABFFA292155D"
+				type: "item"
+				item: "storagenetwork:storage_kabel"
+			}]
+			rewards: [{
+				id: "71A0786B25B5D0A2"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: -2.5d
+			y: 5.0d
+			description: ["Imports items from outside inventories into the SSN, with both blacklist and whitelist filtering modes."]
+			dependencies: ["2CF1010BDD2D8642"]
+			id: "1D1A7BD9E99A2B8B"
+			tasks: [{
+				id: "4850BFDA3155DA05"
+				type: "item"
+				item: "storagenetwork:import_kabel"
+			}]
+			rewards: [{
+				id: "5DD4382119BED5E8"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: -4.5d
+			y: 5.0d
+			description: ["Exports items from the SSN to outside inventories, with filtering options."]
+			dependencies: ["2CF1010BDD2D8642"]
+			id: "71A77D527F32A2A9"
+			tasks: [{
+				id: "734E6F909A004762"
+				type: "item"
+				item: "storagenetwork:export_kabel"
+			}]
+			rewards: [{
+				id: "1027CD8D14A2671C"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: 0.5d
+			y: 5.0d
+			description: ["Can be connected to an SSN by right-clicking the Storage Network Master block with it. Allows all functionality of the Storage Request Table wirelessly by right clicking while holding this item for up to 64 block distance from the Storage Network Master. Does not include crafting functionality."]
+			dependencies: ["2212CF43FFA728A9"]
+			id: "75F2BC47EE3C829F"
+			tasks: [{
+				id: "37652814763CCF39"
+				type: "item"
+				item: "storagenetwork:inventory_remote"
+			}]
+			rewards: [{
+				id: "456DD9943855D4B3"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 5.0d
+			description: ["Can be connected to an SSN by right-clicking the Storage Network Master block with it. Allows all functionality of the Storage Request Table wirelessly by right clicking while holding this item for up to 64 block distance from the Storage Network Master. Does include crafting functionality!"]
+			dependencies: ["2212CF43FFA728A9"]
+			id: "42B34BCD9AD60538"
+			tasks: [{
+				id: "74A05A0D02861B59"
+				type: "item"
+				item: "storagenetwork:crafting_remote"
+			}]
+			rewards: [{
+				id: "20828BB0E7D5B420"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			x: -6.0d
+			y: 2.0d
+			description: ["Has 27 slots and 1 upgrade slot."]
+			dependencies: ["1A03E33A2FBBA8E1"]
+			id: "0BDD8D24B3FFEB69"
+			tasks: [{
+				id: "4328199280C3BA18"
+				type: "item"
+				item: "sophisticatedbackpacks:backpack"
+			}]
+			rewards: [{
+				id: "1614A41177C87097"
+				type: "item"
+				item: {
+					id: "minecraft:leather"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 4
+			}]
+		}
+		{
+			x: -7.0d
+			y: 2.0d
+			description: ["Has 54 slots and 2 upgrade slots."]
+			dependencies: ["0BDD8D24B3FFEB69"]
+			id: "16B01D6F808E21B6"
+			tasks: [{
+				id: "0498590F70FEAA06"
+				type: "item"
+				item: "sophisticatedbackpacks:iron_backpack"
+			}]
+			rewards: [{
+				id: "7B81D112F8A10784"
+				type: "item"
+				item: {
+					id: "minecraft:iron_ingot"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 4
+			}]
+		}
+		{
+			x: -8.0d
+			y: 2.0d
+			description: ["Has 81 slots and 3 upgrade slots."]
+			dependencies: ["16B01D6F808E21B6"]
+			id: "2F82D407F2485AC9"
+			tasks: [{
+				id: "06BEF1A722620B4E"
+				type: "item"
+				item: "sophisticatedbackpacks:gold_backpack"
+			}]
+			rewards: [{
+				id: "125A48971CF6470E"
+				type: "item"
+				item: {
+					id: "minecraft:gold_ingot"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 4
+			}]
+		}
+		{
+			x: -9.0d
+			y: 2.0d
+			description: ["Has 108 slots and 5 upgrade slots."]
+			dependencies: ["2F82D407F2485AC9"]
+			id: "4F42068157A5BE45"
+			tasks: [{
+				id: "4741535E98CBACA9"
+				type: "item"
+				item: "sophisticatedbackpacks:diamond_backpack"
+			}]
+			rewards: [{
+				id: "6454B99DAA5C3A06"
+				type: "item"
+				item: {
+					id: "minecraft:diamond"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 4
+			}]
+		}
+		{
+			x: -5.0d
+			y: 1.5d
+			shape: "circle"
+			description: ["Sophisticated backpacks is yet another backpack mod this time with your backpack you can place in world, color in different color combinations, upgrade with more inventory and enhance with many functional upgrades."]
+			id: "1A03E33A2FBBA8E1"
+			tasks: [{
+				id: "33604C3718079DF7"
+				type: "checkmark"
+				title: "Sophisticated Backpacks"
+			}]
+			rewards: [{
+				id: "5FD294FC46772A71"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -10.0d
+			y: 2.0d
+			description: ["Has 120 slots and 7 upgrade slots."]
+			dependencies: ["4F42068157A5BE45"]
+			id: "069B0EDC2431F066"
+			tasks: [{
+				id: "670AA5F747070B43"
+				type: "item"
+				item: "sophisticatedbackpacks:netherite_backpack"
+			}]
+			rewards: [{
+				id: "6C6AF6B010FF20CF"
+				type: "item"
+				item: {
+					id: "minecraft:netherite_scrap"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 4
+			}]
+		}
+		{
+			x: -6.0d
+			y: 1.0d
+			description: ["You can use different upgrades to enhance backpack functionality. I'm not going to include quests for them all as there are quite a few, but use JEI to take a look!"]
+			dependencies: ["1A03E33A2FBBA8E1"]
+			id: "207C89C012365E2B"
+			tasks: [{
+				id: "1510798C5573BB9E"
+				type: "item"
+				item: "sophisticatedbackpacks:upgrade_base"
+			}]
+			rewards: [{
+				id: "09E9FBB0F84AD11F"
+				type: "item"
+				item: {
+					id: "sophisticatedbackpacks:upgrade_base"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+	]
+}

@@ -1,0 +1,318 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  randomgroup = 1
+  renderorder = background
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  name = slideshow
+  action = setbackgroundslideshow
+}
+
+customization {
+  action = setscale
+  scale = 2
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = mid-left
+  x = 78
+  action = movebutton
+  y = -82
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  width = 175
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  orientation = mid-left
+  x = 78
+  action = movebutton
+  y = 44
+}
+
+customization {
+  identifier = %id=376322%
+  orientation = mid-left
+  x = 102
+  action = movebutton
+  y = 44
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = mid-left
+  x = 78
+  action = movebutton
+  y = -7
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  width = 175
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = mid-left
+  x = 78
+  action = movebutton
+  y = 18
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  width = 175
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = mid-left
+  x = 148
+  action = movebutton
+  y = 44
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = mid-left
+  x = 78
+  action = movebutton
+  y = -107
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  width = 175
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  orientation = mid-left
+  x = 78
+  action = movebutton
+  y = -57
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  width = 175
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  orientation = mid-left
+  x = 78
+  action = movebutton
+  y = -32
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  width = 175
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=376346%
+  orientation = mid-left
+  x = 125
+  action = movebutton
+  y = 44
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 346
+  width = 268
+  action = deep_customization_element:title_screen_forge_top
+  actionid = 6b45b987-f110-416d-adfa-5a97d5b5a9021676653507641
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 108
+  action = deep_customization_element:title_screen_branding
+  actionid = 565491ce-56c4-4d14-93fc-d56cb021868d1676653507660
+  y = 498
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 731
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = bd681d08-45c9-4bb1-8047-7d3f29b8fe381676653507660
+  y = 520
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 583
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = 3e225010-388f-4b3f-9f76-5d8d98c21f0a1676653507660
+  y = 235
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 343
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 11555352-ed3a-4bfc-8d18-4d20461845491676653507660
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = 8be360de-aa27-496f-8097-0a3545feb8961676653507661
+  y = 0
+  height = 30
+}
+
+customization {
+  orientation = top-left
+  shape = rectangle
+  color = #22222280
+  x = 65
+  width = 200
+  action = addshape
+  actionid = f9b14b3b-01d0-443c-b00c-0f7cd0dc892c1676655800036
+  y = 0
+  height = 540
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = resources/minecraft/textures/gui/discord_hover.png
+  label = 
+  loopbackgroundanimations = true
+  x = 73
+  width = 50
+  actionid = 46a582e2-b638-44d8-90a8-95a9eb67a6581676655047904
+  action = addbutton
+  y = 480
+  backgroundnormal = resources/minecraft/textures/gui/discord.png
+  value = https://discord.gg/Fdsvy6HHJw
+  height = 50
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = resources/minecraft/textures/gui/youtube_hover.png
+  label = 
+  loopbackgroundanimations = true
+  x = 128
+  width = 75
+  actionid = a2e9e292-619f-4910-b7ef-2732606391051676655227206
+  action = addbutton
+  y = 480
+  backgroundnormal = resources/minecraft/textures/gui/youtube.png
+  value = https://www.youtube.com/@Spudstak
+  height = 50
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = resources/minecraft/textures/gui/wiki_hover.png
+  label = 
+  loopbackgroundanimations = true
+  x = 208
+  width = 48
+  actionid = d7b27e7f-9415-4aef-a641-17905292e9b71676857085429
+  action = addbutton
+  y = 482
+  backgroundnormal = resources/minecraft/textures/gui/wiki.png
+  value = https://www.curseforge.com/minecraft/modpacks/dimensions-dungeoneering
+  height = 48
+}
+
+customization {
+  orientation = top-left
+  audio_source:6a779ce9-9ab4-4d7e-a880-7e2c0f6f9f0d1677002865509 = resources/minecraft/sounds/music/comforting_memories.ogg;EXTERNAL_LOCAL;100;0
+  audio_source:04c7f26b-1cc1-41f3-836d-94f291d4bf371677002897062 = resources/minecraft/sounds/music/so_below.ogg;EXTERNAL_LOCAL;100;0
+  audio_source:a7670a1f-7bff-4e8c-8986-0b307ea0dcee1677002910519 = resources/minecraft/sounds/music/wending.ogg;EXTERNAL_LOCAL;100;0
+  channel = music
+  audio_source:262ac75e-b744-40ff-957a-637a72f4edcf1677002886620 = resources/minecraft/sounds/music/one_more_day.ogg;EXTERNAL_LOCAL;100;0
+  audio_source:8e72e09e-e9b9-46f4-b7c7-8f265cbbba8f1677002870504 = resources/minecraft/sounds/music/floating_dream.ogg;EXTERNAL_LOCAL;100;0
+  audio_source:97da9f1c-eeee-42a8-a47b-901c35e45fd01677002838097 = resources/minecraft/sounds/music/an_ordinary_day.ogg;EXTERNAL_LOCAL;100;0
+  audio_source:15240767-b995-4b70-8651-fbc7dcd7df161677002881114 = resources/minecraft/sounds/music/left_to_bloom.ogg;EXTERNAL_LOCAL;100;0
+  audio_source:62105518-6fb2-4858-8b2e-fa163bda848e1677002859102 = resources/minecraft/sounds/music/chrysopoeia.ogg;EXTERNAL_LOCAL;100;0
+  loop = true
+  audio_source:bdc761c2-61fe-4a6d-8efe-53495f11e4061677002875495 = resources/minecraft/sounds/music/infinite_amethyst.ogg;EXTERNAL_LOCAL;100;0
+  x = 0
+  width = 50
+  action = custom_layout_element:fancymenu_extension:audio_item
+  actionid = b80efbb7-092a-4623-b798-d4244a753d361676988810253
+  y = 0
+  audio_source:83f5ecd0-d9bb-453c-a670-62443f20fa0f1677002905316 = resources/minecraft/sounds/music/stand_tall.ogg;EXTERNAL_LOCAL;100;0
+  once_per_session = false
+  audio_source:c8990939-203f-4eaf-9256-4ccc4ec9df451677002892055 = resources/minecraft/sounds/music/rubedo.ogg;EXTERNAL_LOCAL;100;0
+  height = 50
+}
+
+customization {
+  path = resources/minecraft/textures/gui/logo.png
+  orientation = top-left
+  x = 42
+  width = 250
+  action = addtexture
+  actionid = 605808eb-017e-4e86-8c0a-64afe84fae3b1677002693353
+  y = -37
+  height = 250
+}
+
+customization {
+  identifier = %id=604346%
+  action = hidebutton
+}
+

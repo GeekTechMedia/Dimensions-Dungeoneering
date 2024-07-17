@@ -1,0 +1,42 @@
+
+["Beacon Case Drop Rate"]
+	"Case Bypass (Set to true to have mobs drop the Beacon instead)" = false
+	#Default Value: 150
+	#Range: 0 ~ 10000
+	"1 out of" = 150
+
+["Beacon Case Unlock Cost"]
+	#Default Value: 30
+	#Range: 0 ~ 255
+	"Level Cost" = 30
+
+["Ender Throw Cost"]
+	#Default Value: 5
+	#Range: 0 ~ 1000
+	"Experience Point Cost" = 5
+
+["Light Throw Cost"]
+	#Default Value: 1
+	#Range: 0 ~ 1000
+	"Experience Point Cost" = 1
+
+["Explosive Throw Cost"]
+	#Default Value: 20
+	#Range: 0 ~ 1000
+	"Experience Point Cost" = 20
+
+["Self Heal Cost"]
+	#Default Value: 10
+	#Range: 0 ~ 1000
+	"Experience Point Cost" = 10
+
+["Off Hand Repair Cost"]
+	#Default Value: 10
+	#Range: 0 ~ 1000
+	"Experience Point Cost" = 10
+
+["Poison Throw Cost"]
+	#Default Value: 15
+	#Range: 0 ~ 1000
+	"Experience Point Cost" = 15
+

@@ -1,0 +1,10 @@
+
+[spawns]
+	"Armored Skeleton Spawn Weight, default: 48" = 48
+	"Skeleton Scrapper Spawn Weight, default: 50" = 50
+	"Overgrown Spawn Weight, default: 48" = 48
+	"Skeleton Elite Spawn Weight, default: 2" = 2
+	"Skeleton Sentinel Spawn Weight default: 7" = 7
+	"Jungle Tarantula Spawn Weight, default: 38" = 38
+	"Screeper Spawn Weight, default: 12" = 12
+

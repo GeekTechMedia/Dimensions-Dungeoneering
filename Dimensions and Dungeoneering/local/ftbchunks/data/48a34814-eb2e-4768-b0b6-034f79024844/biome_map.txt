@@ -1,0 +1,17 @@
+#6EA byg:amaranth_fields
+#67D projectvibrantjourneys:aspen_grove
+#390 projectvibrantjourneys:aspen_grove_hills
+#556 minecraft:beach
+#47F minecraft:birch_forest
+#0D2 minecraft:birch_forest_hills
+#653 byg:cold_swamplands
+#3DE minecraft:deep_ocean
+#010 minecraft:forest
+#4F1 minecraft:ocean
+#634 byg:prairie
+#228 byg:rocky_beach
+#4D3 minecraft:swamp
+#169 minecraft:taiga
+#63C minecraft:taiga_hills
+#47B byg:the_black_forest
+#452 minecraft:wooded_hills

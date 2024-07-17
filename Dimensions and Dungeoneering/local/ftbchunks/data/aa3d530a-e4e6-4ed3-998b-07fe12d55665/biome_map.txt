@@ -1,0 +1,13 @@
+#556 minecraft:beach
+#2E8 byg:bluff_steeps
+#281 byg:boreal_forest
+#35F cavebiomeapi:caves
+#5D7 byg:deciduous_forest
+#3DE minecraft:deep_ocean
+#010 minecraft:forest
+#762 darkerdepths:molten_cavern
+#4F1 minecraft:ocean
+#5FF minecraft:river
+#228 byg:rocky_beach
+#1CA darkerdepths:sandy_catacombs
+#452 minecraft:wooded_hills

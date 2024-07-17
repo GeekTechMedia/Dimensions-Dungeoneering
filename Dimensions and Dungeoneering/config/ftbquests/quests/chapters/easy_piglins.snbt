@@ -1,0 +1,91 @@
+{
+	id: "297A7768B569D648"
+	group: "2005A08BB83BFED6"
+	order_index: 3
+	filename: "easy_piglins"
+	title: "Oink Oink"
+	icon: "easy_piglins:barterer"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 4.0d
+			y: -4.5d
+			width: 3.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "minecraft:textures/block/chiseled_polished_blackstone.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -4.0d
+			y: -4.5d
+			width: 3.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "minecraft:textures/block/chiseled_polished_blackstone.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "circle"
+			description: ["Easy Piglins is pretty much exactly what it sounds like, an easier way to barter and manage your piglins!"]
+			id: "371919BDAF1398B3"
+			tasks: [{
+				id: "2F83235D7EF56861"
+				type: "checkmark"
+				title: "Easy Piglins"
+			}]
+			rewards: [
+				{
+					id: "1ED3A1C2A5E9BE98"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2642311135C7BCD7"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			description: ["The piglin item can be obtained by sneaking and right-clicking an adult piglin. The piglin item can be placed by right-clicking on the ground."]
+			dependencies: ["371919BDAF1398B3"]
+			id: "7821E190906A90F5"
+			tasks: [{
+				id: "36126767BED1C9C4"
+				type: "item"
+				item: "easy_piglins:piglin"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -6.0d
+			description: ["The barterer block allows to automatically barter with piglins without having to deal with capturing it. This block can also be used in other dimensions without the piglins converting to zobified piglins."]
+			dependencies: ["7821E190906A90F5"]
+			id: "0C6DFAC03D40DBF7"
+			tasks: [{
+				id: "2DC362F95F901DCC"
+				type: "item"
+				item: "easy_piglins:barterer"
+			}]
+			rewards: [{
+				id: "087A48F96C3BD69D"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+	]
+}

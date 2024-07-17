@@ -1,0 +1,9 @@
+#653 byg:cold_swamplands
+#4FD projectvibrantjourneys:crystal_lakes
+#010 minecraft:forest
+#1D2 more_jellyfish:kelp_forest
+#3DC minecraft:plains
+#5FF minecraft:river
+#6F9 more_jellyfish:rock_bottom
+#0EA byg:snowy_blue_taiga
+#11C byg:zelkova_forest

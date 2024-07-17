@@ -1,0 +1,8 @@
+#556 minecraft:beach
+#461 byg:blue_taiga
+#35F cavebiomeapi:caves
+#34D minecraft:deep_lukewarm_ocean
+#79A minecraft:lukewarm_ocean
+#4A3 projectvibrantjourneys:pine_meadows
+#7F7 projectvibrantjourneys:redwoods
+#6F9 more_jellyfish:rock_bottom

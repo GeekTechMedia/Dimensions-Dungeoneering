@@ -1,0 +1,9 @@
+{
+    "name": "Benefit of Devotion",
+    "description": "Clerics have a slight experience boost due to their priestly nature.",
+    "type": "origins:modify_xp_gain",
+    "modifier": {
+        "operation": "multiply_base",
+        "value": 1.25
+    }
+}

@@ -1,0 +1,10 @@
+#6C5 byg:aspen_forest
+#290 byg:bayou
+#35F cavebiomeapi:caves
+#1F3 cavesandcliffs:dripstone_caves
+#73C byg:grassland_plateau
+#045 byg:jacaranda_forest
+#48C corundum_meadows:onion_meadows
+#5C1 byg:red_oak_forest
+#2B9 byg:rose_fields
+#71E byg:tropical_fungal_forest

@@ -1,0 +1,38 @@
+{
+	version: 13
+	title: "Dimensions and Dungeoneering"
+	icon: "aoa3:nether_portal"
+	default_reward_team: false
+	default_consume_items: false
+	default_autoclaim_rewards: "disabled"
+	default_quest_shape: "octagon"
+	default_quest_disable_jei: false
+	emergency_items: [
+		{
+			id: "minecraft:wooden_sword"
+			Count: 1b
+			tag: {
+				Damage: 0
+			}
+		}
+		{
+			id: "minecraft:wooden_pickaxe"
+			Count: 1b
+			tag: {
+				Damage: 0
+			}
+		}
+		{ id: "minecraft:apple", Count: 1b }
+	]
+	emergency_items_cooldown: 300
+	drop_loot_crates: true
+	loot_crate_no_drop: {
+		passive: 1000
+		monster: 1000
+		boss: 1000
+	}
+	disable_gui: false
+	grid_scale: 0.5d
+	pause_game: false
+	lock_message: ""
+}

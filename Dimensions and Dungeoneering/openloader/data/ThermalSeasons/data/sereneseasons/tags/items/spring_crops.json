@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "thermal:flax_seeds",
+    "thermal:onion_seeds",
+    "thermal:radish_seeds",
+    "thermal:rice_seeds",
+    "thermal:sadiroot_seeds",
+    "thermal:eggplant_seeds",
+    "thermal:green_bean_seeds",
+    "thermal:peanut_seeds",
+    "thermal:strawberry_seeds",
+    "thermal:tomato_seeds",
+    "thermal:hops_seeds",
+    "thermal:tea_seeds"
+  ]
+}

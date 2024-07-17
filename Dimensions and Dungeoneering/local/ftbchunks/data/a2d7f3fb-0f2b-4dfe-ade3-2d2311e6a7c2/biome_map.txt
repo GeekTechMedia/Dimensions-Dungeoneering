@@ -1,0 +1,10 @@
+#35F cavebiomeapi:caves
+#5C0 corundum_meadows:corundum_meadows
+#4F9 minecraft:dark_forest
+#008 minecraft:desert
+#67B byg:dunes
+#090 byg:red_rock_lowlands
+#7AA byg:red_rock_mountains
+#5FF minecraft:river
+#181 minecraft:savanna
+#12E byg:shrublands

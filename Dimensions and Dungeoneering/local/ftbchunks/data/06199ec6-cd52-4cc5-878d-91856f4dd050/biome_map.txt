@@ -1,0 +1,17 @@
+#461 byg:blue_taiga
+#1F3 projectvibrantjourneys:boreal_forest
+#35F cavebiomeapi:caves
+#653 byg:cold_swamplands
+#5D7 byg:deciduous_forest
+#008 minecraft:desert
+#19B minecraft:desert_hills
+#3CD projectvibrantjourneys:desert_shrubland
+#443 cavesandcliffs:dripstone_caves
+#33B projectvibrantjourneys:flooded_woodlands
+#010 minecraft:forest
+#1C1 cavesandcliffs:lush_caves
+#4A3 projectvibrantjourneys:pine_meadows
+#5FF minecraft:river
+#67B minecraft:savanna
+#169 minecraft:taiga
+#452 minecraft:wooded_hills

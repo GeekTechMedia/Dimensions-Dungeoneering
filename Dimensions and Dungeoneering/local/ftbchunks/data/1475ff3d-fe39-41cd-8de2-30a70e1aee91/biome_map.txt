@@ -1,0 +1,12 @@
+#290 byg:bayou
+#556 minecraft:beach
+#35F cavebiomeapi:caves
+#72F byg:cherry_blossom_forest
+#34D minecraft:deep_lukewarm_ocean
+#010 minecraft:forest
+#79A minecraft:lukewarm_ocean
+#5F3 byg:meadow
+#4F1 minecraft:ocean
+#6CE projectvibrantjourneys:overgrown_spires
+#634 byg:prairie
+#5C1 byg:red_oak_forest

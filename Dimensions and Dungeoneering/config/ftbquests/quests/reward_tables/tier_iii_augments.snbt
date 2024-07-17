@@ -1,0 +1,20 @@
+{
+	id: "120893ACF42349D9"
+	order_index: 8
+	title: "Tier III Augments"
+	loot_size: 1
+	rewards: [
+		{ item: "mysticalagriculture:absorption_iii_augment" }
+		{ item: "mysticalagriculture:fire_resistance_augment" }
+		{ item: "mysticalagriculture:jump_boost_ii_augment" }
+		{ item: "mysticalagriculture:step_assist_augment" }
+		{ item: "mysticalagriculture:health_boost_iii_augment" }
+		{ item: "mysticalagriculture:strength_i_augment" }
+		{ item: "mysticalagriculture:speed_ii_augment" }
+		{ item: "mysticalagriculture:no_fall_damage_augment" }
+		{ item: "mysticalagriculture:mining_aoe_ii_augment" }
+		{ item: "mysticalagriculture:attack_aoe_i_augment" }
+		{ item: "mysticalagriculture:tilling_aoe_ii_augment" }
+		{ item: "mysticalagriculture:pathing_aoe_iii_augment" }
+	]
+}

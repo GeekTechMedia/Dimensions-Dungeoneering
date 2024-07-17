@@ -1,0 +1,87 @@
+{
+	id: "0FE527A3787E2F67"
+	order_index: 1
+	title: "Rare Lootbox"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "minecraft:iron_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"agricraft:gene_inspector": {
+						agri_flag: 0b
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:iron_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:iron_leggings"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:iron_boots"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:splash_potion"
+				Count: 1b
+				tag: {
+					Potion: "minecraft:regeneration"
+				}
+			}
+		}
+		{ item: "minecraft:diamond", count: 2 }
+		{ item: "minecraft:iron_ingot", count: 16 }
+		{ item: "mysticalagradditions:tertium_coal", count: 4 }
+		{ item: "minecraft:ender_pearl", count: 2 }
+		{
+			item: {
+				id: "mysticalagriculture:inferium_essence"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 16
+		}
+		{
+			ftb_money: 20L
+			type: "ftbmoney:money"
+		}
+	]
+	loot_crate: {
+		drops: {
+			boss: 25
+			passive: 7
+			monster: 12
+		}
+		color: 3447003
+		string_id: "rare_lootbox"
+	}
+}

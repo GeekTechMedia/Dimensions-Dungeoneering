@@ -1,0 +1,13 @@
+#35F cavebiomeapi:caves
+#3D6 minecraft:cold_ocean
+#22E projectvibrantjourneys:crimson_thicket
+#109 minecraft:deep_cold_ocean
+#3DE minecraft:deep_ocean
+#3B7 projectvibrantjourneys:gravel_shore
+#104 minecraft:modified_gravelly_mountains
+#379 minecraft:mountains
+#4F1 minecraft:ocean
+#3DC minecraft:plains
+#535 projectvibrantjourneys:redwood_peaks
+#406 minecraft:stone_shore
+#774 minecraft:sunflower_plains

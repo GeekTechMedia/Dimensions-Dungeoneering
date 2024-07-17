@@ -1,0 +1,31 @@
+#Range: > 5
+drinkDelay = 20
+#Range: > 5
+refillTime = 2400
+#Range: > 5
+tipArrowTimeCost = 600
+naturallyRefill = true
+#Damaging mobs can speed up refilling
+#Range: 0.0 ~ 10.0
+damageAcceleration = 1.0
+
+[modules]
+	crafting = true
+
+[slots]
+	#Range: 1 ~ 4
+	maxSlots = 3
+	#Range: 0 ~ 4
+	beginnerSlots = 0
+
+[effects]
+	#Range: 0.0 ~ 100.0
+	durationFactor = 1.0
+	ambient = true
+	showParticles = true
+	showIcon = true
+
+[temp]
+	#Range: 0.0 ~ 1.0
+	mobDropUnlockItem = 0.005
+

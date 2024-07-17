@@ -1,0 +1,9 @@
+#556 minecraft:beach
+#5C0 corundum_meadows:corundum_meadows
+#4F9 minecraft:dark_forest
+#5D7 byg:deciduous_forest
+#3DE minecraft:deep_ocean
+#31E corundum_meadows:flower_meadows
+#010 minecraft:forest
+#4F1 minecraft:ocean
+#406 minecraft:stone_shore

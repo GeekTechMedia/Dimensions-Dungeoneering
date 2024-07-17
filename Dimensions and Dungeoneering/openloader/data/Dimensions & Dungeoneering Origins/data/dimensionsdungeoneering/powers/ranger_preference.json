@@ -1,0 +1,13 @@
+{
+    "type": "origins:modify_projectile_damage",
+    "damage_condition": {
+        "type": "origins:projectile",
+        "projectile": "minecraft:spectral_arrow"
+    },
+    "modifier": {
+        "operation": "addition",
+        "value": 8.0
+    },
+    "name": "A Ranger's Preference",
+    "description": "Ranger's prefer to wield projectile based weapons and as such will deal additional damage with them."
+}

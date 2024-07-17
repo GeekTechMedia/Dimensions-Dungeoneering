@@ -1,0 +1,12 @@
+
+[moofluids]
+	#Spawn Weight - Change of spawning.
+	#Range: > 1
+	spawn_weight = 2
+	#Spawn Min Count - The lowest number of cows that should spawn.
+	#Range: > 1
+	spawn_min_count = 1
+	#Spawn Max Count - The max number of cows that should spawn.
+	#Range: > 1
+	spawn_max_count = 1
+

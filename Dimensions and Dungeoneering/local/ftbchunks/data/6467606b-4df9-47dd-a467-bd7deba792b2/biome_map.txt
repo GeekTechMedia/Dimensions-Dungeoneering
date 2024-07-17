@@ -1,0 +1,6 @@
+#281 byg:boreal_forest
+#653 byg:cold_swamplands
+#010 minecraft:forest
+#3DC minecraft:plains
+#169 minecraft:taiga
+#452 minecraft:wooded_hills

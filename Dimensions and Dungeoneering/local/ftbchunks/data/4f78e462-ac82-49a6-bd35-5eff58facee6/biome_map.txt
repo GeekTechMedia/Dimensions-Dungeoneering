@@ -1,0 +1,7 @@
+#4F9 minecraft:dark_forest
+#010 minecraft:forest
+#476 jellyfishing:jellyfish_fields
+#06F projectvibrantjourneys:mangrove_marsh
+#4D3 minecraft:swamp
+#6BC byg:tropical_rainforest
+#452 minecraft:wooded_hills

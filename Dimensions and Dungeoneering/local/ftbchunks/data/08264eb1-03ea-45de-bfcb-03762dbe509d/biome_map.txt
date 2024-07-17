@@ -1,0 +1,10 @@
+#3FF ars_nouveau:archwood_forest
+#05B minecraft:bamboo_jungle
+#7AE minecraft:bamboo_jungle_hills
+#35F cavebiomeapi:caves
+#4B0 minecraft:jungle
+#7F2 minecraft:jungle_edge
+#5C1 byg:red_oak_forest
+#5FF minecraft:river
+#657 projectvibrantjourneys:windswept_cliffs
+#11C byg:zelkova_forest

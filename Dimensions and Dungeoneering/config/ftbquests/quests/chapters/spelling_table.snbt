@@ -1,0 +1,33 @@
+{
+	id: "4939A27CB6DED83E"
+	group: "6D4CDCB7B3661F4B"
+	order_index: 0
+	filename: "spelling_table"
+	title: "Spelling Bee"
+	icon: "spelling_table:lexicomb"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: -4.0d
+		width: 10.0d
+		height: 10.0d
+		rotation: 0.0d
+		image: "minecraft:textures/gui/wip.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [{
+		x: 0.0d
+		y: 0.0d
+		shape: "circle"
+		id: "48B1BF4F4D999E28"
+		tasks: [{
+			id: "5A408D1F1DFD76CA"
+			type: "checkmark"
+			title: "Spelling Table"
+		}]
+	}]
+}

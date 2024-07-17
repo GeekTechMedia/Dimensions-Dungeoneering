@@ -1,0 +1,291 @@
+{
+	id: "2701FD446AD7E527"
+	group: "2005A08BB83BFED6"
+	order_index: 1
+	filename: "caged_mobs"
+	title: "Caged In"
+	icon: "cagedmobs:hoppingmobcage"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 7.0d
+			y: -1.0d
+			width: 3.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "minecraft:textures/block/spawner.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -7.0d
+			y: -1.0d
+			width: 3.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "minecraft:textures/block/spawner.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "circle"
+			description: [
+				"This mod introduces a lag free method of getting mob drops by adding the Mob Cage in which you can now imprison all entities and kill them over and over while collecting their drops!"
+				""
+				"***IMPORTANT***"
+				""
+				"MOST REGULAR VANILLA STYLE MOB FARMS WILL BE EXTREMELY INEFFECTIVE AND COULD CAUSE LOTS OF LAG IN THIS PACK (USE THIS MOD INSTEAD)."
+			]
+			id: "06923593093ED965"
+			tasks: [{
+				id: "746A1E439FF117D1"
+				type: "checkmark"
+				title: "Caged Mobs"
+			}]
+			rewards: [
+				{
+					id: "47337F7EC604498C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7A01BBD150C9334A"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -2.5d
+			description: [
+				"The more basic of the two mob cages in this pack and requires the player to harvest the mobs by hand. To begin put inside an item which will help to set up the environment for the entity, so it can feel as at home … kinda, without being imprisoned of course. Some examples of environments would be: "
+				""
+				"- For farm animals or neutral mobs you need a hay block (or grass block for better yields)"
+				"- Monsters like to hang out in caves, use a stone block (or diamond ore for better yields)"
+				"- For nether mobs, you need a magma block (or gilded blackstone for better yields)"
+				"- End mobs require end stone (or chorus flower for better yields)"
+				"- Aquatic mobs require sand (or red sand for better yields) as the environment and a waterlogged cage! (place the cage in already existing pool of water or shift-right-click it with water bucket)"
+				"- Cold biome mobs like snow block (or blue ice for better yields)"
+				"- Sand (or red sand for better yields) block for desert entities"
+				"- Red Mushroom Block (or mycelium for better yields) for entities from the mushroom island!"
+				"- (For others please look into JEI)"
+				"After setting the environment you can finally put inside one of the supported entities. Craft one of the DNA Samplers and hit with it the entity you want to sample. Remember, some entities require stronger samplers! All that's left is to wait until it grows and collect its drops!"
+			]
+			dependencies: ["06923593093ED965"]
+			id: "2D7BBB128F8EE714"
+			tasks: [{
+				id: "18B93642B7F22849"
+				type: "item"
+				item: "cagedmobs:mobcage"
+			}]
+			rewards: [
+				{
+					id: "7FDD6C1FB2AD0A66"
+					type: "item"
+					item: "cagedmobs:mobcage"
+				}
+				{
+					id: "5520BBE525133912"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -5.0d
+			description: ["The more advanced of the two mob cages. This variant will automatically collect the mob drops for you by automatically killing the mob and placing it's loot into a chest or storage block placed below."]
+			dependencies: ["06923593093ED965"]
+			id: "42D2166B484E1CA6"
+			tasks: [{
+				id: "62788194DF7F799B"
+				type: "item"
+				item: "cagedmobs:hoppingmobcage"
+			}]
+			rewards: [
+				{
+					id: "7460887D6253BA7B"
+					type: "item"
+					item: "cagedmobs:hoppingmobcage"
+				}
+				{
+					id: "5E0FD66D8A6734BC"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -2.0d
+			description: ["A basic DNA sampler used for basic entities."]
+			dependencies: ["06923593093ED965"]
+			id: "350787AF30899012"
+			tasks: [{
+				id: "2580C523F66E0A63"
+				type: "item"
+				item: "cagedmobs:dnasampler"
+			}]
+			rewards: [
+				{
+					id: "5F2909FD786DB62E"
+					type: "item"
+					item: {
+						id: "minecraft:iron_ingot"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 5
+				}
+				{
+					id: "26FB9A424FA992BE"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 0.0d
+			description: ["A diamond DNA sampler used for decently powerful/useful entities."]
+			dependencies: ["06923593093ED965"]
+			id: "16E25B8B4862B4B5"
+			tasks: [{
+				id: "6710CA3E285FAD9C"
+				type: "item"
+				item: "cagedmobs:dnasamplerdiamond"
+			}]
+			rewards: [
+				{
+					id: "70601CEA0C748A9C"
+					type: "item"
+					item: {
+						id: "minecraft:diamond"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 5
+				}
+				{
+					id: "4175D6C55DF03ADD"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 2.0d
+			description: ["An extremely useful DNA sampler used for only the best of the entities."]
+			dependencies: ["06923593093ED965"]
+			id: "7F6B0846EF7F1BCC"
+			tasks: [{
+				id: "08D476B53AA2C4E2"
+				type: "item"
+				item: "cagedmobs:dnasamplernetherite"
+			}]
+			rewards: [
+				{
+					id: "1041C859D1408320"
+					type: "item"
+					item: "minecraft:nether_star"
+				}
+				{
+					id: "2D48390E96179D4F"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 2.0d
+			description: ["The cooking upgrade will automatically cook cookable drops for you."]
+			dependencies: ["06923593093ED965"]
+			id: "63E72D992DE0E9E7"
+			tasks: [{
+				id: "65230D94F3AC577D"
+				type: "item"
+				item: "cagedmobs:cookingupgrade"
+			}]
+			rewards: [
+				{
+					id: "2F8BFD70B2B9AD22"
+					type: "item"
+					item: "cagedmobs:cookingupgrade"
+				}
+				{
+					id: "278A861CE5911784"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			description: ["The lighting upgrade will collect drops that would normally require the entity to be hit by lightning and then killed (e.g. mob heads)."]
+			dependencies: ["06923593093ED965"]
+			id: "5D9E1BCF1A7E2DEC"
+			tasks: [{
+				id: "755427B6309780AB"
+				type: "item"
+				item: "cagedmobs:lightningupgrade"
+			}]
+			rewards: [
+				{
+					id: "018FB19B2B25707E"
+					type: "item"
+					item: "cagedmobs:lightningupgrade"
+				}
+				{
+					id: "4B790E0D31C5FCD1"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -2.0d
+			description: ["The arrow upgrade will kill entities with arrows (e.g. used for killing Creepers to obtain music discs)."]
+			dependencies: ["06923593093ED965"]
+			id: "476207EEAD4A14D7"
+			tasks: [{
+				id: "4289112C9832E9C1"
+				type: "item"
+				item: "cagedmobs:arrowupgrade"
+			}]
+			rewards: [
+				{
+					id: "25DEB5899B04DC4A"
+					type: "item"
+					item: "cagedmobs:arrowupgrade"
+				}
+				{
+					id: "29281F10FBDF143A"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+	]
+}

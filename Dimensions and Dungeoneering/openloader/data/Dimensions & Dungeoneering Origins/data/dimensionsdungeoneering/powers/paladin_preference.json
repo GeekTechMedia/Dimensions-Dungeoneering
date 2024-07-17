@@ -1,0 +1,20 @@
+{
+  "type": "origins:modify_damage_dealt",
+  "condition":{
+    "type":"origins:equipped_item",
+    "equipment_slot":"mainhand",
+    "item_condition":{
+    "type":"origins:ingredient",
+          "ingredient":{
+              "tag":"forge:swords"
+          }
+      }
+  },
+  "modifier": {
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "multiply_base",
+    "value": 1.25
+  },
+  "name": "A Paladin's Preference",
+  "description": "Paladins prefer to wield bladed weapons and as such will deal additional damage with them."
+}

@@ -1,0 +1,5 @@
+
+["Experience Costs Every 10 Second"]
+	#Range: 0 ~ 100
+	"Set this value to 0 to disable Experience Point Costs (Default:3)" = 3
+

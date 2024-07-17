@@ -1,0 +1,26 @@
+{
+  "stats": {
+    "luringRadius": 16,
+    "aggroRadius": 32,
+    "damageMultiplier": 3.0,
+    "capacity": 10,
+    "consumptionRadius": 3,
+    "effectRadius": 5,
+    "growIterations": 2,
+    "healAmount": 10
+  },
+  "loot": {
+    "lootChests": [
+      "minecraft:chests/jungle_temple"
+    ],
+    "chance": 0.125
+  },
+  "level": {
+    "maxLevel": 10,
+    "initialExp": 100,
+    "expRatio": 250
+  },
+  "durability": {
+    "durability": 100
+  }
+}

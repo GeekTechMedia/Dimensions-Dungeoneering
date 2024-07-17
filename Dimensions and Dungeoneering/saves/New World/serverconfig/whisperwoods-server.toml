@@ -1,0 +1,160 @@
+
+[entities]
+
+	[entities.moth]
+		#How many moths required to destroy a torch - Disabled if set to 0
+		#Range: > 0
+		moths_to_destroy_torch = 5
+
+		[entities.moth.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 10
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 3
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:swamp_hills", "minecraft:birch_forest_hills", "byg:zelkova_forest_hills", "projectvibrantjourneys:redwoods", "byg:black_forest_clearing", "projectvibrantjourneys:alpine_heights", "projectvibrantjourneys:mangrove_marsh", "minecraft:wooded_hills", "projectvibrantjourneys:redwood_peaks", "byg:cherry_blossom_clearing", "byg:seasonal_taiga_hills", "byg:guiana_clearing", "projectvibrantjourneys:crimson_thicket", "projectvibrantjourneys:flooded_woodlands", "byg:seasonal_giant_taiga", "projectvibrantjourneys:aspen_grove_hills", "byg:flowering_ancient_forest", "byg:forest_fault", "byg:coniferous_clearing", "projectvibrantjourneys:snowy_redwoods", "minecraft:giant_tree_taiga_hills", "byg:seasonal_deciduous_forest_hills", "byg:snowy_evergreen_clearing", "byg:boreal_clearing", "byg:weeping_witch_clearing", "byg:seasonal_deciduous_clearing", "byg:blue_taiga_hills", "projectvibrantjourneys:snowy_boreal_forest", "projectvibrantjourneys:boreal_plateau", "byg:snowy_deciduous_clearing", "byg:jacaranda_forest_hills", "byg:marshlands", "byg:aspen_forest_hills", "minecraft:taiga_mountains", "byg:pumpkin_forest", "minecraft:snowy_taiga_hills", "minecraft:dark_forest_hills", "byg:glowing_ancient_forest", "byg:deciduous_clearing", "minecraft:snowy_taiga", "minecraft:snowy_taiga_mountains", "byg:jacaranda_clearing", "byg:enchanted_forest_hills", "byg:red_spruce_taiga", "byg:aspen_clearing", "minecraft:taiga_hills", "minecraft:swamp", "byg:coral_mangroves", "minecraft:giant_spruce_taiga", "projectvibrantjourneys:autumnal_coniferous_forest", "minecraft:taiga", "projectvibrantjourneys:boreal_forest", "byg:snowy_blue_giant_taiga", "minecraft:tall_birch_forest", "byg:bog", "byg:deciduous_forest_hills", "minecraft:jungle_edge", "projectvibrantjourneys:willow_wetlands", "byg:black_forest_hills", "byg:bamboo_forest", "byg:araucaria_forest", "projectvibrantjourneys:crystal_lakes", "minecraft:tall_birch_hills", "byg:seasonal_forest_hills", "byg:pointed_stone_forest", "byg:guiana_springs", "minecraft:forest", "minecraft:flower_forest", "byg:snowy_coniferous_clearing", "byg:wooded_meadow", "byg:redwood_clearing", "byg:red_oak_forest_hills", "byg:snowy_coniferous_forest_hills", "byg:boreal_forest_hills", "byg:snowy_deciduous_forest_hills", "byg:maple_hills", "projectvibrantjourneys:aspen_grove", "byg:snowy_blue_taiga_hills", "minecraft:wooded_mountains", "byg:wooded_grassland_plateau", "minecraft:giant_spruce_taiga_hills", "terraincognita:muskeg", "byg:northern_forest", "byg:evergreen_clearing", "byg:snowy_evergreen_hills", "byg:coniferous_forest_hills", "byg:zelkova_clearing", "byg:seasonal_birch_forest_hills", "minecraft:birch_forest", "byg:ebony_hills", "minecraft:giant_tree_taiga", "byg:evergreen_hills", "minecraft:dark_forest", "byg:cika_mountains"]
+
+			[entities.moth.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.hidebehind]
+
+		[entities.hidebehind.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 8
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 1
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:birch_forest_hills", "byg:zelkova_forest_hills", "projectvibrantjourneys:redwoods", "byg:black_forest_clearing", "projectvibrantjourneys:alpine_heights", "minecraft:wooded_hills", "projectvibrantjourneys:redwood_peaks", "byg:cherry_blossom_clearing", "byg:seasonal_taiga_hills", "byg:guiana_clearing", "projectvibrantjourneys:crimson_thicket", "projectvibrantjourneys:flooded_woodlands", "byg:seasonal_giant_taiga", "projectvibrantjourneys:aspen_grove_hills", "byg:flowering_ancient_forest", "byg:forest_fault", "byg:coniferous_clearing", "projectvibrantjourneys:snowy_redwoods", "minecraft:giant_tree_taiga_hills", "byg:seasonal_deciduous_forest_hills", "byg:snowy_evergreen_clearing", "byg:boreal_clearing", "byg:weeping_witch_clearing", "byg:seasonal_deciduous_clearing", "byg:blue_taiga_hills", "projectvibrantjourneys:snowy_boreal_forest", "projectvibrantjourneys:boreal_plateau", "byg:snowy_deciduous_clearing", "byg:jacaranda_forest_hills", "byg:aspen_forest_hills", "minecraft:taiga_mountains", "byg:pumpkin_forest", "minecraft:snowy_taiga_hills", "minecraft:dark_forest_hills", "byg:glowing_ancient_forest", "byg:deciduous_clearing", "minecraft:snowy_taiga", "minecraft:snowy_taiga_mountains", "byg:jacaranda_clearing", "byg:enchanted_forest_hills", "byg:red_spruce_taiga", "byg:aspen_clearing", "minecraft:taiga_hills", "minecraft:giant_spruce_taiga", "projectvibrantjourneys:autumnal_coniferous_forest", "minecraft:taiga", "projectvibrantjourneys:boreal_forest", "byg:snowy_blue_giant_taiga", "minecraft:tall_birch_forest", "byg:deciduous_forest_hills", "minecraft:jungle_edge", "byg:black_forest_hills", "byg:bamboo_forest", "byg:araucaria_forest", "projectvibrantjourneys:crystal_lakes", "minecraft:tall_birch_hills", "byg:seasonal_forest_hills", "byg:pointed_stone_forest", "byg:guiana_springs", "minecraft:forest", "minecraft:flower_forest", "byg:snowy_coniferous_clearing", "byg:wooded_meadow", "byg:redwood_clearing", "byg:red_oak_forest_hills", "byg:snowy_coniferous_forest_hills", "byg:boreal_forest_hills", "byg:snowy_deciduous_forest_hills", "byg:maple_hills", "projectvibrantjourneys:aspen_grove", "byg:snowy_blue_taiga_hills", "minecraft:wooded_mountains", "byg:wooded_grassland_plateau", "minecraft:giant_spruce_taiga_hills", "byg:northern_forest", "byg:evergreen_clearing", "byg:snowy_evergreen_hills", "byg:coniferous_forest_hills", "byg:zelkova_clearing", "byg:seasonal_birch_forest_hills", "minecraft:birch_forest", "byg:ebony_hills", "minecraft:giant_tree_taiga", "byg:evergreen_hills", "minecraft:dark_forest", "byg:cika_mountains"]
+			#Enables biome based variant selection. This will make this entity choose variants tailored to the biome they spawn in (Only applies to natural spawns)
+			biome_based_variants = true
+
+			[entities.hidebehind.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.wisp]
+		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
+		can_despawn = false
+		#Chance of wisp being hostile (soul stealer). Chance is a percentage out of 100. 0 is never, 100 is always
+		#Range: 0.0 ~ 100.0
+		hostile_chance = 12.5
+
+		[entities.wisp.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 13
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 3
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:birch_forest_hills", "byg:black_forest_clearing", "organics:hoaky_forest", "projectvibrantjourneys:mangrove_marsh", "minecraft:wooded_hills", "byg:cherry_blossom_clearing", "byg:seasonal_taiga_hills", "twilightforest:mushroom_forest", "projectvibrantjourneys:crimson_thicket", "byg:seasonal_giant_taiga", "byg:flowering_ancient_forest", "byg:forest_fault", "byg:coniferous_clearing", "atum:dense_woods", "twilightforest:firefly_forest", "aoa3:dustopian_forest", "byg:snowy_evergreen_clearing", "byg:boreal_clearing", "byg:weeping_witch_clearing", "projectvibrantjourneys:snowy_boreal_forest", "projectvibrantjourneys:boreal_plateau", "byg:snowy_deciduous_clearing", "byg:jacaranda_forest_hills", "minecraft:taiga_mountains", "minecraft:snowy_taiga_hills", "minecraft:dark_forest_hills", "twilightforest:dense_mushroom_forest", "minecraft:snowy_taiga_mountains", "twilightforest:spooky_forest", "twilightforest:dark_forest_center", "minecraft:swamp", "minecraft:giant_spruce_taiga", "minecraft:taiga", "projectvibrantjourneys:boreal_forest", "corundum_meadows:corundum_meadows", "byg:bog", "projectvibrantjourneys:willow_wetlands", "byg:black_forest_hills", "byg:bamboo_forest", "twilightforest:fire_swamp", "minecraft:tall_birch_hills", "byg:seasonal_forest_hills", "twilightforest:dense_forest", "byg:pointed_stone_forest", "byg:guiana_springs", "minecraft:forest", "twilightforest:snowy_forest", "endergetic:poise_forest", "byg:snowy_coniferous_clearing", "byg:wooded_meadow", "minecraft:crimson_forest", "byg:redwood_clearing", "byg:boreal_forest_hills", "aoa3:fungal_caverns", "projectvibrantjourneys:aspen_grove", "cinderscapes:luminous_grove", "minecraft:warped_forest", "byg:evergreen_clearing", "byg:snowy_evergreen_hills", "byg:coniferous_forest_hills", "byg:zelkova_clearing", "twilightforest:swamp", "byg:seasonal_birch_forest_hills", "byg:evergreen_hills", "minecraft:dark_forest", "minecraft:swamp_hills", "byg:zelkova_forest_hills", "projectvibrantjourneys:redwoods", "projectvibrantjourneys:alpine_heights", "projectvibrantjourneys:redwood_peaks", "twilightforest:dark_forest", "twilightforest:forest", "byg:guiana_clearing", "projectvibrantjourneys:flooded_woodlands", "projectvibrantjourneys:aspen_grove_hills", "projectvibrantjourneys:snowy_redwoods", "minecraft:giant_tree_taiga_hills", "byg:seasonal_deciduous_forest_hills", "twilightforest:enchanted_forest", "byg:seasonal_deciduous_clearing", "byg:blue_taiga_hills", "byg:marshlands", "undergarden:smogstem_forest", "byg:aspen_forest_hills", "byg:pumpkin_forest", "byg:glowing_ancient_forest", "byg:deciduous_clearing", "minecraft:snowy_taiga", "byg:jacaranda_clearing", "byg:enchanted_forest_hills", "byg:red_spruce_taiga", "byg:aspen_clearing", "minecraft:taiga_hills", "byg:coral_mangroves", "undergarden:gronglegrowth", "projectvibrantjourneys:autumnal_coniferous_forest", "byg:snowy_blue_giant_taiga", "minecraft:tall_birch_forest", "byg:deciduous_forest_hills", "minecraft:jungle_edge", "byg:araucaria_forest", "projectvibrantjourneys:crystal_lakes", "undergarden:mushroom_bog", "undergarden:wigglewood_forest", "atum:sparse_woods", "minecraft:flower_forest", "byg:red_oak_forest_hills", "twilightforest:highlands", "byg:snowy_coniferous_forest_hills", "byg:snowy_deciduous_forest_hills", "byg:maple_hills", "byg:snowy_blue_taiga_hills", "minecraft:wooded_mountains", "byg:wooded_grassland_plateau", "twilightforest:oak_savannah", "aoa3:creepoid_forest", "minecraft:giant_spruce_taiga_hills", "terraincognita:muskeg", "byg:northern_forest", "undergarden:dense_forest", "minecraft:birch_forest", "byg:ebony_hills", "minecraft:giant_tree_taiga", "byg:cika_mountains"]
+
+			[entities.wisp.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.hirschgeist]
+		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
+		can_despawn = false
+
+		[entities.hirschgeist.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 2
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 1
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:birch_forest_hills", "byg:zelkova_forest_hills", "projectvibrantjourneys:redwoods", "byg:black_forest_clearing", "projectvibrantjourneys:alpine_heights", "minecraft:wooded_hills", "projectvibrantjourneys:redwood_peaks", "byg:cherry_blossom_clearing", "byg:seasonal_taiga_hills", "byg:guiana_clearing", "projectvibrantjourneys:crimson_thicket", "projectvibrantjourneys:flooded_woodlands", "byg:seasonal_giant_taiga", "projectvibrantjourneys:aspen_grove_hills", "byg:flowering_ancient_forest", "byg:forest_fault", "byg:coniferous_clearing", "projectvibrantjourneys:snowy_redwoods", "minecraft:giant_tree_taiga_hills", "byg:seasonal_deciduous_forest_hills", "byg:snowy_evergreen_clearing", "byg:boreal_clearing", "byg:weeping_witch_clearing", "byg:seasonal_deciduous_clearing", "byg:blue_taiga_hills", "projectvibrantjourneys:snowy_boreal_forest", "projectvibrantjourneys:boreal_plateau", "byg:snowy_deciduous_clearing", "byg:jacaranda_forest_hills", "byg:aspen_forest_hills", "minecraft:taiga_mountains", "byg:pumpkin_forest", "minecraft:snowy_taiga_hills", "minecraft:dark_forest_hills", "byg:glowing_ancient_forest", "byg:deciduous_clearing", "minecraft:snowy_taiga", "minecraft:snowy_taiga_mountains", "byg:jacaranda_clearing", "byg:enchanted_forest_hills", "byg:red_spruce_taiga", "byg:aspen_clearing", "minecraft:taiga_hills", "minecraft:giant_spruce_taiga", "projectvibrantjourneys:autumnal_coniferous_forest", "minecraft:taiga", "projectvibrantjourneys:boreal_forest", "byg:snowy_blue_giant_taiga", "minecraft:tall_birch_forest", "byg:deciduous_forest_hills", "minecraft:jungle_edge", "byg:black_forest_hills", "byg:bamboo_forest", "byg:araucaria_forest", "projectvibrantjourneys:crystal_lakes", "minecraft:tall_birch_hills", "byg:seasonal_forest_hills", "byg:pointed_stone_forest", "byg:guiana_springs", "minecraft:forest", "minecraft:flower_forest", "byg:snowy_coniferous_clearing", "byg:wooded_meadow", "byg:redwood_clearing", "byg:red_oak_forest_hills", "byg:snowy_coniferous_forest_hills", "byg:boreal_forest_hills", "byg:snowy_deciduous_forest_hills", "byg:maple_hills", "projectvibrantjourneys:aspen_grove", "byg:snowy_blue_taiga_hills", "minecraft:wooded_mountains", "byg:wooded_grassland_plateau", "minecraft:giant_spruce_taiga_hills", "byg:northern_forest", "byg:evergreen_clearing", "byg:snowy_evergreen_hills", "byg:coniferous_forest_hills", "byg:zelkova_clearing", "byg:seasonal_birch_forest_hills", "minecraft:birch_forest", "byg:ebony_hills", "minecraft:giant_tree_taiga", "byg:evergreen_hills", "minecraft:dark_forest", "byg:cika_mountains"]
+
+			[entities.hirschgeist.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.zotzpyre]
+
+		[entities.zotzpyre.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 30
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 1
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:modified_gravelly_mountains", "minecraft:birch_forest_hills", "minecraft:ice_spikes", "minecraft:gravelly_mountains", "byg:black_forest_clearing", "projectvibrantjourneys:mangrove_marsh", "minecraft:wooded_hills", "byg:cherry_blossom_clearing", "byg:seasonal_taiga_hills", "minecraft:modified_jungle_edge", "byg:basalt_barrera", "cavesandcliffs:grove", "cavesandcliffs:meadow", "projectvibrantjourneys:crimson_thicket", "byg:seasonal_giant_taiga", "terraincognita:tundra", "byg:flowering_ancient_forest", "projectvibrantjourneys:overgrown_spires", "projectvibrantjourneys:windswept_cliffs", "byg:forest_fault", "byg:coniferous_clearing", "minecraft:mountains", "byg:flowering_meadow", "byg:snowy_evergreen_clearing", "byg:boreal_clearing", "byg:weeping_witch_clearing", "projectvibrantjourneys:snowy_boreal_forest", "projectvibrantjourneys:boreal_plateau", "byg:snowy_deciduous_clearing", "byg:jacaranda_forest_hills", "terraincognita:lush_plains", "minecraft:taiga_mountains", "minecraft:snowy_taiga_hills", "minecraft:dark_forest_hills", "minecraft:eroded_badlands", "byg:oasis", "minecraft:snowy_taiga_mountains", "byg:great_lake_isles", "cavesandcliffs:snowy_slopes", "minecraft:swamp", "minecraft:mountain_edge", "minecraft:giant_spruce_taiga", "cavesandcliffs:stony_peaks", "minecraft:taiga", "byg:twilight_valley_hills", "projectvibrantjourneys:boreal_forest", "minecraft:shattered_savanna_plateau", "projectvibrantjourneys:pine_meadows", "minecraft:snowy_beach", "byg:red_desert_dunes", "byg:bog", "minecraft:desert_hills", "minecraft:beach", "projectvibrantjourneys:willow_wetlands", "byg:black_forest_hills", "byg:bamboo_forest", "druidcraft:darkwood_forest", "minecraft:tall_birch_hills", "byg:seasonal_forest_hills", "byg:pointed_stone_forest", "byg:guiana_springs", "minecraft:forest", "cavesandcliffs:frozen_peaks", "byg:alpine_foothills", "byg:enchanted_grove", "byg:snowy_coniferous_clearing", "byg:wooded_meadow", "terraincognita:lush_hills", "byg:redwood_clearing", "byg:skyris_highlands_clearing", "byg:boreal_forest_hills", "projectvibrantjourneys:aspen_grove", "byg:tropical_fungal_rainforest_hills", "projectvibrantjourneys:verdant_sands", "byg:snowy_black_beach", "byg:evergreen_clearing", "byg:rainbow_beach", "byg:snowy_evergreen_hills", "byg:coniferous_forest_hills", "byg:polluted_lake", "byg:zelkova_clearing", "projectvibrantjourneys:windswept_shore", "byg:sierra_range", "byg:seasonal_birch_forest_hills", "byg:skyris_peaks", "byg:evergreen_hills", "minecraft:dark_forest", "minecraft:bamboo_jungle", "minecraft:swamp_hills", "byg:zelkova_forest_hills", "projectvibrantjourneys:redwoods", "byg:fungal_patch", "projectvibrantjourneys:alpine_heights", "projectvibrantjourneys:redwood_peaks", "byg:guiana_clearing", "byg:wooded_red_rock_mountains", "projectvibrantjourneys:flooded_woodlands", "projectvibrantjourneys:aspen_grove_hills", "projectvibrantjourneys:snowy_redwoods", "minecraft:snowy_tundra", "minecraft:giant_tree_taiga_hills", "byg:tropical_rainforest_hills", "byg:seasonal_deciduous_forest_hills", "minecraft:jungle_hills", "projectvibrantjourneys:gravel_shore", "byg:seasonal_deciduous_clearing", "byg:blue_taiga_hills", "byg:marshlands", "byg:aspen_forest_hills", "byg:pumpkin_forest", "byg:glowing_ancient_forest", "byg:deciduous_clearing", "byg:flowering_enchanted_grove", "minecraft:snowy_taiga", "minecraft:modified_badlands_plateau", "byg:jacaranda_clearing", "byg:enchanted_forest_hills", "byg:red_spruce_taiga", "minecraft:snowy_mountains", "byg:aspen_clearing", "minecraft:taiga_hills", "minecraft:jungle", "byg:coral_mangroves", "minecraft:bamboo_jungle_hills", "projectvibrantjourneys:autumnal_coniferous_forest", "byg:snowy_blue_giant_taiga", "minecraft:tall_birch_forest", "byg:deciduous_forest_hills", "minecraft:jungle_edge", "byg:araucaria_forest", "projectvibrantjourneys:crystal_lakes", "byg:snowy_rocky_black_beach", "minecraft:modified_wooded_badlands_plateau", "byg:grove", "terraincognita:rocky_tundra", "byg:bluff_peaks", "minecraft:flower_forest", "byg:redwood_mountains", "byg:red_rock_highlands", "byg:red_oak_forest_hills", "byg:flowering_grove", "projectvibrantjourneys:red_rock_valley", "byg:snowy_coniferous_forest_hills", "byg:snowy_deciduous_forest_hills", "byg:maple_hills", "byg:snowy_blue_taiga_hills", "minecraft:wooded_mountains", "byg:wooded_grassland_plateau", "minecraft:giant_spruce_taiga_hills", "byg:skyris_steeps", "cavesandcliffs:jagged_peaks", "terraincognita:muskeg", "byg:northern_forest", "minecraft:mushroom_field_shore", "minecraft:modified_jungle", "minecraft:shattered_savanna", "byg:white_beach", "minecraft:stone_shore", "minecraft:birch_forest", "byg:ebony_hills", "minecraft:giant_tree_taiga", "projectvibrantjourneys:tropical_beach", "byg:cika_mountains"]
+
+			[entities.zotzpyre.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+

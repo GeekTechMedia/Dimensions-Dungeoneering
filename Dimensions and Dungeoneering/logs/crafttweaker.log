@@ -1,0 +1,912 @@
+[22:30:24.606][CONSTRUCT][CLIENT][INFO] Starting building internal Registries
+[22:30:27.115][CONSTRUCT][CLIENT][INFO] The following mods have explicit CraftTweaker support:
+'aoa3' at version '1.16.5-3.6.11'
+'aquaculture' at version '1.16.5-2.1.23'
+'ars_nouveau' at version '1.25.10'
+'atum' at version '1.16.5-2.2.12'
+'botania' at version '1.16.5-420.3'
+'cagedmobs' at version '1.16.5-1.3.8'
+'champions' at version '1.16.5-2.0.1.4'
+'crafttweaker' at version '7.1.2.521'
+'dimstages' at version '3.0.3'
+'extendedcrafting' at version '3.1.13'
+'farmersdelight' at version '1.16.5-0.6.0'
+'gamestages' at version '7.3.13'
+'jeitweaker' at version '1.1.0.49'
+'mekanism' at version '10.1.2'
+'mysticalagriculture' at version '4.2.6'
+'pneumaticcraft' at version '1.16.5-2.15.12-13'
+'rootsclassic' at version '1.16.5-1.1.17'
+'thermal' at version '1.5.2.30'
+'thermal_foundation' at version '1.5.2.30'
+[22:30:28.416][CONSTRUCT][CLIENT][INFO] Completed building internal Registries
+[22:30:58.329][LOAD_REGISTRIES][CLIENT][INFO] Started loading Scripts for Loader 'mekanismcontent'!
+[22:30:59.151][LOAD_REGISTRIES][CLIENT][INFO] Finished loading Scripts!
+[22:30:59.151][LOAD_REGISTRIES][CLIENT][INFO] Registering 0 custom gases.
+[22:30:59.161][LOAD_REGISTRIES][CLIENT][INFO] Registering 0 custom infuse types.
+[22:30:59.173][LOAD_REGISTRIES][CLIENT][INFO] Registering 0 custom pigments.
+[22:30:59.178][LOAD_REGISTRIES][CLIENT][INFO] Registering 0 custom robit skins.
+[22:30:59.184][LOAD_REGISTRIES][CLIENT][INFO] Registering 0 custom slurries.
+[22:31:17.827][COMMON_SETUP][CLIENT][INFO] Started loading Scripts for Loader 'setupCommon'!
+[22:31:17.983][COMMON_SETUP][CLIENT][INFO] Finished loading Scripts!
+[22:37:37.318][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
+[22:37:37.402][DONE][CLIENT][INFO] Loading file: 'Armor\Mystical Agriculture\imperium_boots.zs' with priority: 10
+[22:37:37.403][DONE][CLIENT][INFO] Loading file: 'Armor\Mystical Agriculture\imperium_chestplate.zs' with priority: 10
+[22:37:37.403][DONE][CLIENT][INFO] Loading file: 'Armor\Mystical Agriculture\imperium_helmet.zs' with priority: 10
+[22:37:37.404][DONE][CLIENT][INFO] Loading file: 'Armor\Mystical Agriculture\imperium_leggings.zs' with priority: 10
+[22:37:37.404][DONE][CLIENT][INFO] Loading file: 'Armor\Mystical Agriculture\inferium_boots.zs' with priority: 10
+[22:37:37.404][DONE][CLIENT][INFO] Loading file: 'Armor\Mystical Agriculture\inferium_chestplate.zs' with priority: 10
+[22:37:37.404][DONE][CLIENT][INFO] Loading file: 'Armor\Mystical Agriculture\inferium_helmet.zs' with priority: 10
+[22:37:37.404][DONE][CLIENT][INFO] Loading file: 'Armor\Mystical Agriculture\inferium_leggings.zs' with priority: 10
+[22:37:37.405][DONE][CLIENT][INFO] Loading file: 'Armor\Mystical Agriculture\insanium_boots.zs' with priority: 10
+[22:37:37.405][DONE][CLIENT][INFO] Loading file: 'Armor\Mystical Agriculture\insanium_chestplate.zs' with priority: 10
+[22:37:37.405][DONE][CLIENT][INFO] Loading file: 'Armor\Mystical Agriculture\insanium_helmet.zs' with priority: 10
+[22:37:37.405][DONE][CLIENT][INFO] Loading file: 'Armor\Mystical Agriculture\insanium_leggings.zs' with priority: 10
+[22:37:37.406][DONE][CLIENT][INFO] Loading file: 'Armor\Mystical Agriculture\prudentium_boots.zs' with priority: 10
+[22:37:37.406][DONE][CLIENT][INFO] Loading file: 'Armor\Mystical Agriculture\prudentium_chestplate.zs' with priority: 10
+[22:37:37.406][DONE][CLIENT][INFO] Loading file: 'Armor\Mystical Agriculture\prudentium_helmet.zs' with priority: 10
+[22:37:37.406][DONE][CLIENT][INFO] Loading file: 'Armor\Mystical Agriculture\prudentium_leggings.zs' with priority: 10
+[22:37:37.407][DONE][CLIENT][INFO] Loading file: 'Armor\Mystical Agriculture\supremium_boots.zs' with priority: 10
+[22:37:37.407][DONE][CLIENT][INFO] Loading file: 'Armor\Mystical Agriculture\supremium_chestplate.zs' with priority: 10
+[22:37:37.407][DONE][CLIENT][INFO] Loading file: 'Armor\Mystical Agriculture\supremium_helmet.zs' with priority: 10
+[22:37:37.407][DONE][CLIENT][INFO] Loading file: 'Armor\Mystical Agriculture\supremium_leggings.zs' with priority: 10
+[22:37:37.408][DONE][CLIENT][INFO] Loading file: 'Armor\Mystical Agriculture\tertium_boots.zs' with priority: 10
+[22:37:37.408][DONE][CLIENT][INFO] Loading file: 'Armor\Mystical Agriculture\tertium_chestplate.zs' with priority: 10
+[22:37:37.408][DONE][CLIENT][INFO] Loading file: 'Armor\Mystical Agriculture\tertium_helmet.zs' with priority: 10
+[22:37:37.408][DONE][CLIENT][INFO] Loading file: 'Armor\Mystical Agriculture\tertium_leggings.zs' with priority: 10
+[22:37:37.408][DONE][CLIENT][INFO] Loading file: 'Armor\Organics\blue_obsidian_boots.zs' with priority: 10
+[22:37:37.408][DONE][CLIENT][INFO] Loading file: 'Armor\Organics\blue_obsidian_chestplate.zs' with priority: 10
+[22:37:37.408][DONE][CLIENT][INFO] Loading file: 'Armor\Organics\blue_obsidian_helmet.zs' with priority: 10
+[22:37:37.408][DONE][CLIENT][INFO] Loading file: 'Armor\Organics\blue_obsidian_leggings.zs' with priority: 10
+[22:37:37.408][DONE][CLIENT][INFO] Loading file: 'Armor\Organics\cobblestone_boots.zs' with priority: 10
+[22:37:37.408][DONE][CLIENT][INFO] Loading file: 'Armor\Organics\cobblestone_chestplate.zs' with priority: 10
+[22:37:37.408][DONE][CLIENT][INFO] Loading file: 'Armor\Organics\cobblestone_helmet.zs' with priority: 10
+[22:37:37.409][DONE][CLIENT][INFO] Loading file: 'Armor\Organics\cobblestone_leggings.zs' with priority: 10
+[22:37:37.409][DONE][CLIENT][INFO] Loading file: 'Armor\Organics\emerald_boots.zs' with priority: 10
+[22:37:37.409][DONE][CLIENT][INFO] Loading file: 'Armor\Organics\emerald_chestplate.zs' with priority: 10
+[22:37:37.409][DONE][CLIENT][INFO] Loading file: 'Armor\Organics\emerald_helmet.zs' with priority: 10
+[22:37:37.409][DONE][CLIENT][INFO] Loading file: 'Armor\Organics\emerald_leggings.zs' with priority: 10
+[22:37:37.409][DONE][CLIENT][INFO] Loading file: 'Armor\Organics\enderite_boots.zs' with priority: 10
+[22:37:37.409][DONE][CLIENT][INFO] Loading file: 'Armor\Organics\enderite_chestplate.zs' with priority: 10
+[22:37:37.409][DONE][CLIENT][INFO] Loading file: 'Armor\Organics\enderite_helmet.zs' with priority: 10
+[22:37:37.409][DONE][CLIENT][INFO] Loading file: 'Armor\Organics\enderite_leggings.zs' with priority: 10
+[22:37:37.409][DONE][CLIENT][INFO] Loading file: 'Armor\Organics\planks_boots.zs' with priority: 10
+[22:37:37.409][DONE][CLIENT][INFO] Loading file: 'Armor\Organics\planks_chestplate.zs' with priority: 10
+[22:37:37.409][DONE][CLIENT][INFO] Loading file: 'Armor\Organics\planks_helmet.zs' with priority: 10
+[22:37:37.409][DONE][CLIENT][INFO] Loading file: 'Armor\Organics\planks_leggings.zs' with priority: 10
+[22:37:37.409][DONE][CLIENT][INFO] Loading file: 'Armor\Organics\quartz_boots.zs' with priority: 10
+[22:37:37.409][DONE][CLIENT][INFO] Loading file: 'Armor\Organics\quartz_chestplate.zs' with priority: 10
+[22:37:37.409][DONE][CLIENT][INFO] Loading file: 'Armor\Organics\quartz_helmet.zs' with priority: 10
+[22:37:37.409][DONE][CLIENT][INFO] Loading file: 'Armor\Organics\quartz_leggings.zs' with priority: 10
+[22:37:37.409][DONE][CLIENT][INFO] Loading file: 'Armor\Organics\redstone_boots.zs' with priority: 10
+[22:37:37.409][DONE][CLIENT][INFO] Loading file: 'Armor\Organics\redstone_chestplate.zs' with priority: 10
+[22:37:37.409][DONE][CLIENT][INFO] Loading file: 'Armor\Organics\redstone_dispenser_chestplate.zs' with priority: 10
+[22:37:37.409][DONE][CLIENT][INFO] Loading file: 'Armor\Organics\redstone_helmet.zs' with priority: 10
+[22:37:37.410][DONE][CLIENT][INFO] Loading file: 'Armor\Organics\redstone_leggings.zs' with priority: 10
+[22:37:37.410][DONE][CLIENT][INFO] Loading file: 'Armor\Organics\shulker_boots.zs' with priority: 10
+[22:37:37.410][DONE][CLIENT][INFO] Loading file: 'Armor\Organics\shulker_chestplate.zs' with priority: 10
+[22:37:37.410][DONE][CLIENT][INFO] Loading file: 'Armor\Organics\shulker_helmet.zs' with priority: 10
+[22:37:37.410][DONE][CLIENT][INFO] Loading file: 'Armor\Organics\shulker_leggings.zs' with priority: 10
+[22:37:37.410][DONE][CLIENT][INFO] Loading file: 'Armor\Vanilla\diamond_boots.zs' with priority: 10
+[22:37:37.412][DONE][CLIENT][INFO] Loading file: 'Armor\Vanilla\diamond_chestplate.zs' with priority: 10
+[22:37:37.413][DONE][CLIENT][INFO] Loading file: 'Armor\Vanilla\diamond_helmet.zs' with priority: 10
+[22:37:37.413][DONE][CLIENT][INFO] Loading file: 'Armor\Vanilla\diamond_leggings.zs' with priority: 10
+[22:37:37.413][DONE][CLIENT][INFO] Loading file: 'Armor\Vanilla\golden_boots.zs' with priority: 10
+[22:37:37.413][DONE][CLIENT][INFO] Loading file: 'Armor\Vanilla\golden_chestplate.zs' with priority: 10
+[22:37:37.413][DONE][CLIENT][INFO] Loading file: 'Armor\Vanilla\golden_helmet.zs' with priority: 10
+[22:37:37.414][DONE][CLIENT][INFO] Loading file: 'Armor\Vanilla\golden_leggings.zs' with priority: 10
+[22:37:37.414][DONE][CLIENT][INFO] Loading file: 'Armor\Vanilla\iron_boots.zs' with priority: 10
+[22:37:37.414][DONE][CLIENT][INFO] Loading file: 'Armor\Vanilla\iron_chestplate.zs' with priority: 10
+[22:37:37.414][DONE][CLIENT][INFO] Loading file: 'Armor\Vanilla\iron_helmet.zs' with priority: 10
+[22:37:37.414][DONE][CLIENT][INFO] Loading file: 'Armor\Vanilla\iron_leggings.zs' with priority: 10
+[22:37:37.414][DONE][CLIENT][INFO] Loading file: 'Armor\Vanilla\netherite_boots.zs' with priority: 10
+[22:37:37.416][DONE][CLIENT][INFO] Loading file: 'Armor\Vanilla\netherite_chestplate.zs' with priority: 10
+[22:37:37.416][DONE][CLIENT][INFO] Loading file: 'Armor\Vanilla\netherite_helmet.zs' with priority: 10
+[22:37:37.416][DONE][CLIENT][INFO] Loading file: 'Armor\Vanilla\netherite_leggings.zs' with priority: 10
+[22:37:37.417][DONE][CLIENT][INFO] Loading file: 'Armor\Wyrmroost\platinum_boots.zs' with priority: 10
+[22:37:37.417][DONE][CLIENT][INFO] Loading file: 'Armor\Wyrmroost\platinum_chestplate.zs' with priority: 10
+[22:37:37.417][DONE][CLIENT][INFO] Loading file: 'Armor\Wyrmroost\platinum_helmet.zs' with priority: 10
+[22:37:37.417][DONE][CLIENT][INFO] Loading file: 'Armor\Wyrmroost\platinum_leggings.zs' with priority: 10
+[22:37:37.417][DONE][CLIENT][INFO] Loading file: 'GameStages\gamestages.zs' with priority: 10
+[22:37:37.418][DONE][CLIENT][INFO] Loading file: 'Misc\Advent of Ascension\copper_coin.zs' with priority: 10
+[22:37:37.418][DONE][CLIENT][INFO] Loading file: 'Misc\Advent of Ascension\gold_coin.zs' with priority: 10
+[22:37:37.418][DONE][CLIENT][INFO] Loading file: 'Misc\Advent of Ascension\silver_coin.zs' with priority: 10
+[22:37:37.418][DONE][CLIENT][INFO] Loading file: 'Misc\Caged Mobs\hopping_mob_cage.zs' with priority: 10
+[22:37:37.418][DONE][CLIENT][INFO] Loading file: 'Misc\Caged Mobs\mob_cage.zs' with priority: 10
+[22:37:37.418][DONE][CLIENT][INFO] Loading file: 'Misc\ColdSweat\hearth.zs' with priority: 10
+[22:37:37.418][DONE][CLIENT][INFO] Loading file: 'Misc\ColdSweat\sewing_table.zs' with priority: 10
+[22:37:37.418][DONE][CLIENT][INFO] Loading file: 'Misc\Compasses\explorers_compass.zs' with priority: 10
+[22:37:37.419][DONE][CLIENT][INFO] Loading file: 'Misc\Compasses\natures_compass.zs' with priority: 10
+[22:37:37.419][DONE][CLIENT][INFO] Loading file: 'Misc\Danks\dank_1.zs' with priority: 10
+[22:37:37.419][DONE][CLIENT][INFO] Loading file: 'Misc\Danks\dank_2.zs' with priority: 10
+[22:37:37.419][DONE][CLIENT][INFO] Loading file: 'Misc\Danks\dank_3.zs' with priority: 10
+[22:37:37.419][DONE][CLIENT][INFO] Loading file: 'Misc\Danks\dank_4.zs' with priority: 10
+[22:37:37.419][DONE][CLIENT][INFO] Loading file: 'Misc\Danks\dank_5.zs' with priority: 10
+[22:37:37.419][DONE][CLIENT][INFO] Loading file: 'Misc\Danks\dank_6.zs' with priority: 10
+[22:37:37.420][DONE][CLIENT][INFO] Loading file: 'Misc\Danks\dank_7.zs' with priority: 10
+[22:37:37.420][DONE][CLIENT][INFO] Loading file: 'Misc\Easy Piglins\barterer.zs' with priority: 10
+[22:37:37.420][DONE][CLIENT][INFO] Loading file: 'Misc\Easy Villagers\auto_trader.zs' with priority: 10
+[22:37:37.420][DONE][CLIENT][INFO] Loading file: 'Misc\Easy Villagers\breeder.zs' with priority: 10
+[22:37:37.420][DONE][CLIENT][INFO] Loading file: 'Misc\Easy Villagers\converter.zs' with priority: 10
+[22:37:37.421][DONE][CLIENT][INFO] Loading file: 'Misc\Easy Villagers\farmer.zs' with priority: 10
+[22:37:37.421][DONE][CLIENT][INFO] Loading file: 'Misc\Easy Villagers\incubator.zs' with priority: 10
+[22:37:37.421][DONE][CLIENT][INFO] Loading file: 'Misc\Easy Villagers\iron_farm.zs' with priority: 10
+[22:37:37.421][DONE][CLIENT][INFO] Loading file: 'Misc\Easy Villagers\trader.zs' with priority: 10
+[22:37:37.421][DONE][CLIENT][INFO] Loading file: 'Misc\Effortless Building\reach_upgrade_one.zs' with priority: 10
+[22:37:37.421][DONE][CLIENT][INFO] Loading file: 'Misc\Effortless Building\reach_upgrade_three.zs' with priority: 10
+[22:37:37.422][DONE][CLIENT][INFO] Loading file: 'Misc\Effortless Building\reach_upgrade_two.zs' with priority: 10
+[22:37:37.422][DONE][CLIENT][INFO] Loading file: 'Misc\EmendatusEnigmatica\diamond_plate.zs' with priority: 10
+[22:37:37.422][DONE][CLIENT][INFO] Loading file: 'Misc\EmendatusEnigmatica\gold_plate.zs' with priority: 10
+[22:37:37.422][DONE][CLIENT][INFO] Loading file: 'Misc\EmendatusEnigmatica\iron_plate.zs' with priority: 10
+[22:37:37.422][DONE][CLIENT][INFO] Loading file: 'Misc\Extended Crafting\black_iron.zs' with priority: 10
+[22:37:37.422][DONE][CLIENT][INFO] Loading file: 'Misc\Forbidden & Arcanus\eternal_stella.zs' with priority: 10
+[22:37:37.422][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\AOE Pets\dubstep_pet.zs' with priority: 10
+[22:37:37.422][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\AOE Pets\heart_pet.zs' with priority: 10
+[22:37:37.422][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\AOE Pets\moon_pet.zs' with priority: 10
+[22:37:37.422][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\AOE Pets\shield_pet.zs' with priority: 10
+[22:37:37.422][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Fan-Suggested Pets\apple_pet.zs' with priority: 10
+[22:37:37.422][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Fan-Suggested Pets\cheetah_pet.zs' with priority: 10
+[22:37:37.422][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Fan-Suggested Pets\house_pet.zs' with priority: 10
+[22:37:37.422][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Fan-Suggested Pets\pacman_pet.zs' with priority: 10
+[22:37:37.422][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Fan-Suggested Pets\pixie_pet.zs' with priority: 10
+[22:37:37.422][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Fan-Suggested Pets\silverfish_pet.zs' with priority: 10
+[22:37:37.422][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Fan-Suggested Pets\torch_pet.zs' with priority: 10
+[22:37:37.422][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Fan-Suggested Pets\wolf_pet.zs' with priority: 10
+[22:37:37.423][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Holiday Pets\april_fool_pet.zs' with priority: 10
+[22:37:37.423][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Holiday Pets\christmas_pet.zs' with priority: 10
+[22:37:37.423][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Holiday Pets\hanukkah_pet.zs' with priority: 10
+[22:37:37.423][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Holiday Pets\kwanzaa_pet.zs' with priority: 10
+[22:37:37.423][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Holiday Pets\politically_correct_pet.zs' with priority: 10
+[22:37:37.423][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Legendary Pets\black_hole_pet.zs' with priority: 10
+[22:37:37.423][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Legendary Pets\cloud_pet.zs' with priority: 10
+[22:37:37.423][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Legendary Pets\pufferfish_pet.zs' with priority: 10
+[22:37:37.423][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Legendary Pets\slime_pet.zs' with priority: 10
+[22:37:37.423][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Legendary Pets\sun_pet.zs' with priority: 10
+[22:37:37.423][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Legendary Pets\wither_pet.zs' with priority: 10
+[22:37:37.423][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Mob Pets\blaze_pet.zs' with priority: 10
+[22:37:37.423][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Mob Pets\creeper_pet.zs' with priority: 10
+[22:37:37.423][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Mob Pets\enderman_pet.zs' with priority: 10
+[22:37:37.423][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Mob Pets\ghast_pet.zs' with priority: 10
+[22:37:37.423][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Mob Pets\iron_golem_pet.zs' with priority: 10
+[22:37:37.423][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Mob Pets\magma_cube_pet.zs' with priority: 10
+[22:37:37.423][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Mob Pets\snow_golem_pet.zs' with priority: 10
+[22:37:37.423][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Mob Pets\spider_pet.zs' with priority: 10
+[22:37:37.423][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Peaceful Pets\chicken_pet.zs' with priority: 10
+[22:37:37.423][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Peaceful Pets\cow_pet.zs' with priority: 10
+[22:37:37.423][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Peaceful Pets\mooshroom_pet.zs' with priority: 10
+[22:37:37.423][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Peaceful Pets\ocelot_pet.zs' with priority: 10
+[22:37:37.423][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Peaceful Pets\pig_pet.zs' with priority: 10
+[22:37:37.423][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Peaceful Pets\sheep_pet.zs' with priority: 10
+[22:37:37.423][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Peaceful Pets\squid_pet.zs' with priority: 10
+[22:37:37.423][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Special Pets\banana_pet.zs' with priority: 10
+[22:37:37.423][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Special Pets\biome_pet.zs' with priority: 10
+[22:37:37.423][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Special Pets\flying_saddle_pet.zs' with priority: 10
+[22:37:37.424][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Special Pets\grave_pet.zs' with priority: 10
+[22:37:37.424][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Special Pets\loot_pet.zs' with priority: 10
+[22:37:37.424][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Special Pets\meta_pet.zs' with priority: 10
+[22:37:37.424][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Special Pets\mickerson_pet.zs' with priority: 10
+[22:37:37.424][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Special Pets\pingot_pet.zs' with priority: 10
+[22:37:37.424][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Special Pets\purplicious_cow_pet.zs' with priority: 10
+[22:37:37.424][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Special Pets\qcm_pet.zs' with priority: 10
+[22:37:37.424][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Special Pets\quiver_pet.zs' with priority: 10
+[22:37:37.424][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Special Pets\sponge_pet.zs' with priority: 10
+[22:37:37.424][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Utility Pets\anvil_pet.zs' with priority: 10
+[22:37:37.424][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Utility Pets\bed_pet.zs' with priority: 10
+[22:37:37.424][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Utility Pets\brewing_stand_pet.zs' with priority: 10
+[22:37:37.424][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Utility Pets\chest_pet.zs' with priority: 10
+[22:37:37.424][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Utility Pets\crafting_table_pet.zs' with priority: 10
+[22:37:37.424][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Utility Pets\double_chest_pet.zs' with priority: 10
+[22:37:37.424][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Utility Pets\enchanting_table_pet.zs' with priority: 10
+[22:37:37.424][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Utility Pets\ender_chest_pet.zs' with priority: 10
+[22:37:37.424][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Utility Pets\furnace_pet.zs' with priority: 10
+[22:37:37.424][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Utility Pets\jukebox_pet.zs' with priority: 10
+[22:37:37.424][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Utility Pets\lead_pet.zs' with priority: 10
+[22:37:37.424][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Utility Pets\nether_portal_pet.zs' with priority: 10
+[22:37:37.424][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Utility Pets\saddle_pet.zs' with priority: 10
+[22:37:37.424][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Youtuber Pets\cobblestone_pet.zs' with priority: 10
+[22:37:37.424][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Youtuber Pets\dirt_pet.zs' with priority: 10
+[22:37:37.424][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Youtuber Pets\illuminati_pet.zs' with priority: 10
+[22:37:37.424][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Youtuber Pets\juggernaut_pet.zs' with priority: 10
+[22:37:37.424][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Youtuber Pets\siamese_pet.zs' with priority: 10
+[22:37:37.424][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\feed_bag.zs' with priority: 10
+[22:37:37.424][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\petrifier.zs' with priority: 10
+[22:37:37.424][DONE][CLIENT][INFO] Loading file: 'Misc\Mystical Agriculture\infusion_altar.zs' with priority: 10
+[22:37:37.424][DONE][CLIENT][INFO] Loading file: 'Misc\Mystical Agriculture\infusion_pedestal.zs' with priority: 10
+[22:37:37.425][DONE][CLIENT][INFO] Loading file: 'Misc\NoCube's Wilderness\tough_trousers.zs' with priority: 10
+[22:37:37.425][DONE][CLIENT][INFO] Loading file: 'Misc\Paragliders\paraglider.zs' with priority: 10
+[22:37:37.425][DONE][CLIENT][INFO] Loading file: 'Misc\Simple Generators\simple_combustion_generator.zs' with priority: 10
+[22:37:37.425][DONE][CLIENT][INFO] Loading file: 'Misc\Simple Generators\simple_culinary_generator.zs' with priority: 10
+[22:37:37.425][DONE][CLIENT][INFO] Loading file: 'Misc\Simple Generators\simple_ender_generator.zs' with priority: 10
+[22:37:37.425][DONE][CLIENT][INFO] Loading file: 'Misc\Simple Generators\simple_fluid_combustion_generator.zs' with priority: 10
+[22:37:37.425][DONE][CLIENT][INFO] Loading file: 'Misc\Simple Generators\simple_geothermal_generator.zs' with priority: 10
+[22:37:37.425][DONE][CLIENT][INFO] Loading file: 'Misc\Simple Generators\simple_nether_generator.zs' with priority: 10
+[22:37:37.425][DONE][CLIENT][INFO] Loading file: 'Misc\Simple Generators\simple_pink_generator.zs' with priority: 10
+[22:37:37.425][DONE][CLIENT][INFO] Loading file: 'Misc\Simple Generators\simple_potion_generator.zs' with priority: 10
+[22:37:37.425][DONE][CLIENT][INFO] Loading file: 'Misc\Simple Generators\simple_soul_generator.zs' with priority: 10
+[22:37:37.425][DONE][CLIENT][INFO] Loading file: 'Misc\Simple Generators\simple_tnt_generator.zs' with priority: 10
+[22:37:37.425][DONE][CLIENT][INFO] Loading file: 'Misc\Simple Generators\simple_turbine_generator.zs' with priority: 10
+[22:37:37.425][DONE][CLIENT][INFO] Loading file: 'Misc\Simple Generators\simple_xp_generator.zs' with priority: 10
+[22:37:37.426][DONE][CLIENT][INFO] Loading file: 'Misc\Sophisticated Backpacks\diamond_backpack.zs' with priority: 10
+[22:37:37.426][DONE][CLIENT][INFO] Loading file: 'Misc\Sophisticated Backpacks\gold_backpack.zs' with priority: 10
+[22:37:37.426][DONE][CLIENT][INFO] Loading file: 'Misc\Sophisticated Backpacks\iron_backpack.zs' with priority: 10
+[22:37:37.426][DONE][CLIENT][INFO] Loading file: 'Misc\Sophisticated Backpacks\netherite_backpack.zs' with priority: 10
+[22:37:37.426][DONE][CLIENT][INFO] Loading file: 'Misc\Vanilla\bread.zs' with priority: 10
+[22:37:37.426][DONE][CLIENT][INFO] Loading file: 'Misc\Vanilla\campfire.zs' with priority: 10
+[22:37:37.426][DONE][CLIENT][INFO] Loading file: 'Misc\Wards\ward.zs' with priority: 10
+[22:37:37.426][DONE][CLIENT][INFO] Loading file: 'Misc\Wards\ward_core.zs' with priority: 10
+[22:37:37.426][DONE][CLIENT][INFO] Loading file: 'Misc\creative_essence.zs' with priority: 10
+[22:37:37.426][DONE][CLIENT][INFO] Loading file: 'Misc\network_collector_remote.zs' with priority: 10
+[22:37:37.426][DONE][CLIENT][INFO] Loading file: 'Tools and Weapons\Organics\blazed_diamond_sword.zs' with priority: 10
+[22:37:37.427][DONE][CLIENT][INFO] Loading file: 'Tools and Weapons\Organics\blazed_golden_sword.zs' with priority: 10
+[22:37:37.427][DONE][CLIENT][INFO] Loading file: 'Tools and Weapons\Organics\blazed_iron_sword.zs' with priority: 10
+[22:37:37.427][DONE][CLIENT][INFO] Loading file: 'Tools and Weapons\Organics\blazed_netherite_sword.zs' with priority: 10
+[22:37:37.427][DONE][CLIENT][INFO] Loading file: 'Tools and Weapons\Organics\blazed_stone_sword.zs' with priority: 10
+[22:37:37.427][DONE][CLIENT][INFO] Loading file: 'Tools and Weapons\Organics\blazed_wooden_sword.zs' with priority: 10
+[22:37:37.427][DONE][CLIENT][INFO] Loading file: 'Tools and Weapons\Organics\diamond_extratool.zs' with priority: 10
+[22:37:37.427][DONE][CLIENT][INFO] Loading file: 'Tools and Weapons\Organics\enderite_crossbow.zs' with priority: 10
+[22:37:37.427][DONE][CLIENT][INFO] Loading file: 'Tools and Weapons\Organics\flint_axe.zs' with priority: 10
+[22:37:37.427][DONE][CLIENT][INFO] Loading file: 'Tools and Weapons\Organics\flint_hoe.zs' with priority: 10
+[22:37:37.427][DONE][CLIENT][INFO] Loading file: 'Tools and Weapons\Organics\flint_pickaxe.zs' with priority: 10
+[22:37:37.427][DONE][CLIENT][INFO] Loading file: 'Tools and Weapons\Organics\flint_shovel.zs' with priority: 10
+[22:37:37.427][DONE][CLIENT][INFO] Loading file: 'Tools and Weapons\Organics\flint_sword.zs' with priority: 10
+[22:37:37.427][DONE][CLIENT][INFO] Loading file: 'Tools and Weapons\Organics\golden_extratool.zs' with priority: 10
+[22:37:37.427][DONE][CLIENT][INFO] Loading file: 'Tools and Weapons\Organics\iron_extratool.zs' with priority: 10
+[22:37:37.427][DONE][CLIENT][INFO] Loading file: 'Tools and Weapons\Organics\netherite_extratool.zs' with priority: 10
+[22:37:37.427][DONE][CLIENT][INFO] Loading file: 'Tools and Weapons\Organics\stone_extratool.zs' with priority: 10
+[22:37:37.427][DONE][CLIENT][INFO] Loading file: 'Tools and Weapons\Organics\wooden_extratool.zs' with priority: 10
+[22:37:37.427][DONE][CLIENT][INFO] Loading file: 'Tools and Weapons\Spartan Weaponry\cestus.zs' with priority: 10
+[22:37:37.427][DONE][CLIENT][INFO] Loading file: 'Tools and Weapons\Spartan Weaponry\club.zs' with priority: 10
+[22:37:37.427][DONE][CLIENT][INFO] Loading file: 'Tools and Weapons\Spartan Weaponry\studded_cestus.zs' with priority: 10
+[22:37:37.428][DONE][CLIENT][INFO] Loading file: 'Tools and Weapons\Spartan Weaponry\studded_club.zs' with priority: 10
+[22:37:37.428][DONE][CLIENT][INFO] Loading file: 'Tools and Weapons\Vanilla\stone_axe.zs' with priority: 10
+[22:37:37.428][DONE][CLIENT][INFO] Loading file: 'Tools and Weapons\Vanilla\stone_hoe.zs' with priority: 10
+[22:37:37.428][DONE][CLIENT][INFO] Loading file: 'Tools and Weapons\Vanilla\stone_pickaxe.zs' with priority: 10
+[22:37:37.428][DONE][CLIENT][INFO] Loading file: 'Tools and Weapons\Vanilla\stone_shovel.zs' with priority: 10
+[22:37:37.428][DONE][CLIENT][INFO] Loading file: 'Tools and Weapons\Vanilla\stone_sword.zs' with priority: 10
+[22:37:37.428][DONE][CLIENT][INFO] Loading file: 'Tools and Weapons\Vanilla\wooden_axe.zs' with priority: 10
+[22:37:37.428][DONE][CLIENT][INFO] Loading file: 'Tools and Weapons\Vanilla\wooden_hoe.zs' with priority: 10
+[22:37:37.428][DONE][CLIENT][INFO] Loading file: 'Tools and Weapons\Vanilla\wooden_pickaxe.zs' with priority: 10
+[22:37:37.428][DONE][CLIENT][INFO] Loading file: 'Tools and Weapons\Vanilla\wooden_shovel.zs' with priority: 10
+[22:37:37.428][DONE][CLIENT][INFO] Loading file: 'Tools and Weapons\Vanilla\wooden_sword.zs' with priority: 10
+[22:37:37.603][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:mysticalagriculture:imperium_boots>"
+[22:37:37.762][DONE][CLIENT][INFO] Adding Shaped Table recipe for <item:mysticalagriculture:imperium_boots>
+[22:37:37.763][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:mysticalagriculture:imperium_chestplate>"
+[22:37:37.775][DONE][CLIENT][INFO] Adding Shaped Table recipe for <item:mysticalagriculture:imperium_chestplate>
+[22:37:37.776][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:mysticalagriculture:imperium_helmet>"
+[22:37:37.786][DONE][CLIENT][INFO] Adding Shaped Table recipe for <item:mysticalagriculture:imperium_helmet>
+[22:37:37.787][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:mysticalagriculture:imperium_leggings>"
+[22:37:37.799][DONE][CLIENT][INFO] Adding Shaped Table recipe for <item:mysticalagriculture:imperium_leggings>
+[22:37:37.800][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:mysticalagriculture:inferium_boots>"
+[22:37:37.809][DONE][CLIENT][INFO] Adding Shaped Table recipe for <item:mysticalagriculture:inferium_boots>
+[22:37:37.810][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:mysticalagriculture:inferium_chestplate>"
+[22:37:37.818][DONE][CLIENT][INFO] Adding Shaped Table recipe for <item:mysticalagriculture:inferium_chestplate>
+[22:37:37.819][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:mysticalagriculture:inferium_helmet>"
+[22:37:37.827][DONE][CLIENT][INFO] Adding Shaped Table recipe for <item:mysticalagriculture:inferium_helmet>
+[22:37:37.828][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:mysticalagriculture:inferium_leggings>"
+[22:37:37.837][DONE][CLIENT][INFO] Adding Shaped Table recipe for <item:mysticalagriculture:inferium_leggings>
+[22:37:37.838][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:mysticaladaptations:insanium_boots>"
+[22:37:37.847][DONE][CLIENT][INFO] Adding Shaped Table recipe for <item:mysticaladaptations:insanium_boots>
+[22:37:37.848][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:mysticaladaptations:insanium_chestplate>"
+[22:37:37.856][DONE][CLIENT][INFO] Adding Shaped Table recipe for <item:mysticaladaptations:insanium_chestplate>
+[22:37:37.856][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:mysticaladaptations:insanium_helmet>"
+[22:37:37.865][DONE][CLIENT][INFO] Adding Shaped Table recipe for <item:mysticaladaptations:insanium_helmet>
+[22:37:37.866][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:mysticaladaptations:insanium_leggings>"
+[22:37:37.874][DONE][CLIENT][INFO] Adding Shaped Table recipe for <item:mysticaladaptations:insanium_leggings>
+[22:37:37.874][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:mysticalagriculture:prudentium_boots>"
+[22:37:37.882][DONE][CLIENT][INFO] Adding Shaped Table recipe for <item:mysticalagriculture:prudentium_boots>
+[22:37:37.883][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:mysticalagriculture:prudentium_chestplate>"
+[22:37:37.890][DONE][CLIENT][INFO] Adding Shaped Table recipe for <item:mysticalagriculture:prudentium_chestplate>
+[22:37:37.891][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:mysticalagriculture:prudentium_helmet>"
+[22:37:37.898][DONE][CLIENT][INFO] Adding Shaped Table recipe for <item:mysticalagriculture:prudentium_helmet>
+[22:37:37.899][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:mysticalagriculture:prudentium_leggings>"
+[22:37:37.907][DONE][CLIENT][INFO] Adding Shaped Table recipe for <item:mysticalagriculture:prudentium_leggings>
+[22:37:37.907][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:mysticalagriculture:supremium_boots>"
+[22:37:37.913][DONE][CLIENT][INFO] Adding Shaped Table recipe for <item:mysticalagriculture:supremium_boots>
+[22:37:37.914][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:mysticalagriculture:supremium_chestplate>"
+[22:37:37.920][DONE][CLIENT][INFO] Adding Shaped Table recipe for <item:mysticalagriculture:supremium_chestplate>
+[22:37:37.920][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:mysticalagriculture:supremium_helmet>"
+[22:37:37.926][DONE][CLIENT][INFO] Adding Shaped Table recipe for <item:mysticalagriculture:supremium_helmet>
+[22:37:37.927][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:mysticalagriculture:supremium_leggings>"
+[22:37:37.933][DONE][CLIENT][INFO] Adding Shaped Table recipe for <item:mysticalagriculture:supremium_leggings>
+[22:37:37.933][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:mysticalagriculture:tertium_boots>"
+[22:37:37.940][DONE][CLIENT][INFO] Adding Shaped Table recipe for <item:mysticalagriculture:tertium_boots>
+[22:37:37.940][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:mysticalagriculture:tertium_chestplate>"
+[22:37:37.946][DONE][CLIENT][INFO] Adding Shaped Table recipe for <item:mysticalagriculture:tertium_chestplate>
+[22:37:37.947][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:mysticalagriculture:tertium_helmet>"
+[22:37:37.953][DONE][CLIENT][INFO] Adding Shaped Table recipe for <item:mysticalagriculture:tertium_helmet>
+[22:37:37.953][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:mysticalagriculture:tertium_leggings>"
+[22:37:37.960][DONE][CLIENT][INFO] Adding Shaped Table recipe for <item:mysticalagriculture:tertium_leggings>
+[22:37:37.960][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:organics:blue_obsidian_boots>"
+[22:37:37.969][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:organics:blue_obsidian_chestplate>"
+[22:37:37.976][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:organics:blue_obsidian_helmet>"
+[22:37:37.982][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:organics:blue_obsidian_leggings>"
+[22:37:37.989][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:organics:cobblestone_boots>"
+[22:37:37.995][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:organics:cobblestone_chestplate>"
+[22:37:38.002][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:organics:cobblestone_helmet>"
+[22:37:38.009][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:organics:cobblestone_leggings>"
+[22:37:38.015][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:organics:emerald_boots>"
+[22:37:38.022][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:organics:emerald_chestplate>"
+[22:37:38.028][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:organics:emerald_helmet>"
+[22:37:38.034][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:organics:emerald_leggings>"
+[22:37:38.040][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:organics:enderite_boots>"
+[22:37:38.047][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:organics:enderite_chestplate>"
+[22:37:38.054][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:organics:enderite_helmet>"
+[22:37:38.063][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:organics:enderite_leggings>"
+[22:37:38.070][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:organics:planks_boots>"
+[22:37:38.077][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:organics:planks_chestplate>"
+[22:37:38.084][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:organics:planks_helmet>"
+[22:37:38.091][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:organics:planks_leggings>"
+[22:37:38.098][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:organics:quartz_boots>"
+[22:37:38.106][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:organics:quartz_chestplate>"
+[22:37:38.114][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:organics:quartz_helmet>"
+[22:37:38.121][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:organics:quartz_leggings>"
+[22:37:38.129][DONE][CLIENT][INFO] Removing "minecraft:smithing" recipes with output: <item:organics:redstone_boots>"
+[22:37:38.130][DONE][CLIENT][INFO] Removing "minecraft:smithing" recipes with output: <item:organics:redstone_chestplate>"
+[22:37:38.130][DONE][CLIENT][INFO] Removing "minecraft:smithing" recipes with output: <item:organics:redstone_dispenser_chestplate>"
+[22:37:38.130][DONE][CLIENT][INFO] Removing "minecraft:smithing" recipes with output: <item:organics:redstone_helmet>"
+[22:37:38.131][DONE][CLIENT][INFO] Removing "minecraft:smithing" recipes with output: <item:organics:redstone_leggings>"
+[22:37:38.131][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:organics:shulker_boots>"
+[22:37:38.142][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:organics:shulker_chestplate>"
+[22:37:38.153][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:organics:shulker_helmet>"
+[22:37:38.163][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:organics:shulker_leggings>"
+[22:37:38.171][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:minecraft:diamond_boots>"
+[22:37:38.179][DONE][CLIENT][INFO] Adding Shaped Table recipe for <item:minecraft:diamond_boots>
+[22:37:38.180][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:minecraft:diamond_chestplate>"
+[22:37:38.187][DONE][CLIENT][INFO] Adding Shaped Table recipe for <item:minecraft:diamond_chestplate>
+[22:37:38.188][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:minecraft:diamond_helmet>"
+[22:37:38.195][DONE][CLIENT][INFO] Adding Shaped Table recipe for <item:minecraft:diamond_helmet>
+[22:37:38.195][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:minecraft:diamond_leggings>"
+[22:37:38.202][DONE][CLIENT][INFO] Adding Shaped Table recipe for <item:minecraft:diamond_leggings>
+[22:37:38.203][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:minecraft:golden_boots>"
+[22:37:38.213][DONE][CLIENT][INFO] Adding "minecraft:crafting" recipe, of type: "shaped", with name: "crafttweaker:golden_boots" that outputs: <item:minecraft:golden_boots>.mutable()
+[22:37:38.214][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:minecraft:golden_chestplate>"
+[22:37:38.221][DONE][CLIENT][INFO] Adding "minecraft:crafting" recipe, of type: "shaped", with name: "crafttweaker:golden_chestplate" that outputs: <item:minecraft:golden_chestplate>.mutable()
+[22:37:38.221][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:minecraft:golden_helmet>"
+[22:37:38.228][DONE][CLIENT][INFO] Adding "minecraft:crafting" recipe, of type: "shaped", with name: "crafttweaker:golden_helmet" that outputs: <item:minecraft:golden_helmet>.mutable()
+[22:37:38.229][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:minecraft:golden_leggings>"
+[22:37:38.237][DONE][CLIENT][INFO] Adding "minecraft:crafting" recipe, of type: "shaped", with name: "crafttweaker:golden_leggings" that outputs: <item:minecraft:golden_leggings>.mutable()
+[22:37:38.237][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:minecraft:iron_boots>"
+[22:37:38.245][DONE][CLIENT][INFO] Adding "minecraft:crafting" recipe, of type: "shaped", with name: "crafttweaker:iron_boots" that outputs: <item:minecraft:iron_boots>.mutable()
+[22:37:38.245][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:minecraft:iron_chestplate>"
+[22:37:38.252][DONE][CLIENT][INFO] Adding "minecraft:crafting" recipe, of type: "shaped", with name: "crafttweaker:iron_chestplate" that outputs: <item:minecraft:iron_chestplate>.mutable()
+[22:37:38.252][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:minecraft:iron_helmet>"
+[22:37:38.259][DONE][CLIENT][INFO] Adding "minecraft:crafting" recipe, of type: "shaped", with name: "crafttweaker:iron_helmet" that outputs: <item:minecraft:iron_helmet>.mutable()
+[22:37:38.260][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:minecraft:iron_leggings>"
+[22:37:38.266][DONE][CLIENT][INFO] Adding "minecraft:crafting" recipe, of type: "shaped", with name: "crafttweaker:iron_leggings" that outputs: <item:minecraft:iron_leggings>.mutable()
+[22:37:38.267][DONE][CLIENT][INFO] Removing "minecraft:smithing" recipes with output: <item:minecraft:netherite_boots>"
+[22:37:38.267][DONE][CLIENT][INFO] Adding Shaped Table recipe for <item:minecraft:netherite_boots>
+[22:37:38.267][DONE][CLIENT][INFO] Removing "minecraft:smithing" recipes with output: <item:minecraft:netherite_chestplate>"
+[22:37:38.267][DONE][CLIENT][INFO] Adding Shaped Table recipe for <item:minecraft:netherite_chestplate>
+[22:37:38.267][DONE][CLIENT][INFO] Removing "minecraft:smithing" recipes with output: <item:minecraft:netherite_helmet>"
+[22:37:38.268][DONE][CLIENT][INFO] Adding Shaped Table recipe for <item:minecraft:netherite_helmet>
+[22:37:38.268][DONE][CLIENT][INFO] Removing "minecraft:smithing" recipes with output: <item:minecraft:netherite_leggings>"
+[22:37:38.268][DONE][CLIENT][INFO] Adding Shaped Table recipe for <item:minecraft:netherite_leggings>
+[22:37:38.268][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:wyrmroost:platinum_boots>"
+[22:37:38.277][DONE][CLIENT][INFO] Adding Shaped Table recipe for <item:wyrmroost:platinum_boots>
+[22:37:38.277][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:wyrmroost:platinum_chestplate>"
+[22:37:38.285][DONE][CLIENT][INFO] Adding Shaped Table recipe for <item:wyrmroost:platinum_chestplate>
+[22:37:38.285][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:wyrmroost:platinum_helmet>"
+[22:37:38.293][DONE][CLIENT][INFO] Adding Shaped Table recipe for <item:wyrmroost:platinum_helmet>
+[22:37:38.293][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:wyrmroost:platinum_leggings>"
+[22:37:38.301][DONE][CLIENT][INFO] Adding Shaped Table recipe for <item:wyrmroost:platinum_leggings>
+[22:37:38.305][DONE][CLIENT][INFO] Registering event listener for LivingDeathEvent.
+[22:37:38.305][DONE][CLIENT][INFO] Registering event listener for LivingDeathEvent.
+[22:37:38.305][DONE][CLIENT][INFO] Registering event listener for LivingDeathEvent.
+[22:37:38.305][DONE][CLIENT][INFO] Registering event listener for Added.
+[22:37:38.305][DONE][CLIENT][INFO] Registering event listener for Added.
+[22:37:38.306][DONE][CLIENT][INFO] Registering event listener for Added.
+[22:37:38.309][DONE][CLIENT][INFO] [Dimension Stages] Staging dimension 'minecraft:the_nether' to stage(s) '[land_golem]'. GameStages\gamestages.zs:34:0
+[22:37:38.312][DONE][CLIENT][INFO] [Dimension Stages] Staging dimension 'minecraft:the_end' to stage(s) '[whisperer]'. GameStages\gamestages.zs:35:0
+[22:37:38.313][DONE][CLIENT][INFO] Adding tier 2 to stage land_golem
+[22:37:38.315][DONE][CLIENT][INFO] Adding tier 3 to stage land_golem
+[22:37:38.315][DONE][CLIENT][INFO] Adding tier 4 to stage whisperer
+[22:37:38.315][DONE][CLIENT][INFO] Adding tier 5 to stage whisperer
+[22:37:38.315][DONE][CLIENT][INFO] Adding tier 6 to stage ender_dragon
+[22:37:38.315][DONE][CLIENT][INFO] Adding tier 7 to stage ender_dragon
+[22:37:38.316][DONE][CLIENT][INFO] Adding "minecraft:crafting" recipe, of type: "shaped", with name: "crafttweaker:copper_coin" that outputs: <item:aoa3:copper_coin> * 9.mutable()
+[22:37:38.316][DONE][CLIENT][INFO] Adding "minecraft:crafting" recipe, of type: "shaped", with name: "crafttweaker:gold_coin" that outputs: <item:aoa3:gold_coin>.mutable()
+[22:37:38.316][DONE][CLIENT][INFO] Adding "minecraft:crafting" recipe, of type: "shaped", with name: "crafttweaker:silver_coin" that outputs: <item:aoa3:silver_coin> * 9.mutable()
+[22:37:38.316][DONE][CLIENT][INFO] Adding "minecraft:crafting" recipe, of type: "shaped", with name: "crafttweaker:silver_coin_combine" that outputs: <item:aoa3:silver_coin>.mutable()
+[22:37:38.316][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:cagedmobs:hoppingmobcage>"
+[22:37:38.324][DONE][CLIENT][INFO] Adding Shaped Table recipe for <item:cagedmobs:hoppingmobcage>
+[22:37:38.325][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:cagedmobs:mobcage>"
+[22:37:38.332][DONE][CLIENT][INFO] Adding "minecraft:crafting" recipe, of type: "shaped", with name: "crafttweaker:mob_cage" that outputs: <item:cagedmobs:mobcage>.mutable()
+[22:37:38.332][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:cold_sweat:hearth>"
+[22:37:38.339][DONE][CLIENT][INFO] Adding Shaped Table recipe for <item:cold_sweat:hearth>
+[22:37:38.340][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:cold_sweat:sewing_table>"
+[22:37:38.347][DONE][CLIENT][INFO] Adding Shaped Table recipe for <item:cold_sweat:sewing_table>
+[22:37:38.347][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:explorerscompass:explorerscompass>"
+[22:37:38.355][DONE][CLIENT][INFO] Adding Shaped Table recipe for <item:explorerscompass:explorerscompass>
+[22:37:38.355][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:naturescompass:naturescompass>"
+[22:37:38.363][DONE][CLIENT][INFO] Adding Shaped Table recipe for <item:naturescompass:naturescompass>
+[22:37:38.364][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:dankstorage:dank_1>"
+[22:37:38.370][DONE][CLIENT][INFO] Adding Shaped Table recipe for <item:dankstorage:dank_1>
+[22:37:38.371][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:dankstorage:dank_2>"
+[22:37:38.378][DONE][CLIENT][INFO] Adding Shaped Table recipe for <item:dankstorage:dank_2>
+[22:37:38.378][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:dankstorage:dank_3>"
+[22:37:38.384][DONE][CLIENT][INFO] Adding Shaped Table recipe for <item:dankstorage:dank_3>
+[22:37:38.385][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:dankstorage:dank_4>"
+[22:37:38.391][DONE][CLIENT][INFO] Adding Shaped Table recipe for <item:dankstorage:dank_4>
+[22:37:38.392][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:dankstorage:dank_5>"
+[22:37:38.398][DONE][CLIENT][INFO] Adding Shaped Table recipe for <item:dankstorage:dank_5>
+[22:37:38.399][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:dankstorage:dank_6>"
+[22:37:38.405][DONE][CLIENT][INFO] Adding Shaped Table recipe for <item:dankstorage:dank_6>
+[22:37:38.406][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:dankstorage:dank_7>"
+[22:37:38.412][DONE][CLIENT][INFO] Adding Shaped Table recipe for <item:dankstorage:dank_7>
+[22:37:38.413][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:easy_piglins:barterer>"
+[22:37:38.419][DONE][CLIENT][INFO] Adding Shaped Table recipe for <item:easy_piglins:barterer>
+[22:37:38.420][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:easy_villagers:auto_trader>"
+[22:37:38.427][DONE][CLIENT][INFO] Adding Shaped Table recipe for <item:easy_villagers:auto_trader>
+[22:37:38.427][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:easy_villagers:breeder>"
+[22:37:38.434][DONE][CLIENT][INFO] Adding Shaped Table recipe for <item:easy_villagers:breeder>
+[22:37:38.435][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:easy_villagers:converter>"
+[22:37:38.441][DONE][CLIENT][INFO] Adding Shaped Table recipe for <item:easy_villagers:converter>
+[22:37:38.442][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:easy_villagers:farmer>"
+[22:37:38.449][DONE][CLIENT][INFO] Adding Shaped Table recipe for <item:easy_villagers:farmer>
+[22:37:38.449][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:easy_villagers:incubator>"
+[22:37:38.456][DONE][CLIENT][INFO] Adding Shaped Table recipe for <item:easy_villagers:incubator>
+[22:37:38.457][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:easy_villagers:iron_farm>"
+[22:37:38.464][DONE][CLIENT][INFO] Adding Shaped Table recipe for <item:easy_villagers:iron_farm>
+[22:37:38.464][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:easy_villagers:trader>"
+[22:37:38.471][DONE][CLIENT][INFO] Adding Shaped Table recipe for <item:easy_villagers:trader>
+[22:37:38.471][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:effortlessbuilding:reach_upgrade1>"
+[22:37:38.478][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:effortlessbuilding:reach_upgrade3>"
+[22:37:38.484][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:effortlessbuilding:reach_upgrade2>"
+[22:37:38.491][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:emendatusenigmatica:diamond_plate>"
+[22:37:38.500][DONE][CLIENT][INFO] Adding "minecraft:crafting" recipe, of type: "shaped", with name: "crafttweaker:diamond_plate" that outputs: <item:emendatusenigmatica:diamond_plate>.mutable()
+[22:37:38.500][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:emendatusenigmatica:gold_plate>"
+[22:37:38.507][DONE][CLIENT][INFO] Adding "minecraft:crafting" recipe, of type: "shaped", with name: "crafttweaker:gold_plate" that outputs: <item:emendatusenigmatica:gold_plate>.mutable()
+[22:37:38.507][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:emendatusenigmatica:iron_plate>"
+[22:37:38.514][DONE][CLIENT][INFO] Adding "minecraft:crafting" recipe, of type: "shaped", with name: "crafttweaker:iron_plate" that outputs: <item:emendatusenigmatica:iron_plate>.mutable()
+[22:37:38.516][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipe with name: "extendedcrafting:black_iron_ingot"
+[22:37:38.516][DONE][CLIENT][INFO] Adding "minecraft:crafting" recipe, of type: "shaped", with name: "crafttweaker:black_iron" that outputs: <item:extendedcrafting:black_iron_ingot> * 8.mutable()
+[22:37:38.516][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:forbidden_arcanus:eternal_stella>"
+[22:37:38.522][DONE][CLIENT][INFO] Adding Shaped Table recipe for <item:forbidden_arcanus:eternal_stella>
+[22:37:38.523][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:inventorypets:pet_dubstep>"
+[22:37:38.529][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:inventorypets:pet_heart>"
+[22:37:38.536][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:inventorypets:pet_moon>"
+[22:37:38.543][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:inventorypets:pet_shield>"
+[22:37:38.549][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:inventorypets:pet_apple>"
+[22:37:38.556][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:inventorypets:pet_cheetah>"
+[22:37:38.562][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:inventorypets:pet_house>"
+[22:37:38.569][DONE][CLIENT][INFO] Adding "minecraft:crafting" recipe, of type: "shaped", with name: "crafttweaker:house_pet" that outputs: <item:inventorypets:pet_house>.mutable()
+[22:37:38.570][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:inventorypets:pet_pacman>"
+[22:37:38.576][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:inventorypets:pet_pixie>"
+[22:37:38.583][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:inventorypets:pet_silverfish>"
+[22:37:38.589][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:inventorypets:pet_torch>"
+[22:37:38.597][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:inventorypets:pet_wolf>"
+[22:37:38.604][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:inventorypets:pet_april_fool>"
+[22:37:38.611][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:inventorypets:pet_christmas_tree>"
+[22:37:38.618][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:inventorypets:pet_menorah>"
+[22:37:38.624][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:inventorypets:pet_mishumaa_saba>"
+[22:37:38.631][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:inventorypets:pet_politically_correct>"
+[22:37:38.637][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:inventorypets:pet_black_hole>"
+[22:37:38.644][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:inventorypets:pet_cloud>"
+[22:37:38.651][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:inventorypets:pet_pufferfish>"
+[22:37:38.658][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:inventorypets:pet_slime>"
+[22:37:38.664][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:inventorypets:pet_sun>"
+[22:37:38.671][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:inventorypets:pet_wither>"
+[22:37:38.678][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:inventorypets:pet_blaze>"
+[22:37:38.685][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:inventorypets:pet_creeper>"
+[22:37:38.691][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:inventorypets:pet_enderman>"
+[22:37:38.698][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:inventorypets:pet_ghast>"
+[22:37:38.705][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:inventorypets:pet_iron_golem>"
+[22:37:38.712][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:inventorypets:pet_magma_cube>"
+[22:37:38.718][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:inventorypets:pet_snow_golem>"
+[22:37:38.725][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:inventorypets:pet_spider>"
+[22:37:38.731][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:inventorypets:pet_chicken>"
+[22:37:38.738][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:inventorypets:pet_cow>"
+[22:37:38.745][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:inventorypets:pet_mooshroom>"
+[22:37:38.752][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:inventorypets:pet_ocelot>"
+[22:37:38.759][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:inventorypets:pet_pig>"
+[22:37:38.766][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:inventorypets:pet_sheep>"
+[22:37:38.772][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:inventorypets:pet_squid>"
+[22:37:38.779][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:inventorypets:pet_banana>"
+[22:37:38.785][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:inventorypets:pet_biome>"
+[22:37:38.792][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:inventorypets:pet_flying_saddle>"
+[22:37:38.798][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:inventorypets:pet_grave>"
+[22:37:38.805][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:inventorypets:pet_loot>"
+[22:37:38.811][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:inventorypets:pet_meta>"
+[22:37:38.818][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:inventorypets:pet_mickerson>"
+[22:37:38.824][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:inventorypets:pet_pingot>"
+[22:37:38.830][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:inventorypets:pet_purplicious_cow>"
+[22:37:38.837][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:inventorypets:pet_qcm>"
+[22:37:38.844][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:inventorypets:pet_quiver>"
+[22:37:38.850][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:inventorypets:pet_sponge>"
+[22:37:38.860][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:inventorypets:pet_anvil>"
+[22:37:38.873][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:inventorypets:pet_bed>"
+[22:37:38.883][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:inventorypets:pet_brewing_stand>"
+[22:37:38.891][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:inventorypets:pet_chest_new>"
+[22:37:38.898][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:inventorypets:pet_crafting_table>"
+[22:37:38.905][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:inventorypets:pet_double_chest_new>"
+[22:37:38.911][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:inventorypets:pet_enchanting_table>"
+[22:37:38.918][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:inventorypets:pet_ender_chest>"
+[22:37:38.924][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:inventorypets:pet_furnace>"
+[22:37:38.931][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:inventorypets:pet_jukebox>"
+[22:37:38.937][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:inventorypets:pet_lead>"
+[22:37:38.944][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:inventorypets:pet_nether_portal>"
+[22:37:38.951][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:inventorypets:pet_saddle>"
+[22:37:38.958][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:inventorypets:pet_cobblestone>"
+[22:37:38.967][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:inventorypets:pet_dirt>"
+[22:37:38.975][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:inventorypets:pet_illuminati>"
+[22:37:38.982][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:inventorypets:pet_juggernaut>"
+[22:37:38.988][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:inventorypets:pet_siamese>"
+[22:37:38.995][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:inventorypets:feed_bag_new>"
+[22:37:39.003][DONE][CLIENT][INFO] Adding "minecraft:crafting" recipe, of type: "shaped", with name: "crafttweaker:feed_bag" that outputs: <item:inventorypets:feed_bag_new>.mutable()
+[22:37:39.003][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:inventorypets:item_petrifier>"
+[22:37:39.010][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:mysticalagriculture:infusion_altar>"
+[22:37:39.017][DONE][CLIENT][INFO] Adding Shaped Table recipe for <item:mysticalagriculture:infusion_altar>
+[22:37:39.017][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:mysticalagriculture:infusion_pedestal>"
+[22:37:39.024][DONE][CLIENT][INFO] Adding Shaped Table recipe for <item:mysticalagriculture:infusion_pedestal>
+[22:37:39.024][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:nocubes_wilderness:birch_leggings>"
+[22:37:39.032][DONE][CLIENT][INFO] Adding "minecraft:crafting" recipe, of type: "shaped", with name: "crafttweaker:tough_trousers" that outputs: <item:nocubes_wilderness:birch_leggings>.mutable()
+[22:37:39.032][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:paraglider:paraglider>"
+[22:37:39.039][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:simplegens:simple_combustion>"
+[22:37:39.046][DONE][CLIENT][INFO] Adding Shaped Table recipe for <item:simplegens:simple_combustion>
+[22:37:39.046][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:simplegens:simple_culinary>"
+[22:37:39.053][DONE][CLIENT][INFO] Adding Shaped Table recipe for <item:simplegens:simple_culinary>
+[22:37:39.053][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:simplegens:simple_ender>"
+[22:37:39.059][DONE][CLIENT][INFO] Adding Shaped Table recipe for <item:simplegens:simple_ender>
+[22:37:39.060][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:simplegens:simple_fluid_combustion>"
+[22:37:39.066][DONE][CLIENT][INFO] Adding Shaped Table recipe for <item:simplegens:simple_fluid_combustion>
+[22:37:39.066][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:simplegens:simple_geothermal>"
+[22:37:39.072][DONE][CLIENT][INFO] Adding Shaped Table recipe for <item:simplegens:simple_geothermal>
+[22:37:39.073][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:simplegens:simple_nether>"
+[22:37:39.079][DONE][CLIENT][INFO] Adding Shaped Table recipe for <item:simplegens:simple_nether>
+[22:37:39.079][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:simplegens:simple_pink>"
+[22:37:39.085][DONE][CLIENT][INFO] Adding Shaped Table recipe for <item:simplegens:simple_pink>
+[22:37:39.086][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:simplegens:simple_potion>"
+[22:37:39.092][DONE][CLIENT][INFO] Adding Shaped Table recipe for <item:simplegens:simple_potion>
+[22:37:39.092][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:simplegens:simple_soul>"
+[22:37:39.099][DONE][CLIENT][INFO] Adding Shaped Table recipe for <item:simplegens:simple_soul>
+[22:37:39.099][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:simplegens:simple_tnt>"
+[22:37:39.105][DONE][CLIENT][INFO] Adding Shaped Table recipe for <item:simplegens:simple_tnt>
+[22:37:39.106][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:simplegens:simple_turbine>"
+[22:37:39.112][DONE][CLIENT][INFO] Adding Shaped Table recipe for <item:simplegens:simple_turbine>
+[22:37:39.112][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:simplegens:simple_xp>"
+[22:37:39.118][DONE][CLIENT][INFO] Adding Shaped Table recipe for <item:simplegens:simple_xp>
+[22:37:39.119][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:sophisticatedbackpacks:diamond_backpack>"
+[22:37:39.125][DONE][CLIENT][INFO] Adding Shaped Table recipe for <item:sophisticatedbackpacks:diamond_backpack>
+[22:37:39.125][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:sophisticatedbackpacks:gold_backpack>"
+[22:37:39.132][DONE][CLIENT][INFO] Adding Shaped Table recipe for <item:sophisticatedbackpacks:gold_backpack>
+[22:37:39.132][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:sophisticatedbackpacks:iron_backpack>"
+[22:37:39.138][DONE][CLIENT][INFO] Adding "minecraft:crafting" recipe, of type: "shaped", with name: "crafttweaker:iron_backpack" that outputs: <item:sophisticatedbackpacks:iron_backpack>.mutable()
+[22:37:39.139][DONE][CLIENT][INFO] Removing "minecraft:smithing" recipes with output: <item:sophisticatedbackpacks:netherite_backpack>"
+[22:37:39.139][DONE][CLIENT][INFO] Adding Shaped Table recipe for <item:sophisticatedbackpacks:netherite_backpack>
+[22:37:39.139][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:minecraft:bread>"
+[22:37:39.146][DONE][CLIENT][INFO] Adding "minecraft:crafting" recipe, of type: "shaped", with name: "crafttweaker:campfire" that outputs: <item:minecraft:campfire>.mutable()
+[22:37:39.146][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:wards:ward>"
+[22:37:39.152][DONE][CLIENT][INFO] Adding Shaped Table recipe for <item:wards:ward>
+[22:37:39.153][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:wards:ward_core>"
+[22:37:39.159][DONE][CLIENT][INFO] Adding Shaped Table recipe for <item:wards:ward_core>
+[22:37:39.159][DONE][CLIENT][INFO] Adding Shaped Table recipe for <item:mysticalagradditions:creative_essence>
+[22:37:39.160][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:storagenetwork:collector_remote>"
+[22:37:39.166][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:organics:blazed_diamond_sword>"
+[22:37:39.173][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:organics:blazed_golden_sword>"
+[22:37:39.179][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:organics:blazed_iron_sword>"
+[22:37:39.186][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:organics:blazed_netherite_sword>"
+[22:37:39.192][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:organics:blazed_stone_sword>"
+[22:37:39.199][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:organics:blazed_wooden_sword>"
+[22:37:39.207][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:organics:diamond_extratool>"
+[22:37:39.216][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:organics:ender_crossbow>"
+[22:37:39.225][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:organics:flint_axe>"
+[22:37:39.234][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:organics:flint_hoe>"
+[22:37:39.242][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:organics:flint_pickaxe>"
+[22:37:39.249][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:organics:flint_shovel>"
+[22:37:39.257][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:organics:flint_sword>"
+[22:37:39.263][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:organics:golden_extratool>"
+[22:37:39.270][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:organics:iron_extratool>"
+[22:37:39.277][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:organics:netherite_extratool>"
+[22:37:39.284][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:organics:stone_extratool>"
+[22:37:39.290][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:organics:wooden_extratool>"
+[22:37:39.297][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:spartanweaponry:cestus>"
+[22:37:39.306][DONE][CLIENT][INFO] Adding "minecraft:crafting" recipe, of type: "mirroring shaped", with name: "crafttweaker:cestus" that outputs: <item:spartanweaponry:cestus>.mutable()
+[22:37:39.306][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:spartanweaponry:club_wood>"
+[22:37:39.313][DONE][CLIENT][INFO] Adding "minecraft:crafting" recipe, of type: "mirroring shaped", with name: "crafttweaker:club" that outputs: <item:spartanweaponry:club_wood>.mutable()
+[22:37:39.313][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:spartanweaponry:cestus_studded>"
+[22:37:39.321][DONE][CLIENT][INFO] Adding "minecraft:crafting" recipe, of type: "mirroring shaped", with name: "crafttweaker:studded_cestus" that outputs: <item:spartanweaponry:cestus_studded>.mutable()
+[22:37:39.321][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:spartanweaponry:club_studded>"
+[22:37:39.328][DONE][CLIENT][INFO] Adding "minecraft:crafting" recipe, of type: "mirroring shaped", with name: "crafttweaker:studded_club" that outputs: <item:spartanweaponry:club_studded>.mutable()
+[22:37:39.329][DONE][CLIENT][INFO] Adding "minecraft:crafting" recipe, of type: "mirroring shaped", with name: "crafttweaker:stone_axe" that outputs: <item:minecraft:stone_axe>.mutable()
+[22:37:39.329][DONE][CLIENT][INFO] Adding "minecraft:crafting" recipe, of type: "mirroring shaped", with name: "crafttweaker:stone_hoe" that outputs: <item:minecraft:stone_hoe>.mutable()
+[22:37:39.329][DONE][CLIENT][INFO] Adding "minecraft:crafting" recipe, of type: "shaped", with name: "crafttweaker:stone_pickaxe" that outputs: <item:minecraft:stone_pickaxe>.mutable()
+[22:37:39.330][DONE][CLIENT][INFO] Adding "minecraft:crafting" recipe, of type: "shaped", with name: "crafttweaker:stone_shovel" that outputs: <item:minecraft:stone_shovel>.mutable()
+[22:37:39.330][DONE][CLIENT][INFO] Adding "minecraft:crafting" recipe, of type: "shaped", with name: "crafttweaker:stone_sword" that outputs: <item:minecraft:stone_sword>.mutable()
+[22:37:39.331][DONE][CLIENT][INFO] Adding "minecraft:crafting" recipe, of type: "mirroring shaped", with name: "crafttweaker:wooden_axe" that outputs: <item:minecraft:wooden_axe>.mutable()
+[22:37:39.331][DONE][CLIENT][INFO] Adding "minecraft:crafting" recipe, of type: "mirroring shaped", with name: "crafttweaker:wooden_hoe" that outputs: <item:minecraft:wooden_hoe>.mutable()
+[22:37:39.331][DONE][CLIENT][INFO] Adding "minecraft:crafting" recipe, of type: "shaped", with name: "crafttweaker:wooden_pickaxe" that outputs: <item:minecraft:wooden_pickaxe>.mutable()
+[22:37:39.332][DONE][CLIENT][INFO] Adding "minecraft:crafting" recipe, of type: "shaped", with name: "crafttweaker:wooden_shovel" that outputs: <item:minecraft:wooden_shovel>.mutable()
+[22:37:39.332][DONE][CLIENT][INFO] Adding "minecraft:crafting" recipe, of type: "shaped", with name: "crafttweaker:wooden_sword" that outputs: <item:minecraft:wooden_sword>.mutable()
+[22:37:39.332][DONE][CLIENT][INFO] Finished loading Scripts!
+[22:37:39.362][DONE][CLIENT][INFO] This reload was made possible by Phillip Swearingain and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
+[22:39:17.804][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
+[22:39:17.860][DONE][CLIENT][INFO] Loading file: 'Armor\Mystical Agriculture\imperium_boots.zs' with priority: 10
+[22:39:17.860][DONE][CLIENT][INFO] Loading file: 'Armor\Mystical Agriculture\imperium_chestplate.zs' with priority: 10
+[22:39:17.860][DONE][CLIENT][INFO] Loading file: 'Armor\Mystical Agriculture\imperium_helmet.zs' with priority: 10
+[22:39:17.860][DONE][CLIENT][INFO] Loading file: 'Armor\Mystical Agriculture\imperium_leggings.zs' with priority: 10
+[22:39:17.860][DONE][CLIENT][INFO] Loading file: 'Armor\Mystical Agriculture\inferium_boots.zs' with priority: 10
+[22:39:17.861][DONE][CLIENT][INFO] Loading file: 'Armor\Mystical Agriculture\inferium_chestplate.zs' with priority: 10
+[22:39:17.861][DONE][CLIENT][INFO] Loading file: 'Armor\Mystical Agriculture\inferium_helmet.zs' with priority: 10
+[22:39:17.861][DONE][CLIENT][INFO] Loading file: 'Armor\Mystical Agriculture\inferium_leggings.zs' with priority: 10
+[22:39:17.861][DONE][CLIENT][INFO] Loading file: 'Armor\Mystical Agriculture\insanium_boots.zs' with priority: 10
+[22:39:17.861][DONE][CLIENT][INFO] Loading file: 'Armor\Mystical Agriculture\insanium_chestplate.zs' with priority: 10
+[22:39:17.861][DONE][CLIENT][INFO] Loading file: 'Armor\Mystical Agriculture\insanium_helmet.zs' with priority: 10
+[22:39:17.861][DONE][CLIENT][INFO] Loading file: 'Armor\Mystical Agriculture\insanium_leggings.zs' with priority: 10
+[22:39:17.861][DONE][CLIENT][INFO] Loading file: 'Armor\Mystical Agriculture\prudentium_boots.zs' with priority: 10
+[22:39:17.862][DONE][CLIENT][INFO] Loading file: 'Armor\Mystical Agriculture\prudentium_chestplate.zs' with priority: 10
+[22:39:17.862][DONE][CLIENT][INFO] Loading file: 'Armor\Mystical Agriculture\prudentium_helmet.zs' with priority: 10
+[22:39:17.862][DONE][CLIENT][INFO] Loading file: 'Armor\Mystical Agriculture\prudentium_leggings.zs' with priority: 10
+[22:39:17.862][DONE][CLIENT][INFO] Loading file: 'Armor\Mystical Agriculture\supremium_boots.zs' with priority: 10
+[22:39:17.862][DONE][CLIENT][INFO] Loading file: 'Armor\Mystical Agriculture\supremium_chestplate.zs' with priority: 10
+[22:39:17.863][DONE][CLIENT][INFO] Loading file: 'Armor\Mystical Agriculture\supremium_helmet.zs' with priority: 10
+[22:39:17.863][DONE][CLIENT][INFO] Loading file: 'Armor\Mystical Agriculture\supremium_leggings.zs' with priority: 10
+[22:39:17.863][DONE][CLIENT][INFO] Loading file: 'Armor\Mystical Agriculture\tertium_boots.zs' with priority: 10
+[22:39:17.863][DONE][CLIENT][INFO] Loading file: 'Armor\Mystical Agriculture\tertium_chestplate.zs' with priority: 10
+[22:39:17.863][DONE][CLIENT][INFO] Loading file: 'Armor\Mystical Agriculture\tertium_helmet.zs' with priority: 10
+[22:39:17.863][DONE][CLIENT][INFO] Loading file: 'Armor\Mystical Agriculture\tertium_leggings.zs' with priority: 10
+[22:39:17.864][DONE][CLIENT][INFO] Loading file: 'Armor\Organics\blue_obsidian_boots.zs' with priority: 10
+[22:39:17.864][DONE][CLIENT][INFO] Loading file: 'Armor\Organics\blue_obsidian_chestplate.zs' with priority: 10
+[22:39:17.864][DONE][CLIENT][INFO] Loading file: 'Armor\Organics\blue_obsidian_helmet.zs' with priority: 10
+[22:39:17.864][DONE][CLIENT][INFO] Loading file: 'Armor\Organics\blue_obsidian_leggings.zs' with priority: 10
+[22:39:17.864][DONE][CLIENT][INFO] Loading file: 'Armor\Organics\cobblestone_boots.zs' with priority: 10
+[22:39:17.864][DONE][CLIENT][INFO] Loading file: 'Armor\Organics\cobblestone_chestplate.zs' with priority: 10
+[22:39:17.864][DONE][CLIENT][INFO] Loading file: 'Armor\Organics\cobblestone_helmet.zs' with priority: 10
+[22:39:17.864][DONE][CLIENT][INFO] Loading file: 'Armor\Organics\cobblestone_leggings.zs' with priority: 10
+[22:39:17.864][DONE][CLIENT][INFO] Loading file: 'Armor\Organics\emerald_boots.zs' with priority: 10
+[22:39:17.864][DONE][CLIENT][INFO] Loading file: 'Armor\Organics\emerald_chestplate.zs' with priority: 10
+[22:39:17.864][DONE][CLIENT][INFO] Loading file: 'Armor\Organics\emerald_helmet.zs' with priority: 10
+[22:39:17.864][DONE][CLIENT][INFO] Loading file: 'Armor\Organics\emerald_leggings.zs' with priority: 10
+[22:39:17.864][DONE][CLIENT][INFO] Loading file: 'Armor\Organics\enderite_boots.zs' with priority: 10
+[22:39:17.864][DONE][CLIENT][INFO] Loading file: 'Armor\Organics\enderite_chestplate.zs' with priority: 10
+[22:39:17.864][DONE][CLIENT][INFO] Loading file: 'Armor\Organics\enderite_helmet.zs' with priority: 10
+[22:39:17.864][DONE][CLIENT][INFO] Loading file: 'Armor\Organics\enderite_leggings.zs' with priority: 10
+[22:39:17.864][DONE][CLIENT][INFO] Loading file: 'Armor\Organics\planks_boots.zs' with priority: 10
+[22:39:17.864][DONE][CLIENT][INFO] Loading file: 'Armor\Organics\planks_chestplate.zs' with priority: 10
+[22:39:17.864][DONE][CLIENT][INFO] Loading file: 'Armor\Organics\planks_helmet.zs' with priority: 10
+[22:39:17.864][DONE][CLIENT][INFO] Loading file: 'Armor\Organics\planks_leggings.zs' with priority: 10
+[22:39:17.864][DONE][CLIENT][INFO] Loading file: 'Armor\Organics\quartz_boots.zs' with priority: 10
+[22:39:17.864][DONE][CLIENT][INFO] Loading file: 'Armor\Organics\quartz_chestplate.zs' with priority: 10
+[22:39:17.864][DONE][CLIENT][INFO] Loading file: 'Armor\Organics\quartz_helmet.zs' with priority: 10
+[22:39:17.864][DONE][CLIENT][INFO] Loading file: 'Armor\Organics\quartz_leggings.zs' with priority: 10
+[22:39:17.864][DONE][CLIENT][INFO] Loading file: 'Armor\Organics\redstone_boots.zs' with priority: 10
+[22:39:17.864][DONE][CLIENT][INFO] Loading file: 'Armor\Organics\redstone_chestplate.zs' with priority: 10
+[22:39:17.864][DONE][CLIENT][INFO] Loading file: 'Armor\Organics\redstone_dispenser_chestplate.zs' with priority: 10
+[22:39:17.864][DONE][CLIENT][INFO] Loading file: 'Armor\Organics\redstone_helmet.zs' with priority: 10
+[22:39:17.864][DONE][CLIENT][INFO] Loading file: 'Armor\Organics\redstone_leggings.zs' with priority: 10
+[22:39:17.865][DONE][CLIENT][INFO] Loading file: 'Armor\Organics\shulker_boots.zs' with priority: 10
+[22:39:17.865][DONE][CLIENT][INFO] Loading file: 'Armor\Organics\shulker_chestplate.zs' with priority: 10
+[22:39:17.865][DONE][CLIENT][INFO] Loading file: 'Armor\Organics\shulker_helmet.zs' with priority: 10
+[22:39:17.865][DONE][CLIENT][INFO] Loading file: 'Armor\Organics\shulker_leggings.zs' with priority: 10
+[22:39:17.865][DONE][CLIENT][INFO] Loading file: 'Armor\Vanilla\diamond_boots.zs' with priority: 10
+[22:39:17.865][DONE][CLIENT][INFO] Loading file: 'Armor\Vanilla\diamond_chestplate.zs' with priority: 10
+[22:39:17.865][DONE][CLIENT][INFO] Loading file: 'Armor\Vanilla\diamond_helmet.zs' with priority: 10
+[22:39:17.866][DONE][CLIENT][INFO] Loading file: 'Armor\Vanilla\diamond_leggings.zs' with priority: 10
+[22:39:17.866][DONE][CLIENT][INFO] Loading file: 'Armor\Vanilla\golden_boots.zs' with priority: 10
+[22:39:17.866][DONE][CLIENT][INFO] Loading file: 'Armor\Vanilla\golden_chestplate.zs' with priority: 10
+[22:39:17.866][DONE][CLIENT][INFO] Loading file: 'Armor\Vanilla\golden_helmet.zs' with priority: 10
+[22:39:17.866][DONE][CLIENT][INFO] Loading file: 'Armor\Vanilla\golden_leggings.zs' with priority: 10
+[22:39:17.866][DONE][CLIENT][INFO] Loading file: 'Armor\Vanilla\iron_boots.zs' with priority: 10
+[22:39:17.866][DONE][CLIENT][INFO] Loading file: 'Armor\Vanilla\iron_chestplate.zs' with priority: 10
+[22:39:17.866][DONE][CLIENT][INFO] Loading file: 'Armor\Vanilla\iron_helmet.zs' with priority: 10
+[22:39:17.866][DONE][CLIENT][INFO] Loading file: 'Armor\Vanilla\iron_leggings.zs' with priority: 10
+[22:39:17.867][DONE][CLIENT][INFO] Loading file: 'Armor\Vanilla\netherite_boots.zs' with priority: 10
+[22:39:17.867][DONE][CLIENT][INFO] Loading file: 'Armor\Vanilla\netherite_chestplate.zs' with priority: 10
+[22:39:17.867][DONE][CLIENT][INFO] Loading file: 'Armor\Vanilla\netherite_helmet.zs' with priority: 10
+[22:39:17.867][DONE][CLIENT][INFO] Loading file: 'Armor\Vanilla\netherite_leggings.zs' with priority: 10
+[22:39:17.867][DONE][CLIENT][INFO] Loading file: 'Armor\Wyrmroost\platinum_boots.zs' with priority: 10
+[22:39:17.867][DONE][CLIENT][INFO] Loading file: 'Armor\Wyrmroost\platinum_chestplate.zs' with priority: 10
+[22:39:17.867][DONE][CLIENT][INFO] Loading file: 'Armor\Wyrmroost\platinum_helmet.zs' with priority: 10
+[22:39:17.867][DONE][CLIENT][INFO] Loading file: 'Armor\Wyrmroost\platinum_leggings.zs' with priority: 10
+[22:39:17.867][DONE][CLIENT][INFO] Loading file: 'GameStages\gamestages.zs' with priority: 10
+[22:39:17.868][DONE][CLIENT][INFO] Loading file: 'Misc\Advent of Ascension\copper_coin.zs' with priority: 10
+[22:39:17.868][DONE][CLIENT][INFO] Loading file: 'Misc\Advent of Ascension\gold_coin.zs' with priority: 10
+[22:39:17.868][DONE][CLIENT][INFO] Loading file: 'Misc\Advent of Ascension\silver_coin.zs' with priority: 10
+[22:39:17.868][DONE][CLIENT][INFO] Loading file: 'Misc\Caged Mobs\hopping_mob_cage.zs' with priority: 10
+[22:39:17.868][DONE][CLIENT][INFO] Loading file: 'Misc\Caged Mobs\mob_cage.zs' with priority: 10
+[22:39:17.868][DONE][CLIENT][INFO] Loading file: 'Misc\ColdSweat\hearth.zs' with priority: 10
+[22:39:17.868][DONE][CLIENT][INFO] Loading file: 'Misc\ColdSweat\sewing_table.zs' with priority: 10
+[22:39:17.868][DONE][CLIENT][INFO] Loading file: 'Misc\Compasses\explorers_compass.zs' with priority: 10
+[22:39:17.868][DONE][CLIENT][INFO] Loading file: 'Misc\Compasses\natures_compass.zs' with priority: 10
+[22:39:17.868][DONE][CLIENT][INFO] Loading file: 'Misc\Danks\dank_1.zs' with priority: 10
+[22:39:17.869][DONE][CLIENT][INFO] Loading file: 'Misc\Danks\dank_2.zs' with priority: 10
+[22:39:17.869][DONE][CLIENT][INFO] Loading file: 'Misc\Danks\dank_3.zs' with priority: 10
+[22:39:17.869][DONE][CLIENT][INFO] Loading file: 'Misc\Danks\dank_4.zs' with priority: 10
+[22:39:17.869][DONE][CLIENT][INFO] Loading file: 'Misc\Danks\dank_5.zs' with priority: 10
+[22:39:17.869][DONE][CLIENT][INFO] Loading file: 'Misc\Danks\dank_6.zs' with priority: 10
+[22:39:17.869][DONE][CLIENT][INFO] Loading file: 'Misc\Danks\dank_7.zs' with priority: 10
+[22:39:17.870][DONE][CLIENT][INFO] Loading file: 'Misc\Easy Piglins\barterer.zs' with priority: 10
+[22:39:17.870][DONE][CLIENT][INFO] Loading file: 'Misc\Easy Villagers\auto_trader.zs' with priority: 10
+[22:39:17.870][DONE][CLIENT][INFO] Loading file: 'Misc\Easy Villagers\breeder.zs' with priority: 10
+[22:39:17.870][DONE][CLIENT][INFO] Loading file: 'Misc\Easy Villagers\converter.zs' with priority: 10
+[22:39:17.870][DONE][CLIENT][INFO] Loading file: 'Misc\Easy Villagers\farmer.zs' with priority: 10
+[22:39:17.870][DONE][CLIENT][INFO] Loading file: 'Misc\Easy Villagers\incubator.zs' with priority: 10
+[22:39:17.870][DONE][CLIENT][INFO] Loading file: 'Misc\Easy Villagers\iron_farm.zs' with priority: 10
+[22:39:17.870][DONE][CLIENT][INFO] Loading file: 'Misc\Easy Villagers\trader.zs' with priority: 10
+[22:39:17.870][DONE][CLIENT][INFO] Loading file: 'Misc\Effortless Building\reach_upgrade_one.zs' with priority: 10
+[22:39:17.870][DONE][CLIENT][INFO] Loading file: 'Misc\Effortless Building\reach_upgrade_three.zs' with priority: 10
+[22:39:17.870][DONE][CLIENT][INFO] Loading file: 'Misc\Effortless Building\reach_upgrade_two.zs' with priority: 10
+[22:39:17.870][DONE][CLIENT][INFO] Loading file: 'Misc\EmendatusEnigmatica\diamond_plate.zs' with priority: 10
+[22:39:17.870][DONE][CLIENT][INFO] Loading file: 'Misc\EmendatusEnigmatica\gold_plate.zs' with priority: 10
+[22:39:17.870][DONE][CLIENT][INFO] Loading file: 'Misc\EmendatusEnigmatica\iron_plate.zs' with priority: 10
+[22:39:17.871][DONE][CLIENT][INFO] Loading file: 'Misc\Extended Crafting\black_iron.zs' with priority: 10
+[22:39:17.871][DONE][CLIENT][INFO] Loading file: 'Misc\Forbidden & Arcanus\eternal_stella.zs' with priority: 10
+[22:39:17.871][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\AOE Pets\dubstep_pet.zs' with priority: 10
+[22:39:17.871][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\AOE Pets\heart_pet.zs' with priority: 10
+[22:39:17.871][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\AOE Pets\moon_pet.zs' with priority: 10
+[22:39:17.871][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\AOE Pets\shield_pet.zs' with priority: 10
+[22:39:17.871][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Fan-Suggested Pets\apple_pet.zs' with priority: 10
+[22:39:17.871][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Fan-Suggested Pets\cheetah_pet.zs' with priority: 10
+[22:39:17.871][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Fan-Suggested Pets\house_pet.zs' with priority: 10
+[22:39:17.871][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Fan-Suggested Pets\pacman_pet.zs' with priority: 10
+[22:39:17.871][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Fan-Suggested Pets\pixie_pet.zs' with priority: 10
+[22:39:17.871][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Fan-Suggested Pets\silverfish_pet.zs' with priority: 10
+[22:39:17.871][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Fan-Suggested Pets\torch_pet.zs' with priority: 10
+[22:39:17.871][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Fan-Suggested Pets\wolf_pet.zs' with priority: 10
+[22:39:17.871][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Holiday Pets\april_fool_pet.zs' with priority: 10
+[22:39:17.871][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Holiday Pets\christmas_pet.zs' with priority: 10
+[22:39:17.871][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Holiday Pets\hanukkah_pet.zs' with priority: 10
+[22:39:17.871][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Holiday Pets\kwanzaa_pet.zs' with priority: 10
+[22:39:17.871][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Holiday Pets\politically_correct_pet.zs' with priority: 10
+[22:39:17.871][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Legendary Pets\black_hole_pet.zs' with priority: 10
+[22:39:17.871][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Legendary Pets\cloud_pet.zs' with priority: 10
+[22:39:17.871][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Legendary Pets\pufferfish_pet.zs' with priority: 10
+[22:39:17.872][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Legendary Pets\slime_pet.zs' with priority: 10
+[22:39:17.872][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Legendary Pets\sun_pet.zs' with priority: 10
+[22:39:17.872][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Legendary Pets\wither_pet.zs' with priority: 10
+[22:39:17.872][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Mob Pets\blaze_pet.zs' with priority: 10
+[22:39:17.872][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Mob Pets\creeper_pet.zs' with priority: 10
+[22:39:17.872][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Mob Pets\enderman_pet.zs' with priority: 10
+[22:39:17.872][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Mob Pets\ghast_pet.zs' with priority: 10
+[22:39:17.872][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Mob Pets\iron_golem_pet.zs' with priority: 10
+[22:39:17.872][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Mob Pets\magma_cube_pet.zs' with priority: 10
+[22:39:17.872][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Mob Pets\snow_golem_pet.zs' with priority: 10
+[22:39:17.872][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Mob Pets\spider_pet.zs' with priority: 10
+[22:39:17.872][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Peaceful Pets\chicken_pet.zs' with priority: 10
+[22:39:17.872][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Peaceful Pets\cow_pet.zs' with priority: 10
+[22:39:17.872][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Peaceful Pets\mooshroom_pet.zs' with priority: 10
+[22:39:17.872][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Peaceful Pets\ocelot_pet.zs' with priority: 10
+[22:39:17.872][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Peaceful Pets\pig_pet.zs' with priority: 10
+[22:39:17.872][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Peaceful Pets\sheep_pet.zs' with priority: 10
+[22:39:17.872][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Peaceful Pets\squid_pet.zs' with priority: 10
+[22:39:17.872][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Special Pets\banana_pet.zs' with priority: 10
+[22:39:17.872][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Special Pets\biome_pet.zs' with priority: 10
+[22:39:17.872][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Special Pets\flying_saddle_pet.zs' with priority: 10
+[22:39:17.872][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Special Pets\grave_pet.zs' with priority: 10
+[22:39:17.872][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Special Pets\loot_pet.zs' with priority: 10
+[22:39:17.872][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Special Pets\meta_pet.zs' with priority: 10
+[22:39:17.872][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Special Pets\mickerson_pet.zs' with priority: 10
+[22:39:17.872][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Special Pets\pingot_pet.zs' with priority: 10
+[22:39:17.872][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Special Pets\purplicious_cow_pet.zs' with priority: 10
+[22:39:17.872][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Special Pets\qcm_pet.zs' with priority: 10
+[22:39:17.872][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Special Pets\quiver_pet.zs' with priority: 10
+[22:39:17.872][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Special Pets\sponge_pet.zs' with priority: 10
+[22:39:17.872][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Utility Pets\anvil_pet.zs' with priority: 10
+[22:39:17.872][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Utility Pets\bed_pet.zs' with priority: 10
+[22:39:17.872][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Utility Pets\brewing_stand_pet.zs' with priority: 10
+[22:39:17.872][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Utility Pets\chest_pet.zs' with priority: 10
+[22:39:17.872][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Utility Pets\crafting_table_pet.zs' with priority: 10
+[22:39:17.872][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Utility Pets\double_chest_pet.zs' with priority: 10
+[22:39:17.872][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Utility Pets\enchanting_table_pet.zs' with priority: 10
+[22:39:17.872][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Utility Pets\ender_chest_pet.zs' with priority: 10
+[22:39:17.872][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Utility Pets\furnace_pet.zs' with priority: 10
+[22:39:17.872][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Utility Pets\jukebox_pet.zs' with priority: 10
+[22:39:17.872][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Utility Pets\lead_pet.zs' with priority: 10
+[22:39:17.872][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Utility Pets\nether_portal_pet.zs' with priority: 10
+[22:39:17.872][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Utility Pets\saddle_pet.zs' with priority: 10
+[22:39:17.872][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Youtuber Pets\cobblestone_pet.zs' with priority: 10
+[22:39:17.872][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Youtuber Pets\dirt_pet.zs' with priority: 10
+[22:39:17.872][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Youtuber Pets\illuminati_pet.zs' with priority: 10
+[22:39:17.873][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Youtuber Pets\juggernaut_pet.zs' with priority: 10
+[22:39:17.873][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\Youtuber Pets\siamese_pet.zs' with priority: 10
+[22:39:17.873][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\feed_bag.zs' with priority: 10
+[22:39:17.873][DONE][CLIENT][INFO] Loading file: 'Misc\Inventory Pets\petrifier.zs' with priority: 10
+[22:39:17.873][DONE][CLIENT][INFO] Loading file: 'Misc\Mystical Agriculture\infusion_altar.zs' with priority: 10
+[22:39:17.873][DONE][CLIENT][INFO] Loading file: 'Misc\Mystical Agriculture\infusion_pedestal.zs' with priority: 10
+[22:39:17.873][DONE][CLIENT][INFO] Loading file: 'Misc\NoCube's Wilderness\tough_trousers.zs' with priority: 10
+[22:39:17.873][DONE][CLIENT][INFO] Loading file: 'Misc\Paragliders\paraglider.zs' with priority: 10
+[22:39:17.873][DONE][CLIENT][INFO] Loading file: 'Misc\Simple Generators\simple_combustion_generator.zs' with priority: 10
+[22:39:17.873][DONE][CLIENT][INFO] Loading file: 'Misc\Simple Generators\simple_culinary_generator.zs' with priority: 10
+[22:39:17.873][DONE][CLIENT][INFO] Loading file: 'Misc\Simple Generators\simple_ender_generator.zs' with priority: 10
+[22:39:17.873][DONE][CLIENT][INFO] Loading file: 'Misc\Simple Generators\simple_fluid_combustion_generator.zs' with priority: 10
+[22:39:17.873][DONE][CLIENT][INFO] Loading file: 'Misc\Simple Generators\simple_geothermal_generator.zs' with priority: 10
+[22:39:17.873][DONE][CLIENT][INFO] Loading file: 'Misc\Simple Generators\simple_nether_generator.zs' with priority: 10
+[22:39:17.873][DONE][CLIENT][INFO] Loading file: 'Misc\Simple Generators\simple_pink_generator.zs' with priority: 10
+[22:39:17.873][DONE][CLIENT][INFO] Loading file: 'Misc\Simple Generators\simple_potion_generator.zs' with priority: 10
+[22:39:17.873][DONE][CLIENT][INFO] Loading file: 'Misc\Simple Generators\simple_soul_generator.zs' with priority: 10
+[22:39:17.873][DONE][CLIENT][INFO] Loading file: 'Misc\Simple Generators\simple_tnt_generator.zs' with priority: 10
+[22:39:17.873][DONE][CLIENT][INFO] Loading file: 'Misc\Simple Generators\simple_turbine_generator.zs' with priority: 10
+[22:39:17.874][DONE][CLIENT][INFO] Loading file: 'Misc\Simple Generators\simple_xp_generator.zs' with priority: 10
+[22:39:17.874][DONE][CLIENT][INFO] Loading file: 'Misc\Sophisticated Backpacks\diamond_backpack.zs' with priority: 10
+[22:39:17.874][DONE][CLIENT][INFO] Loading file: 'Misc\Sophisticated Backpacks\gold_backpack.zs' with priority: 10
+[22:39:17.874][DONE][CLIENT][INFO] Loading file: 'Misc\Sophisticated Backpacks\iron_backpack.zs' with priority: 10
+[22:39:17.874][DONE][CLIENT][INFO] Loading file: 'Misc\Sophisticated Backpacks\netherite_backpack.zs' with priority: 10
+[22:39:17.874][DONE][CLIENT][INFO] Loading file: 'Misc\Vanilla\bread.zs' with priority: 10
+[22:39:17.874][DONE][CLIENT][INFO] Loading file: 'Misc\Vanilla\campfire.zs' with priority: 10
+[22:39:17.874][DONE][CLIENT][INFO] Loading file: 'Misc\Wards\ward.zs' with priority: 10
+[22:39:17.874][DONE][CLIENT][INFO] Loading file: 'Misc\Wards\ward_core.zs' with priority: 10
+[22:39:17.874][DONE][CLIENT][INFO] Loading file: 'Misc\creative_essence.zs' with priority: 10
+[22:39:17.874][DONE][CLIENT][INFO] Loading file: 'Misc\network_collector_remote.zs' with priority: 10
+[22:39:17.874][DONE][CLIENT][INFO] Loading file: 'Tools and Weapons\Organics\blazed_diamond_sword.zs' with priority: 10
+[22:39:17.874][DONE][CLIENT][INFO] Loading file: 'Tools and Weapons\Organics\blazed_golden_sword.zs' with priority: 10
+[22:39:17.874][DONE][CLIENT][INFO] Loading file: 'Tools and Weapons\Organics\blazed_iron_sword.zs' with priority: 10
+[22:39:17.874][DONE][CLIENT][INFO] Loading file: 'Tools and Weapons\Organics\blazed_netherite_sword.zs' with priority: 10
+[22:39:17.874][DONE][CLIENT][INFO] Loading file: 'Tools and Weapons\Organics\blazed_stone_sword.zs' with priority: 10
+[22:39:17.874][DONE][CLIENT][INFO] Loading file: 'Tools and Weapons\Organics\blazed_wooden_sword.zs' with priority: 10
+[22:39:17.874][DONE][CLIENT][INFO] Loading file: 'Tools and Weapons\Organics\diamond_extratool.zs' with priority: 10
+[22:39:17.874][DONE][CLIENT][INFO] Loading file: 'Tools and Weapons\Organics\enderite_crossbow.zs' with priority: 10
+[22:39:17.875][DONE][CLIENT][INFO] Loading file: 'Tools and Weapons\Organics\flint_axe.zs' with priority: 10
+[22:39:17.875][DONE][CLIENT][INFO] Loading file: 'Tools and Weapons\Organics\flint_hoe.zs' with priority: 10
+[22:39:17.875][DONE][CLIENT][INFO] Loading file: 'Tools and Weapons\Organics\flint_pickaxe.zs' with priority: 10
+[22:39:17.875][DONE][CLIENT][INFO] Loading file: 'Tools and Weapons\Organics\flint_shovel.zs' with priority: 10
+[22:39:17.875][DONE][CLIENT][INFO] Loading file: 'Tools and Weapons\Organics\flint_sword.zs' with priority: 10
+[22:39:17.875][DONE][CLIENT][INFO] Loading file: 'Tools and Weapons\Organics\golden_extratool.zs' with priority: 10
+[22:39:17.875][DONE][CLIENT][INFO] Loading file: 'Tools and Weapons\Organics\iron_extratool.zs' with priority: 10
+[22:39:17.875][DONE][CLIENT][INFO] Loading file: 'Tools and Weapons\Organics\netherite_extratool.zs' with priority: 10
+[22:39:17.875][DONE][CLIENT][INFO] Loading file: 'Tools and Weapons\Organics\stone_extratool.zs' with priority: 10
+[22:39:17.875][DONE][CLIENT][INFO] Loading file: 'Tools and Weapons\Organics\wooden_extratool.zs' with priority: 10
+[22:39:17.875][DONE][CLIENT][INFO] Loading file: 'Tools and Weapons\Spartan Weaponry\cestus.zs' with priority: 10
+[22:39:17.875][DONE][CLIENT][INFO] Loading file: 'Tools and Weapons\Spartan Weaponry\club.zs' with priority: 10
+[22:39:17.875][DONE][CLIENT][INFO] Loading file: 'Tools and Weapons\Spartan Weaponry\studded_cestus.zs' with priority: 10
+[22:39:17.875][DONE][CLIENT][INFO] Loading file: 'Tools and Weapons\Spartan Weaponry\studded_club.zs' with priority: 10
+[22:39:17.875][DONE][CLIENT][INFO] Loading file: 'Tools and Weapons\Vanilla\stone_axe.zs' with priority: 10
+[22:39:17.875][DONE][CLIENT][INFO] Loading file: 'Tools and Weapons\Vanilla\stone_hoe.zs' with priority: 10
+[22:39:17.875][DONE][CLIENT][INFO] Loading file: 'Tools and Weapons\Vanilla\stone_pickaxe.zs' with priority: 10
+[22:39:17.875][DONE][CLIENT][INFO] Loading file: 'Tools and Weapons\Vanilla\stone_shovel.zs' with priority: 10
+[22:39:17.875][DONE][CLIENT][INFO] Loading file: 'Tools and Weapons\Vanilla\stone_sword.zs' with priority: 10
+[22:39:17.875][DONE][CLIENT][INFO] Loading file: 'Tools and Weapons\Vanilla\wooden_axe.zs' with priority: 10
+[22:39:17.875][DONE][CLIENT][INFO] Loading file: 'Tools and Weapons\Vanilla\wooden_hoe.zs' with priority: 10
+[22:39:17.875][DONE][CLIENT][INFO] Loading file: 'Tools and Weapons\Vanilla\wooden_pickaxe.zs' with priority: 10
+[22:39:17.875][DONE][CLIENT][INFO] Loading file: 'Tools and Weapons\Vanilla\wooden_shovel.zs' with priority: 10
+[22:39:17.875][DONE][CLIENT][INFO] Loading file: 'Tools and Weapons\Vanilla\wooden_sword.zs' with priority: 10
+[22:39:17.980][DONE][CLIENT][INFO] Hiding Ingredient <item:organics:blue_obsidian_boots> from JEI
+[22:39:17.981][DONE][CLIENT][INFO] Hiding Ingredient <item:organics:blue_obsidian_chestplate> from JEI
+[22:39:17.981][DONE][CLIENT][INFO] Hiding Ingredient <item:organics:blue_obsidian_helmet> from JEI
+[22:39:17.981][DONE][CLIENT][INFO] Hiding Ingredient <item:organics:blue_obsidian_leggings> from JEI
+[22:39:17.982][DONE][CLIENT][INFO] Hiding Ingredient <item:organics:cobblestone_boots> from JEI
+[22:39:17.982][DONE][CLIENT][INFO] Hiding Ingredient <item:organics:cobblestone_chestplate> from JEI
+[22:39:17.982][DONE][CLIENT][INFO] Hiding Ingredient <item:organics:cobblestone_helmet> from JEI
+[22:39:17.982][DONE][CLIENT][INFO] Hiding Ingredient <item:organics:cobblestone_leggings> from JEI
+[22:39:17.982][DONE][CLIENT][INFO] Hiding Ingredient <item:organics:emerald_boots> from JEI
+[22:39:17.983][DONE][CLIENT][INFO] Hiding Ingredient <item:organics:emerald_chestplate> from JEI
+[22:39:17.983][DONE][CLIENT][INFO] Hiding Ingredient <item:organics:emerald_helmet> from JEI
+[22:39:17.983][DONE][CLIENT][INFO] Hiding Ingredient <item:organics:emerald_leggings> from JEI
+[22:39:17.983][DONE][CLIENT][INFO] Hiding Ingredient <item:organics:enderite_boots> from JEI
+[22:39:17.983][DONE][CLIENT][INFO] Hiding Ingredient <item:organics:enderite_chestplate> from JEI
+[22:39:17.984][DONE][CLIENT][INFO] Hiding Ingredient <item:organics:enderite_helmet> from JEI
+[22:39:17.984][DONE][CLIENT][INFO] Hiding Ingredient <item:organics:enderite_leggings> from JEI
+[22:39:17.984][DONE][CLIENT][INFO] Hiding Ingredient <item:organics:planks_boots> from JEI
+[22:39:17.984][DONE][CLIENT][INFO] Hiding Ingredient <item:organics:planks_chestplate> from JEI
+[22:39:17.984][DONE][CLIENT][INFO] Hiding Ingredient <item:organics:planks_helmet> from JEI
+[22:39:17.984][DONE][CLIENT][INFO] Hiding Ingredient <item:organics:planks_leggings> from JEI
+[22:39:17.984][DONE][CLIENT][INFO] Hiding Ingredient <item:organics:quartz_boots> from JEI
+[22:39:17.985][DONE][CLIENT][INFO] Hiding Ingredient <item:organics:quartz_chestplate> from JEI
+[22:39:17.985][DONE][CLIENT][INFO] Hiding Ingredient <item:organics:quartz_helmet> from JEI
+[22:39:17.985][DONE][CLIENT][INFO] Hiding Ingredient <item:organics:quartz_leggings> from JEI
+[22:39:17.985][DONE][CLIENT][INFO] Hiding Ingredient <item:organics:redstone_boots> from JEI
+[22:39:17.985][DONE][CLIENT][INFO] Hiding Ingredient <item:organics:redstone_chestplate> from JEI
+[22:39:17.985][DONE][CLIENT][INFO] Hiding Ingredient <item:organics:redstone_dispenser_chestplate> from JEI
+[22:39:17.986][DONE][CLIENT][INFO] Hiding Ingredient <item:organics:redstone_helmet> from JEI
+[22:39:17.986][DONE][CLIENT][INFO] Hiding Ingredient <item:organics:redstone_leggings> from JEI
+[22:39:17.986][DONE][CLIENT][INFO] Hiding Ingredient <item:organics:shulker_boots> from JEI
+[22:39:17.986][DONE][CLIENT][INFO] Hiding Ingredient <item:organics:shulker_chestplate> from JEI
+[22:39:17.986][DONE][CLIENT][INFO] Hiding Ingredient <item:organics:shulker_helmet> from JEI
+[22:39:17.986][DONE][CLIENT][INFO] Hiding Ingredient <item:organics:shulker_leggings> from JEI
+[22:39:18.024][DONE][CLIENT][INFO] Hiding Ingredient <item:organics:blazed_diamond_sword> from JEI
+[22:39:18.024][DONE][CLIENT][INFO] Hiding Ingredient <item:organics:blazed_golden_sword> from JEI
+[22:39:18.024][DONE][CLIENT][INFO] Hiding Ingredient <item:organics:blazed_iron_sword> from JEI
+[22:39:18.024][DONE][CLIENT][INFO] Hiding Ingredient <item:organics:blazed_netherite_sword> from JEI
+[22:39:18.024][DONE][CLIENT][INFO] Hiding Ingredient <item:organics:blazed_stone_sword> from JEI
+[22:39:18.024][DONE][CLIENT][INFO] Hiding Ingredient <item:organics:blazed_wooden_sword> from JEI
+[22:39:18.024][DONE][CLIENT][INFO] Hiding Ingredient <item:organics:diamond_extratool> from JEI
+[22:39:18.025][DONE][CLIENT][INFO] Hiding Ingredient <item:organics:ender_crossbow> from JEI
+[22:39:18.025][DONE][CLIENT][INFO] Hiding Ingredient <item:organics:flint_axe> from JEI
+[22:39:18.025][DONE][CLIENT][INFO] Hiding Ingredient <item:organics:flint_hoe> from JEI
+[22:39:18.025][DONE][CLIENT][INFO] Hiding Ingredient <item:organics:flint_pickaxe> from JEI
+[22:39:18.025][DONE][CLIENT][INFO] Hiding Ingredient <item:organics:flint_shovel> from JEI
+[22:39:18.025][DONE][CLIENT][INFO] Hiding Ingredient <item:organics:flint_sword> from JEI
+[22:39:18.025][DONE][CLIENT][INFO] Hiding Ingredient <item:organics:golden_extratool> from JEI
+[22:39:18.025][DONE][CLIENT][INFO] Hiding Ingredient <item:organics:iron_extratool> from JEI
+[22:39:18.025][DONE][CLIENT][INFO] Hiding Ingredient <item:organics:netherite_extratool> from JEI
+[22:39:18.025][DONE][CLIENT][INFO] Hiding Ingredient <item:organics:stone_extratool> from JEI
+[22:39:18.026][DONE][CLIENT][INFO] Hiding Ingredient <item:organics:wooden_extratool> from JEI
+[22:39:18.030][DONE][CLIENT][INFO] Finished loading Scripts!

@@ -1,0 +1,86 @@
+{
+	id: "47110629F1C74617"
+	order_index: 13
+	title: "Fairy Lights"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "fairylights:hanging_lights"
+				Count: 1b
+				tag: {
+					string: "fairylights:black_string"
+					pattern: [{
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+						id: "fairylights:fairy_light"
+						Count: 1b
+						tag: {
+							color: 16383998
+						}
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "fairylights:fairy_light"
+				Count: 1b
+				tag: {
+					color: 16383998
+				}
+			}
+		}
+		{
+			item: {
+				id: "fairylights:flower_light"
+				Count: 1b
+				tag: {
+					color: 16383998
+				}
+			}
+		}
+		{
+			item: {
+				id: "fairylights:candle_lantern_light"
+				Count: 1b
+				tag: {
+					color: 16383998
+				}
+			}
+		}
+		{
+			item: {
+				id: "fairylights:oil_lantern_light"
+				Count: 1b
+				tag: {
+					color: 16383998
+				}
+			}
+		}
+		{
+			item: {
+				id: "fairylights:moon_light"
+				Count: 1b
+				tag: {
+					color: 16383998
+				}
+			}
+		}
+		{
+			item: {
+				id: "fairylights:star_light"
+				Count: 1b
+				tag: {
+					color: 16383998
+				}
+			}
+		}
+	]
+}

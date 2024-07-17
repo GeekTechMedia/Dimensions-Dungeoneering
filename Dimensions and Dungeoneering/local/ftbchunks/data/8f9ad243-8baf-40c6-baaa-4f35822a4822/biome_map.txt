@@ -1,0 +1,11 @@
+#34C byg:baobab_savanna
+#556 minecraft:beach
+#35F cavebiomeapi:caves
+#5C0 corundum_meadows:corundum_meadows
+#4F9 minecraft:dark_forest
+#34D minecraft:deep_lukewarm_ocean
+#008 minecraft:desert
+#04E byg:glowshroom_bayou
+#79A minecraft:lukewarm_ocean
+#7AA byg:red_rock_mountains
+#6BC byg:tropical_rainforest

@@ -1,0 +1,9 @@
+#6EA byg:amaranth_fields
+#507 projectvibrantjourneys:baobab_fields
+#35F cavebiomeapi:caves
+#5D7 byg:deciduous_forest
+#010 minecraft:forest
+#6CE projectvibrantjourneys:overgrown_spires
+#6BC byg:tropical_rainforest
+#452 minecraft:wooded_hills
+#06B byg:woodlands

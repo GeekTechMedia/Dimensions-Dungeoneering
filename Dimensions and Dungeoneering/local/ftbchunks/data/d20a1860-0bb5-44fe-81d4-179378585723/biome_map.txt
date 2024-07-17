@@ -1,0 +1,10 @@
+#556 minecraft:beach
+#35F cavebiomeapi:caves
+#3D6 minecraft:cold_ocean
+#109 minecraft:deep_cold_ocean
+#705 minecraft:deep_frozen_ocean
+#73C byg:grassland_plateau
+#1C1 cavesandcliffs:lush_caves
+#4F1 minecraft:ocean
+#228 byg:rocky_beach
+#71E byg:tropical_fungal_forest

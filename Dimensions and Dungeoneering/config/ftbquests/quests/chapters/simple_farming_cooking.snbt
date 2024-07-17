@@ -1,0 +1,1472 @@
+{
+	id: "5F65998976BB5DF9"
+	group: "36BEEFEA347FE093"
+	order_index: 2
+	filename: "simple_farming_cooking"
+	title: "Cooking With Simplicity"
+	icon: "simplefarming:pizza"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "circle"
+			description: ["Simple Farming is a mod that adds many different foods and plants into the game. It also adds an alcohol brewing system and a scarecrow."]
+			id: "2CBFB917CFBBD4E2"
+			tasks: [{
+				id: "13FF171F541E01D9"
+				type: "checkmark"
+				title: "Simple Farming"
+			}]
+			rewards: [
+				{
+					id: "6C9A8B013D45A622"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7A656CCED76076B1"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: -11.0d
+			y: 1.0d
+			dependencies: ["0B5291440587245E"]
+			id: "4F88D66BF04D8FCF"
+			tasks: [{
+				id: "52BF99E1320F774F"
+				type: "item"
+				item: "simplefarming:birthday_cake"
+			}]
+		}
+		{
+			x: -11.0d
+			y: -2.0d
+			dependencies: ["39229FCC5648658A"]
+			id: "1B642DF608C3BAE4"
+			tasks: [{
+				id: "78A3500A2705F758"
+				type: "item"
+				item: "simplefarming:chocolate_cake"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 0.0d
+			dependencies: ["7B8AF19C27118753"]
+			id: "5CC9EABA91CB695F"
+			tasks: [{
+				id: "3541E23ED7D4233D"
+				type: "item"
+				item: "simplefarming:cheese_block"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -5.5d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "21253063F46E63C1"
+			tasks: [{
+				id: "67C799176AA05BD3"
+				type: "item"
+				item: "simplefarming:curry_powder"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.5d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "7773B6C5BB7C37EB"
+			tasks: [{
+				id: "2BD3645319067F1F"
+				type: "item"
+				item: "simplefarming:jam"
+			}]
+		}
+		{
+			x: -9.5d
+			y: 1.0d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "0B5291440587245E"
+			tasks: [{
+				id: "152887FEB11D143B"
+				type: "item"
+				item: "simplefarming:sprinkles"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -2.5d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "04963A816FE814A4"
+			tasks: [{
+				id: "00ED7600F80E88C3"
+				type: "item"
+				item: "simplefarming:olive_oil"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 0.0d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "7B8AF19C27118753"
+			tasks: [{
+				id: "1B3B9E1C3E8AED83"
+				type: "item"
+				item: "simplefarming:vinegar"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -5.5d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "1AF2014D4C4219A5"
+			tasks: [{
+				id: "6A7A217E327B6965"
+				type: "item"
+				item: "simplefarming:noodles"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 6.0d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "4F8FD39D2250F58B"
+			tasks: [{
+				id: "3A26AF412023D13B"
+				type: "item"
+				item: "simplefarming:beer"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 6.0d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "3D8B4D0123DC4558"
+			tasks: [{
+				id: "15D08FAC9E643539"
+				type: "item"
+				item: "simplefarming:cauim"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 6.0d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "4472C3F2D67EB4AF"
+			tasks: [{
+				id: "08A5A9DA8DF62C09"
+				type: "item"
+				item: "simplefarming:cider"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 6.0d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "1B08672149A51C92"
+			tasks: [{
+				id: "59E328193E8E01E3"
+				type: "item"
+				item: "simplefarming:mead"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 6.0d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "174D3EFC9CF93049"
+			tasks: [{
+				id: "087A845865F7CC7E"
+				type: "item"
+				item: "simplefarming:sake"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 6.0d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "674362E015DC3C3D"
+			tasks: [{
+				id: "04CE83559665342F"
+				type: "item"
+				item: "simplefarming:tiswin"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 6.0d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "1889E2B504E25909"
+			tasks: [{
+				id: "1BE56056A3DA09E0"
+				type: "item"
+				item: "simplefarming:vodka"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 6.0d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "55EE9B8F8EDEF668"
+			tasks: [{
+				id: "13B762FDFC2C6B20"
+				type: "item"
+				item: "simplefarming:whiskey"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 6.0d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "665E921F52680C38"
+			tasks: [{
+				id: "039F9A15EE64E72F"
+				type: "item"
+				item: "simplefarming:wine"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 7.0d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "7CFD59906D754BEF"
+			tasks: [{
+				id: "4481D0110A17685C"
+				type: "item"
+				item: "simplefarming:apple_pie"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 7.0d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "48F1AF90E4A3793A"
+			tasks: [{
+				id: "185F773B4DC97AAC"
+				type: "item"
+				item: "simplefarming:apricot_pie"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 3.0d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "02D7F2349428B6B5"
+			tasks: [{
+				id: "73F66C730B8785A5"
+				type: "item"
+				item: "simplefarming:baked_sweet_potato"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 3.0d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "69C0B07CFE0EE6B7"
+			tasks: [{
+				id: "67738978A5A1831F"
+				type: "item"
+				item: "simplefarming:baked_yam"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 5.0d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "1EFC57389C705E0F"
+			tasks: [{
+				id: "13AFF5BFCE69BF8B"
+				type: "item"
+				item: "simplefarming:banana_bread"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 5.0d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "4DFF8D559C93F4FC"
+			tasks: [{
+				id: "758939BE5D900FD6"
+				type: "item"
+				item: "simplefarming:barley_bread"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 4.0d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "2F27C7A2EE19DB95"
+			tasks: [{
+				id: "5C16F578D7F561B8"
+				type: "item"
+				item: "simplefarming:beef_and_broccoli"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -8.0d
+			dependencies: ["21253063F46E63C1"]
+			id: "44D3ADACF682CD1C"
+			tasks: [{
+				id: "0ED4C4883410E024"
+				type: "item"
+				item: "simplefarming:beef_curry"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 7.0d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "26067CC6136098AB"
+			tasks: [{
+				id: "4810832BDD5FDE0B"
+				type: "item"
+				item: "simplefarming:blackberry_pie"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -5.5d
+			dependencies: ["0C7D2C11427128BF"]
+			id: "7D0D3899173D0999"
+			tasks: [{
+				id: "0365959EFB3EE806"
+				type: "item"
+				item: "simplefarming:blt"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 8.0d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "780DB16FC62E3F49"
+			tasks: [{
+				id: "4DF9F5D34E9CAF60"
+				type: "item"
+				item: "simplefarming:borscht"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 7.0d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "6EB4B49B2B11699F"
+			tasks: [{
+				id: "48E9E80B5A017955"
+				type: "item"
+				item: "simplefarming:blueberry_pie"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 0.5d
+			dependencies: ["5C36393763F16EB1"]
+			id: "3327FBE36CBAC393"
+			tasks: [{
+				id: "434F1AAA79E102F3"
+				type: "item"
+				item: "simplefarming:broccoli_cheese_soup"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 1.5d
+			dependencies: ["5C36393763F16EB1"]
+			id: "7D26EC6B4C2D25A6"
+			tasks: [{
+				id: "41EEAE8C49E0A1E6"
+				type: "item"
+				item: "simplefarming:caesar_salad"
+			}]
+		}
+		{
+			x: -10.0d
+			y: -2.5d
+			dependencies: ["39229FCC5648658A"]
+			id: "2567138F39538F22"
+			tasks: [{
+				id: "6A09DC0656DC2E65"
+				type: "item"
+				item: "simplefarming:candy"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 2.5d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "7A8DB6EF2D3A0679"
+			tasks: [{
+				id: "60B5184BEAE31C16"
+				type: "item"
+				item: "simplefarming:candy_cane"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 8.0d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "1BA739070C7EC7AB"
+			tasks: [{
+				id: "0FDBB820C5BD6E36"
+				type: "item"
+				item: "simplefarming:carrot_soup"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 3.5d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "4733EC642A4D6ABF"
+			tasks: [{
+				id: "51AD1290770727A2"
+				type: "item"
+				item: "simplefarming:cassava_cake"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 0.0d
+			description: ["To obtain cheese slices, you must first craft the wheel of cheese. This is done by combining a milk bucket with a bottle of vinegar. This dynamic block can be placed down like a cake block, and whenever you need cheese slices, you can simply right-click the wheel of cheese to yield one slice."]
+			dependencies: ["5CC9EABA91CB695F"]
+			id: "5C36393763F16EB1"
+			tasks: [{
+				id: "0C7A42AD0C91E1B4"
+				type: "item"
+				item: "simplefarming:cheese_slice"
+			}]
+		}
+		{
+			x: 11.0d
+			y: -0.5d
+			dependencies: ["5C36393763F16EB1"]
+			id: "2039662F241A36FA"
+			tasks: [{
+				id: "416FF608A2778F26"
+				type: "item"
+				item: "simplefarming:cheeseburger"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 7.0d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "3DEE4135ECCBD240"
+			tasks: [{
+				id: "3569A9CF54CAC512"
+				type: "item"
+				item: "simplefarming:cherry_pie"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -9.5d
+			dependencies: ["21253063F46E63C1"]
+			id: "3405B21FA9C763F8"
+			tasks: [{
+				id: "266F2F858E444D68"
+				type: "item"
+				item: "simplefarming:chicken_curry"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -9.0d
+			dependencies: ["1AF2014D4C4219A5"]
+			id: "7AAAA4DBC95387C8"
+			tasks: [{
+				id: "3DF885BCB347AE5E"
+				type: "item"
+				item: "simplefarming:chicken_noodle_soup"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 0.0d
+			dependencies: ["5C36393763F16EB1"]
+			id: "72A308CF03E8B3E9"
+			tasks: [{
+				id: "49F3E7FA30B46324"
+				type: "item"
+				item: "simplefarming:chicken_parmesan"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 1.0d
+			dependencies: ["5C36393763F16EB1"]
+			id: "13D8EE82132BDE64"
+			tasks: [{
+				id: "0C31F719253E6BA4"
+				type: "item"
+				item: "simplefarming:chicory_gratin"
+			}]
+		}
+		{
+			x: -8.0d
+			y: 8.0d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "4E7D2FA5BE671D32"
+			tasks: [{
+				id: "625944EB6EB68C04"
+				type: "item"
+				item: "simplefarming:chili"
+			}]
+		}
+		{
+			x: -9.5d
+			y: -1.5d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "39229FCC5648658A"
+			tasks: [{
+				id: "5923D7F726CB925E"
+				type: "item"
+				item: "simplefarming:chocolate"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -3.5d
+			dependencies: ["60D19850FA853E7F"]
+			id: "0C7D2C11427128BF"
+			tasks: [{
+				id: "5A728DD53A328067"
+				type: "item"
+				item: "simplefarming:cooked_bacon"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -3.5d
+			dependencies: ["54A01A91598908BB"]
+			id: "0251DC758D13F471"
+			tasks: [{
+				id: "76CEC7979C87BC9A"
+				type: "item"
+				item: "simplefarming:cooked_chicken_wings"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -2.5d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "5476A6102F415AFE"
+			tasks: [{
+				id: "3E56C5EFE8EE0C34"
+				type: "item"
+				item: "simplefarming:cooked_egg"
+			}]
+		}
+		{
+			x: -7.0d
+			y: -3.5d
+			dependencies: ["1652720128D27F98"]
+			id: "7ABEB3CDC80072F2"
+			tasks: [{
+				id: "019732479ED24523"
+				type: "item"
+				item: "simplefarming:cooked_horse_meat"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -3.5d
+			dependencies: ["18FA1B52396341DA"]
+			id: "1C9DD6757B3C8D71"
+			tasks: [{
+				id: "5E69CA15AF2C3FB2"
+				type: "item"
+				item: "simplefarming:cooked_sausage"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 5.0d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "207DB5B7962C5A50"
+			tasks: [{
+				id: "5F4B646A11E0E74B"
+				type: "item"
+				item: "simplefarming:cornbread"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 8.0d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "60756DC6B94F9016"
+			tasks: [{
+				id: "7D817108A29B58D8"
+				type: "item"
+				item: "simplefarming:corn_salad"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 8.0d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "34388EF31FF883E0"
+			tasks: [{
+				id: "7D6FF8F23591CB68"
+				type: "item"
+				item: "simplefarming:cucumber_soup"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -5.5d
+			dependencies: [
+				"5476A6102F415AFE"
+				"0C7D2C11427128BF"
+			]
+			id: "1EE2B9199AEA74E6"
+			tasks: [{
+				id: "74093E3C62257AB5"
+				type: "item"
+				item: "simplefarming:egg_sandwich"
+			}]
+		}
+		{
+			x: 13.0d
+			y: 0.5d
+			dependencies: ["5C36393763F16EB1"]
+			id: "268C54C95025F309"
+			tasks: [{
+				id: "4A3B97EBF3C2A353"
+				type: "item"
+				item: "simplefarming:eggplant_parmesan"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 4.0d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "3DACAE056F5AEBCB"
+			tasks: [{
+				id: "13030955BE1F3D02"
+				type: "item"
+				item: "simplefarming:fish_and_chips"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 2.5d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "5948B1C6F1603584"
+			tasks: [{
+				id: "4F23FB0D4D412919"
+				type: "item"
+				item: "simplefarming:fish_fillet"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 1.5d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "1AD6F8F7D37810E4"
+			tasks: [{
+				id: "75BC618488A142DB"
+				type: "item"
+				item: "simplefarming:fish_sandwich"
+			}]
+		}
+		{
+			x: -8.0d
+			y: -3.5d
+			dependencies: ["3109527B920E1414"]
+			id: "1445EAF334839792"
+			tasks: [{
+				id: "652182462E693F78"
+				type: "item"
+				item: "simplefarming:fried_calamari"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -5.5d
+			dependencies: ["5476A6102F415AFE"]
+			id: "2E05900D6CC57222"
+			tasks: [{
+				id: "53AFB283926DDDD6"
+				type: "item"
+				item: "simplefarming:fried_rice"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 8.0d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "643B2A6B2C2B3136"
+			tasks: [{
+				id: "19D568871C71F999"
+				type: "item"
+				item: "simplefarming:fruit_salad"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "53E8F3E018BB5298"
+			tasks: [{
+				id: "06C2EE3B6CC11186"
+				type: "item"
+				item: "simplefarming:golden_habanero"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 1.5d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "27921369EFF7700F"
+			tasks: [{
+				id: "659552B3772EB704"
+				type: "item"
+				item: "simplefarming:hamburger"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -5.5d
+			dependencies: ["1C9DD6757B3C8D71"]
+			id: "6F5D537AE975A0A4"
+			tasks: [{
+				id: "109296EB0C7C68B6"
+				type: "item"
+				item: "simplefarming:hotdog"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 4.0d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			dependency_requirement: "one_completed"
+			id: "1BA06397BAE0CF9C"
+			tasks: [{
+				id: "335CC0D54B1FCA49"
+				type: "item"
+				item: "simplefarming:ice_cream_sundae"
+			}]
+		}
+		{
+			x: 13.0d
+			y: -0.5d
+			dependencies: ["5C36393763F16EB1"]
+			id: "787A35B24CE3D8F0"
+			tasks: [{
+				id: "308D61CDC3A1C1EB"
+				type: "item"
+				item: "simplefarming:italian_beef"
+			}]
+		}
+		{
+			x: -11.0d
+			y: -1.0d
+			dependencies: ["39229FCC5648658A"]
+			id: "582E688B67259DA1"
+			tasks: [{
+				id: "0DAE44F212FE3721"
+				type: "item"
+				item: "simplefarming:jaffa_cake"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -5.0d
+			dependencies: [
+				"1AF2014D4C4219A5"
+				"5C36393763F16EB1"
+			]
+			id: "22BDF0AE4B9F7E06"
+			tasks: [{
+				id: "205BD0F1FDA0A6B5"
+				type: "item"
+				item: "simplefarming:lasagna"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -6.0d
+			dependencies: [
+				"1AF2014D4C4219A5"
+				"5C36393763F16EB1"
+			]
+			id: "3AB4410A364DC4C0"
+			tasks: [{
+				id: "2DD18262E8A87247"
+				type: "item"
+				item: "simplefarming:mac_and_cheese"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 2.5d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "41276FFD7686C03C"
+			tasks: [{
+				id: "3A6E2B0819A2266F"
+				type: "item"
+				item: "simplefarming:marshmallow"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 4.0d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "739AF8036C23960C"
+			tasks: [{
+				id: "2B8343D4A019B977"
+				type: "item"
+				item: "simplefarming:mushroom_barley"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -9.5d
+			dependencies: ["21253063F46E63C1"]
+			id: "3B008798DBC34ABC"
+			tasks: [{
+				id: "59BD0793B88E3154"
+				type: "item"
+				item: "simplefarming:mutton_curry"
+			}]
+		}
+		{
+			x: -9.0d
+			y: 8.0d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "7861B8F82CD58FF4"
+			tasks: [{
+				id: "052AC1D8CD7F9459"
+				type: "item"
+				item: "simplefarming:oatmeal"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 5.0d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "01BBB198E951EEF5"
+			tasks: [{
+				id: "26D50CA60AE0B6BD"
+				type: "item"
+				item: "simplefarming:oat_bread"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 8.0d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "282814D7CBB78FF6"
+			tasks: [{
+				id: "77ECCFF90CF90EE0"
+				type: "item"
+				item: "simplefarming:olive_tomato_salad"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 8.0d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "716F084210A0235B"
+			tasks: [{
+				id: "11CEC01426D184D1"
+				type: "item"
+				item: "simplefarming:onion_soup"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -4.5d
+			dependencies: [
+				"1AF2014D4C4219A5"
+				"5604D7D5EDB8ACE7"
+			]
+			id: "5CDD2AAAD30C8039"
+			tasks: [{
+				id: "34ECDCE40A220370"
+				type: "item"
+				item: "simplefarming:pad_thai"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 1.5d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "4A6884785BA208A5"
+			tasks: [{
+				id: "3179D89C7146294C"
+				type: "item"
+				item: "simplefarming:pancakes"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -9.5d
+			dependencies: ["1AF2014D4C4219A5"]
+			id: "6F3029C59EEA8C78"
+			tasks: [{
+				id: "45F734C528020F8C"
+				type: "item"
+				item: "simplefarming:pasta"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -3.5d
+			dependencies: ["7773B6C5BB7C37EB"]
+			id: "3B185A986C19E30C"
+			tasks: [{
+				id: "1B5DA4C39B5D1A97"
+				type: "item"
+				item: "simplefarming:pbj"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 8.0d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "52FBEF009DF9630C"
+			tasks: [{
+				id: "45FB01E2D49F2997"
+				type: "item"
+				item: "simplefarming:pea_soup"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.5d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "67767DE5DBDE7934"
+			tasks: [{
+				id: "35C8C39BC041C053"
+				type: "item"
+				item: "simplefarming:peanut_butter_cookie"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 7.0d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "3A0DE2333F4DAE08"
+			tasks: [{
+				id: "0BAAB748E5417074"
+				type: "item"
+				item: "simplefarming:peanut_butter_pie"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 7.0d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "5F59897B3B3DC32B"
+			tasks: [{
+				id: "76551F0944685EFB"
+				type: "item"
+				item: "simplefarming:pear_pie"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -2.5d
+			dependencies: ["7B8AF19C27118753"]
+			id: "1EB577CE7170B7AD"
+			tasks: [{
+				id: "23CD2813985D411A"
+				type: "item"
+				item: "simplefarming:pickle"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -2.5d
+			dependencies: ["7B8AF19C27118753"]
+			id: "00771199577BF8BC"
+			tasks: [{
+				id: "3C3F6AE6397C4637"
+				type: "item"
+				item: "simplefarming:pickled_beetroot"
+			}]
+		}
+		{
+			x: 11.0d
+			y: -1.5d
+			dependencies: ["5C36393763F16EB1"]
+			id: "332B8A483E3604F6"
+			tasks: [{
+				id: "4E1F5CCC3D1425C1"
+				type: "item"
+				item: "simplefarming:pizza"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 7.0d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "79D05FE3D8E096F4"
+			tasks: [{
+				id: "0D6ED18D4D37AE31"
+				type: "item"
+				item: "simplefarming:plum_pie"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 3.5d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "662AE5A4FECDFB93"
+			tasks: [{
+				id: "32C1083356CC3038"
+				type: "item"
+				item: "simplefarming:popcorn"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -7.0d
+			dependencies: ["21253063F46E63C1"]
+			id: "04FC51C0F9C263B5"
+			tasks: [{
+				id: "174328B7ECCC409B"
+				type: "item"
+				item: "simplefarming:pork_curry"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 2.5d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "179ACEF230295350"
+			tasks: [{
+				id: "7645ED14C8ED84EC"
+				type: "item"
+				item: "simplefarming:potato_knish"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 1.5d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "26AE38AF84119A96"
+			tasks: [{
+				id: "1AAC39E1FCC391D0"
+				type: "item"
+				item: "simplefarming:pulled_pork_sandwich"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 8.0d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "2FF766335FF1426B"
+			tasks: [{
+				id: "0851510A2668AE7C"
+				type: "item"
+				item: "simplefarming:pumpkin_soup"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 8.0d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "5078610806F4C658"
+			tasks: [{
+				id: "7F2C0719D5A3569D"
+				type: "item"
+				item: "simplefarming:quinoa_salad"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 8.0d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "795192239A92031B"
+			tasks: [{
+				id: "7C50807017E5A727"
+				type: "item"
+				item: "simplefarming:radish_soup"
+			}]
+		}
+		{
+			x: -9.5d
+			y: 0.0d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "1E6FBA24823619F5"
+			tasks: [{
+				id: "6205605D41A62730"
+				type: "item"
+				item: "simplefarming:raisins"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 7.0d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "1782C3AD9BD1939F"
+			tasks: [{
+				id: "192871B16AF0E703"
+				type: "item"
+				item: "simplefarming:raspberry_pie"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -2.5d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "60D19850FA853E7F"
+			tasks: [{
+				id: "67CE3BBE3183AF56"
+				type: "item"
+				item: "simplefarming:raw_bacon"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -2.5d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "54A01A91598908BB"
+			tasks: [{
+				id: "5CDA0EF9D39E3ECA"
+				type: "item"
+				item: "simplefarming:raw_chicken_wings"
+			}]
+		}
+		{
+			x: -8.0d
+			y: -2.5d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "3109527B920E1414"
+			tasks: [{
+				id: "7B21080ED0A78F68"
+				type: "item"
+				item: "simplefarming:raw_calamari"
+			}]
+		}
+		{
+			x: -7.0d
+			y: -2.5d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "1652720128D27F98"
+			tasks: [{
+				id: "46734F2164533530"
+				type: "item"
+				item: "simplefarming:raw_horse_meat"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -2.5d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "18FA1B52396341DA"
+			tasks: [{
+				id: "52350132A96B3A82"
+				type: "item"
+				item: "simplefarming:raw_sausage"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 8.0d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "357EDB285CD44642"
+			tasks: [{
+				id: "41B02DF07E21B992"
+				type: "item"
+				item: "simplefarming:rice_bowl"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 5.0d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "5CCB98CD86506EF9"
+			tasks: [{
+				id: "4687213440B9A0B2"
+				type: "item"
+				item: "simplefarming:rice_bread"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 5.0d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "5C6C185EB8676BD7"
+			tasks: [{
+				id: "284A90BC26D96F3E"
+				type: "item"
+				item: "simplefarming:rye_bread"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 8.0d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "601770BF981F3D9B"
+			tasks: [{
+				id: "2F5A3320D645CCDC"
+				type: "item"
+				item: "simplefarming:salad"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 1.5d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "33663BE068A99BCB"
+			tasks: [{
+				id: "25E9AD26913C0F7A"
+				type: "item"
+				item: "simplefarming:sandwich"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -5.5d
+			dependencies: ["1C9DD6757B3C8D71"]
+			id: "163CDDBBB2448A9F"
+			tasks: [{
+				id: "7992F3554B65EEB3"
+				type: "item"
+				item: "simplefarming:sausage_barley_soup"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 5.0d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "36586361DA669A1E"
+			tasks: [{
+				id: "41167E014752A3D1"
+				type: "item"
+				item: "simplefarming:sorghum_bread"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 8.0d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "3B530B95CC309CF8"
+			tasks: [{
+				id: "2A6AFE6D4321A6A1"
+				type: "item"
+				item: "simplefarming:sorghum_porridge"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -9.5d
+			dependencies: ["1AF2014D4C4219A5"]
+			id: "15D7CF1CD41002DF"
+			tasks: [{
+				id: "4350798C900293BF"
+				type: "item"
+				item: "simplefarming:spaghetti"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 1.5d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "7FA509222248126D"
+			tasks: [{
+				id: "399EC5D41287743C"
+				type: "item"
+				item: "simplefarming:spinach_mushroom_quiche"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.5d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "76F5AE34681B3910"
+			tasks: [{
+				id: "2CA0F87DC52D48B2"
+				type: "item"
+				item: "simplefarming:spinach_quinoa_quiche"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 3.5d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "36C8F5017B25A517"
+			tasks: [{
+				id: "0B588905984E2CE3"
+				type: "item"
+				item: "simplefarming:squash_casserole"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 8.0d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "31A78CABB479D47A"
+			tasks: [{
+				id: "1D32073CFCC8FA43"
+				type: "item"
+				item: "simplefarming:squash_soup"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -8.0d
+			dependencies: ["1AF2014D4C4219A5"]
+			id: "323961A43F85FD4F"
+			tasks: [{
+				id: "2F6095857256F92A"
+				type: "item"
+				item: "simplefarming:squid_ink_pasta"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 7.0d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "3D731004AF3E8FC7"
+			tasks: [{
+				id: "08F2B412E2D56E5C"
+				type: "item"
+				item: "simplefarming:strawberry_pie"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 3.5d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "0E308A6D1DA4240C"
+			tasks: [{
+				id: "7D0A2D1F44334640"
+				type: "item"
+				item: "simplefarming:stuffed_corn_zucchini"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 2.5d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "150952F05739C4C5"
+			tasks: [{
+				id: "3A1BC315DEBA603D"
+				type: "item"
+				item: "simplefarming:sushi"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.5d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "65B7D60B4AD2EB67"
+			tasks: [{
+				id: "47A7CE497A00DC39"
+				type: "item"
+				item: "simplefarming:sweet_potato_quinoa_cakes"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.5d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "5604D7D5EDB8ACE7"
+			tasks: [{
+				id: "5D2F14F1285094E3"
+				type: "item"
+				item: "simplefarming:tofu"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -3.0d
+			dependencies: ["5604D7D5EDB8ACE7"]
+			id: "599CC13AC3DAD61B"
+			tasks: [{
+				id: "2F4D3B1A8CB91EDE"
+				type: "item"
+				item: "simplefarming:tofu_scramble"
+			}]
+		}
+		{
+			x: -11.0d
+			y: 0.0d
+			dependencies: [
+				"39229FCC5648658A"
+				"1E6FBA24823619F5"
+			]
+			id: "217CB4AFFC43CE3E"
+			tasks: [{
+				id: "196D667B4EAAA1EA"
+				type: "item"
+				item: "simplefarming:trail_mix"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 8.0d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "048871386C20AB16"
+			tasks: [{
+				id: "5504177A06920A5F"
+				type: "item"
+				item: "simplefarming:tomato_soup"
+			}]
+		}
+		{
+			x: 12.0d
+			y: -1.0d
+			dependencies: ["5C36393763F16EB1"]
+			id: "45BAE95423F6B26F"
+			tasks: [{
+				id: "216511F634892040"
+				type: "item"
+				item: "simplefarming:turnip_beetroot_gratin"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -9.0d
+			dependencies: ["21253063F46E63C1"]
+			id: "0006EA4AA9AE178F"
+			tasks: [{
+				id: "13401DE35C28C55A"
+				type: "item"
+				item: "simplefarming:vegetable_curry"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 8.0d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "03C33D91524B044E"
+			tasks: [{
+				id: "646C93C8C37C878A"
+				type: "item"
+				item: "simplefarming:vegetable_medley"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -2.0d
+			dependencies: ["5604D7D5EDB8ACE7"]
+			id: "471E222F33FEC2D6"
+			tasks: [{
+				id: "0DFA758C7E251781"
+				type: "item"
+				item: "simplefarming:veggie_burger"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 5.0d
+			dependencies: ["2CBFB917CFBBD4E2"]
+			id: "6B47D7319AF246D9"
+			tasks: [{
+				id: "2C8E4AEF25A3C1D7"
+				type: "item"
+				item: "simplefarming:zucchini_bread"
+			}]
+		}
+	]
+}

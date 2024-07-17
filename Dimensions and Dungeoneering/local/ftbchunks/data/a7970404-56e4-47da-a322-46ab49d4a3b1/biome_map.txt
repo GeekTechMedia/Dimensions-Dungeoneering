@@ -1,0 +1,7 @@
+#35F cavebiomeapi:caves
+#4B3 byg:cika_woods
+#653 byg:cold_swamplands
+#379 minecraft:mountains
+#5FF minecraft:river
+#473 byg:vibrant_swamplands
+#306 minecraft:wooded_mountains

@@ -1,0 +1,10 @@
+#6C5 byg:aspen_forest
+#290 byg:bayou
+#35F cavebiomeapi:caves
+#5D7 byg:deciduous_forest
+#010 minecraft:forest
+#66B byg:mangrove_marshes
+#379 minecraft:mountains
+#5FF minecraft:river
+#4D3 minecraft:swamp
+#452 minecraft:wooded_hills

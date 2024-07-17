@@ -1,0 +1,9 @@
+#35F cavebiomeapi:caves
+#33B projectvibrantjourneys:flooded_woodlands
+#010 minecraft:forest
+#06F projectvibrantjourneys:mangrove_marsh
+#379 minecraft:mountains
+#3DC minecraft:plains
+#4D3 minecraft:swamp
+#452 minecraft:wooded_hills
+#306 minecraft:wooded_mountains

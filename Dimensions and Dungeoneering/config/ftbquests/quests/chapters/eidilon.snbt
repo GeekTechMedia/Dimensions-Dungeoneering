@@ -1,0 +1,918 @@
+{
+	id: "1835B1219807C929"
+	group: "4B5D122F75FB7F81"
+	order_index: 1
+	filename: "eidilon"
+	title: "Necromancy And Rituals"
+	icon: {
+		id: "eidolon:warlock_hat"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: -4.0d
+			y: -9.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "eidolon:textures/particle/wicked_sign.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 4.0d
+			y: -9.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "eidolon:textures/particle/wicked_sign.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -4.0d
+			y: -1.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "eidolon:textures/particle/soul_sign.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 4.0d
+			y: -1.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "eidolon:textures/particle/soul_sign.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "circle"
+			description: ["Eidolon is a magic mod that draws on a lot of different inspirations, with aspects of alchemy and theurgy. It takes a bit of a dark perspective, also featuring mechanics themed around necromancy and soul manipulation. If you have ever wanted to play as a dark mage, performing strange rituals and communing with dark gods, this is the mod for you."]
+			id: "66A9269EE0B782E3"
+			tasks: [{
+				id: "0FB5ACF7E3B4042C"
+				type: "checkmark"
+				title: "Eidolon"
+			}]
+			rewards: [
+				{
+					id: "27716FFEE9338FB5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "56505F6BA350B6C4"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			description: ["Specifically for this questline I haven't included any quests as the book does a very good job of explaining the use cases for everything outlined in the mod. The only things that can come across as confusing are the blank parts of the book and stirring the pot to make recipes in it. For these cases I highly recommend watching a quick video about it."]
+			dependencies: ["66A9269EE0B782E3"]
+			id: "49204F7A01CD221B"
+			tasks: [{
+				id: "16FCA75E8A1E9873"
+				type: "item"
+				item: "eidolon:codex"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.5d
+			dependencies: ["49204F7A01CD221B"]
+			id: "6456262E5645D8E0"
+			tasks: [{
+				id: "0646E52DFB5DFDBB"
+				type: "item"
+				item: "eidolon:pewter_blend"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -5.0d
+			dependencies: ["6456262E5645D8E0"]
+			id: "40D72AF5F70A885B"
+			tasks: [{
+				id: "421205A41B6D3D82"
+				type: "item"
+				item: "eidolon:pewter_ingot"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -3.0d
+			dependencies: ["49204F7A01CD221B"]
+			id: "68649649D6F1676B"
+			tasks: [{
+				id: "575AE6100DA6839F"
+				type: "item"
+				item: "eidolon:tattered_cloth"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -3.5d
+			dependencies: ["49204F7A01CD221B"]
+			id: "658451AB10F0487C"
+			tasks: [{
+				id: "7A57D1D0D10B5FB9"
+				type: "item"
+				item: "eidolon:zombie_heart"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -3.0d
+			dependencies: ["49204F7A01CD221B"]
+			id: "3760913FD7B12600"
+			tasks: [{
+				id: "51036A10EDFED2E9"
+				type: "item"
+				item: "eidolon:wraith_heart"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -3.5d
+			dependencies: ["49204F7A01CD221B"]
+			id: "10236A0DCBFA3F4E"
+			tasks: [{
+				id: "2E5E6672C7DF4334"
+				type: "item"
+				item: "eidolon:enchanted_ash"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -7.0d
+			dependencies: ["40D72AF5F70A885B"]
+			id: "5A60FDC7CCA884D7"
+			tasks: [{
+				id: "06F6E2B2632DB19A"
+				type: "item"
+				item: "eidolon:brazier"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -6.5d
+			dependencies: ["40D72AF5F70A885B"]
+			id: "7D90C8695A81FB6C"
+			tasks: [{
+				id: "4D75E1BF8ED0E865"
+				type: "item"
+				item: "eidolon:stone_hand"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -6.5d
+			dependencies: ["40D72AF5F70A885B"]
+			id: "3FB9355E11718E9E"
+			tasks: [{
+				id: "61DF5F31922CBAC1"
+				type: "item"
+				item: "eidolon:necrotic_focus"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -9.0d
+			dependencies: ["3E87957C66A47E8F"]
+			id: "107A5464D78FE681"
+			tasks: [{
+				id: "347792DA16B52991"
+				type: "item"
+				item: "eidolon:soul_shard"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -10.5d
+			dependencies: ["107A5464D78FE681"]
+			id: "49D32040BA25B50A"
+			tasks: [{
+				id: "07464AB525CE817F"
+				type: "item"
+				item: {
+					id: "eidolon:sapping_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: -10.5d
+			dependencies: ["107A5464D78FE681"]
+			id: "1D539A99B909C3F6"
+			tasks: [{
+				id: "755B7F06A748C655"
+				type: "item"
+				item: "eidolon:sanguine_amulet"
+			}]
+		}
+		{
+			title: "Crystallization Ritual"
+			x: 0.0d
+			y: -8.0d
+			description: [""]
+			dependencies: ["5A60FDC7CCA884D7"]
+			id: "3E87957C66A47E8F"
+			tasks: [
+				{
+					id: "167D9A369287D99B"
+					type: "item"
+					item: "minecraft:redstone"
+					count: 2L
+				}
+				{
+					id: "79B909CAE51D53AD"
+					type: "item"
+					item: "minecraft:bone_meal"
+				}
+			]
+		}
+		{
+			title: "Ritual of Lesser Summoning"
+			x: 0.0d
+			y: -10.0d
+			dependencies: ["107A5464D78FE681"]
+			id: "31495DD96306CA3D"
+			tasks: [
+				{
+					id: "7C59FF677E0BE2B6"
+					type: "item"
+					item: "eidolon:tattered_cloth"
+					count: 2L
+				}
+				{
+					id: "7111CF60AE623D92"
+					type: "item"
+					item: "eidolon:soul_shard"
+				}
+			]
+		}
+		{
+			title: "Ritual of Alluring"
+			x: -1.0d
+			y: -10.0d
+			dependencies: ["107A5464D78FE681"]
+			id: "47A1D466359A2FBD"
+			tasks: [
+				{
+					id: "5FF8A34EB74F17A7"
+					type: "item"
+					item: "minecraft:red_dye"
+					count: 2L
+				}
+				{
+					id: "1A39DEA5C7F58952"
+					type: "item"
+					item: "minecraft:rose_bush"
+				}
+				{
+					id: "2A301F7951BDEFDB"
+					type: "item"
+					item: "minecraft:golden_apple"
+				}
+				{
+					id: "183AA61B3754A641"
+					type: "item"
+					item: "eidolon:soul_shard"
+					count: 2L
+				}
+			]
+		}
+		{
+			title: "Ritual of Repelling"
+			x: -2.0d
+			y: -9.0d
+			dependencies: ["107A5464D78FE681"]
+			id: "186CC001C2297658"
+			tasks: [
+				{
+					id: "5F37AAE11723CBF5"
+					type: "item"
+					item: "minecraft:quartz"
+				}
+				{
+					id: "4CA2ADD5A4B653C8"
+					type: "item"
+					item: "minecraft:leather"
+				}
+				{
+					id: "05757AC3AF151526"
+					type: "item"
+					item: "minecraft:iron_ingot"
+				}
+				{
+					id: "48F6850D4BB987CD"
+					type: "item"
+					item: "minecraft:nautilus_shell"
+				}
+				{
+					id: "0EF3A88AC1FA11B6"
+					type: "item"
+					item: "eidolon:soul_shard"
+					count: 2L
+				}
+			]
+		}
+		{
+			title: "Ritual of Deceit"
+			x: 1.0d
+			y: -10.0d
+			dependencies: ["107A5464D78FE681"]
+			id: "3A56860E74BB3C0D"
+			tasks: [
+				{
+					id: "39E82CCCA622996E"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 2L
+				}
+				{
+					id: "5F4D97230AF020DA"
+					type: "item"
+					item: "minecraft:fermented_spider_eye"
+				}
+				{
+					id: "26AF344A0A817A41"
+					type: "item"
+					item: "minecraft:red_mushroom"
+				}
+				{
+					id: "314AA5C4856CA30A"
+					type: "item"
+					item: "eidolon:soul_shard"
+					count: 2L
+				}
+			]
+		}
+		{
+			title: "Ritual of Daylight"
+			x: 2.0d
+			y: -9.0d
+			dependencies: ["107A5464D78FE681"]
+			id: "25A77F92D2CB3FB2"
+			tasks: [
+				{
+					id: "71C1251206DFC2BB"
+					type: "item"
+					item: "minecraft:wheat_seeds"
+				}
+				{
+					id: "0D60EA1C295572C2"
+					type: "item"
+					item: "minecraft:charcoal"
+				}
+				{
+					id: "7136674267B5543C"
+					type: "item"
+					item: "minecraft:sunflower"
+				}
+				{
+					id: "63E77C26B116BE45"
+					type: "item"
+					item: "eidolon:soul_shard"
+					count: 2L
+				}
+			]
+		}
+		{
+			title: "Ritual of Moonlight"
+			x: 2.5d
+			y: -8.0d
+			dependencies: ["107A5464D78FE681"]
+			id: "1AAA719F9A93A1B9"
+			tasks: [
+				{
+					id: "3B1CBE65BDF65902"
+					type: "item"
+					item: "minecraft:spider_eye"
+				}
+				{
+					id: "241830B9F476092C"
+					type: "item"
+					item: "minecraft:snowball"
+				}
+				{
+					id: "669EC268232CE55E"
+					type: "item"
+					item: "minecraft:black_dye"
+				}
+				{
+					id: "690BC56C33FBC195"
+					type: "item"
+					item: "eidolon:soul_shard"
+					count: 2L
+				}
+			]
+		}
+		{
+			title: "Ritual of Purifying"
+			x: -2.5d
+			y: -8.0d
+			dependencies: ["107A5464D78FE681"]
+			id: "160597B96D5812E6"
+			tasks: [
+				{
+					id: "5A3E6693A951BBD6"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:healing"
+						}
+					}
+				}
+				{
+					id: "6892268E7CC819CC"
+					type: "item"
+					item: "eidolon:enchanted_ash"
+					count: 2L
+				}
+				{
+					id: "6CD0260E48ED616B"
+					type: "item"
+					item: "minecraft:glistering_melon_slice"
+				}
+				{
+					id: "2C1701B3EBEDA3E9"
+					type: "item"
+					item: "eidolon:soul_shard"
+					count: 2L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -5.0d
+			dependencies: ["40D72AF5F70A885B"]
+			id: "0DC5B8797A44BADF"
+			tasks: [{
+				id: "2BF4415B659C660A"
+				type: "item"
+				item: "eidolon:crucible"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -6.5d
+			dependencies: ["0DC5B8797A44BADF"]
+			id: "13CB8AC04FC1F67F"
+			tasks: [{
+				id: "52A8847F01AB24A9"
+				type: "item"
+				item: "eidolon:arcane_gold_ingot"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -6.0d
+			dependencies: ["0DC5B8797A44BADF"]
+			id: "16DFD2D80992C857"
+			tasks: [{
+				id: "477D01FC338E8B05"
+				type: "item"
+				item: "eidolon:lesser_soul_gem"
+			}]
+		}
+		{
+			x: -8.0d
+			y: -5.0d
+			dependencies: ["0DC5B8797A44BADF"]
+			id: "5C7BE3464AAD4853"
+			tasks: [{
+				id: "06F3B960DB81561D"
+				type: "item"
+				item: "eidolon:wooden_brewing_stand"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -5.0d
+			dependencies: ["7C6C2512A9A35C9E"]
+			id: "0291BB62CB83C50F"
+			tasks: [{
+				id: "6920DAAE2DB897F8"
+				type: "item"
+				item: "eidolon:soul_enchanter"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -5.0d
+			dependencies: ["40D72AF5F70A885B"]
+			id: "7C6C2512A9A35C9E"
+			tasks: [{
+				id: "45A264F0EA951D88"
+				type: "item"
+				item: "eidolon:worktable"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -7.5d
+			dependencies: ["7C6C2512A9A35C9E"]
+			id: "4B97BF9F71EDDDE9"
+			tasks: [{
+				id: "4FCB8068F53F639C"
+				type: "item"
+				item: "eidolon:void_amulet"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -1.0d
+			dependencies: ["49204F7A01CD221B"]
+			id: "5C80EA5E8168532F"
+			tasks: [{
+				id: "2D444FA8B267FC09"
+				type: "item"
+				item: "eidolon:basic_amulet"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -6.0d
+			dependencies: ["7C6C2512A9A35C9E"]
+			id: "0FA6990E2639AF83"
+			tasks: [{
+				id: "5A74DACC1F6637AB"
+				type: "item"
+				item: "eidolon:warded_mail"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -7.0d
+			dependencies: ["7C6C2512A9A35C9E"]
+			id: "78D6990DCD16833E"
+			tasks: [{
+				id: "757710038FBD57C8"
+				type: "item"
+				item: {
+					id: "eidolon:soulfire_wand"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: -7.5d
+			dependencies: ["7C6C2512A9A35C9E"]
+			id: "3A77CCB93568ED9C"
+			tasks: [{
+				id: "76C50B6BF466B100"
+				type: "item"
+				item: {
+					id: "eidolon:bonechill_wand"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: -7.5d
+			dependencies: ["7C6C2512A9A35C9E"]
+			id: "2B29396413BA69C7"
+			tasks: [{
+				id: "3831E3DEF3ADF4E0"
+				type: "item"
+				item: {
+					id: "eidolon:reaper_scythe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: -7.0d
+			dependencies: ["7C6C2512A9A35C9E"]
+			id: "4B8CCFB910B5DF62"
+			tasks: [{
+				id: "5299874D9FA0DBB3"
+				type: "item"
+				item: {
+					id: "eidolon:cleaving_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: -6.0d
+			dependencies: ["7C6C2512A9A35C9E"]
+			id: "2B93112D9224E9F4"
+			tasks: [{
+				id: "72937A9286C27F48"
+				type: "item"
+				item: {
+					id: "eidolon:reversal_pick"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: -1.5d
+			dependencies: ["6A80FAA873CE0E1F"]
+			id: "46A39FE5F0002D08"
+			tasks: [{
+				id: "1D2EB520CE4AC0C2"
+				type: "item"
+				item: {
+					id: "eidolon:warlock_hat"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"agricraft:gene_inspector": {
+							agri_flag: 0b
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: -1.0d
+			dependencies: ["6A80FAA873CE0E1F"]
+			id: "279BFFFB582F7773"
+			tasks: [{
+				id: "5E357FCE40F1C962"
+				type: "item"
+				item: {
+					id: "eidolon:warlock_cloak"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: -1.5d
+			dependencies: ["6A80FAA873CE0E1F"]
+			id: "3325711DB1451672"
+			tasks: [{
+				id: "3D1454098FF5D7AC"
+				type: "item"
+				item: {
+					id: "eidolon:warlock_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: -2.5d
+			dependencies: ["7C6C2512A9A35C9E"]
+			id: "6A80FAA873CE0E1F"
+			tasks: [{
+				id: "381239521E48AB6C"
+				type: "item"
+				item: "eidolon:wicked_weave"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -4.0d
+			dependencies: ["7C6C2512A9A35C9E"]
+			id: "32ADE9C1B68F35BE"
+			tasks: [{
+				id: "48729D4B9DFB2CC2"
+				type: "item"
+				item: "eidolon:gravity_belt"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -3.0d
+			dependencies: ["7C6C2512A9A35C9E"]
+			id: "463E89D6107188CD"
+			tasks: [{
+				id: "4E7D9E613F8CBB70"
+				type: "item"
+				item: "eidolon:prestigious_palm"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -4.0d
+			dependencies: ["7C6C2512A9A35C9E"]
+			id: "5A7290C9F7D3EE48"
+			tasks: [{
+				id: "35B84FA35F2E6480"
+				type: "item"
+				item: "eidolon:mind_shielding_plate"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -3.0d
+			dependencies: ["7C6C2512A9A35C9E"]
+			id: "1F9635193580D3CA"
+			tasks: [{
+				id: "2678417A4BCD0B75"
+				type: "item"
+				item: "eidolon:resolute_belt"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -2.5d
+			dependencies: ["7C6C2512A9A35C9E"]
+			id: "5B988263B0118064"
+			tasks: [{
+				id: "704E77E49DD9FAC7"
+				type: "item"
+				item: "eidolon:glass_hand"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -4.0d
+			dependencies: ["0DC5B8797A44BADF"]
+			id: "2AE3C9D00A36D36F"
+			tasks: [{
+				id: "18D04242BA7D812E"
+				type: "item"
+				item: "eidolon:ender_calx"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -3.5d
+			dependencies: ["0DC5B8797A44BADF"]
+			id: "7829D3C5C9632688"
+			tasks: [{
+				id: "1FA7EEF63D5579EB"
+				type: "item"
+				item: "eidolon:death_essence"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -2.0d
+			dependencies: ["7829D3C5C9632688"]
+			id: "01ECB51208CC715D"
+			tasks: [{
+				id: "0D9E1A8B19F16D48"
+				type: "item"
+				item: "eidolon:shadow_gem"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -6.0d
+			dependencies: ["0DC5B8797A44BADF"]
+			id: "522085D8BBEA0721"
+			tasks: [{
+				id: "457439CF06EB7B90"
+				type: "item"
+				item: "eidolon:fungus_sprouts"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -4.0d
+			dependencies: ["0DC5B8797A44BADF"]
+			id: "08020AA1ADA01137"
+			tasks: [{
+				id: "777893B47E4EDAF9"
+				type: "item"
+				item: "eidolon:warped_sprouts"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -2.0d
+			dependencies: ["49204F7A01CD221B"]
+			id: "2277AD305D03757E"
+			tasks: [{
+				id: "39BF6E91250D71D7"
+				type: "item"
+				item: "eidolon:wooden_altar"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -6.0d
+			dependencies: ["7C6C2512A9A35C9E"]
+			id: "0A88565D607DB1AC"
+			tasks: [{
+				id: "6EFD8327A137D7F4"
+				type: "item"
+				item: "eidolon:stone_altar"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -2.0d
+			dependencies: ["49204F7A01CD221B"]
+			id: "30DC89660729ED6B"
+			tasks: [{
+				id: "3336A37F715E4284"
+				type: "item"
+				item: "eidolon:straw_effigy"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -4.0d
+			dependencies: ["7C6C2512A9A35C9E"]
+			id: "27BB02D7D60DB845"
+			tasks: [{
+				id: "382CFFC457772508"
+				type: "item"
+				item: "eidolon:unholy_effigy"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -8.0d
+			dependencies: ["13CB8AC04FC1F67F"]
+			id: "60152128054D1E71"
+			tasks: [{
+				id: "310DE82194ECB7CB"
+				type: "item"
+				item: "eidolon:goblet"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -5.0d
+			dependencies: [
+				"0A88565D607DB1AC"
+				"27BB02D7D60DB845"
+			]
+			id: "6A9141B230CA4327"
+			tasks: [{
+				id: "20A618DA1202382E"
+				type: "item"
+				item: "eidolon:unholy_symbol"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.0d
+			dependencies: ["49204F7A01CD221B"]
+			id: "790B4B05B8EB61F3"
+			tasks: [{
+				id: "475FFA13CE39B665"
+				type: "item"
+				item: "eidolon:basic_ring"
+			}]
+		}
+	]
+}

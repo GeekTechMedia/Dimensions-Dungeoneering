@@ -1,0 +1,13 @@
+
+["Config for the Stardew Armory mod"]
+	#Should Lucky Hit play the critical sound effect. Default value is true
+	"Crit bool" = true
+	#How many veins of iridium ore should spawn per chunk. Default value is 3
+	"Iridium int" = 3
+	#How many veins of cinder ore should spawn per chunk. Default value is 20
+	"Cinder int" = 20
+	#Chance for a zombie to spawn with a wooden club in hand. Accepts values within a range of [1,0). Default value is 0.05 (5%)
+	"Club float" = 0.05
+	#How likely the warrior ring is to proc after a kill. Default value is 8
+	"Warrior int" = 8
+

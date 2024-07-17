@@ -1,0 +1,10 @@
+#556 minecraft:beach
+#35F cavebiomeapi:caves
+#3D6 minecraft:cold_ocean
+#109 minecraft:deep_cold_ocean
+#3DE minecraft:deep_ocean
+#010 minecraft:forest
+#3B7 projectvibrantjourneys:gravel_shore
+#4F1 minecraft:ocean
+#535 projectvibrantjourneys:redwood_peaks
+#4D3 minecraft:swamp

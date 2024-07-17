@@ -1,0 +1,11 @@
+{
+	id: "16E752717E7C6893"
+	order_index: 6
+	title: "Tier I Augments"
+	loot_size: 1
+	rewards: [
+		{ item: "mysticalagriculture:absorption_i_augment" }
+		{ item: "mysticalagriculture:health_boost_i_augment" }
+		{ item: "mysticalagriculture:pathing_aoe_i_augment" }
+	]
+}

@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "origins":
+  [
+    "dimensionsdungeoneering:cleric",
+    "dimensionsdungeoneering:knight",
+    "dimensionsdungeoneering:paladin",
+    "dimensionsdungeoneering:ranger",
+    "dimensionsdungeoneering:rogue",
+    "dimensionsdungeoneering:sorcerer"
+  ]
+}

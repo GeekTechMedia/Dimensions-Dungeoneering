@@ -1,0 +1,687 @@
+{
+	id: "3882BD2FB18633EA"
+	group: "31DBD57DDF20D469"
+	order_index: 7
+	filename: "repeatables"
+	title: "Repeatables"
+	icon: "minecraft:repeater"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: -7.5d
+			y: -11.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/item/repeater.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 7.5d
+			y: -11.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/item/repeater.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -7.5d
+			y: -2.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/item/repeater.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 7.5d
+			y: -2.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/item/repeater.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "circle"
+			description: ["The Repeatables questline is a questline where you can earn continuous money! By completeling the different quests in this questline you can earn some money and once you complete a quest it will reset."]
+			id: "4917038D93AE304A"
+			tasks: [{
+				id: "7B89ED31C8A9594E"
+				type: "checkmark"
+				title: "Repeatables"
+			}]
+			rewards: [
+				{
+					id: "572CE65FA692D99D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0A62BAFFCDD90836"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			title: "Kill The Wither"
+			icon: "minecraft:wither_skeleton_skull"
+			x: -3.0d
+			y: -3.5d
+			repeatable: true
+			id: "2225135C4B5348B9"
+			tasks: [{
+				id: "4B096D506F5B8605"
+				type: "kill"
+				entity: "minecraft:wither"
+				value: 1L
+			}]
+			rewards: [{
+				id: "34F469C6E2B769FE"
+				type: "ftbmoney:money"
+				ftb_money: 100L
+			}]
+		}
+		{
+			title: "Kill The Ender Dragon"
+			icon: "minecraft:dragon_head"
+			x: 3.0d
+			y: -3.5d
+			repeatable: true
+			id: "684D6BF4FC76D7E9"
+			tasks: [{
+				id: "7570C90C98399058"
+				type: "kill"
+				entity: "minecraft:ender_dragon"
+				value: 1L
+			}]
+			rewards: [{
+				id: "2160447A653A78AD"
+				type: "ftbmoney:money"
+				ftb_money: 100L
+			}]
+		}
+		{
+			x: -3.0d
+			y: -10.0d
+			id: "5CA14EDE4C658EC1"
+			tasks: [{
+				id: "7F436E2203F9FD89"
+				type: "questsadditions:break"
+				block_type: 0
+				block: "minecraft:stone"
+				value: 1000L
+				checkItem: false
+			}]
+			rewards: [{
+				id: "22236F285A3BF10D"
+				type: "questsadditions:repeat"
+				table_id: 4202437235260358758L
+			}]
+		}
+		{
+			x: 1.5d
+			y: -10.0d
+			id: "3E10A294A58600A2"
+			tasks: [{
+				id: "1E4AD643D30C7072"
+				type: "questsadditions:break"
+				block_type: 0
+				block: "minecraft:dirt"
+				value: 1000L
+				checkItem: false
+			}]
+			rewards: [{
+				id: "798E749EFDE22537"
+				type: "questsadditions:repeat"
+				table_id: 4202437235260358758L
+			}]
+		}
+		{
+			x: -9.0d
+			y: -8.5d
+			id: "2F95882FE6D5095C"
+			tasks: [{
+				id: "641C5BF69383FE2B"
+				type: "questsadditions:break"
+				block_type: 0
+				block: "minecraft:granite"
+				value: 500L
+				checkItem: false
+			}]
+			rewards: [{
+				id: "1F5EAEF32867C48C"
+				type: "questsadditions:repeat"
+				table_id: 4202437235260358758L
+			}]
+		}
+		{
+			x: -7.5d
+			y: -8.5d
+			id: "41A0DD9633D6BC58"
+			tasks: [{
+				id: "0767093F0012BA3F"
+				type: "questsadditions:break"
+				block_type: 0
+				block: "minecraft:diorite"
+				value: 500L
+				checkItem: false
+			}]
+			rewards: [{
+				id: "7600BCA129CFFBEA"
+				type: "questsadditions:repeat"
+				table_id: 4202437235260358758L
+			}]
+		}
+		{
+			x: -6.0d
+			y: -8.5d
+			id: "36B184B90C14E92F"
+			tasks: [{
+				id: "03702610C8BDBE69"
+				type: "questsadditions:break"
+				block_type: 0
+				block: "minecraft:andesite"
+				value: 500L
+				checkItem: false
+			}]
+			rewards: [{
+				id: "03F73E82E3FD7ADA"
+				type: "questsadditions:repeat"
+				table_id: 4202437235260358758L
+			}]
+		}
+		{
+			x: 6.0d
+			y: -8.5d
+			id: "7A8DF891C4CC2D7B"
+			tasks: [{
+				id: "4F5E8039A112E4DC"
+				type: "questsadditions:break"
+				block_type: 0
+				block: "minecraft:gravel"
+				value: 500L
+				checkItem: false
+			}]
+			rewards: [{
+				id: "1ED27B1205A9BDAC"
+				type: "questsadditions:repeat"
+				table_id: 4202437235260358758L
+			}]
+		}
+		{
+			x: -4.5d
+			y: -8.5d
+			id: "7320961FA79499E0"
+			tasks: [{
+				id: "0BDF6BF1C5AFA66C"
+				type: "questsadditions:break"
+				block_type: 0
+				block: "minecraft:oak_log"
+				value: 500L
+				checkItem: false
+			}]
+			rewards: [{
+				id: "49270764E2FA2DBA"
+				type: "questsadditions:repeat"
+				table_id: 4202437235260358758L
+			}]
+		}
+		{
+			x: -3.0d
+			y: -8.5d
+			id: "336DE2804708A488"
+			tasks: [{
+				id: "4FB8F722876EB7A6"
+				type: "questsadditions:break"
+				block_type: 0
+				block: "minecraft:spruce_log"
+				value: 500L
+				checkItem: false
+			}]
+			rewards: [{
+				id: "0B0DC57697F0CD68"
+				type: "questsadditions:repeat"
+				table_id: 4202437235260358758L
+			}]
+		}
+		{
+			x: -1.5d
+			y: -8.5d
+			id: "78D439E0717D40FA"
+			tasks: [{
+				id: "56B596BEA8437D8B"
+				type: "questsadditions:break"
+				block_type: 0
+				block: "minecraft:birch_log"
+				value: 500L
+				checkItem: false
+			}]
+			rewards: [{
+				id: "397A47048514A1BB"
+				type: "questsadditions:repeat"
+				table_id: 4202437235260358758L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -8.5d
+			id: "2DAA8BC131727C88"
+			tasks: [{
+				id: "0101B0AC3B3ECD11"
+				type: "questsadditions:break"
+				block_type: 0
+				block: "minecraft:jungle_log"
+				value: 500L
+				checkItem: false
+			}]
+			rewards: [{
+				id: "4ADDFBCC8F30766D"
+				type: "questsadditions:repeat"
+				table_id: 4202437235260358758L
+			}]
+		}
+		{
+			x: 1.5d
+			y: -8.5d
+			id: "43B441A9AC8E7004"
+			tasks: [{
+				id: "5E707D0D6D8FCF48"
+				type: "questsadditions:break"
+				block_type: 0
+				block: "minecraft:acacia_log"
+				value: 500L
+				checkItem: false
+			}]
+			rewards: [{
+				id: "2D3F1C64A5E0EA85"
+				type: "questsadditions:repeat"
+				table_id: 4202437235260358758L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -8.5d
+			id: "088014C5A2877B72"
+			tasks: [{
+				id: "1CD552729D6FA0B2"
+				type: "questsadditions:break"
+				block_type: 0
+				block: "minecraft:dark_oak_log"
+				value: 500L
+				checkItem: false
+			}]
+			rewards: [{
+				id: "5F5F3662DC59240C"
+				type: "questsadditions:repeat"
+				table_id: 4202437235260358758L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -10.0d
+			id: "555F16801BBB89B6"
+			tasks: [{
+				id: "30E35D1F75D32693"
+				type: "questsadditions:break"
+				block_type: 0
+				block: "minecraft:sand"
+				value: 1000L
+				checkItem: false
+			}]
+			rewards: [{
+				id: "12ABF42458DA381C"
+				type: "questsadditions:repeat"
+				table_id: 4202437235260358758L
+			}]
+		}
+		{
+			x: 4.5d
+			y: -8.5d
+			id: "7AC4EF76717EE79A"
+			tasks: [{
+				id: "7818914D3B34814C"
+				type: "questsadditions:break"
+				block_type: 0
+				block: "minecraft:red_sand"
+				value: 500L
+				checkItem: false
+			}]
+			rewards: [{
+				id: "435C06369798E9B0"
+				type: "questsadditions:repeat"
+				table_id: 4202437235260358758L
+			}]
+		}
+		{
+			x: -1.5d
+			y: -10.0d
+			id: "6BAA959F40CC908E"
+			tasks: [{
+				id: "368E161EAEE1ECC9"
+				type: "questsadditions:break"
+				block_type: 0
+				block: "minecraft:cobblestone"
+				value: 1000L
+				checkItem: false
+			}]
+			rewards: [{
+				id: "005946BDE293253C"
+				type: "questsadditions:repeat"
+				table_id: 4202437235260358758L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -10.0d
+			id: "18E83406F3DCC589"
+			tasks: [{
+				id: "16631E57D85A5BA0"
+				type: "questsadditions:break"
+				block_type: 0
+				block: "minecraft:grass_block"
+				value: 1000L
+				checkItem: false
+			}]
+			rewards: [{
+				id: "39EABBFAD52ADBBC"
+				type: "questsadditions:repeat"
+				table_id: 4202437235260358758L
+			}]
+		}
+		{
+			x: 4.5d
+			y: -10.0d
+			id: "4F42B0066E6CA016"
+			tasks: [{
+				id: "450502E733823F92"
+				type: "questsadditions:break"
+				block_type: 0
+				block: "minecraft:sandstone"
+				value: 1000L
+				checkItem: false
+			}]
+			rewards: [{
+				id: "1375997CD6B4A547"
+				type: "questsadditions:repeat"
+				table_id: 4202437235260358758L
+			}]
+		}
+		{
+			x: 1.5d
+			y: -7.0d
+			id: "42A7E31DC3C83594"
+			tasks: [{
+				id: "2DC087432CE9FFCD"
+				type: "questsadditions:break"
+				block_type: 0
+				block: "minecraft:ice"
+				value: 250L
+				checkItem: false
+			}]
+			rewards: [{
+				id: "1A04FDA0B42EDA10"
+				type: "questsadditions:repeat"
+				table_id: 4202437235260358758L
+			}]
+		}
+		{
+			x: 4.5d
+			y: -7.0d
+			id: "36CE202DACED03C3"
+			tasks: [{
+				id: "14F28CC6118EB7A3"
+				type: "questsadditions:break"
+				block_type: 0
+				block: "minecraft:clay"
+				value: 250L
+				checkItem: false
+			}]
+			rewards: [{
+				id: "098AFA77C309E95E"
+				type: "questsadditions:repeat"
+				table_id: 4202437235260358758L
+			}]
+		}
+		{
+			x: -4.5d
+			y: -7.0d
+			id: "7747AF1FB054575F"
+			tasks: [{
+				id: "6ED9B4769913D55F"
+				type: "questsadditions:break"
+				block_type: 0
+				block: "minecraft:mossy_cobblestone"
+				value: 250L
+				checkItem: false
+			}]
+			rewards: [{
+				id: "7767B781524E0B85"
+				type: "questsadditions:repeat"
+				table_id: 4202437235260358758L
+			}]
+		}
+		{
+			x: -4.5d
+			y: -10.0d
+			id: "187F8DB2AF487DD2"
+			tasks: [{
+				id: "6F6983CB2D9DBF14"
+				type: "questsadditions:break"
+				block_type: 0
+				block: "minecraft:netherrack"
+				value: 1000L
+				checkItem: false
+			}]
+			rewards: [{
+				id: "613836927A537D1D"
+				type: "questsadditions:repeat"
+				table_id: 4202437235260358758L
+			}]
+		}
+		{
+			x: 7.5d
+			y: -8.5d
+			id: "20069416212B7BFE"
+			tasks: [{
+				id: "190020728943F4D3"
+				type: "questsadditions:break"
+				block_type: 0
+				block: "minecraft:soul_sand"
+				value: 500L
+				checkItem: false
+			}]
+			rewards: [{
+				id: "543177BB7660B7CF"
+				type: "questsadditions:repeat"
+				table_id: 4202437235260358758L
+			}]
+		}
+		{
+			x: -1.5d
+			y: -7.0d
+			id: "4E51B5BA1628D0B6"
+			tasks: [{
+				id: "3E2D6DBB6B5A29C0"
+				type: "questsadditions:break"
+				block_type: 0
+				block: "minecraft:glowstone"
+				value: 250L
+				checkItem: false
+			}]
+			rewards: [{
+				id: "3128943881F08AAD"
+				type: "questsadditions:repeat"
+				table_id: 4202437235260358758L
+			}]
+		}
+		{
+			x: -10.5d
+			y: -8.5d
+			id: "0E23A64D5CAB1C13"
+			tasks: [{
+				id: "6D2419DCBC5A179D"
+				type: "questsadditions:break"
+				block_type: 0
+				block: "minecraft:stone_bricks"
+				value: 500L
+				checkItem: false
+			}]
+			rewards: [{
+				id: "12A9A231447C2369"
+				type: "questsadditions:repeat"
+				table_id: 4202437235260358758L
+			}]
+		}
+		{
+			x: 9.0d
+			y: -8.5d
+			id: "2CD5D91F8E3D04DC"
+			tasks: [{
+				id: "25ADA30166FE28DB"
+				type: "questsadditions:break"
+				block_type: 0
+				block: "minecraft:nether_bricks"
+				value: 500L
+				checkItem: false
+			}]
+			rewards: [{
+				id: "44B12A9C5C3DDFF5"
+				type: "questsadditions:repeat"
+				table_id: 4202437235260358758L
+			}]
+		}
+		{
+			x: 10.5d
+			y: -8.5d
+			id: "3969B8BA2798DAD3"
+			tasks: [{
+				id: "71E619132C494E49"
+				type: "questsadditions:break"
+				block_type: 0
+				block: "minecraft:end_stone"
+				value: 500L
+				checkItem: false
+			}]
+			rewards: [{
+				id: "7DB73075C7F0A703"
+				type: "questsadditions:repeat"
+				table_id: 4202437235260358758L
+			}]
+		}
+		{
+			title: "Kill An Elder Guardian"
+			x: 0.0d
+			y: -3.5d
+			repeatable: true
+			id: "101676EA8F92CF62"
+			tasks: [{
+				id: "6C42632938363958"
+				type: "kill"
+				entity: "minecraft:elder_guardian"
+				value: 1L
+			}]
+			rewards: [{
+				id: "63C61449F35A540D"
+				type: "ftbmoney:money"
+				ftb_money: 100L
+			}]
+		}
+		{
+			x: -3.0d
+			y: -5.0d
+			repeatable: true
+			id: "2AB890958607E9E8"
+			tasks: [{
+				id: "2B5A9CDED04C172B"
+				type: "item"
+				item: {
+					id: "aoa3:copper_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 50L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "10BC680D101B90C3"
+				type: "ftbmoney:money"
+				ftb_money: 50L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -5.0d
+			repeatable: true
+			id: "4DB46E887E0892A0"
+			tasks: [{
+				id: "6A9E5D3CF8D0EB68"
+				type: "item"
+				item: {
+					id: "aoa3:silver_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 10L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "4245FD47416A002C"
+				type: "ftbmoney:money"
+				ftb_money: 50L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -5.0d
+			repeatable: true
+			id: "4AAB2CDCD7512B03"
+			tasks: [{
+				id: "771D21F5D9B59C5B"
+				type: "item"
+				item: {
+					id: "aoa3:gold_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "258E42D7E0051DA3"
+				type: "ftbmoney:money"
+				ftb_money: 50L
+			}]
+		}
+	]
+}

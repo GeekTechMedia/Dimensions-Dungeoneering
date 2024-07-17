@@ -1,0 +1,18 @@
+{
+  "type": "origins:action_over_time",
+  "entity_action":
+  {
+    "type": "origins:apply_effect",
+    "effect":
+    {
+      "effect": "ars_nouveau:mana_regen",
+      "duration": 40,
+      "amplifier": 0,
+      "show_particles": false,
+      "show_icon": false
+    }
+  },
+  "interval": 20,
+  "name": "Greater Mana Regen",
+  "description": "Sorcerers are more adept in magic and as such they possess an ability to regenerate their mana faster than others."
+}

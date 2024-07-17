@@ -1,0 +1,1286 @@
+{
+	id: "08C6DCD7CCEB720E"
+	group: "4B5D122F75FB7F81"
+	order_index: 2
+	filename: "forbidden__arcanus"
+	title: "The Forbidden Arts"
+	icon: "forbidden_arcanus:forbiddenmicon"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 6.5d
+			y: -7.5d
+			width: 3.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "forbidden_arcanus:textures/block/black_hole_aura_1.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -6.0d
+			y: 3.0d
+			width: 3.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "forbidden_arcanus:textures/block/black_hole_aura_1.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "circle"
+			description: ["Forbidden and Arcanus is an exploration, magic, and decorative mod. It has many useful blocks, items, and some enchants that can help you and spice up your minecraft experience. It's textures and models are also very nice looking so it can be useful in building too."]
+			id: "671AAEA68A45265C"
+			tasks: [{
+				id: "4306D1B6CB23D95B"
+				type: "checkmark"
+				title: "Forbidden and Arcanus"
+			}]
+			rewards: [
+				{
+					id: "0B3E3F86A0ADA8D8"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "45D8D0CFE1175DCA"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 0.5d
+			description: ["Can be found as a vibrant glowing ore underground. Used for crafting eternal stellas and can be right clicked for some easy experience."]
+			dependencies: ["671AAEA68A45265C"]
+			id: "3899F4DDF65E6B84"
+			tasks: [{
+				id: "506FFBB5285CE794"
+				type: "item"
+				item: "forbidden_arcanus:xpetrified_orb"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 1.5d
+			description: ["An extremely rare resource that can be found as an ore underground. When mined it explodes. It is used to crete eternal stellas and a block of stellarite. Can be found from y0 to y60."]
+			dependencies: ["671AAEA68A45265C"]
+			id: "5F3ACEB6384473A4"
+			tasks: [{
+				id: "41239170BC44121D"
+				type: "item"
+				item: "forbidden_arcanus:stellarite_piece"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 1.0d
+			description: ["Crafted from four Xpetrified Orbs and a Stellarite Piece. It can be right-clicked up to three times to fully repair all items in your inventory. Combine it in a Smithing Table with a damagable Item to make it Indestructible."]
+			dependencies: [
+				"5F3ACEB6384473A4"
+				"3899F4DDF65E6B84"
+			]
+			id: "476F747F83026B91"
+			tasks: [{
+				id: "5410415220C38F42"
+				type: "item"
+				item: {
+					id: "forbidden_arcanus:eternal_stella"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: -2.5d
+			description: ["Grants fire resistance I, and is used in a few other crafting recipes."]
+			dependencies: ["671AAEA68A45265C"]
+			id: "641586DF89B29AD4"
+			tasks: [{
+				id: "2ABD6CDB6DB7ED27"
+				type: "item"
+				item: "forbidden_arcanus:obsidian_skull"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -2.5d
+			description: ["Grants you fire resistance I and resistance I."]
+			dependencies: ["641586DF89B29AD4"]
+			id: "0E9A22C64A72EAE9"
+			tasks: [{
+				id: "5F32607602F37957"
+				type: "item"
+				item: {
+					id: "forbidden_arcanus:obsidian_skull_shield"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: -3.5d
+			description: ["A pickaxe that automatically smelts ores for you."]
+			dependencies: [
+				"641586DF89B29AD4"
+				"5A115E1B570452FB"
+			]
+			id: "139ACDE8D7BC38B8"
+			tasks: [{
+				id: "4D83CF8680B87B09"
+				type: "item"
+				item: {
+					id: "forbidden_arcanus:infernum_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: -0.5d
+			description: ["Can be obtained by killing a bat."]
+			dependencies: ["671AAEA68A45265C"]
+			id: "2CACDED853C6F18A"
+			tasks: [{
+				id: "5EE6FEB49AB69A47"
+				type: "item"
+				item: "forbidden_arcanus:bat_wing"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -0.5d
+			description: ["A decent food source that gives a use for bats."]
+			dependencies: ["2CACDED853C6F18A"]
+			id: "00BCEF066C554D42"
+			tasks: [{
+				id: "3807262686F5AA16"
+				type: "item"
+				item: "forbidden_arcanus:bat_soup"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -6.5d
+			description: ["A way to compress bat soups."]
+			dependencies: [
+				"00BCEF066C554D42"
+				"1DBB9C259AEE37CD"
+			]
+			id: "47EA851D807F319F"
+			tasks: [{
+				id: "42E12739E56D37AB"
+				type: "item"
+				item: {
+					id: "forbidden_arcanus:edelwood_bat_soup_bucket"
+					Count: 1b
+					tag: {
+						EdelwoodBucket: {
+							Fullness: 1
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: -1.5d
+			description: ["Used for crafting."]
+			dependencies: ["671AAEA68A45265C"]
+			id: "0DC08EB13E8222F0"
+			tasks: [{
+				id: "3C3ABCBA7F365D5E"
+				type: "item"
+				item: "forbidden_arcanus:cloth"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -1.5d
+			description: ["A decent set of early game armor that also looks very cool."]
+			dependencies: ["0DC08EB13E8222F0"]
+			id: "7CF5F081413161F6"
+			tasks: [
+				{
+					id: "62621107D3C7F020"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:mortem_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"agricraft:gene_inspector": {
+								agri_flag: 0b
+							}
+						}
+					}
+				}
+				{
+					id: "2CBD2866DA3BD566"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:mortem_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "72056E09F1408DF0"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:mortem_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4D80AEFADF6E4861"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:mortem_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -2.5d
+			description: ["A very common ore found just as commonly as iron. Used for very many crafting recipies in the mod."]
+			dependencies: ["671AAEA68A45265C"]
+			id: "280462181E1290B2"
+			tasks: [{
+				id: "470D7DB1023DFDC2"
+				type: "item"
+				item: "forbidden_arcanus:arcane_crystal"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.5d
+			description: ["Can be used on farmland to create mystical farmland which doubles crop drops. Also a very common crafting item."]
+			dependencies: ["280462181E1290B2"]
+			id: "678CEB42D00DFBC3"
+			tasks: [{
+				id: "07829777D571A999"
+				type: "item"
+				item: "forbidden_arcanus:arcane_crystal_dust"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 3.5d
+			description: ["The orb of temporary flight does pretty much exactly what you'd expect. It grants you creative flight for 5 minutes! It can be found in end city dungeons."]
+			dependencies: ["671AAEA68A45265C"]
+			id: "636E4977FFB51855"
+			tasks: [{
+				id: "38DBF7DE28049CB5"
+				type: "item"
+				item: "forbidden_arcanus:orb_of_temporary_flight"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -2.5d
+			description: ["A flower that can be found in flower forest biomes. Allows a much easier way to get arcane gold."]
+			dependencies: ["671AAEA68A45265C"]
+			id: "0A4DEA22EDA6F237"
+			tasks: [{
+				id: "300064562EB0143E"
+				type: "item"
+				item: "forbidden_arcanus:yellow_orchid"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.5d
+			description: ["Used to transform stuff, for example it can be used to charge a Creeper or to create an Arcane Crystal Obelisk."]
+			dependencies: ["678CEB42D00DFBC3"]
+			id: "213155900F01E83B"
+			tasks: [{
+				id: "7C1B8BBACC98EE99"
+				type: "item"
+				item: "forbidden_arcanus:mundabitur_dust"
+			}]
+		}
+		{
+			title: "Arcane Gold Armor"
+			x: -1.5d
+			y: -8.0d
+			description: ["A very good set of armor!"]
+			dependencies: ["304C9894DE319238"]
+			id: "1FBB33B2EF0805CE"
+			tasks: [
+				{
+					id: "0AB6C7D3DEB4BEAA"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:arcane_gold_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"agricraft:gene_inspector": {
+								agri_flag: 0b
+							}
+						}
+					}
+				}
+				{
+					id: "7D4CC08B3CC40ABC"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:arcane_gold_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "63236485ED9CC4BA"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:arcane_gold_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2A658A50C96268C5"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:arcane_gold_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Reinforced Arcane Gold Tools"
+			x: -2.5d
+			y: -8.0d
+			description: ["A set of tools with lots of durability and very strong. BE CAREFUL, make sure to craft the reinforced version and not the normal one!!!"]
+			dependencies: [
+				"5A115E1B570452FB"
+				"304C9894DE319238"
+			]
+			id: "369CDA23E8636235"
+			tasks: [
+				{
+					id: "2465320BA2CF7B77"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:reinforced_arcane_golden_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "42E89C9B59A92888"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:reinforced_arcane_golden_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0ABC4188D1249AB9"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:reinforced_arcane_golden_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "44E395C9B82E5846"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:reinforced_arcane_golden_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "26179004764F0DDA"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:reinforced_arcane_golden_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -3.5d
+			description: ["Only generates in Dark Forest and Dark Forest Hills Biomes, can also be crafted."]
+			dependencies: ["671AAEA68A45265C"]
+			id: "5A115E1B570452FB"
+			tasks: [{
+				id: "5A5E2A2FFF424392"
+				type: "item"
+				item: "forbidden_arcanus:edelwood_log"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -5.5d
+			description: ["A bucket that can hold mutiple entities or liquids."]
+			dependencies: ["5A115E1B570452FB"]
+			id: "1DBB9C259AEE37CD"
+			tasks: [{
+				id: "164E980E2ADEF75C"
+				type: "item"
+				item: "forbidden_arcanus:edelwood_bucket"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 4.0d
+			description: ["Used to craft candles."]
+			dependencies: ["671AAEA68A45265C"]
+			id: "43A1B781E761617B"
+			tasks: [{
+				id: "3CD64CB41B88607F"
+				type: "item"
+				item: "forbidden_arcanus:wax"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 5.0d
+			description: ["Used for crafting only."]
+			dependencies: ["43A1B781E761617B"]
+			id: "766B4855A57F56DC"
+			tasks: [{
+				id: "02835EFADF89FD21"
+				type: "item"
+				item: "forbidden_arcanus:candle"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 4.0d
+			description: ["A more powerful version of the regular arrow. Crafted with tnt. When shot, if it hits a mob, it will explode the mob shot at but it does no block damage."]
+			dependencies: ["671AAEA68A45265C"]
+			id: "37F373ADB22E76E1"
+			tasks: [{
+				id: "7963DE2393C760AA"
+				type: "item"
+				item: "forbidden_arcanus:boom_arrow"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 4.0d
+			description: ["A more powerful version of the regular arrow. Crafted with dragons breath. When shot, if it hits a mob, it will have the same effect of dragons breath as the ender dragon does."]
+			dependencies: ["671AAEA68A45265C"]
+			id: "57812C3E1569328F"
+			tasks: [{
+				id: "39FE41FF8D639BC9"
+				type: "item"
+				item: "forbidden_arcanus:draco_arcanus_arrow"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -0.5d
+			description: ["Found at the bottome of the world. Used for various decorative blocks, and for the runic tebris core."]
+			dependencies: ["671AAEA68A45265C"]
+			id: "3F32BB4C088AC6C2"
+			tasks: [{
+				id: "416E99A1156C7403"
+				type: "item"
+				item: "forbidden_arcanus:darkstone"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -2.5d
+			description: ["Obsidian fused with iron that is used for various weapons and armors."]
+			dependencies: ["671AAEA68A45265C"]
+			id: "45A8849477340146"
+			tasks: [{
+				id: "36837C3015D927CF"
+				type: "item"
+				item: "forbidden_arcanus:obsidian_with_iron"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -2.5d
+			dependencies: ["45A8849477340146"]
+			id: "022066540B52CFB5"
+			tasks: [{
+				id: "3CD751025E2229A7"
+				type: "item"
+				item: "forbidden_arcanus:obsidian_ingot"
+			}]
+		}
+		{
+			title: "Obsidian Tools"
+			x: 7.0d
+			y: -2.5d
+			description: ["A set of very durable tools!"]
+			dependencies: ["022066540B52CFB5"]
+			id: "11A3F65BFFAE2A01"
+			tasks: [
+				{
+					id: "01F97EC3E794A295"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:obsidian_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2CBDF1FD9F2C2BB6"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:obsidian_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5E988B51C9CAF8F6"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:obsidian_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "442D7E01F2387757"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:obsidian_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "23C806AF859CD1D0"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:obsidian_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: -3.5d
+			description: ["An armor set that can be used on its own, or can be used to craft more powerful armor."]
+			dependencies: ["022066540B52CFB5"]
+			id: "176066AB99F4018D"
+			tasks: [
+				{
+					id: "1DB7F3763EA91F06"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:obsidian_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"agricraft:gene_inspector": {
+								agri_flag: 0b
+							}
+						}
+					}
+				}
+				{
+					id: "2F6203CFB79C16E3"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:obsidian_shoulder_pads"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7FEB5E15B2CED58C"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:obsidian_knee_pads"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1042CCC29BA210E8"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:obsidian_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Draco Arcanus Armor"
+			x: 7.5d
+			y: -5.0d
+			description: ["A very good set of armor that is slightly better than netherite."]
+			dependencies: [
+				"176066AB99F4018D"
+				"78124728BA11B766"
+			]
+			id: "0DB144A443F2DD62"
+			tasks: [
+				{
+					id: "61D4EF296B0CF86F"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:draco_arcanus_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"agricraft:gene_inspector": {
+								agri_flag: 0b
+							}
+						}
+					}
+				}
+				{
+					id: "7179741CEBB81F85"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:draco_arcanus_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3A355F9A92EC1AC1"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:draco_arcanus_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3E230D964E76E640"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:draco_arcanus_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -3.0d
+			description: ["Can be obtained by killing the ender dragon, crafting, and looting end cities. Used for very good armor sets."]
+			dependencies: ["671AAEA68A45265C"]
+			id: "78124728BA11B766"
+			tasks: [{
+				id: "1EA391163DC3C372"
+				type: "item"
+				item: "forbidden_arcanus:dragon_scale"
+			}]
+		}
+		{
+			title: "Mystical Dagger"
+			x: 0.5d
+			y: -9.0d
+			description: ["A very fast attacking weapon that is also used to get dragon scale much easier."]
+			dependencies: [
+				"79FF014B15BFD3C0"
+				"7C41F11170CE4304"
+				"304C9894DE319238"
+			]
+			id: "20E240464EC5DC87"
+			tasks: [{
+				id: "331B22CEB689765C"
+				type: "item"
+				item: {
+					id: "forbidden_arcanus:mystical_dagger"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: -9.0d
+			description: ["An item that is used in various crafting recipies. You can also use it to create a black hole by throwing Dark Matter together with Corrupti Dust on the ground. It will attract Items and delete them. It also collects Experience Orbs and once it absorbed enough, it will throw out a Xpetrified Orb."]
+			dependencies: ["5A115E1B570452FB"]
+			id: "7C41F11170CE4304"
+			tasks: [{
+				id: "7A925688351787A3"
+				type: "item"
+				item: "forbidden_arcanus:dark_matter"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -5.5d
+			description: ["Seeds can be obtained by crafting a Yellow Orchid together with 4 Arcane Gold Nuggets. Used as a renewable source of arcane gold."]
+			dependencies: [
+				"0A4DEA22EDA6F237"
+				"304C9894DE319238"
+			]
+			id: "4DAE72EF930431CC"
+			tasks: [{
+				id: "2E0E694E6795DACB"
+				type: "item"
+				item: "forbidden_arcanus:golden_orchid_seeds"
+			}]
+		}
+		{
+			title: "Draco Arcanus Staff"
+			x: 8.0d
+			y: -1.5d
+			description: ["Used to craft the scepter."]
+			dependencies: ["022066540B52CFB5"]
+			id: "2D2DE5B92BE1F315"
+			tasks: [{
+				id: "2F01E57A583539CC"
+				type: "item"
+				item: "forbidden_arcanus:draco_arcanus_staff"
+			}]
+		}
+		{
+			title: "An expensive item that is used to craft a very powerful scepter and used to create a runic tebris core."
+			x: 8.0d
+			y: -4.0d
+			dependencies: ["2D2DE5B92BE1F315"]
+			id: "6B7B413E4BDA94C5"
+			tasks: [{
+				id: "451FA1813E830B7C"
+				type: "item"
+				item: "forbidden_arcanus:dark_nether_star"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -2.5d
+			description: ["It can shoot powerfull energy balls. Use it just like a bow."]
+			dependencies: [
+				"6B7B413E4BDA94C5"
+				"2D2DE5B92BE1F315"
+			]
+			id: "068120853DDC9E9E"
+			tasks: [{
+				id: "28CBE56B83DD7371"
+				type: "item"
+				item: "forbidden_arcanus:draco_arcanus_scepter"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -4.5d
+			description: ["Throw it to receive a random seed."]
+			dependencies: ["678CEB42D00DFBC3"]
+			id: "1A9050F9358A8B0F"
+			tasks: [{
+				id: "1D0A39F695580F0E"
+				type: "item"
+				item: "forbidden_arcanus:seed_bullet"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.5d
+			description: ["Throwing this on an entity will make it teleport away in a 50 block radius."]
+			dependencies: ["671AAEA68A45265C"]
+			id: "060664437DCF7A1A"
+			tasks: [{
+				id: "581B9D2EF7F85640"
+				type: "item"
+				item: "forbidden_arcanus:chorus_pearl"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -8.0d
+			description: ["Applies the Glowing Effect to all Entities near the Player when in Inventory."]
+			dependencies: ["304C9894DE319238"]
+			id: "26B3F08D432BD9DB"
+			tasks: [{
+				id: "12CB0B09391E5F02"
+				type: "item"
+				item: {
+					id: "forbidden_arcanus:spectral_eye_amulet"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.5d
+			description: ["Found by breaking spawners. Used as a crafting item."]
+			dependencies: ["671AAEA68A45265C"]
+			id: "0110C9DE9A4B46D2"
+			tasks: [{
+				id: "24FF28C72209583D"
+				type: "item"
+				item: "forbidden_arcanus:spawner_scrap"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -3.5d
+			description: ["Used for decoration or for crafting quantum catchers."]
+			dependencies: ["280462181E1290B2"]
+			id: "531E7E19BD0FB2FE"
+			tasks: [{
+				id: "5CB00BD4A3B46524"
+				type: "item"
+				item: "forbidden_arcanus:arcane_crystal_block"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -4.5d
+			description: ["Can be used to transport Entities."]
+			dependencies: [
+				"0110C9DE9A4B46D2"
+				"531E7E19BD0FB2FE"
+			]
+			id: "317B47857121FD1F"
+			tasks: [{
+				id: "0E03B41F20DF3FC2"
+				type: "item"
+				item: "forbidden_arcanus:quantum_catcher"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.5d
+			description: ["Can be found uncommonly as an ore from y:0-20. Used for crafting."]
+			dependencies: ["671AAEA68A45265C"]
+			id: "07F0A3D6E687E3FE"
+			tasks: [{
+				id: "5071A8AB2B7869F0"
+				type: "item"
+				item: "forbidden_arcanus:rune"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 4.0d
+			description: ["Rotten leather is an item that can be crafted from rotten flesh and turned into regular leather by smelting it in a furnace."]
+			dependencies: ["671AAEA68A45265C"]
+			id: "30955B1DC34DB665"
+			tasks: [{
+				id: "08C5CCF7041C3C44"
+				type: "item"
+				item: "forbidden_arcanus:rotten_leather"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -0.5d
+			description: ["A decorative block that is also required for the runic tebris core."]
+			dependencies: ["3F32BB4C088AC6C2"]
+			id: "110D6ECF1CD1B5D1"
+			tasks: [{
+				id: "3F34F05467527F56"
+				type: "item"
+				item: "forbidden_arcanus:chiseled_polished_darkstone"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -0.5d
+			description: ["Another decorative block required for the runic tebris core."]
+			dependencies: [
+				"07F0A3D6E687E3FE"
+				"110D6ECF1CD1B5D1"
+			]
+			id: "162612252C71609D"
+			tasks: [{
+				id: "32133509D0DD1602"
+				type: "item"
+				item: "forbidden_arcanus:runic_chiseled_polished_darkstone"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -0.5d
+			description: ["The final step for the runic tebris core. In order to activate it you have to Right Click the Runic Tenebris Frame with Dark Nether Star to create the runic tebris core."]
+			dependencies: ["162612252C71609D"]
+			id: "085EABD08B71B9CA"
+			tasks: [{
+				id: "7A553EC9327BD0D0"
+				type: "item"
+				item: "forbidden_arcanus:runic_tenebris_frame"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -9.0d
+			description: ["To get it, right click on Runic Tenebris Core with a regular Rune. One Rune gives you One Dark Rune."]
+			dependencies: [
+				"6B7B413E4BDA94C5"
+				"085EABD08B71B9CA"
+			]
+			id: "79FF014B15BFD3C0"
+			tasks: [{
+				id: "43F30A4F4125C55A"
+				type: "item"
+				item: "forbidden_arcanus:dark_rune"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 4.0d
+			description: ["Strange roots are a food source that can be obtained by breaking petrified roots. They can also be used as an alternative to nether warts for brewing potions."]
+			dependencies: ["671AAEA68A45265C"]
+			id: "12429EA82CB9928C"
+			tasks: [{
+				id: "27F3F0F848BD5C52"
+				type: "item"
+				item: "forbidden_arcanus:strange_root"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -4.5d
+			description: ["Twice as fast as a normal Ladder."]
+			dependencies: ["5A115E1B570452FB"]
+			id: "32A9F5D14CE17BE2"
+			tasks: [{
+				id: "4CC9A8C1FF4082B9"
+				type: "item"
+				item: "forbidden_arcanus:edelwood_ladder"
+			}]
+		}
+		{
+			title: "Cherrywood"
+			x: -3.5d
+			y: 3.5d
+			description: ["Generates in Plains Biomes, very common. Can be used for building."]
+			dependencies: ["671AAEA68A45265C"]
+			id: "0770E7615A3CF498"
+			tasks: [{
+				id: "60434CD0BF8BF346"
+				type: "item"
+				title: "Any #forbidden_arcanus:cherrywood_logs"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forbidden_arcanus:cherrywood_logs"
+					}
+				}
+			}]
+		}
+		{
+			title: "Mysterywood"
+			x: -3.5d
+			y: 2.5d
+			description: ["An extremely pretty wood used for building. It only generates in Flower Forest Biomes, so it's very rare."]
+			dependencies: ["671AAEA68A45265C"]
+			id: "347FD4E48B545F06"
+			tasks: [{
+				id: "1437963E96278C28"
+				type: "item"
+				title: "Any #forbidden_arcanus:mysterywood_logs"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forbidden_arcanus:mysterywood_logs"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 1.0d
+			description: ["A compressed version of runes."]
+			dependencies: ["07F0A3D6E687E3FE"]
+			id: "1DE08AF5516801ED"
+			tasks: [{
+				id: "02903E4D7FB1F2E0"
+				type: "item"
+				item: "forbidden_arcanus:rune_bag"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -10.0d
+			description: ["A compressed version of dark runes."]
+			dependencies: ["79FF014B15BFD3C0"]
+			id: "6A495C68600CA054"
+			tasks: [{
+				id: "4B6009AEC3417DCB"
+				type: "item"
+				item: "forbidden_arcanus:dark_rune_bag"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 4.5d
+			description: ["Can be dropped from cherrywood trees the same way apples can be dropped from oak trees."]
+			dependencies: ["0770E7615A3CF498"]
+			id: "13088F743B4963C1"
+			tasks: [{
+				id: "286549980B075C20"
+				type: "item"
+				item: "forbidden_arcanus:cherry_peach"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -7.0d
+			description: ["Used for crafting."]
+			dependencies: ["304C9894DE319238"]
+			id: "39C2B0D8A7E180AB"
+			tasks: [{
+				id: "32EBC22A467EEFCB"
+				type: "item"
+				item: "forbidden_arcanus:golden_feather"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -8.0d
+			description: ["A strong pickaxe that comes with silk touch preapplied."]
+			dependencies: [
+				"304C9894DE319238"
+				"39C2B0D8A7E180AB"
+			]
+			id: "1510B0140354B013"
+			tasks: [{
+				id: "275142A87A7E4922"
+				type: "item"
+				item: {
+					id: "forbidden_arcanus:slimec_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							lvl: 1s
+							id: "minecraft:silk_touch"
+						}]
+					}
+				}
+				consume_items: false
+			}]
+		}
+		{
+			x: -2.5d
+			y: 4.0d
+			description: ["Dropped by killing squid."]
+			dependencies: ["671AAEA68A45265C"]
+			id: "29E8E484904AFF9F"
+			tasks: [{
+				id: "719113E662EE7135"
+				type: "item"
+				item: "forbidden_arcanus:tentacle"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 5.0d
+			description: ["A decent food source that can be obtained by cooking tentacles."]
+			dependencies: ["29E8E484904AFF9F"]
+			id: "0B4CFCC8F0CAAF96"
+			tasks: [{
+				id: "239D0F37ACCE0955"
+				type: "item"
+				item: "forbidden_arcanus:cooked_tentacle"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -5.5d
+			description: ["An extremely useful crafting ingredient throughout this mod."]
+			dependencies: ["213155900F01E83B"]
+			id: "304C9894DE319238"
+			tasks: [{
+				id: "60DCD5E114981DE0"
+				type: "item"
+				item: "forbidden_arcanus:arcane_gold_ingot"
+			}]
+		}
+		{
+			title: "Tyr Armor"
+			x: 4.5d
+			y: -5.5d
+			description: ["The most powerful armor set in this mod. Even MUCH stronger than netherite!"]
+			dependencies: [
+				"4151B37D669555DE"
+				"3264A95DA7DEF3A2"
+			]
+			id: "2400592B19FD67E9"
+			tasks: [
+				{
+					id: "79533F2206779B07"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:tyr_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"agricraft:gene_inspector": {
+								agri_flag: 0b
+							}
+						}
+					}
+				}
+				{
+					id: "58A0C98B7BFA1E83"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:tyr_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "42C1FB587ABED2C0"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:tyr_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4DA8384553381C42"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:tyr_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -4.5d
+			description: ["A stepping stone to the tyr armor."]
+			dependencies: ["78124728BA11B766"]
+			id: "4151B37D669555DE"
+			tasks: [{
+				id: "0172E295B4BE0555"
+				type: "item"
+				item: "forbidden_arcanus:aquatic_dragon_scale"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -5.0d
+			description: ["A stepping stone to the tyr armor."]
+			dependencies: [
+				"78124728BA11B766"
+				"304C9894DE319238"
+			]
+			id: "3264A95DA7DEF3A2"
+			tasks: [{
+				id: "6696370A940966F3"
+				type: "item"
+				item: "forbidden_arcanus:golden_dragon_scale"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 6.0d
+			description: ["A lamp with a candle inside."]
+			dependencies: ["766B4855A57F56DC"]
+			id: "25F1EA96FF892581"
+			tasks: [{
+				id: "467D65375622CE40"
+				type: "item"
+				item: "forbidden_arcanus:candle_lamp"
+			}]
+		}
+	]
+}

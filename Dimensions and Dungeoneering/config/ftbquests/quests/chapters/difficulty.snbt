@@ -1,0 +1,370 @@
+{
+	id: "1BE9968F66E85829"
+	group: "31DBD57DDF20D469"
+	order_index: 3
+	filename: "difficulty"
+	title: "Maximum Difficulty"
+	icon: "minecraft:skeleton_skull"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: -4.5d
+		width: 3.0d
+		height: 3.0d
+		rotation: 0.0d
+		image: "infinite_dungeons:textures/gui/difficulty/diff_4.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			title: "Scaling Health"
+			x: -5.0d
+			y: 0.0d
+			description: ["Scaling Health is a mod that changes some of the difficulty, health, and mob spawning systems in the game. This questline will explain some of these systems."]
+			dependencies: ["1A801E8137ABFD71"]
+			id: "4848FE41FD643577"
+			tasks: [{
+				id: "7114B204C56B55DE"
+				type: "checkmark"
+				title: "Scaling Health"
+			}]
+			rewards: [{
+				id: "1533101773DF869D"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			description: ["First Aid is one of the two main difficulty mods in this pack. It changes the health system entirely and this quest system will explain this."]
+			dependencies: ["1A801E8137ABFD71"]
+			id: "478BA7BFACEFBDF1"
+			tasks: [{
+				id: "140E0EE1D2308BBB"
+				type: "checkmark"
+				title: "First Aid"
+			}]
+			rewards: [{
+				id: "2747021A75F0651A"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "circle"
+			description: ["The difficulty questline is meant to outline the two main difficulty mods in the modpack and help you understand how to survive better with these mods added."]
+			id: "1A801E8137ABFD71"
+			tasks: [{
+				id: "4AE572FB623DF212"
+				type: "checkmark"
+				title: "Difficulty"
+			}]
+			rewards: [
+				{
+					id: "60957800703E32E8"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "512B1A3568251C93"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: 0.0d
+			description: ["The old health bar got replaced by 8 different health regions, so your Head, Body, Legs and Feet have their own health bar. Healing can be done by using bandages or plaster, but also vanilla regeneration is enabled as well. When you right click them in your inventory, you get a GUI where you can choose where you want to apply it. You will die as soon as your head or body health drop to zero."]
+			dependencies: ["478BA7BFACEFBDF1"]
+			id: "7902208849A2D608"
+			tasks: [{
+				id: "5D8D830C9A92851D"
+				type: "checkmark"
+				title: "Health System"
+			}]
+			rewards: [{
+				id: "5C2F508EA7AFE0A4"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: 8.0d
+			y: -3.0d
+			description: ["Certain debuffs may apply when your limbs get damaged, so when e.g. your feet get damaged, you will get a constant slowness debuff, or when your head gets hit servere enough, blindness and/or nausea will apply for a short time. All debuffs can be supressed by morphine. When you take morphine, no health debuffs will apply while it is active, but as soon as the effect runs out, your constant debuffs will reappear. "]
+			dependencies: ["478BA7BFACEFBDF1"]
+			id: "00C92A0C9A825631"
+			tasks: [{
+				id: "179E7B7662A140D3"
+				type: "checkmark"
+				title: "Debuffs"
+			}]
+			rewards: [{
+				id: "5CBC2656A51B887E"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: 8.0d
+			y: 3.0d
+			description: ["Armor calculation has also been changed: If your legs get hit, only the armor of your legs will be taken into account. But because the armor value of a typical helmet is much lower than a chestplate, these values get multiplied with a factor, so armor for your head and body are very important if you want to survive."]
+			dependencies: ["478BA7BFACEFBDF1"]
+			id: "197F46C468100A72"
+			tasks: [{
+				id: "0406BFBBBCD8A677"
+				type: "checkmark"
+				title: "Armor"
+			}]
+			rewards: [{
+				id: "06D8F4AB73FA3DC5"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: 10.5d
+			y: -1.5d
+			dependencies: ["7902208849A2D608"]
+			id: "72E615A2B7F7F25A"
+			tasks: [{
+				id: "456B796163BC745A"
+				type: "item"
+				item: "firstaid:bandage"
+			}]
+			rewards: [{
+				id: "3D1D73A522D0B64F"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 10.5d
+			y: 0.0d
+			dependencies: ["7902208849A2D608"]
+			id: "6BC58161C9B34A72"
+			tasks: [{
+				id: "68CAA7A67F34A87C"
+				type: "item"
+				item: "firstaid:plaster"
+			}]
+			rewards: [{
+				id: "21FD7FCA017E31AA"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: 10.5d
+			y: 1.5d
+			dependencies: ["7902208849A2D608"]
+			id: "5A785F6DDC23836A"
+			tasks: [{
+				id: "35C307CFE263A465"
+				type: "item"
+				item: "firstaid:morphine"
+			}]
+			rewards: [{
+				id: "47A51ACB3A516498"
+				type: "ftbmoney:money"
+				ftb_money: 25L
+			}]
+		}
+		{
+			title: "Player Difficulty"
+			x: -8.0d
+			y: 0.0d
+			description: ["A difficulty value is tracked for each player. There are several factors that can increase/decrease your difficulty. Your difficulty will increases slowly as time passes. As difficulty increases, mobs become stronger. Player difficulty is used to calculate difficulty when spawning mobs. Idle players accumulate difficulty more slowly. The difficulty value will determine how much extra health mobs can have. Mobs will also gain bonus attack damage and potion effects. Higher difficulty values also increase the chance of mobs spawning as blights... "]
+			dependencies: ["4848FE41FD643577"]
+			id: "01266C84F0301C21"
+			tasks: [{
+				id: "6F03C6DB6A94FD08"
+				type: "checkmark"
+				title: "Player Difficulty"
+			}]
+			rewards: [{
+				id: "54E6C212E968E5E4"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -8.0d
+			y: -3.0d
+			description: ["When mobs are spawned, an \"area difficulty\" value is calculated for the position the mob is spawned at. This value is then used to determine extra health/damage, chance of becoming a blight, etc. This is based on the difficulty level of all nearby players."]
+			dependencies: ["4848FE41FD643577"]
+			id: "365A806C01CDF2B4"
+			tasks: [{
+				id: "6D33D05A281534FC"
+				type: "checkmark"
+				title: "Area Difficulty"
+			}]
+			rewards: [{
+				id: "3492E1302F97A718"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -8.0d
+			y: 3.0d
+			description: ["Blights are extremely powerful mobs. These are ordinary mobs (even from other mods) that have spawned with far more health, higher damage-dealing potential, and a variety of potion effects including a large speed boost. They also tend to spawn with armor. Blights have a purple fire effect at all times which makes them easy to identify, even if submerged in water. By default, blights drop more heart crystals than standard mobs and ten times the XP."]
+			dependencies: ["4848FE41FD643577"]
+			id: "17028240DAA759AD"
+			tasks: [{
+				id: "2CA89220D0EBB717"
+				type: "checkmark"
+				title: "Blights"
+			}]
+			rewards: [{
+				id: "329D129E1167C5EF"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -10.5d
+			y: -1.0d
+			description: ["Heart crystals are used to heal your players health. They cannot be used to increase your maximum health even though the tooltip says you can. They can drop when mobs are killed or crafted from heart crystal shards. Simply use them to gain health when you aren't at full health. Heart crystals can also be used to increase your pets maximum health or to heal yourself."]
+			dependencies: ["01266C84F0301C21"]
+			id: "71F30D87445D4520"
+			tasks: [{
+				id: "2DB19BD59F41F564"
+				type: "item"
+				item: "scalinghealth:heart_crystal"
+			}]
+			rewards: [{
+				id: "21FDF7DC33BAD8B0"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: -12.5d
+			y: -1.0d
+			description: ["Heart dust is used to craft bandages and medkits."]
+			dependencies: ["71F30D87445D4520"]
+			id: "24A04ABD78F125B3"
+			tasks: [{
+				id: "41A3F4889CFA78EF"
+				type: "item"
+				item: "scalinghealth:heart_dust"
+			}]
+			rewards: [{
+				id: "785DCF70ED52CE29"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: -13.5d
+			y: -2.0d
+			description: ["Bandages and medkits will restore a percentage of your maximum health when used. To apply one, use it (hold right-click) for 5 seconds. You will be given the \"Bandaged\" potion effect and a portion of your health will be restored each second, but you will move more slowly while this is in effect. The effect is removed if your health is fully restored."]
+			dependencies: ["24A04ABD78F125B3"]
+			id: "7DDC74828EB1B04E"
+			tasks: [{
+				id: "14F8204AE857BEEB"
+				type: "item"
+				item: "scalinghealth:bandages"
+			}]
+			rewards: [{
+				id: "1B254803EA6DBB75"
+				type: "ftbmoney:money"
+				ftb_money: 25L
+			}]
+		}
+		{
+			x: -13.5d
+			y: 0.0d
+			description: ["Bandages and medkits will restore a percentage of your maximum health when used. To apply one, use it (hold right-click) for 5 seconds. You will be given the \"Bandaged\" potion effect and a portion of your health will be restored each second, but you will move more slowly while this is in effect. The effect is removed if your health is fully restored."]
+			dependencies: ["24A04ABD78F125B3"]
+			id: "4FE3A40C89869831"
+			tasks: [{
+				id: "66F26F7650E15265"
+				type: "item"
+				item: "scalinghealth:medkit"
+			}]
+			rewards: [{
+				id: "233B6B749955F57B"
+				type: "ftbmoney:money"
+				ftb_money: 50L
+			}]
+		}
+		{
+			x: -12.5d
+			y: 2.0d
+			description: ["The cursed heart will increase difficulty when used. These drop occasionally from certain mob types at certain difficulty levels."]
+			dependencies: ["7A643F9ABD40B676"]
+			id: "49678D16009E5A76"
+			tasks: [{
+				id: "14F00DCB31CA8BA2"
+				type: "item"
+				item: "scalinghealth:cursed_heart"
+			}]
+			rewards: [{
+				id: "08931B7096DC86EC"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: -12.5d
+			y: 0.0d
+			description: ["The enchanted heart will decrease difficulty when used. These drop occasionally from certain mob types at certain difficulty levels."]
+			dependencies: ["7A643F9ABD40B676"]
+			id: "77C1C69A3155D184"
+			tasks: [{
+				id: "1450243136164716"
+				type: "item"
+				item: "scalinghealth:enchanted_heart"
+			}]
+			rewards: [{
+				id: "1154A9F355F4A455"
+				type: "ftbmoney:money"
+				ftb_money: 50L
+			}]
+		}
+		{
+			x: -12.5d
+			y: 1.0d
+			description: ["Lucky hearts can be either good or bad. When you use it you can either gain up to 10 difficulty or lose up to ten difficulty so it can be risky!"]
+			dependencies: ["7A643F9ABD40B676"]
+			id: "0978473EBA4F28E2"
+			tasks: [{
+				id: "41C49FAAA1464EE7"
+				type: "item"
+				item: "scalinghealth:chance_heart"
+			}]
+			rewards: [{
+				id: "4D090D2CDB7918D7"
+				type: "ftbmoney:money"
+				ftb_money: 25L
+			}]
+		}
+		{
+			x: -10.5d
+			y: 1.0d
+			description: ["A difficulty bar will appear on your HUD from time-to-time (there's also a keybinding to show it). This bar actually has two parts, although you can't tell in most cases. The upper part of the bar (the largest part) is the Area Difficulty at your location. You may see this portion grow when near other players on a server. The lower part is your Player Difficulty. That's the difficulty your player accumulates over time, which is used to calculate Area Difficulty in most cases."]
+			dependencies: ["01266C84F0301C21"]
+			id: "7A643F9ABD40B676"
+			tasks: [{
+				id: "6A3E980D939078E2"
+				type: "checkmark"
+				title: "Difficulty Bar"
+			}]
+			rewards: [{
+				id: "69645986743A2D94"
+				type: "xp"
+				xp: 10
+			}]
+		}
+	]
+}

@@ -1,0 +1,1499 @@
+{
+	id: "305B96D563CE5997"
+	group: "59C52D0551711357"
+	order_index: 2
+	filename: "the_undergarden"
+	title: "The Garden Down Under"
+	icon: {
+		id: "undergarden:catalyst"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: -8.5d
+			y: -3.0d
+			width: 3.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "undergarden:textures/block/carved_gloomgourd.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 8.5d
+			y: -3.0d
+			width: 3.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "undergarden:textures/block/gloom_o_lantern.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "circle"
+			description: ["The Undergarden is a dark, subterranean world located deep below the bedrock of the Overworld. The flora here has adapted to their conditions and can grow anywhere, independent of light. Strange creatures call these dark lands home, and are plagued by the invasive Rotspawn, monsters originating from a chaotic, mysterious realm."]
+			id: "026FB44C164EDE81"
+			tasks: [{
+				id: "34DC351101FD5E32"
+				type: "checkmark"
+				title: "The Undergarden"
+			}]
+			rewards: [
+				{
+					id: "53D5BD9AE6D42B84"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7FDB92A4814A4106"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			description: ["Create a frame in the shape of a Nether portal using Stone Bricks."]
+			dependencies: ["026FB44C164EDE81"]
+			id: "1565E13E7DDB656F"
+			tasks: [{
+				id: "03071E1238345262"
+				type: "item"
+				item: "minecraft:stone_bricks"
+				count: 10L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			description: ["Activate the Undergarden portal by right clicking the inner bottom of the frame with the Catalyst."]
+			dependencies: ["1565E13E7DDB656F"]
+			id: "3E33B145AA1FB1B6"
+			tasks: [{
+				id: "547CFB060015C6A7"
+				type: "item"
+				item: {
+					id: "undergarden:catalyst"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			shape: "square"
+			dependencies: ["3E33B145AA1FB1B6"]
+			id: "0F20507453F13A90"
+			tasks: [{
+				id: "2540404D89A7082A"
+				type: "dimension"
+				dimension: "undergarden:undergarden"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -4.5d
+			description: ["The Rotling, Rotwalker, and Rotbeast all behave the same way.Rotspawn wander around randomly. When they spot a player, passive mob, or Stoneborn, they run towards it and attack. Rotspawn are damaged by Shard Torches and receive a damage multiplier from Utherium swords. They will also attack any entity that attacks it."]
+			dependencies: ["0F20507453F13A90"]
+			id: "28EBEB6E74548450"
+			tasks: [{
+				id: "467BE6B5D9D4E934"
+				type: "kill"
+				entity: "undergarden:rotbeast"
+				value: 1L
+			}]
+		}
+		{
+			x: 2.5d
+			y: -5.5d
+			description: ["The Rotling, Rotwalker, and Rotbeast all behave the same way.Rotspawn wander around randomly. When they spot a player, passive mob, or Stoneborn, they run towards it and attack. Rotspawn are damaged by Shard Torches and receive a damage multiplier from Utherium swords. They will also attack any entity that attacks it."]
+			dependencies: ["0F20507453F13A90"]
+			id: "3E76455DD52C0FCB"
+			tasks: [{
+				id: "5A55E3FCF7BAFE9B"
+				type: "kill"
+				entity: "undergarden:rotling"
+				value: 1L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.0d
+			description: ["The Forgotten Guardian stands still until a player comes in range. After detecting a player, it follows them and will attack if the player is close. The Forgotten Guardian only spawns in the Catacombs. The Forgotten Guardian will drop 0 to 16 Forgotten Nuggets."]
+			dependencies: ["6C93A9B56208F33A"]
+			id: "3EC043A0299E4745"
+			tasks: [{
+				id: "6E72EF038CC4A46F"
+				type: "kill"
+				entity: "undergarden:forgotten_guardian"
+				value: 1L
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.0d
+			description: ["A hostile creature that looks like a bat with legs. Can spawn in catacombs from their spawners."]
+			dependencies: ["0F20507453F13A90"]
+			id: "4C04F320115E062C"
+			tasks: [{
+				id: "5AA8C0AC37153768"
+				type: "kill"
+				entity: "undergarden:nargoyle"
+				value: 1L
+			}]
+			rewards: [{
+				id: "5BDE66FBE75904F1"
+				type: "ftbmoney:money"
+				ftb_money: 25L
+			}]
+		}
+		{
+			icon: "undergarden:ink_mushroom"
+			x: 1.0d
+			y: 1.0d
+			description: ["Explore all the biomes of the undergarden."]
+			dependencies: ["0F20507453F13A90"]
+			id: "187605BC1EADCDC6"
+			tasks: [{
+				id: "0D25964546DEF413"
+				type: "advancement"
+				title: "Biome Explorer"
+				advancement: "undergarden:undergarden/all_undergarden_biomes"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "12654CFAC3F1A4DF"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
+		}
+		{
+			icon: "undergarden:chiseled_depthrock_bricks"
+			x: -1.0d
+			y: 1.0d
+			dependencies: ["0F20507453F13A90"]
+			id: "6C93A9B56208F33A"
+			tasks: [{
+				id: "7652716B584EFD77"
+				type: "advancement"
+				title: "Catacombs"
+				advancement: "undergarden:undergarden/catacombs"
+				criterion: ""
+			}]
+		}
+		{
+			x: -1.0d
+			y: 3.0d
+			description: ["Found as a drop from the Forgotten Guardian."]
+			dependencies: ["3EC043A0299E4745"]
+			id: "72A69BE1C3A52338"
+			tasks: [{
+				id: "787CA162E928DB76"
+				type: "item"
+				item: "undergarden:forgotten_nugget"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 4.0d
+			description: ["The strongest metal of the undergarden."]
+			dependencies: ["72A69BE1C3A52338"]
+			id: "7B37B1983B65D7C9"
+			tasks: [{
+				id: "23D8A2201C246DAD"
+				type: "item"
+				item: "undergarden:forgotten_ingot"
+			}]
+		}
+		{
+			title: "Forgotten Tools"
+			x: -1.0d
+			y: 5.0d
+			description: ["The strongest tools of the undergarden, but also the hardest to obtain."]
+			dependencies: ["7B37B1983B65D7C9"]
+			id: "6D7207AA7BC46266"
+			tasks: [
+				{
+					id: "4F6FA62309E313EB"
+					type: "item"
+					item: {
+						id: "undergarden:forgotten_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0FEBD7F702512D11"
+					type: "item"
+					item: {
+						id: "undergarden:forgotten_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "63AC65AC8117CE5B"
+					type: "item"
+					item: {
+						id: "undergarden:forgotten_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "412C758B60E2E1D8"
+					type: "item"
+					item: {
+						id: "undergarden:forgotten_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "614CFBA08AD983C6"
+					type: "item"
+					item: {
+						id: "undergarden:forgotten_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "05A92800F1BEB6DE"
+				type: "item"
+				item: {
+					id: "better_fishing_rods:epic_enchantment_book"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: -5.0d
+			description: ["Can be obtained by killing any rotspawn mobs."]
+			dependencies: [
+				"28EBEB6E74548450"
+				"3E76455DD52C0FCB"
+			]
+			dependency_requirement: "one_completed"
+			id: "38EF7693DAA9965F"
+			tasks: [{
+				id: "6B510AAC89DAF203"
+				type: "item"
+				item: "undergarden:utheric_shard"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -3.5d
+			description: ["Can be crafted from utherium shards. Or found by mining it's ore underground."]
+			dependencies: [
+				"38EF7693DAA9965F"
+				"0F20507453F13A90"
+			]
+			dependency_requirement: "one_completed"
+			id: "0B0C610B7307F472"
+			tasks: [{
+				id: "58856827044CB157"
+				type: "item"
+				item: "undergarden:utherium_chunk"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -3.5d
+			description: ["The most common metal of the undergarden."]
+			dependencies: ["0B0C610B7307F472"]
+			id: "3586F096FB913139"
+			tasks: [{
+				id: "5DCFDBB90BE3CB16"
+				type: "item"
+				item: "undergarden:utherium_ingot"
+			}]
+		}
+		{
+			title: "Utherium Tools"
+			x: 6.5d
+			y: -4.0d
+			description: ["A set of tools that deals extra damage to rotspawn but is also strong!"]
+			dependencies: ["3586F096FB913139"]
+			id: "5EF1CD8DFEF04F91"
+			tasks: [
+				{
+					id: "149EDADBF8247EBE"
+					type: "item"
+					item: {
+						id: "undergarden:utheric_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "78086A94AC11D241"
+					type: "item"
+					item: {
+						id: "undergarden:utheric_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3446C4571D17DBE3"
+					type: "item"
+					item: {
+						id: "undergarden:utheric_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2DDB2BAE44789199"
+					type: "item"
+					item: {
+						id: "undergarden:utheric_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "27A59FA8B7092CFF"
+					type: "item"
+					item: {
+						id: "undergarden:utheric_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "0FF57F022D35980D"
+				type: "item"
+				item: {
+					id: "better_fishing_rods:rare_enchantment_book"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Utherium Armor"
+			x: 6.5d
+			y: -3.0d
+			description: ["A decently strong set of armor."]
+			dependencies: ["3586F096FB913139"]
+			id: "01148D1F9C41C4D7"
+			tasks: [
+				{
+					id: "6EA0A28F56E1B269"
+					type: "item"
+					item: {
+						id: "undergarden:utheric_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"agricraft:gene_inspector": {
+								agri_flag: 0b
+							}
+						}
+					}
+				}
+				{
+					id: "5CC5BCC36C59F6C9"
+					type: "item"
+					item: {
+						id: "undergarden:utheric_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7802C8ED7F1B8959"
+					type: "item"
+					item: {
+						id: "undergarden:utheric_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5A3202FC6239CFD6"
+					type: "item"
+					item: {
+						id: "undergarden:utheric_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "6E1F6BA5CAEACCCD"
+				type: "item"
+				item: {
+					id: "better_fishing_rods:rare_enchantment_book"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Gather 10x Wigglewood Logs"
+			x: 0.0d
+			y: -6.0d
+			description: ["The most common wood source of the undergarden."]
+			dependencies: ["0F20507453F13A90"]
+			id: "5EA9F6CA0F0B9CF0"
+			tasks: [{
+				id: "7732B2B4DC984274"
+				type: "item"
+				title: "Any #undergarden:wigglewood_logs"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "undergarden:wigglewood_logs"
+					}
+				}
+				count: 10L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -7.0d
+			description: ["Can be crafted from wigglewood."]
+			dependencies: ["5EA9F6CA0F0B9CF0"]
+			id: "16F785F9D98ECE87"
+			tasks: [{
+				id: "3FC34442C9A7C526"
+				type: "item"
+				item: "undergarden:twistytwig"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -8.0d
+			description: ["A good ranged weapon that fires depthrock pebbles that can be found all over the undergarden."]
+			dependencies: ["16F785F9D98ECE87"]
+			id: "2AB0543CB98286B7"
+			tasks: [{
+				id: "693F2BC875CC52DD"
+				type: "item"
+				item: {
+					id: "undergarden:slingshot"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_gear:bow": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "4AF28F17D45F8F62"
+				type: "item"
+				item: "undergarden:depthrock_pebble"
+				count: 16
+			}]
+		}
+		{
+			x: 1.0d
+			y: -7.0d
+			description: [" A common food source found in bushes."]
+			dependencies: ["0F20507453F13A90"]
+			id: "3AF2B8B271CC45C5"
+			tasks: [{
+				id: "172A8767ED19E619"
+				type: "item"
+				item: "undergarden:underbeans"
+			}]
+			rewards: [{
+				id: "5C49D807895E88FB"
+				type: "random"
+				title: "Farmer's Pouch"
+				table_id: 799187797924354348L
+			}]
+		}
+		{
+			x: -2.5d
+			y: 0.0d
+			description: ["Similar to pumpkins but found throughout the Undergarden."]
+			dependencies: ["0F20507453F13A90"]
+			id: "401EE1E8FA1CB476"
+			tasks: [{
+				id: "32A4FA0D7B5B2BCE"
+				type: "item"
+				item: "undergarden:gloomgourd"
+			}]
+			rewards: [{
+				id: "689673E41E4C1E05"
+				type: "random"
+				title: "Farmer's Pouch"
+				table_id: 799187797924354348L
+			}]
+		}
+		{
+			x: -3.5d
+			y: 0.5d
+			description: ["A carved version of the gloomgourd."]
+			dependencies: ["401EE1E8FA1CB476"]
+			id: "6F371B8E5BABC364"
+			tasks: [{
+				id: "691BDD66F7FC5B8B"
+				type: "item"
+				item: "undergarden:carved_gloomgourd"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 1.0d
+			description: ["A spooky lantern."]
+			dependencies: ["6F371B8E5BABC364"]
+			id: "1B2DF96B3D9296B7"
+			tasks: [{
+				id: "4043DA4689FC9EF9"
+				type: "item"
+				item: "undergarden:gloom_o_lantern"
+			}]
+			rewards: [{
+				id: "509E1101B88A2F19"
+				type: "item"
+				item: "undergarden:gloom_o_lantern"
+				count: 3
+			}]
+		}
+		{
+			x: -3.5d
+			y: 1.5d
+			description: ["A tasty slice of pie made from Gloomgourds."]
+			dependencies: [
+				"401EE1E8FA1CB476"
+				"2EBCF6C728366A81"
+			]
+			id: "16897BA1D4DDDF8C"
+			tasks: [{
+				id: "509E642B9A6CEF44"
+				type: "item"
+				item: "undergarden:gloomgourd_pie"
+			}]
+			rewards: [{
+				id: "7DA716902F699C02"
+				type: "random"
+				title: "Baker's Bundle"
+				table_id: 2508634577116110626L
+			}]
+		}
+		{
+			x: -4.5d
+			y: 0.0d
+			description: ["Can be used to grow gloomgourds similarily to pumpkins."]
+			dependencies: ["401EE1E8FA1CB476"]
+			id: "1975505677836BE1"
+			tasks: [{
+				id: "2BE9EF1EE725AA1A"
+				type: "item"
+				item: "undergarden:gloomgourd_seeds"
+			}]
+			rewards: [{
+				id: "30C010E5504365F5"
+				type: "item"
+				item: "undergarden:gloomgourd_seeds"
+				count: 5
+			}]
+		}
+		{
+			x: -1.0d
+			y: -7.0d
+			description: ["Long vines that are a poor source of food but very common in the undergarden."]
+			dependencies: ["0F20507453F13A90"]
+			id: "0A0E812705DC1B79"
+			tasks: [{
+				id: "45A609C92E285E1E"
+				type: "item"
+				item: "undergarden:droopvine_item"
+			}]
+			rewards: [{
+				id: "2E7D11AF983A96EC"
+				type: "random"
+				title: "Farmer's Pouch"
+				table_id: 799187797924354348L
+			}]
+		}
+		{
+			x: 4.5d
+			y: -5.0d
+			description: ["A torch that damages any rotspawn that come near it."]
+			dependencies: ["38EF7693DAA9965F"]
+			id: "1B9898EAFA9899B7"
+			tasks: [{
+				id: "7B36F1C99C9E42A7"
+				type: "item"
+				item: "undergarden:shard_torch"
+				count: 16L
+			}]
+		}
+		{
+			icon: "undergarden:stoneborn_spawn_egg"
+			x: 4.0d
+			y: 3.0d
+			description: ["The Stoneborn wanders around slowly and will look at other entities and players. If a player interacts with a Stoneborn, a trade will be initiated. If attacked, it will become hostile and will call for help from other Stoneborn. If a Stoneborn is outside of the Undergarden for more than 15 seconds, it will explode, killing itself and destroying a small amount of land. When interacted with by a player, Stoneborns will trade with the player. Upon trading with a Stoneborn, the player will gain the Interdimensional Business advancement. The Stoneborn's main unit of currency is Regalium, in the form of ingots and nuggets."]
+			dependencies: ["3D7F1D58B8250FB3"]
+			id: "36A21628B6D81D81"
+			tasks: [{
+				id: "3E2FE3413931C445"
+				type: "advancement"
+				title: "Trade with Stoneborn"
+				advancement: "undergarden:undergarden/trade_with_stoneborn"
+				criterion: ""
+			}]
+		}
+		{
+			x: 2.5d
+			y: -2.0d
+			description: ["An ore that can be found underground."]
+			dependencies: ["0F20507453F13A90"]
+			id: "559E599FF86197FC"
+			tasks: [{
+				id: "4E800E1408AF1422"
+				type: "item"
+				item: "undergarden:cloggrum_ore"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			description: ["An ore that can be found underground."]
+			dependencies: ["0F20507453F13A90"]
+			id: "24079595711F140D"
+			tasks: [{
+				id: "0D6A8AF63603B98E"
+				type: "item"
+				item: "undergarden:froststeel_ore"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			description: ["An ore that can be found underground."]
+			dependencies: ["0F20507453F13A90"]
+			id: "6FD82F31182ACFB4"
+			tasks: [{
+				id: "66A8EB365D2F04C8"
+				type: "item"
+				item: "undergarden:regalium_ore"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -2.0d
+			description: ["A metal that can be commonly found in the Undergarden."]
+			dependencies: ["559E599FF86197FC"]
+			id: "630BFF44F4A753D8"
+			tasks: [{
+				id: "5E6A5417D2B0D75D"
+				type: "item"
+				item: "undergarden:cloggrum_ingot"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			description: ["A decently powerful metal with some benefits and some consequences."]
+			dependencies: ["24079595711F140D"]
+			id: "547FDB6A4F48D1C7"
+			tasks: [{
+				id: "02CDAD40A756D133"
+				type: "item"
+				item: "undergarden:froststeel_ingot"
+			}]
+			rewards: [{
+				id: "74BB55A103E66893"
+				type: "random"
+				title: "Miner's Pack"
+				table_id: 6780538329063346471L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.0d
+			description: ["A trading currency of the Undergarden."]
+			dependencies: [
+				"6FD82F31182ACFB4"
+				"0F20507453F13A90"
+			]
+			dependency_requirement: "one_completed"
+			id: "3D7F1D58B8250FB3"
+			tasks: [{
+				id: "4E629DF9511EA532"
+				type: "item"
+				item: "undergarden:regalium_ingot"
+			}]
+			rewards: [{
+				id: "58CB3BD6B9EA8DAF"
+				type: "random"
+				title: "Miner's Pack"
+				table_id: 6780538329063346471L
+			}]
+		}
+		{
+			title: "Froststeel Tools"
+			x: 4.5d
+			y: -0.5d
+			description: ["A good set of tools that also slow your enemies."]
+			dependencies: ["547FDB6A4F48D1C7"]
+			id: "763E94B5EB6BA02A"
+			tasks: [
+				{
+					id: "6E3F0C137D41BA21"
+					type: "item"
+					item: {
+						id: "undergarden:froststeel_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "486F2A0CF66B5E5F"
+					type: "item"
+					item: {
+						id: "undergarden:froststeel_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7E63A1E873A8E6E2"
+					type: "item"
+					item: {
+						id: "undergarden:froststeel_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4B6A8B16D324DDDD"
+					type: "item"
+					item: {
+						id: "undergarden:froststeel_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "387C2BDE0154B301"
+					type: "item"
+					item: {
+						id: "undergarden:froststeel_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "192D7F5B27239661"
+				type: "item"
+				item: {
+					id: "better_fishing_rods:epic_enchantment_book"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Froststeel Armor"
+			x: 4.5d
+			y: 0.5d
+			description: ["A pretty strong set of armor, but it also slows your movement slightly."]
+			dependencies: ["547FDB6A4F48D1C7"]
+			id: "2BA43736E6F44C05"
+			tasks: [
+				{
+					id: "0AA320301B3C418F"
+					type: "item"
+					item: {
+						id: "undergarden:froststeel_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"agricraft:gene_inspector": {
+								agri_flag: 0b
+							}
+						}
+					}
+				}
+				{
+					id: "421EC3BE7BA42121"
+					type: "item"
+					item: {
+						id: "undergarden:froststeel_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "55ECB905A340C13F"
+					type: "item"
+					item: {
+						id: "undergarden:froststeel_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "735105CC91C99BBB"
+					type: "item"
+					item: {
+						id: "undergarden:froststeel_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "4A3B346D0BDB68E3"
+				type: "item"
+				item: {
+					id: "better_fishing_rods:epic_enchantment_book"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Cloggrum Tools"
+			x: 4.5d
+			y: -2.5d
+			description: ["Can be crafted or found in catacombs. The battle axe can be found by trading with stoneborn."]
+			dependencies: ["630BFF44F4A753D8"]
+			id: "446FC397D95C9925"
+			tasks: [
+				{
+					id: "7E61281B37731EEA"
+					type: "item"
+					item: {
+						id: "undergarden:cloggrum_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1D615F13AAC5D044"
+					type: "item"
+					item: {
+						id: "undergarden:cloggrum_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "49228B1E45766221"
+					type: "item"
+					item: {
+						id: "undergarden:cloggrum_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "75CD495315725F38"
+					type: "item"
+					item: {
+						id: "undergarden:cloggrum_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0ACCF3A39E690782"
+					type: "item"
+					item: {
+						id: "undergarden:cloggrum_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "53C28C69ADA7A6B2"
+					type: "item"
+					item: {
+						id: "undergarden:cloggrum_battleaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 4s
+								id: "minecraft:knockback"
+							}]
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "7399181E0EDCBC90"
+				type: "item"
+				item: {
+					id: "better_fishing_rods:rare_enchantment_book"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Cloggrum Armor"
+			x: 4.5d
+			y: -1.5d
+			description: ["A decently strong armor set and a new shield!"]
+			dependencies: ["630BFF44F4A753D8"]
+			id: "5A589E4CC49789C1"
+			tasks: [
+				{
+					id: "6CBA880133385751"
+					type: "item"
+					item: {
+						id: "undergarden:cloggrum_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"agricraft:gene_inspector": {
+								agri_flag: 0b
+							}
+						}
+					}
+				}
+				{
+					id: "4B0F5BD57B1F6D19"
+					type: "item"
+					item: {
+						id: "undergarden:cloggrum_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "78CC4C437F5BB28D"
+					type: "item"
+					item: {
+						id: "undergarden:cloggrum_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0CF1A0EBBEADF1E3"
+					type: "item"
+					item: {
+						id: "undergarden:cloggrum_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1118780A3261E141"
+					type: "item"
+					item: {
+						id: "undergarden:cloggrum_shield"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "3A3A6DF6AEE85065"
+				type: "item"
+				item: {
+					id: "better_fishing_rods:rare_enchantment_book"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: -5.0d
+			description: ["A mushroom that can be found throughout the undergarden."]
+			dependencies: ["0F20507453F13A90"]
+			id: "7E6E9289FF931888"
+			tasks: [{
+				id: "6EB949C9F947FCC5"
+				type: "item"
+				item: "undergarden:veil_mushroom"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -6.0d
+			description: ["A mushroom that can be found throughout the undergarden."]
+			dependencies: ["0F20507453F13A90"]
+			id: "1A2851119D808EEF"
+			tasks: [{
+				id: "12285AABF75B153C"
+				type: "item"
+				item: "undergarden:ink_mushroom"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -7.0d
+			description: ["A mushroom that can be found throughout the undergarden."]
+			dependencies: ["0F20507453F13A90"]
+			id: "426F58427775680D"
+			tasks: [{
+				id: "785D9802942B36D7"
+				type: "item"
+				item: "undergarden:blood_mushroom"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -4.0d
+			description: ["A mushroom that can be found throughout the undergarden."]
+			dependencies: ["0F20507453F13A90"]
+			id: "5715718F1919DB06"
+			tasks: [{
+				id: "6D4C3137590EBDB8"
+				type: "item"
+				item: "undergarden:indigo_mushroom"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -4.0d
+			description: ["A food source that can be made, but has some negative side effects."]
+			dependencies: ["5715718F1919DB06"]
+			id: "45DC1C37FCE0A538"
+			tasks: [{
+				id: "4F61623C86585465"
+				type: "item"
+				item: "undergarden:indigo_stew"
+			}]
+			rewards: [{
+				id: "4E4BBFC338685F1A"
+				type: "random"
+				title: "Farmer's Pouch"
+				table_id: 799187797924354348L
+			}]
+		}
+		{
+			title: "Bloody Stew"
+			x: -4.0d
+			y: -7.0d
+			description: ["A food source that can be made, but has some negative side effects."]
+			dependencies: ["426F58427775680D"]
+			id: "26AB7A241E54D430"
+			tasks: [{
+				id: "4F0A9E9953D48B3E"
+				type: "item"
+				item: "undergarden:bloody_stew"
+			}]
+			rewards: [{
+				id: "4454DF04FF5AC623"
+				type: "random"
+				title: "Farmer's Pouch"
+				table_id: 799187797924354348L
+			}]
+		}
+		{
+			x: -4.0d
+			y: -6.0d
+			description: ["A food source that can be made, but has some negative side effects."]
+			dependencies: ["1A2851119D808EEF"]
+			id: "6C29CE1ACBEA44CD"
+			tasks: [{
+				id: "1BD40E6272EDF68F"
+				type: "item"
+				item: "undergarden:inky_stew"
+			}]
+			rewards: [{
+				id: "774EF4F2BEAA5077"
+				type: "random"
+				title: "Farmer's Pouch"
+				table_id: 799187797924354348L
+			}]
+		}
+		{
+			x: -4.0d
+			y: -5.0d
+			description: ["A food source that can be made, but has some negative side effects."]
+			dependencies: ["7E6E9289FF931888"]
+			id: "54087ED929C4F212"
+			tasks: [{
+				id: "202D51CF1AC2B327"
+				type: "item"
+				item: "undergarden:veiled_stew"
+			}]
+			rewards: [{
+				id: "03CCF018AEF8E845"
+				type: "random"
+				title: "Farmer's Pouch"
+				table_id: 799187797924354348L
+			}]
+		}
+		{
+			x: -3.0d
+			y: -2.0d
+			description: ["The Dweller slowly walks around and looks at players and other Dwellers. If a player holds Underbeans, the Dweller will follow the player and can be bred with them. If the Dweller is within 12 blocks of a Rotspawn, it will flee. It will also flee if hit by any entity or player. The Dweller can spawn on any Deepturf Block or Ashen Deepturf Block. The Dweller will only spawn in Dense Forests, Wigglewood Forests, Smogstem Forests, Forgotten Fields, Gronglegrowths, and Smog Spires."]
+			dependencies: ["0F20507453F13A90"]
+			id: "341A140E65A3296A"
+			tasks: [{
+				id: "2A9C4DF932E98670"
+				type: "kill"
+				entity: "undergarden:dweller"
+				value: 1L
+			}]
+		}
+		{
+			x: -4.0d
+			y: -2.0d
+			description: ["Obtained by killing a dweller."]
+			dependencies: ["341A140E65A3296A"]
+			id: "7B1703ABDB404B07"
+			tasks: [{
+				id: "4BF5F00D3D71DAEE"
+				type: "item"
+				item: "undergarden:raw_dweller_meat"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -2.0d
+			description: ["Obtainde by cooking raw dweller meat. A good source of food."]
+			dependencies: ["7B1703ABDB404B07"]
+			id: "2D843E76F5FE6131"
+			tasks: [{
+				id: "2DF18E41F7948FBC"
+				type: "item"
+				item: "undergarden:dweller_steak"
+			}]
+			rewards: [{
+				id: "70F26DDE458FBCA2"
+				type: "random"
+				title: "Baker's Bundle"
+				table_id: 2508634577116110626L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.0d
+			description: ["Kelp that can be found in the waters of the Undergarden."]
+			dependencies: ["0F20507453F13A90"]
+			id: "2EBCF6C728366A81"
+			tasks: [{
+				id: "45CA1EDF37F1773E"
+				type: "item"
+				item: "undergarden:glowing_kelp"
+			}]
+			rewards: [{
+				id: "5A3B82848426CB0D"
+				type: "random"
+				title: "Farmer's Pouch"
+				table_id: 799187797924354348L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -7.0d
+			description: ["A hostile mob found in the undergarden."]
+			dependencies: ["0F20507453F13A90"]
+			id: "5C0EDCEF7B4F30A8"
+			tasks: [{
+				id: "44348179787981BD"
+				type: "kill"
+				entity: "undergarden:masticator"
+				value: 1L
+			}]
+		}
+		{
+			x: 2.5d
+			y: -8.0d
+			description: ["Can be obtained by killing masticators."]
+			dependencies: ["5C0EDCEF7B4F30A8"]
+			id: "6976E659EC57BDF9"
+			tasks: [{
+				id: "1B38B3AF11AA0569"
+				type: "item"
+				item: "undergarden:masticator_scales"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -9.0d
+			description: ["A chestplate with a lot of thorns to ward away foes."]
+			dependencies: ["6976E659EC57BDF9"]
+			id: "34806D09839F2739"
+			tasks: [{
+				id: "11F08CAD555922EB"
+				type: "item"
+				item: {
+					id: "undergarden:masticated_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							lvl: 5s
+							id: "minecraft:thorns"
+						}]
+					}
+				}
+			}]
+			rewards: [{
+				id: "22AB63317B750B37"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 3s
+							id: "minecraft:unbreaking"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: -1.0d
+			description: ["Gwiblings can spawn in water blocks under Y=32, provided that the block above it is also water."]
+			dependencies: ["0F20507453F13A90"]
+			id: "13CE4D4A4B90F3BB"
+			tasks: [{
+				id: "235AACBBD6430B10"
+				type: "kill"
+				entity: "undergarden:gwibling"
+				value: 1L
+			}]
+		}
+		{
+			x: -4.0d
+			y: -1.0d
+			description: ["Obtained by killing a gwibling."]
+			dependencies: ["13CE4D4A4B90F3BB"]
+			id: "68346C49597F283D"
+			tasks: [{
+				id: "327AD972B0C2F28F"
+				type: "item"
+				item: "undergarden:raw_gwibling"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -1.0d
+			description: ["Obtained by cooking a raw gwibling. A decent source of food."]
+			dependencies: ["68346C49597F283D"]
+			id: "63320E00119B86B6"
+			tasks: [{
+				id: "40F8813F60E84100"
+				type: "item"
+				item: "undergarden:cooked_gwibling"
+			}]
+			rewards: [{
+				id: "1EC5743DC76DAFAE"
+				type: "random"
+				title: "Baker's Bundle"
+				table_id: 2508634577116110626L
+			}]
+		}
+		{
+			x: -2.5d
+			y: -8.0d
+			description: ["A rotten version of the blisterberry similar to the poisonous potato."]
+			dependencies: ["5516E911BDD0AF7C"]
+			id: "783C8F0AFBCF6CAA"
+			tasks: [{
+				id: "302E14F640B0479B"
+				type: "item"
+				item: "undergarden:rotten_blisterberry"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -9.0d
+			description: ["A strong grenade style explosive with a slight recharge time between throws."]
+			dependencies: ["783C8F0AFBCF6CAA"]
+			id: "01D9AD187B185222"
+			tasks: [{
+				id: "298DE063744C460F"
+				type: "item"
+				item: "undergarden:blisterbomb"
+			}]
+			rewards: [{
+				id: "54EA5D8F228AC884"
+				type: "item"
+				item: "undergarden:blisterbomb"
+				count: 7
+			}]
+		}
+		{
+			x: -2.0d
+			y: -7.0d
+			description: ["A less common food source, found in bushes that inhabit Smog Spires."]
+			dependencies: ["0F20507453F13A90"]
+			id: "5516E911BDD0AF7C"
+			tasks: [{
+				id: "692C873D7DFB0092"
+				type: "item"
+				item: "undergarden:blisterberry"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -3.0d
+			description: ["The Gloomper hops around. If a player is holding a Gloomgourd, the Gloomper will follow the player, and can be bred with them. If the Gloomper is within 12 blocks of a Rotspawn, it will flee. It will also flee if hit by any entity or player. As of 0.5.0, the Gloomper has a chance to create a poisonous cloud in an act of self defense. The Gloomper can spawn on any Deepturf Block. The Gloomper will only spawn in Dense Forests, Wigglewood Forests, Smogstem Forests, Forgotten Fields, Gronglegrowths, and Mushroom Bogs."]
+			dependencies: ["0F20507453F13A90"]
+			id: "59F08AE13E508385"
+			tasks: [{
+				id: "4B3E0302C8E80C33"
+				type: "kill"
+				entity: "undergarden:gloomper"
+				value: 1L
+			}]
+		}
+		{
+			x: -4.0d
+			y: -3.0d
+			description: ["Obtained by killing a gloomper."]
+			dependencies: ["59F08AE13E508385"]
+			id: "0ED4B8DA698B1DA9"
+			tasks: [{
+				id: "04F1181CEC5F8655"
+				type: "item"
+				item: "undergarden:raw_gloomper_leg"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -3.0d
+			description: ["Obtained by cooking a raw gloomper leg. A good source of food."]
+			dependencies: ["0ED4B8DA698B1DA9"]
+			id: "574EB3CD5F9B9A16"
+			tasks: [{
+				id: "2EF9E9078B03D37B"
+				type: "item"
+				item: "undergarden:gloomper_leg"
+			}]
+			rewards: [{
+				id: "7330B86BD72535F9"
+				type: "random"
+				title: "Baker's Bundle"
+				table_id: 2508634577116110626L
+			}]
+		}
+	]
+}

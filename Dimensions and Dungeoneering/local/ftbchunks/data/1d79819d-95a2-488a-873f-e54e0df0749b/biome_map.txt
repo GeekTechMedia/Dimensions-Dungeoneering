@@ -1,0 +1,13 @@
+#556 minecraft:beach
+#35F cavebiomeapi:caves
+#3DE minecraft:deep_ocean
+#010 minecraft:forest
+#79A minecraft:lukewarm_ocean
+#1C1 cavesandcliffs:lush_caves
+#4F1 minecraft:ocean
+#3DC minecraft:plains
+#090 byg:red_rock_lowlands
+#7AA byg:red_rock_mountains
+#67B minecraft:savanna
+#706 minecraft:savanna_plateau
+#12E byg:shrublands

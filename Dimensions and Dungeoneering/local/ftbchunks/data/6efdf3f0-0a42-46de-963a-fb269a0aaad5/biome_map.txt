@@ -1,0 +1,12 @@
+#556 minecraft:beach
+#1F3 projectvibrantjourneys:boreal_forest
+#4F9 minecraft:dark_forest
+#34D minecraft:deep_lukewarm_ocean
+#3DE minecraft:deep_ocean
+#79A minecraft:lukewarm_ocean
+#1C1 cavesandcliffs:lush_caves
+#379 minecraft:mountains
+#4F1 minecraft:ocean
+#48C corundum_meadows:onion_meadows
+#6BC byg:tropical_rainforest
+#306 minecraft:wooded_mountains

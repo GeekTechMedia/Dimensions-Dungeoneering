@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "thermal:corn_seeds",
+    "thermal:sadiroot_seeds",
+    "thermal:bell_pepper_seeds",
+    "thermal:tomato_seeds",
+    "thermal:tea_seeds"
+  ]
+}

@@ -1,0 +1,10 @@
+#694 byg:ancient_forest
+#47F minecraft:birch_forest
+#0D2 minecraft:birch_forest_hills
+#35F cavebiomeapi:caves
+#010 minecraft:forest
+#1C1 cavesandcliffs:lush_caves
+#66B byg:mangrove_marshes
+#5C1 byg:red_oak_forest
+#535 projectvibrantjourneys:redwood_peaks
+#5FF minecraft:river

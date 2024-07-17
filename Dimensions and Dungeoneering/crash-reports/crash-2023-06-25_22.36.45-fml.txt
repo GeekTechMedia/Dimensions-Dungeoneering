@@ -1,0 +1,397 @@
+---- Minecraft Crash Report ----
+// Surprise! Haha. Well, this is awkward.
+
+Time: 6/25/23 10:36 PM
+Description: Mod loading error has occurred
+
+java.lang.Exception: Mod Loading has failed
+	at net.minecraftforge.fml.CrashReportExtender.dumpModLoadingCrashReport(CrashReportExtender.java:71) [?:?] {re:classloading}
+	at net.minecraftforge.fml.client.ClientModLoader.completeModLoading(ClientModLoader.java:174) [?:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.lambda$null$1(Minecraft.java:508) [?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft$$Lambda$3671/108271693.run(Unknown Source) [?:?] {}
+	at net.minecraft.util.Util.func_215077_a(Util.java:320) [?:?] {re:classloading}
+	at net.minecraft.client.Minecraft.lambda$new$2(Minecraft.java:504) [?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft$$Lambda$3442/1339556608.accept(Unknown Source) [?:?] {}
+	at net.minecraft.client.gui.ResourceLoadProgressGui.func_230430_a_(ResourceLoadProgressGui.java:113) [?:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.GameRenderer.func_195458_a(GameRenderer.java:481) [?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.func_195542_b(Minecraft.java:977) [?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:607) [?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:184) [?:?] {re:classloading,pl:runtimedistcleaner:A}
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51] {}
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_51] {}
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_51] {}
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_51] {}
+	at net.minecraftforge.fml.loading.FMLClientLaunchProvider.lambda$launchService$0(FMLClientLaunchProvider.java:37) [forge-1.16.5-36.2.39.jar:36.2] {}
+	at net.minecraftforge.fml.loading.FMLClientLaunchProvider$$Lambda$438/1928983164.call(Unknown Source) [forge-1.16.5-36.2.39.jar:36.2] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-8.1.3.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-8.1.3.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-8.1.3.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82) [modlauncher-8.1.3.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66) [modlauncher-8.1.3.jar:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at net.minecraftforge.fml.CrashReportExtender.lambda$dumpModLoadingCrashReport$7(CrashReportExtender.java:74) ~[?:?] {re:classloading}
+-- MOD mowziesmobs --
+Details:
+	Mod File: mowziesmobs-1.5.27.jar
+	Failure message: Mod mowziesmobs requires geckolib3 3.0.104 or above
+		Currently, geckolib3 is not installed
+	Mod Version: 1.5.27
+	Mod Issue URL: https://github.com/BobMowzie/MowziesMobs/issues
+	Exception message: MISSING EXCEPTION MESSAGE
+Stacktrace:
+	at net.minecraftforge.fml.CrashReportExtender.lambda$dumpModLoadingCrashReport$7(CrashReportExtender.java:74) ~[?:?] {re:classloading}
+	at net.minecraftforge.fml.CrashReportExtender$$Lambda$3701/2103748960.accept(Unknown Source) ~[?:?] {}
+	at java.util.ArrayList.forEach(ArrayList.java:1249) ~[?:1.8.0_51] {}
+	at net.minecraftforge.fml.CrashReportExtender.dumpModLoadingCrashReport(CrashReportExtender.java:72) [?:?] {re:classloading}
+	at net.minecraftforge.fml.client.ClientModLoader.completeModLoading(ClientModLoader.java:174) [?:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.lambda$null$1(Minecraft.java:508) [?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft$$Lambda$3671/108271693.run(Unknown Source) [?:?] {}
+	at net.minecraft.util.Util.func_215077_a(Util.java:320) [?:?] {re:classloading}
+	at net.minecraft.client.Minecraft.lambda$new$2(Minecraft.java:504) [?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft$$Lambda$3442/1339556608.accept(Unknown Source) [?:?] {}
+	at net.minecraft.client.gui.ResourceLoadProgressGui.func_230430_a_(ResourceLoadProgressGui.java:113) [?:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.GameRenderer.func_195458_a(GameRenderer.java:481) [?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.func_195542_b(Minecraft.java:977) [?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:607) [?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:184) [?:?] {re:classloading,pl:runtimedistcleaner:A}
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51] {}
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_51] {}
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_51] {}
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_51] {}
+	at net.minecraftforge.fml.loading.FMLClientLaunchProvider.lambda$launchService$0(FMLClientLaunchProvider.java:37) [forge-1.16.5-36.2.39.jar:36.2] {}
+	at net.minecraftforge.fml.loading.FMLClientLaunchProvider$$Lambda$438/1928983164.call(Unknown Source) [forge-1.16.5-36.2.39.jar:36.2] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-8.1.3.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-8.1.3.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-8.1.3.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82) [modlauncher-8.1.3.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66) [modlauncher-8.1.3.jar:?] {}
+
+
+-- MOD meetyourfight --
+Details:
+	Mod File: meetyourfight-1.16.5-1.2.0.jar
+	Failure message: Mod meetyourfight requires curios 1.16.3-4.0.1.0 or above
+		Currently, curios is not installed
+	Mod Version: 1.2.0
+	Mod Issue URL: https://github.com/Lykrast/MeetYourFight/issues
+	Exception message: MISSING EXCEPTION MESSAGE
+
+-- MOD tips --
+Details:
+	Mod File: Tips-1.16.5-4.0.18.jar
+	Failure message: Mod tips requires bookshelf 10 or above
+		Currently, bookshelf is not installed
+	Mod Version: 4.0.18
+	Mod Issue URL: https://github.com/Darkhax-Minecraft/Tips/issues
+	Exception message: MISSING EXCEPTION MESSAGE
+
+-- MOD healingcampfire --
+Details:
+	Mod File: healingcampfire_1.16.5-3.9.jar
+	Failure message: Mod healingcampfire requires collective 4.50 or above
+		Currently, collective is not installed
+	Mod Version: 3.9
+	Mod Issue URL: https://github.com/ricksouth/serilum-mc-mods/labels/Mod:%20Healing%20Campfire
+	Exception message: MISSING EXCEPTION MESSAGE
+
+-- MOD mysticalagriculture --
+Details:
+	Mod File: MysticalAgriculture-1.16.5-4.2.6.jar
+	Failure message: Mod mysticalagriculture requires cucumber 4.1.10 or above
+		Currently, cucumber is not installed
+	Mod Version: 4.2.6
+	Mod Issue URL: NOT PROVIDED
+	Exception message: MISSING EXCEPTION MESSAGE
+
+-- MOD solarflux --
+Details:
+	Mod File: SolarFluxReborn-1.16.5-16.4.10.jar
+	Failure message: Mod solarflux requires hammerlib 16.4.31 or above
+		Currently, hammerlib is not installed
+	Mod Version: 16.4.10
+	Mod Issue URL: https://gitlab.com/DragonForge/SolarFluxReborn/issues
+	Exception message: MISSING EXCEPTION MESSAGE
+
+-- MOD occultism --
+Details:
+	Mod File: occultism-1.16.5-1.29.1.jar
+	Failure message: Mod occultism requires curios 1.16.4-4.0.3.5 or above
+		Currently, curios is not installed
+	Mod Version: 1.16.5-1.29.1
+	Mod Issue URL: https://github.com/klikli-dev/occultism/issues
+	Exception message: MISSING EXCEPTION MESSAGE
+
+-- MOD terraincognita --
+Details:
+	Mod File: terraincognita-1.16.3-1.7.3.jar
+	Failure message: Mod terraincognita requires cuneiform 1.2.4 or above
+		Currently, cuneiform is not installed
+	Mod Version: 1.16.3-1.7.3
+	Mod Issue URL: NOT PROVIDED
+	Exception message: MISSING EXCEPTION MESSAGE
+
+-- MOD whisperwoods --
+Details:
+	Mod File: whisperwoods-1.16.5-2.1.1-forge.jar
+	Failure message: Mod whisperwoods requires architectury 1.26.0 or above
+		Currently, architectury is not installed
+	Mod Version: 1.16.5-2.1.1
+	Mod Issue URL: https://github.com/itsmeow/whisperwoods/issues
+	Exception message: MISSING EXCEPTION MESSAGE
+
+-- MOD morecfm --
+Details:
+	Mod File: morecfm-1.3.1-1.16.3.jar
+	Failure message: Mod morecfm requires cfm 7.0.0-pre22 or above
+		Currently, cfm is not installed
+	Mod Version: 1.3.1
+	Mod Issue URL: https://github.com/MrCrayfish/MrCrayfishMoreFurnitureMod/issues
+	Exception message: MISSING EXCEPTION MESSAGE
+
+-- MOD questsadditions --
+Details:
+	Mod File: questsadditions-1.16-1.4.2.jar
+	Failure message: Mod questsadditions requires ftbquests 1605.3.6 or above
+		Currently, ftbquests is not installed
+	Mod Version: 1.4.2
+	Mod Issue URL: NOT PROVIDED
+	Exception message: MISSING EXCEPTION MESSAGE
+
+-- MOD itemphysic --
+Details:
+	Mod File: ItemPhysic_v1.4.18_mc1.16.5.jar
+	Failure message: Mod itemphysic requires creativecore 2.0.0 or above
+		Currently, creativecore is not installed
+	Mod Version: 1.6.0
+	Mod Issue URL: https://github.com/CreativeMD/ItemPhysic/issues
+	Exception message: MISSING EXCEPTION MESSAGE
+
+-- MOD relics --
+Details:
+	Mod File: relics-1.16.5-0.3.4.4.jar
+	Failure message: Mod relics requires curios 1.16.5-4.0.6.8 or above
+		Currently, curios is not installed
+	Mod Version: 0.3.4.4
+	Mod Issue URL: https://discord.gg/pHren9yxzW
+	Exception message: MISSING EXCEPTION MESSAGE
+
+-- MOD mysticalagradditions --
+Details:
+	Mod File: MysticalAgradditions-1.16.5-4.2.4.jar
+	Failure message: Mod mysticalagradditions requires cucumber 4.1.10 or above
+		Currently, cucumber is not installed
+	Mod Version: 4.2.4
+	Mod Issue URL: NOT PROVIDED
+	Exception message: MISSING EXCEPTION MESSAGE
+
+-- MOD thermal_locomotion --
+Details:
+	Mod File: thermal_locomotion-1.16.5-1.5.0.4.jar
+	Failure message: Mod thermal_locomotion requires cofh_core between 1.5 and 1.6 (inclusive)
+		Currently, cofh_core is not installed
+	Mod Version: 1.5.0.4
+	Mod Issue URL: https://github.com/cofh/feedback
+	Exception message: MISSING EXCEPTION MESSAGE
+
+-- MOD itemfilters --
+Details:
+	Mod File: item-filters-forge-1605.2.5-build.9.jar
+	Failure message: Mod itemfilters requires architectury 1.5.112 or above
+		Currently, architectury is not installed
+	Mod Version: 1605.2.5-build.9
+	Mod Issue URL: https://github.com/LatvianModder/Item-Filters/issues
+	Exception message: MISSING EXCEPTION MESSAGE
+
+-- MOD rats --
+Details:
+	Mod File: rats-7.2.0-1.16.5.jar
+	Failure message: Mod rats requires citadel 1.4.0 or above
+		Currently, citadel is not installed
+	Mod Version: 7.2.0
+	Mod Issue URL: https://github.com/Alex-the-666/Rats/issues
+	Exception message: MISSING EXCEPTION MESSAGE
+
+-- MOD mana-and-artifice --
+Details:
+	Mod File: mana-and-artifice-1.5.1.7.jar
+	Failure message: Mod mana-and-artifice requires geckolib3 3.0.0 or above
+		Currently, geckolib3 is not installed
+	Mod Version: 1.5.1.7
+	Mod Issue URL: https://github.com/Mithion/Mana-And-Artifice/issues
+	Exception message: MISSING EXCEPTION MESSAGE
+
+-- MOD occultism --
+Details:
+	Mod File: occultism-1.16.5-1.29.1.jar
+	Failure message: Mod occultism requires geckolib3 1.16.5-3.0.46 or above
+		Currently, geckolib3 is not installed
+	Mod Version: 1.16.5-1.29.1
+	Mod Issue URL: https://github.com/klikli-dev/occultism/issues
+	Exception message: MISSING EXCEPTION MESSAGE
+
+-- MOD thermal --
+Details:
+	Mod File: thermal_foundation-1.16.5-1.5.2.30.jar
+	Failure message: Mod thermal requires cofh_core between 1.5 and 1.6 (inclusive)
+		Currently, cofh_core is not installed
+	Mod Version: 1.5.2.30
+	Mod Issue URL: https://github.com/cofh/feedback
+	Exception message: MISSING EXCEPTION MESSAGE
+
+-- MOD mysticalcustomization --
+Details:
+	Mod File: MysticalCustomization-1.16.5-2.1.7.jar
+	Failure message: Mod mysticalcustomization requires cucumber 4.1.9 or above
+		Currently, cucumber is not installed
+	Mod Version: 2.1.7
+	Mod Issue URL: NOT PROVIDED
+	Exception message: MISSING EXCEPTION MESSAGE
+
+-- MOD quark --
+Details:
+	Mod File: Quark-r2.4-322.jar
+	Failure message: Mod quark requires autoreglib 1.6-48 or above
+		Currently, autoreglib is not installed
+	Mod Version: r2.4-322
+	Mod Issue URL: https://github.com/Vazkii/Quark
+	Exception message: MISSING EXCEPTION MESSAGE
+
+-- MOD questsadditions --
+Details:
+	Mod File: questsadditions-1.16-1.4.2.jar
+	Failure message: Mod questsadditions requires architectury 1.22.32 or above
+		Currently, architectury is not installed
+	Mod Version: 1.4.2
+	Mod Issue URL: NOT PROVIDED
+	Exception message: MISSING EXCEPTION MESSAGE
+
+-- MOD thermal_cultivation --
+Details:
+	Mod File: thermal_cultivation-1.16.5-1.5.0.4.jar
+	Failure message: Mod thermal_cultivation requires cofh_core between 1.5 and 1.6 (inclusive)
+		Currently, cofh_core is not installed
+	Mod Version: 1.5.0.4
+	Mod Issue URL: https://github.com/cofh/feedback
+	Exception message: MISSING EXCEPTION MESSAGE
+
+-- MOD thermal_expansion --
+Details:
+	Mod File: thermal_expansion-1.16.5-1.5.2.16.jar
+	Failure message: Mod thermal_expansion requires cofh_core between 1.5 and 1.6 (inclusive)
+		Currently, cofh_core is not installed
+	Mod Version: 1.5.2.16
+	Mod Issue URL: https://github.com/cofh/feedback
+	Exception message: MISSING EXCEPTION MESSAGE
+
+-- MOD toadterror --
+Details:
+	Mod File: toadterror-1.16.4-1.0.0.jar
+	Failure message: Mod toadterror requires curios any
+		Currently, curios is not installed
+	Mod Version: 1.0.0
+	Mod Issue URL: http://github.com/itsmeowCommissions/ToadTerror/issues
+	Exception message: MISSING EXCEPTION MESSAGE
+
+-- MOD iceandfire --
+Details:
+	Mod File: iceandfire-2.1.12-1.16.5.jar
+	Failure message: Mod iceandfire requires citadel between 1.8.1 and 1.8.99 (inclusive)
+		Currently, citadel is not installed
+	Mod Version: 2.1.12-1.16.5
+	Mod Issue URL: https://github.com/Alex-the-666/ice-and-fire/issues
+	Exception message: MISSING EXCEPTION MESSAGE
+
+-- MOD thermal_innovation --
+Details:
+	Mod File: thermal_innovation-1.16.5-1.5.0.4.jar
+	Failure message: Mod thermal_innovation requires cofh_core between 1.5 and 1.6 (inclusive)
+		Currently, cofh_core is not installed
+	Mod Version: 1.5.0.4
+	Mod Issue URL: https://github.com/cofh/feedback
+	Exception message: MISSING EXCEPTION MESSAGE
+
+-- MOD thermal_foundation --
+Details:
+	Mod File: thermal_foundation-1.16.5-1.5.2.30.jar
+	Failure message: Mod thermal_foundation requires cofh_core between 1.5 and 1.6 (inclusive)
+		Currently, cofh_core is not installed
+	Mod Version: 1.5.2.30
+	Mod Issue URL: https://github.com/cofh/feedback
+	Exception message: MISSING EXCEPTION MESSAGE
+
+-- MOD jeitweaker --
+Details:
+	Mod File: JEITweaker-1.16.5-1.1.0.49.jar
+	Failure message: Mod jeitweaker requires crafttweaker 7.1 or above
+		Currently, crafttweaker is not installed
+	Mod Version: 1.1.0.49
+	Mod Issue URL: NOT PROVIDED
+	Exception message: MISSING EXCEPTION MESSAGE
+
+-- MOD ratlantis --
+Details:
+	Mod File: ratlantis-1.0.0-1.16.3.jar
+	Failure message: Mod ratlantis requires citadel 1.4.0 or above
+		Currently, citadel is not installed
+	Mod Version: 1.0.0-1.16.3
+	Mod Issue URL: https://github.com/Alex-the-666/Rats/issues
+	Exception message: MISSING EXCEPTION MESSAGE
+
+-- MOD mana-and-artifice --
+Details:
+	Mod File: mana-and-artifice-1.5.1.7.jar
+	Failure message: Mod mana-and-artifice requires curios 1.16.5-4 or above
+		Currently, curios is not installed
+	Mod Version: 1.5.1.7
+	Mod Issue URL: https://github.com/Mithion/Mana-And-Artifice/issues
+	Exception message: MISSING EXCEPTION MESSAGE
+
+-- MOD outvoted --
+Details:
+	Mod File: outvoted-1.16.5-1.2.4.jar
+	Failure message: Mod outvoted requires geckolib3 3.0.14 or above
+		Currently, geckolib3 is not installed
+	Mod Version: 1.2.4
+	Mod Issue URL: https://github.com/How-Bout-No/Outvoted/issues
+	Exception message: MISSING EXCEPTION MESSAGE
+
+-- System Details --
+Details:
+	Minecraft Version: 1.16.5
+	Minecraft Version ID: 1.16.5
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_51, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 2616615048 bytes (2495 MB) / 3247964160 bytes (3097 MB) up to 9544663040 bytes (9102 MB)
+	CPUs: 16
+	JVM Flags: 4 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xss1M -Xmx10240m -Xms256m
+	ModLauncher: 8.1.3+8.1.3+main-8.1.x.c94d18ec
+	ModLauncher launch target: fmlclient
+	ModLauncher naming: srg
+	ModLauncher services: 
+		/mixin-0.8.4.jar mixin PLUGINSERVICE 
+		/eventbus-4.0.0.jar eventbus PLUGINSERVICE 
+		/forge-1.16.5-36.2.39.jar object_holder_definalize PLUGINSERVICE 
+		/forge-1.16.5-36.2.39.jar runtime_enum_extender PLUGINSERVICE 
+		/accesstransformers-3.0.1.jar accesstransformer PLUGINSERVICE 
+		/forge-1.16.5-36.2.39.jar capability_inject_definalize PLUGINSERVICE 
+		/forge-1.16.5-36.2.39.jar runtimedistcleaner PLUGINSERVICE 
+		/mixin-0.8.4.jar mixin TRANSFORMATIONSERVICE 
+		/forge-1.16.5-36.2.39.jar fml TRANSFORMATIONSERVICE 
+	FML: 36.2
+	Forge: net.minecraftforge:36.2.39
+	FML Language Providers: 
+		javafml@36.2
+		minecraft@1
+		kotlinforforge@1.17.0
+		scorge@3.1.3
+	Mod List: 
+		forge-1.16.5-36.2.39-client.jar                   |Minecraft                     |minecraft                     |1.16.5              |NONE      |Manifest: NOSIGNATURE
+		forge-1.16.5-36.2.39-universal.jar                |Forge                         |forge                         |36.2.39             |NONE      |Manifest: 22:af:21:d8:19:82:7f:93:94:fe:2b:ac:b7:e4:41:57:68:39:87:b1:a7:5c:c6:44:f9:25:74:21:14:f5:0d:90

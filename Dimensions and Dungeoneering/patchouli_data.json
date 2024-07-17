@@ -1,0 +1,110 @@
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": false,
+  "bookData": {
+    "aoa3:aoa_essentia": {
+      "viewedEntries": [
+        "aoa3:skills_overview",
+        "aoa3:cycles",
+        "aoa3:abilities",
+        "aoa3:advent_gui_base",
+        "aoa3:hauling_training"
+      ],
+      "bookmarks": [],
+      "history": [
+        "aoa3:hauling_training",
+        "aoa3:abilities",
+        "aoa3:advent_gui_base",
+        "aoa3:cycles",
+        "aoa3:skills_overview"
+      ],
+      "completedManualQuests": []
+    },
+    "apotheosis:apoth_chronicle": {
+      "viewedEntries": [
+        "apotheosis:village/fletching",
+        "apotheosis:village/wandering_trader"
+      ],
+      "bookmarks": [],
+      "history": [
+        "apotheosis:village/wandering_trader",
+        "apotheosis:village/fletching"
+      ],
+      "completedManualQuests": []
+    },
+    "enigmaticlegacy:the_acknowledgment": {
+      "viewedEntries": [],
+      "bookmarks": [],
+      "history": [],
+      "completedManualQuests": []
+    },
+    "divinerpg:divine": {
+      "viewedEntries": [
+        "divinerpg:twilight/twilight_bosses",
+        "divinerpg:vethea/nightmare_bed",
+        "divinerpg:vethea/layer_1",
+        "divinerpg:getting_started/traders",
+        "divinerpg:getting_started/ores",
+        "divinerpg:getting_started/bosses",
+        "divinerpg:getting_started/enchantments",
+        "divinerpg:twilight/twilight_portals",
+        "divinerpg:twilight/twilight_ores",
+        "divinerpg:iceika/iceika_portal",
+        "divinerpg:iceika/structures",
+        "divinerpg:arcana/arcana_portal",
+        "divinerpg:arcana/arcana_bosses",
+        "divinerpg:arcana/arcana_traders",
+        "divinerpg:vethea/layer_2",
+        "divinerpg:vethea/layer_3",
+        "divinerpg:vethea/layer_4"
+      ],
+      "bookmarks": [],
+      "history": [
+        "divinerpg:getting_started/traders",
+        "divinerpg:vethea/layer_4",
+        "divinerpg:vethea/layer_3",
+        "divinerpg:vethea/layer_2",
+        "divinerpg:arcana/arcana_traders",
+        "divinerpg:arcana/arcana_bosses",
+        "divinerpg:arcana/arcana_portal",
+        "divinerpg:iceika/structures",
+        "divinerpg:iceika/iceika_portal",
+        "divinerpg:twilight/twilight_ores",
+        "divinerpg:twilight/twilight_portals",
+        "divinerpg:getting_started/enchantments",
+        "divinerpg:getting_started/bosses"
+      ],
+      "completedManualQuests": []
+    },
+    "aoa3:worn_book": {
+      "viewedEntries": [
+        "aoa3:corrupted_traveller",
+        "aoa3:journal"
+      ],
+      "bookmarks": [],
+      "history": [
+        "aoa3:journal",
+        "aoa3:corrupted_traveller"
+      ],
+      "completedManualQuests": []
+    },
+    "twilightforest:guide": {
+      "viewedEntries": [],
+      "bookmarks": [],
+      "history": [],
+      "completedManualQuests": []
+    },
+    "supplementaries:supplementaries_guide": {
+      "viewedEntries": [],
+      "bookmarks": [],
+      "history": [],
+      "completedManualQuests": []
+    },
+    "pneumaticcraft:book": {
+      "viewedEntries": [],
+      "bookmarks": [],
+      "history": [],
+      "completedManualQuests": []
+    }
+  }
+}

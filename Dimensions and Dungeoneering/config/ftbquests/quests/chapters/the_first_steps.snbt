@@ -1,0 +1,1510 @@
+{
+	id: "5013D412F991A286"
+	group: "31DBD57DDF20D469"
+	order_index: 1
+	filename: "the_first_steps"
+	title: "The First Steps"
+	icon: {
+		id: "notreepunching:flint_axe"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 6.0d
+			y: 0.0d
+			description: ["The first tool, and also your first weapon. While it may not be great it's better than nothing. Use it to obtain plant fibers!"]
+			dependencies: [
+				"5AF9416FF2BCF5C4"
+				"3E9F9E7CD1B83145"
+			]
+			id: "4432D2BE57187365"
+			tasks: [{
+				id: "123699AECEDA803C"
+				type: "item"
+				item: {
+					id: "notreepunching:flint_knife"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "53F1816E9F0CB362"
+				type: "ftbmoney:money"
+				ftb_money: 3L
+			}]
+		}
+		{
+			x: 7.5d
+			y: 0.0d
+			description: ["Plant fibers can be obtained by breaking grass with a knife."]
+			dependencies: ["4432D2BE57187365"]
+			id: "3005964CA1259BA3"
+			tasks: [{
+				id: "648D47E3DF54E407"
+				type: "item"
+				item: "notreepunching:plant_fiber"
+			}]
+			rewards: [
+				{
+					id: "2B37E6622171F0F7"
+					type: "item"
+					item: "notreepunching:plant_fiber"
+					count: 3
+				}
+				{
+					id: "66739039DBA037DF"
+					type: "ftbmoney:money"
+					ftb_money: 3L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 1.0d
+			description: ["Gathering gravel is one of the first steps in progression in the modpack. It can be found underground or close to rivers and oceans."]
+			dependencies: ["54B6E50FEE09FC2C"]
+			id: "4F77A4D256198991"
+			tasks: [{
+				id: "3F1F9A86B3B5B788"
+				type: "item"
+				item: "minecraft:gravel"
+			}]
+			rewards: [
+				{
+					id: "257141E719EA9C35"
+					type: "item"
+					item: "minecraft:gravel"
+					count: 5
+				}
+				{
+					id: "21E513D86FA65B20"
+					type: "ftbmoney:money"
+					ftb_money: 3L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 1.0d
+			description: ["Flint is the material that is used to craft all of the basic tools to start off! You can get it by breaking gravel or crafting it with gravel."]
+			dependencies: ["4F77A4D256198991"]
+			id: "25635220CBC42080"
+			tasks: [{
+				id: "38E76EB87942C292"
+				type: "item"
+				item: "minecraft:flint"
+			}]
+			rewards: [
+				{
+					id: "2C207D5BE7DBE539"
+					type: "item"
+					item: "minecraft:flint"
+				}
+				{
+					id: "313EBCF5D8AEECCD"
+					type: "ftbmoney:money"
+					ftb_money: 3L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -1.0d
+			description: ["Gathering sticks is one of the first steps in progression in the modpack. They can be obtained by breaking the leaves of trees or by crafting them from twigs off of the ground."]
+			dependencies: ["54B6E50FEE09FC2C"]
+			id: "5AF9416FF2BCF5C4"
+			tasks: [{
+				id: "1ED65046F01AFAB7"
+				type: "item"
+				item: "minecraft:stick"
+			}]
+			rewards: [
+				{
+					id: "78324081F1DCC482"
+					type: "item"
+					item: "minecraft:stick"
+					count: 3
+				}
+				{
+					id: "169ABBBFC97741DB"
+					type: "ftbmoney:money"
+					ftb_money: 3L
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 1.0d
+			description: ["Flint shards can be obtained by right clicking with flint on a stone surface."]
+			dependencies: ["25635220CBC42080"]
+			id: "3E9F9E7CD1B83145"
+			tasks: [{
+				id: "533B03FDA1AEBA56"
+				type: "item"
+				item: "notreepunching:flint_shard"
+			}]
+			rewards: [
+				{
+					id: "352D710065205D45"
+					type: "item"
+					item: "notreepunching:flint_shard"
+				}
+				{
+					id: "2C0431C088151EA6"
+					type: "ftbmoney:money"
+					ftb_money: 3L
+				}
+			]
+		}
+		{
+			x: 11.0d
+			y: -0.5d
+			description: ["The first woodcutting tool!"]
+			dependencies: ["743DFBCCD66096FC"]
+			id: "1BDFE711EB0F38F2"
+			tasks: [{
+				id: "6FC53ABECEA38554"
+				type: "item"
+				item: {
+					id: "notreepunching:flint_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "030E127439CECB21"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "32DBF36180B4B495"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "woodcutting"
+					amount: 10.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 11.0d
+			y: 0.5d
+			description: ["The first mining tool!"]
+			dependencies: ["743DFBCCD66096FC"]
+			id: "1B9FD493B3D779CA"
+			tasks: [{
+				id: "67EAE12840F0C9B8"
+				type: "item"
+				item: {
+					id: "notreepunching:flint_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6210A46B97F5B171"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "5D2D111BCFD3D557"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "mining"
+					amount: 10.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 10.5d
+			y: 1.5d
+			description: ["Useful for leveling up excavation faster!"]
+			dependencies: ["743DFBCCD66096FC"]
+			id: "63CCCD07F0310CBE"
+			tasks: [{
+				id: "28A1804894634487"
+				type: "item"
+				item: {
+					id: "notreepunching:flint_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "591C19A01FE42ADF"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "108029963D2A2593"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "excavation"
+					amount: 10.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 10.5d
+			y: -1.5d
+			description: ["A way to begin your farming adventures!"]
+			dependencies: ["743DFBCCD66096FC"]
+			id: "5E0BBE5E78FA31D6"
+			tasks: [{
+				id: "36F112DA08705A82"
+				type: "item"
+				item: {
+					id: "notreepunching:flint_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1A2BEE1CD5BB9B68"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "20328274301D2093"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 10.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			title: "Craft a Saw"
+			x: 11.5d
+			y: -2.5d
+			description: ["Saws are a way to get more planks and sticks from each log you gather!"]
+			dependencies: ["1AED437F7AD25792"]
+			id: "2F4C450E61C1EB76"
+			tasks: [{
+				id: "1A934CB36BE5116D"
+				type: "item"
+				title: "Any Saw"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "notreepunching:saws"
+					}
+				}
+			}]
+			rewards: [{
+				id: "703C1409B19917AE"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: 9.0d
+			y: 0.0d
+			description: ["Plant string is used to craft all of the first tools you can get. You can craft it using plant fibers."]
+			dependencies: ["3005964CA1259BA3"]
+			id: "743DFBCCD66096FC"
+			tasks: [{
+				id: "62AB26973809C2AB"
+				type: "item"
+				item: "notreepunching:plant_string"
+			}]
+			rewards: [{
+				id: "0F9577E90DF027A8"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 9.0d
+			y: 3.0d
+			description: ["Fire starters are a good way to keep warm in the beginning of the pack. Right clicking on the ground with one gives a chance to light a fire. Also they can be used to craft campfires which provide a more permanent temperature solution while also offering some other benefits!"]
+			dependencies: ["743DFBCCD66096FC"]
+			id: "4448190327F74087"
+			tasks: [{
+				id: "19D9C7BEA9C58A5A"
+				type: "item"
+				item: {
+					id: "notreepunching:fire_starter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2A5E7B3B6EABFD74"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			title: "Craft a Mattock"
+			x: 12.5d
+			y: -2.5d
+			description: ["Mattocks are an ultimate all-in-one tool. They can be used to mine blocks like a shovel, axe, or hoe, they can strip wood like an axe, till grass like a hoe, and make paths like a shovel. (The latter two functions sometimes conflict and can be chosen by sneaking)."]
+			dependencies: ["1AED437F7AD25792"]
+			id: "60D16C5858699B2D"
+			tasks: [{
+				id: "31F7202872900B2F"
+				type: "item"
+				title: "Any Mattock"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "notreepunching:mattocks"
+					}
+				}
+			}]
+			rewards: [{
+				id: "3F854CA8E828527D"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			title: "Gather 16 Logs"
+			x: 12.0d
+			y: -0.5d
+			description: ["Gather 16 logs."]
+			dependencies: ["1BDFE711EB0F38F2"]
+			id: "1AED437F7AD25792"
+			tasks: [{
+				id: "404B389E247F66D5"
+				type: "item"
+				title: "Any #minecraft:logs"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				count: 16L
+			}]
+			rewards: [{
+				id: "760E5CC32C570026"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			title: "Make 16 Planks"
+			x: 13.5d
+			y: -0.5d
+			description: ["Make 16 planks. Planks can be made by using either a saw or an axe in a crafting table with some logs. Also use a similar method on planks to get sticks!"]
+			dependencies: ["1AED437F7AD25792"]
+			id: "22C38A4FBFB28C42"
+			tasks: [{
+				id: "4A886F21C29E6AEA"
+				type: "item"
+				title: "Any #minecraft:planks"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:planks"
+					}
+				}
+				count: 16L
+			}]
+			rewards: [{
+				id: "1B3D39CA94BC5CC5"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 15.0d
+			y: 0.0d
+			description: ["Basic wooden pickaxe."]
+			dependencies: ["22C38A4FBFB28C42"]
+			id: "253CD581D2AED184"
+			tasks: [{
+				id: "529FA28A597B7D62"
+				type: "item"
+				item: {
+					id: "minecraft:wooden_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "487DD42BD943B020"
+					type: "item"
+					item: "minecraft:oak_planks"
+					count: 16
+				}
+				{
+					id: "612061D482AA8746"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "163679E98B07C76D"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "mining"
+					amount: 25.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 14.5d
+			y: -1.5d
+			description: ["Basic wooden sword."]
+			dependencies: ["253CD581D2AED184"]
+			id: "0F0E04303A78E139"
+			tasks: [{
+				id: "62051C672CE5A610"
+				type: "item"
+				item: {
+					id: "minecraft:wooden_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7EB778354C1009C5"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "6C6CC467405F429C"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "combat"
+					amount: 25.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 15.5d
+			y: 1.5d
+			description: ["Basic wooden shovel."]
+			dependencies: ["253CD581D2AED184"]
+			id: "45ACA4300A6ACF94"
+			tasks: [{
+				id: "78C7EFDD7CC46368"
+				type: "item"
+				item: {
+					id: "minecraft:wooden_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4CA9EE72E379EB48"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "309266F5B4525458"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "excavation"
+					amount: 25.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 15.5d
+			y: -1.5d
+			description: ["Basic wooden axe."]
+			dependencies: ["253CD581D2AED184"]
+			id: "6C7D2EDEBDAE4376"
+			tasks: [{
+				id: "458B27A2E7F5DDB4"
+				type: "item"
+				item: {
+					id: "minecraft:wooden_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "13537FCAACB8CA3C"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "46E7C965FC4C4FD1"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "woodcutting"
+					amount: 25.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 14.5d
+			y: 1.5d
+			description: ["Basic wooden hoe."]
+			dependencies: ["253CD581D2AED184"]
+			id: "5C30CC6926FDE5B5"
+			tasks: [{
+				id: "0CCDC0F761495D83"
+				type: "item"
+				item: {
+					id: "minecraft:wooden_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1747B116BB83ADB1"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "6648C3110996EB13"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 25.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 17.5d
+			y: 0.0d
+			description: ["Basic stone pickaxe."]
+			dependencies: ["253CD581D2AED184"]
+			id: "2BE6381DA5BE954E"
+			tasks: [{
+				id: "558BEB2E9D5D30BD"
+				type: "item"
+				item: {
+					id: "minecraft:stone_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7AC60D758D15107A"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 32
+				}
+				{
+					id: "4319DB73DBAADB3F"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "0F54B16D92D91FA3"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "mining"
+					amount: 50.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 17.0d
+			y: -1.5d
+			description: ["Basic stone sword."]
+			dependencies: ["2BE6381DA5BE954E"]
+			id: "1EAC2D352D5B10B5"
+			tasks: [{
+				id: "66D99EF285714B5B"
+				type: "item"
+				item: {
+					id: "minecraft:stone_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "61CA089E6AFE28F7"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "4E0B94B65DCBEAF2"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "combat"
+					amount: 50.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 18.0d
+			y: 1.5d
+			description: ["Basic stone shovel."]
+			dependencies: ["2BE6381DA5BE954E"]
+			id: "31ED7D43D64D1EB3"
+			tasks: [{
+				id: "7FECA9B507E08408"
+				type: "item"
+				item: {
+					id: "minecraft:stone_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4AF7520CEAA38104"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "4C1E665EBFD87AB2"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "excavation"
+					amount: 50.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 18.0d
+			y: -1.5d
+			description: ["Basic stone axe."]
+			dependencies: ["2BE6381DA5BE954E"]
+			id: "57B99A46F12B02A3"
+			tasks: [{
+				id: "1C2A9572DD4A4B08"
+				type: "item"
+				item: {
+					id: "minecraft:stone_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "589DA991F921B149"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "16EF94F0CF52CDB0"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "woodcutting"
+					amount: 50.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 17.0d
+			y: 1.5d
+			description: ["Basic stone hoe."]
+			dependencies: ["2BE6381DA5BE954E"]
+			id: "688572ABD7D7BE92"
+			tasks: [{
+				id: "6A49249E93498F58"
+				type: "item"
+				item: {
+					id: "minecraft:stone_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3D2E6AA150481730"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "6FFE1810288A00D4"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 50.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 20.0d
+			y: 0.0d
+			description: ["Basic iron pickaxe."]
+			dependencies: ["2BE6381DA5BE954E"]
+			id: "1082BA7FC340F1B9"
+			tasks: [{
+				id: "63CFA373557E9882"
+				type: "item"
+				item: {
+					id: "minecraft:iron_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1BE002A405793BD1"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					count: 8
+				}
+				{
+					id: "7BB2E97E889C311F"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "68856976E8970956"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "mining"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 19.5d
+			y: -1.5d
+			description: ["Basic iron sword."]
+			dependencies: ["1082BA7FC340F1B9"]
+			id: "60386B6C78E44028"
+			tasks: [{
+				id: "612BEBB34AA704A5"
+				type: "item"
+				item: {
+					id: "minecraft:iron_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7C1F94498F0FEE9B"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "3F10755F1BEA9381"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "combat"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 20.5d
+			y: 1.5d
+			description: ["Basic iron shovel."]
+			dependencies: ["1082BA7FC340F1B9"]
+			id: "215627929ED9FD5A"
+			tasks: [{
+				id: "2C0A84BB00AE8354"
+				type: "item"
+				item: {
+					id: "minecraft:iron_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2A5E383E670CEF88"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "35A52D8A6D68B956"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "excavation"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 19.5d
+			y: 1.5d
+			description: ["Basic iron hoe."]
+			dependencies: ["1082BA7FC340F1B9"]
+			id: "2380C23A094F097F"
+			tasks: [{
+				id: "23D4BFEB14E02DA1"
+				type: "item"
+				item: {
+					id: "minecraft:iron_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7DEEF9D5F5B0FE75"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "104BA8BFE356F291"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "farming"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 20.5d
+			y: -1.5d
+			description: ["Basic iron axe."]
+			dependencies: ["1082BA7FC340F1B9"]
+			id: "00064E2E7B662551"
+			tasks: [{
+				id: "1051CF48556ACBF5"
+				type: "item"
+				item: {
+					id: "minecraft:iron_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5D8C94AEC134E361"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "05F7B9D84FAB39A4"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "woodcutting"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "circle"
+			description: ["Starting off this modpack isn't as easy as going and punching the closest tree. In order to start gathering wood you'll need to make an axe. This beginning questline helps guide you through those first steps of progression."]
+			id: "54B6E50FEE09FC2C"
+			tasks: [{
+				id: "0C8D9316B72B0DF2"
+				type: "checkmark"
+				title: "Beginning Your Journey"
+			}]
+			rewards: [
+				{
+					id: "78D7396846DE22BF"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "76AEF7D3FA685F3E"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: 12.0d
+			y: 3.0d
+			description: ["Campfires are once of the first permanent solutions to dealing with cold temperatures! They also provide a healing buff while standing near them! Read more about it in the temperature questline."]
+			dependencies: ["4448190327F74087"]
+			id: "15ED57475AE11D55"
+			tasks: [{
+				id: "7BF012A21498C043"
+				type: "item"
+				item: "minecraft:campfire"
+			}]
+			rewards: [{
+				id: "55555928038BC31D"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			title: "Gather 16 Cobblestone"
+			x: 12.0d
+			y: 0.5d
+			description: ["Gather 16 cobblestone."]
+			dependencies: ["1B9FD493B3D779CA"]
+			id: "6E5D06859AE10CA7"
+			tasks: [{
+				id: "3C9A11B7103F684D"
+				type: "item"
+				title: "Any #forge:cobblestone"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:cobblestone"
+					}
+				}
+				count: 16L
+			}]
+			rewards: [{
+				id: "42C3B473E2E7B050"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 13.5d
+			y: 0.5d
+			description: ["Your first method of cooking!"]
+			dependencies: ["6E5D06859AE10CA7"]
+			id: "09811D8F5EAB2348"
+			tasks: [{
+				id: "1DEBB89F36210477"
+				type: "item"
+				item: "minecraft:furnace"
+			}]
+			rewards: [{
+				id: "4060DC5B5B08BCEB"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.5d
+			description: ["A clay tool is a way to craft different ceramics in the early game. The only one this questline requires is the bucket but there are other things it can be used for. To get started start collecting some clay."]
+			dependencies: ["5AF9416FF2BCF5C4"]
+			id: "2E77DF5F4EEE27FB"
+			tasks: [{
+				id: "3D613DFD5A3173B3"
+				type: "item"
+				item: {
+					id: "notreepunching:clay_tool"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7CFF7832A8D395BD"
+				type: "ftbmoney:money"
+				ftb_money: 3L
+			}]
+		}
+		{
+			x: 4.0d
+			y: -2.0d
+			description: ["Once you've collected some clay craft it into a clay block and right click it with the clay tool to begin sculpting it."]
+			dependencies: ["2E77DF5F4EEE27FB"]
+			id: "152B58B589817215"
+			tasks: [{
+				id: "28A6D0F816B7F109"
+				type: "item"
+				item: "minecraft:clay"
+			}]
+			rewards: [
+				{
+					id: "4E3BAFFBF98E4711"
+					type: "item"
+					item: "minecraft:clay"
+				}
+				{
+					id: "6863CCC9485F762A"
+					type: "ftbmoney:money"
+					ftb_money: 3L
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -2.5d
+			description: ["After you've right clicked on the clay block enough times you will eventually make a clay bucket. Next you must cook the bucket in a furnace."]
+			dependencies: ["152B58B589817215"]
+			id: "370AE132723E6578"
+			tasks: [{
+				id: "45B505A386F148A8"
+				type: "item"
+				item: "notreepunching:clay_bucket"
+			}]
+			rewards: [{
+				id: "22850A89CF5F5419"
+				type: "ftbmoney:money"
+				ftb_money: 3L
+			}]
+		}
+		{
+			x: 6.0d
+			y: -3.0d
+			description: ["The final step! It is a pretty useful way to move liquids before you can obtain iron."]
+			dependencies: ["370AE132723E6578"]
+			id: "30E95AF94BA30BE5"
+			tasks: [{
+				id: "7C287002E9AD75EA"
+				type: "item"
+				item: "notreepunching:ceramic_bucket"
+			}]
+			rewards: [{
+				id: "1AD60D460844FE38"
+				type: "ftbmoney:money"
+				ftb_money: 3L
+			}]
+		}
+		{
+			x: 15.5d
+			y: -5.0d
+			description: ["Can be crafted or found in common lootboxes."]
+			dependencies: ["1F2CBEE64D26027F"]
+			id: "2F10904273A642CA"
+			tasks: [{
+				id: "4334A62CECACF729"
+				type: "item"
+				item: {
+					id: "nocubes_wilderness:birch_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7B96443664080BE6"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "67F09FEE808322CC"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "endurance"
+					amount: 50.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 16.5d
+			y: -5.5d
+			description: ["Can be crafted or found in common lootboxes."]
+			dependencies: ["1F2CBEE64D26027F"]
+			id: "4B90853D29392F3A"
+			tasks: [{
+				id: "52B0DA26A17DC57C"
+				type: "item"
+				item: {
+					id: "nocubes_wilderness:birch_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "61067EDDB4E027D3"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "00683112C7571235"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "endurance"
+					amount: 50.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 19.5d
+			y: -5.0d
+			description: ["Can be crafted or found in common lootboxes."]
+			dependencies: ["1F2CBEE64D26027F"]
+			id: "7D4EA10440A27265"
+			tasks: [{
+				id: "55F773AFAF8F0FB0"
+				type: "item"
+				item: {
+					id: "nocubes_wilderness:birch_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3D6AD9BB68FA3E4D"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "215E7C494DA9FDA5"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "endurance"
+					amount: 50.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 18.5d
+			y: -5.5d
+			description: ["Can be crafted or found in common lootboxes."]
+			dependencies: ["1F2CBEE64D26027F"]
+			id: "63BE1868F613692F"
+			tasks: [{
+				id: "3C2F569E49BDE1D3"
+				type: "item"
+				item: {
+					id: "nocubes_wilderness:birch_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1A084BDDB405152B"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "3267BD618A1B61C5"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "endurance"
+					amount: 50.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 17.5d
+			y: -3.0d
+			description: ["The forester's knife can be used as a weapon but is mainly used to hew bark from birch logs and in crafting recipes."]
+			dependencies: ["1EAC2D352D5B10B5"]
+			id: "1F2CBEE64D26027F"
+			tasks: [{
+				id: "34040ADEF9D0BE54"
+				type: "item"
+				item: {
+					id: "nocubes_wilderness:forester_knife"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "317A3E5543163BE4"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "25C5E659D0360DB8"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "combat"
+					amount: 50.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 17.5d
+			y: -5.5d
+			description: ["A pretty decent starting sword that has a chance to inflict enimes with poison."]
+			dependencies: ["1F2CBEE64D26027F"]
+			id: "437308EA774B4A64"
+			tasks: [{
+				id: "6500D9026390029D"
+				type: "item"
+				item: {
+					id: "nocubes_wilderness:grass_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "729DD09571737A2B"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "2BA58A680A8CB269"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "combat"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 21.0d
+			y: -4.5d
+			description: ["Birch bark can be obtained by right clicking on a birch log with a forester's knife."]
+			dependencies: ["1F2CBEE64D26027F"]
+			id: "25713A3CEED2D847"
+			tasks: [{
+				id: "6CDCD04D2B6A8570"
+				type: "item"
+				item: "nocubes_wilderness:birch_bark"
+			}]
+			rewards: [{
+				id: "69CE8464156D70CB"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 14.0d
+			y: -4.5d
+			description: ["Sedge can be found in plains and swamp biomes in both safe and regular variants. The safe variants don't cause any harm, but can't be used in crafting recipes that the regular sedge can be."]
+			dependencies: ["1F2CBEE64D26027F"]
+			id: "45D02BF824ABB0DF"
+			tasks: [{
+				id: "62FF74016817237D"
+				type: "item"
+				item: "nocubes_wilderness:sedge"
+			}]
+			rewards: [{
+				id: "6C72AD6649FFE322"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 6.0d
+			y: 2.0d
+			description: ["A starting weapon with poor durability."]
+			dependencies: ["4432D2BE57187365"]
+			id: "69D8A4BE30EA9FCB"
+			tasks: [{
+				id: "18E5B4397653861D"
+				type: "item"
+				item: {
+					id: "notreepunching:macuahuitl"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "22B8E6954D0DF880"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "5022BACFF1F2F33E"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "combat"
+					amount: 10.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: -1.5d
+			description: ["The paraglider is a very useful item for travelling. It can be found at the top of the tower structures from the Towers of the Wild mod that are based off of the tower designs from Legend of Zelda:BOTW (Breath of the Wild)."]
+			dependencies: ["743DFBCCD66096FC"]
+			id: "7D9B58D8F78F525C"
+			tasks: [{
+				id: "1513E3CB75A38745"
+				type: "item"
+				item: "paraglider:paraglider"
+			}]
+			rewards: [{
+				id: "1D63034F7E349F3A"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: 9.0d
+			y: -3.0d
+			description: ["Spirit orbs can be used to increase your max stamina when using a paraglider and they can also increase your max health. You can obtain them be searching chests around the world. Once you obtain them you must barter with a goddess statue which can randomly spawn around your world or in villages."]
+			dependencies: ["7D9B58D8F78F525C"]
+			id: "55982FF69EBB893D"
+			tasks: [{
+				id: "60EB67429F5C921E"
+				type: "item"
+				item: {
+					id: "paraglider:spirit_orb"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "1FEEAD1376596256"
+				type: "item"
+				item: {
+					id: "paraglider:spirit_orb"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: 3.5d
+			description: ["A slightly better starter weapon with much better durability and very fast attack rate."]
+			dependencies: ["69D8A4BE30EA9FCB"]
+			id: "2EC1666B24A5E640"
+			tasks: [{
+				id: "171DB4C7FC91242D"
+				type: "item"
+				item: {
+					id: "spartanweaponry:cestus"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5154B645B4939CBF"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "0AC9391812AA808A"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "combat"
+					amount: 25.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 5.0d
+			description: ["An even better starter weapon with even better durability, slightly more damage, and very fast attack rate."]
+			dependencies: ["2EC1666B24A5E640"]
+			id: "3B05F6EE0C36960C"
+			tasks: [{
+				id: "562B72E749D13116"
+				type: "item"
+				item: {
+					id: "spartanweaponry:cestus_studded"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "376C23803A57001E"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "64C19923EC51B091"
+					type: "pmmo:xpreward"
+					auto: "enabled"
+					skill: "combat"
+					amount: 50.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+	]
+}
